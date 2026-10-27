@@ -94,4 +94,12 @@ describe('public catalog', () => {
     });
     expect(runtime['pt-unverified-gazette']).toBeUndefined();
   });
+
+  it('adds unpublished countries and candidates, never retired outlets, in a drafts preview', () => {
+    const preview = toPublicCatalog(catalog, ['en'], () => false, { drafts: true });
+    expect(preview.countries.map((c) => c.iso2)).toContain('IT');
+    const slugs = preview.countries.flatMap((c) => c.outlets.map((o) => o.slug));
+    expect(slugs).toContain('unverified-gazette');
+    expect(slugs).not.toContain('closed-times');
+  });
 });

@@ -10,6 +10,7 @@
     "dev": "pnpm catalog:build && astro dev",
     "build": "pnpm catalog:build && astro build && pagefind --site dist/client --glob \"**/*.html\" --output-subdir pagefind",
     "preview": "wrangler dev",
+    "preview:drafts": "CATALOG_DRAFTS=1 pnpm build && wrangler dev",
     "typecheck": "wrangler types && pnpm catalog:build && astro check && tsc --noEmit -p tsconfig.tools.json",
     "lint": "eslint . && depcruise src tools --config .dependency-cruiser.cjs",
     "format": "prettier --write .",

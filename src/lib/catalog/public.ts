@@ -50,19 +50,22 @@ export function outletHostIndex(catalog: RuntimeCatalog): ReadonlyMap<string, st
 
 /**
  * Projects the validated catalog onto what the site may show: published countries and their
- * verified outlets only. Candidates and retired outlets never leave this function.
+ * verified outlets only. Candidates and retired outlets never leave this function, unless `drafts`
+ * asks for a local preview of every country and candidate (retired outlets stay out).
  */
 export function toPublicCatalog(
   catalog: Catalog,
   locales: Locale[],
   hasRasterIcon: (id: string) => boolean,
+  { drafts = false }: { drafts?: boolean } = {},
 ): PublicCatalog {
+  const shown = (outlet: Outlet) => (drafts ? outlet.status !== 'retired' : isVerified(outlet));
   const countries = catalog.countries
-    .filter((country) => country.published)
+    .filter((country) => drafts || country.published)
     .map((country) => ({
       ...country,
       outlets: (catalog.outlets.get(country.iso2) ?? [])
-        .filter(isVerified)
+        .filter(shown)
         .map(({ health: _health, status: _status, ...outlet }): PublicOutlet => ({
           ...outlet,
           country: country.iso2,

@@ -3,6 +3,9 @@
  * - src/generated/catalog.json: published countries with verified outlets (pages)
  * - src/generated/runtime-catalog.json: id → url/name map (Worker routes)
  * Also writes deterministic monogram SVGs for outlets without a downloaded icon.
+ *
+ * CATALOG_DRAFTS=1 builds a local preview with every country and candidate outlet. It is refused
+ * on GitHub Actions so unreviewed outlets can never be deployed.
  */
 import { copyFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { monogramSvg } from '../src/lib/catalog/monogram';
@@ -11,6 +14,11 @@ import { validateCatalog } from '../src/lib/catalog/validate';
 import { ICONS_DIR } from './catalog-cli/icons';
 import { enabledLocales, loadCatalogInput, writeJson } from './catalog-cli/io';
 
+const drafts = process.env.CATALOG_DRAFTS === '1';
+if (drafts && process.env.GITHUB_ACTIONS) {
+  console.error('CATALOG_DRAFTS is a local preview only; unset it to build for deploy.');
+  process.exit(1);
+}
 const locales = enabledLocales();
 const { catalog, issues } = validateCatalog(loadCatalogInput());
 const errors = issues.filter((issue) => issue.severity === 'error');
@@ -19,8 +27,11 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-const publicCatalog = toPublicCatalog(catalog, locales, (id) =>
-  existsSync(`${ICONS_DIR}/${id}.webp`),
+const publicCatalog = toPublicCatalog(
+  catalog,
+  locales,
+  (id) => existsSync(`${ICONS_DIR}/${id}.webp`),
+  { drafts },
 );
 mkdirSync('src/generated', { recursive: true });
 mkdirSync(ICONS_DIR, { recursive: true });
@@ -41,5 +52,7 @@ if (!existsSync('src/generated/sponsorships.json'))
   writeJson('src/generated/sponsorships.json', []);
 const outletCount = publicCatalog.countries.reduce((n, c) => n + c.outlets.length, 0);
 console.log(
-  `Catalog: ${publicCatalog.countries.length} published countries, ${outletCount} verified outlets`,
+  drafts
+    ? `Catalog DRAFT PREVIEW: ${publicCatalog.countries.length} countries, ${outletCount} outlets (not for deploy)`
+    : `Catalog: ${publicCatalog.countries.length} published countries, ${outletCount} verified outlets`,
 );
