@@ -35,4 +35,6 @@ Boundaries are enforced by dependency-cruiser (`.dependency-cruiser.cjs`).
 - Organic outbound links are direct `href`s with a click beacon; sponsored and affiliate links go through `/go/<id>/` (ADR 0006). No third-party scripts, fonts or images at runtime, except the Turnstile widget on forms.
 - No raw IP or User-Agent is stored. Clicks are aggregated with a daily-salted hash.
 - Run `pnpm check` before committing. Conventional Commits, one logical change per commit.
+- Commits and PRs carry no tool attribution: no `Co-Authored-By` trailers, no "generated with" lines, no e-mails or local paths. Never use `git add -A` blindly; stage explicit paths.
+- Node 24 (`nvm use 24`): dependency-cruiser rejects Node 25.
 - After changing `wrangler.jsonc`, `pnpm typecheck` regenerates binding types.
