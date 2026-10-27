@@ -45,3 +45,7 @@ CLAUDE.md
 .eslintcache
 .cache/
 notes/
+
+# generated at build/typecheck time
+src/generated/
+worker-configuration.d.ts

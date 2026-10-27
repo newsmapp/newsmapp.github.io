@@ -63,9 +63,9 @@ O **NewsMap** é um **diretório comercial curado de veículos de imprensa** (No
 
 ### 2.1 Web, renderização e runtime
 
-- **Framework:** **Astro 5.x** com `@astrojs/cloudflare`, em modo **static-first**. Todas as páginas de diretório são pré-renderizadas. Só rotas específicas usam `export const prerender = false`: `/go/*`, `/api/*`, `/badge/*`, `/admin/*`.
+- **Framework:** **Astro 7.x** com `@astrojs/cloudflare`, em modo **static-first**. Todas as páginas de diretório são pré-renderizadas. Só rotas específicas usam `export const prerender = false`: `/go/*`, `/api/*`, `/badge/*`, `/admin/*`.
 - **Hospedagem:** **Cloudflare Workers com Static Assets**. Requisições a assets estáticos não invocam o Worker e não contam no limite de requests. Só as rotas dinâmicas invocam o Worker.
-- **Linguagem:** TypeScript 5.x. Node.js LTS apenas para build e ferramentas.
+- **Linguagem:** TypeScript 6.x (o typescript-eslint ainda não suporta o 7). Node.js LTS apenas para build e ferramentas.
 - **Pacotes:** `pnpm` com lockfile estrito.
 - **Estilo:** Tailwind CSS + variáveis CSS (`src/styles/tokens.css`) com dois temas: *Paper Light* e *Terminal Dark*. Sem bibliotecas de componentes.
 - **Ilhas interativas:** Preact, isolado (`client:idle` / `client:visible`), apenas para:
@@ -110,7 +110,7 @@ O **NewsMap** é um **diretório comercial curado de veículos de imprensa** (No
 
 | Nº | Tema |
 |---|---|
-| 0001 | Astro 5 static-first + rotas on-demand em Cloudflare Workers |
+| 0001 | Astro 7 static-first + rotas on-demand em Cloudflare Workers |
 | 0002 | Modelo de dados: catálogo no Git (Zod) × D1 (Drizzle) × Analytics Engine; uma fonte de verdade por entidade |
 | 0003 | Arquitetura de URLs, prontidão para i18n (`en` na raiz) e limiares de indexação |
 | 0004 | UX de diretório de alta densidade (grade, micro-pitches, hierarquia visual) |
@@ -491,7 +491,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 
 ### Fase 1: Scaffold, tooling, schemas e D1
 
-- Astro 5 + TypeScript estrito + Tailwind + Preact + `@astrojs/cloudflare` + `wrangler.toml` (D1, Analytics Engine, Rate Limiting, Cron Trigger).
+- Astro 7 + TypeScript estrito + Tailwind + Preact + `@astrojs/cloudflare` + `wrangler.jsonc` (D1, Analytics Engine, Rate Limiting, Cron Trigger).
 - **Scripts `pnpm`** (sem Makefile): `dev`, `build`, `preview`, `typecheck`, `lint`, `format`, `test`, `test:watch`, `test:coverage`, `e2e`, `a11y`, `lhci`, `seo:audit`, `catalog:*`, `sponsorships:snapshot`, `db:generate`, `db:migrate:local`, `db:migrate:remote`, `deploy`.
 - `eslint.config.js`, `.prettierrc`, `.editorconfig`, `.gitignore`, `.nvmrc`, `.env.example`.
 - `src/schemas/`: `geo.schema.ts`, `catalog.schema.ts` (País, Veículo, Categoria, SEO context) e `monetization.schema.ts` (afiliados, preços, países com VPN restrita, payloads de submissão e checkout).

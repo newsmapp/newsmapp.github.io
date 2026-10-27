@@ -1,0 +1,21 @@
+# Standard command interface. Each task delegates to the pnpm scripts in package.json.
+[tools]
+node = "24"
+pnpm = "10.21.0"
+
+[tasks.check]
+description = "Definition of done: format, lint, boundaries, types, catalog, tests"
+run = "pnpm check"
+
+[tasks."check:all"]
+description = "check + build + SEO audit + E2E (what CI runs)"
+run = "pnpm check && pnpm build && pnpm seo:audit && pnpm e2e"
+
+[tasks.fix]
+run = "pnpm fix"
+
+[tasks.dev]
+run = "pnpm dev"
+
+[tasks.test]
+run = "pnpm test"

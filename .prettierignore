@@ -1,0 +1,10 @@
+dist/
+.astro/
+.wrangler/
+coverage/
+reports/
+pnpm-lock.yaml
+worker-configuration.d.ts
+src/generated/
+drizzle/migrations/meta/
+SPEC.md

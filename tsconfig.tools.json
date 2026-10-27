@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["tools", "src/lib", "src/schemas", "worker-configuration.d.ts"],
+  "compilerOptions": { "noEmit": true }
+}

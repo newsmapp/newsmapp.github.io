@@ -1,0 +1,6 @@
+# Single-package repo; this file only carries pnpm's install policy.
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+minimumReleaseAge: 1440
