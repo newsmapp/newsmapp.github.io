@@ -23,6 +23,8 @@ interface Props {
   searchType?: 'country' | 'category' | 'outlet' | 'continent' | 'page';
   /** Pages with a Turnstile form allow its script and frame in the CSP. */
   turnstile?: boolean;
+  /** False on pages without serif text, so its font does not compete with the first paint. */
+  prose?: boolean;
 }
 
 const {
@@ -34,6 +36,7 @@ const {
   searchable = false,
   searchType,
   turnstile = false,
+  prose = true,
 } = Astro.props;
 // CSP additions must happen here: the <meta> is already sent by the time body components render.
 if (turnstile) {
@@ -75,7 +78,7 @@ const alternates = hreflangAlternates(
     <meta name="theme-color" content="oklch(0.975 0.004 95)" />
     <meta name="color-scheme" content="light dark" />
     <link rel="preload" href={uiFont} as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href={proseFont} as="font" type="font/woff2" crossorigin />
+    {prose && <link rel="preload" href={proseFont} as="font" type="font/woff2" crossorigin />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script is:inline>
@@ -105,7 +108,7 @@ const alternates = hreflangAlternates(
     <a class="skip" href="#main">
       Skip to content
     </a>
-    <Header />
+    <Header search={Astro.url.pathname !== '/'} />
     <main id="main" tabindex="-1" {...(searchable ? { 'data-pagefind-body': '' } : {})}>
       {searchType && <meta data-pagefind-filter="type[content]" content={searchType} />}
       <slot />

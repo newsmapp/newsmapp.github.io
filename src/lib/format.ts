@@ -56,6 +56,18 @@ export const CATEGORY_ICON: Record<Category, string> = {
   regional: 'map-pin',
 };
 
+/** One- or two-word names for the home page topic switcher, where the full labels do not fit. */
+export const CATEGORY_SHORT: Record<Category, string> = {
+  'general-news': 'National news',
+  politics: 'Politics',
+  sports: 'Sports',
+  economy: 'Business',
+  investigative: 'Investigative',
+  'tech-science': 'Tech & science',
+  broadcast: 'TV & radio',
+  regional: 'Regional',
+};
+
 const numberFormat = new Intl.NumberFormat('en-US');
 export const formatNumber = (value: number): string => numberFormat.format(value);
 

@@ -1,10 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import CountryList from '../components/CountryList.astro';
+import CountryBox from '../components/CountryBox.astro';
 import Icon from '../components/Icon.astro';
-import { CONTINENT_LABELS, countries, countryName, hubs, paths } from '../data/catalog';
+import { CONTINENT_LABELS, countries, hubs, paths } from '../data/catalog';
 import { CONTINENTS } from '../schemas/common';
-import { plural } from '../lib/format';
+import { CATEGORIES } from '../schemas/catalog.schema';
+import { CATEGORY_ICON, CATEGORY_SHORT, plural } from '../lib/format';
+import type { IconName } from '../components/Icon.astro';
 import { organization, website } from '../lib/seo/jsonld';
 
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
@@ -14,31 +16,32 @@ const groups = CONTINENTS.map((continent) => ({
   continent,
   countries: countries.filter((c) => c.continent === continent),
 })).filter((g) => g.countries.length > 0);
-const picks = countries
-  .flatMap((country) =>
-    country.outlets
-      .filter((o) => o.editor_pick)
-      .slice(0, 1)
-      .map((outlet) => ({ country, outlet })),
-  )
-  .slice(0, 12);
+// Topics any published country covers, with how many outlets each has across the catalog.
+const topics = CATEGORIES.map((category) => ({
+  category,
+  count: countries.reduce(
+    (n, c) => n + c.outlets.filter((o) => o.categories.includes(category)).length,
+    0,
+  ),
+})).filter((t) => t.count > 0);
 const description =
   countries.length > 0
-    ? `Compare ${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries, sorted by topic, with paywall and ownership shown for each.`
+    ? `${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries, ranked by editors. Paywall and owner are marked on every outlet.`
     : 'A directory of newspapers, broadcasters and news sites by country, sorted by topic, with paywall and ownership shown for each outlet.';
 ---
 
 <BaseLayout
-  title="News sources of every country, side by side"
+  title="Newspapers and news sites by country, ranked by editors"
   description={description}
   jsonld={[website(siteUrl), organization(siteUrl)]}
+  prose={false}
 >
   <div class="page">
     <section class="intro">
-      <h1>The news sources of each country, side by side</h1>
+      <h1>Pick a country. Read its press.</h1>
       <p class="lede">
         {countries.length > 0
-          ? `${plural(outletCount, 'outlet')} from ${plural(countries.length, 'country', 'countries')}, sorted into 8 categories and ranked by our editors. Each one shows whether it is free to read and who owns it.`
+          ? `${plural(outletCount, 'newspaper, broadcaster and news site', 'newspapers, broadcasters and news sites')} from ${plural(countries.length, 'country', 'countries')}, ranked by our editors. Paywall and owner are marked on every one.`
           : 'Country pages are being reviewed and will appear here once their outlets are verified.'}
       </p>
       <button class="find" type="button" data-open-search>
@@ -46,10 +49,39 @@ const description =
         <span>Find a country or outlet</span>
         <kbd class="data">⌘&nbsp;K</kbd>
       </button>
+      {topics.length > 1 && (
+        <div class="topics" role="group" aria-label="Show outlets by topic" data-topics>
+          <button type="button" aria-pressed="true" data-topic="all">
+            <Icon name="list" size={16} />
+            All topics
+          </button>
+          {topics.map((t) => (
+            <button type="button" aria-pressed="false" data-topic={t.category}>
+              <Icon name={CATEGORY_ICON[t.category] as IconName} size={16} />
+              {CATEGORY_SHORT[t.category]}
+              <span class="data">{t.count}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {groups.length > 1 && (
+        <nav class="jump" aria-label="Continents">
+          <ul>
+            {groups.map((group) => (
+              <li>
+                <a href={`#c-${group.continent}`}>
+                  {CONTINENT_LABELS[group.continent]}
+                  <span class="data">{group.countries.length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </section>
 
-    {groups.map((group) => (
-      <section class="continent" aria-labelledby={`c-${group.continent}`}>
+    {groups.map((group, index) => (
+      <section class="continent" data-continent aria-labelledby={`c-${group.continent}`}>
         <h2 id={`c-${group.continent}`}>
           {hubs.has(group.continent) ? (
             <a href={paths.continent(group.continent)}>{CONTINENT_LABELS[group.continent]}</a>
@@ -57,23 +89,14 @@ const description =
             CONTINENT_LABELS[group.continent]
           )}
         </h2>
-        <CountryList countries={group.countries} />
+        <div class="boxes">
+          {group.countries.map((country, i) => (
+            <CountryBox country={country} lazy={index > 0 || i > 3} />
+          ))}
+        </div>
       </section>
     ))}
 
-    {picks.length > 0 && (
-      <section class="picks" aria-labelledby="picks">
-        <h2 id="picks">A starting point in each country</h2>
-        <ul>
-          {picks.map(({ country, outlet }) => (
-            <li>
-              <a href={paths.outlet(country, outlet)}>{outlet.name}</a>
-              <span class="where">{countryName(country)}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
     <p class="note">
       New countries are added once at least 15 of their outlets are verified.{' '}
       <a href="/methodology/">Read how we verify outlets</a>.
@@ -81,7 +104,102 @@ const description =
   </div>
 </BaseLayout>
 
+<script>
+  // Switches every country box to the chosen topic; ?topic= keeps the choice on reload and share.
+  const bar = document.querySelector<HTMLElement>('[data-topics]');
+  if (bar) {
+    const buttons = [...bar.querySelectorAll<HTMLButtonElement>('button[data-topic]')];
+    const show = (topic: string) => {
+      if (!buttons.some((b) => b.dataset.topic === topic)) topic = 'all';
+      for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.topic === topic));
+      for (const box of document.querySelectorAll<HTMLElement>('.box[data-topics]')) {
+        const covered = box.dataset.topics?.split(' ').includes(topic) ?? false;
+        box.hidden = !covered;
+        for (const list of box.querySelectorAll<HTMLElement>('.list[data-topic]'))
+          list.hidden = list.dataset.topic !== topic;
+      }
+      for (const section of document.querySelectorAll<HTMLElement>('[data-continent]'))
+        section.hidden = !section.querySelector('.box:not([hidden])');
+      const url = new URL(location.href);
+      if (topic === 'all') url.searchParams.delete('topic');
+      else url.searchParams.set('topic', topic);
+      history.replaceState(null, '', url);
+    };
+    bar.addEventListener('click', (event) => {
+      const button = (event.target as Element).closest<HTMLButtonElement>('button[data-topic]');
+      if (button?.dataset.topic) show(button.dataset.topic);
+    });
+    const initial = new URLSearchParams(location.search).get('topic');
+    if (initial) show(initial);
+  }
+</script>
+
 <style>
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .topics button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 2.75rem;
+    padding-inline: var(--space-3);
+    border: var(--line) solid var(--edge);
+    background: var(--surface);
+    box-shadow: var(--shadow-hard);
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--type-data);
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      transform var(--duration-press) var(--ease-out),
+      box-shadow var(--duration-press) var(--ease-out);
+  }
+
+  .topics button:hover {
+    background: var(--surface-hover);
+  }
+
+  /* The chosen topic stays pressed in, filled with the action color. */
+  .topics button[aria-pressed='true'] {
+    background: var(--accent);
+    box-shadow: 0 0 0 var(--shadow-ink);
+    color: var(--on-accent);
+    transform: translate(3px, 3px);
+  }
+
+  .topics button[aria-pressed='true'] .data {
+    color: inherit;
+  }
+
+  .topics .data {
+    color: var(--ink-2);
+    font-weight: normal;
+  }
+
+  /* On phones the topics stay on one line that scrolls, so the boxes start higher up. */
+  @media (max-width: 639px) {
+    .topics {
+      flex-wrap: nowrap;
+      margin-inline: calc(-1 * var(--space-4));
+      padding-inline: var(--space-4);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .topics button {
+      flex: 0 0 auto;
+    }
+  }
+
+  .continent[hidden] {
+    display: none;
+  }
+
   .intro {
     display: grid;
     gap: var(--space-4);
@@ -89,9 +207,15 @@ const description =
     padding-block: var(--space-7) var(--space-6);
   }
 
+  .intro h1 {
+    font-size: var(--type-display);
+    line-height: 0.95;
+    letter-spacing: -0.045em;
+  }
+
   .lede {
-    color: var(--ink-2);
-    font-size: 1.125rem;
+    max-width: 40rem;
+    font-size: 1.1875rem;
   }
 
   .find {
@@ -101,12 +225,17 @@ const description =
     width: min(100%, 30rem);
     min-height: 3rem;
     padding-inline: var(--space-4);
-    border: 1px solid var(--rule-strong);
-    border-radius: var(--radius-card);
+    border: var(--line) solid var(--edge);
     background: var(--surface);
+    box-shadow: var(--shadow-hard-lg);
     color: var(--ink-2);
     font: inherit;
     cursor: pointer;
+  }
+
+  .find:active {
+    box-shadow: 0 0 0 var(--shadow-ink);
+    transform: translate(5px, 5px);
   }
 
   .find span {
@@ -115,57 +244,54 @@ const description =
   }
 
   .find:hover {
-    border-color: var(--link);
+    background: var(--surface-hover);
     color: var(--ink);
   }
 
   kbd {
     padding: 0 var(--space-1);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius-tag);
-    font-family: inherit;
+    border: 1px solid var(--rule-strong);
+    font-family: var(--font-data);
     font-size: var(--type-label);
+  }
+
+  .jump ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-4);
+  }
+
+  .jump a {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    min-height: 2.75rem;
+    font-weight: var(--weight-strong);
+  }
+
+  .jump .data {
+    color: var(--ink-2);
+    font-weight: normal;
   }
 
   .continent {
     margin-top: var(--space-6);
   }
 
-  .continent h2,
-  .picks h2 {
-    margin-bottom: var(--space-2);
-    font-size: var(--type-h3);
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+    gap: var(--space-5);
+  }
+
+  .continent h2 {
+    scroll-margin-top: var(--space-4);
+    margin-bottom: var(--space-3);
+    font-size: var(--type-h2);
   }
 
   .continent h2 a {
     color: var(--ink);
-  }
-
-  .picks {
-    margin-top: var(--space-7);
-  }
-
-  .picks ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-    gap: var(--space-2) var(--space-5);
-  }
-
-  .picks li {
-    display: flex;
-    justify-content: space-between;
-    gap: var(--space-3);
-    padding-block: var(--space-2);
-    border-bottom: 1px solid var(--rule);
-    font-size: var(--type-data);
-  }
-
-  .picks a {
-    font-weight: var(--weight-strong);
-  }
-
-  .where {
-    color: var(--ink-2);
   }
 
   .note {
