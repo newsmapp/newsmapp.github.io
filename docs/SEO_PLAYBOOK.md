@@ -28,7 +28,7 @@ Rules:
 ## Internationalization (future)
 
 - v1.0: English at the root. `ENABLED_LOCALES=en`; no `hreflang` emitted.
-- Adding a locale: enable it in `ENABLED_LOCALES`, add `seo_context.[locale]` and `pitch.[locale]` to every published country/outlet (the build fails otherwise), and pages appear under `/[locale]/…`.
+- Adding a locale (post-launch, SPEC §4): first add `name.[locale]` and `seo_context.[locale]` to every country and `pitch.[locale]` to every outlet; with the locale in `ENABLED_LOCALES`, `catalog:validate` fails on any missing one. The `/[locale]/…` routes are not built yet and ship together with enabling the locale; `hreflang` is emitted from then on.
 - Matrix when more than one locale is enabled: every page lists all its available locale variants plus `x-default` → English, reciprocally. The audit checks reciprocity.
 
 ## Internal linking
