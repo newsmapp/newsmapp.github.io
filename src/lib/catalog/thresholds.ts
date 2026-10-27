@@ -10,10 +10,18 @@ export const THRESHOLDS = {
   continentHubMinCountries: 3,
 } as const;
 
-export const isVerified = (outlet: Outlet): boolean => outlet.status === 'verified';
+type Ranked = Pick<Outlet, 'id' | 'name' | 'categories' | 'ranks'>;
+/** Public outlets carry no status: they are verified by construction. */
+type MaybeStatus = { status?: Outlet['status'] };
+
+export const isVerified = (outlet: MaybeStatus): boolean =>
+  outlet.status === undefined || outlet.status === 'verified';
 
 /** Outlets of one category, ordered by editorial rank then name. */
-export function outletsInCategory(outlets: readonly Outlet[], category: Category): Outlet[] {
+export function outletsInCategory<T extends Ranked>(
+  outlets: readonly T[],
+  category: Category,
+): T[] {
   return outlets
     .filter((outlet) => outlet.categories.includes(category))
     .sort(
@@ -24,7 +32,7 @@ export function outletsInCategory(outlets: readonly Outlet[], category: Category
 }
 
 /** Categories that have at least one outlet, in the fixed grid order. */
-export function coveredCategories(outlets: readonly Outlet[]): Category[] {
+export function coveredCategories(outlets: readonly Pick<Outlet, 'categories'>[]): Category[] {
   return CATEGORIES.filter((category) => outlets.some((o) => o.categories.includes(category)));
 }
 
@@ -36,7 +44,7 @@ export interface Readiness {
 /** Whether a country meets the publication threshold, and what is missing if not. */
 export function countryReadiness(
   country: Country,
-  outlets: readonly Outlet[],
+  outlets: readonly (Ranked & MaybeStatus)[],
   locales: readonly Locale[],
 ): Readiness {
   const verified = outlets.filter(isVerified);
@@ -60,8 +68,8 @@ export function countryReadiness(
 
 /** A country/category page exists only with enough verified outlets and a reviewed intro. */
 export function categoryPageEligible(
-  country: Country,
-  outlets: readonly Outlet[],
+  country: Pick<Country, 'seo_context'>,
+  outlets: readonly (Ranked & MaybeStatus)[],
   category: Category,
   locale: Locale,
 ): boolean {
@@ -74,14 +82,14 @@ export function categoryPageEligible(
   );
 }
 
-export interface CountryGrid {
-  columns: { category: Category; outlets: Outlet[] }[];
+export interface CountryGrid<T> {
+  columns: { category: Category; outlets: T[] }[];
   /** Outlets whose every category is too thin for its own column. */
-  more: Outlet[];
+  more: T[];
 }
 
 /** Splits a country's outlets into category columns and the "More outlets" card. */
-export function countryGrid(outlets: readonly Outlet[]): CountryGrid {
+export function countryGrid<T extends Ranked>(outlets: readonly T[]): CountryGrid<T> {
   const columns = CATEGORIES.map((category) => ({
     category,
     outlets: outletsInCategory(outlets, category),
@@ -94,7 +102,10 @@ export function countryGrid(outlets: readonly Outlet[]): CountryGrid {
 }
 
 /** A profile is indexable only with a reviewed "about" text in the locale. */
-export function profileIndexable(outlet: Outlet, locale: Locale): boolean {
+export function profileIndexable(
+  outlet: Pick<Outlet, 'about'> & MaybeStatus,
+  locale: Locale,
+): boolean {
   return isVerified(outlet) && outlet.about[locale]?.reviewed === true;
 }
 
