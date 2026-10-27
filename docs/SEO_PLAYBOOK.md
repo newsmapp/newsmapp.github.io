@@ -4,16 +4,17 @@ How NewsMap earns organic traffic without tripping scaled-content policies. Deci
 
 ## Canonical URLs
 
-| Page | URL | Indexed when |
-|---|---|---|
-| Home | `/` | always |
-| Continent hub | `/continent/[continent]/` | ≥ 3 published countries in it (counting `also_in`) |
-| Country | `/[country]/` | published (≥ 15 verified outlets in ≥ 4 categories, reviewed summary) |
-| Country category | `/[country]/[category]/` | ≥ 5 verified outlets in the category and a reviewed intro |
-| Outlet profile | `/[country]/outlet/[outlet]/` | generated for every verified outlet; indexable only with a reviewed `about` |
-| Institutional | `/about/`, `/methodology/`, `/corrections/`, `/disclosures/`, `/privacy/`, `/terms/`, `/advertise/` | always |
+| Page             | URL                                                                                                 | Indexed when                                                                |
+| ---------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Home             | `/`                                                                                                 | always                                                                      |
+| Continent hub    | `/continent/[continent]/`                                                                           | ≥ 3 published countries in it (counting `also_in`)                          |
+| Country          | `/[country]/`                                                                                       | published (≥ 15 verified outlets in ≥ 4 categories, reviewed summary)       |
+| Country category | `/[country]/[category]/`                                                                            | ≥ 5 verified outlets in the category and a reviewed intro                   |
+| Outlet profile   | `/[country]/outlet/[outlet]/`                                                                       | generated for every verified outlet; indexable only with a reviewed `about` |
+| Institutional    | `/about/`, `/methodology/`, `/corrections/`, `/disclosures/`, `/privacy/`, `/terms/`, `/advertise/` | always                                                                      |
 
 Rules:
+
 - Lowercase, hyphenated slugs. **Trailing slash always**; the non-slash variant redirects (301).
 - Canonical is absolute, built from `SITE_URL`, and self-referencing.
 - Pages that don't meet a threshold are not generated, or render `noindex,follow`, and never appear in the sitemap.

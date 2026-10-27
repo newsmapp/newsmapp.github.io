@@ -5,6 +5,7 @@ The rules behind every label NewsMap shows. The public `/methodology/` page is r
 ## Inclusion
 
 An outlet is listed when it:
+
 - publishes original news or analysis regularly (not only aggregation or press releases);
 - has an identifiable publisher or owner;
 - is reachable over HTTPS.
@@ -18,25 +19,25 @@ An outlet is listed when it:
 
 ## Paywall
 
-| Label | Meaning |
-|---|---|
-| Free | All articles readable without payment or registration |
-| Metered | A number of free articles per period, then payment |
-| Freemium | Some sections free, premium sections paid |
-| Paywall (hard) | Nearly all content requires a subscription |
+| Label          | Meaning                                               |
+| -------------- | ----------------------------------------------------- |
+| Free           | All articles readable without payment or registration |
+| Metered        | A number of free articles per period, then payment    |
+| Freemium       | Some sections free, premium sections paid             |
+| Paywall (hard) | Nearly all content requires a subscription            |
 
 Checked by visiting the site without an account; recorded as of `verified_at`.
 
 ## Ownership type
 
-| Label | Meaning | Source required |
-|---|---|---|
-| Private | Owned by a company or individuals | no |
-| Public service | Publicly funded with editorial independence guaranteed by law or charter | no |
-| State-controlled | Editorial line controlled by a government or ruling party | **yes** |
-| Nonprofit | Owned by a foundation, trust or nonprofit | no |
-| Cooperative | Owned by employees or readers | no |
-| Unknown | Ownership could not be established | no |
+| Label            | Meaning                                                                  | Source required |
+| ---------------- | ------------------------------------------------------------------------ | --------------- |
+| Private          | Owned by a company or individuals                                        | no              |
+| Public service   | Publicly funded with editorial independence guaranteed by law or charter | no              |
+| State-controlled | Editorial line controlled by a government or ruling party                | **yes**         |
+| Nonprofit        | Owned by a foundation, trust or nonprofit                                | no              |
+| Cooperative      | Owned by employees or readers                                            | no              |
+| Unknown          | Ownership could not be established                                       | no              |
 
 ## Political lean
 
