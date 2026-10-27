@@ -15,13 +15,39 @@ export const problem = (status: number, error: string, fields?: Record<string, s
 
 export const MAX_BODY_BYTES = 16_384;
 
-/** Reads a JSON body up to `maxBytes`. Returns a Response when the body is unusable. */
+/**
+ * Reads the body as text, stopping as soon as it passes `maxBytes`, whether or not the client
+ * declared a Content-Length. Throws a 413 Response when it is too large.
+ */
+export async function readText(request: Request, maxBytes = MAX_BODY_BYTES): Promise<string> {
+  const tooLarge = problem(413, 'The request is too large.');
+  if (Number(request.headers.get('content-length') ?? 0) > maxBytes) throw tooLarge;
+  if (!request.body) return '';
+  const reader = request.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > maxBytes) {
+      await reader.cancel().catch(() => undefined);
+      throw tooLarge;
+    }
+    chunks.push(value);
+  }
+  const bytes = new Uint8Array(size);
+  let offset = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return new TextDecoder().decode(bytes);
+}
+
+/** Reads a JSON body up to `maxBytes`. Throws a Response when the body is unusable. */
 export async function readJson(request: Request, maxBytes = MAX_BODY_BYTES): Promise<unknown> {
-  const declared = Number(request.headers.get('content-length') ?? 0);
-  if (declared > maxBytes) throw problem(413, 'The request is too large.');
-  const text = await request.text();
-  if (new TextEncoder().encode(text).byteLength > maxBytes)
-    throw problem(413, 'The request is too large.');
+  const text = await readText(request, maxBytes);
   try {
     return JSON.parse(text) as unknown;
   } catch {

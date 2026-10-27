@@ -47,6 +47,23 @@ describe('http', () => {
     await expect(readJson(post('{oops'))).rejects.toHaveProperty('status', 400);
   });
 
+  it('stops reading a streamed body without Content-Length once it passes the limit', async () => {
+    let pulled = 0;
+    const endless = new ReadableStream<Uint8Array>({
+      pull(controller) {
+        pulled += 1;
+        controller.enqueue(new Uint8Array(1024).fill(32));
+      },
+    });
+    const request = new Request('https://newsmap.example/api/track/', {
+      method: 'POST',
+      body: endless,
+      duplex: 'half',
+    } as RequestInit);
+    await expect(readJson(request, 4096)).rejects.toHaveProperty('status', 413);
+    expect(pulled).toBeLessThan(10);
+  });
+
   it('maps schema issues to messages written for people', () => {
     expect(
       fieldErrors([
