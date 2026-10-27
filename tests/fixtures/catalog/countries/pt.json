@@ -1,0 +1,50 @@
+{
+  "iso2": "PT",
+  "iso3": "PRT",
+  "slug": "portugal",
+  "name": {
+    "en": "Portugal"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": ["pt"],
+  "press_freedom": {
+    "rank": 10,
+    "status": "good",
+    "year": 2025,
+    "source": "RSF World Press Freedom Index",
+    "source_url": "https://rsf.org/en/index"
+  },
+  "neighbors": [],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Fictional media landscape summary for Portugal, used only by automated tests of the directory.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Portugal?",
+          "a": "The fixture lists Portugal Morning Ledger first."
+        },
+        {
+          "q": "Which Portugal news sites are free?",
+          "a": "Several fixture outlets are free to read."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Fixture intro for national news in Portugal."
+        },
+        "economy": {
+          "intro": "Fixture intro for business news in Portugal."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    }
+  }
+}

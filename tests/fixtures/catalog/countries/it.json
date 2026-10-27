@@ -1,0 +1,50 @@
+{
+  "iso2": "IT",
+  "iso3": "ITA",
+  "slug": "italy",
+  "name": {
+    "en": "Italy"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": ["it"],
+  "press_freedom": {
+    "rank": 10,
+    "status": "good",
+    "year": 2025,
+    "source": "RSF World Press Freedom Index",
+    "source_url": "https://rsf.org/en/index"
+  },
+  "neighbors": ["FR", "CH", "AT", "SI", "SM", "VA", "MT"],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Fictional media landscape summary for Italy, used only by automated tests of the directory.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Italy?",
+          "a": "The fixture lists Italy Morning Ledger first."
+        },
+        {
+          "q": "Which Italy news sites are free?",
+          "a": "Several fixture outlets are free to read."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Fixture intro for national news in Italy."
+        },
+        "economy": {
+          "intro": "Fixture intro for business news in Italy."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

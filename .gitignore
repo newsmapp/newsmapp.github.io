@@ -49,3 +49,6 @@ notes/
 # generated at build/typecheck time
 src/generated/
 worker-configuration.d.ts
+
+# downloaded favicons and generated monograms (pnpm catalog:icons / catalog:build)
+public/icons/

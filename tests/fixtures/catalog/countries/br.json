@@ -1,0 +1,50 @@
+{
+  "iso2": "BR",
+  "iso3": "BRA",
+  "slug": "brazil",
+  "name": {
+    "en": "Brazil"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 10000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": ["pt"],
+  "press_freedom": {
+    "rank": 10,
+    "status": "good",
+    "year": 2025,
+    "source": "RSF World Press Freedom Index",
+    "source_url": "https://rsf.org/en/index"
+  },
+  "neighbors": ["AR", "UY", "PY", "BO", "PE", "CO", "VE", "GY", "SR", "GF"],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Fictional media landscape summary for Brazil, used only by automated tests of the directory.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Brazil?",
+          "a": "The fixture lists Brazil Morning Ledger first."
+        },
+        {
+          "q": "Which Brazil news sites are free?",
+          "a": "Several fixture outlets are free to read."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Fixture intro for national news in Brazil."
+        },
+        "economy": {
+          "intro": "Fixture intro for business news in Brazil."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    }
+  }
+}

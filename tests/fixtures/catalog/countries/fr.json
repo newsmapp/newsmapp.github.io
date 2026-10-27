@@ -1,0 +1,50 @@
+{
+  "iso2": "FR",
+  "iso3": "FRA",
+  "slug": "france",
+  "name": {
+    "en": "France"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": ["fr"],
+  "press_freedom": {
+    "rank": 10,
+    "status": "good",
+    "year": 2025,
+    "source": "RSF World Press Freedom Index",
+    "source_url": "https://rsf.org/en/index"
+  },
+  "neighbors": ["BE", "LU", "DE", "CH", "IT", "ES", "MC", "AD", "GB"],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Fictional media landscape summary for France, used only by automated tests of the directory.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in France?",
+          "a": "The fixture lists France Morning Ledger first."
+        },
+        {
+          "q": "Which France news sites are free?",
+          "a": "Several fixture outlets are free to read."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Fixture intro for national news in France."
+        },
+        "economy": {
+          "intro": "Fixture intro for business news in France."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    }
+  }
+}

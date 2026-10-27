@@ -1,0 +1,50 @@
+{
+  "iso2": "ES",
+  "iso3": "ESP",
+  "slug": "spain",
+  "name": {
+    "en": "Spain"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": ["es", "eu", "ca", "gl", "oc"],
+  "press_freedom": {
+    "rank": 10,
+    "status": "good",
+    "year": 2025,
+    "source": "RSF World Press Freedom Index",
+    "source_url": "https://rsf.org/en/index"
+  },
+  "neighbors": ["PT", "FR", "AD", "MA", "GI"],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Fictional media landscape summary for Spain, used only by automated tests of the directory.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Spain?",
+          "a": "The fixture lists Spain Morning Ledger first."
+        },
+        {
+          "q": "Which Spain news sites are free?",
+          "a": "Several fixture outlets are free to read."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Fixture intro for national news in Spain."
+        },
+        "economy": {
+          "intro": "Fixture intro for business news in Spain."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    }
+  }
+}

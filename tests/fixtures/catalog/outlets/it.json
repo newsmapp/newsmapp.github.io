@@ -1,0 +1,674 @@
+[
+  {
+    "id": "it-morning-ledger",
+    "slug": "morning-ledger",
+    "name": "Italy Morning Ledger",
+    "url": "https://it-morning-ledger.example.com/",
+    "rss_url": "https://it-morning-ledger.example.com/feed.xml",
+    "language": "en",
+    "categories": ["general-news", "politics"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1900,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Morning Ledger Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Fictional morning ledger used to test the Italy directory page layout."
+    },
+    "about": {
+      "en": {
+        "text": "Italy Morning Ledger is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      }
+    },
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-morning-ledger.example.com/"
+    }
+  },
+  {
+    "id": "it-national-courier",
+    "slug": "national-courier",
+    "name": "Italy National Courier",
+    "url": "https://it-national-courier.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["general-news"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1905,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "National Courier Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Fictional national courier used to test the Italy directory page layout."
+    },
+    "about": {
+      "en": {
+        "text": "Italy National Courier is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      }
+    },
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-national-courier.example.com/"
+    }
+  },
+  {
+    "id": "it-public-radio-news",
+    "slug": "public-radio-news",
+    "name": "Italy Public Radio News",
+    "url": "https://it-public-radio-news.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["general-news", "broadcast"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 1910,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional public radio news used to test the Italy directory page layout."
+    },
+    "about": {
+      "en": {
+        "text": "Italy Public Radio News is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      }
+    },
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-public-radio-news.example.com/"
+    }
+  },
+  {
+    "id": "it-wire-service",
+    "slug": "wire-service",
+    "name": "Italy Wire Service",
+    "url": "https://it-wire-service.example.com/",
+    "rss_url": "https://it-wire-service.example.com/feed.xml",
+    "language": "en",
+    "categories": ["general-news"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1915,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "Wire Service Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional wire service used to test the Italy directory page layout."
+    },
+    "about": {
+      "en": {
+        "text": "Italy Wire Service is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      }
+    },
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-wire-service.example.com/"
+    }
+  },
+  {
+    "id": "it-evening-standard-post",
+    "slug": "evening-standard-post",
+    "name": "Italy Evening Standard Post",
+    "url": "https://it-evening-standard-post.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["general-news"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Evening Standard Post Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional evening standard post used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-evening-standard-post.example.com/"
+    }
+  },
+  {
+    "id": "it-daily-digest",
+    "slug": "daily-digest",
+    "name": "Italy Daily Digest",
+    "url": "https://it-daily-digest.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["general-news"],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1925,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Daily Digest Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional daily digest used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-daily-digest.example.com/"
+    }
+  },
+  {
+    "id": "it-market-journal",
+    "slug": "market-journal",
+    "name": "Italy Market Journal",
+    "url": "https://it-market-journal.example.com/",
+    "rss_url": "https://it-market-journal.example.com/feed.xml",
+    "language": "en",
+    "categories": ["economy"],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1930,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Market Journal Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional market journal used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-market-journal.example.com/"
+    }
+  },
+  {
+    "id": "it-finance-weekly",
+    "slug": "finance-weekly",
+    "name": "Italy Finance Weekly",
+    "url": "https://it-finance-weekly.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["economy"],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1935,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Finance Weekly Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional finance weekly used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-finance-weekly.example.com/"
+    }
+  },
+  {
+    "id": "it-trade-monitor",
+    "slug": "trade-monitor",
+    "name": "Italy Trade Monitor",
+    "url": "https://it-trade-monitor.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["economy"],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1940,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Trade Monitor Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional trade monitor used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-trade-monitor.example.com/"
+    }
+  },
+  {
+    "id": "it-capital-review",
+    "slug": "capital-review",
+    "name": "Italy Capital Review",
+    "url": "https://it-capital-review.example.com/",
+    "rss_url": "https://it-capital-review.example.com/feed.xml",
+    "language": "en",
+    "categories": ["economy", "politics"],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Capital Review Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional capital review used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-capital-review.example.com/"
+    }
+  },
+  {
+    "id": "it-exchange-report",
+    "slug": "exchange-report",
+    "name": "Italy Exchange Report",
+    "url": "https://it-exchange-report.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["economy"],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 1950,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Exchange Report Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional exchange report used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-exchange-report.example.com/"
+    }
+  },
+  {
+    "id": "it-stadium-daily",
+    "slug": "stadium-daily",
+    "name": "Italy Stadium Daily",
+    "url": "https://it-stadium-daily.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["sports"],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1955,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Stadium Daily Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional stadium daily used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-stadium-daily.example.com/"
+    }
+  },
+  {
+    "id": "it-match-report",
+    "slug": "match-report",
+    "name": "Italy Match Report",
+    "url": "https://it-match-report.example.com/",
+    "rss_url": "https://it-match-report.example.com/feed.xml",
+    "language": "en",
+    "categories": ["sports"],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Match Report Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional match report used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-match-report.example.com/"
+    }
+  },
+  {
+    "id": "it-sports-channel",
+    "slug": "sports-channel",
+    "name": "Italy Sports Channel",
+    "url": "https://it-sports-channel.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["sports", "broadcast"],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sports Channel Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional sports channel used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-sports-channel.example.com/"
+    }
+  },
+  {
+    "id": "it-track-and-field",
+    "slug": "track-and-field",
+    "name": "Italy Track and Field",
+    "url": "https://it-track-and-field.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["sports"],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Track and Field Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional track and field used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-track-and-field.example.com/"
+    }
+  },
+  {
+    "id": "it-parliament-watch",
+    "slug": "parliament-watch",
+    "name": "Italy Parliament Watch",
+    "url": "https://it-parliament-watch.example.com/",
+    "rss_url": "https://it-parliament-watch.example.com/feed.xml",
+    "language": "en",
+    "categories": ["politics"],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Parliament Watch Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional parliament watch used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-parliament-watch.example.com/"
+    }
+  },
+  {
+    "id": "it-circuit-review",
+    "slug": "circuit-review",
+    "name": "Italy Circuit Review",
+    "url": "https://it-circuit-review.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["tech-science"],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Circuit Review Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional circuit review used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-circuit-review.example.com/"
+    }
+  },
+  {
+    "id": "it-lab-notes",
+    "slug": "lab-notes",
+    "name": "Italy Lab Notes",
+    "url": "https://it-lab-notes.example.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": ["tech-science"],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Lab Notes Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fictional lab notes used to test the Italy directory page layout."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-01-15",
+      "http_status": 200,
+      "final_url": "https://it-lab-notes.example.com/"
+    }
+  }
+]

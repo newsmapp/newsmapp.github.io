@@ -7,10 +7,10 @@
     "node": ">=22.22.0"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build && pagefind --site dist/client --glob \"**/*.html\" --output-subdir pagefind",
+    "dev": "pnpm catalog:build && astro dev",
+    "build": "pnpm catalog:build && astro build && pagefind --site dist/client --glob \"**/*.html\" --output-subdir pagefind",
     "preview": "wrangler dev",
-    "typecheck": "wrangler types && astro check && tsc --noEmit -p tsconfig.tools.json",
+    "typecheck": "wrangler types && pnpm catalog:build && astro check && tsc --noEmit -p tsconfig.tools.json",
     "lint": "eslint . && depcruise src tools --config .dependency-cruiser.cjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -35,7 +35,9 @@
     "db:migrate:local": "wrangler d1 migrations apply newsmap --local",
     "db:migrate:remote": "wrangler d1 migrations apply newsmap --remote",
     "deploy": "pnpm build && wrangler deploy",
-    "geo:generate": "tsx tools/generate-geo.ts"
+    "geo:generate": "tsx tools/generate-geo.ts",
+    "catalog:build": "tsx tools/build-catalog.ts",
+    "fixtures:generate": "tsx tools/generate-fixtures.ts"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.2",
@@ -63,6 +65,7 @@
     "pagefind": "^1.5.2",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
+    "sharp": "0.35.5",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
     "typescript": "~6.0.3",
