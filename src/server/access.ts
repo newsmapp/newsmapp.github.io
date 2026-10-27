@@ -16,6 +16,8 @@ interface Claims {
 
 const certsCache = new Map<string, { keys: Jwk[]; fetched: number }>();
 const CERTS_TTL_MS = 60 * 60 * 1000;
+/** After a key rotation, an unknown kid forces a refresh, but at most this often. */
+const CERTS_REFRESH_MS = 60 * 1000;
 
 const base64UrlDecode = (value: string): Uint8Array<ArrayBuffer> => {
   const base64 = value
@@ -28,9 +30,14 @@ const base64UrlDecode = (value: string): Uint8Array<ArrayBuffer> => {
 const decodeJson = <T>(segment: string): T =>
   JSON.parse(new TextDecoder().decode(base64UrlDecode(segment))) as T;
 
-async function signingKeys(teamDomain: string, fetcher: typeof fetch, now: number): Promise<Jwk[]> {
+async function signingKeys(
+  teamDomain: string,
+  fetcher: typeof fetch,
+  now: number,
+  maxAge = CERTS_TTL_MS,
+): Promise<Jwk[]> {
   const cached = certsCache.get(teamDomain);
-  if (cached && now - cached.fetched < CERTS_TTL_MS) return cached.keys;
+  if (cached && now - cached.fetched < maxAge) return cached.keys;
   const response = await fetcher(`https://${teamDomain}/cdn-cgi/access/certs`);
   if (!response.ok) throw new Error(`Access certs: HTTP ${response.status}`);
   const { keys } = (await response.json()) as { keys: Jwk[] };
@@ -58,9 +65,11 @@ export async function verifyAccessJwt(
   try {
     const header = decodeJson<{ alg?: string; kid?: string }>(headerPart);
     if (header.alg !== 'RS256' || !header.kid) return null;
-    const jwk = (await signingKeys(config.teamDomain, config.fetcher ?? fetch, now)).find(
-      (k) => k.kid === header.kid,
-    );
+    const fetcher = config.fetcher ?? fetch;
+    const byKid = (keys: Jwk[]) => keys.find((k) => k.kid === header.kid);
+    const jwk =
+      byKid(await signingKeys(config.teamDomain, fetcher, now)) ??
+      byKid(await signingKeys(config.teamDomain, fetcher, now, CERTS_REFRESH_MS));
     if (!jwk) return null;
     const key = await crypto.subtle.importKey(
       'jwk',

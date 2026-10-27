@@ -88,6 +88,20 @@ describe('verifyAccessJwt', () => {
     expect(await verifyAccessJwt(tampered, config)).toBeNull();
   });
 
+  it('refetches the keys once for an unknown kid after a rotation, at most once a minute', async () => {
+    const { claims, now, team } = setup();
+    let current = 'k1';
+    const certs = fakeFetch(() => jsonResponse({ keys: [{ ...jwk, kid: current }] }));
+    const at = (ms: number) => ({ teamDomain: team, aud: AUD, fetcher: certs.fetcher, now: ms });
+    expect(await verifyAccessJwt(await sign(claims), at(now))).not.toBeNull();
+    current = 'k2';
+    // Inside the refresh window the cached keys stand: no fetch per forged kid.
+    expect(await verifyAccessJwt(await sign(claims, 'k2'), at(now + 30_000))).toBeNull();
+    expect(certs.calls).toHaveLength(1);
+    expect(await verifyAccessJwt(await sign(claims, 'k2'), at(now + 61_000))).not.toBeNull();
+    expect(certs.calls).toHaveLength(2);
+  });
+
   it('returns null when the certificates cannot be fetched', async () => {
     const { claims } = setup();
     const down = fakeFetch(() => new Response('', { status: 500 }));
