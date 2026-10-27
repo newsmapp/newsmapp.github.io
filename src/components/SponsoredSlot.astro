@@ -46,7 +46,8 @@ const { sponsorship } = Astro.props;
 <style>
   .sponsored {
     display: grid;
-    grid-template-columns: auto var(--icon-size) minmax(0, 1fr) auto;
+    /* The name keeps its width; the host shrinks first and truncates. */
+    grid-template-columns: auto var(--icon-size) minmax(0, max-content) minmax(0, 1fr);
     align-items: center;
     column-gap: var(--space-2);
     min-height: var(--row-height);
@@ -81,7 +82,11 @@ const { sponsorship } = Astro.props;
   }
 
   .host {
+    overflow: hidden;
     color: inherit;
+    text-align: end;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     opacity: 0.85;
     font-size: var(--type-label);
   }

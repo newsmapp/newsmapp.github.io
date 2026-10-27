@@ -6,9 +6,11 @@ interface Props {
   description: string;
   heading: string;
   updated?: string;
+  /** Utility pages (thank-you, confirmations) stay out of search engines and site search. */
+  noindex?: boolean;
 }
 
-const { title, description, heading, updated } = Astro.props;
+const { title, description, heading, updated, noindex = false } = Astro.props;
 const updatedLabel = updated
   ? new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(
       new Date(updated),
@@ -16,7 +18,14 @@ const updatedLabel = updated
   : null;
 ---
 
-<BaseLayout title={title} description={description} type="article" searchable searchType="page">
+<BaseLayout
+  title={title}
+  description={description}
+  type="article"
+  noindex={noindex}
+  searchable={!noindex}
+  searchType="page"
+>
   <article class="page doc">
     <header>
       <h1>{heading}</h1>

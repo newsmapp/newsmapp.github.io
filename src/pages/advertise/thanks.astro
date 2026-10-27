@@ -1,0 +1,28 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+---
+
+<ProseLayout
+  title="Your place is reserved"
+  heading="Your place is reserved"
+  description="What happens after you pay for a sponsored listing on NewsMap."
+  noindex
+>
+  <p>
+    Thank you. An editor reviews every sponsored listing, usually within one business day, and you
+    get an e-mail when it is live. If we decline it, the payment is refunded in full.
+  </p>
+  <p data-simulated hidden>
+    <strong>Test mode:</strong> no payment was taken. Sponsorship checkout is not connected to the
+    payment provider yet.
+  </p>
+  <p>
+    Questions about your listing? <a href="/about/">Contact us</a>.
+  </p>
+</ProseLayout>
+
+<script>
+  if (new URLSearchParams(window.location.search).has('simulated')) {
+    document.querySelector<HTMLElement>('[data-simulated]')?.removeAttribute('hidden');
+  }
+</script>

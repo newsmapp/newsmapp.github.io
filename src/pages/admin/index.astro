@@ -1,0 +1,338 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { isAdmin } from '../../server/access';
+import { overview } from '../../server/admin';
+import { filteredClicksSql, queryClicks, type ClickRow } from '../../server/analytics';
+import { CATEGORY_LABELS, type Category } from '../../schemas/catalog.schema';
+import { catalog, db, env } from '../../runtime/worker';
+
+export const prerender = false;
+
+if (!(await isAdmin(Astro.request, env))) {
+  return new Response('Forbidden', { status: 403, headers: { 'cache-control': 'no-store' } });
+}
+Astro.response.headers.set('cache-control', 'no-store');
+
+const data = await overview(db());
+const days = 30;
+const query = (groupBy: 'blob1' | 'blob2' | 'blob3') =>
+  queryClicks(
+    env.CLOUDFLARE_ACCOUNT_ID,
+    env.CLOUDFLARE_ANALYTICS_TOKEN,
+    filteredClicksSql('newsmap_clicks', days, groupBy),
+  );
+const [byOutlet, byCountry, byCategory] = await Promise.all([
+  query('blob1'),
+  query('blob2'),
+  query('blob3'),
+]);
+const outletName = (id: string) => catalog[id]?.name ?? id;
+const affiliateClicks = (byOutlet ?? []).filter((row) => row.key.startsWith('aff-'));
+const topOutlets = (byOutlet ?? []).filter((row) => !row.key.startsWith('aff-')).slice(0, 20);
+const done = Astro.url.searchParams.get('done');
+const error = Astro.url.searchParams.get('error');
+const awaiting = data.paidSubmissions.filter((s) => s.status === 'paid_pending_review');
+const label = (category: string) => CATEGORY_LABELS[category as Category] ?? category;
+const reports: [string, ClickRow[] | null, (key: string) => string][] = [
+  ['Top 20 outlets', topOutlets, outletName],
+  ['By country', byCountry, (key) => key || 'Unknown'],
+  ['By category', byCategory, label],
+  ['Affiliate offers', affiliateClicks, (key) => key.replace(/^aff-/, '')],
+];
+---
+
+<BaseLayout title="Admin" description="NewsMap editorial admin." noindex>
+  <div class="page admin">
+    <h1>Admin</h1>
+    {done && (
+      <p class="flash" role="status">
+        {done}
+      </p>
+    )}
+    {error && (
+      <p class="flash error" role="alert">
+        {error}
+      </p>
+    )}
+
+    <section aria-labelledby="review">
+      <h2 id="review">Paid listings awaiting review ({awaiting.length})</h2>
+      {awaiting.length === 0 ? (
+        <p class="empty">Nothing to review.</p>
+      ) : (
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Outlet</th>
+              <th scope="col">Slot</th>
+              <th scope="col">Plan</th>
+              <th scope="col">Paid</th>
+              <th scope="col">Decision</th>
+            </tr>
+          </thead>
+          <tbody>
+            {awaiting.map((s) => (
+              <tr>
+                <th scope="row">
+                  {s.outlet_name}
+                  <br />
+                  <span class="muted">{s.url}</span>
+                </th>
+                <td>
+                  {s.country_iso}, {label(s.category)}
+                </td>
+                <td>{s.plan}</td>
+                <td class="num">{s.updated_at.slice(0, 16).replace('T', ' ')}</td>
+                <td class="actions">
+                  <form method="post" action="/api/admin/approve/">
+                    <input type="hidden" name="id" value={s.id} />
+                    <button>Approve</button>
+                  </form>
+                  <form method="post" action="/api/admin/reject/">
+                    <input type="hidden" name="id" value={s.id} />
+                    <button class="danger">Reject and refund</button>
+                  </form>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </section>
+
+    <section aria-labelledby="slots">
+      <h2 id="slots">Sponsored slots in use ({data.liveSponsorships.length})</h2>
+      {data.liveSponsorships.length === 0 ? (
+        <p class="empty">No slot is sold or reserved.</p>
+      ) : (
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Slot</th>
+              <th scope="col">Outlet</th>
+              <th scope="col">Status</th>
+              <th scope="col">Ends</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.liveSponsorships.map((s) => (
+              <tr>
+                <td>
+                  {s.country_iso}, {label(s.category)}, #{s.slot_position}
+                </td>
+                <th scope="row">{s.outlet_name}</th>
+                <td>{s.status}</td>
+                <td class="num">
+                  {s.ends_at?.slice(0, 10) ??
+                    (s.reserved_until ? `hold ${s.reserved_until.slice(11, 16)}` : 'Renews')}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </section>
+
+    <section aria-labelledby="clicks">
+      <h2 id="clicks">Filtered clicks, last {days} days (estimate)</h2>
+      {byOutlet === null ? (
+        <p class="empty">
+          Click reports need CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_ANALYTICS_TOKEN. See
+          docs/runbooks/deploy.md.
+        </p>
+      ) : (
+        <div class="reports">
+          {reports.map(([title, rows, name]) => (
+            <table>
+              <caption>{title}</caption>
+              <tbody>
+                {(rows ?? []).length === 0 ? (
+                  <tr>
+                    <td>No clicks yet.</td>
+                  </tr>
+                ) : (
+                  (rows ?? []).map((row) => (
+                    <tr>
+                      <td>{name(row.key)}</td>
+                      <td class="num">{row.clicks}</td>
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          ))}
+        </div>
+      )}
+      <p class="muted">
+        Human clicks only, one per visitor and outlet per 30 minutes. Ad blockers drop some beacons.
+        Affiliate click-through rate needs page views from Cloudflare Web Analytics.
+      </p>
+    </section>
+
+    <section aria-labelledby="suggestions">
+      <h2 id="suggestions">Free suggestions ({data.freeSuggestions.length})</h2>
+      {data.freeSuggestions.length === 0 ? (
+        <p class="empty">No open suggestions.</p>
+      ) : (
+        <table>
+          <tbody>
+            {data.freeSuggestions.map((s) => (
+              <tr>
+                <th scope="row">
+                  {s.outlet_name}
+                  <br />
+                  <span class="muted">{s.url}</span>
+                </th>
+                <td>
+                  {s.country_iso}, {label(s.category)}
+                </td>
+                <td>{s.note}</td>
+                <td class="actions">
+                  <form method="post" action="/api/admin/close-suggestion/">
+                    <input type="hidden" name="id" value={s.id} />
+                    <button>Close</button>
+                  </form>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+      <p class="muted">
+        Add accepted outlets to the catalog with pnpm catalog:add, then close the suggestion.
+      </p>
+    </section>
+
+    <section aria-labelledby="corrections">
+      <h2 id="corrections">Correction requests ({data.corrections.length})</h2>
+      {data.corrections.length === 0 ? (
+        <p class="empty">No open corrections.</p>
+      ) : (
+        <table>
+          <tbody>
+            {data.corrections.map((c) => (
+              <tr>
+                <th scope="row">{outletName(c.outlet_id)}</th>
+                <td>{c.field}</td>
+                <td class="message">{c.message}</td>
+                <td class="actions">
+                  <form method="post" action="/api/admin/accept-correction/">
+                    <input type="hidden" name="id" value={c.id} />
+                    <button>Accept</button>
+                  </form>
+                  <form method="post" action="/api/admin/reject-correction/">
+                    <input type="hidden" name="id" value={c.id} />
+                    <button>Reject</button>
+                  </form>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </section>
+
+    <section aria-labelledby="export">
+      <h2 id="export">Export</h2>
+      <p class="exports">
+        <a href="/api/admin/export/?type=submissions">Submissions CSV</a>
+        <a href="/api/admin/export/?type=sponsorships">Slots CSV</a>
+        <a href="/api/admin/export/?type=corrections">Corrections CSV</a>
+        <a href="/api/admin/export/?type=clicks">Clicks CSV</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .admin {
+    display: grid;
+    gap: var(--space-7);
+    padding-block: var(--space-6);
+  }
+
+  h2 {
+    margin-bottom: var(--space-3);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--type-data);
+  }
+
+  th,
+  td,
+  caption {
+    padding: var(--space-2) var(--space-3) var(--space-2) 0;
+    border-bottom: 1px solid var(--rule);
+    text-align: start;
+    vertical-align: top;
+  }
+
+  caption {
+    font-weight: var(--weight-strong);
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+    text-align: end;
+    white-space: nowrap;
+  }
+
+  .muted,
+  .empty {
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .message {
+    max-width: 40ch;
+    white-space: pre-wrap;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  button {
+    min-height: 2.25rem;
+    padding-inline: var(--space-3);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--ink);
+    font: inherit;
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+  }
+
+  button.danger {
+    color: var(--danger);
+  }
+
+  .flash {
+    padding: var(--space-3);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+
+  .flash.error {
+    color: var(--danger);
+  }
+
+  .reports {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: var(--space-5);
+  }
+
+  .exports {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+  }
+</style>
