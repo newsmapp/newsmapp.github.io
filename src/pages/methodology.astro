@@ -1,0 +1,151 @@
+---
+import ProseLayout from '../layouts/ProseLayout.astro';
+import { THRESHOLDS } from '../lib/catalog/thresholds';
+---
+
+<ProseLayout
+  title="Methodology: how outlets are listed, labeled and ranked"
+  description="How NewsMap verifies outlets, labels paywalls and ownership, handles political lean and orders each category."
+  heading="How we list, label and rank outlets"
+  updated="2026-10-27"
+>
+  <p>
+    Every outlet on NewsMap is checked by a person before it appears. This page explains what each
+    label means, where the facts come from and how the order within a category is decided.
+  </p>
+
+  <h2>Which outlets are listed</h2>
+  <p>An outlet is listed when it:</p>
+  <ul>
+    <li>publishes original news or analysis regularly, not only aggregation or press releases;</li>
+    <li>has an identifiable publisher or owner;</li>
+    <li>is reachable over HTTPS.</li>
+  </ul>
+  <p>
+    A country page is published once it has at least {THRESHOLDS.countryMinOutlets} verified outlets
+    in at least {THRESHOLDS.countryMinCategories} categories and a reviewed overview of its media. A
+    category gets its own page with {THRESHOLDS.categoryPageMinOutlets} or more verified outlets.
+  </p>
+
+  <h2>How outlets are verified</h2>
+  <ol>
+    <li>
+      Candidates are drafted and checked automatically: we record the HTTP status, the final address
+      after redirects and the site's own title.
+    </li>
+    <li>
+      An editor checks each candidate against the outlet's own site and at least one independent
+      source.
+    </li>
+    <li>
+      Facts with consequences (owner, founding year, ownership type) carry a link to their source on
+      the outlet's profile.
+    </li>
+    <li>
+      Sites are re-checked every week. Broken or moved sites are flagged and fixed by an editor,
+      never automatically.
+    </li>
+  </ol>
+
+  <h2>Paywall labels</h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Label</th>
+        <th scope="col">Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Free</td>
+        <td>All articles can be read without payment or registration</td>
+      </tr>
+      <tr>
+        <td>Metered</td>
+        <td>A number of free articles per period, then a subscription</td>
+      </tr>
+      <tr>
+        <td>Freemium</td>
+        <td>Some sections free, premium sections paid</td>
+      </tr>
+      <tr>
+        <td>Paywall</td>
+        <td>Nearly all content requires a subscription</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    Paywalls are checked by visiting the site without an account, and recorded as of the date of
+    verification.
+  </p>
+
+  <h2>Ownership labels</h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Label</th>
+        <th scope="col">Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Private</td>
+        <td>Owned by a company or individuals</td>
+      </tr>
+      <tr>
+        <td>Public service</td>
+        <td>Publicly funded, with editorial independence guaranteed by law or charter</td>
+      </tr>
+      <tr>
+        <td>State-controlled</td>
+        <td>
+          Editorial line controlled by a government or ruling party. Always shown with a source.
+        </td>
+      </tr>
+      <tr>
+        <td>Nonprofit</td>
+        <td>Owned by a foundation, trust or nonprofit organization</td>
+      </tr>
+      <tr>
+        <td>Cooperative</td>
+        <td>Owned by its employees, readers or member publishers</td>
+      </tr>
+      <tr>
+        <td>Unknown</td>
+        <td>Ownership could not be established</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Political lean</h2>
+  <p>
+    NewsMap does not rate the political lean of outlets on its own judgment. By default every outlet
+    is unrated. A lean is shown only when a recognized, published rating exists, and that rating is
+    linked. When recognized sources disagree, the outlet is labeled mixed.
+  </p>
+
+  <h2>How each category is ordered</h2>
+  <p>
+    Positions within a category are an editorial judgment based on national reach, how often the
+    outlet publishes, the originality of its reporting and how long it has existed, in that order of
+    weight.
+  </p>
+  <p>
+    Sponsored listings never change these positions. They appear above the ranking, on a highlighted
+    background, labeled Sponsored, and are reviewed before they go live. See our{' '}
+    <a href="/disclosures/">disclosures</a>.
+  </p>
+
+  <h2>Press freedom and population data</h2>
+  <p>
+    Country pages cite the Reporters Without Borders World Press Freedom Index and World Bank
+    population figures, with the year of each figure and a link to the source.
+  </p>
+
+  <h2>Corrections</h2>
+  <p>
+    Anyone can <a href="/corrections/">report a correction</a>. An editor reviews every request;
+    accepted corrections appear with the next update of the site. If you leave an e-mail address we
+    tell you the outcome, and the address is anonymized 24 months after the request is closed.
+  </p>
+</ProseLayout>

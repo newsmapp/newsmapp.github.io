@@ -1,0 +1,243 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AffiliateCard from '../../../components/AffiliateCard.astro';
+import CategoryColumnCard from '../../../components/CategoryColumnCard.astro';
+import type { PublicCountry } from '../../../lib/catalog/public';
+import type { Category } from '../../../schemas/catalog.schema';
+import {
+  CONTINENT_LABELS,
+  LOCALE,
+  categoryLabel,
+  categoryPages,
+  countries,
+  countriesIn,
+  countryName,
+  hubs,
+  outletsFor,
+  paths,
+} from '../../../data/catalog';
+import { affiliates, sponsorshipsFor } from '../../../data/monetization';
+import { selectAffiliate } from '../../../lib/monetization/affiliates';
+import { OWNERSHIP_LABEL, PAYWALL_TAG } from '../../../lib/format';
+import { breadcrumbList, itemList } from '../../../lib/seo/jsonld';
+
+export function getStaticPaths() {
+  return countries.flatMap((country) =>
+    categoryPages(country).map((category) => ({
+      params: { country: country.slug, category },
+      props: { country, category },
+    })),
+  );
+}
+
+interface Props {
+  country: PublicCountry;
+  category: Category;
+}
+
+const { country, category } = Astro.props;
+const name = countryName(country);
+const label = categoryLabel(category);
+const outlets = outletsFor(country, category);
+const intro = country.seo_context[LOCALE]?.categories[category]?.intro ?? '';
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const affiliate = selectAffiliate(affiliates, { kind: 'category', category });
+// The same category in other countries of the continent, for internal linking.
+const elsewhere = countriesIn(country.continent)
+  .filter((c) => c.iso2 !== country.iso2 && categoryPages(c).includes(category))
+  .slice(0, 8);
+const crumbs = [
+  { label: 'Home', href: paths.home },
+  ...(hubs.has(country.continent)
+    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    : []),
+  { label: name, href: paths.country(country) },
+  { label, href: paths.category(country, category) },
+];
+const lower = label.charAt(0).toLowerCase() + label.slice(1);
+---
+
+<BaseLayout
+  title={`${label} in ${name}: ${outlets.length} outlets compared`}
+  description={`${outlets.length} ${lower} outlets in ${name} compared by founding year, owner, paywall and ownership type, in editorial order.`}
+  jsonld={[
+    breadcrumbList(siteUrl, crumbs),
+    itemList(
+      `${label} in ${name}`,
+      outlets.map((o) => ({
+        name: o.name,
+        url: new URL(paths.outlet(country, o), siteUrl).toString(),
+      })),
+    ),
+  ]}
+  searchable
+  searchType="category"
+>
+  <div class="page">
+    <div class="intro">
+      <Breadcrumbs items={crumbs} />
+      <h1>
+        {label} in {name}
+      </h1>
+      <p class="prose">{intro}</p>
+    </div>
+
+    <div class="layout">
+      <div class="main">
+        <div class="table-wrap">
+          <table>
+            <caption class="visually-hidden">
+              {label}in{name}, compared
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Outlet</th>
+                <th scope="col">Founded</th>
+                <th scope="col">Owner</th>
+                <th scope="col">Access</th>
+                <th scope="col">Ownership</th>
+                <th scope="col">RSS</th>
+              </tr>
+            </thead>
+            <tbody>
+              {outlets.map((outlet, index) => (
+                <tr>
+                  <td class="num">{index + 1}</td>
+                  <th scope="row">
+                    <a href={paths.outlet(country, outlet)}>{outlet.name}</a>
+                  </th>
+                  <td class="num">{outlet.founded_year ?? 'Unknown'}</td>
+                  <td>{outlet.owner ?? 'Unknown'}</td>
+                  <td>{PAYWALL_TAG[outlet.paywall]}</td>
+                  <td>{OWNERSHIP_LABEL[outlet.ownership_type]}</td>
+                  <td>
+                    {outlet.rss_url ? (
+                      <a href={outlet.rss_url} rel="noopener">
+                        Feed
+                      </a>
+                    ) : (
+                      'None'
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <aside class="side">
+        <CategoryColumnCard
+          country={country}
+          category={category}
+          outlets={outlets}
+          sponsorships={sponsorshipsFor(country.iso2, category)}
+          hasPage={false}
+          visible={outlets.length}
+        />
+        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
+        {elsewhere.length > 0 && (
+          <section aria-labelledby="elsewhere">
+            <h2 id="elsewhere">
+              {label} elsewhere in {CONTINENT_LABELS[country.continent]}
+            </h2>
+            <ul class="links">
+              {elsewhere.map((c) => (
+                <li>
+                  <a href={paths.category(c, category)}>{countryName(c)}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <p class="back">
+          <a href={paths.country(country)}>All categories in {name}</a>
+        </p>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .intro {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-6);
+  }
+
+  .layout {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  @media (min-width: 1100px) {
+    .layout {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      align-items: start;
+    }
+  }
+
+  .main {
+    min-width: 0;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+
+  table {
+    width: 100%;
+    min-width: 44rem;
+    border-collapse: collapse;
+    font-size: var(--type-data);
+  }
+
+  th,
+  td {
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--rule);
+    text-align: start;
+    vertical-align: top;
+  }
+
+  thead th {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+    font-weight: var(--weight-strong);
+    white-space: nowrap;
+  }
+
+  tbody th {
+    font-weight: var(--weight-strong);
+  }
+
+  tbody tr:last-child > * {
+    border-bottom: 0;
+  }
+
+  .num {
+    color: var(--ink-2);
+    text-align: end;
+    white-space: nowrap;
+  }
+
+  .side {
+    display: grid;
+    gap: var(--space-5);
+  }
+
+  .side h2 {
+    margin-bottom: var(--space-2);
+    font-size: var(--type-h3);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+  }
+</style>

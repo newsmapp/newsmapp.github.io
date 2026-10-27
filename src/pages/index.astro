@@ -1,12 +1,176 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CountryList from '../components/CountryList.astro';
+import Icon from '../components/Icon.astro';
+import { CONTINENT_LABELS, countries, countryName, hubs, paths } from '../data/catalog';
+import { CONTINENTS } from '../schemas/common';
+import { plural } from '../lib/format';
+import { organization, website } from '../lib/seo/jsonld';
+
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const outletCount = countries.reduce((n, c) => n + c.outlets.length, 0);
+// Primary continent only, so transcontinental countries are listed once.
+const groups = CONTINENTS.map((continent) => ({
+  continent,
+  countries: countries.filter((c) => c.continent === continent),
+})).filter((g) => g.countries.length > 0);
+const picks = countries
+  .flatMap((country) =>
+    country.outlets
+      .filter((o) => o.editor_pick)
+      .slice(0, 1)
+      .map((outlet) => ({ country, outlet })),
+  )
+  .slice(0, 12);
+const description =
+  countries.length > 0
+    ? `Compare ${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries by topic, paywall and ownership.`
+    : 'A directory of newspapers, broadcasters and news sites by country, with paywall and ownership for each.';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NewsMap</title>
-  </head>
-  <body>
-    <h1>NewsMap</h1>
-  </body>
-</html>
+<BaseLayout
+  title="NewsMap"
+  description={description}
+  jsonld={[website(siteUrl), organization(siteUrl)]}
+>
+  <div class="page">
+    <section class="intro">
+      <h1>The news sources of each country, side by side</h1>
+      <p class="lede">
+        {countries.length > 0
+          ? `${plural(outletCount, 'outlet')} from ${plural(countries.length, 'country', 'countries')}, sorted into 8 categories and ranked by our editors. Each one shows whether it is free to read and who owns it.`
+          : 'Country pages are being reviewed and will appear here once their outlets are verified.'}
+      </p>
+      <button class="find" type="button" data-open-search>
+        <Icon name="search" size={18} />
+        <span>Find a country or outlet</span>
+        <kbd class="data">⌘&nbsp;K</kbd>
+      </button>
+    </section>
+
+    {groups.map((group) => (
+      <section class="continent" aria-labelledby={`c-${group.continent}`}>
+        <h2 id={`c-${group.continent}`}>
+          {hubs.has(group.continent) ? (
+            <a href={paths.continent(group.continent)}>{CONTINENT_LABELS[group.continent]}</a>
+          ) : (
+            CONTINENT_LABELS[group.continent]
+          )}
+        </h2>
+        <CountryList countries={group.countries} />
+      </section>
+    ))}
+
+    {picks.length > 0 && (
+      <section class="picks" aria-labelledby="picks">
+        <h2 id="picks">A starting point in each country</h2>
+        <ul>
+          {picks.map(({ country, outlet }) => (
+            <li>
+              <a href={paths.outlet(country, outlet)}>{outlet.name}</a>
+              <span class="where">{countryName(country)}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    <p class="note">
+      New countries are added once at least 15 of their outlets are verified.{' '}
+      <a href="/methodology/">Read how we verify outlets</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .intro {
+    display: grid;
+    gap: var(--space-4);
+    max-width: 46rem;
+    padding-block: var(--space-7) var(--space-6);
+  }
+
+  .lede {
+    color: var(--ink-2);
+    font-size: 1.125rem;
+  }
+
+  .find {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    width: min(100%, 30rem);
+    min-height: 3rem;
+    padding-inline: var(--space-4);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--ink-2);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .find span {
+    flex: 1;
+    text-align: start;
+  }
+
+  .find:hover {
+    border-color: var(--link);
+    color: var(--ink);
+  }
+
+  kbd {
+    padding: 0 var(--space-1);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-tag);
+    font-family: inherit;
+    font-size: var(--type-label);
+  }
+
+  .continent {
+    margin-top: var(--space-6);
+  }
+
+  .continent h2,
+  .picks h2 {
+    margin-bottom: var(--space-2);
+    font-size: var(--type-h3);
+  }
+
+  .continent h2 a {
+    color: var(--ink);
+  }
+
+  .picks {
+    margin-top: var(--space-7);
+  }
+
+  .picks ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: var(--space-2) var(--space-5);
+  }
+
+  .picks li {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding-block: var(--space-2);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--type-data);
+  }
+
+  .picks a {
+    font-weight: var(--weight-strong);
+  }
+
+  .where {
+    color: var(--ink-2);
+  }
+
+  .note {
+    margin-top: var(--space-7);
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+</style>

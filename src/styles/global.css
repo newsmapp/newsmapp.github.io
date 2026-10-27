@@ -1,0 +1,408 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/libre-franklin/wght.css';
+@import '@fontsource-variable/source-serif-4/wght.css';
+@import './tokens.css';
+
+/* Only project tokens: the stock Tailwind palette, radii and fonts are removed on purpose. */
+@theme inline {
+  --color-*: initial;
+  --radius-*: initial;
+  --font-*: initial;
+  --shadow-*: initial;
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-link: var(--link);
+  --color-sponsor: var(--sponsor);
+  --color-on-sponsor: var(--on-sponsor);
+  --color-danger: var(--danger);
+  --radius-tag: var(--radius-tag);
+  --radius-card: var(--radius-card);
+  --radius-float: var(--radius-float);
+  --font-ui: var(--font-ui);
+  --font-prose: var(--font-prose);
+  --shadow-float: var(--shadow-float);
+}
+
+@layer base {
+  html {
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-ui);
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: calc(var(--space-8) + var(--space-2));
+  }
+
+  body {
+    min-height: 100dvh;
+    font-size: var(--type-body);
+    line-height: 1.5;
+    font-feature-settings: 'tnum' 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: var(--weight-strong);
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: var(--type-h1);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: var(--type-h2);
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+  }
+
+  h3 {
+    font-size: var(--type-h3);
+    line-height: 1.25;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+
+  a:hover {
+    color: var(--link-hover);
+    text-decoration-thickness: 2px;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: var(--radius-tag);
+  }
+
+  ::selection {
+    background: var(--selection);
+    color: var(--ink);
+  }
+
+  input,
+  select,
+  textarea {
+    caret-color: var(--link);
+    accent-color: var(--link);
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  button,
+  a,
+  summary,
+  select {
+    touch-action: manipulation;
+  }
+
+  :where(table) {
+    font-variant-numeric: tabular-nums;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+}
+
+@layer components {
+  .prose {
+    font-family: var(--font-prose);
+    font-size: var(--type-prose);
+    line-height: 1.6;
+    max-width: var(--measure);
+  }
+
+  .prose p + p {
+    margin-top: var(--space-4);
+  }
+
+  .data {
+    font-size: var(--type-data);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .page {
+    width: 100%;
+    max-width: var(--page-max);
+    margin-inline: auto;
+    padding-inline: max(var(--space-4), env(safe-area-inset-left))
+      max(var(--space-4), env(safe-area-inset-right));
+  }
+
+  @media (min-width: 640px) {
+    .page {
+      padding-inline: var(--space-6);
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* Island styles (Preact components cannot use Astro scoped styles). */
+@layer components {
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: var(--space-3);
+    min-height: 3.75rem;
+  }
+
+  .filter {
+    display: grid;
+    gap: 2px;
+  }
+
+  .filter-label {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+    font-weight: var(--weight-strong);
+  }
+
+  .filter select,
+  .filter input {
+    min-height: 2.25rem;
+    padding-inline: var(--space-2);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    font: inherit;
+    font-size: var(--type-data);
+  }
+
+  .filter select:hover,
+  .filter input:hover {
+    border-color: var(--rule-strong);
+  }
+
+  .filter-text input {
+    width: 12rem;
+  }
+
+  .filter-result {
+    margin-inline-start: auto;
+    color: var(--ink-2);
+    font-size: var(--type-data);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .filter-reset {
+    min-height: 2.25rem;
+    padding-inline: var(--space-3);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--link);
+    font: inherit;
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+  }
+
+  .palette {
+    width: min(36rem, calc(100vw - 2rem));
+    max-height: min(32rem, calc(100dvh - 4rem));
+    margin: 12vh auto auto;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-float);
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: var(--shadow-float);
+    overscroll-behavior: contain;
+  }
+
+  .palette::backdrop {
+    background: oklch(0.2 0.01 250 / 0.35);
+  }
+
+  .palette input {
+    width: 100%;
+    padding: var(--space-4);
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    font: inherit;
+    font-size: var(--type-body);
+  }
+
+  .palette input:focus-visible {
+    outline: none;
+  }
+
+  .palette-results a {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-2) var(--space-4);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .palette-results [aria-selected='true'] a {
+    background: var(--surface-hover);
+    color: var(--link);
+  }
+
+  .palette-title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .palette-type {
+    flex: none;
+    color: var(--ink-2);
+    font-size: var(--type-label);
+  }
+
+  .palette-status:not(:empty) {
+    padding: var(--space-3) var(--space-4);
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+}
+
+@layer components {
+  @media (max-width: 639px) {
+    .filters {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-2);
+    }
+
+    .filters .filter-label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+    }
+
+    .filter select,
+    .filter-text input {
+      width: 100%;
+    }
+
+    .filter-result {
+      margin-inline-start: 0;
+      align-self: center;
+    }
+  }
+}
+
+@layer components {
+  .form {
+    display: grid;
+    gap: var(--space-4);
+    max-width: 36rem;
+  }
+
+  .field {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .field > span:first-child {
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+  }
+
+  .field .hint {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+  }
+
+  .field input,
+  .field select,
+  .field textarea {
+    width: 100%;
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-card);
+    font: inherit;
+  }
+
+  .field textarea {
+    min-height: 7rem;
+    resize: vertical;
+  }
+
+  .field [aria-invalid='true'] {
+    border-color: var(--danger);
+  }
+
+  .field-error {
+    color: var(--danger);
+    font-size: var(--type-data);
+  }
+
+  .field-error:empty {
+    display: none;
+  }
+
+  .submit {
+    justify-self: start;
+    min-height: 2.75rem;
+    padding-inline: var(--space-5);
+    border: 0;
+    border-radius: var(--radius-card);
+    background: var(--link);
+    color: var(--on-link);
+    font: inherit;
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+  }
+
+  .submit:hover {
+    background: var(--link-hover);
+  }
+
+  .submit:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+
+  .form-status:not(:empty) {
+    padding: var(--space-3);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+}

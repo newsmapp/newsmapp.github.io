@@ -1,0 +1,457 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import AffiliateCard from '../../../../components/AffiliateCard.astro';
+import Icon from '../../../../components/Icon.astro';
+import type { PublicCountry, PublicOutlet } from '../../../../lib/catalog/public';
+import {
+  CONTINENT_LABELS,
+  LOCALE,
+  categoryLabel,
+  categoryPages,
+  countries,
+  countryName,
+  hubs,
+  isProfileIndexable,
+  outletsFor,
+  paths,
+  similarOutlets,
+} from '../../../../data/catalog';
+import { affiliates } from '../../../../data/monetization';
+import { selectAffiliate } from '../../../../lib/monetization/affiliates';
+import { BADGE_SIZE } from '../../../../lib/badge';
+import {
+  FORMAT_LABEL,
+  OWNERSHIP_LABEL,
+  PAYWALL_DESCRIPTION,
+  PAYWALL_TAG,
+  displayHost,
+} from '../../../../lib/format';
+import { breadcrumbList, newsMediaOrganization } from '../../../../lib/seo/jsonld';
+
+export function getStaticPaths() {
+  return countries.flatMap((country) =>
+    country.outlets.map((outlet) => ({
+      params: { country: country.slug, outlet: outlet.slug },
+      props: { country, outlet },
+    })),
+  );
+}
+
+interface Props {
+  country: PublicCountry;
+  outlet: PublicOutlet;
+}
+
+const { country, outlet } = Astro.props;
+const name = countryName(country);
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const indexable = isProfileIndexable(outlet);
+const about = outlet.about[LOCALE];
+const similar = similarOutlets(country, outlet);
+const withPages = new Set(categoryPages(country));
+const affiliate = selectAffiliate(affiliates, {
+  kind: 'outlet',
+  category: outlet.primary_category,
+  paywall: outlet.paywall,
+});
+const ranks = outlet.categories.map((category) => ({
+  category,
+  position: outletsFor(country, category).findIndex((o) => o.id === outlet.id) + 1,
+}));
+const primary = ranks.find((r) => r.category === outlet.primary_category) ?? ranks[0];
+const ownerSourced = outlet.sources.some((s) => s.field === 'owner');
+const crumbs = [
+  { label: 'Home', href: paths.home },
+  ...(hubs.has(country.continent)
+    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    : []),
+  { label: name, href: paths.country(country) },
+  { label: outlet.name, href: paths.outlet(country, outlet) },
+];
+const profileUrl = new URL(paths.outlet(country, outlet), siteUrl).toString();
+const badgeUrl = new URL(`/badge/${country.slug}/${outlet.slug}.svg`, siteUrl).toString();
+const badgeSnippet = `<a href="${profileUrl}"><img src="${badgeUrl}" alt="NewsMap" width="${BADGE_SIZE.width}" height="${BADGE_SIZE.height}"></a>`;
+const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPTION[outlet.paywall]}. ${OWNERSHIP_LABEL[outlet.ownership_type]} ownership.`;
+---
+
+<BaseLayout
+  title={`${outlet.name} (${name}): ownership, paywall and alternatives`}
+  description={description}
+  noindex={!indexable}
+  type="profile"
+  jsonld={[
+    breadcrumbList(siteUrl, crumbs),
+    newsMediaOrganization({
+      name: outlet.name,
+      url: outlet.url,
+      foundingYear: outlet.founded_year,
+      parentOrganization: ownerSourced ? outlet.owner : null,
+    }),
+  ]}
+  searchable={indexable}
+  searchType="outlet"
+>
+  <div class="page">
+    <div class="intro">
+      <Breadcrumbs items={crumbs} />
+      <h1>
+        <img class="favicon" src={outlet.icon} alt="" width="32" height="32" />
+        <span translate="no">{outlet.name}</span>
+      </h1>
+      <p class="lede">{outlet.pitch.en}</p>
+      <p class="actions">
+        <a
+          class="visit"
+          href={outlet.url}
+          rel="noopener"
+          data-track={outlet.id}
+          data-country={country.iso2}
+          data-category={outlet.primary_category}
+        >
+          Visit {displayHost(outlet.url)}
+          <Icon name="arrow-up-right" size={16} />
+        </a>
+        <a href={`/corrections/?outlet=${outlet.id}`}>Report a correction</a>
+      </p>
+    </div>
+
+    <div class="layout">
+      <div class="main">
+        <section aria-labelledby="facts">
+          <h2 id="facts">Facts</h2>
+          <dl class="facts">
+            <dt>Country</dt>
+            <dd>
+              <a href={paths.country(country)}>{name}</a>
+            </dd>
+            <dt>Ranked in</dt>
+            <dd>
+              <ul class="ranks">
+                {ranks.map(({ category, position }) => (
+                  <li>
+                    #{position} in{' '}
+                    {withPages.has(category) ? (
+                      <a href={paths.category(country, category)}>{categoryLabel(category)}</a>
+                    ) : (
+                      <a href={`${paths.country(country)}#${category}`}>
+                        {categoryLabel(category)}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </dd>
+            <dt>Access</dt>
+            <dd>
+              {PAYWALL_TAG[outlet.paywall]}: {PAYWALL_DESCRIPTION[outlet.paywall].toLowerCase()}
+            </dd>
+            <dt>Ownership</dt>
+            <dd>{OWNERSHIP_LABEL[outlet.ownership_type]}</dd>
+            {outlet.owner && (
+              <>
+                <dt>Owner</dt>
+                <dd>{outlet.owner}</dd>
+              </>
+            )}
+            {outlet.founded_year && (
+              <>
+                <dt>Founded</dt>
+                <dd class="num">{outlet.founded_year}</dd>
+              </>
+            )}
+            <dt>Format</dt>
+            <dd>{FORMAT_LABEL[outlet.format]}</dd>
+            {outlet.region && (
+              <>
+                <dt>Region</dt>
+                <dd>{outlet.region}</dd>
+              </>
+            )}
+            <dt>Language</dt>
+            <dd>
+              {new Intl.DisplayNames(['en'], { type: 'language' }).of(outlet.language) ??
+                outlet.language}
+            </dd>
+            <dt>RSS</dt>
+            <dd>
+              {outlet.rss_url ? (
+                <a href={outlet.rss_url} rel="noopener">
+                  {displayHost(outlet.rss_url)} feed
+                </a>
+              ) : (
+                'None listed'
+              )}
+            </dd>
+          </dl>
+        </section>
+
+        {about?.reviewed && (
+          <section aria-labelledby="about">
+            <h2 id="about">About {outlet.name}</h2>
+            <p class="prose">{about.text}</p>
+          </section>
+        )}
+
+        {outlet.sources.length > 0 && (
+          <section aria-labelledby="sources">
+            <h2 id="sources">Sources</h2>
+            <ul class="sources">
+              {outlet.sources.map((source) => (
+                <li>
+                  <span class="field">{source.field.replace(/_/g, ' ')}</span>
+                  <a href={source.url} rel="noopener">
+                    {displayHost(source.url)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <section aria-labelledby="badge">
+          <h2 id="badge">Badge for {displayHost(outlet.url)}</h2>
+          <p class="hint">
+            Show readers that {outlet.name} is listed
+            {primary && primary.position > 0
+              ? ` as #${primary.position} in ${categoryLabel(primary.category)}`
+              : ''}
+            . Paste this HTML into your site.
+          </p>
+          <img
+            class="badge-preview"
+            src={`/badge/${country.slug}/${outlet.slug}.svg`}
+            alt="NewsMap"
+            width={BADGE_SIZE.width}
+            height={BADGE_SIZE.height}
+            loading="lazy"
+          />
+          <div class="snippet">
+            <code id="badge-code">{badgeSnippet}</code>
+            <button type="button" data-copy="badge-code">
+              Copy HTML
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side">
+        {similar.length > 0 && (
+          <section aria-labelledby="similar">
+            <h2 id="similar">Alternatives in {name}</h2>
+            <ul class="similar">
+              {similar.map((o) => (
+                <li>
+                  <img src={o.icon} alt="" width="20" height="20" loading="lazy" decoding="async" />
+                  <a href={paths.outlet(country, o)}>{o.name}</a>
+                  <span class="tag">{PAYWALL_TAG[o.paywall]}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const code = document.getElementById(button.dataset.copy ?? '');
+      if (!code) return;
+      try {
+        await navigator.clipboard.writeText(code.textContent ?? '');
+        button.textContent = 'Copied';
+      } catch {
+        getSelection()?.selectAllChildren(code);
+        button.textContent = 'Press ⌘ C to copy';
+      }
+      setTimeout(() => (button.textContent = 'Copy HTML'), 2000);
+    });
+  });
+</script>
+
+<style>
+  .intro {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-6);
+  }
+
+  h1 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    overflow-wrap: anywhere;
+  }
+
+  .favicon {
+    flex: none;
+    border-radius: var(--radius-card);
+  }
+
+  .lede {
+    max-width: 60ch;
+    color: var(--ink-2);
+    font-size: 1.125rem;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3) var(--space-5);
+  }
+
+  .visit {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    min-height: 2.75rem;
+    padding-inline: var(--space-4);
+    border-radius: var(--radius-card);
+    background: var(--link);
+    color: var(--on-link);
+    font-weight: var(--weight-strong);
+    text-decoration: none;
+  }
+
+  .visit:hover {
+    background: var(--link-hover);
+    color: var(--on-link);
+  }
+
+  .layout {
+    display: grid;
+    gap: var(--space-7);
+  }
+
+  @media (min-width: 1024px) {
+    .layout {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      align-items: start;
+    }
+  }
+
+  .main {
+    display: grid;
+    gap: var(--space-7);
+  }
+
+  h2 {
+    margin-bottom: var(--space-3);
+  }
+
+  .side h2 {
+    font-size: var(--type-h3);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: minmax(7rem, max-content) 1fr;
+    max-width: 44rem;
+    font-size: var(--type-data);
+  }
+
+  .facts dt,
+  .facts dd {
+    padding-block: var(--space-2);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .facts dt {
+    color: var(--ink-2);
+    font-weight: var(--weight-strong);
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ranks {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .sources {
+    display: grid;
+    gap: var(--space-2);
+    font-size: var(--type-data);
+  }
+
+  .sources .field {
+    display: inline-block;
+    min-width: 9rem;
+    color: var(--ink-2);
+    text-transform: capitalize;
+  }
+
+  .hint {
+    max-width: 60ch;
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .badge-preview {
+    margin-block: var(--space-3);
+  }
+
+  .snippet {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--space-2);
+    align-items: start;
+    max-width: 44rem;
+  }
+
+  .snippet code {
+    padding: var(--space-3);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    font-size: var(--type-label);
+    overflow-wrap: anywhere;
+  }
+
+  .snippet button {
+    min-height: 2.25rem;
+    padding-inline: var(--space-3);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--link);
+    font: inherit;
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+  }
+
+  .similar {
+    border-top: 1px solid var(--rule);
+  }
+
+  .similar li {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: var(--row-height);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--type-data);
+  }
+
+  .similar a {
+    overflow: hidden;
+    font-weight: var(--weight-strong);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .tag {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+  }
+</style>

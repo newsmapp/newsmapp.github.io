@@ -1,0 +1,97 @@
+---
+import type { Affiliate } from '../lib/monetization/affiliates';
+import { isVpnOffer } from '../lib/monetization/affiliates';
+import { paths } from '../data/catalog';
+
+interface Props {
+  affiliate: Affiliate;
+  /** ISO2 of the page's country: the VPN offer is hidden for visitors from that country. */
+  pageCountry?: string;
+}
+
+const { affiliate, pageCountry } = Astro.props;
+---
+
+<aside
+  class="affiliate"
+  aria-label="Partner offer"
+  data-affiliate
+  data-vpn={isVpnOffer(affiliate) ? '' : undefined}
+  data-page-country={pageCountry}
+>
+  <p class="headline">{affiliate.headline}</p>
+  <p class="body">{affiliate.body}</p>
+  <p class="actions">
+    <a class="cta" href={paths.go(`aff-${affiliate.id}`)} rel="sponsored noopener">
+      {affiliate.cta}
+    </a>
+    <span class="disclosure">
+      Partner link. We may earn a commission. <a href="/disclosures/">How we pick partners</a>
+    </span>
+  </p>
+</aside>
+
+<script>
+  import { hideRestrictedOffers } from '../scripts/geo-offers';
+  void hideRestrictedOffers();
+</script>
+
+<style>
+  .affiliate {
+    display: grid;
+    gap: var(--space-2);
+    min-height: 9.5rem;
+    padding: var(--space-4);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+
+  .affiliate[data-hidden] {
+    visibility: hidden;
+  }
+
+  .headline {
+    font-weight: var(--weight-strong);
+  }
+
+  .body {
+    max-width: 60ch;
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-4);
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.25rem;
+    padding-inline: var(--space-3);
+    border-radius: var(--radius-card);
+    background: var(--link);
+    color: var(--on-link);
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+    text-decoration: none;
+  }
+
+  .cta:hover {
+    background: var(--link-hover);
+    color: var(--on-link);
+  }
+
+  .disclosure {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+  }
+
+  .disclosure a {
+    color: inherit;
+  }
+</style>

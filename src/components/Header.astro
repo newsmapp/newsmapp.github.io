@@ -1,0 +1,158 @@
+---
+import Icon from './Icon.astro';
+---
+
+<header class="site-header">
+  <div class="page bar">
+    <a class="wordmark" href="/" translate="no">
+      NewsMap
+    </a>
+    <button class="search" type="button" data-open-search aria-keyshortcuts="Meta+K Control+K">
+      <Icon name="search" size={16} />
+      <span class="search-label">Search countries and outlets</span>
+      <kbd class="data">⌘&nbsp;K</kbd>
+    </button>
+    <nav aria-label="Site" class="nav">
+      <a href="/advertise/">Advertise</a>
+    </nav>
+    <button class="theme" type="button" data-theme-toggle aria-label="Switch to dark theme">
+      <Icon name="moon" size={18} class="when-light" />
+      <Icon name="sun" size={18} class="when-dark" />
+    </button>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+  const label = (theme: string) => `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`;
+  const root = document.documentElement;
+  if (toggle) {
+    toggle.setAttribute('aria-label', label(root.dataset.theme ?? 'light'));
+    toggle.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      try {
+        localStorage.setItem('theme', next);
+      } catch {
+        // Storage can be unavailable (private mode); the choice then lasts for this page only.
+      }
+      document
+        .querySelector('meta[name="theme-color"]')
+        ?.setAttribute('content', getComputedStyle(root).getPropertyValue('--canvas').trim());
+      toggle.setAttribute('aria-label', label(next));
+    });
+  }
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-sticky);
+    border-bottom: 1px solid var(--rule);
+    background: var(--canvas);
+  }
+
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-height: 3.5rem;
+  }
+
+  .wordmark {
+    color: var(--ink);
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+  }
+
+  .search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: var(--space-2);
+    max-width: 26rem;
+    min-height: 2.5rem;
+    margin-inline-start: auto;
+    padding-inline: var(--space-3);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--ink-2);
+    font: inherit;
+    font-size: var(--type-data);
+    cursor: pointer;
+  }
+
+  .search:hover {
+    border-color: var(--rule-strong);
+    color: var(--ink);
+  }
+
+  .search-label {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  kbd {
+    padding: 0 var(--space-1);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-tag);
+    font-family: inherit;
+    font-size: var(--type-label);
+  }
+
+  .nav a {
+    color: var(--ink);
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  .theme {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: var(--radius-card);
+    background: none;
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+
+  .theme:hover {
+    background: var(--surface-hover);
+    color: var(--ink);
+  }
+
+  :global([data-theme='dark']) .theme :global(.when-light),
+  :global(:root:not([data-theme='dark'])) .theme :global(.when-dark) {
+    display: none;
+  }
+
+  @media (max-width: 639px) {
+    .search {
+      flex: 0 0 auto;
+      width: 2.5rem;
+      padding: 0;
+      justify-content: center;
+    }
+
+    .search-label,
+    kbd {
+      display: none;
+    }
+  }
+</style>

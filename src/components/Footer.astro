@@ -1,0 +1,80 @@
+---
+const year = new Date().getUTCFullYear();
+---
+
+<footer class="site-footer">
+  <div class="page cols">
+    <nav aria-label="About NewsMap">
+      <ul>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/methodology/">Methodology</a>
+        </li>
+        <li>
+          <a href="/corrections/">Report a correction</a>
+        </li>
+        <li>
+          <a href="/advertise/">Advertise</a>
+        </li>
+      </ul>
+    </nav>
+    <nav aria-label="Legal">
+      <ul>
+        <li>
+          <a href="/disclosures/">Disclosures</a>
+        </li>
+        <li>
+          <a href="/privacy/">Privacy</a>
+        </li>
+        <li>
+          <a href="/terms/">Terms</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="note">
+      Outlets are ranked by our editors, not by payment. Sponsored listings are labeled and kept
+      apart from the ranking. © {year} NewsMap.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: var(--space-8);
+    padding-block: var(--space-6) var(--space-7);
+    border-top: 1px solid var(--rule);
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .cols {
+    display: grid;
+    gap: var(--space-5);
+  }
+
+  @media (min-width: 768px) {
+    .cols {
+      grid-template-columns: auto auto 1fr;
+      column-gap: var(--space-7);
+    }
+  }
+
+  ul {
+    display: grid;
+    gap: var(--space-2);
+  }
+
+  a {
+    color: var(--ink-2);
+  }
+
+  a:hover {
+    color: var(--link);
+  }
+
+  .note {
+    max-width: 48ch;
+  }
+</style>

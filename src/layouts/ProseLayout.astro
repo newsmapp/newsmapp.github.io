@@ -1,0 +1,101 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  heading: string;
+  updated?: string;
+}
+
+const { title, description, heading, updated } = Astro.props;
+const updatedLabel = updated
+  ? new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(
+      new Date(updated),
+    )
+  : null;
+---
+
+<BaseLayout title={title} description={description} type="article" searchable searchType="page">
+  <article class="page doc">
+    <header>
+      <h1>{heading}</h1>
+      {updatedLabel && (
+        <p class="updated">
+          Last updated <time datetime={updated}>{updatedLabel}</time>
+        </p>
+      )}
+    </header>
+    <div class="prose body">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .doc {
+    padding-block: var(--space-6) var(--space-7);
+  }
+
+  header {
+    max-width: var(--measure);
+    margin-bottom: var(--space-6);
+  }
+
+  .updated {
+    margin-top: var(--space-2);
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .body :global(h2) {
+    margin-top: var(--space-7);
+    margin-bottom: var(--space-3);
+    font-family: var(--font-ui);
+  }
+
+  .body :global(h3) {
+    margin-top: var(--space-5);
+    margin-bottom: var(--space-2);
+    font-family: var(--font-ui);
+  }
+
+  .body :global(ul),
+  .body :global(ol) {
+    margin-block: var(--space-3);
+    padding-inline-start: 1.25em;
+  }
+
+  .body :global(ul) {
+    list-style: disc;
+  }
+
+  .body :global(ol) {
+    list-style: decimal;
+  }
+
+  .body :global(li + li) {
+    margin-top: var(--space-1);
+  }
+
+  .body :global(table) {
+    width: 100%;
+    margin-block: var(--space-4);
+    border-collapse: collapse;
+    font-family: var(--font-ui);
+    font-size: var(--type-data);
+  }
+
+  .body :global(th),
+  .body :global(td) {
+    padding: var(--space-2) var(--space-3) var(--space-2) 0;
+    border-bottom: 1px solid var(--rule);
+    text-align: start;
+    vertical-align: top;
+  }
+
+  .body :global(th) {
+    color: var(--ink-2);
+    font-weight: var(--weight-strong);
+  }
+</style>

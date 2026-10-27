@@ -1,0 +1,323 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryColumnCard from '../../components/CategoryColumnCard.astro';
+import AffiliateCard from '../../components/AffiliateCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import PressFreedom from '../../components/PressFreedom.astro';
+import Faq from '../../components/Faq.astro';
+import CountryList from '../../components/CountryList.astro';
+import FilterBar from '../../components/FilterBar';
+import type { PublicCountry } from '../../lib/catalog/public';
+import {
+  CONTINENT_LABELS,
+  LOCALE,
+  categoryLabel,
+  categoryPages,
+  countries,
+  countryName,
+  hubs,
+  paths,
+  relatedCountries,
+} from '../../data/catalog';
+import { affiliates, sponsorshipsFor } from '../../data/monetization';
+import { countryGrid } from '../../lib/catalog/thresholds';
+import { selectAffiliate } from '../../lib/monetization/affiliates';
+import { FORMAT_LABEL, OWNERSHIP_LABEL, PAYWALL_TAG, plural } from '../../lib/format';
+import { breadcrumbList, faqPage, itemList } from '../../lib/seo/jsonld';
+import { FORMATS, OWNERSHIP_TYPES, PAYWALLS } from '../../schemas/catalog.schema';
+
+export function getStaticPaths() {
+  return countries.map((country) => ({ params: { country: country.slug }, props: { country } }));
+}
+
+interface Props {
+  country: PublicCountry;
+}
+
+const { country } = Astro.props;
+const name = countryName(country);
+const context = country.seo_context[LOCALE];
+const grid = countryGrid(country.outlets);
+const withPages = new Set(categoryPages(country));
+const related = relatedCountries(country);
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const affiliate = selectAffiliate(affiliates, {
+  kind: 'country',
+  paywalls: country.outlets.map((o) => o.paywall),
+});
+
+const crumbs = [
+  { label: 'Home', href: paths.home },
+  ...(hubs.has(country.continent)
+    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    : []),
+  { label: name, href: paths.country(country) },
+];
+
+const present = <T extends string>(
+  values: readonly T[],
+  pick: (o: PublicCountry['outlets'][number]) => T,
+) => values.filter((value) => country.outlets.some((o) => pick(o) === value));
+
+const total = country.outlets.length;
+const title = `Newspapers in ${name}: ${total} outlets compared`;
+const description = `Compare ${total} newspapers, TV and radio news and news sites in ${name}, ranked by category, with paywall and ownership for each.`;
+const jsonld = [
+  breadcrumbList(siteUrl, crumbs),
+  itemList(
+    `News outlets in ${name}`,
+    country.outlets.map((o) => ({
+      name: o.name,
+      url: new URL(paths.outlet(country, o), siteUrl).toString(),
+    })),
+  ),
+  ...(context ? [faqPage(context.faq)] : []),
+];
+---
+
+<BaseLayout title={title} description={description} jsonld={jsonld} searchable searchType="country">
+  <div class="page">
+    <div class="intro">
+      <Breadcrumbs items={crumbs} />
+      <h1>
+        <img class="flag" src={paths.flag(country.iso2)} alt="" width="32" height="24" />
+        Newspapers and news sites in {name}
+      </h1>
+      <p class="lede">
+        {plural(total, 'outlet')} in {plural(grid.columns.length, 'category', 'categories')}, ranked
+        by our editors. <a href="/methodology/">How we rank</a>
+      </p>
+    </div>
+
+    <nav class="tabs" aria-label="Categories">
+      {grid.columns.map(({ category }) => (
+        <a href={`#${category}`}>{categoryLabel(category)}</a>
+      ))}
+      {grid.more.length > 0 && <a href="#more-outlets">More outlets</a>}
+    </nav>
+
+    <div class="filterbar">
+      <FilterBar
+        client:load
+        total={total}
+        paywalls={present(PAYWALLS, (o) => o.paywall).map((v) => ({
+          value: v,
+          label: PAYWALL_TAG[v],
+        }))}
+        ownership={present(OWNERSHIP_TYPES, (o) => o.ownership_type).map((v) => ({
+          value: v,
+          label: OWNERSHIP_LABEL[v],
+        }))}
+        formats={present(FORMATS, (o) => o.format).map((v) => ({
+          value: v,
+          label: FORMAT_LABEL[v],
+        }))}
+      />
+    </div>
+
+    <div class="grid">
+      {grid.columns.map(({ category, outlets }, index) => (
+        <CategoryColumnCard
+          country={country}
+          category={category}
+          outlets={outlets}
+          sponsorships={sponsorshipsFor(country.iso2, category)}
+          hasPage={withPages.has(category)}
+          aboveFold={index < 4}
+        />
+      ))}
+      {grid.more[0] && (
+        <CategoryColumnCard
+          country={country}
+          category={grid.more[0].primary_category}
+          outlets={grid.more}
+          hasPage={false}
+          moreLabel="More outlets"
+        />
+      )}
+    </div>
+
+    <AdSlot placement="leaderboard" />
+
+    <div class="below">
+      <div class="reading">
+        {context && (
+          <section aria-labelledby="landscape">
+            <h2 id="landscape">The media landscape in {name}</h2>
+            <div class="prose">
+              {context.summary.split(/\n\n+/).map((p) => (
+                <p>{p}</p>
+              ))}
+            </div>
+          </section>
+        )}
+        {context && context.faq.length > 0 && (
+          <Faq items={context.faq} heading={`Questions about news in ${name}`} />
+        )}
+      </div>
+      <aside class="side">
+        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
+        <PressFreedom country={country} name={name} />
+        <section aria-labelledby="facts">
+          <h2 id="facts">About {name}</h2>
+          <dl class="facts data">
+            <dt>Population</dt>
+            <dd>
+              {new Intl.NumberFormat('en-US', {
+                notation: 'compact',
+                maximumFractionDigits: 1,
+              }).format(country.population.value)}{' '}
+              ({country.population.year},{' '}
+              <a href={country.population.source} rel="noopener">
+                World Bank
+              </a>
+              )
+            </dd>
+            <dt>Continent</dt>
+            <dd>{CONTINENT_LABELS[country.continent]}</dd>
+          </dl>
+        </section>
+        {related.length > 0 && (
+          <section aria-labelledby="nearby">
+            <h2 id="nearby">News in nearby countries</h2>
+            <CountryList countries={related} />
+          </section>
+        )}
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .intro {
+    display: grid;
+    gap: var(--space-2);
+    padding-block: var(--space-5) var(--space-4);
+  }
+
+  .flag {
+    display: inline-block;
+    margin-inline-end: var(--space-2);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    vertical-align: -0.08em;
+  }
+
+  @media (max-width: 639px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    .flag {
+      width: 26px;
+      height: 19.5px;
+    }
+  }
+
+  .lede {
+    color: var(--ink-2);
+  }
+
+  .lede a {
+    margin-inline-start: var(--space-1);
+  }
+
+  .tabs {
+    display: none;
+  }
+
+  .filterbar {
+    padding-block: var(--space-3);
+    border-block: 1px solid var(--rule);
+    margin-bottom: var(--space-5);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+    align-items: start;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 639px) {
+    .tabs {
+      position: sticky;
+      top: 3.5rem;
+      z-index: var(--z-sticky);
+      display: flex;
+      gap: var(--space-4);
+      margin-inline: calc(var(--space-4) * -1);
+      padding: var(--space-2) var(--space-4);
+      overflow-x: auto;
+      border-bottom: 1px solid var(--rule);
+      background: var(--canvas);
+      font-size: var(--type-data);
+      font-weight: var(--weight-strong);
+      white-space: nowrap;
+      scrollbar-width: none;
+    }
+
+    .tabs a {
+      color: var(--ink-2);
+      text-decoration: none;
+    }
+
+    .tabs a:hover {
+      color: var(--link);
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .below {
+    display: grid;
+    gap: var(--space-7);
+    margin-top: var(--space-7);
+  }
+
+  @media (min-width: 1024px) {
+    .below {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+    }
+  }
+
+  .reading {
+    display: grid;
+    gap: var(--space-7);
+    align-content: start;
+  }
+
+  .reading h2 {
+    margin-bottom: var(--space-3);
+  }
+
+  .side {
+    display: grid;
+    gap: var(--space-6);
+    align-content: start;
+  }
+
+  .side h2 {
+    margin-bottom: var(--space-2);
+    font-size: var(--type-h3);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: var(--space-1) var(--space-3);
+  }
+
+  .facts dt {
+    color: var(--ink-2);
+  }
+</style>

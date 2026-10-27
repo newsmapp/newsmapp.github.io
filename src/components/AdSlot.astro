@@ -1,0 +1,52 @@
+---
+/**
+ * Display ad container (R3). Renders nothing visible until ADS_ENABLED=true, the CMP is configured
+ * and the network approved the site. Sizes are reserved up front so ads never shift layout.
+ */
+import { adsEnabled } from '../data/site';
+
+interface Props {
+  placement: 'leaderboard' | 'in-feed' | 'sidebar';
+}
+
+const { placement } = Astro.props;
+---
+
+{adsEnabled && (
+  <aside class:list={['ad', placement]} data-ad-slot={placement} aria-label="Advertisement">
+    <span class="label">Advertisement</span>
+  </aside>
+)}
+
+<style>
+  .ad {
+    display: grid;
+    place-items: start center;
+    margin-block: var(--space-5);
+  }
+
+  .leaderboard {
+    min-height: 100px;
+  }
+
+  @media (min-width: 768px) {
+    .leaderboard {
+      min-height: 90px;
+    }
+  }
+
+  .in-feed {
+    min-height: 250px;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: var(--space-8);
+    min-height: 600px;
+  }
+
+  .label {
+    color: var(--ink-2);
+    font-size: var(--type-label);
+  }
+</style>

@@ -1,0 +1,79 @@
+---
+import ProseLayout from '../layouts/ProseLayout.astro';
+import site from '../../data/site.json';
+---
+
+<ProseLayout
+  title="Privacy policy"
+  description="What NewsMap collects, why, for how long, and how to exercise your rights under the GDPR and LGPD."
+  heading="Privacy policy"
+  updated="2026-10-27"
+>
+  <p>
+    NewsMap does not use cookies and does not track you across sites. This policy explains the
+    little we do collect. The controller is {site.legal_name}, reachable at{' '}
+    <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+  </p>
+
+  <h2>What we collect</h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Data</th>
+        <th scope="col">Purpose</th>
+        <th scope="col">Legal basis</th>
+        <th scope="col">Kept for</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Clicks on outlet links: outlet, page, your country, and a code that changes every day
+        </td>
+        <td>Know which outlets readers use and report filtered click estimates to sponsors</td>
+        <td>Legitimate interest</td>
+        <td>Aggregated; the daily code cannot be linked across days</td>
+      </tr>
+      <tr>
+        <td>
+          Name, website and e-mail you send in the suggestion, correction or sponsorship forms
+        </td>
+        <td>Review your request and answer you</td>
+        <td>Your request (pre-contractual steps) or legitimate interest</td>
+        <td>E-mail anonymized 24 months after the request closes</td>
+      </tr>
+      <tr>
+        <td>Payment details for sponsorships</td>
+        <td>Charge and invoice</td>
+        <td>Contract</td>
+        <td>Held by our payment provider, LemonSqueezy, as merchant of record</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    We never store your IP address or browser details in readable form. The daily code is a keyed
+    hash of them that is discarded with its key every day.
+  </p>
+
+  <h2>Stored on your device</h2>
+  <p>
+    Your theme choice (light or dark) is kept in your browser's local storage, and your country, as
+    detected for the page you are on, in its session storage. Neither is sent to us or to anyone
+    else.
+  </p>
+
+  <h2>Who processes data for us</h2>
+  <ul>
+    <li>Cloudflare: hosting, security, the database and click counting.</li>
+    <li>LemonSqueezy: payments for sponsored listings, as merchant of record.</li>
+    <li>Cloudflare Turnstile: protecting forms from automated abuse.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>
+    You can ask to access, correct or delete your data, object to processing or ask for a copy, by
+    writing to <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>. You can also
+    complain to your data protection authority, such as the ANPD in Brazil or your national
+    authority in the European Union.
+  </p>
+</ProseLayout>

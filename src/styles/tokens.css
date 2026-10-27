@@ -1,0 +1,90 @@
+/* Design tokens. Rationale and contrast targets: docs/design/brief.md */
+
+:root {
+  --font-ui:
+    'Libre Franklin Variable', 'Franklin Gothic Medium', 'Arial Narrow', system-ui, sans-serif;
+  --font-prose: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+
+  --type-label: 0.75rem;
+  --type-data: 0.875rem;
+  --type-body: 1rem;
+  --type-prose: 1.0625rem;
+  --type-h3: 1.2rem;
+  --type-h2: 1.44rem;
+  --type-h1: 2.07rem;
+  --weight-regular: 400;
+  --weight-strong: 600;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --row-height: 42px;
+  --icon-size: 20px;
+  --measure: 68ch;
+  --page-max: 88rem;
+
+  --radius-tag: 2px;
+  --radius-card: 4px;
+  --radius-float: 6px;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --duration-ui: 160ms;
+
+  --z-sticky: 10;
+  --z-float: 20;
+  --z-dialog: 30;
+
+  /* Paper Light */
+  --canvas: oklch(0.975 0.004 95);
+  --surface: oklch(0.995 0.002 95);
+  --surface-hover: oklch(0.955 0.005 95);
+  --ink: oklch(0.22 0.015 255);
+  --ink-2: oklch(0.45 0.015 255);
+  --rule: oklch(0.88 0.006 95);
+  --rule-strong: oklch(0.7 0.008 95);
+  --link: oklch(0.45 0.13 255);
+  --link-hover: oklch(0.36 0.13 255);
+  --on-link: oklch(0.99 0 0);
+  --focus: oklch(0.45 0.13 255);
+  --sponsor: oklch(0.94 0.09 95);
+  --on-sponsor: oklch(0.3 0.05 85);
+  --tag-free: oklch(0.42 0.11 150);
+  --tag-paid: oklch(0.45 0.1 50);
+  --danger: oklch(0.5 0.17 27);
+  --selection: oklch(0.88 0.07 255);
+  --shadow-float:
+    0 8px 24px -6px oklch(0.22 0.015 255 / 0.22), 0 2px 6px -2px oklch(0.22 0.015 255 / 0.12);
+
+  color-scheme: light;
+}
+
+/* Terminal Dark: composed separately, not inverted. Elevation = lighter surface. */
+:root[data-theme='dark'] {
+  --canvas: oklch(0.205 0.012 250);
+  --surface: oklch(0.245 0.014 250);
+  --surface-hover: oklch(0.285 0.016 250);
+  --ink: oklch(0.93 0.008 250);
+  --ink-2: oklch(0.74 0.012 250);
+  --rule: oklch(0.34 0.014 250);
+  --rule-strong: oklch(0.48 0.014 250);
+  --link: oklch(0.8 0.1 245);
+  --link-hover: oklch(0.88 0.08 245);
+  --on-link: oklch(0.2 0.02 250);
+  --focus: oklch(0.8 0.1 245);
+  --sponsor: oklch(0.36 0.07 85);
+  --on-sponsor: oklch(0.94 0.05 90);
+  --tag-free: oklch(0.8 0.12 150);
+  --tag-paid: oklch(0.82 0.1 60);
+  --danger: oklch(0.75 0.14 25);
+  --selection: oklch(0.42 0.08 250);
+  --shadow-float:
+    0 10px 28px -6px oklch(0.05 0.01 250 / 0.6), 0 2px 8px -2px oklch(0.05 0.01 250 / 0.4);
+
+  color-scheme: dark;
+}

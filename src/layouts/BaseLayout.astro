@@ -1,0 +1,136 @@
+---
+import '../styles/global.css';
+import franklinLatin from '@fontsource-variable/libre-franklin/files/libre-franklin-latin-wght-normal.woff2?url';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CommandPalette from '../components/CommandPalette';
+import { buildMeta } from '../lib/seo/meta';
+import { hreflangAlternates } from '../lib/seo/hreflang';
+import { serializeJsonLd } from '../lib/seo/jsonld';
+import { ENABLED_LOCALES } from 'astro:env/server';
+import type { Locale } from '../schemas/common';
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+  type?: 'website' | 'article' | 'profile';
+  jsonld?: Record<string, unknown>[];
+  /** Pagefind indexing: only indexable directory pages are searchable. */
+  searchable?: boolean;
+  searchType?: 'country' | 'category' | 'outlet' | 'continent' | 'page';
+  /** Pages with a Turnstile form allow its script and frame in the CSP. */
+  turnstile?: boolean;
+}
+
+const {
+  title,
+  description,
+  noindex = false,
+  type,
+  jsonld = [],
+  searchable = false,
+  searchType,
+  turnstile = false,
+} = Astro.props;
+// CSP additions must happen here: the <meta> is already sent by the time body components render.
+if (turnstile) {
+  Astro.csp?.insertScriptResource('https://challenges.cloudflare.com');
+  Astro.csp?.insertDirective('frame-src https://challenges.cloudflare.com');
+}
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const meta = buildMeta({
+  title,
+  description,
+  path: Astro.url.pathname,
+  siteUrl,
+  noindex,
+  ...(type ? { type } : {}),
+});
+const alternates = hreflangAlternates(
+  Astro.url.pathname,
+  ENABLED_LOCALES.split(',').map((l) => l.trim()) as Locale[],
+  siteUrl,
+);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{meta.title}</title>
+    <meta name="description" content={meta.description} />
+    <link rel="canonical" href={meta.canonical} />
+    <meta name="robots" content={meta.robots} />
+    {alternates.map((alt) => (
+      <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />
+    ))}
+    {Object.entries(meta.og).map(([property, content]) => (
+      <meta property={property} content={content} />
+    ))}
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="oklch(0.975 0.004 95)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href={franklinLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <script is:inline>
+      (function () {
+        let theme;
+        try {
+          theme = localStorage.getItem('theme');
+        } catch {
+          // Storage blocked: fall back to the system preference.
+        }
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = theme;
+        if (theme === 'dark') {
+          document
+            .querySelector('meta[name="theme-color"]')
+            .setAttribute('content', 'oklch(0.205 0.012 250)');
+        }
+      })();
+    </script>
+    {jsonld.map((data) => (
+      <script type="application/ld+json" is:inline set:html={serializeJsonLd(data)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <Header />
+    <main id="main" tabindex="-1" {...(searchable ? { 'data-pagefind-body': '' } : {})}>
+      {searchType && <meta data-pagefind-filter="type[content]" content={searchType} />}
+      <slot />
+    </main>
+    <Footer />
+    <CommandPalette client:idle />
+  </body>
+</html>
+
+<style>
+  .skip {
+    position: absolute;
+    top: var(--space-2);
+    left: var(--space-2);
+    z-index: var(--z-dialog);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-card);
+    background: var(--link);
+    color: var(--on-link);
+    font-weight: var(--weight-strong);
+    transform: translateY(-200%);
+  }
+
+  .skip:focus-visible {
+    transform: none;
+  }
+
+  main:focus {
+    outline: none;
+  }
+</style>

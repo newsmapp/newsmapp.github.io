@@ -1,0 +1,43 @@
+---
+import ProseLayout from '../layouts/ProseLayout.astro';
+import { countries } from '../data/catalog';
+import site from '../../data/site.json';
+
+const outlets = countries.reduce((n, c) => n + c.outlets.length, 0);
+---
+
+<ProseLayout
+  title="About NewsMap"
+  description="NewsMap is a directory of each country's newspapers, broadcasters and news sites, with paywall and ownership shown for every outlet."
+  heading="About NewsMap"
+>
+  <p>
+    NewsMap lists the main news sources of each country in one place, sorted into eight categories,
+    from national news to regional papers. For every outlet it shows whether you can read it for
+    free, who owns it and whether it is a newspaper, a broadcaster or a digital newsroom.
+  </p>
+  {countries.length > 0 && (
+    <p>
+      The directory currently covers {countries.length} countries and {outlets} outlets. Every
+      listing was checked by a person before it was published.
+    </p>
+  )}
+  <h2>Who it is for</h2>
+  <p>
+    People living abroad who want news from home, students and researchers comparing media systems,
+    travelers, and anyone who wants to know where a country's journalism comes from before choosing
+    what to read.
+  </p>
+  <h2>How it is funded</h2>
+  <p>
+    NewsMap is paid for by sponsored listings, which are labeled and kept apart from the editorial
+    ranking, and by partner offers, which are disclosed where they appear. Rankings are never for
+    sale. The details are in our <a href="/disclosures/">disclosures</a> and{' '}
+    <a href="/methodology/">methodology</a>.
+  </p>
+  <h2>Contact</h2>
+  <p>
+    Write to <a href={`mailto:${site.contact_email}`}>{site.contact_email}</a>. To fix a listing,
+    use the <a href="/corrections/">correction form</a>.
+  </p>
+</ProseLayout>

@@ -1,0 +1,282 @@
+---
+import type { Category } from '../schemas/catalog.schema';
+import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
+import { paths } from '../data/catalog';
+import {
+  FORMAT_LABEL,
+  FORMAT_TAG,
+  OWNERSHIP_LABEL,
+  OWNERSHIP_TAG,
+  PAYWALL_DESCRIPTION,
+  PAYWALL_TAG,
+} from '../lib/format';
+import Icon from './Icon.astro';
+
+interface Props {
+  outlet: PublicOutlet;
+  country: PublicCountry;
+  category: Category;
+  position: number;
+  lazy?: boolean;
+  /** False in the "More outlets" card, which is alphabetical, not a ranking. */
+  ranked?: boolean;
+}
+
+const { outlet, country, category, position, lazy = false, ranked = true } = Astro.props;
+const detailId = `detail-${category}-${outlet.id}`;
+const ownershipTag = OWNERSHIP_TAG[outlet.ownership_type];
+const formatTag = FORMAT_TAG[outlet.format];
+---
+
+<li
+  class="row"
+  data-outlet-row
+  data-name={outlet.name.toLowerCase()}
+  data-paywall={outlet.paywall}
+  data-ownership={outlet.ownership_type}
+  data-format={outlet.format}
+>
+  {ranked ? (
+    <span class="rank data" aria-label={`Rank ${position}`}>
+      {position}
+    </span>
+  ) : (
+    <span class="rank" />
+  )}
+  <img
+    class="favicon"
+    src={outlet.icon}
+    alt=""
+    width="20"
+    height="20"
+    loading={lazy ? 'lazy' : 'eager'}
+    decoding="async"
+  />
+  <a
+    class="name"
+    href={outlet.url}
+    rel="noopener"
+    title={outlet.name}
+    translate="no"
+    data-track={outlet.id}
+    data-country={country.iso2}
+    data-category={category}
+  >
+    {outlet.name}
+  </a>
+  <span class="tags">
+    <span
+      class:list={['tag', outlet.paywall === 'free' ? 'tag-free' : 'tag-paid']}
+      title={PAYWALL_DESCRIPTION[outlet.paywall]}
+    >
+      {PAYWALL_TAG[outlet.paywall]}
+    </span>
+    {ownershipTag && (
+      <span class="tag" title={OWNERSHIP_LABEL[outlet.ownership_type]}>
+        {ownershipTag}
+      </span>
+    )}
+    {formatTag && (
+      <span class="tag" title={FORMAT_LABEL[outlet.format]}>
+        {formatTag}
+      </span>
+    )}
+  </span>
+  <button class="info" type="button" popovertarget={detailId} aria-label={`About ${outlet.name}`}>
+    <Icon name="info" size={16} />
+  </button>
+  <div class="detail" id={detailId} popover>
+    <p class="detail-name">{outlet.name}</p>
+    <p class="detail-pitch">{outlet.pitch.en}</p>
+    <dl class="facts data">
+      {outlet.owner && (
+        <>
+          <dt>Owner</dt>
+          <dd>{outlet.owner}</dd>
+        </>
+      )}
+      <dt>Ownership</dt>
+      <dd>{OWNERSHIP_LABEL[outlet.ownership_type]}</dd>
+      {outlet.founded_year && (
+        <>
+          <dt>Founded</dt>
+          <dd>{outlet.founded_year}</dd>
+        </>
+      )}
+      <dt>Access</dt>
+      <dd>{PAYWALL_DESCRIPTION[outlet.paywall]}</dd>
+      <dt>Format</dt>
+      <dd>{FORMAT_LABEL[outlet.format]}</dd>
+    </dl>
+    <p class="detail-links">
+      <a
+        href={outlet.url}
+        rel="noopener"
+        data-track={outlet.id}
+        data-country={country.iso2}
+        data-category={category}
+      >
+        Visit site <Icon name="arrow-up-right" size={14} />
+      </a>
+      <a href={paths.outlet(country, outlet)}>Profile and alternatives</a>
+    </p>
+  </div>
+</li>
+
+<style>
+  .row {
+    display: grid;
+    grid-template-columns: 1.75rem var(--icon-size) minmax(0, 1fr) auto 2rem;
+    align-items: center;
+    column-gap: var(--space-2);
+    min-height: var(--row-height);
+    padding-inline: var(--space-2) var(--space-1);
+    border-top: 1px solid var(--rule);
+  }
+
+  .row:hover {
+    background: var(--surface-hover);
+  }
+
+  .rank {
+    color: var(--ink-2);
+    text-align: right;
+  }
+
+  .favicon {
+    border-radius: var(--radius-tag);
+    background: var(--canvas);
+  }
+
+  .name {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--ink);
+    font-weight: var(--weight-strong);
+    font-size: var(--type-data);
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .name:hover {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  .tags {
+    display: flex;
+    gap: var(--space-1);
+  }
+
+  .tag {
+    padding: 1px 5px;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-tag);
+    color: var(--ink-2);
+    font-size: var(--type-label);
+    font-weight: var(--weight-strong);
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  .tag-free {
+    color: var(--tag-free);
+  }
+
+  .tag-paid {
+    color: var(--tag-paid);
+  }
+
+  .info {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: var(--radius-card);
+    background: none;
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+
+  .info:hover {
+    background: var(--canvas);
+    color: var(--link);
+  }
+
+  .detail {
+    width: min(22rem, calc(100vw - 2rem));
+    margin: auto;
+    padding: var(--space-4);
+    border: 0;
+    border-radius: var(--radius-float);
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: var(--shadow-float);
+  }
+
+  .detail::backdrop {
+    background: oklch(0.2 0.01 250 / 0.12);
+  }
+
+  @supports (position-area: bottom) {
+    .detail {
+      inset: auto;
+      margin: var(--space-1) 0;
+      position-area: bottom span-left;
+      position-try-fallbacks: flip-block;
+    }
+
+    .detail::backdrop {
+      background: none;
+    }
+  }
+
+  .detail-name {
+    font-weight: var(--weight-strong);
+  }
+
+  .detail-pitch {
+    margin-top: var(--space-1);
+    color: var(--ink-2);
+    font-size: var(--type-data);
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: var(--space-1) var(--space-3);
+    margin-top: var(--space-3);
+  }
+
+  .facts dt {
+    color: var(--ink-2);
+  }
+
+  .detail-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    margin-top: var(--space-4);
+    font-size: var(--type-data);
+    font-weight: var(--weight-strong);
+  }
+
+  .detail-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  @media (max-width: 380px) {
+    .row {
+      grid-template-columns: 1.5rem var(--icon-size) minmax(0, 1fr) auto 2rem;
+    }
+
+    .tags .tag:not(:first-child) {
+      display: none;
+    }
+  }
+</style>

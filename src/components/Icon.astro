@@ -1,0 +1,62 @@
+---
+/**
+ * Inline icon from Lucide (ISC). One set, one stroke, sized by the caller.
+ * Only the icons listed here are bundled.
+ */
+const sources = import.meta.glob<string>(
+  '../../node_modules/lucide-static/icons/{newspaper,landmark,trophy,chart-line,search-check,flask-conical,radio,map-pin,search,sun,moon,info,arrow-up-right,x,list}.svg',
+  { query: '?raw', import: 'default', eager: true },
+);
+
+export type IconName =
+  | 'newspaper'
+  | 'landmark'
+  | 'trophy'
+  | 'chart-line'
+  | 'search-check'
+  | 'flask-conical'
+  | 'radio'
+  | 'map-pin'
+  | 'search'
+  | 'sun'
+  | 'moon'
+  | 'info'
+  | 'arrow-up-right'
+  | 'x'
+  | 'list';
+
+interface Props {
+  name: IconName;
+  size?: number;
+  class?: string;
+}
+
+const { name, size = 16, class: className } = Astro.props;
+const raw = Object.entries(sources).find(([path]) => path.endsWith(`/${name}.svg`))?.[1] ?? '';
+const body = raw
+  .replace(/<!--[\s\S]*?-->/, '')
+  .replace(/^[\s\S]*?<svg[^>]*>/, '')
+  .replace(/<\/svg>\s*$/, '');
+---
+
+<svg
+  class:list={['icon', className]}
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  set:html={body}
+/>
+
+<style>
+  .icon {
+    flex: none;
+  }
+</style>

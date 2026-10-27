@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found" description="This page does not exist on NewsMap." noindex>
+  <div class="page missing">
+    <h1>This page does not exist</h1>
+    <p>
+      The country or outlet may not be published yet, or the address has a typo. Search for it, or
+      start from the <a href="/">list of countries</a>.
+    </p>
+    <button type="button" data-open-search>
+      Search countries and outlets
+    </button>
+  </div>
+</BaseLayout>
+
+<style>
+  .missing {
+    display: grid;
+    gap: var(--space-4);
+    max-width: 40rem;
+    padding-block: var(--space-8);
+  }
+
+  button {
+    justify-self: start;
+    min-height: 2.75rem;
+    padding-inline: var(--space-4);
+    border: 0;
+    border-radius: var(--radius-card);
+    background: var(--link);
+    color: var(--on-link);
+    font: inherit;
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+  }
+</style>

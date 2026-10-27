@@ -1,0 +1,72 @@
+---
+import type { PublicCountry } from '../lib/catalog/public';
+import { countryName, paths } from '../data/catalog';
+import { plural } from '../lib/format';
+
+interface Props {
+  countries: PublicCountry[];
+  /** Show outlet counts next to names. */
+  counts?: boolean;
+}
+
+const { countries, counts = true } = Astro.props;
+---
+
+<ul class="countries">
+  {countries.map((country) => (
+    <li>
+      <a href={paths.country(country)}>
+        <img
+          src={paths.flag(country.iso2)}
+          alt=""
+          width="24"
+          height="18"
+          loading="lazy"
+          decoding="async"
+        />
+        <span class="name">{countryName(country)}</span>
+        {counts && <span class="count data">{plural(country.outlets.length, 'outlet')}</span>}
+      </a>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .countries {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 0 var(--space-5);
+  }
+
+  a {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: var(--row-height);
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  a:hover .name {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  img {
+    border: 1px solid var(--rule);
+    border-radius: 1px;
+  }
+
+  .name {
+    overflow: hidden;
+    font-weight: var(--weight-strong);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .count {
+    color: var(--ink-2);
+  }
+</style>

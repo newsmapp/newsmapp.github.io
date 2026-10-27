@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Turnstile from '../components/Turnstile.astro';
+import { CATEGORIES } from '../schemas/catalog.schema';
+import { categoryLabel, countries, countryName } from '../data/catalog';
+
+const sortedCountries = [...countries].sort((a, b) =>
+  countryName(a).localeCompare(countryName(b), 'en'),
+);
+const outletOptions = sortedCountries.flatMap((country) =>
+  country.outlets.map((outlet) => ({
+    id: outlet.id,
+    label: `${outlet.name} (${countryName(country)})`,
+  })),
+);
+---
+
+<BaseLayout
+  turnstile
+  title="Report a correction or suggest an outlet"
+  description="Tell us about a wrong fact in a NewsMap listing, or suggest a news outlet we should add. Every request is reviewed by an editor."
+  searchable
+  searchType="page"
+>
+  <div class="page doc">
+    <h1>Report a correction or suggest an outlet</h1>
+    <p class="lede">
+      An editor reads every request. Accepted changes appear with the next update of the site,
+      usually within a few days.
+    </p>
+
+    <div class="forms">
+      <section aria-labelledby="fix">
+        <h2 id="fix">Fix a listing</h2>
+        <form
+          class="form"
+          data-api-form
+          data-endpoint="/api/corrections/"
+          data-success="Thank you. An editor will review your correction."
+          novalidate
+        >
+          <label class="field">
+            <span>Outlet</span>
+            <select name="outlet_id" required data-prefill="outlet">
+              <option value="">Choose an outlet…</option>
+              {outletOptions.map((o) => (
+                <option value={o.id}>{o.label}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="outlet_id"></span>
+          </label>
+          <label class="field">
+            <span>What is wrong</span>
+            <select name="field" required>
+              <option value="url">Website address</option>
+              <option value="paywall">Paywall</option>
+              <option value="ownership">Owner or ownership type</option>
+              <option value="founded_year">Founding year</option>
+              <option value="category">Category or rank</option>
+              <option value="closed">The outlet has closed</option>
+              <option value="other">Something else</option>
+            </select>
+            <span class="field-error" data-field-error="field"></span>
+          </label>
+          <label class="field">
+            <span>Details and a source</span>
+            <textarea
+              name="message"
+              required
+              maxlength="2000"
+              placeholder="The paywall became metered in 2026, see https://…"
+            ></textarea>
+            <span class="field-error" data-field-error="message"></span>
+          </label>
+          <label class="field">
+            <span>Your e-mail (optional)</span>
+            <span class="hint">
+              Only to tell you the outcome. Anonymized 24 months after the request is closed.
+            </span>
+            <input
+              type="email"
+              name="contact_email"
+              autocomplete="email"
+              spellcheck="false"
+              placeholder="you@example.com"
+            />
+            <span class="field-error" data-field-error="contact_email"></span>
+          </label>
+          <Turnstile />
+          <button class="submit" type="submit" data-busy="Sending…">
+            Send correction
+          </button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+
+      <section aria-labelledby="suggest">
+        <h2 id="suggest">Suggest an outlet</h2>
+        <form
+          class="form"
+          data-api-form
+          data-endpoint="/api/submit/"
+          data-success="Thank you. An editor will review your suggestion."
+          novalidate
+        >
+          <label class="field">
+            <span>Outlet name</span>
+            <input name="outlet_name" required maxlength="120" autocomplete="off" />
+            <span class="field-error" data-field-error="outlet_name"></span>
+          </label>
+          <label class="field">
+            <span>Website</span>
+            <input
+              name="url"
+              type="url"
+              required
+              inputmode="url"
+              spellcheck="false"
+              autocomplete="off"
+              placeholder="https://…"
+            />
+            <span class="field-error" data-field-error="url"></span>
+          </label>
+          <label class="field">
+            <span>Country</span>
+            <select name="country_iso" required data-prefill="country">
+              <option value="">Choose a country…</option>
+              {sortedCountries.map((c) => (
+                <option value={c.iso2}>{countryName(c)}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="country_iso"></span>
+          </label>
+          <label class="field">
+            <span>Category</span>
+            <select name="category" required data-prefill="category">
+              {CATEGORIES.map((c) => (
+                <option value={c}>{categoryLabel(c)}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="category"></span>
+          </label>
+          <label class="field">
+            <span>Your e-mail</span>
+            <span class="hint">To ask questions about the outlet if needed.</span>
+            <input
+              type="email"
+              name="contact_email"
+              required
+              autocomplete="email"
+              spellcheck="false"
+              placeholder="you@example.com"
+            />
+            <span class="field-error" data-field-error="contact_email"></span>
+          </label>
+          <label class="field">
+            <span>Note (optional)</span>
+            <textarea name="note" maxlength="1000"></textarea>
+          </label>
+          <Turnstile />
+          <button class="submit" type="submit" data-busy="Sending…">
+            Send suggestion
+          </button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import '../scripts/forms';
+  import { asSelect } from '../scripts/slots';
+
+  // Prefill from links such as /corrections/?outlet=br-folha or ?country=BR&category=sports.
+  const params = new URLSearchParams(window.location.search);
+  for (const element of document.querySelectorAll('select[data-prefill]')) {
+    const select = asSelect(element);
+    if (!select) continue;
+    const value = params.get(select.dataset.prefill ?? '');
+    if (value && [...select.options].some((o) => o.value === value)) select.value = value;
+  }
+  if (params.has('outlet')) document.getElementById('fix')?.scrollIntoView();
+  else if (params.has('country')) document.getElementById('suggest')?.scrollIntoView();
+</script>
+
+<style>
+  .doc {
+    padding-block: var(--space-6) var(--space-7);
+  }
+
+  .lede {
+    max-width: 60ch;
+    margin-top: var(--space-2);
+    color: var(--ink-2);
+  }
+
+  .forms {
+    display: grid;
+    gap: var(--space-7);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 1024px) {
+    .forms {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  h2 {
+    margin-bottom: var(--space-4);
+  }
+</style>
