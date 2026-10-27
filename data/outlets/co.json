@@ -1,0 +1,874 @@
+[
+  {
+    "id": "co-el-tiempo",
+    "slug": "el-tiempo",
+    "name": "El Tiempo",
+    "url": "https://www.eltiempo.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1911,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Casa Editorial El Tiempo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Bogotá daily with the largest circulation in Colombia, covering politics, security and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eltiempo.com/",
+      "title": "Últimas noticias de Colombia y el Mundo - ELTIEMPO.COM"
+    }
+  },
+  {
+    "id": "co-el-espectador",
+    "slug": "el-espectador",
+    "name": "El Espectador",
+    "url": "https://www.elespectador.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1887,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Colombia's oldest daily, known for political coverage and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elespectador.com/",
+      "title": "Noticias de hoy en Colombia y el mundo. Última hora | Noticias | EL ESPECTADOR"
+    }
+  },
+  {
+    "id": "co-semana",
+    "slug": "semana",
+    "name": "Semana",
+    "url": "https://www.semana.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1982,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Newsweekly and news site with politics, interviews and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.semana.com/",
+      "title": "Semana - Últimas Noticias de Colombia y el Mundo"
+    }
+  },
+  {
+    "id": "co-la-silla-vacia",
+    "slug": "la-silla-vacia",
+    "name": "La Silla Vacía",
+    "url": "https://www.lasillavacia.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital outlet that maps power in Colombian politics, with in-depth reporting and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lasillavacia.com/",
+      "title": "La Silla Vacía - Política y poder en Colombia"
+    }
+  },
+  {
+    "id": "co-cambio",
+    "slug": "cambio",
+    "name": "Cambio",
+    "url": "https://cambiocolombia.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News magazine with investigations into politics and public contracts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://cambiocolombia.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "co-cuestion-publica",
+    "slug": "cuestion-publica",
+    "name": "Cuestión Pública",
+    "url": "https://cuestionpublica.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit investigative newsroom using data and public records."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://cuestionpublica.com/",
+      "title": "Home - Cuestión Pública"
+    }
+  },
+  {
+    "id": "co-verdad-abierta",
+    "slug": "verdad-abierta",
+    "name": "Verdad Abierta",
+    "url": "https://verdadabierta.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit site documenting the armed conflict, land restitution and transitional justice."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://verdadabierta.com/",
+      "title": "Verdad Abierta"
+    }
+  },
+  {
+    "id": "co-portafolio",
+    "slug": "portafolio",
+    "name": "Portafolio",
+    "url": "https://www.portafolio.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Casa Editorial El Tiempo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, companies and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.portafolio.co/",
+      "title": "Noticias economicas de Colombia y el Mundo | Portafolio.co"
+    }
+  },
+  {
+    "id": "co-la-republica",
+    "slug": "la-republica",
+    "name": "La República",
+    "url": "https://www.larepublica.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial daily with markets, companies and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.larepublica.co/",
+      "title": "Noticias de Economía, Finanzas, Empresas y Negocios de Colombia y el Mundo | LaRepublica.co"
+    }
+  },
+  {
+    "id": "co-valora-analitik",
+    "slug": "valora-analitik",
+    "name": "Valora Analitik",
+    "url": "https://www.valoraanalitik.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet covering Colombian markets, banking and corporate news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.valoraanalitik.com/",
+      "title": "Valora Analitik - Información económica, política y financiera"
+    }
+  },
+  {
+    "id": "co-noticias-caracol",
+    "slug": "noticias-caracol",
+    "name": "Noticias Caracol",
+    "url": "https://www.noticiascaracol.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Caracol Televisión",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of Caracol Televisión, one of Colombia's two main private networks."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.noticiascaracol.com/",
+      "title": "Noticias Caracol: últimas noticias de Colombia y el mundo hoy"
+    }
+  },
+  {
+    "id": "co-noticias-rcn",
+    "slug": "noticias-rcn",
+    "name": "Noticias RCN",
+    "url": "https://www.noticiasrcn.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "RCN Televisión",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of RCN Televisión with national newscasts online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.noticiasrcn.com/",
+      "title": "Noticias RCN | Últimas Noticias de Colombia y el Mundo"
+    }
+  },
+  {
+    "id": "co-caracol-radio",
+    "slug": "caracol-radio",
+    "name": "Caracol Radio",
+    "url": "https://caracol.com.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1948,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National news radio network with morning shows and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://caracol.com.co/",
+      "title": "Caracol Radio: Últimas noticias de Colombia, deportes y radio en vivo"
+    }
+  },
+  {
+    "id": "co-blu-radio",
+    "slug": "blu-radio",
+    "name": "Blu Radio",
+    "url": "https://www.bluradio.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Caracol Televisión",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News and talk radio network with politics and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bluradio.com/",
+      "title": "Blu Radio señal en vivo, Noticias de Colombia y el Mundo"
+    }
+  },
+  {
+    "id": "co-rtvc-noticias",
+    "slug": "rtvc-noticias",
+    "name": "RTVC Noticias",
+    "url": "https://www.rtvcnoticias.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTVC Sistema de Medios Públicos",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of RTVC, Colombia's public media system, with national newscasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rtvcnoticias.com/",
+      "title": "Conoce las últimas noticias de Colombia hoy | RTVC Noticias"
+    }
+  },
+  {
+    "id": "co-futbolred",
+    "slug": "futbolred",
+    "name": "Futbolred",
+    "url": "https://www.futbolred.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Casa Editorial El Tiempo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Football news site covering the Liga BetPlay, the national team and Colombian players abroad."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.futbolred.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "co-win-sports",
+    "slug": "win-sports",
+    "name": "Win Sports",
+    "url": "https://www.winsports.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports channel holding the television rights to Colombian football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.winsports.co/",
+      "title": "El canal oficial de la Liga y todo el Fútbol Profesional Colombiano | Win Sports"
+    }
+  },
+  {
+    "id": "co-enter-co",
+    "slug": "enter-co",
+    "name": "Enter.co",
+    "url": "https://www.enter.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology news site covering gadgets, telecoms and the digital economy in Colombia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.enter.co/",
+      "title": "ENTER.CO"
+    }
+  },
+  {
+    "id": "co-el-colombiano",
+    "slug": "el-colombiano",
+    "name": "El Colombiano",
+    "url": "https://www.elcolombiano.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Antioquia",
+    "founded_year": 1912,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Medellín daily covering Antioquia, the city's economy and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elcolombiano.com/",
+      "title": "El Colombiano | noticias de Medellín, Antioquia, Colombia y el mundo."
+    }
+  },
+  {
+    "id": "co-el-pais",
+    "slug": "el-pais",
+    "name": "El País",
+    "url": "https://www.elpais.com.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Valle del Cauca",
+    "founded_year": 1950,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cali daily covering Valle del Cauca and southwestern Colombia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elpais.com.co/",
+      "title": "Noticias de Cali, Valle y Colombia - Periodico: Diario El País"
+    }
+  },
+  {
+    "id": "co-el-heraldo",
+    "slug": "el-heraldo",
+    "name": "El Heraldo",
+    "url": "https://www.elheraldo.co/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Atlántico",
+    "founded_year": 1933,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Barranquilla daily covering the Caribbean coast, its ports and its culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elheraldo.co/",
+      "title": "ELHERALDO.CO"
+    }
+  },
+  {
+    "id": "co-vanguardia",
+    "slug": "vanguardia",
+    "name": "Vanguardia",
+    "url": "https://www.vanguardia.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Santander",
+    "founded_year": 1919,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bucaramanga daily covering Santander and northeastern Colombia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.vanguardia.com/",
+      "title": "Vanguardia: Noticias de Bucaramanga, Santander, Colombia y el mundo"
+    }
+  }
+]

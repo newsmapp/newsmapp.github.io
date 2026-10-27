@@ -1,0 +1,638 @@
+[
+  {
+    "id": "cr-la-nacion",
+    "slug": "la-nacion",
+    "name": "La Nación",
+    "url": "https://www.nacion.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Nación",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "San José daily with national politics, the economy and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nacion.com/",
+      "title": "Últimas noticias de Costa Rica | La Nación"
+    }
+  },
+  {
+    "id": "cr-crhoy",
+    "slug": "crhoy",
+    "name": "CRHoy",
+    "url": "https://crhoy.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital news site with national news, politics and public services in Costa Rica."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://crhoy.com/",
+      "title": "CR Hoy"
+    }
+  },
+  {
+    "id": "cr-diario-extra",
+    "slug": "diario-extra",
+    "name": "Diario Extra",
+    "url": "https://www.diarioextra.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mass-market daily with national news, crime and community stories."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.diarioextra.com/",
+      "title": "Noticias de Costa Rica - Última hora | Diario Extra"
+    }
+  },
+  {
+    "id": "cr-el-observador",
+    "slug": "el-observador",
+    "name": "El Observador",
+    "url": "https://observador.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 2,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with national politics, the economy and interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://observador.cr/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "cr-delfino",
+    "slug": "delfino",
+    "name": "Delfino.cr",
+    "url": "https://delfino.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet covering the Legislative Assembly, politics and public policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://delfino.cr/",
+      "title": "Inicio - Delfino.cr | Delfino.cr"
+    }
+  },
+  {
+    "id": "cr-el-mundo-cr",
+    "slug": "el-mundo-cr",
+    "name": "El Mundo CR",
+    "url": "https://elmundo.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national news, politics and municipal affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://elmundo.cr/",
+      "title": "Diario Digital El Mundo CR - Primeros en información política"
+    }
+  },
+  {
+    "id": "cr-the-tico-times",
+    "slug": "the-tico-times",
+    "name": "The Tico Times",
+    "url": "https://ticotimes.net/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1956,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site founded in 1956, covering Costa Rica and Central America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ticotimes.net/",
+      "title": "The Tico Times — Costa Rica Breaking News, Travel and Real Estate"
+    }
+  },
+  {
+    "id": "cr-semanario-universidad",
+    "slug": "semanario-universidad",
+    "name": "Semanario Universidad",
+    "url": "https://semanariouniversidad.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Universidad de Costa Rica",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly of the University of Costa Rica, known for investigations and political coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://semanariouniversidad.com/",
+      "title": "Inicio &bull; Semanario Universidad"
+    }
+  },
+  {
+    "id": "cr-el-financiero",
+    "slug": "el-financiero",
+    "name": "El Financiero",
+    "url": "https://www.elfinancierocr.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Nación",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business weekly covering companies, markets, trade and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elfinancierocr.com/",
+      "title": "Noticias de Costa Rica sobre economía, finanzas y negocios | El Financiero"
+    }
+  },
+  {
+    "id": "cr-revista-summa",
+    "slug": "revista-summa",
+    "name": "Revista Summa",
+    "url": "https://revistasumma.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine covering companies and the economy across Central America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://revistasumma.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "cr-teletica",
+    "slug": "teletica",
+    "name": "Teletica",
+    "url": "https://www.teletica.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Television channel 7, whose Telenoticias newscast is the most watched in the country."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.teletica.com/",
+      "title": "Teletica.com | Con vos"
+    }
+  },
+  {
+    "id": "cr-repretel",
+    "slug": "repretel",
+    "name": "Repretel",
+    "url": "https://www.repretel.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television network with national newscasts and live coverage from San José."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.repretel.com/",
+      "title": "Repretel.com - Noticias de Costa Rica - Canales 6, 11, 4 y 2"
+    }
+  },
+  {
+    "id": "cr-radio-columbia",
+    "slug": "radio-columbia",
+    "name": "Radio Columbia",
+    "url": "https://columbia.co.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News radio station with bulletins, interviews and political talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://columbia.co.cr/",
+      "title": "Radio Columbia - Tu Estación de Radio Costarricense"
+    }
+  },
+  {
+    "id": "cr-radio-monumental",
+    "slug": "radio-monumental",
+    "name": "Radio Monumental",
+    "url": "https://www.monumental.co.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "sports"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News and sports radio station with national news and football coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.monumental.co.cr/",
+      "title": "Radio Monumental - Noticias y entrevistas de Costa Rica y el mundo : Monumental"
+    }
+  },
+  {
+    "id": "cr-la-teja",
+    "slug": "la-teja",
+    "name": "La Teja",
+    "url": "https://www.lateja.cr/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports",
+      "general-news"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Nación",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Popular daily with football coverage, local news and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lateja.cr/",
+      "title": "Noticias de Costa Rica | La Teja"
+    }
+  },
+  {
+    "id": "cr-la-voz-de-guanacaste",
+    "slug": "la-voz-de-guanacaste",
+    "name": "La Voz de Guanacaste",
+    "url": "https://vozdeguanacaste.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Guanacaste",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet covering Guanacaste, its communities, environment and tourism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://vozdeguanacaste.com/",
+      "title": "La Voz de Guanacaste - Periodismo local e investigativo en Costa Rica"
+    }
+  }
+]

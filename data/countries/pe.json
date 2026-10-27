@@ -1,0 +1,64 @@
+{
+  "iso2": "PE",
+  "iso3": "PER",
+  "slug": "peru",
+  "name": {
+    "en": "Peru"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 34217848,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es",
+    "qu",
+    "ay"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "EC",
+    "CO",
+    "BR",
+    "BO",
+    "CL"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Peru's news market is led from Lima by Grupo El Comercio, which publishes El Comercio, Gestión, Depor and the regional chain Correo, alongside La República and the radio network RPP. Television news comes from private channels such as Latina and América, and from the state broadcaster TV Perú. Nonprofit newsrooms, including IDL-Reporteros, OjoPúblico and Convoca, have broken major stories on corruption and public contracts. El Tiempo covers Piura and the north, and Correo publishes regional editions across the country. Most sites are free to read; El Comercio and Gestión use metered paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Peru?",
+          "a": "The main national outlets in the directory include El Comercio, La República and RPP Noticias. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Peruvian outlets are publicly funded?",
+          "a": "TV Perú Noticias belongs to IRTP, the state broadcaster. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find investigative journalism in Peru?",
+          "a": "Investigative work in the directory comes from IDL-Reporteros, OjoPúblico, Convoca and Wayka. The Investigative column lists them in editorial order."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Peru's national news outlets are based in Lima and include one of Latin America's oldest dailies and a leading news radio network."
+        },
+        "investigative": {
+          "intro": "Peru's nonprofit investigative newsrooms have exposed major corruption and procurement cases. These are the outlets known for that work."
+        },
+        "broadcast": {
+          "intro": "Radio and television carry national news across Peru. The networks below publish their newscasts online."
+        },
+        "regional": {
+          "intro": "Outside Lima, regional dailies and editions cover the north and the rest of the country. The outlets below serve Piura and Correo's regional editions."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

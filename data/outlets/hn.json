@@ -1,0 +1,482 @@
+[
+  {
+    "id": "hn-la-prensa",
+    "slug": "la-prensa",
+    "name": "La Prensa",
+    "url": "https://www.laprensa.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1964,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo OPSA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "San Pedro Sula daily with national news, politics and coverage of northern Honduras."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.laprensa.hn/",
+      "title": "Noticias de hoy en Honduras: Sucesos, deportes y más"
+    }
+  },
+  {
+    "id": "hn-el-heraldo",
+    "slug": "el-heraldo",
+    "name": "El Heraldo",
+    "url": "https://www.elheraldo.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1979,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo OPSA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Tegucigalpa daily with national politics, security and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elheraldo.hn/",
+      "title": "Noticias de Honduras: Última hora, sucesos y más"
+    }
+  },
+  {
+    "id": "hn-la-tribuna",
+    "slug": "la-tribuna",
+    "name": "La Tribuna",
+    "url": "https://www.latribuna.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tegucigalpa daily with national news, politics, justice and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.latribuna.hn/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "hn-proceso-digital",
+    "slug": "proceso-digital",
+    "name": "Proceso Digital",
+    "url": "https://proceso.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national politics, justice and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 307,
+      "final_url": "https://proceso.hn/",
+      "title": "You are being redirected..."
+    }
+  },
+  {
+    "id": "hn-tu-nota",
+    "slug": "tu-nota",
+    "name": "Tu Nota",
+    "url": "https://www.tunota.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national news, public services and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tunota.com/",
+      "title": "TU NOTA: Noticias de Honduras, última hora, sucesos de hoy y más"
+    }
+  },
+  {
+    "id": "hn-hondudiario",
+    "slug": "hondudiario",
+    "name": "Hondudiario",
+    "url": "https://www.hondudiario.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national news, politics and community stories."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hondudiario.com/",
+      "title": "Inicio - Hondudiario"
+    }
+  },
+  {
+    "id": "hn-contracorriente",
+    "slug": "contracorriente",
+    "name": "Contracorriente",
+    "url": "https://contracorriente.red/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit newsroom with investigations into corruption, land conflicts and migration."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://contracorriente.red/",
+      "title": "Contracorriente Honduras | Periodismo digital de profundidad"
+    }
+  },
+  {
+    "id": "hn-criterio",
+    "slug": "criterio",
+    "name": "Criterio",
+    "url": "https://criterio.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with investigations and analysis of politics and human rights."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://criterio.hn/",
+      "title": "Criterio.hn - Medio de comunicación independiente"
+    }
+  },
+  {
+    "id": "hn-reportar-sin-miedo",
+    "slug": "reportar-sin-miedo",
+    "name": "Reportar sin Miedo",
+    "url": "https://reportarsinmiedo.org/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet covering human rights, violence and press freedom in Honduras."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://reportarsinmiedo.org/",
+      "title": "Reportar Sin Miedo - Honduras"
+    }
+  },
+  {
+    "id": "hn-diez",
+    "slug": "diez",
+    "name": "Diez",
+    "url": "https://www.diez.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo OPSA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily covering the Honduran football league, the national team and players abroad."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.diez.hn/",
+      "title": "Diario Deportivo Diez - Fútbol, NBA, Béisbol, Boxeo, Tenis, F1, NFL y mucho más"
+    }
+  },
+  {
+    "id": "hn-radio-america",
+    "slug": "radio-america",
+    "name": "Radio América",
+    "url": "https://www.radioamerica.hn/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National radio station with news bulletins, interviews and political talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.radioamerica.hn/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "hn-hch",
+    "slug": "hch",
+    "name": "HCH",
+    "url": "https://hch.tv/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news channel with national newscasts and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://hch.tv/",
+      "title": "HCH · Noticias de Honduras en vivo"
+    }
+  }
+]

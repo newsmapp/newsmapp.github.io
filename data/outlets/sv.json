@@ -1,0 +1,478 @@
+[
+  {
+    "id": "sv-la-prensa-grafica",
+    "slug": "la-prensa-grafica",
+    "name": "La Prensa Gráfica",
+    "url": "https://www.laprensagrafica.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1915,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo LPG",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "San Salvador daily founded in 1915, with national politics, security and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.laprensagrafica.com/",
+      "title": "Error 403"
+    }
+  },
+  {
+    "id": "sv-el-diario-de-hoy",
+    "slug": "el-diario-de-hoy",
+    "name": "El Diario de Hoy",
+    "url": "https://www.elsalvador.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1936,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Editorial Altamirano Madriz",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "San Salvador daily with national news, politics and opinion, published at elsalvador.com."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elsalvador.com/",
+      "title": "Noticias de El Salvador - Noticias de El Salvador, noticias internacionales, salvadoreños por el mundo, economia, negocios, politica, deportes, entretenimiento, tecnologia, turismo, tendencias, fotos,"
+    }
+  },
+  {
+    "id": "sv-diario-el-mundo",
+    "slug": "diario-el-mundo",
+    "name": "Diario El Mundo",
+    "url": "https://diario.elmundo.sv/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "San Salvador daily with national news, politics and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://diario.elmundo.sv/",
+      "title": "Diario El Mundo"
+    }
+  },
+  {
+    "id": "sv-diario-co-latino",
+    "slug": "diario-co-latino",
+    "name": "Diario Co Latino",
+    "url": "https://www.diariocolatino.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1890,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cooperative-owned daily and one of the oldest newspapers in Central America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.diariocolatino.com/",
+      "title": "Diario Co Latino - Informándote con Credibilidad"
+    }
+  },
+  {
+    "id": "sv-diario-el-salvador",
+    "slug": "diario-el-salvador",
+    "name": "Diario El Salvador",
+    "url": "https://diarioelsalvador.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily launched in 2021 with national news, government and public works coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://diarioelsalvador.com/",
+      "title": "Diario El Salvador — Noticias de El Salvador, política, economía, deportes"
+    }
+  },
+  {
+    "id": "sv-el-faro",
+    "slug": "el-faro",
+    "name": "El Faro",
+    "url": "https://elfaro.net/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital newspaper known internationally for investigations into gangs, corruption and power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://elfaro.net/",
+      "title": null
+    }
+  },
+  {
+    "id": "sv-revista-factum",
+    "slug": "revista-factum",
+    "name": "Revista Factum",
+    "url": "https://www.revistafactum.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital magazine publishing investigations and long-form reporting on El Salvador."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.revistafactum.com/",
+      "title": "Revista Factum - Página de inicio"
+    }
+  },
+  {
+    "id": "sv-gatoencerrado",
+    "slug": "gatoencerrado",
+    "name": "GatoEncerrado",
+    "url": "https://gatoencerrado.news/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit newsroom investigating public spending, transparency and the environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gatoencerrado.news/",
+      "title": "GatoEncerrado | Periodismo independiente de El Salvador"
+    }
+  },
+  {
+    "id": "sv-focos",
+    "slug": "focos",
+    "name": "Focos",
+    "url": "https://focostv.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with video reporting and investigations on politics and justice."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://focostv.com/",
+      "title": "Bienvenido a FOCOSTV"
+    }
+  },
+  {
+    "id": "sv-cronio",
+    "slug": "cronio",
+    "name": "Cronio",
+    "url": "https://croniosv.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national news, politics and the economy of El Salvador."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://croniosv.com/",
+      "title": "Noticias de El Salvador - Diario Digital Cronio de El Salvador"
+    }
+  },
+  {
+    "id": "sv-el-economista",
+    "slug": "el-economista",
+    "name": "El Economista",
+    "url": "https://www.eleconomista.net/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business news outlet covering the economies of El Salvador and Central America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.eleconomista.net/",
+      "title": "Error 403"
+    }
+  },
+  {
+    "id": "sv-el-grafico",
+    "slug": "el-grafico",
+    "name": "El Gráfico",
+    "url": "https://www.elgrafico.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo LPG",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports site covering Salvadoran football, the national team and international sport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.elgrafico.com/",
+      "title": "Error 403"
+    }
+  }
+]

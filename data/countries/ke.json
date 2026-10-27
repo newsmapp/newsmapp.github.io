@@ -1,0 +1,60 @@
+{
+  "iso2": "KE",
+  "iso3": "KEN",
+  "slug": "kenya",
+  "name": {
+    "en": "Kenya"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 56432944,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "sw"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "ET",
+    "SO",
+    "SS",
+    "UG",
+    "TZ"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Kenya has East Africa's most developed news market, led from Nairobi by two media groups: Nation Media Group, publisher of the Daily Nation, Business Daily and The EastAfrican and owner of NTV, and the Standard Group. Royal Media Services' Citizen TV is the most watched channel, and radio is a major source of news in English, Swahili and local languages. Digital outlets such as The Elephant and Africa Uncensored publish analysis and investigations. Nairobi is also a regional hub for technology and business reporting. The Daily Nation uses a metered paywall; most other sites are free.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Kenya?",
+          "a": "The main national outlets in the directory include the Daily Nation, The Standard, The Star and Citizen Digital. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Kenyan outlets are publicly funded?",
+          "a": "KBC is the Kenya Broadcasting Corporation, the public broadcaster. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Kenyan news in Swahili?",
+          "a": "Taifa Leo publishes in Swahili. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Kenya's national outlets are based in Nairobi and are led by two long-established newspaper groups."
+        },
+        "economy": {
+          "intro": "Business news in Kenya covers the Nairobi Securities Exchange, mobile money and trade across East Africa."
+        },
+        "broadcast": {
+          "intro": "Television and radio are central to news in Kenya. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

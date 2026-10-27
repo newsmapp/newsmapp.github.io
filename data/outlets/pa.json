@@ -1,0 +1,482 @@
+[
+  {
+    "id": "pa-la-prensa",
+    "slug": "la-prensa",
+    "name": "La Prensa",
+    "url": "https://www.prensa.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Corporación La Prensa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Panama City daily known for investigations into corruption, with politics and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.prensa.com/",
+      "title": "La Prensa Panamá | Noticias de Panamá e Internacionales"
+    }
+  },
+  {
+    "id": "pa-la-estrella-de-panama",
+    "slug": "la-estrella-de-panama",
+    "name": "La Estrella de Panamá",
+    "url": "https://www.laestrella.com.pa/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1849,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Daily founded in 1849, one of the oldest newspapers in the Americas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.laestrella.com.pa/",
+      "title": "La Estrella de Panamá - Noticias de Panamá y el mundo"
+    }
+  },
+  {
+    "id": "pa-panama-america",
+    "slug": "panama-america",
+    "name": "Panamá América",
+    "url": "https://www.panamaamerica.com.pa/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1925,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Epasa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Panama City daily founded in 1925, with national news, politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.panamaamerica.com.pa/",
+      "title": "Panamá América | Noticias de Panamá"
+    }
+  },
+  {
+    "id": "pa-critica",
+    "slug": "critica",
+    "name": "Crítica",
+    "url": "https://www.critica.com.pa/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Epasa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular daily with national news, crime and community stories."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.critica.com.pa/",
+      "title": "CRÍTICA - Diario de circulación nacional con Noticias y Novedades de Panamá y el Mundo."
+    }
+  },
+  {
+    "id": "pa-mi-diario",
+    "slug": "mi-diario",
+    "name": "Mi Diario",
+    "url": "https://www.midiario.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "sports"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Corporación La Prensa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular daily from Corporación La Prensa with local news, sports and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.midiario.com/",
+      "title": "Inicio | Noticias Mi Diario Panamá - Farándula, Deportes y Más"
+    }
+  },
+  {
+    "id": "pa-newsroom-panama",
+    "slug": "newsroom-panama",
+    "name": "Newsroom Panama",
+    "url": "https://newsroompanama.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site covering Panama's politics, business and community news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://newsroompanama.com/",
+      "title": "Newsroom Panama - Panama News and Information in English"
+    }
+  },
+  {
+    "id": "pa-foco",
+    "slug": "foco",
+    "name": "Foco",
+    "url": "https://focopanama.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital outlet with investigations into politics, public contracts and corruption."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://focopanama.com/",
+      "title": "Foco Panamá - Noticias de Panamá"
+    }
+  },
+  {
+    "id": "pa-capital-financiero",
+    "slug": "capital-financiero",
+    "name": "Capital Financiero",
+    "url": "https://elcapitalfinanciero.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business newspaper covering banking, the canal, trade and companies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://elcapitalfinanciero.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pa-tvn-noticias",
+    "slug": "tvn-noticias",
+    "name": "TVN Noticias",
+    "url": "https://www.tvn-2.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of TVN with national newscasts and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tvn-2.com/",
+      "title": "TVN | Noticias, Deportes y Entretenimiento de Panamá"
+    }
+  },
+  {
+    "id": "pa-telemetro",
+    "slug": "telemetro",
+    "name": "Telemetro",
+    "url": "https://www.telemetro.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "sports"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television channel with national newscasts, sports and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.telemetro.com/",
+      "title": "Últimas Noticias de Panamá y el Mundo | Telemetro"
+    }
+  },
+  {
+    "id": "pa-eco-tv",
+    "slug": "eco-tv",
+    "name": "Eco TV",
+    "url": "https://www.ecotvpanama.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news channel with interviews, politics and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ecotvpanama.com/",
+      "title": "Entrevistas y Últimas Noticias de Panamá | ECO"
+    }
+  },
+  {
+    "id": "pa-radio-panama",
+    "slug": "radio-panama",
+    "name": "Radio Panamá",
+    "url": "https://radiopanama.com.pa/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News radio station with national bulletins, interviews and talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://radiopanama.com.pa/",
+      "title": "Inicio - Radio Panamá"
+    }
+  }
+]

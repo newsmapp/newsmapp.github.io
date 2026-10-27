@@ -1,0 +1,49 @@
+{
+  "iso2": "BZ",
+  "iso3": "BLZ",
+  "slug": "belize",
+  "name": {
+    "en": "Belize"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 417072,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "MX",
+    "GT"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Belize, the only English-speaking country in Central America, has a small news market built around weekly newspapers and evening television newscasts. Amandala is the main independent weekly, while The Belize Times and The Guardian are linked to the two main political parties. 7 News publishes its evening newscast online, and Love FM is a leading radio station. The San Pedro Sun covers Ambergris Caye. News sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Belize?",
+          "a": "The main outlets in the directory include Amandala, Breaking Belize News, 7 News and Love FM. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Are Belizean newspapers linked to political parties?",
+          "a": "The Belize Times is linked to the People's United Party and The Guardian to the United Democratic Party. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Belize's news comes mostly from weekly newspapers and their websites, with daily updates online."
+        },
+        "broadcast": {
+          "intro": "Evening television newscasts and radio are central to news in Belize. The stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

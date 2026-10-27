@@ -1,0 +1,59 @@
+{
+  "iso2": "PK",
+  "iso3": "PAK",
+  "slug": "pakistan",
+  "name": {
+    "en": "Pakistan"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 251269164,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ur",
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "IN",
+    "AF",
+    "IR",
+    "CN"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Pakistan has a large press in Urdu and English led by two media groups: the Jang Group, publisher of Daily Jang and The News and owner of Geo News, and the Express Media Group, publisher of The Express Tribune and Daily Express. Dawn, founded in 1941 by Muhammad Ali Jinnah, is the leading English-language newspaper. Private television news channels such as Geo, ARY and Dunya are the main news sources for most people. Press freedom organizations report pressure on the media from state institutions, including channel suspensions and attacks on journalists. Business Recorder covers the economy, and cricket dominates sports coverage. News sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Pakistan?",
+          "a": "The main outlets in the directory include Dawn, The Express Tribune, The News and Daily Jang. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is there Pakistani news in Urdu?",
+          "a": "Daily Jang and Daily Express publish in Urdu. The language of every outlet is shown in the directory."
+        },
+        {
+          "q": "Which Pakistani outlets are publicly funded?",
+          "a": "PTV News belongs to Pakistan Television, the state broadcaster. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Pakistan's national outlets publish in Urdu and English and are led by a few large media groups based in Karachi and Lahore."
+        },
+        "broadcast": {
+          "intro": "Private television news channels are the main source of news in Pakistan. The channels below publish their coverage online."
+        },
+        "sports": {
+          "intro": "Cricket dominates Pakistani sports coverage, from the national team to the Pakistan Super League."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

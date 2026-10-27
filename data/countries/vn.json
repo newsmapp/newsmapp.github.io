@@ -1,0 +1,57 @@
+{
+  "iso2": "VN",
+  "iso3": "VNM",
+  "slug": "vietnam",
+  "name": {
+    "en": "Vietnam"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 100987686,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "vi"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CN",
+    "LA",
+    "KH"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "All media in Vietnam operate under the control of the Communist Party and the state, and every newspaper and broadcaster belongs to a party, government or mass organization, as press freedom organizations document every year. Within that system the market is large and competitive online: VnExpress, owned by the technology group FPT, is the most read news site, alongside Tuổi Trẻ, Thanh Niên, Dân Trí and VietnamNet. The party newspaper Nhân Dân, the broadcasters VTV and VOV and the regional papers of Hanoi and Ho Chi Minh City carry official positions. English-language news comes from VnExpress International and Vietnam Investment Review. News sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Vietnam?",
+          "a": "The main outlets in the directory include VnExpress, Tuổi Trẻ, Thanh Niên, Dân Trí and VietnamNet. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Who owns the media in Vietnam?",
+          "a": "Vietnamese media belong to party, state or mass organizations; VnExpress is published by the FPT group under a state license. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Vietnamese news in English?",
+          "a": "VnExpress International and Vietnam Investment Review publish in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Vietnam's main news sites have tens of millions of readers and publish under the oversight of the state and the Communist Party."
+        },
+        "economy": {
+          "intro": "Business news in Vietnam covers manufacturing, exports, real estate and the stock market, in Vietnamese and English."
+        },
+        "broadcast": {
+          "intro": "The national broadcasters VTV and VOV are the main television and radio news sources in Vietnam."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

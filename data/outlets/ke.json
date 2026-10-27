@@ -1,0 +1,599 @@
+[
+  {
+    "id": "ke-daily-nation",
+    "slug": "daily-nation",
+    "name": "Daily Nation",
+    "url": "https://nation.africa/kenya",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Kenya's largest daily, with national politics, counties and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://nation.africa/kenya",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ke-the-standard",
+    "slug": "the-standard",
+    "name": "The Standard",
+    "url": "https://www.standardmedia.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1902,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Standard Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nairobi daily founded in 1902, with national news, politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.standardmedia.co.ke/",
+      "title": "The Standard - Kenya & World News | Latest and Breaking news"
+    }
+  },
+  {
+    "id": "ke-the-star",
+    "slug": "the-star",
+    "name": "The Star",
+    "url": "https://www.the-star.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Radio Africa Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nairobi daily with national news, politics and county coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.the-star.co.ke/",
+      "title": "The Star"
+    }
+  },
+  {
+    "id": "ke-kenyans-co-ke",
+    "slug": "kenyans-co-ke",
+    "name": "Kenyans.co.ke",
+    "url": "https://www.kenyans.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with national news, politics and public services in Kenya."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kenyans.co.ke/",
+      "title": "Kenyans.co.ke"
+    }
+  },
+  {
+    "id": "ke-taifa-leo",
+    "slug": "taifa-leo",
+    "name": "Taifa Leo",
+    "url": "https://taifaleo.nation.co.ke/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swahili-language daily of Nation Media Group, with national and regional news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ke-the-elephant",
+    "slug": "the-elephant",
+    "name": "The Elephant",
+    "url": "https://www.theelephant.info/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital platform publishing long-form analysis of politics and society in East Africa."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theelephant.info/",
+      "title": "The Elephant"
+    }
+  },
+  {
+    "id": "ke-africa-uncensored",
+    "slug": "africa-uncensored",
+    "name": "Africa Uncensored",
+    "url": "https://africauncensored.online/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Investigative media house producing video and written investigations in Kenya."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://africauncensored.online/",
+      "title": "Home - Africa Uncensored"
+    }
+  },
+  {
+    "id": "ke-business-daily",
+    "slug": "business-daily",
+    "name": "Business Daily",
+    "url": "https://www.businessdailyafrica.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, companies and economic policy in Kenya."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.businessdailyafrica.com/",
+      "title": "Business Daily"
+    }
+  },
+  {
+    "id": "ke-the-eastafrican",
+    "slug": "the-eastafrican",
+    "name": "The EastAfrican",
+    "url": "https://www.theeastafrican.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "politics"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly newspaper covering politics and business across the East African region."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.theeastafrican.co.ke/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ke-kenyan-wall-street",
+    "slug": "kenyan-wall-street",
+    "name": "The Kenyan Wall Street",
+    "url": "https://kenyanwallstreet.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial news site covering the Nairobi Securities Exchange, banking and startups."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://kenyanwallstreet.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ke-techweez",
+    "slug": "techweez",
+    "name": "Techweez",
+    "url": "https://techweez.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering Kenyan startups, telecoms and mobile money."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://techweez.com/",
+      "title": "Techweez | Tech News, Reviews, Deals, Tips and How To"
+    }
+  },
+  {
+    "id": "ke-citizen-digital",
+    "slug": "citizen-digital",
+    "name": "Citizen Digital",
+    "url": "https://citizen.digital/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Royal Media Services",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of Citizen TV and Radio Citizen, Kenya's most watched news network."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://citizen.digital/",
+      "title": "Citizen Digital - Breaking News, Latest News, Kenya Politics, Business, Sports & TV"
+    }
+  },
+  {
+    "id": "ke-ntv-kenya",
+    "slug": "ntv-kenya",
+    "name": "NTV Kenya",
+    "url": "https://ntvkenya.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television station of Nation Media Group with national newscasts and talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ntvkenya.co.ke/",
+      "title": "NTV Kenya - ntvkenya.co.ke for your latest news, podcasts, music, sports and entertainment shows cutting across generations"
+    }
+  },
+  {
+    "id": "ke-kbc",
+    "slug": "kbc",
+    "name": "KBC",
+    "url": "https://www.kbc.co.ke/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1928,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Kenya Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public broadcaster with television and radio news in English and Swahili."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ke-capital-fm",
+    "slug": "capital-fm",
+    "name": "Capital FM",
+    "url": "https://capitalfm.africa/news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nairobi radio station with a national news site covering politics and business."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://capitalfm.africa/news/",
+      "title": "Just a moment..."
+    }
+  }
+]

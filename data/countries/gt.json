@@ -1,0 +1,54 @@
+{
+  "iso2": "GT",
+  "iso3": "GTM",
+  "slug": "guatemala",
+  "name": {
+    "en": "Guatemala"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 18406359,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "MX",
+    "BZ",
+    "HN",
+    "SV"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Guatemala's news market is led from Guatemala City by Prensa Libre, the largest daily, alongside the popular tabloid Nuestro Diario, the digital-native Soy502 and radio news from Emisoras Unidas. Nonprofit and digital newsrooms such as Plaza Pública and Agencia Ocote cover corruption, justice and migration. Journalists face legal pressure and threats, and the closure of elPeriódico in 2023 after the arrest of its founder is widely cited by press freedom organizations. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Guatemala?",
+          "a": "The main national outlets in the directory include Prensa Libre, Soy502, La Hora and Nuestro Diario. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find investigative journalism in Guatemala?",
+          "a": "Investigative work in the directory comes from Plaza Pública, Agencia Ocote, No-Ficción and Ojoconmipisto. The Investigative column lists them in editorial order."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Guatemala's national outlets are based in Guatemala City and combine a long-established daily, a mass-market tabloid and digital news sites."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Guatemala comes mostly from nonprofit and digital newsrooms covering corruption, justice and public spending."
+        },
+        "broadcast": {
+          "intro": "Radio and television carry national news across Guatemala. The stations and channels below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

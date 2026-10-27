@@ -1,0 +1,60 @@
+{
+  "iso2": "EG",
+  "iso3": "EGY",
+  "slug": "egypt",
+  "name": {
+    "en": "Egypt"
+  },
+  "continent": "africa",
+  "also_in": [
+    "asia"
+  ],
+  "population": {
+    "value": 116538258,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ar"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "LY",
+    "SD",
+    "IL",
+    "PS"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Egypt has the largest Arabic-language press in the world, centered in Cairo. Al-Ahram, founded in 1875, and other major titles are state-owned, and press freedom organizations report that most private media are owned or controlled by companies close to the state. Private dailies such as Al-Masry Al-Youm and Al-Shorouk remain widely read, and Youm7 is among the most visited Arabic news sites. Independent outlets such as Mada Masr publish investigative reporting despite being blocked inside the country. English-language news comes from Ahram Online, Egypt Independent and Daily News Egypt. Football coverage is dominated by sites such as FilGoal.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Egypt?",
+          "a": "The main outlets in the directory include Al-Ahram, Al-Masry Al-Youm, Youm7 and Al-Shorouk. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Egyptian outlets are state-owned?",
+          "a": "Al-Ahram and Ahram Online belong to the state-owned Al-Ahram Establishment. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Egyptian news in English?",
+          "a": "Ahram Online, Egypt Independent, Daily News Egypt and Enterprise publish in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Egypt's national outlets are based in Cairo and include state-owned titles, private dailies and large Arabic news sites."
+        },
+        "economy": {
+          "intro": "Business news in Egypt covers the pound, inflation, the Suez Canal and investment, in Arabic and English."
+        },
+        "sports": {
+          "intro": "Egyptian sports media is centered on football, from Al Ahly and Zamalek to the national team."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

@@ -46,7 +46,7 @@ Every affiliate block shows "Affiliate link — we may earn a commission" with a
 
 Turn on only when all hold:
 
-1. AdSense approved the site (apply after the 20 countries are published and pages are indexed).
+1. AdSense approved the site (apply after the 40 launch countries are published and pages are indexed).
 2. Google Privacy & Messaging (TCF-certified CMP) configured for EEA, UK and Switzerland.
 3. The ads CSP profile is deployed.
 4. `ADS_ENABLED=true`.

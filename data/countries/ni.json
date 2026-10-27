@@ -1,0 +1,49 @@
+{
+  "iso2": "NI",
+  "iso3": "NIC",
+  "slug": "nicaragua",
+  "name": {
+    "en": "Nicaragua"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 6916140,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "HN",
+    "CR"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Nicaragua's independent press works largely from exile. Since 2018 the government has closed or seized newsrooms, including the offices of La Prensa and Confidencial, and many journalists have been forced to leave the country or stripped of their nationality. Outlets such as La Prensa, Confidencial, Divergentes and Artículo 66 continue to publish online from abroad, while news aligned with the government is published by El 19 Digital and official channels. Press freedom organizations rank Nicaragua among the most restrictive countries in the Americas. News sites are free to read.",
+      "faq": [
+        {
+          "q": "Do Nicaraguan independent media still publish?",
+          "a": "Yes. La Prensa, Confidencial, Divergentes and Artículo 66 publish online, mostly from exile. The directory lists them with their ownership."
+        },
+        {
+          "q": "Which Nicaraguan outlets are aligned with the government?",
+          "a": "El 19 Digital is the government's official news site. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Nicaragua's main independent outlets now publish online, mostly from exile, alongside government-aligned media."
+        },
+        "investigative": {
+          "intro": "Investigative journalism on Nicaragua is carried out by digital newsrooms operating mostly from abroad."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

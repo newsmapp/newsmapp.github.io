@@ -1,0 +1,65 @@
+{
+  "iso2": "CO",
+  "iso3": "COL",
+  "slug": "colombia",
+  "name": {
+    "en": "Colombia"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 52886363,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "VE",
+    "BR",
+    "PE",
+    "EC",
+    "PA"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Colombia's news market is centered in Bogotá, with national dailies El Tiempo and El Espectador, the newsweekly Semana and two private television networks, Caracol and RCN, that also run major radio chains. Ownership is concentrated in a few business groups. Investigative and digital outlets such as La Silla Vacía cover politics, the armed conflict and the peace process. Journalists in several regions face threats, which press freedom organizations document every year. Strong regional newspapers serve Medellín, Cali, Barranquilla and Bucaramanga. Several leading dailies use metered paywalls; radio and television news sites are free.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Colombia?",
+          "a": "The main national outlets in the directory include El Tiempo, El Espectador and Semana. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Colombian outlets are publicly funded?",
+          "a": "RTVC Noticias belongs to RTVC, the public media system. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Colombia?",
+          "a": "Regional coverage in the directory comes from El Colombiano (Antioquia), El País (Valle del Cauca), El Heraldo (Atlántico) and Vanguardia (Santander). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Colombia's national news outlets are based in Bogotá and combine century-old dailies with a newsweekly and digital sites. The list below shows the outlets most used to follow national politics and security."
+        },
+        "economy": {
+          "intro": "Business news in Colombia comes from dedicated financial dailies and digital outlets covering markets, oil, trade and public finance."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Colombia documents corruption, the armed conflict and land disputes, often through nonprofit newsrooms. These are the outlets known for that work."
+        },
+        "broadcast": {
+          "intro": "Television and radio remain the main news sources for many Colombians. The networks and radio chains below publish their newscasts online."
+        },
+        "regional": {
+          "intro": "Beyond Bogotá, regional dailies cover their departments in depth. The outlets below serve Antioquia, Valle del Cauca, Atlántico and Santander."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

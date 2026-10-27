@@ -1,0 +1,60 @@
+{
+  "iso2": "CL",
+  "iso3": "CHL",
+  "slug": "chile",
+  "name": {
+    "en": "Chile"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 19764771,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "AR",
+    "BO",
+    "PE"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Chile's print market has long been split between two groups, El Mercurio and Copesa, publisher of La Tercera, while radio stations such as Bío-Bío and Cooperativa are among the most trusted news sources. Television news comes from the public broadcaster TVN and private channels such as Canal 13. Digital-native and nonprofit outlets, led by CIPER, are known for investigative reporting on business and politics. Regional dailies cover Valparaíso, Concepción and the south. Emol, El Mercurio's news site, is free to read; La Tercera and Diario Financiero use paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Chile?",
+          "a": "The main national outlets in the directory include El Mercurio, La Tercera, BioBioChile and Cooperativa. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Chilean outlets are publicly funded?",
+          "a": "24 Horas is the news service of TVN, Chile's public broadcaster. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Chile?",
+          "a": "Regional coverage in the directory comes from El Mercurio de Valparaíso, El Sur (Biobío) and El Austral (Araucanía). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Chile's national news outlets combine two long-established newspaper groups with radio stations whose websites are among the most read in the country."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Chile is led by nonprofit and digital newsrooms reporting on business, politics and public institutions. These are the outlets known for that work."
+        },
+        "broadcast": {
+          "intro": "Radio and television are central to news in Chile. The stations and channels below publish their newscasts and live coverage online."
+        },
+        "regional": {
+          "intro": "Beyond Santiago, regional dailies cover their regions in depth. The outlets below serve Valparaíso, Biobío and La Araucanía."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

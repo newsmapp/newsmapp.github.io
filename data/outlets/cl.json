@@ -1,0 +1,759 @@
+[
+  {
+    "id": "cl-el-mercurio",
+    "slug": "el-mercurio",
+    "name": "El Mercurio",
+    "url": "https://www.emol.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1900,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "El Mercurio S.A.P.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Emol, the free news site of El Mercurio, Chile's newspaper of record."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.emol.com/",
+      "title": "EMOL - El sitio de noticias online de Chile."
+    }
+  },
+  {
+    "id": "cl-la-tercera",
+    "slug": "la-tercera",
+    "name": "La Tercera",
+    "url": "https://www.latercera.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1950,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Copesa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Santiago daily with national politics, business coverage and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.latercera.com/",
+      "title": "La Tercera - Noticias de Chile y el Mundo"
+    }
+  },
+  {
+    "id": "cl-biobiochile",
+    "slug": "biobiochile",
+    "name": "BioBioChile",
+    "url": "https://www.biobiochile.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 1966,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bío-Bío Comunicaciones",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of Radio Bío-Bío, one of Chile's most read outlets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.biobiochile.cl/",
+      "title": "BioBioChile - La Red de Prensa Más Grande de Chile"
+    }
+  },
+  {
+    "id": "cl-cooperativa",
+    "slug": "cooperativa",
+    "name": "Cooperativa",
+    "url": "https://www.cooperativa.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1936,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News radio station and site with national and international coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cooperativa.cl/",
+      "title": "Noticias de Chile, actualidad, deportes y streaming | Cooperativa"
+    }
+  },
+  {
+    "id": "cl-el-mostrador",
+    "slug": "el-mostrador",
+    "name": "El Mostrador",
+    "url": "https://www.elmostrador.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Chile's first digital-only daily, focused on politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elmostrador.cl/",
+      "title": "El Mostrador"
+    }
+  },
+  {
+    "id": "cl-ex-ante",
+    "slug": "ex-ante",
+    "name": "Ex-Ante",
+    "url": "https://www.ex-ante.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet founded in 2021 with political reporting, interviews and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ex-ante.cl/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "cl-ciper",
+    "slug": "ciper",
+    "name": "CIPER",
+    "url": "https://www.ciperchile.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative newsroom reporting on business, politics and public institutions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ciperchile.cl/",
+      "title": "- CIPER Chile"
+    }
+  },
+  {
+    "id": "cl-interferencia",
+    "slug": "interferencia",
+    "name": "Interferencia",
+    "url": "https://interferencia.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet publishing investigations and long-form reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://interferencia.cl/",
+      "title": "Interferencia |"
+    }
+  },
+  {
+    "id": "cl-the-clinic",
+    "slug": "the-clinic",
+    "name": "The Clinic",
+    "url": "https://www.theclinic.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5,
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Magazine and news site mixing satire, interviews and reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.theclinic.cl/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "cl-diario-financiero",
+    "slug": "diario-financiero",
+    "name": "Diario Financiero",
+    "url": "https://www.df.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, companies and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.df.cl/",
+      "title": "Diario Financiero Noticias de negocios, financieras y económicas de Chile y el mundo | Diario Financiero"
+    }
+  },
+  {
+    "id": "cl-24-horas",
+    "slug": "24-horas",
+    "name": "24 Horas",
+    "url": "https://www.24horas.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Televisión Nacional de Chile",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of TVN, Chile's public broadcaster, with newscasts and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.24horas.cl/",
+      "title": "24horas.cl te informa de las noticias de Chile y el mundo | 24horas"
+    }
+  },
+  {
+    "id": "cl-t13",
+    "slug": "t13",
+    "name": "T13",
+    "url": "https://www.t13.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Canal 13",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of Canal 13, with national newscasts, live coverage and interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.t13.cl/",
+      "title": "Teletrece - Noticias de Chile y el Mundo | T13"
+    }
+  },
+  {
+    "id": "cl-adn-radio",
+    "slug": "adn-radio",
+    "name": "ADN Radio",
+    "url": "https://www.adnradio.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "sports"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News and sports radio station with national news and live football commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.adnradio.cl/",
+      "title": "ADN Radio | EN VIVO Actualidad, deportes, noticias y radio online"
+    }
+  },
+  {
+    "id": "cl-redgol",
+    "slug": "redgol",
+    "name": "Redgol",
+    "url": "https://redgol.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Football news site covering Chilean clubs, the national team and players abroad."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://redgol.cl/",
+      "title": "RedGol - Últimas Noticias del Deporte de Chile y del Mundo"
+    }
+  },
+  {
+    "id": "cl-tnt-sports-chile",
+    "slug": "tnt-sports-chile",
+    "name": "TNT Sports Chile",
+    "url": "https://tntsports.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports channel broadcasting the Chilean football league, with news and results."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tntsports.cl/",
+      "title": "Error 403"
+    }
+  },
+  {
+    "id": "cl-fayerwayer",
+    "slug": "fayerwayer",
+    "name": "FayerWayer",
+    "url": "https://www.fayerwayer.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology news site covering gadgets, science and the internet in Spanish."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.fayerwayer.com/",
+      "title": "FayerWayer"
+    }
+  },
+  {
+    "id": "cl-el-mercurio-de-valparaiso",
+    "slug": "el-mercurio-de-valparaiso",
+    "name": "El Mercurio de Valparaíso",
+    "url": "https://www.mercuriovalpo.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Valparaíso",
+    "founded_year": 1827,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "El Mercurio S.A.P.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Valparaíso daily, the oldest Spanish-language newspaper still in print."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mercuriovalpo.cl/impresa/2026/10/27/papel/",
+      "title": "El Mercurio de Valparaíso"
+    }
+  },
+  {
+    "id": "cl-el-sur",
+    "slug": "el-sur",
+    "name": "El Sur",
+    "url": "https://www.elsur.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Biobío",
+    "founded_year": 1882,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Concepción daily covering the Biobío region, its industry, ports and universities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elsur.cl/impresa/2026/10/27/papel/",
+      "title": "El Sur"
+    }
+  },
+  {
+    "id": "cl-el-austral",
+    "slug": "el-austral",
+    "name": "El Austral de la Araucanía",
+    "url": "https://www.australtemuco.cl/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "La Araucanía",
+    "founded_year": 1916,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "El Mercurio S.A.P.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Temuco daily covering La Araucanía, including regional politics and agriculture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.australtemuco.cl/impresa/2026/10/27/papel/",
+      "title": "australtemuco.cl - El Austral de Temuco - Temuco, Chile"
+    }
+  }
+]

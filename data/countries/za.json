@@ -1,0 +1,75 @@
+{
+  "iso2": "ZA",
+  "iso3": "ZAF",
+  "slug": "south-africa",
+  "name": {
+    "en": "South Africa"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 64007187,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "af",
+    "zu",
+    "xh",
+    "st",
+    "tn",
+    "ts",
+    "ss",
+    "ve",
+    "nr"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "NA",
+    "BW",
+    "ZW",
+    "MZ",
+    "SZ",
+    "LS"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "South Africa has one of Africa's most developed and free news markets. News24 is the most read news site, alongside the digital-native Daily Maverick and the Mail & Guardian, while the public broadcaster SABC and the private channel eNCA lead television news. Investigative journalism is strong, led by amaBhungane and Daily Maverick's Scorpio unit, whose reporting on state capture shaped national politics. Media groups include Media24, Arena Holdings and Independent Media. English dominates online news, with Afrikaans and other languages also served. Several outlets use subscriptions or metered paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in South Africa?",
+          "a": "The main national outlets in the directory include News24, Daily Maverick, the Mail & Guardian, TimesLIVE and IOL. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which South African outlets are publicly funded?",
+          "a": "SABC News belongs to the South African Broadcasting Corporation, the public broadcaster. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in South Africa?",
+          "a": "Regional coverage in the directory comes from the Daily Dispatch (Eastern Cape) and The Witness (KwaZulu-Natal). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "South Africa's national outlets combine large digital news sites with weekly newspapers and their online editions."
+        },
+        "economy": {
+          "intro": "Business news in South Africa covers the Johannesburg Stock Exchange, mining, energy and the rand."
+        },
+        "investigative": {
+          "intro": "South African investigative journalism exposed state capture and continues to hold business and government to account."
+        },
+        "tech-science": {
+          "intro": "South Africa has an established technology press covering telecoms, broadband and the local tech industry."
+        },
+        "sports": {
+          "intro": "South African sports media covers football, rugby and cricket, with a pan-African sports broadcaster."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

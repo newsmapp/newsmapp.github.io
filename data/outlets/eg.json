@@ -1,0 +1,568 @@
+[
+  {
+    "id": "eg-al-ahram",
+    "slug": "al-ahram",
+    "name": "Al-Ahram",
+    "url": "https://gate.ahram.org.eg/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1875,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Al-Ahram Establishment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Cairo daily founded in 1875, the flagship of the state-owned Al-Ahram Establishment."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/egypt"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://gate.ahram.org.eg/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-al-masry-al-youm",
+    "slug": "al-masry-al-youm",
+    "name": "Al-Masry Al-Youm",
+    "url": "https://www.almasryalyoum.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Private Cairo daily with national news, politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.almasryalyoum.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-youm7",
+    "slug": "youm7",
+    "name": "Youm7",
+    "url": "https://www.youm7.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "unknown",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "High-volume Arabic news site and daily with national news and breaking updates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.youm7.com/",
+      "title": "اليوم السابع"
+    }
+  },
+  {
+    "id": "eg-al-shorouk",
+    "slug": "al-shorouk",
+    "name": "Al-Shorouk",
+    "url": "https://www.shorouknews.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private Cairo daily with national news, analysis and opinion columns."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.shorouknews.com/",
+      "title": "بوابة الشروق"
+    }
+  },
+  {
+    "id": "eg-masrawy",
+    "slug": "masrawy",
+    "name": "Masrawy",
+    "url": "https://www.masrawy.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic news portal with national news, public services and sports."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.masrawy.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-al-wafd",
+    "slug": "al-wafd",
+    "name": "Al-Wafd",
+    "url": "https://alwafd.news/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1984,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Wafd Party",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily newspaper of the Wafd Party, with political news and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://alwafd.news/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "eg-ahram-online",
+    "slug": "ahram-online",
+    "name": "Ahram Online",
+    "url": "https://english.ahram.org.eg/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Al-Ahram Establishment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site of the state-owned Al-Ahram Establishment."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/egypt"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://english.ahram.org.eg/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-egypt-independent",
+    "slug": "egypt-independent",
+    "name": "Egypt Independent",
+    "url": "https://www.egyptindependent.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Al-Masry Al-Youm",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site of Al-Masry Al-Youm with national news and politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.egyptindependent.com/",
+      "title": "Main - Egypt Independent"
+    }
+  },
+  {
+    "id": "eg-mada-masr",
+    "slug": "mada-masr",
+    "name": "Mada Masr",
+    "url": "https://www.madamasr.com/en/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Independent outlet publishing investigations and analysis in Arabic and English."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.madamasr.com/en/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-daily-news-egypt",
+    "slug": "daily-news-egypt",
+    "name": "Daily News Egypt",
+    "url": "https://www.dailynewsegypt.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site with business, investment and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dailynewsegypt.com/",
+      "title": "Dailynewsegypt – Egypt’s Only Daily Independent Newspaper In English"
+    }
+  },
+  {
+    "id": "eg-enterprise",
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "url": "https://enterpriseam.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language business newsletter and site covering Egyptian markets and policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://enterpriseam.com/",
+      "title": "Homepage - EnterpriseAM"
+    }
+  },
+  {
+    "id": "eg-al-mal-news",
+    "slug": "al-mal-news",
+    "name": "Al-Mal News",
+    "url": "https://almalnews.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic business newspaper covering markets, banking and investment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://almalnews.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "eg-filgoal",
+    "slug": "filgoal",
+    "name": "FilGoal",
+    "url": "https://www.filgoal.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Arabic football site covering the Egyptian league, the national team and world football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.filgoal.com/",
+      "title": "FilGoal | فى الجول | الموقع الرياضى الرائد فى مصر و الوطن العربى"
+    }
+  },
+  {
+    "id": "eg-yallakora",
+    "slug": "yallakora",
+    "name": "Yallakora",
+    "url": "https://www.yallakora.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic sports site with live scores, Egyptian football and international results."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yallakora.com/mainpage",
+      "title": "يلاكورة الموقع الرياضي الأول فى الشرق الأوسط|يلاكورة"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "iso2": "SV",
+  "iso3": "SLV",
+  "slug": "el-salvador",
+  "name": {
+    "en": "El Salvador"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 6338193,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "GT",
+    "HN"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "El Salvador's two traditional dailies, La Prensa Gráfica and El Diario de Hoy, lead a market that also includes Diario El Mundo, the cooperative-owned Diario Co Latino and Diario El Salvador, launched in 2021. El Faro, founded in 1998 as one of Latin America's first digital newspapers, is known internationally for its investigations, as are Revista Factum and GatoEncerrado. Press freedom organizations report increasing pressure on independent journalists, and El Faro moved its legal registration to Costa Rica in 2023. News sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in El Salvador?",
+          "a": "The main national outlets in the directory include La Prensa Gráfica, El Diario de Hoy and Diario El Mundo. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find investigative journalism in El Salvador?",
+          "a": "Investigative work in the directory comes from El Faro, Revista Factum, GatoEncerrado and Focos. The Investigative column lists them in editorial order."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "El Salvador's national outlets are based in San Salvador and include two dailies founded in the early 20th century."
+        },
+        "investigative": {
+          "intro": "El Salvador's digital newsrooms are known across the region for investigations into gangs, corruption and public spending."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

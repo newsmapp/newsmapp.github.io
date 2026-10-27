@@ -1,5 +1,5 @@
 {
-  "description": "v1.0 launch countries: the 20 largest economies by nominal GDP.",
+  "description": "v1.0 launch countries: the 20 largest economies by nominal GDP, plus Argentina, Colombia, Chile, Peru, the seven countries of Central America, Nigeria, South Africa, Egypt, Kenya, the Philippines, Vietnam, Thailand, Malaysia and Pakistan.",
   "countries": [
     "US",
     "CA",
@@ -20,6 +20,26 @@
     "ID",
     "SA",
     "TR",
-    "AU"
+    "AU",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "GT",
+    "BZ",
+    "HN",
+    "SV",
+    "NI",
+    "CR",
+    "PA",
+    "NG",
+    "ZA",
+    "EG",
+    "KE",
+    "PH",
+    "VN",
+    "TH",
+    "MY",
+    "PK"
   ]
 }

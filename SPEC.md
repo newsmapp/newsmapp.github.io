@@ -1,6 +1,6 @@
-# NewsMap — Especificação de Produto e Arquitetura (v2)
+# NewsMapp — Especificação de Produto e Arquitetura (v2)
 
-> **Escopo do primeiro lançamento (v1.0):** somente inglês (`en`, convenções en-US), 20 países curados, deploy exclusivo em Cloudflare.
+> **Escopo do primeiro lançamento (v1.0):** somente inglês (`en`, convenções en-US), 40 países curados (as 20 maiores economias, mais Argentina, Colômbia, Chile, Peru, os sete países da América Central e nove países da África e da Ásia: Nigéria, África do Sul, Egito, Quênia, Filipinas, Vietnã, Tailândia, Malásia e Paquistão), deploy exclusivo em Cloudflare.
 > As decisões que mudaram em relação à v1 deste documento estão no **Apêndice A**.
 
 ---
@@ -497,7 +497,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 - `src/schemas/`: `geo.schema.ts`, `catalog.schema.ts` (País, Veículo, Categoria, SEO context) e `monetization.schema.ts` (afiliados, preços, países com VPN restrita, payloads de submissão e checkout).
 - `src/db/`: schema Drizzle da seção 3.7 + migrations.
 
-### Fase 2: Pipeline do catálogo e dados dos 20 países
+### Fase 2: Pipeline do catálogo e dados dos 40 países
 
 - Implementar `tools/catalog-cli` (seção 3.4).
 - `data/geo/countries.json`: os 249 códigos ISO-3166-1 com nome em `en`, continente, `also_in`, vizinhos e idiomas oficiais. É usado em lookups e no internal linking futuro, e **não gera páginas**.
@@ -614,7 +614,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 
 ### Pós-lançamento (roadmap, fora do v1.0)
 
-1. Próxima onda de países: Nigeria, South Africa, Egypt, Kenya, Argentina, Colombia, Chile, Poland, Sweden, Philippines etc.
+1. Próxima onda de países: Nigeria, South Africa, Egypt, Kenya, Venezuela, Ecuador, Uruguay, Poland, Sweden, Philippines etc.
 2. Locales `pt`, `es`, `fr`, `de`, ativando o `hreflang`.
 3. Newsletter (R4).
 4. Mapa-múndi interativo (SVG leve, ilha `client:visible`).
@@ -628,7 +628,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 ### 5.1 DoD técnico (cumprido pelo agente, comprovado por execução no terminal)
 
 - [ ] `pnpm typecheck`, `pnpm lint`, `pnpm test:coverage` (≥ 85% em `src/lib` e APIs), `pnpm build`, `pnpm seo:audit`, `pnpm e2e` e `pnpm lhci` passam.
-- [ ] `pnpm catalog:validate` passa. O pipeline `draft → health → verify → publish` funciona de ponta a ponta. Candidatos para os 20 países estão prontos para revisão, com `catalog:report` mostrando a cobertura.
+- [ ] `pnpm catalog:validate` passa. O pipeline `draft → health → verify → publish` funciona de ponta a ponta. Candidatos para os 40 países estão prontos para revisão, com `catalog:report` mostrando a cobertura.
 - [ ] A UX de diretório está implementada: colunas densas, ícones locais, indicadores com texto, card de detalhe acessível, FilterBar e ⌘K.
 - [ ] Os limiares da seção 3.5 são aplicados, e o sitemap contém só páginas indexáveis.
 - [ ] R1 (simulação de ponta a ponta, incluindo reserva, webhook e expiração), R2, H1 e H2 funcionam. R3 está pronto e desligado.
@@ -637,7 +637,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 
 ### 5.2 DoD de lançamento (depende do proprietário)
 
-- [ ] Os 20 países estão com `published: true`, ou seja, veículos verificados e textos revisados.
+- [ ] Os 40 países estão com `published: true`, ou seja, veículos verificados e textos revisados.
 - [ ] Metodologia, privacidade, termos e disclosures foram aprovados.
 - [ ] As chaves reais estão configuradas e um pagamento real de teste foi feito e reembolsado.
 - [ ] O Search Console está configurado e o sitemap foi enviado.
@@ -665,7 +665,7 @@ Ao final de cada fase: testes, build e commits atômicos.
 | # | Questão na v1 | Resolução |
 |---|---|---|
 | 1 | Catálogo "real e verificado" gerado de forma autônoma (risco de alucinação) | Status `candidate` → `verified` com verificação exclusiva do proprietário, fontes obrigatórias e `catalog:health` (3.4) |
-| 2 | SEO programático em escala (scaled content abuse) | Limiares de geração e indexação, `noindex` para perfis sem `about`, sitemap só com páginas indexáveis, lançamento com 20 países e 1 idioma (3.5) |
+| 2 | SEO programático em escala (scaled content abuse) | Limiares de geração e indexação, `noindex` para perfis sem `about`, sitemap só com páginas indexáveis, lançamento com 40 países e 1 idioma (3.5) |
 | 3 | Deploy duplo Workers + VPS (`better-sqlite3` não roda em Workers) | Somente Cloudflare. Lógica pura em `src/lib` como estratégia de saída (2.1, ADR 0008) |
 | 4 | `sponsored` no JSON e na tabela (duas fontes de verdade, exigia rebuild sem gatilho) | Só no D1, com snapshot no build, rebuild por dispatch e cron de expiração (3.6.1) |
 | 5 | Banner por geo em HTML estático cacheado | Oferta escolhida pelo contexto da página em build-time. Geo usado só para ocultar, via `/api/geo` (3.6.2) |

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "ar-clarin",
+    "slug": "clarin",
+    "name": "Clarín",
+    "url": "https://www.clarin.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Buenos Aires daily with the largest readership in Argentina, covering politics, the economy and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.clarin.com/",
+      "title": "Noticias. Últimas noticias de Argentina y el Mundo | Clarín"
+    }
+  },
+  {
+    "id": "ar-la-nacion",
+    "slug": "la-nacion",
+    "name": "La Nación",
+    "url": "https://www.lanacion.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1870,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "S.A. La Nación",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Buenos Aires daily founded by Bartolomé Mitre, with national politics, business and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lanacion.com.ar/",
+      "title": "Últimas noticias de Argentina y el mundo - LA NACION"
+    }
+  },
+  {
+    "id": "ar-infobae",
+    "slug": "infobae",
+    "name": "Infobae",
+    "url": "https://www.infobae.com/america/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "High-volume digital news site with national, Latin American and world coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.infobae.com/america/",
+      "title": "Infobae América - Infobae"
+    }
+  },
+  {
+    "id": "ar-pagina-12",
+    "slug": "pagina-12",
+    "name": "Página/12",
+    "url": "https://www.pagina12.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1987,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Octubre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Buenos Aires daily focused on politics, human rights and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.pagina12.com.ar/",
+      "title": "Página | 12: La otra mirada sobre Argentina y el mundo"
+    }
+  },
+  {
+    "id": "ar-perfil",
+    "slug": "perfil",
+    "name": "Perfil",
+    "url": "https://www.perfil.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Editorial Perfil",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekend newspaper and news site with interviews, politics and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.perfil.com/",
+      "title": "Perfil | Ultimas noticias de Argentina y el mundo"
+    }
+  },
+  {
+    "id": "ar-eldiarioar",
+    "slug": "eldiarioar",
+    "name": "elDiarioAR",
+    "url": "https://www.eldiarioar.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital newsroom covering national politics, the economy and social issues."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eldiarioar.com/",
+      "title": "elDiarioAR.com"
+    }
+  },
+  {
+    "id": "ar-ambito",
+    "slug": "ambito",
+    "name": "Ámbito",
+    "url": "https://www.ambito.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Financial daily covering markets, the peso, inflation and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ambito.com/",
+      "title": "Ámbito Financiero, líder en noticias económicas"
+    }
+  },
+  {
+    "id": "ar-el-cronista",
+    "slug": "el-cronista",
+    "name": "El Cronista",
+    "url": "https://www.cronista.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1908,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with markets, companies and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cronista.com/",
+      "title": "El Cronista"
+    }
+  },
+  {
+    "id": "ar-iprofesional",
+    "slug": "iprofesional",
+    "name": "iProfesional",
+    "url": "https://www.iprofesional.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and technology news site covering companies, finance and digital industries."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.iprofesional.com/",
+      "title": "iProfesional | Últimas noticias para profesionales y empresas"
+    }
+  },
+  {
+    "id": "ar-ole",
+    "slug": "ole",
+    "name": "Olé",
+    "url": "https://www.ole.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily centered on Argentine football, from the national team to the Liga Profesional."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ole.com.ar/",
+      "title": "Diario deportivo OLÉ - Argentina"
+    }
+  },
+  {
+    "id": "ar-tyc-sports",
+    "slug": "tyc-sports",
+    "name": "TyC Sports",
+    "url": "https://www.tycsports.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports television channel and website with football coverage and live results."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tycsports.com/",
+      "title": "TyC Sports - Las noticias de deportes del canal líder en Argentina"
+    }
+  },
+  {
+    "id": "ar-tn",
+    "slug": "tn",
+    "name": "TN",
+    "url": "https://tn.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Todo Noticias, the 24-hour cable news channel of Grupo Clarín."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tn.com.ar/",
+      "title": "Últimas Noticias de Argentina y del Mundo | Todo Noticias"
+    }
+  },
+  {
+    "id": "ar-radio-mitre",
+    "slug": "radio-mitre",
+    "name": "Radio Mitre",
+    "url": "https://radiomitre.cienradios.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1925,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "AM news and talk radio station from Buenos Aires, with morning political shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://radiomitre.cienradios.com/",
+      "title": "Las últimas noticias de Argentina y el mundo en tiempo real | Radio Mitre"
+    }
+  },
+  {
+    "id": "ar-c5n",
+    "slug": "c5n",
+    "name": "C5N",
+    "url": "https://www.c5n.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour cable news channel with politics and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.c5n.com/",
+      "title": "Todas las noticias de Argentina y el mundo | c5n.com"
+    }
+  },
+  {
+    "id": "ar-chequeado",
+    "slug": "chequeado",
+    "name": "Chequeado",
+    "url": "https://chequeado.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Fundación La Voz Pública",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit fact-checking site that verifies statements by public figures and data in the news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://chequeado.com/",
+      "title": "Chequeado"
+    }
+  },
+  {
+    "id": "ar-la-voz-del-interior",
+    "slug": "la-voz-del-interior",
+    "name": "La Voz del Interior",
+    "url": "https://www.lavoz.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Córdoba",
+    "founded_year": 1904,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Córdoba's main daily, covering the province and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.lavoz.com.ar/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ar-los-andes",
+    "slug": "los-andes",
+    "name": "Los Andes",
+    "url": "https://www.losandes.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Mendoza",
+    "founded_year": 1882,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Clarín",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mendoza daily covering Cuyo, wine country and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.losandes.com.ar/",
+      "title": "Los Andes | Periodismo de verdad"
+    }
+  },
+  {
+    "id": "ar-la-capital",
+    "slug": "la-capital",
+    "name": "La Capital",
+    "url": "https://www.lacapital.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Santa Fe",
+    "founded_year": 1867,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Rosario daily, one of Argentina's oldest newspapers, covering Santa Fe province."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lacapital.com.ar/",
+      "title": "La Capital | Noticias, actualidad y toda la información de Rosario y la región"
+    }
+  },
+  {
+    "id": "ar-rio-negro",
+    "slug": "rio-negro",
+    "name": "Río Negro",
+    "url": "https://www.rionegro.com.ar/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Río Negro and Neuquén",
+    "founded_year": 1912,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily covering northern Patagonia, including Vaca Muerta and the energy industry."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rionegro.com.ar/",
+      "title": "Diario Río Negro | Periodismo en la Patagonia"
+    }
+  },
+  {
+    "id": "ar-noticias-argentinas",
+    "slug": "noticias-argentinas",
+    "name": "Noticias Argentinas",
+    "url": "https://noticiasargentinas.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1973,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private news agency providing national wire coverage of politics and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://noticiasargentinas.com/",
+      "title": "Agencia Noticias Argentinas - Periodismo. Fotoperiodismo. Agencia NA. Actualidad. Medios. Dólar. Gobierno."
+    }
+  }
+]

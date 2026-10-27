@@ -1,0 +1,755 @@
+[
+  {
+    "id": "pe-el-comercio",
+    "slug": "el-comercio",
+    "name": "El Comercio",
+    "url": "https://elcomercio.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1839,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo El Comercio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lima daily founded in 1839, Peru's newspaper of record for politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://elcomercio.pe/",
+      "title": "Noticias del Perú y el Mundo de último minuto | EL COMERCIO PERÚ"
+    }
+  },
+  {
+    "id": "pe-la-republica",
+    "slug": "la-republica",
+    "name": "La República",
+    "url": "https://larepublica.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1981,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo La República",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lima daily with national politics, investigations and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://larepublica.pe/",
+      "title": "Últimas noticias del Perú y el Mundo | La República"
+    }
+  },
+  {
+    "id": "pe-rpp-noticias",
+    "slug": "rpp-noticias",
+    "name": "RPP Noticias",
+    "url": "https://rpp.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1963,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo RPP",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of Radio Programas del Perú, the country's main news radio network."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://rpp.pe/",
+      "title": "Últimas Noticias del Perú y el Mundo en RPP Noticias"
+    }
+  },
+  {
+    "id": "pe-peru21",
+    "slug": "peru21",
+    "name": "Perú21",
+    "url": "https://peru21.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lima tabloid-format daily with politics and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://peru21.pe/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pe-infobae-peru",
+    "slug": "infobae-peru",
+    "name": "Infobae Perú",
+    "url": "https://www.infobae.com/peru/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Peruvian edition of Infobae, with national politics, security and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.infobae.com/peru/",
+      "title": "Noticias de Perú - Infobae"
+    }
+  },
+  {
+    "id": "pe-gestion",
+    "slug": "gestion",
+    "name": "Gestión",
+    "url": "https://gestion.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo El Comercio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, mining and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gestion.pe/",
+      "title": "Gestión | El diario de Economía, Finanzas y Negocios | GESTIÓN"
+    }
+  },
+  {
+    "id": "pe-semana-economica",
+    "slug": "semana-economica",
+    "name": "Semana Económica",
+    "url": "https://semanaeconomica.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine with analysis of Peruvian companies and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://semanaeconomica.com/",
+      "title": "Portal de negocios y economía | Semana Económica"
+    }
+  },
+  {
+    "id": "pe-idl-reporteros",
+    "slug": "idl-reporteros",
+    "name": "IDL-Reporteros",
+    "url": "https://www.idl-reporteros.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Instituto de Defensa Legal",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative unit known for the Lava Jato and judicial corruption reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.idl-reporteros.pe/",
+      "title": "IDL – IDL Reporteros"
+    }
+  },
+  {
+    "id": "pe-ojopublico",
+    "slug": "ojopublico",
+    "name": "OjoPúblico",
+    "url": "https://ojo-publico.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit newsroom using data journalism to investigate power and public money."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ojo-publico.com/",
+      "title": "OjoPúblico | Periodismo de investigación"
+    }
+  },
+  {
+    "id": "pe-convoca",
+    "slug": "convoca",
+    "name": "Convoca",
+    "url": "https://convoca.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit investigative outlet covering extractive industries and public contracts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://convoca.pe/",
+      "title": "Inicio | Convoca"
+    }
+  },
+  {
+    "id": "pe-wayka",
+    "slug": "wayka",
+    "name": "Wayka",
+    "url": "https://wayka.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent digital outlet covering politics, the environment and social conflicts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://wayka.pe/",
+      "title": "Wayka.pe - Más que periodismo"
+    }
+  },
+  {
+    "id": "pe-latina-noticias",
+    "slug": "latina-noticias",
+    "name": "Latina Noticias",
+    "url": "https://latinanoticias.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of Latina Televisión, with national newscasts and political interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://latinanoticias.pe/",
+      "title": "Latina Noticias | Última hora del Perú y el mundo vía YouTube"
+    }
+  },
+  {
+    "id": "pe-america-noticias",
+    "slug": "america-noticias",
+    "name": "América Noticias",
+    "url": "https://www.americatv.com.pe/noticias",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "América Televisión",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of América Televisión, Peru's most watched channel."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.americatv.com.pe/noticias",
+      "title": "Todas las noticias más importantes de hoy."
+    }
+  },
+  {
+    "id": "pe-canal-n",
+    "slug": "canal-n",
+    "name": "Canal N",
+    "url": "https://canaln.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour cable news channel with politics, interviews and live coverage from Lima."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://canaln.pe/",
+      "title": "Noticias de Actualidad y del Mundo, Dina Boluarte, Martín Vizcarra, Tipo de cambio | Canal N"
+    }
+  },
+  {
+    "id": "pe-tv-peru-noticias",
+    "slug": "tv-peru-noticias",
+    "name": "TV Perú Noticias",
+    "url": "https://www.tvperu.gob.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "IRTP",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of the state broadcaster IRTP, with national newscasts and live events."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.tvperu.gob.pe/",
+      "title": "403 Forbidden"
+    }
+  },
+  {
+    "id": "pe-depor",
+    "slug": "depor",
+    "name": "Depor",
+    "url": "https://depor.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo El Comercio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily centered on Peruvian football and the national team."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://depor.com/",
+      "title": "Noticias de deportes de hoy del canal líder en Perú | DEPOR"
+    }
+  },
+  {
+    "id": "pe-libero",
+    "slug": "libero",
+    "name": "Líbero",
+    "url": "https://libero.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily covering Liga 1, Peruvian clubs and the national football team."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://libero.pe/",
+      "title": "Diario LÍBERO | Últimas noticias del Fútbol Peruano: más deportes y Ligas del Mundo"
+    }
+  },
+  {
+    "id": "pe-correo",
+    "slug": "correo",
+    "name": "Correo",
+    "url": "https://diariocorreo.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "general-news": 6
+    },
+    "region": "Regional editions",
+    "founded_year": 1963,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo El Comercio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily newspaper with regional editions across Peru, covering local and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://diariocorreo.pe/",
+      "title": "Noticias del Perú y regiones | Diario Correo | CORREO"
+    }
+  },
+  {
+    "id": "pe-el-tiempo",
+    "slug": "el-tiempo",
+    "name": "El Tiempo",
+    "url": "https://eltiempo.pe/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Piura",
+    "founded_year": 1916,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Piura daily covering northern Peru, its agriculture, fishing and regional politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://eltiempo.pe/",
+      "title": "El Tiempo | Diario de Piura: Noticias locales, Perú y el mundo - El Tiempo"
+    }
+  }
+]

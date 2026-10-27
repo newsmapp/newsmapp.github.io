@@ -1,0 +1,49 @@
+{
+  "iso2": "PA",
+  "iso3": "PAN",
+  "slug": "panama",
+  "name": {
+    "en": "Panama"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 4515577,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CR",
+    "CO"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Panama's news market is centered in Panama City. La Prensa, founded in 1980, is known for investigations into corruption and is published by Corporación La Prensa, which also publishes Mi Diario. La Estrella de Panamá, founded in 1849, is one of the oldest newspapers in the Americas, and Grupo Epasa publishes Panamá América and Crítica. Television news is led by TVN and Telemetro. Coverage of the Panama Canal, banking and trade is central to economic news. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Panama?",
+          "a": "The main national outlets in the directory include La Prensa, La Estrella de Panamá, Panamá América and TVN Noticias. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is there Panamanian news in English?",
+          "a": "Newsroom Panama covers Panama in English. Its language is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Panama's national outlets are based in Panama City and include one of the oldest newspapers in the Americas."
+        },
+        "broadcast": {
+          "intro": "Television and radio carry national news across Panama. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

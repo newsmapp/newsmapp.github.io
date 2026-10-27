@@ -1,0 +1,755 @@
+[
+  {
+    "id": "za-news24",
+    "slug": "news24",
+    "name": "News24",
+    "url": "https://www.news24.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Media24",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "South Africa's most read news site, with national news, politics and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.news24.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "za-daily-maverick",
+    "slug": "daily-maverick",
+    "name": "Daily Maverick",
+    "url": "https://www.dailymaverick.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital newsroom known for investigations into state capture, politics and business."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dailymaverick.co.za/",
+      "title": "Daily Maverick — Defend Truth"
+    }
+  },
+  {
+    "id": "za-mail-and-guardian",
+    "slug": "mail-and-guardian",
+    "name": "Mail & Guardian",
+    "url": "https://mg.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly newspaper and news site with politics, investigations and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://mg.co.za/",
+      "title": "The Mail & Guardian | Africa's Better Future"
+    }
+  },
+  {
+    "id": "za-timeslive",
+    "slug": "timeslive",
+    "name": "TimesLIVE",
+    "url": "https://www.timeslive.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Arena Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the Sunday Times with national news, politics and courts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.timeslive.co.za/",
+      "title": "TimesLIVE - Breaking news, investigations, sport and entertainment"
+    }
+  },
+  {
+    "id": "za-iol",
+    "slug": "iol",
+    "name": "IOL",
+    "url": "https://iol.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Independent Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of Independent Media's daily newspapers, with national and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://iol.co.za/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "za-maroela-media",
+    "slug": "maroela-media",
+    "name": "Maroela Media",
+    "url": "https://maroelamedia.co.za/",
+    "rss_url": null,
+    "language": "af",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Afrikaans-language news site with national news, community stories and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://maroelamedia.co.za/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "za-amabhungane",
+    "slug": "amabhungane",
+    "name": "amaBhungane",
+    "url": "https://amabhungane.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit centre for investigative journalism known for its reporting on state capture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://amabhungane.org/",
+      "title": "AmaBhungane Centre for Investigative Journalism"
+    }
+  },
+  {
+    "id": "za-groundup",
+    "slug": "groundup",
+    "name": "GroundUp",
+    "url": "https://groundup.org.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit news agency reporting on social justice, courts and vulnerable communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://groundup.org.za/",
+      "title": "GroundUp: South African news that matters"
+    }
+  },
+  {
+    "id": "za-businesslive",
+    "slug": "businesslive",
+    "name": "Business Day",
+    "url": "https://www.businessday.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Arena Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering the Johannesburg Stock Exchange, companies and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.businessday.co.za/",
+      "title": "Business Day - Latest news and analysis from SA’s business sector"
+    }
+  },
+  {
+    "id": "za-moneyweb",
+    "slug": "moneyweb",
+    "name": "Moneyweb",
+    "url": "https://www.moneyweb.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial news site with markets, personal finance and company news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.moneyweb.co.za/",
+      "title": "Moneyweb - Business, financial and investment news and tools"
+    }
+  },
+  {
+    "id": "za-mybroadband",
+    "slug": "mybroadband",
+    "name": "MyBroadband",
+    "url": "https://mybroadband.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering telecoms, broadband, power and consumer tech."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://mybroadband.co.za/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "za-techcentral",
+    "slug": "techcentral",
+    "name": "TechCentral",
+    "url": "https://techcentral.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology news site covering the South African ICT industry and telecoms policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://techcentral.co.za/",
+      "title": "TechCentral | Technology News Leader in South Africa - TechCentral"
+    }
+  },
+  {
+    "id": "za-sabc-news",
+    "slug": "sabc-news",
+    "name": "SABC News",
+    "url": "https://www.sabcnews.com/sabcnews/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "South African Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of the public broadcaster, with television, radio and online news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sabcnews.com/sabcnews/",
+      "title": "Official SABC News - SABC News - Breaking news, special reports, world, business, sport coverage of all South African current events. Africa's news leader."
+    }
+  },
+  {
+    "id": "za-enca",
+    "slug": "enca",
+    "name": "eNCA",
+    "url": "https://www.enca.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "eMedia Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour television news channel with national news and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.enca.com/",
+      "title": "Top Stories | Latest News in South Africa | eNCA"
+    }
+  },
+  {
+    "id": "za-ewn",
+    "slug": "ewn",
+    "name": "EWN",
+    "url": "https://www.ewn.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Primedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Eyewitness News, the newsroom of Primedia's radio stations, with live updates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ewn.co.za/",
+      "title": "EWN: Eyewitness News"
+    }
+  },
+  {
+    "id": "za-supersport",
+    "slug": "supersport",
+    "name": "SuperSport",
+    "url": "https://supersport.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "MultiChoice",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Pan-African sports broadcaster covering football, rugby and cricket."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://supersport.com/",
+      "title": "SuperSport – Sports video, fixtures, results and news"
+    }
+  },
+  {
+    "id": "za-kickoff",
+    "slug": "kickoff",
+    "name": "KickOff",
+    "url": "https://www.kickoff.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football magazine and site covering the Premiership, Bafana Bafana and African football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 202,
+      "final_url": "https://www.kickoff.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "za-daily-dispatch",
+    "slug": "daily-dispatch",
+    "name": "Daily Dispatch",
+    "url": "https://dailydispatch.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Eastern Cape",
+    "founded_year": 1872,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Arena Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "East London daily covering the Eastern Cape, founded in 1872."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://dailydispatch.co.za/",
+      "title": "Daily Dispatch - The biggest stories from the Eastern Cape"
+    }
+  },
+  {
+    "id": "za-the-witness",
+    "slug": "the-witness",
+    "name": "The Witness",
+    "url": "https://witness.co.za/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "KwaZulu-Natal",
+    "founded_year": 1846,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media24",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Pietermaritzburg daily covering KwaZulu-Natal, one of South Africa's oldest newspapers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://witness.co.za/",
+      "title": "The Witness | Your compass in the community"
+    }
+  }
+]

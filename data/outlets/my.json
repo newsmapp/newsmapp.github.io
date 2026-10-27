@@ -1,0 +1,717 @@
+[
+  {
+    "id": "my-malaysiakini",
+    "slug": "malaysiakini",
+    "name": "Malaysiakini",
+    "url": "https://www.malaysiakini.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 1,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Independent subscription news site founded in 1999, known for political reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.malaysiakini.com/",
+      "title": "Malaysiakini"
+    }
+  },
+  {
+    "id": "my-the-star",
+    "slug": "the-star",
+    "name": "The Star",
+    "url": "https://www.thestar.com.my/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language daily with the largest circulation in Malaysia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thestar.com.my/",
+      "title": "The Star | Malaysia News: National, Regional and World News"
+    }
+  },
+  {
+    "id": "my-new-straits-times",
+    "slug": "new-straits-times",
+    "name": "New Straits Times",
+    "url": "https://www.nst.com.my/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1845,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Prima",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily tracing its history to 1845, with national news and politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nst.com.my/",
+      "title": "New Straits Times (NST Online) | Malaysia News & World Updates"
+    }
+  },
+  {
+    "id": "my-free-malaysia-today",
+    "slug": "free-malaysia-today",
+    "name": "Free Malaysia Today",
+    "url": "https://www.freemalaysiatoday.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent bilingual news site with national news, politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.freemalaysiatoday.com/",
+      "title": "Free Malaysia Today | Current Affairs, Business, Economy, Lifestyle, News and Analysis"
+    }
+  },
+  {
+    "id": "my-berita-harian",
+    "slug": "berita-harian",
+    "name": "Berita Harian",
+    "url": "https://www.bharian.com.my/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1957,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Prima",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malay-language daily with national news, politics and religion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.bharian.com.my/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "my-sinar-harian",
+    "slug": "sinar-harian",
+    "name": "Sinar Harian",
+    "url": "https://www.sinarharian.com.my/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Karangkraf",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malay-language daily with national news, politics and community stories."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sinarharian.com.my/",
+      "title": "Sinar Harian - Home"
+    }
+  },
+  {
+    "id": "my-utusan-malaysia",
+    "slug": "utusan-malaysia",
+    "name": "Utusan Malaysia",
+    "url": "https://www.utusan.com.my/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1939,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malay-language daily with a long history of political coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.utusan.com.my/",
+      "title": "Utusan Malaysia"
+    }
+  },
+  {
+    "id": "my-harian-metro",
+    "slug": "harian-metro",
+    "name": "Harian Metro",
+    "url": "https://www.hmetro.com.my/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Prima",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malay-language tabloid with local news, crime, sports and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hmetro.com.my/",
+      "title": "Harian Metro | Berita Malaysia dan berita dunia terkini"
+    }
+  },
+  {
+    "id": "my-bernama",
+    "slug": "bernama",
+    "name": "Bernama",
+    "url": "https://www.bernama.com/en/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1968,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malaysia's national news agency, with news in English and Malay."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/malaysia"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "my-macaranga",
+    "slug": "macaranga",
+    "name": "Macaranga",
+    "url": "https://www.macaranga.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet with in-depth reporting on the environment and land in Malaysia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.macaranga.org/",
+      "title": "Macaranga - A Malaysian Environmental Journalism Site"
+    }
+  },
+  {
+    "id": "my-the-edge",
+    "slug": "the-edge",
+    "name": "The Edge Malaysia",
+    "url": "https://theedgemalaysia.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business weekly and site covering Bursa Malaysia, companies and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://theedgemalaysia.com/",
+      "title": "The Edge Malaysia - Make Better Decisions"
+    }
+  },
+  {
+    "id": "my-the-malaysian-reserve",
+    "slug": "the-malaysian-reserve",
+    "name": "The Malaysian Reserve",
+    "url": "https://themalaysianreserve.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily covering Malaysian markets, trade and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://themalaysianreserve.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "my-soyacincau",
+    "slug": "soyacincau",
+    "name": "SoyaCincau",
+    "url": "https://soyacincau.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering smartphones, telecoms and electric vehicles in Malaysia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://soyacincau.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "my-astro-awani",
+    "slug": "astro-awani",
+    "name": "Astro Awani",
+    "url": "https://www.astroawani.com/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Astro",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "24-hour news channel and site in Malay and English, from Astro."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.astroawani.com/home",
+      "title": "Astro Awani - Liputan harian berita terkini | Awani"
+    }
+  },
+  {
+    "id": "my-berita-rtm",
+    "slug": "berita-rtm",
+    "name": "Berita RTM",
+    "url": "https://berita.rtm.gov.my/",
+    "rss_url": null,
+    "language": "ms",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Radio Televisyen Malaysia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of Radio Televisyen Malaysia, the state broadcaster."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://berita.rtm.gov.my/",
+      "title": "Portal Berita Radio Televisyen Malaysia (RTM)"
+    }
+  },
+  {
+    "id": "my-stadium-astro",
+    "slug": "stadium-astro",
+    "name": "Stadium Astro",
+    "url": "https://stadiumastro.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Astro",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports site covering Malaysian football, badminton and international sport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://stadiumastro.com/",
+      "title": "Home | Stadium Astro"
+    }
+  },
+  {
+    "id": "my-borneo-post",
+    "slug": "borneo-post",
+    "name": "Borneo Post",
+    "url": "https://www.theborneopost.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Sarawak",
+    "founded_year": 1978,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kuching-based English-language daily covering Sarawak, Sabah and Borneo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.theborneopost.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "my-daily-express",
+    "slug": "daily-express",
+    "name": "Daily Express",
+    "url": "https://www.dailyexpress.com.my/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Sabah",
+    "founded_year": 1963,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kota Kinabalu daily covering Sabah, its politics and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.dailyexpress.com.my/",
+      "title": "Just a moment..."
+    }
+  }
+]

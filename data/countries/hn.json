@@ -1,0 +1,53 @@
+{
+  "iso2": "HN",
+  "iso3": "HND",
+  "slug": "honduras",
+  "name": {
+    "en": "Honduras"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 10825703,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "GT",
+    "SV",
+    "NI"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Honduras's largest newspapers, La Prensa in San Pedro Sula and El Heraldo in Tegucigalpa, belong to the same group, Grupo OPSA, which also publishes the sports daily Diez. La Tribuna and digital outlets such as Proceso Digital and Tu Nota complete the national market, while radio remains a major source of news. Nonprofit newsrooms such as Contracorriente and Criterio cover corruption, land conflicts and migration. Press freedom organizations report frequent violence against journalists. News sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Honduras?",
+          "a": "The main national outlets in the directory include La Prensa, El Heraldo, La Tribuna and Proceso Digital. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find investigative journalism in Honduras?",
+          "a": "Investigative work in the directory comes from Contracorriente, Criterio and Reportar sin Miedo. The Investigative column lists them in editorial order."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Honduras's national outlets are split between Tegucigalpa and San Pedro Sula, with two leading dailies from the same group."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Honduras comes mostly from nonprofit and digital newsrooms covering corruption, land and human rights."
+        },
+        "broadcast": {
+          "intro": "Radio and television carry most news in Honduras. The stations and channels below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

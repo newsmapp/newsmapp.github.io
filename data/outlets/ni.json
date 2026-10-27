@@ -1,0 +1,368 @@
+[
+  {
+    "id": "ni-la-prensa",
+    "slug": "la-prensa",
+    "name": "La Prensa",
+    "url": "https://www.laprensani.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1926,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nicaragua's oldest daily, now published online from exile after its offices were seized."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.laprensani.com/",
+      "title": "La Prensa - Noticias de Nicaragua y el mundo"
+    }
+  },
+  {
+    "id": "ni-confidencial",
+    "slug": "confidencial",
+    "name": "Confidencial",
+    "url": "https://confidencial.digital/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital outlet founded by Carlos Fernando Chamorro, publishing from exile since 2021."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://confidencial.digital/",
+      "title": "Confidencial: Noticias de Nicaragua, investigaciones y análisis"
+    }
+  },
+  {
+    "id": "ni-divergentes",
+    "slug": "divergentes",
+    "name": "Divergentes",
+    "url": "https://www.divergentes.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital newsroom publishing investigations and long-form reporting on Nicaragua."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.divergentes.com/",
+      "title": "Divergentes - Periodismo Narrativo y de Investigación"
+    }
+  },
+  {
+    "id": "ni-articulo-66",
+    "slug": "articulo-66",
+    "name": "Artículo 66",
+    "url": "https://www.articulo66.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with national news, politics and human rights coverage of Nicaragua."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.articulo66.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ni-despacho-505",
+    "slug": "despacho-505",
+    "name": "Despacho 505",
+    "url": "https://despacho505.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with investigations into power, money and public institutions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://despacho505.com/",
+      "title": "DESPACHO 505 -"
+    }
+  },
+  {
+    "id": "ni-nicaragua-investiga",
+    "slug": "nicaragua-investiga",
+    "name": "Nicaragua Investiga",
+    "url": "https://nicaraguainvestiga.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "general-news"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with daily news and investigative reports on Nicaragua."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nicaraguainvestiga.com/",
+      "title": "Inicio - Nicaragua Investiga"
+    }
+  },
+  {
+    "id": "ni-expediente-publico",
+    "slug": "expediente-publico",
+    "name": "Expediente Público",
+    "url": "https://www.expedientepublico.org/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet with investigations into power and corruption in Central America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.expedientepublico.org/",
+      "title": "Periodismo de profundidad - Expediente Público"
+    }
+  },
+  {
+    "id": "ni-radio-corporacion",
+    "slug": "radio-corporacion",
+    "name": "Radio Corporación",
+    "url": "https://radio-corporacion.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent radio station with news bulletins and political talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://radio-corporacion.com/",
+      "title": "Radio Corporacion - La emisora que habla el lenguaje de su pueblo"
+    }
+  },
+  {
+    "id": "ni-el-19-digital",
+    "slug": "el-19-digital",
+    "name": "El 19 Digital",
+    "url": "https://www.el19digital.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Official news site of the Nicaraguan government, publishing government statements."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/nicaragua"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.el19digital.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  }
+]

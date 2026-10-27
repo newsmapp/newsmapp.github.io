@@ -1,0 +1,720 @@
+[
+  {
+    "id": "ng-punch",
+    "slug": "punch",
+    "name": "Punch",
+    "url": "https://punchng.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Punch Nigeria Limited",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lagos daily with one of the largest readerships in Nigeria, covering politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://punchng.com/",
+      "title": "Punch newspapers - Breaking News, Nigerian News & Top Stories"
+    }
+  },
+  {
+    "id": "ng-the-guardian",
+    "slug": "the-guardian",
+    "name": "The Guardian Nigeria",
+    "url": "https://guardian.ng/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1983,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lagos daily known for analysis and opinion on politics, business and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://guardian.ng/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ng-vanguard",
+    "slug": "vanguard",
+    "name": "Vanguard",
+    "url": "https://www.vanguardngr.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1983,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lagos daily with national news, politics and coverage of the Niger Delta."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.vanguardngr.com/",
+      "title": "Vanguard News: Nigerian News,Politics, Sports and Business from vanguard Newspapers -"
+    }
+  },
+  {
+    "id": "ng-thisday",
+    "slug": "thisday",
+    "name": "ThisDay",
+    "url": "https://www.thisdaylive.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with politics, business and a widely read Sunday edition."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thisdaylive.com/",
+      "title": "THISDAYLIVE – Truth and Reason"
+    }
+  },
+  {
+    "id": "ng-thecable",
+    "slug": "thecable",
+    "name": "TheCable",
+    "url": "https://www.thecable.ng/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital newsroom covering national politics, the economy and fact-checks."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.thecable.ng/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ng-peoples-gazette",
+    "slug": "peoples-gazette",
+    "name": "Peoples Gazette",
+    "url": "https://gazettengr.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with political reporting and coverage of government and security."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gazettengr.com/",
+      "title": "Peoples Gazette Nigeria - Truth, Courage or Nothing..."
+    }
+  },
+  {
+    "id": "ng-premium-times",
+    "slug": "premium-times",
+    "name": "Premium Times",
+    "url": "https://www.premiumtimesng.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Abuja-based digital newspaper known for investigations into corruption and public spending."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.premiumtimesng.com/",
+      "title": "Premium Times - Nigeria leading newspaper for news, investigations"
+    }
+  },
+  {
+    "id": "ng-sahara-reporters",
+    "slug": "sahara-reporters",
+    "name": "Sahara Reporters",
+    "url": "https://saharareporters.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Citizen-driven news site publishing reports on corruption and abuses of power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://saharareporters.com/",
+      "title": "Sahara Reporters — Breaking news, latest stories, photos, videos citizen journalism in Africa"
+    }
+  },
+  {
+    "id": "ng-fij",
+    "slug": "fij",
+    "name": "Foundation for Investigative Journalism",
+    "url": "https://fij.ng/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit newsroom investigating fraud, police abuse and failures of public services."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://fij.ng/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ng-humangle",
+    "slug": "humangle",
+    "name": "HumAngle",
+    "url": "https://humanglemedia.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet covering conflict, displacement and humanitarian issues in Africa."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 429,
+      "final_url": "https://humanglemedia.com/",
+      "title": "Vercel Security Checkpoint"
+    }
+  },
+  {
+    "id": "ng-businessday",
+    "slug": "businessday",
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, the naira, energy and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://businessday.ng/",
+      "title": "Businessday NG"
+    }
+  },
+  {
+    "id": "ng-nairametrics",
+    "slug": "nairametrics",
+    "name": "Nairametrics",
+    "url": "https://nairametrics.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial news site with markets, company results and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nairametrics.com/",
+      "title": "Nairametrics | Nigeria Business, Finance & Economic News"
+    }
+  },
+  {
+    "id": "ng-techcabal",
+    "slug": "techcabal",
+    "name": "TechCabal",
+    "url": "https://techcabal.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering African startups, fintech and telecoms from Lagos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://techcabal.com/",
+      "title": "Homepage - TechCabal"
+    }
+  },
+  {
+    "id": "ng-channels-television",
+    "slug": "channels-television",
+    "name": "Channels Television",
+    "url": "https://www.channelstv.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lagos-based television station with national newscasts, interviews and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.channelstv.com/",
+      "title": "Channels Television • The Latest News from Nigeria and Around the World"
+    }
+  },
+  {
+    "id": "ng-arise-news",
+    "slug": "arise-news",
+    "name": "Arise News",
+    "url": "https://www.arise.tv/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news channel with politics, business and long-form interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.arise.tv/",
+      "title": "Arise News – The Global News Channel"
+    }
+  },
+  {
+    "id": "ng-complete-sports",
+    "slug": "complete-sports",
+    "name": "Complete Sports",
+    "url": "https://www.completesports.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports outlet covering Nigerian football, the Super Eagles and players abroad."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.completesports.com/",
+      "title": "Nigeria Football News: Super Eagles, NPFL & EPL | Complete Sports"
+    }
+  },
+  {
+    "id": "ng-daily-trust",
+    "slug": "daily-trust",
+    "name": "Daily Trust",
+    "url": "https://dailytrust.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "general-news": 7
+    },
+    "region": "Northern Nigeria",
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Abuja daily with the widest coverage of northern Nigeria and its states."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://dailytrust.com/",
+      "title": "Daily Trust – Nigerian Breaking News, Investigative stories,Features, Videos,Pictures, Entertainment, Business Stories e.t.c."
+    }
+  },
+  {
+    "id": "ng-nigerian-tribune",
+    "slug": "nigerian-tribune",
+    "name": "Nigerian Tribune",
+    "url": "https://tribuneonlineng.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Southwest Nigeria",
+    "founded_year": 1949,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ibadan daily founded in 1949, the oldest private newspaper still published in Nigeria."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tribuneonlineng.com/",
+      "title": "Just a moment..."
+    }
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "iso2": "AR",
+  "iso3": "ARG",
+  "slug": "argentina",
+  "name": {
+    "en": "Argentina"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 45696159,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CL",
+    "BO",
+    "PY",
+    "BR",
+    "UY"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Argentina has one of Latin America's largest news markets, concentrated in Buenos Aires, with national dailies such as Clarín and La Nación, the digital-native Infobae and a strong tradition of political weeklies and talk radio. Grupo Clarín is the largest media group, with newspapers, cable news and radio. Coverage is shaped by economic volatility, so financial dailies such as Ámbito and El Cronista have a wide readership beyond business. Fact-checking and nonprofit journalism are well developed, led by Chequeado. Provincial dailies remain important in Córdoba, Mendoza, Santa Fe and Patagonia. Most sites are free to read; Clarín and La Nación use metered paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Argentina?",
+          "a": "The main national outlets in the directory include Clarín, La Nación, Infobae, Página/12 and Perfil. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Argentine news sites are free to read?",
+          "a": "Free-to-read outlets include Infobae, Página/12, Perfil and Ámbito. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Where can I find regional news in Argentina?",
+          "a": "Regional coverage in the directory comes from La Voz del Interior (Córdoba), Los Andes (Mendoza), La Capital (Santa Fe) and Río Negro (Patagonia). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Argentina's national news outlets are based in Buenos Aires and include century-old dailies and large digital-native sites. The list below shows the outlets most used to follow national politics and the economy."
+        },
+        "economy": {
+          "intro": "Inflation, the exchange rate and public debt make economic news central in Argentina. These financial dailies and business sites cover markets, companies and economic policy."
+        },
+        "sports": {
+          "intro": "Argentine sports media is dominated by football, from the national team to the Liga Profesional, with a dedicated sports daily and sports television."
+        },
+        "investigative": {
+          "intro": "Investigative and fact-checking work in Argentina is led by nonprofit and digital newsrooms. These are the outlets known for verification and accountability reporting."
+        },
+        "regional": {
+          "intro": "Beyond Buenos Aires, provincial dailies cover their regions in depth. The outlets below serve Córdoba, Mendoza, Santa Fe and northern Patagonia."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

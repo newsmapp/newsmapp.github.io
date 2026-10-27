@@ -1,0 +1,58 @@
+{
+  "iso2": "TH",
+  "iso3": "THA",
+  "slug": "thailand",
+  "name": {
+    "en": "Thailand"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 71668011,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "th"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "MM",
+    "LA",
+    "KH",
+    "MY"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Thailand has a large Thai-language press led by the mass-market daily Thairath and the Matichon group, publisher of Matichon, Khaosod and the business paper Prachachat Turakij. Digital outlets such as The Standard and Workpoint Today have grown quickly, and Thai PBS is the main public broadcaster. Prachatai and Isranews are known for independent and investigative reporting, though lese-majeste and computer crime laws limit coverage of the monarchy and lead to prosecutions, as press freedom organizations report. English-language news comes from the Bangkok Post, The Nation and Khaosod English. The Isaan Record covers the northeast. Most sites are free; the Bangkok Post uses a metered paywall.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Thailand?",
+          "a": "The main outlets in the directory include Thairath, Matichon, Khaosod, The Standard and the Bangkok Post. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is there Thai news in English?",
+          "a": "The Bangkok Post, The Nation, Khaosod English and The Isaan Record publish in English. The language of every outlet is shown in the directory."
+        },
+        {
+          "q": "Which Thai outlets are publicly funded?",
+          "a": "Thai PBS is the public broadcaster. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Thailand's national outlets are based in Bangkok and include mass-market dailies, newspaper groups and fast-growing digital sites."
+        },
+        "economy": {
+          "intro": "Business news in Thailand covers exports, tourism, the baht and the Stock Exchange of Thailand."
+        },
+        "investigative": {
+          "intro": "Independent and investigative journalism in Thailand works under legal limits on coverage of the monarchy and national security."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

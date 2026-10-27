@@ -1,0 +1,57 @@
+{
+  "iso2": "MY",
+  "iso3": "MYS",
+  "slug": "malaysia",
+  "name": {
+    "en": "Malaysia"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 35557673,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ms"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "TH",
+    "ID",
+    "BN"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Malaysia's news market serves readers in Malay, English, Chinese and Tamil. Malaysiakini, founded in 1999 as one of Asia's first subscription news sites, and Free Malaysia Today lead independent digital news, while The Star, the New Straits Times, Berita Harian and Sinar Harian are the main newspapers. Several titles have historic ties to political parties. Astro Awani and the state broadcaster RTM lead television news, and Bernama is the national news agency. The Edge covers business. Sabah and Sarawak have their own newspapers, such as the Daily Express and the Borneo Post. Malaysiakini and The Edge use paywalls; most other sites are free.",
+      "faq": [
+        {
+          "q": "What are the main news outlets in Malaysia?",
+          "a": "The main outlets in the directory include Malaysiakini, The Star, the New Straits Times, Free Malaysia Today and Berita Harian. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is there Malaysian news in English and Malay?",
+          "a": "The directory includes English-language outlets such as The Star and Free Malaysia Today and Malay-language outlets such as Berita Harian and Sinar Harian. The language of every outlet is shown."
+        },
+        {
+          "q": "Where can I find regional news in Malaysia?",
+          "a": "Regional coverage in the directory comes from the Borneo Post (Sarawak) and the Daily Express (Sabah). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Malaysia's national outlets publish in Malay and English and include long-established newspapers and independent digital sites."
+        },
+        "economy": {
+          "intro": "Business news in Malaysia covers Bursa Malaysia, palm oil, energy and the semiconductor industry."
+        },
+        "regional": {
+          "intro": "Sabah and Sarawak, on Borneo, have their own newspapers covering local politics and communities."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

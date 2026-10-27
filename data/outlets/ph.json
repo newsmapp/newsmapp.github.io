@@ -1,0 +1,671 @@
+[
+  {
+    "id": "ph-inquirer",
+    "slug": "inquirer",
+    "name": "Philippine Daily Inquirer",
+    "url": "https://www.inquirer.net/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Manila daily founded in 1985, with national politics, investigations and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.inquirer.net/",
+      "title": "Latest Philippines Headlines, Breaking News, Media & Sports News | Inquirer.net"
+    }
+  },
+  {
+    "id": "ph-philstar",
+    "slug": "philstar",
+    "name": "The Philippine Star",
+    "url": "https://www.philstar.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Manila daily with national news, business, sports and lifestyle."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.philstar.com/",
+      "title": "Philstar.com | Latest Philippine news and multimedia"
+    }
+  },
+  {
+    "id": "ph-manila-bulletin",
+    "slug": "manila-bulletin",
+    "name": "Manila Bulletin",
+    "url": "https://mb.com.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1900,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Manila daily founded in 1900, among the oldest newspapers in the Philippines."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://mb.com.ph/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ph-abante",
+    "slug": "abante",
+    "name": "Abante",
+    "url": "https://www.abante.com.ph/",
+    "rss_url": null,
+    "language": "tl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1987,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Filipino-language tabloid with national news, crime and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.abante.com.ph/",
+      "title": "Abante News Online | Una sa Balita"
+    }
+  },
+  {
+    "id": "ph-rappler",
+    "slug": "rappler",
+    "name": "Rappler",
+    "url": "https://www.rappler.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital newsroom co-founded by Nobel laureate Maria Ressa, known for its investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rappler.com/",
+      "title": "RAPPLER | Philippine & World News | Investigative Journalism | Data | Civic Engagement | Public Interest"
+    }
+  },
+  {
+    "id": "ph-pcij",
+    "slug": "pcij",
+    "name": "Philippine Center for Investigative Journalism",
+    "url": "https://pcij.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit center producing investigations into corruption, elections and governance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://pcij.org/",
+      "title": "PCIJ.org"
+    }
+  },
+  {
+    "id": "ph-vera-files",
+    "slug": "vera-files",
+    "name": "VERA Files",
+    "url": "https://verafiles.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet publishing fact-checks and in-depth reporting on public affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://verafiles.org/",
+      "title": "Truth is our business. - VERA Files"
+    }
+  },
+  {
+    "id": "ph-businessworld",
+    "slug": "businessworld",
+    "name": "BusinessWorld",
+    "url": "https://bworldonline.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1987,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, the peso, companies and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://bworldonline.com/",
+      "title": "BusinessWorld | Philippine Business News, Markets & Economy"
+    }
+  },
+  {
+    "id": "ph-businessmirror",
+    "slug": "businessmirror",
+    "name": "BusinessMirror",
+    "url": "https://businessmirror.com.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with markets, agriculture, trade and economic news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://businessmirror.com.ph/",
+      "title": "Error 403 Forbidden"
+    }
+  },
+  {
+    "id": "ph-yugatech",
+    "slug": "yugatech",
+    "name": "YugaTech",
+    "url": "https://www.yugatech.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering gadgets, telecoms and the Philippine tech industry."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.yugatech.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ph-gma-news",
+    "slug": "gma-news",
+    "name": "GMA News",
+    "url": "https://www.gmanetwork.com/news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "GMA Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of GMA Network, the most watched television network in the Philippines."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.gmanetwork.com/news/",
+      "title": "Latest Philippine News Today | GMA News Online"
+    }
+  },
+  {
+    "id": "ph-abs-cbn-news",
+    "slug": "abs-cbn-news",
+    "name": "ABS-CBN News",
+    "url": "https://www.abs-cbn.com/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ABS-CBN Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of ABS-CBN, published online and on cable since its franchise lapsed."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.abs-cbn.com/news",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "ph-ptv-news",
+    "slug": "ptv-news",
+    "name": "PTV News",
+    "url": "https://ptvnews.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "People's Television Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of People's Television Network, the government broadcaster."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ptvnews.ph/",
+      "title": "Home - PTV News"
+    }
+  },
+  {
+    "id": "ph-spin-ph",
+    "slug": "spin-ph",
+    "name": "Spin.ph",
+    "url": "https://www.spin.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports site covering the PBA, Gilas Pilipinas, volleyball and boxing."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.spin.ph/",
+      "title": "SPIN.ph: Sports Interactive Network Philippines"
+    }
+  },
+  {
+    "id": "ph-tiebreaker-times",
+    "slug": "tiebreaker-times",
+    "name": "Tiebreaker Times",
+    "url": "https://tiebreakertimes.com.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports site covering Philippine basketball, collegiate leagues and volleyball."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tiebreakertimes.com.ph/",
+      "title": "Tiebreaker Times | Philippine Sports News, Updates, and Stories"
+    }
+  },
+  {
+    "id": "ph-sunstar",
+    "slug": "sunstar",
+    "name": "SunStar",
+    "url": "https://www.sunstar.com.ph/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Visayas and Mindanao",
+    "founded_year": 1982,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Network of community newspapers in Cebu, Davao and other cities outside Manila."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sunstar.com.ph/",
+      "title": "SunStar | Latest Philippine News in English and Bisaya"
+    }
+  },
+  {
+    "id": "ph-mindanews",
+    "slug": "mindanews",
+    "name": "MindaNews",
+    "url": "https://www.mindanews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Mindanao",
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site run by journalists in Mindanao, covering peace, conflict and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.mindanews.com/",
+      "title": "Just a moment..."
+    }
+  }
+]

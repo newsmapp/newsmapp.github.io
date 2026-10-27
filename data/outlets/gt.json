@@ -1,0 +1,558 @@
+[
+  {
+    "id": "gt-prensa-libre",
+    "slug": "prensa-libre",
+    "name": "Prensa Libre",
+    "url": "https://www.prensalibre.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1951,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Guatemala City daily with the widest reach in the country, covering politics, security and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.prensalibre.com/",
+      "title": "Prensa Libre | Periódico líder de Guatemala"
+    }
+  },
+  {
+    "id": "gt-soy502",
+    "slug": "soy502",
+    "name": "Soy502",
+    "url": "https://www.soy502.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital news site with national news, public services and sports from Guatemala."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.soy502.com/",
+      "title": "Soy502 | Noticias sobre Guatemala"
+    }
+  },
+  {
+    "id": "gt-la-hora",
+    "slug": "la-hora",
+    "name": "La Hora",
+    "url": "https://lahora.gt/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Afternoon daily founded in 1920, with national politics, justice and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://lahora.gt/",
+      "title": "Portada - La Hora"
+    }
+  },
+  {
+    "id": "gt-nuestro-diario",
+    "slug": "nuestro-diario",
+    "name": "Nuestro Diario",
+    "url": "https://www.nuestrodiario.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "sports"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mass-market tabloid with national news, crime coverage and football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.nuestrodiario.com/",
+      "title": "403 Forbidden"
+    }
+  },
+  {
+    "id": "gt-republica",
+    "slug": "republica",
+    "name": "República",
+    "url": "https://republica.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with national politics, the economy and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://republica.com/",
+      "title": "Últimas noticias de Guatemala hoy en vivo | República"
+    }
+  },
+  {
+    "id": "gt-publinews",
+    "slug": "publinews",
+    "name": "Publinews Guatemala",
+    "url": "https://www.publinews.gt/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free daily distributed in Guatemala City, with national and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.publinews.gt/",
+      "title": "Publinews - Noticias, Deportes y Entretenimiento de Guatemala y el mundo."
+    }
+  },
+  {
+    "id": "gt-plaza-publica",
+    "slug": "plaza-publica",
+    "name": "Plaza Pública",
+    "url": "https://plazapublica.com.gt/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Universidad Rafael Landívar",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit outlet publishing in-depth reporting on power, justice and inequality."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://plazapublica.com.gt/",
+      "title": "Plaza Pública – Periodismo de profundidad e investigación en Guatemala"
+    }
+  },
+  {
+    "id": "gt-agencia-ocote",
+    "slug": "agencia-ocote",
+    "name": "Agencia Ocote",
+    "url": "https://www.agenciaocote.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit newsroom covering justice, migration, the environment and gender."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.agenciaocote.com/",
+      "title": "Agencia Ocote - Agencia Ocote"
+    }
+  },
+  {
+    "id": "gt-no-ficcion",
+    "slug": "no-ficcion",
+    "name": "No-Ficción",
+    "url": "https://www.no-ficcion.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet publishing long-form investigations into politics and organized crime."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 429,
+      "final_url": "https://www.no-ficcion.com/",
+      "title": "Verifying if your connection is secure..."
+    }
+  },
+  {
+    "id": "gt-ojoconmipisto",
+    "slug": "ojoconmipisto",
+    "name": "Ojoconmipisto",
+    "url": "https://www.ojoconmipisto.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet investigating municipal governments and local public spending."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ojoconmipisto.com/",
+      "title": "Inicio - Ojoconmipisto.com"
+    }
+  },
+  {
+    "id": "gt-emisoras-unidas",
+    "slug": "emisoras-unidas",
+    "name": "Emisoras Unidas",
+    "url": "https://emisorasunidas.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1964,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News radio network with national news, live coverage and morning shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://emisorasunidas.com/",
+      "title": "Inicio - Emisoras Unidas"
+    }
+  },
+  {
+    "id": "gt-guatevision",
+    "slug": "guatevision",
+    "name": "Guatevisión",
+    "url": "https://www.guatevision.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television channel with national newscasts, interviews and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.guatevision.com/",
+      "title": "Home - Guatevision"
+    }
+  },
+  {
+    "id": "gt-canal-antigua",
+    "slug": "canal-antigua",
+    "name": "Canal Antigua",
+    "url": "https://canalantigua.tv/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television channel with news, political debate and interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://canalantigua.tv/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "gt-tn23",
+    "slug": "tn23",
+    "name": "TN23",
+    "url": "https://www.tn23.tv/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news service with national newscasts and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tn23.tv/",
+      "title": "TN23 - Guatemala"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "iso2": "NG",
+  "iso3": "NGA",
+  "slug": "nigeria",
+  "name": {
+    "en": "Nigeria"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 232679478,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "BJ",
+    "NE",
+    "TD",
+    "CM"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Nigeria has Africa's largest and most competitive English-language press, centered in Lagos and Abuja. National dailies such as Punch, The Guardian, Vanguard and ThisDay compete with digital outlets such as Premium Times and TheCable, while Channels Television leads broadcast news. Investigative journalism is strong, led by Premium Times, the Foundation for Investigative Journalism and HumAngle, which covers conflict in the north. Daily Trust is the main newspaper from the north and the Nigerian Tribune from the southwest. Lagos is also a hub for technology and business media. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Nigeria?",
+          "a": "The main national outlets in the directory include Punch, The Guardian, Vanguard, ThisDay and Premium Times. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find investigative journalism in Nigeria?",
+          "a": "Investigative work in the directory comes from Premium Times, Sahara Reporters, the Foundation for Investigative Journalism and HumAngle. The Investigative column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find regional news in Nigeria?",
+          "a": "Regional coverage in the directory comes from Daily Trust (northern Nigeria) and the Nigerian Tribune (southwest). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Nigeria's national outlets are based in Lagos and Abuja and combine long-established dailies with fast-growing digital newsrooms."
+        },
+        "economy": {
+          "intro": "Business news in Nigeria covers oil, the naira, banking and a fast-growing startup scene. These are the main outlets for markets and companies."
+        },
+        "investigative": {
+          "intro": "Nigeria has one of Africa's strongest investigative traditions, from digital newsrooms to nonprofit centers covering corruption and conflict."
+        },
+        "broadcast": {
+          "intro": "Television news in Nigeria is led by private channels that publish their newscasts and live coverage online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

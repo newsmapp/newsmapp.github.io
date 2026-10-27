@@ -1,0 +1,57 @@
+{
+  "iso2": "PH",
+  "iso3": "PHL",
+  "slug": "philippines",
+  "name": {
+    "en": "Philippines"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 115843670,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "tl"
+  ],
+  "press_freedom": null,
+  "neighbors": [],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "The Philippines has a lively and competitive press in English and Filipino. The Philippine Daily Inquirer, The Philippine Star and Manila Bulletin lead print, while GMA and ABS-CBN dominate broadcast news; ABS-CBN lost its broadcast franchise in 2020 but continues as a news brand online and on cable. Rappler, co-founded by Nobel Peace Prize laureate Maria Ressa, and nonprofits such as the Philippine Center for Investigative Journalism and VERA Files lead investigative reporting. The country remains one of the most dangerous in Asia for journalists, especially outside Manila. Regional outlets such as SunStar and MindaNews cover the Visayas and Mindanao. Most news sites are free.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in the Philippines?",
+          "a": "The main national outlets in the directory include the Philippine Daily Inquirer, Rappler, The Philippine Star, Manila Bulletin and GMA News. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find investigative journalism in the Philippines?",
+          "a": "Investigative work in the directory comes from Rappler, the Philippine Center for Investigative Journalism and VERA Files. The Investigative column lists them in editorial order."
+        },
+        {
+          "q": "Where can I find regional news in the Philippines?",
+          "a": "Regional coverage in the directory comes from SunStar (Visayas and Mindanao) and MindaNews (Mindanao). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "The Philippines' national outlets are based in Metro Manila and publish mainly in English, with tabloids in Filipino."
+        },
+        "investigative": {
+          "intro": "Philippine investigative journalism, from digital newsrooms to nonprofit centers, has documented corruption and human rights abuses."
+        },
+        "broadcast": {
+          "intro": "Television networks are the main source of news for most Filipinos. The networks below publish their newscasts online."
+        },
+        "sports": {
+          "intro": "Philippine sports media is dominated by basketball, from the PBA to the national team, along with boxing and volleyball."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

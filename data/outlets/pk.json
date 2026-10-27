@@ -1,0 +1,558 @@
+[
+  {
+    "id": "pk-dawn",
+    "slug": "dawn",
+    "name": "Dawn",
+    "url": "https://www.dawn.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1941,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dawn Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Pakistan's leading English-language daily, founded in 1941 by Muhammad Ali Jinnah."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.dawn.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pk-express-tribune",
+    "slug": "express-tribune",
+    "name": "The Express Tribune",
+    "url": "https://tribune.com.pk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Express Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language daily with national news, politics and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tribune.com.pk/",
+      "title": "International News, Latest News, Breaking News | The Express Tribune"
+    }
+  },
+  {
+    "id": "pk-the-news",
+    "slug": "the-news",
+    "name": "The News",
+    "url": "https://www.thenews.com.pk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jang Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily of the Jang Group, with politics and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thenews.com.pk/",
+      "title": "The News International"
+    }
+  },
+  {
+    "id": "pk-daily-jang",
+    "slug": "daily-jang",
+    "name": "Daily Jang",
+    "url": "https://jang.com.pk/",
+    "rss_url": null,
+    "language": "ur",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1939,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jang Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Urdu daily founded in 1939, among the most read newspapers in Pakistan."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://jang.com.pk/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pk-daily-express",
+    "slug": "daily-express",
+    "name": "Daily Express",
+    "url": "https://www.express.pk/",
+    "rss_url": null,
+    "language": "ur",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Express Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Urdu daily of the Express Media Group with national news and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.express.pk/",
+      "title": "Express News | Express News Urdu | Latest Urdu News"
+    }
+  },
+  {
+    "id": "pk-the-friday-times",
+    "slug": "the-friday-times",
+    "name": "The Friday Times",
+    "url": "https://thefridaytimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine known for independent political analysis and reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thefridaytimes.com/",
+      "title": "The Friday Times"
+    }
+  },
+  {
+    "id": "pk-business-recorder",
+    "slug": "business-recorder",
+    "name": "Business Recorder",
+    "url": "https://www.brecorder.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, the rupee, energy and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.brecorder.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pk-profit",
+    "slug": "profit",
+    "name": "Profit",
+    "url": "https://profit.pakistantoday.com.pk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine of Pakistan Today with in-depth reporting on companies and markets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://profit.pakistantoday.com.pk/",
+      "title": "Profit by Pakistan Today | Latest News from Pakistan"
+    }
+  },
+  {
+    "id": "pk-propakistani",
+    "slug": "propakistani",
+    "name": "ProPakistani",
+    "url": "https://propakistani.pk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology and business news site covering telecoms, startups and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://propakistani.pk/",
+      "title": "ProPakistani | Technology and Business News from Pakistan"
+    }
+  },
+  {
+    "id": "pk-geo-news",
+    "slug": "geo-news",
+    "name": "Geo News",
+    "url": "https://www.geo.tv/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jang Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News channel of the Jang Group, among the most watched in Pakistan."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.geo.tv/",
+      "title": "Geo News: Latest News Breaking, Live Videos, World, Entertainment, Royal"
+    }
+  },
+  {
+    "id": "pk-ary-news",
+    "slug": "ary-news",
+    "name": "ARY News",
+    "url": "https://arynews.tv/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ARY Digital Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news channel with national news, politics and talk shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://arynews.tv/",
+      "title": "ARY News - Latest Pakistan News, World News, Business and Sports"
+    }
+  },
+  {
+    "id": "pk-dunya-news",
+    "slug": "dunya-news",
+    "name": "Dunya News",
+    "url": "https://dunyanews.tv/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lahore-based television news channel with national and Punjab coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://dunyanews.tv/",
+      "title": "Dunya News - Latest News, Pakistan News, World News, Sports News and Videos"
+    }
+  },
+  {
+    "id": "pk-ptv-news",
+    "slug": "ptv-news",
+    "name": "PTV News",
+    "url": "https://ptv.com.pk/ptvNews",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Pakistan Television Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of Pakistan Television, the state broadcaster, in Urdu and English."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://ptv.com.pk/ptvNews",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "pk-cricket-pakistan",
+    "slug": "cricket-pakistan",
+    "name": "Cricket Pakistan",
+    "url": "https://cricketpakistan.com.pk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Cricket site covering the national team, the PSL and domestic cricket."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://cricketpakistan.com.pk/",
+      "title": "Latest Cricket News, Live Scores, Match Schedule | Cricket Pakistan"
+    }
+  }
+]
