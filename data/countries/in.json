@@ -1,0 +1,72 @@
+{
+  "iso2": "IN",
+  "iso3": "IND",
+  "slug": "india",
+  "name": {
+    "en": "India"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 1450900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "hi",
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "PK",
+    "CN",
+    "NP",
+    "BT",
+    "BD",
+    "MM",
+    "LK"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "India has one of the largest and most linguistically diverse news markets in the world, with thousands of newspapers in Hindi, English and regional languages. English-language dailies such as The Times of India, The Hindu, Hindustan Times and The Indian Express shape national debate, while Hindi newspapers such as Dainik Bhaskar and Dainik Jagran reach the largest readerships. Television news is crowded and competitive, and the public broadcaster Prasar Bharati runs DD News and All India Radio. Ownership of several large media companies is linked to major industrial groups. Digital-native newsrooms, nonprofit outlets and fact-checking organizations have grown, partly in response to misinformation on messaging apps. Regional-language newspapers dominate in states such as Kerala, West Bengal, Tamil Nadu, Maharashtra and Andhra Pradesh. Cricket is the dominant subject of sports media.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in India?",
+          "a": "The main national outlets in the directory include The Hindu, The Indian Express, The Times of India, Hindustan Times and Press Trust of India. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Indian news sites are free to read?",
+          "a": "Free-to-read outlets include Hindustan Times, Press Trust of India, Dainik Bhaskar, Dainik Jagran and The Wire. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Indian outlets are publicly or state funded?",
+          "a": "Public-service outlets include DD News. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in India?",
+          "a": "Regional coverage in the directory comes from Dainik Bhaskar (Hindi belt), Malayala Manorama (Kerala), Anandabazar Patrika (West Bengal), Eenadu (Andhra Pradesh and Telangana) and Daily Thanthi (Tamil Nadu). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in India is led by English-language dailies, large Hindi newspapers, the Press Trust of India and digital newsrooms. Language, paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Indian business journalism covers the stock markets, the Reserve Bank of India and large conglomerates through business dailies, a markets portal and subscription publications."
+        },
+        "investigative": {
+          "intro": "Investigative and verification work in India is produced by long-form magazines, nonprofit newsrooms, a journalists' collective and fact-checking organizations that track misinformation."
+        },
+        "regional": {
+          "intro": "Regional-language newspapers lead readership in many Indian states. The titles below publish in Hindi, Malayalam, Bengali, Telugu, Tamil and Marathi."
+        },
+        "politics": {
+          "intro": "Political coverage in India follows Parliament, the central government and state elections through national dailies, digital newsrooms and the public broadcaster."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "id-kompas",
+    "slug": "kompas",
+    "name": "Kompas",
+    "url": "https://www.kompas.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Indonesia's national daily of reference, with politics, economy and in-depth reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kompas.id/",
+      "title": "Kompas.id"
+    }
+  },
+  {
+    "id": "id-kompas-com",
+    "slug": "kompas-com",
+    "name": "Kompas.com",
+    "url": "https://www.kompas.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free news portal of the Kompas group, with national and regional news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kompas.com/",
+      "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com"
+    }
+  },
+  {
+    "id": "id-tempo",
+    "slug": "tempo",
+    "name": "Tempo",
+    "url": "https://www.tempo.co/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "investigative",
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 2,
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Tempo Inti Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly news magazine and daily site known for investigative reporting on power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.tempo.co/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "id-detikcom",
+    "slug": "detikcom",
+    "name": "detikcom",
+    "url": "https://www.detik.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CT Corp",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Indonesia's pioneering online news portal with fast national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "id-antara",
+    "slug": "antara",
+    "name": "Antara",
+    "url": "https://www.antaranews.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1937,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Government of Indonesia (state-owned enterprise)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State news agency with national wires in Indonesian and English."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Antara_(news_agency)"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.antaranews.com/",
+      "title": "Berita terkini dan terpercaya Indonesia - ANTARA News"
+    }
+  },
+  {
+    "id": "id-the-jakarta-post",
+    "slug": "the-jakarta-post",
+    "name": "The Jakarta Post",
+    "url": "https://www.thejakartapost.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1983,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Bina Media Tenggara",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily covering Indonesian politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thejakartapost.com/",
+      "title": "The Jakarta Post: Indonesia & World Breaking News | The Jakarta Post"
+    }
+  },
+  {
+    "id": "id-republika",
+    "slug": "republika",
+    "name": "Republika",
+    "url": "https://www.republika.co.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Mahaka Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with news for a Muslim readership and national affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.republika.co.id/",
+      "title": "Republika Online"
+    }
+  },
+  {
+    "id": "id-media-indonesia",
+    "slug": "media-indonesia",
+    "name": "Media Indonesia",
+    "url": "https://mediaindonesia.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily of the Media Group, sister title to Metro TV, with politics and economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://mediaindonesia.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-cnn-indonesia",
+    "slug": "cnn-indonesia",
+    "name": "CNN Indonesia",
+    "url": "https://www.cnnindonesia.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CT Corp (CNN licensee)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Indonesian CNN licensee from CT Corp, with television bulletins and online national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnnindonesia.com/",
+      "title": "CNN Indonesia | Berita Terbaru, Terkini Indonesia, Dunia"
+    }
+  },
+  {
+    "id": "id-kompas-tv",
+    "slug": "kompas-tv",
+    "name": "Kompas TV",
+    "url": "https://www.kompas.tv/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News television channel of the Kompas Gramedia group, with national and regional bulletins."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kompas.tv/",
+      "title": "Kompas.tv - Berita dan Video Terkini Hari Ini Independen Terpercaya"
+    }
+  },
+  {
+    "id": "id-metro-tv",
+    "slug": "metro-tv",
+    "name": "Metro TV",
+    "url": "https://www.metrotvnews.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Indonesia's first 24-hour news channel, owned by Media Group, with live national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.metrotvnews.com/",
+      "title": "Video Berita Hari Ini dan Update Terkini Terlengkap - MetroTVNews.com"
+    }
+  },
+  {
+    "id": "id-tvri",
+    "slug": "tvri",
+    "name": "TVRI",
+    "url": "https://www.tvrinews.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1962,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "TVRI (public broadcaster)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Indonesia's public television broadcaster and its news service."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tvrinews.com/",
+      "title": "TVRI News - Portal Berita Terpercaya Indonesia"
+    }
+  },
+  {
+    "id": "id-rri",
+    "slug": "rri",
+    "name": "RRI",
+    "url": "https://rri.co.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "broadcast",
+      "regional"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "regional": 1
+    },
+    "region": "National with regional stations",
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RRI (public broadcaster)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public radio network with stations in every province, broadcasting national and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://rri.co.id/",
+      "title": "RRI.co.id - Portal Berita Nasional dan Radio Online Terpercaya"
+    }
+  },
+  {
+    "id": "id-bisnis-indonesia",
+    "slug": "bisnis-indonesia",
+    "name": "Bisnis Indonesia",
+    "url": "https://www.bisnis.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Jurnalindo Aksara Grafika",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading business daily covering markets, companies and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.bisnis.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-kontan",
+    "slug": "kontan",
+    "name": "Kontan",
+    "url": "https://www.kontan.co.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and investment publication from Kompas Gramedia with stock market and company news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kontan.co.id/",
+      "title": "Berita Terkini Investasi dan Ekonomi Indonesia - KONTAN"
+    }
+  },
+  {
+    "id": "id-cnbc-indonesia",
+    "slug": "cnbc-indonesia",
+    "name": "CNBC Indonesia",
+    "url": "https://www.cnbcindonesia.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "economy",
+      "broadcast"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CT Corp (CNBC licensee)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news channel and site with markets and economy coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnbcindonesia.com/",
+      "title": "CNBC Indonesia - Berita Ekonomi & Bisnis Terkini Hari Ini"
+    }
+  },
+  {
+    "id": "id-katadata",
+    "slug": "katadata",
+    "name": "Katadata",
+    "url": "https://katadata.co.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Katadata Indonesia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Data-driven business and economy news site with charts, research and policy coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://katadata.co.id/",
+      "title": "Berita Ekonomi Bisnis Terbaru dan Terkini Hari Ini | - Katadata.co.id"
+    }
+  },
+  {
+    "id": "id-tirto-id",
+    "slug": "tirto-id",
+    "name": "Tirto.id",
+    "url": "https://tirto.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "investigative",
+      "general-news"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "general-news": 10
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Tirto",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with explainers, data journalism and fact-checking."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tirto.id/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-project-multatuli",
+    "slug": "project-multatuli",
+    "name": "Project Multatuli",
+    "url": "https://projectmultatuli.org/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Project Multatuli",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet reporting on marginalized communities and public interest issues."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://projectmultatuli.org/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-turnbackhoax",
+    "slug": "turnbackhoax",
+    "name": "TurnBackHoax",
+    "url": "https://turnbackhoax.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Mafindo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking project of Mafindo, debunking hoaxes circulating online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://turnbackhoax.id/",
+      "title": "Home | TurnBackHoax.ID – Persembahan dari MAFINDO :: Masyarakat Anti Fitnah Indonesia"
+    }
+  },
+  {
+    "id": "id-bolasport-com",
+    "slug": "bolasport-com",
+    "name": "Bolasport.com",
+    "url": "https://www.bolasport.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports news site with football, badminton and MotoGP coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bolasport.com/",
+      "title": "Situs Berita Bola dan Olahraga Terlengkap - BolaSport.com"
+    }
+  },
+  {
+    "id": "id-bola-com",
+    "slug": "bola-com",
+    "name": "Bola.com",
+    "url": "https://www.bola.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Emtek",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports portal from Emtek focused on Indonesian football, the national team and European leagues."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bola.com/",
+      "title": "Berita Bola Terkini, Jadwal Klasemen, Skor Liga - Bola.com"
+    }
+  },
+  {
+    "id": "id-detiksport",
+    "slug": "detiksport",
+    "name": "detikSport",
+    "url": "https://sport.detik.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CT Corp",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports channel of detikcom with football and badminton news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "id-skor-id",
+    "slug": "skor-id",
+    "name": "Skor.id",
+    "url": "https://www.skor.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Skor.id",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports news site covering Indonesian football and badminton."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.skor.id/",
+      "title": "skor.id | skor.id"
+    }
+  },
+  {
+    "id": "id-tekno-kompas",
+    "slug": "tekno-kompas",
+    "name": "Tekno Kompas",
+    "url": "https://tekno.kompas.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology channel of Kompas.com with gadgets and internet news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tekno.kompas.com/",
+      "title": "Berita Teknologi IT Terbaru Hari Ini - Kompas.com"
+    }
+  },
+  {
+    "id": "id-dailysocial",
+    "slug": "dailysocial",
+    "name": "DailySocial",
+    "url": "https://dailysocial.id/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "tech-science",
+      "economy"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2,
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DailySocial",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Startup and technology news site covering Indonesia's digital economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://dailysocial.id/",
+      "title": "RISE by DailySocial | Substack"
+    }
+  },
+  {
+    "id": "id-jawa-pos",
+    "slug": "jawa-pos",
+    "name": "Jawa Pos",
+    "url": "https://www.jawapos.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2,
+      "general-news": 11
+    },
+    "region": "East Java",
+    "founded_year": 1949,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jawa Pos Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Surabaya-based daily covering East Java and national news, flagship of the Jawa Pos Group."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.jawapos.com/",
+      "title": "Jawa Pos - Menyusuri Nusantara Lewat Berita"
+    }
+  },
+  {
+    "id": "id-pikiran-rakyat",
+    "slug": "pikiran-rakyat",
+    "name": "Pikiran Rakyat",
+    "url": "https://www.pikiran-rakyat.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "West Java",
+    "founded_year": 1966,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Pikiran Rakyat",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bandung daily covering West Java's politics, economy and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.pikiran-rakyat.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-suara-merdeka",
+    "slug": "suara-merdeka",
+    "name": "Suara Merdeka",
+    "url": "https://www.suaramerdeka.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Central Java",
+    "founded_year": 1950,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Suara Merdeka",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Semarang daily covering Central Java's politics, economy and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.suaramerdeka.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "id-bali-post",
+    "slug": "bali-post",
+    "name": "Bali Post",
+    "url": "https://www.balipost.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Bali",
+    "founded_year": 1948,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bali Post Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Denpasar daily covering Bali's politics, tourism, culture and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.balipost.com/",
+      "title": "BALIPOST.com - Berita Bali terKini, terUpdate dan terPercaya | Portal Media Inspirasi Local Untuk Global"
+    }
+  },
+  {
+    "id": "id-tribunnews",
+    "slug": "tribunnews",
+    "name": "Tribunnews",
+    "url": "https://www.tribunnews.com/",
+    "rss_url": null,
+    "language": "id",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6,
+      "general-news": 12
+    },
+    "region": "National network",
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kompas Gramedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Network of regional news sites under the Tribun brand, with local editions across Indonesia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.tribunnews.com/",
+      "title": "Akses ditolak - TribunNews.com"
+    }
+  }
+]

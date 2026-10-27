@@ -1,0 +1,68 @@
+{
+  "iso2": "JP",
+  "iso3": "JPN",
+  "slug": "japan",
+  "name": {
+    "en": "Japan"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 123800000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ja"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "KR",
+    "CN",
+    "TW",
+    "RU"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Japan has some of the highest newspaper circulations in the world. National dailies such as the Yomiuri Shimbun, the Asahi Shimbun, the Mainichi, the Nikkei and the Sankei are each tied to commercial television networks, and the public broadcaster NHK is the most widely used news source. Two news agencies, Kyodo and Jiji, supply national and regional media. Press clubs attached to ministries, parties and companies give member outlets privileged access, a system often criticized for limiting independent reporting. Weekly magazines publish many political and corporate scoops, and small nonprofit newsrooms and a fact-checking center have emerged. Regional newspapers such as the Chunichi Shimbun and the Hokkaido Shimbun are strong in their prefectures. Sports dailies focus heavily on professional baseball.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Japan?",
+          "a": "The main national outlets in the directory include NHK News, The Asahi Shimbun, The Yomiuri Shimbun, The Mainichi and The Sankei Shimbun. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Japanese news sites are free to read?",
+          "a": "Free-to-read outlets include NHK News, Kyodo News, Jiji Press, TBS News Dig and Nippon TV News. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Japanese outlets are publicly or state funded?",
+          "a": "Public-service outlets include NHK News. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Japan?",
+          "a": "Regional coverage in the directory comes from Tokyo Shimbun (Tokyo), Chunichi Shimbun (Aichi), Hokkaido Shimbun (Hokkaido), Nishinippon Shimbun (Fukuoka) and Kobe Shimbun (Hyogo). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Japan comes from the public broadcaster, five national dailies, two news agencies and an English-language daily. Paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Japanese business journalism is led by a business daily that also publishes the Nikkei stock index, with business magazine sites and a business news platform following companies and markets."
+        },
+        "sports": {
+          "intro": "Sports dailies in Japan focus on professional baseball, sumo and soccer, each linked to a national newspaper group, alongside a long-form sports magazine."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in Japan comes from the public broadcaster NHK and four commercial networks, each affiliated with a national newspaper group."
+        },
+        "regional": {
+          "intro": "Regional newspapers are influential in Japan's prefectures. The titles below cover Tokyo, Aichi, Hokkaido, Fukuoka and Hyogo."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

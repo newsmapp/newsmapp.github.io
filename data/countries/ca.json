@@ -1,0 +1,61 @@
+{
+  "iso2": "CA",
+  "iso3": "CAN",
+  "slug": "canada",
+  "name": {
+    "en": "Canada"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 41300000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "fr"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "US",
+    "GL"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Canada's news landscape is shaped by two official languages and a strong public broadcaster. CBC/Radio-Canada provides national and regional news in English and French, alongside private television networks such as CTV and Global. In print, The Globe and Mail and the National Post compete nationally, while Postmedia owns many of the largest city dailies. Quebec has its own French-language market, led by La Presse, Le Devoir and Radio-Canada. Federal programs, including a journalism labour tax credit, support news organizations, and the Online News Act led Meta to block news links on its platforms in Canada. Nonprofit and subscription digital newsrooms have emerged to cover policy, the environment and the technology sector. Most newspapers use metered paywalls, while public broadcasting remains free to access.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Canada?",
+          "a": "The main national outlets in the directory include CBC News, The Globe and Mail, National Post, Toronto Star and The Canadian Press. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Canadian news sites are free to read?",
+          "a": "Free-to-read outlets include CBC News, The Canadian Press, CTV News, Global News and Radio-Canada. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Canadian outlets are publicly or state funded?",
+          "a": "Public-service outlets include CBC News and Radio-Canada. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Canada?",
+          "a": "Regional coverage in the directory comes from Toronto Star (Ontario), La Presse (Quebec), Vancouver Sun (British Columbia), Calgary Herald (Alberta) and Winnipeg Free Press (Manitoba). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most Canadians use to follow national news, from the public broadcaster in both official languages to national newspapers and the Canadian Press wire. Paywall type and ownership are listed for each outlet."
+        },
+        "economy": {
+          "intro": "Canadian business news covers banking, energy, mining and a growing technology sector. The outlets below include national business sections, a business television channel and subscription newsrooms focused on the innovation economy."
+        },
+        "sports": {
+          "intro": "Sports media in Canada is dominated by hockey, with national networks in English and French that also cover the CFL, basketball, baseball and international events. The outlets below are ordered by editorial relevance."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

@@ -1,0 +1,1163 @@
+[
+  {
+    "id": "nl-nos",
+    "slug": "nos",
+    "name": "NOS",
+    "url": "https://nos.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1969,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Nederlandse Publieke Omroep",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster's news service with the NOS Journaal, live blogs and national coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nos.nl/",
+      "title": "NOS.nl - Nieuws, Sport en Evenementen | Nederlandse Omroep Stichting"
+    }
+  },
+  {
+    "id": "nl-nrc",
+    "slug": "nrc",
+    "name": "NRC",
+    "url": "https://www.nrc.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Rotterdam-founded quality daily known for analysis, investigations and long reads."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nrc.nl/",
+      "title": "NRC - Nieuws, achtergronden en onderzoeksjournalistiek"
+    }
+  },
+  {
+    "id": "nl-de-volkskrant",
+    "slug": "de-volkskrant",
+    "name": "de Volkskrant",
+    "url": "https://www.volkskrant.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1919,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Amsterdam national daily with politics, science and culture coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.volkskrant.nl/",
+      "title": "Volkskrant - Nieuws, achtergronden en columns | de Volkskrant"
+    }
+  },
+  {
+    "id": "nl-de-telegraaf",
+    "slug": "de-telegraaf",
+    "name": "De Telegraaf",
+    "url": "https://www.telegraaf.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1893,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Highest-circulation Dutch daily with national news, crime, finance and sport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.telegraaf.nl/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "nl-ad",
+    "slug": "ad",
+    "name": "AD",
+    "url": "https://www.ad.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "regional": 1
+    },
+    "region": "South Holland",
+    "founded_year": 1946,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular national daily with regional editions for Rotterdam, The Hague and Utrecht."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ad.nl/",
+      "title": "AD.nl, het laatste nieuws uit binnen- en buitenland, sport en show | AD.nl"
+    }
+  },
+  {
+    "id": "nl-trouw",
+    "slug": "trouw",
+    "name": "Trouw",
+    "url": "https://www.trouw.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1943,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily founded in the resistance, with focus on religion, nature and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.trouw.nl/",
+      "title": "Trouw | Nieuws en Verdieping"
+    }
+  },
+  {
+    "id": "nl-nu-nl",
+    "slug": "nu-nl",
+    "name": "NU.nl",
+    "url": "https://www.nu.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Most-visited Dutch news site with fast, free updates on national and world news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nu.nl/",
+      "title": "NU - Het laatste nieuws het eerst op NU.nl"
+    }
+  },
+  {
+    "id": "nl-anp",
+    "slug": "anp",
+    "name": "ANP",
+    "url": "https://www.anp.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1934,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ANP Groep",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dutch national news agency supplying text, photo and video to Dutch media."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.anp.nl/",
+      "title": "Wij zijn het Algemeen Nederlands Persbureau - ANP"
+    }
+  },
+  {
+    "id": "nl-rtl-nieuws",
+    "slug": "rtl-nieuws",
+    "name": "RTL Nieuws",
+    "url": "https://www.rtl.nl/nieuws",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Commercial television news with evening bulletins and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rtl.nl/",
+      "title": "RTL Nieuws & Entertainment"
+    }
+  },
+  {
+    "id": "nl-nieuwsuur",
+    "slug": "nieuwsuur",
+    "name": "Nieuwsuur",
+    "url": "https://nos.nl/nieuwsuur",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "broadcast",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "politics": 5,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "NOS and NTR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public current-affairs program with in-depth interviews and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nos.nl/nieuwsuur",
+      "title": "Nieuwsuur"
+    }
+  },
+  {
+    "id": "nl-bnr-nieuwsradio",
+    "slug": "bnr-nieuwsradio",
+    "name": "BNR Nieuwsradio",
+    "url": "https://www.bnr.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "broadcast",
+      "economy"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "FD Mediagroep",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "All-news radio station focused on business, markets and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.bnr.nl/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "nl-het-financieele-dagblad",
+    "slug": "het-financieele-dagblad",
+    "name": "Het Financieele Dagblad",
+    "url": "https://fd.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1796,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "FD Mediagroep",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Dutch business daily covering companies, markets and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://fd.nl/",
+      "title": "Het Financieele Dagblad"
+    }
+  },
+  {
+    "id": "nl-iex-nl",
+    "slug": "iex-nl",
+    "name": "IEX.nl",
+    "url": "https://www.iex.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "IEX Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Investor site with stock market news, analysis and the Dutch market indexes."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.iex.nl/",
+      "title": "IEX.nl | Koersinformatie, beursnieuws, aandelentips en forum"
+    }
+  },
+  {
+    "id": "nl-follow-the-money",
+    "slug": "follow-the-money",
+    "name": "Follow the Money",
+    "url": "https://www.ftm.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "investigative",
+      "economy"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3,
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Follow the Money",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Subscription platform for investigative financial journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ftm.nl/",
+      "title": "Follow the Money - Platform voor onderzoeksjournalistiek"
+    }
+  },
+  {
+    "id": "nl-investico",
+    "slug": "investico",
+    "name": "Investico",
+    "url": "https://www.platform-investico.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Stichting Investico",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit platform for investigative journalism published with partner outlets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.platform-investico.nl/",
+      "title": "Investico Onderzoeksjournalisten"
+    }
+  },
+  {
+    "id": "nl-pointer",
+    "slug": "pointer",
+    "name": "Pointer",
+    "url": "https://pointer.kro-ncrv.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "KRO-NCRV",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public broadcaster's investigative and data journalism team."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://pointer.kro-ncrv.nl/",
+      "title": "Pointer | KRO-NCRV | Ons onderzoek begint bij jou"
+    }
+  },
+  {
+    "id": "nl-de-correspondent",
+    "slug": "de-correspondent",
+    "name": "De Correspondent",
+    "url": "https://decorrespondent.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "investigative",
+      "general-news"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 6,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "De Correspondent",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ad-free, member-funded platform for explanatory and investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "nl-nos-sport",
+    "slug": "nos-sport",
+    "name": "NOS Sport",
+    "url": "https://nos.nl/sport",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1,
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 1969,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Nederlandse Publieke Omroep",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster's sports desk with football, cycling, speed skating and Formula 1."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nos.nl/sport",
+      "title": "NOS Sport - Sport en Evenementen op Radio, TV en Internet | Nederlandse Omroep Stichting"
+    }
+  },
+  {
+    "id": "nl-voetbal-international",
+    "slug": "voetbal-international",
+    "name": "Voetbal International",
+    "url": "https://www.vi.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Leading Dutch football magazine with Eredivisie news, data and transfer coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.vi.nl/",
+      "title": "Alles over voetbal"
+    }
+  },
+  {
+    "id": "nl-espn-nederland",
+    "slug": "espn-nederland",
+    "name": "ESPN Nederland",
+    "url": "https://www.espn.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Walt Disney Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dutch ESPN edition with Eredivisie broadcasts and football news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.espn.nl/",
+      "title": "ESPN Nederland - Voor de fans. Altijd en overal."
+    }
+  },
+  {
+    "id": "nl-voetbalzone",
+    "slug": "voetbalzone",
+    "name": "Voetbalzone",
+    "url": "https://www.voetbalzone.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Voetbalzone",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football news site covering Dutch and international club football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.voetbalzone.nl/",
+      "title": "Voetbalnieuws, live tussenstanden, uitslagen en transfers | Voetbalzone"
+    }
+  },
+  {
+    "id": "nl-tweakers",
+    "slug": "tweakers",
+    "name": "Tweakers",
+    "url": "https://tweakers.net/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Dutch technology community with news, product reviews and price comparisons."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tweakers.net/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "nl-nemo-kennislink",
+    "slug": "nemo-kennislink",
+    "name": "NEMO Kennislink",
+    "url": "https://www.nemokennislink.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "NEMO Science Museum",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Science news site from NEMO, explaining Dutch research for the public."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nemokennislink.nl/",
+      "title": "NEMO Kennislink"
+    }
+  },
+  {
+    "id": "nl-emerce",
+    "slug": "emerce",
+    "name": "Emerce",
+    "url": "https://www.emerce.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "tech-science",
+      "economy"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3,
+      "economy": 6
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Emerce",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital business publication covering e-commerce, marketing and tech."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.emerce.nl/",
+      "title": null
+    }
+  },
+  {
+    "id": "nl-het-parool",
+    "slug": "het-parool",
+    "name": "Het Parool",
+    "url": "https://www.parool.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "North Holland",
+    "founded_year": 1941,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Amsterdam daily founded in the resistance, covering the city and its culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.parool.nl/",
+      "title": "Het Parool - Vrij, Onverveerd"
+    }
+  },
+  {
+    "id": "nl-dagblad-van-het-noorden",
+    "slug": "dagblad-van-het-noorden",
+    "name": "Dagblad van het Noorden",
+    "url": "https://dvhn.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Groningen and Drenthe",
+    "founded_year": 2002,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Regional daily for Groningen and Drenthe in the north of the Netherlands."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.dvhn.nl/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "nl-de-limburger",
+    "slug": "de-limburger",
+    "name": "De Limburger",
+    "url": "https://www.limburger.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Limburg",
+    "founded_year": 1845,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Regional daily covering the province of Limburg in the south of the Netherlands."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "nl-omroep-brabant",
+    "slug": "omroep-brabant",
+    "name": "Omroep Brabant",
+    "url": "https://www.omroepbrabant.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional",
+      "broadcast"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5,
+      "broadcast": 6
+    },
+    "region": "North Brabant",
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Omroep Brabant",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Regional public broadcaster for North Brabant, on TV, radio and online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.omroepbrabant.nl/",
+      "title": "Omroep Brabant: het laatste nieuws uit Brabant, sport en informatie uit jouw regio."
+    }
+  },
+  {
+    "id": "nl-rijnmond",
+    "slug": "rijnmond",
+    "name": "Rijnmond",
+    "url": "https://www.rijnmond.nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "South Holland",
+    "founded_year": 1983,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTV Rijnmond",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Regional public broadcaster for Rotterdam and the Rijnmond area."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rijnmond.nl/",
+      "title": "Actueel nieuws, sport en achtergronden - Rijnmond"
+    }
+  }
+]

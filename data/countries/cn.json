@@ -1,0 +1,81 @@
+{
+  "iso2": "CN",
+  "iso3": "CHN",
+  "slug": "china",
+  "name": {
+    "en": "China"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 1408900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "zh"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "RU",
+    "MN",
+    "KZ",
+    "KG",
+    "TJ",
+    "AF",
+    "PK",
+    "IN",
+    "NP",
+    "BT",
+    "MM",
+    "LA",
+    "VN",
+    "KP",
+    "KR",
+    "JP",
+    "TW"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "News media in mainland China operates under the direction of the Chinese Communist Party. The Xinhua news agency, People's Daily and the China Media Group, which includes CCTV, CGTN and China National Radio, are the central state outlets, and most newspapers belong to state-owned provincial or municipal media groups. Commercial platforms owned by technology companies distribute news and run large sports and technology channels, but they are licensed and must follow content regulations. A small number of outlets, such as the financial magazine Caixin, are known for more independent economic reporting within these limits. Many foreign news sites are blocked. International press freedom indexes rank China among the most restrictive environments for journalists. This page labels state ownership on every outlet so readers can identify the source behind each publication.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in China?",
+          "a": "The main national outlets in the directory include Xinhua, People's Daily, China Daily, China News Service and The Paper. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Chinese news sites are free to read?",
+          "a": "Free-to-read outlets include Xinhua, People's Daily, China Daily, Global Times and China News Service. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Chinese outlets are publicly or state funded?",
+          "a": "State-controlled outlets include Xinhua, People's Daily, China Daily and Global Times. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in China?",
+          "a": "Regional coverage in the directory comes from The Beijing News (Beijing), Xinmin Evening News (Shanghai) and Southern Metropolis Daily (Guangdong). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "China's main news outlets are state media: the national news agency, the Party newspaper and the state broadcaster, plus state-owned digital outlets from Shanghai. State ownership is labeled for each outlet."
+        },
+        "economy": {
+          "intro": "Business and financial news in China comes from a privately owned financial magazine and from state-owned financial newspapers and digital outlets covering markets, companies and policy."
+        },
+        "sports": {
+          "intro": "Chinese sports media includes the state sports channel and large commercial portals operated by technology companies, covering football, basketball and the Olympics."
+        },
+        "tech-science": {
+          "intro": "Technology coverage in China is led by commercial outlets that follow startups, venture capital and the technology industry, alongside a state science newspaper and a popular science community."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in China is produced by the state-owned China Media Group, which runs national television, international channels and national radio."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

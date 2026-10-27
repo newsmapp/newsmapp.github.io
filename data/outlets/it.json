@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "it-corriere-della-sera",
+    "slug": "corriere-della-sera",
+    "name": "Corriere della Sera",
+    "url": "https://www.corriere.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1876,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "RCS MediaGroup",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Milan-based national daily of reference, covering politics, economy and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.corriere.it/",
+      "title": "Corriere della Sera: News e Ultime notizie in tempo reale da Italia e Mondo"
+    }
+  },
+  {
+    "id": "it-la-repubblica",
+    "slug": "la-repubblica",
+    "name": "la Repubblica",
+    "url": "https://www.repubblica.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "GEDI Gruppo Editoriale",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Rome-based national daily with politics, investigations and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.repubblica.it/",
+      "title": "la Repubblica - Ultime notizie di Cronaca, Politica, Economia, Sport, Esteri"
+    }
+  },
+  {
+    "id": "it-la-stampa",
+    "slug": "la-stampa",
+    "name": "La Stampa",
+    "url": "https://www.lastampa.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "regional": 1
+    },
+    "region": "Piedmont",
+    "founded_year": 1867,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "GEDI Gruppo Editoriale",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Turin national daily with strong coverage of Piedmont, Europe and world news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lastampa.it/",
+      "title": "La Stampa - Ultime notizie di cronaca e news dall'Italia e dal mondo"
+    }
+  },
+  {
+    "id": "it-ansa",
+    "slug": "ansa",
+    "name": "ANSA",
+    "url": "https://www.ansa.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "ANSA (cooperative of Italian publishers)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Italy's main news agency, a cooperative of publishers, with national and regional wires."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ansa.it/",
+      "title": "Agenzia ANSA: ultime notizie di cronaca, politica e sport - ANSA"
+    }
+  },
+  {
+    "id": "it-il-sole-24-ore",
+    "slug": "il-sole-24-ore",
+    "name": "Il Sole 24 Ore",
+    "url": "https://www.ilsole24ore.com/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1865,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Confindustria",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Italy's business daily, owned by the industry federation, covering markets and tax."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilsole24ore.com/",
+      "title": "Il Sole 24 Ore: notizie di economia, finanza, borsa, fisco, cronaca italiana ed esteri - Il Sole 24 ORE"
+    }
+  },
+  {
+    "id": "it-il-post",
+    "slug": "il-post",
+    "name": "Il Post",
+    "url": "https://www.ilpost.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Il Post",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital newsroom explaining the news calmly, with podcasts and a free core site."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilpost.it/",
+      "title": "Il Post"
+    }
+  },
+  {
+    "id": "it-il-fatto-quotidiano",
+    "slug": "il-fatto-quotidiano",
+    "name": "Il Fatto Quotidiano",
+    "url": "https://www.ilfattoquotidiano.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Società Editoriale Il Fatto",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent daily focused on politics, justice and corruption investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilfattoquotidiano.it/",
+      "title": "News e ultime notizie su politica, cronaca, giustizia, economia | Il Fatto Quotidiano"
+    }
+  },
+  {
+    "id": "it-il-messaggero",
+    "slug": "il-messaggero",
+    "name": "Il Messaggero",
+    "url": "https://www.ilmessaggero.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2,
+      "general-news": 6
+    },
+    "region": "Lazio",
+    "founded_year": 1878,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Caltagirone Editore",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Rome daily covering the capital, Lazio and national politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilmessaggero.it/",
+      "title": "Il Messaggero"
+    }
+  },
+  {
+    "id": "it-rai-news",
+    "slug": "rai-news",
+    "name": "Rai News",
+    "url": "https://www.rainews.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RAI",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster RAI's 24-hour news channel and portal, including TG1, TG2 and TG3."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rainews.it/",
+      "title": "RaiNews | Le ultime notizie gratuite aggiornate in tempo reale"
+    }
+  },
+  {
+    "id": "it-sky-tg24",
+    "slug": "sky-tg24",
+    "name": "Sky TG24",
+    "url": "https://tg24.sky.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comcast (Sky Italia)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour news channel with live politics, world news and data journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tg24.sky.it/",
+      "title": "Error"
+    }
+  },
+  {
+    "id": "it-tgcom24",
+    "slug": "tgcom24",
+    "name": "TGCom24",
+    "url": "https://www.tgcom24.mediaset.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "MFE-MediaForEurope",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mediaset's all-news channel and site with breaking national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tgcom24.mediaset.it/",
+      "title": "TGCOM24 | News, Ultime Notizie, Video e Foto in tempo reale"
+    }
+  },
+  {
+    "id": "it-radio-radicale",
+    "slug": "radio-radicale",
+    "name": "Radio Radicale",
+    "url": "https://www.radioradicale.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "politics",
+      "broadcast"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Centro di Produzione",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Radio covering Parliament, trials and congresses with complete unedited recordings."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.radioradicale.it/",
+      "title": "Radio Radicale"
+    }
+  },
+  {
+    "id": "it-formiche",
+    "slug": "formiche",
+    "name": "Formiche",
+    "url": "https://formiche.net/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Formiche",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Political and policy site on Italian institutions, defense and foreign affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://formiche.net/",
+      "title": "Formiche.net - Analisi, commenti e scenari"
+    }
+  },
+  {
+    "id": "it-milano-finanza",
+    "slug": "milano-finanza",
+    "name": "Milano Finanza",
+    "url": "https://www.milanofinanza.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Class Editori",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial daily covering Italian markets, banks and listed companies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.milanofinanza.it/",
+      "title": "Milano Finanza - news di economia, finanza, fisco e borsa in tempo reale"
+    }
+  },
+  {
+    "id": "it-wall-street-italia",
+    "slug": "wall-street-italia",
+    "name": "Wall Street Italia",
+    "url": "https://www.wallstreetitalia.com/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Wall Street Italia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Markets and investing site with financial news and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.wallstreetitalia.com/",
+      "title": "News su Finanza, Consulenza Finanziaria e Private Banking | Wall Street Italia"
+    }
+  },
+  {
+    "id": "it-irpimedia",
+    "slug": "irpimedia",
+    "name": "IrpiMedia",
+    "url": "https://irpimedia.irpi.eu/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "IRPI",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative outlet on organized crime, corruption and the environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://irpimedia.irpi.eu/",
+      "title": "IrpiMedia"
+    }
+  },
+  {
+    "id": "it-pagella-politica",
+    "slug": "pagella-politica",
+    "name": "Pagella Politica",
+    "url": "https://pagellapolitica.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3,
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Pagella Politica",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking site verifying statements by Italian politicians."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://pagellapolitica.it/",
+      "title": "Pagella Politica – Homepage | Pagella Politica"
+    }
+  },
+  {
+    "id": "it-facta",
+    "slug": "facta",
+    "name": "Facta",
+    "url": "https://www.facta.news/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Facta",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking newsroom debunking online misinformation in Italy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.facta.news/",
+      "title": "Homepage | Facta"
+    }
+  },
+  {
+    "id": "it-l-espresso",
+    "slug": "l-espresso",
+    "name": "L'Espresso",
+    "url": "https://lespresso.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5,
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 1955,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "BFC Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine with a long history of investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://lespresso.it/",
+      "title": "L'Espresso - News, inchieste e approfondimenti"
+    }
+  },
+  {
+    "id": "it-la-gazzetta-dello-sport",
+    "slug": "la-gazzetta-dello-sport",
+    "name": "La Gazzetta dello Sport",
+    "url": "https://www.gazzetta.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1896,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "RCS MediaGroup",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Italy's pink sports daily, with Serie A, cycling and the Giro d'Italia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.gazzetta.it/",
+      "title": "La Gazzetta dello Sport | Notizie sportive e risultati live di oggi"
+    }
+  },
+  {
+    "id": "it-corriere-dello-sport",
+    "slug": "corriere-dello-sport",
+    "name": "Corriere dello Sport",
+    "url": "https://www.corrieredellosport.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1924,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Gruppo Amodei",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Rome-based sports daily focused on football and the capital's clubs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.corrieredellosport.it/",
+      "title": "Corriere dello Sport | News, dirette e cronaca sportiva"
+    }
+  },
+  {
+    "id": "it-tuttosport",
+    "slug": "tuttosport",
+    "name": "Tuttosport",
+    "url": "https://www.tuttosport.com/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Gruppo Amodei",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Turin sports daily focused on football, Juventus and Torino."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tuttosport.com/",
+      "title": "Tuttosport | Notizie sportive, calcio, F1, Moto, risultati | Tuttosport"
+    }
+  },
+  {
+    "id": "it-sky-sport",
+    "slug": "sky-sport",
+    "name": "Sky Sport",
+    "url": "https://sport.sky.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4,
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comcast (Sky Italia)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports broadcaster with Serie A, Formula 1 and MotoGP coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sport.sky.it/",
+      "title": "Error"
+    }
+  },
+  {
+    "id": "it-wired-italia",
+    "slug": "wired-italia",
+    "name": "Wired Italia",
+    "url": "https://www.wired.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Condé Nast",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Italian edition of Wired, covering technology, science and digital culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.wired.it/",
+      "title": "Wired - Istruzioni per il futuro | Wired Italia"
+    }
+  },
+  {
+    "id": "it-le-scienze",
+    "slug": "le-scienze",
+    "name": "Le Scienze",
+    "url": "https://www.lescienze.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1968,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "GEDI Gruppo Editoriale",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Italian edition of Scientific American, covering research and discovery."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lescienze.it/",
+      "title": "Le Scienze - Homepage"
+    }
+  },
+  {
+    "id": "it-hdblog",
+    "slug": "hdblog",
+    "name": "HDblog",
+    "url": "https://www.hdblog.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "HDblog",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Consumer technology site with smartphone, PC and car tech reviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hdblog.it/",
+      "title": "HDblog.it"
+    }
+  },
+  {
+    "id": "it-il-mattino",
+    "slug": "il-mattino",
+    "name": "Il Mattino",
+    "url": "https://www.ilmattino.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Campania",
+    "founded_year": 1892,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Caltagirone Editore",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Naples daily covering Campania and southern Italy, its politics, economy and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilmattino.it/",
+      "title": "Il Mattino"
+    }
+  },
+  {
+    "id": "it-il-resto-del-carlino",
+    "slug": "il-resto-del-carlino",
+    "name": "Il Resto del Carlino",
+    "url": "https://www.ilrestodelcarlino.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Emilia-Romagna",
+    "founded_year": 1885,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Monrif",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bologna daily covering Emilia-Romagna and the Marche with many local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilrestodelcarlino.it/",
+      "title": "Tutte le ultime notizie in tempo reale dall'Emilia Romagna e dalle Marche"
+    }
+  },
+  {
+    "id": "it-il-gazzettino",
+    "slug": "il-gazzettino",
+    "name": "Il Gazzettino",
+    "url": "https://www.ilgazzettino.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Veneto",
+    "founded_year": 1887,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Caltagirone Editore",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Venice daily covering Veneto and Friuli-Venezia Giulia with provincial editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ilgazzettino.it/",
+      "title": "Il Gazzettino"
+    }
+  },
+  {
+    "id": "it-giornale-di-sicilia",
+    "slug": "giornale-di-sicilia",
+    "name": "Giornale di Sicilia",
+    "url": "https://gds.it/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Sicily",
+    "founded_year": 1860,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Società Editrice Siciliana",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Palermo daily covering Sicily's politics, justice, economy and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gds.it/",
+      "title": "Quotidiano online del Giornale di Sicilia, notizie e cronaca"
+    }
+  }
+]

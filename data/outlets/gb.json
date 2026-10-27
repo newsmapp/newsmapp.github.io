@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "gb-bbc-news",
+    "slug": "bbc-news",
+    "name": "BBC News",
+    "url": "https://www.bbc.co.uk/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1922,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "British Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster's news service with UK, world and live coverage, free in the UK."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bbc.co.uk/news",
+      "title": "Home - BBC News"
+    }
+  },
+  {
+    "id": "gb-the-guardian",
+    "slug": "the-guardian",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com/uk",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1821,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Scott Trust",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Trust-owned national daily, free to read online, with strong environment and investigative work."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theguardian.com/uk",
+      "title": "Latest news, sport and opinion from the Guardian"
+    }
+  },
+  {
+    "id": "gb-the-times",
+    "slug": "the-times",
+    "name": "The Times",
+    "url": "https://www.thetimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1785,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "News UK (News Corp)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily of record covering politics, business and culture, behind a paywall."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thetimes.com/",
+      "title": "Latest news & breaking headlines | The Times and The Sunday Times"
+    }
+  },
+  {
+    "id": "gb-financial-times",
+    "slug": "financial-times",
+    "name": "Financial Times",
+    "url": "https://www.ft.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1888,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Nikkei Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Global business daily known for markets, economics and international affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ft.com/",
+      "title": "Security Verification"
+    }
+  },
+  {
+    "id": "gb-the-telegraph",
+    "slug": "the-telegraph",
+    "name": "The Telegraph",
+    "url": "https://www.telegraph.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1855,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Telegraph Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "London national daily with politics, business, sport and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 402,
+      "final_url": "https://www.telegraph.co.uk/",
+      "title": null
+    }
+  },
+  {
+    "id": "gb-the-independent",
+    "slug": "the-independent",
+    "name": "The Independent",
+    "url": "https://www.independent.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Independent Digital News & Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital-only national news site with UK and world news, free to read."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.independent.co.uk/",
+      "title": "News | The Independent | Today's headlines and latest breaking news"
+    }
+  },
+  {
+    "id": "gb-reuters",
+    "slug": "reuters",
+    "name": "Reuters",
+    "url": "https://www.reuters.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1851,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Thomson Reuters",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Global news agency with fast, sourced reporting on markets, politics and world events."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 401,
+      "final_url": "https://www.reuters.com/",
+      "title": "reuters.com"
+    }
+  },
+  {
+    "id": "gb-sky-news",
+    "slug": "sky-news",
+    "name": "Sky News",
+    "url": "https://news.sky.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comcast (Sky Group)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour news channel and site with UK breaking news and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://news.sky.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "gb-itv-news",
+    "slug": "itv-news",
+    "name": "ITV News",
+    "url": "https://www.itv.com/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1955,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ITV plc",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National and regional television news from the ITV network, with evening bulletins."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "gb-channel-4-news",
+    "slug": "channel-4-news",
+    "name": "Channel 4 News",
+    "url": "https://www.channel4.com/news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "investigative"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 1982,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Channel Four Television Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Publicly owned channel's evening news, known for long interviews and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.channel4.com/news/",
+      "title": "Channel 4 News"
+    }
+  },
+  {
+    "id": "gb-lbc",
+    "slug": "lbc",
+    "name": "LBC",
+    "url": "https://www.lbc.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1973,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Global Media & Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "London talk radio station with national phone-ins, interviews and political debate."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lbc.co.uk/",
+      "title": "Latest Breaking UK and World News & Opinion | LBC"
+    }
+  },
+  {
+    "id": "gb-politicshome",
+    "slug": "politicshome",
+    "name": "PoliticsHome",
+    "url": "https://www.politicshome.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dods Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Westminster news site covering Parliament, government and party politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.politicshome.com/",
+      "title": "Politicshome.com | Breaking politics and political news for Westminster and the UK"
+    }
+  },
+  {
+    "id": "gb-the-spectator",
+    "slug": "the-spectator",
+    "name": "The Spectator",
+    "url": "https://spectator.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 1828,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Old Queen Street Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly magazine of politics and culture, one of the oldest in continuous publication."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://spectator.com/",
+      "title": "The Spectator"
+    }
+  },
+  {
+    "id": "gb-new-statesman",
+    "slug": "new-statesman",
+    "name": "New Statesman",
+    "url": "https://www.newstatesman.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 1913,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "New Statesman Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly politics and culture magazine with Westminster analysis and essays."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.newstatesman.com/",
+      "title": "New Statesman | UK Politics & Culture Magazine"
+    }
+  },
+  {
+    "id": "gb-the-economist",
+    "slug": "the-economist",
+    "name": "The Economist",
+    "url": "https://www.economist.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "politics"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "politics": 9
+    },
+    "region": null,
+    "founded_year": 1843,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The Economist Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly on international politics, business and economics with a global readership."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.economist.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "gb-city-a-m",
+    "slug": "city-a-m",
+    "name": "City A.M.",
+    "url": "https://www.cityam.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "City A.M. Ltd",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free London business newspaper covering the City, markets and financial services."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cityam.com/",
+      "title": "City AM | Business and financial news and views live from the City of London"
+    }
+  },
+  {
+    "id": "gb-this-is-money",
+    "slug": "this-is-money",
+    "name": "This is Money",
+    "url": "https://www.thisismoney.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Daily Mail and General Trust",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Personal finance site covering savings, mortgages, pensions and investing."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thisismoney.co.uk/money/index.html",
+      "title": "This is Money: Be your own financial adviser - predictions, advice & tips"
+    }
+  },
+  {
+    "id": "gb-the-bureau-of-investigative-journalism",
+    "slug": "the-bureau-of-investigative-journalism",
+    "name": "The Bureau of Investigative Journalism",
+    "url": "https://www.thebureauinvestigates.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "The Bureau of Investigative Journalism",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit newsroom producing public-interest investigations with partner outlets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thebureauinvestigates.com/",
+      "title": "Homepage | TBIJ"
+    }
+  },
+  {
+    "id": "gb-full-fact",
+    "slug": "full-fact",
+    "name": "Full Fact",
+    "url": "https://fullfact.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Full Fact",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent fact-checking charity checking claims by politicians, media and online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://fullfact.org/",
+      "title": "Full Fact"
+    }
+  },
+  {
+    "id": "gb-private-eye",
+    "slug": "private-eye",
+    "name": "Private Eye",
+    "url": "https://www.private-eye.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5,
+      "politics": 10
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Pressdram Ltd",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Satirical fortnightly with a long record of investigative reporting on the powerful."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.private-eye.co.uk/",
+      "title": "Private Eye Magazine | Official Site - the UK's number one best-selling news and current affairs magazine, edited by Ian Hislop"
+    }
+  },
+  {
+    "id": "gb-opendemocracy",
+    "slug": "opendemocracy",
+    "name": "openDemocracy",
+    "url": "https://www.opendemocracy.net/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 6
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "openDemocracy",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent platform for investigations into dark money, democracy and human rights."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.opendemocracy.net/",
+      "title": "openDemocracy"
+    }
+  },
+  {
+    "id": "gb-bbc-sport",
+    "slug": "bbc-sport",
+    "name": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1922,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "British Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Live scores, reports and commentary on football, cricket, rugby and more."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bbc.co.uk/sport",
+      "title": "BBC Sport - Scores, Fixtures, News - Live Sport"
+    }
+  },
+  {
+    "id": "gb-sky-sports",
+    "slug": "sky-sports",
+    "name": "Sky Sports",
+    "url": "https://www.skysports.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comcast (Sky Group)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports broadcaster with Premier League, cricket, F1 and golf coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.skysports.com/",
+      "title": "Sky Sports - Sports News, Transfers, Scores | Watch Live Sport"
+    }
+  },
+  {
+    "id": "gb-the-athletic-uk",
+    "slug": "the-athletic-uk",
+    "name": "The Athletic UK",
+    "url": "https://www.nytimes.com/athletic/uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The New York Times Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "UK edition of The Athletic with club-by-club football reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.nytimes.com/athletic/uk/",
+      "title": "nytimes.com"
+    }
+  },
+  {
+    "id": "gb-talksport",
+    "slug": "talksport",
+    "name": "talkSPORT",
+    "url": "https://talksport.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4,
+      "broadcast": 7
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "News UK (News Corp)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports radio station and site with football news, phone-ins and commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://talksport.com/",
+      "title": "Live Radio, Breaking Sports News, Opinion - talkSPORT"
+    }
+  },
+  {
+    "id": "gb-new-scientist",
+    "slug": "new-scientist",
+    "name": "New Scientist",
+    "url": "https://www.newscientist.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1956,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Daily Mail and General Trust",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly science magazine covering research, technology and the environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.newscientist.com/",
+      "title": "New Scientist | Science news, articles, and features"
+    }
+  },
+  {
+    "id": "gb-the-register",
+    "slug": "the-register",
+    "name": "The Register",
+    "url": "https://www.theregister.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Situation Publishing",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Irreverent technology news site focused on enterprise IT, security and the industry."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theregister.com/",
+      "title": "Technology news and analysis | The Register"
+    }
+  },
+  {
+    "id": "gb-manchester-evening-news",
+    "slug": "manchester-evening-news",
+    "name": "Manchester Evening News",
+    "url": "https://www.manchestereveningnews.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Greater Manchester",
+    "founded_year": 1868,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Reach plc",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Manchester daily covering the city, Greater Manchester and its football clubs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.manchestereveningnews.co.uk/",
+      "title": "Manchester Evening News: Number one for news, opinion, sport & celebrity news"
+    }
+  },
+  {
+    "id": "gb-the-scotsman",
+    "slug": "the-scotsman",
+    "name": "The Scotsman",
+    "url": "https://www.scotsman.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Scotland",
+    "founded_year": 1817,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "National World",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Edinburgh daily covering Scottish politics, business and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.scotsman.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "gb-the-herald",
+    "slug": "the-herald",
+    "name": "The Herald",
+    "url": "https://www.heraldscotland.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Scotland",
+    "founded_year": 1783,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Newsquest",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Glasgow daily, one of the oldest English-language newspapers still published."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.heraldscotland.com/",
+      "title": "Request blocked"
+    }
+  },
+  {
+    "id": "gb-belfast-telegraph",
+    "slug": "belfast-telegraph",
+    "name": "Belfast Telegraph",
+    "url": "https://www.belfasttelegraph.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Northern Ireland",
+    "founded_year": 1870,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Belfast daily covering Northern Ireland politics, business and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.belfasttelegraph.co.uk/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "gb-walesonline",
+    "slug": "walesonline",
+    "name": "WalesOnline",
+    "url": "https://www.walesonline.co.uk/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Wales",
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Reach plc",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Wales' largest news site, covering Cardiff, the Senedd and communities across Wales."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.walesonline.co.uk/",
+      "title": "WalesOnline: News, sport, weather and events from across Wales"
+    }
+  }
+]

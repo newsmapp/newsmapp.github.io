@@ -1,0 +1,76 @@
+{
+  "iso2": "ES",
+  "iso3": "ESP",
+  "slug": "spain",
+  "name": {
+    "en": "Spain"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 48600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es",
+    "eu",
+    "ca",
+    "gl",
+    "oc"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "PT",
+    "FR",
+    "AD",
+    "MA",
+    "GI"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Spain's news market is led by national newspapers based in Madrid and Barcelona, a public broadcaster, RTVE, and private television groups Atresmedia and Mediaset España. El País, El Mundo and ABC are the main national dailies, while La Vanguardia leads in Catalonia. Digital-native outlets such as elDiario.es and El Confidencial have become major sources of political and business reporting. The EFE agency, owned by the state, is the largest Spanish-language news agency in the world. Radio is unusually influential, with networks such as Cadena SER and COPE shaping the morning news agenda. Spain also has strong regional media in Catalonia, the Basque Country, Galicia, Valencia and Andalusia, some publishing in co-official languages. Sports dailies focused on football have some of the highest readerships in the country.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Spain?",
+          "a": "The main national outlets in the directory include El País, El Mundo, ABC, La Vanguardia and EFE. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Spanish news sites are free to read?",
+          "a": "Free-to-read outlets include EFE, elDiario.es, RTVE Noticias, Cadena SER and COPE. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Spanish outlets are publicly or state funded?",
+          "a": "Public-service outlets include RTVE Noticias and Agencia SINC. State-controlled outlets include EFE. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Spain?",
+          "a": "Regional coverage in the directory comes from La Vanguardia (Catalonia), El Periódico (Catalonia), El Correo (Basque Country), Levante-EMV (Valencian Community) and Diario de Sevilla (Andalusia). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Spain comes from Madrid and Barcelona dailies, digital newsrooms, the EFE agency and the public broadcaster. Paywall model and owner are listed for each outlet."
+        },
+        "economy": {
+          "intro": "Spanish business news is covered by three business dailies and the economy sections of national outlets, following the IBEX 35, banking and public finance."
+        },
+        "sports": {
+          "intro": "Spain's sports dailies, led by Madrid and Barcelona titles, focus on football and its biggest clubs, with additional coverage of basketball, tennis and motorsport."
+        },
+        "investigative": {
+          "intro": "Investigative and verification work in Spain comes from digital newsrooms, nonprofit fact-checking foundations and a civic organization that analyzes public data."
+        },
+        "regional": {
+          "intro": "Regional newspapers cover Catalonia, the Basque Country, the Valencian Community, Andalusia and Galicia, some of them in co-official languages."
+        },
+        "broadcast": {
+          "intro": "Spanish broadcast news includes the public broadcaster, two private television groups and influential national radio networks that set the morning news agenda."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "iso2": "US",
+  "iso3": "USA",
+  "slug": "united-states",
+  "name": {
+    "en": "United States"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 340100000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CA",
+    "MX",
+    "CU",
+    "BS"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "The United States has one of the largest and most commercially diverse news markets in the world. National newspapers such as The New York Times, The Washington Post and The Wall Street Journal built large digital subscription businesses, while cable networks and public broadcasters compete for audiences on television, radio and podcasts. Nonprofit newsrooms have grown into a significant part of investigative reporting, and dedicated fact-checking organizations track claims made in political campaigns. Local journalism has contracted sharply over the past two decades, with many communities losing their daily newspaper, so large metropolitan dailies and public radio stations carry much of the regional coverage. Press freedom is protected by the First Amendment, and there is no national press regulator. Most major outlets use metered or hard paywalls, but wire services, public media and many nonprofit sites remain free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in the United States?",
+          "a": "The main national outlets in the directory include The New York Times, The Washington Post, Associated Press, The Wall Street Journal and NPR. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which American news sites are free to read?",
+          "a": "Free-to-read outlets include Associated Press, NPR, PBS News, NBC News and Fox News. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which American outlets are publicly or state funded?",
+          "a": "Public-service outlets include PBS News. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in the United States?",
+          "a": "Regional coverage in the directory comes from Los Angeles Times (California), Chicago Tribune (Illinois), The Boston Globe (Massachusetts), Houston Chronicle (Texas) and Miami Herald (Florida). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in the United States is led by a handful of large newspapers with digital subscriptions, the Associated Press wire service and public radio. This page lists the outlets editors rely on for daily coverage of politics, the economy and world events, with their paywall model and ownership shown next to each name."
+        },
+        "economy": {
+          "intro": "Business coverage in the United States ranges from subscription titles focused on markets and corporate news to cable channels with live trading coverage and free personal finance sites. The outlets below are ordered by editorial relevance for following companies, Wall Street and economic policy."
+        },
+        "sports": {
+          "intro": "American sports media combines national networks, subscription beat reporting and free score portals. The outlets listed here cover the NFL, NBA, MLB, NHL and college sports, with notes on which ones require a subscription."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

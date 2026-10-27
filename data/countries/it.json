@@ -1,0 +1,71 @@
+{
+  "iso2": "IT",
+  "iso3": "ITA",
+  "slug": "italy",
+  "name": {
+    "en": "Italy"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 59000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "it"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "FR",
+    "CH",
+    "AT",
+    "SI",
+    "SM",
+    "VA",
+    "MT"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Italy's news market is led by national newspapers based in Milan, Rome and Turin, a public broadcaster, RAI, and the commercial television group Mediaset. Corriere della Sera, la Repubblica and La Stampa are the main national dailies, and ANSA, a cooperative of publishers, is the main news agency. Television remains the most-used source of news, and the governance of RAI is closely tied to the governing parties, a long-standing subject of debate. Digital outlets and fact-checkers have grown, and investigative journalism focuses on organized crime and corruption, with some journalists living under police protection. Italy also has a large sports press led by La Gazzetta dello Sport. Regional newspapers are important in Naples, Bologna, Venice and Sicily. Most newspapers use metered paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Italy?",
+          "a": "The main national outlets in the directory include Corriere della Sera, la Repubblica, La Stampa, ANSA and Il Post. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Italian news sites are free to read?",
+          "a": "Free-to-read outlets include ANSA, Rai News, Sky TG24, TGCom24 and Radio Radicale. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Italian outlets are publicly or state funded?",
+          "a": "Public-service outlets include Rai News. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Italy?",
+          "a": "Regional coverage in the directory comes from La Stampa (Piedmont), Il Messaggero (Lazio), Il Mattino (Campania), Il Resto del Carlino (Emilia-Romagna) and Il Gazzettino (Veneto). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets Italians use to follow national news: national dailies, the ANSA news agency, the public broadcaster and a calm digital explainer. Paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Italian business news is anchored by a business daily owned by the industry federation, with financial newspapers and investor sites covering the Milan stock exchange, banks and public finance."
+        },
+        "sports": {
+          "intro": "Italy has three national sports dailies and broadcasters covering Serie A, cycling, Formula 1 and MotoGP. The outlets below are ordered by editorial relevance."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Italy covers organized crime, corruption and political accountability, through a news magazine, an independent daily, a nonprofit newsroom and fact-checkers."
+        },
+        "regional": {
+          "intro": "Regional newspapers in Italy cover Naples and Campania, Emilia-Romagna, Veneto, Sicily and Piedmont."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

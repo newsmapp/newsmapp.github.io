@@ -1,0 +1,70 @@
+{
+  "iso2": "KR",
+  "iso3": "KOR",
+  "slug": "south-korea",
+  "name": {
+    "en": "South Korea"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 51700000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ko"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "KP",
+    "JP",
+    "CN"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "South Korea has a fast, highly digital news market where most people read news through portals run by Naver and Kakao. Three large dailies, the Chosun Ilbo, JoongAng Ilbo and Dong-A Ilbo, have long dominated print, while the Hankyoreh, founded with citizen shareholders, and the employee-owned Kyunghyang Shinmun offer alternative ownership models. Public broadcasters KBS and MBC sit alongside commercial channels SBS, JTBC and the 24-hour news channel YTN. Yonhap, the national news agency, receives public funding. Investigative reporting is produced by broadcasters, a weekly magazine and Newstapa, a nonprofit newsroom funded by members. Business newspapers are numerous, reflecting the weight of conglomerates in the economy. Regional newspapers serve Busan, Daegu, Gyeonggi and Gangwon.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in South Korea?",
+          "a": "The main national outlets in the directory include Yonhap News Agency, The Chosun Ilbo, JoongAng Ilbo, The Dong-A Ilbo and The Hankyoreh. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which South Korean news sites are free to read?",
+          "a": "Free-to-read outlets include Yonhap News Agency, The Chosun Ilbo, The Dong-A Ilbo, The Hankyoreh and Kyunghyang Shinmun. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which South Korean outlets are publicly or state funded?",
+          "a": "Public-service outlets include Yonhap News Agency, KBS News and MBC News. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in South Korea?",
+          "a": "Regional coverage in the directory comes from Busan Ilbo (Busan), Kookje Shinmun (Busan), Maeil Shinmun (Daegu), Kyeongin Ilbo (Gyeonggi) and Kangwon Ilbo (Gangwon). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in South Korea comes from the Yonhap agency, national dailies with different ownership models and an English-language daily. Paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "South Korean business journalism follows conglomerates, semiconductors, real estate and the stock market through several dedicated business dailies."
+        },
+        "sports": {
+          "intro": "Sports media in South Korea covers KBO baseball, K League football and golf through sports dailies linked to national newspaper groups and fast online outlets."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in South Korea includes two public broadcasters, a commercial terrestrial network, cable news channels and a 24-hour news channel."
+        },
+        "regional": {
+          "intro": "Regional newspapers in South Korea cover Busan, Daegu, Gyeonggi Province and Gangwon Province."
+        },
+        "politics": {
+          "intro": "Political coverage in South Korea follows the presidency, the National Assembly and party politics through national dailies, the national news agency and digital outlets."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

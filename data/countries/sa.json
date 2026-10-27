@@ -1,0 +1,63 @@
+{
+  "iso2": "SA",
+  "iso3": "SAU",
+  "slug": "saudi-arabia",
+  "name": {
+    "en": "Saudi Arabia"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 33900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ar"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "JO",
+    "IQ",
+    "KW",
+    "QA",
+    "BH",
+    "AE",
+    "OM",
+    "YE"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Saudi Arabia's news media operates under close government oversight. The Saudi Press Agency is the official source of royal decrees and government announcements, and the state broadcasting authority runs national television and the Al Ekhbariya news channel. Daily newspapers are published by licensed press establishments, and the Saudi Research and Media Group publishes several titles, including Asharq Al-Awsat and the English-language Arab News. The pan-Arab channel Al Arabiya is part of the Saudi-owned MBC Group. Business coverage has expanded with economic reforms, stock market growth and large public investment projects. Regional newspapers serve the Hejaz and the Eastern Province. International press freedom indexes rank Saudi Arabia among the most restrictive environments for journalism, and independent investigative reporting is very limited.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Saudi Arabia?",
+          "a": "The main national outlets in the directory include Saudi Press Agency, Al Riyadh, Okaz, Al Watan and Al Jazirah. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Saudi news sites are free to read?",
+          "a": "Free-to-read outlets include Saudi Press Agency, Al Riyadh, Okaz, Al Watan and Al Jazirah. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Saudi outlets are publicly or state funded?",
+          "a": "State-controlled outlets include Saudi Press Agency and Al Ekhbariya. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Saudi Arabia?",
+          "a": "Regional coverage in the directory comes from Al Riyadh (Riyadh), Al Madina (Hejaz), Al Yaum (Eastern Province) and Al Bilad (Makkah Province). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Saudi Arabia comes from the official news agency, daily newspapers published by licensed press establishments and English-language titles. Ownership is labeled for each outlet."
+        },
+        "economy": {
+          "intro": "Business journalism in Saudi Arabia follows the Tadawul stock exchange, oil, and economic reform programs through financial portals, a business daily and a business news channel."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

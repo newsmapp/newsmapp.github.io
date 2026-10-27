@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "fr-le-monde",
+    "slug": "le-monde",
+    "name": "Le Monde",
+    "url": "https://www.lemonde.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1944,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Groupe Le Monde",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Paris evening daily of reference, with national politics, world news and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lemonde.fr/",
+      "title": "Le Monde.fr - Actualités et Infos en France et dans le monde"
+    }
+  },
+  {
+    "id": "fr-le-figaro",
+    "slug": "le-figaro",
+    "name": "Le Figaro",
+    "url": "https://www.lefigaro.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1826,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Groupe Dassault",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "France's oldest national daily, with politics, business and a large opinion section."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lefigaro.fr/",
+      "title": "Le Figaro - Actualité en direct et informations en continu"
+    }
+  },
+  {
+    "id": "fr-liberation",
+    "slug": "liberation",
+    "name": "Libération",
+    "url": "https://www.liberation.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1973,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Fonds pour une presse libre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Paris daily known for politics, society and culture coverage and bold front pages."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.liberation.fr/",
+      "title": "liberation.fr"
+    }
+  },
+  {
+    "id": "fr-agence-france-presse",
+    "slug": "agence-france-presse",
+    "name": "Agence France-Presse",
+    "url": "https://www.afp.com/fr",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1835,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "AFP (independent public-law status)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Global news agency headquartered in Paris, publishing in six languages."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.afp.com/fr",
+      "title": "Plateforme de l'info | AFP.com"
+    }
+  },
+  {
+    "id": "fr-franceinfo",
+    "slug": "franceinfo",
+    "name": "franceinfo",
+    "url": "https://www.franceinfo.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "France Télévisions / Radio France",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public service news brand with 24-hour TV, radio and live online coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.franceinfo.fr/",
+      "title": "franceinfo - Actualit&eacute;s en temps r&eacute;el et info en direct"
+    }
+  },
+  {
+    "id": "fr-le-parisien",
+    "slug": "le-parisien",
+    "name": "Le Parisien",
+    "url": "https://www.leparisien.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "regional": 1
+    },
+    "region": "Île-de-France",
+    "founded_year": 1944,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "LVMH",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular daily covering Paris and Île-de-France alongside national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.leparisien.fr/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "fr-ouest-france",
+    "slug": "ouest-france",
+    "name": "Ouest-France",
+    "url": "https://www.ouest-france.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2,
+      "general-news": 7
+    },
+    "region": "Brittany and western France",
+    "founded_year": 1944,
+    "paywall": "metered",
+    "ownership_type": "nonprofit",
+    "owner": "Association pour le soutien des principes de la démocratie humaniste",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "France's highest-circulation daily, with local editions across the west of France."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ouest-france.fr/",
+      "title": "Ouest-France : toute l'actualité en direct, l'info en continu en France, dans les régions et dans le monde"
+    }
+  },
+  {
+    "id": "fr-bfmtv",
+    "slug": "bfmtv",
+    "name": "BFMTV",
+    "url": "https://www.bfmtv.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CMA Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour news channel and site with live breaking news and political interviews."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bfmtv.com/",
+      "title": "Actualités en continu et info en direct et replay - BFM"
+    }
+  },
+  {
+    "id": "fr-france-inter",
+    "slug": "france-inter",
+    "name": "France Inter",
+    "url": "https://www.radiofrance.fr/franceinter",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1947,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Radio France",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public generalist radio with morning news, political interviews and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.radiofrance.fr/franceinter",
+      "title": "France Inter – Première radio d'actualité généraliste et culturelle"
+    }
+  },
+  {
+    "id": "fr-rfi",
+    "slug": "rfi",
+    "name": "RFI",
+    "url": "https://www.rfi.fr/fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "France Médias Monde",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "France's international public radio, strong on Africa and world affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rfi.fr/fr/",
+      "title": "RFI - Actualités, info, news en direct - Radio France Internationale"
+    }
+  },
+  {
+    "id": "fr-public-senat",
+    "slug": "public-senat",
+    "name": "Public Sénat",
+    "url": "https://www.publicsenat.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "French Senate",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Parliamentary channel covering the Senate, legislation and political debate."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.publicsenat.fr/",
+      "title": "Public Sénat - la chaîne politique et parlementaire"
+    }
+  },
+  {
+    "id": "fr-contexte",
+    "slug": "contexte",
+    "name": "Contexte",
+    "url": "https://www.contexte.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Contexte",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription newsroom covering French and EU public policy as it is made."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.contexte.com/eu/",
+      "title": "European Political News and Policy Insights | Contexte"
+    }
+  },
+  {
+    "id": "fr-l-opinion",
+    "slug": "l-opinion",
+    "name": "L'Opinion",
+    "url": "https://www.lopinion.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics",
+      "economy"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7,
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Bey Medias",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Paris daily on politics, the economy and Europe with a liberal editorial line."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lopinion.fr/",
+      "title": "Actualité économique, politique et internationale - l'Opinion"
+    }
+  },
+  {
+    "id": "fr-les-echos",
+    "slug": "les-echos",
+    "name": "Les Echos",
+    "url": "https://www.lesechos.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1908,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "LVMH",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "France's leading business daily, covering companies, markets and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.lesechos.fr/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "fr-la-tribune",
+    "slug": "la-tribune",
+    "name": "La Tribune",
+    "url": "https://www.latribune.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "CMA Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site covering companies, regions, energy and industry."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.latribune.fr/",
+      "title": "La Tribune - Actualité Économique et Financière"
+    }
+  },
+  {
+    "id": "fr-challenges",
+    "slug": "challenges",
+    "name": "Challenges",
+    "url": "https://www.challenges.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 1982,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "LVMH",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly business magazine covering companies, wealth and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.challenges.fr/",
+      "title": "Challenges, l’actualité de l’économie"
+    }
+  },
+  {
+    "id": "fr-capital",
+    "slug": "capital",
+    "name": "Capital",
+    "url": "https://www.capital.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 6
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Prisma Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and personal finance magazine covering consumers, careers and investing."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.capital.fr/",
+      "title": "Capital : Actualités Économie, Business, Immobilier & Argent"
+    }
+  },
+  {
+    "id": "fr-mediapart",
+    "slug": "mediapart",
+    "name": "Mediapart",
+    "url": "https://www.mediapart.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Fonds pour une presse libre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Reader-funded investigative site known for political and financial investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mediapart.fr/",
+      "title": "Mediapart - Actualité, enquêtes et dossiers d’investigation en toute indépendance !"
+    }
+  },
+  {
+    "id": "fr-disclose",
+    "slug": "disclose",
+    "name": "Disclose",
+    "url": "https://disclose.ngo/fr",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Disclose",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit investigative outlet on arms, environment and abuses of power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://disclose.ngo/fr",
+      "title": "Disclose.ngo — journalisme d’investigation"
+    }
+  },
+  {
+    "id": "fr-afp-factuel",
+    "slug": "afp-factuel",
+    "name": "AFP Factuel",
+    "url": "https://factuel.afp.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Agence France-Presse",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "AFP's French-language fact-checking service tracking viral claims and misinformation."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://factuel.afp.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "fr-les-decodeurs",
+    "slug": "les-decodeurs",
+    "name": "Les Décodeurs",
+    "url": "https://www.lemonde.fr/les-decodeurs/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Groupe Le Monde",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Le Monde's data and fact-checking desk, verifying claims and explaining the news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lemonde.fr/les-decodeurs/",
+      "title": "Client Challenge"
+    }
+  },
+  {
+    "id": "fr-l-equipe",
+    "slug": "l-equipe",
+    "name": "L'Équipe",
+    "url": "https://www.lequipe.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Groupe Amaury",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "France's sports daily, with football, cycling, rugby and live results."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.lequipe.fr/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "fr-rmc-sport",
+    "slug": "rmc-sport",
+    "name": "RMC Sport",
+    "url": "https://rmcsport.bfmtv.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CMA Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports radio, TV and site with football talk shows and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://rmcsport.bfmtv.com/",
+      "title": "RMC Sport : l'actu du sport en direct et en continu"
+    }
+  },
+  {
+    "id": "fr-so-foot",
+    "slug": "so-foot",
+    "name": "So Foot",
+    "url": "https://www.sofoot.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "So Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football magazine known for long-form stories, culture and a distinctive tone."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.sofoot.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "fr-rugbyrama",
+    "slug": "rugbyrama",
+    "name": "Rugbyrama",
+    "url": "https://www.rugbyrama.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Midi Olympique",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Rugby news site with Top 14, international and grassroots rugby coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rugbyrama.fr/",
+      "title": "Rugbyrama : toute l'actualité rugby en direct, résultats, classements, analyses, interviews exclusives et vidéos - rugbyrama.fr"
+    }
+  },
+  {
+    "id": "fr-numerama",
+    "slug": "numerama",
+    "name": "Numerama",
+    "url": "https://www.numerama.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Humanoid",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology and science site covering digital life, space, mobility and the web."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.numerama.com/",
+      "title": "Numerama, le média de référence sur la société numérique et l'innovation technologique"
+    }
+  },
+  {
+    "id": "fr-01net",
+    "slug": "01net",
+    "name": "01net",
+    "url": "https://www.01net.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Keleops",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Consumer technology site with news, product tests and buying guides."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.01net.com/",
+      "title": "01net - Actualité tech, tests produits, astuces & téléchargements"
+    }
+  },
+  {
+    "id": "fr-sciences-et-avenir",
+    "slug": "sciences-et-avenir",
+    "name": "Sciences et Avenir",
+    "url": "https://www.sciencesetavenir.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1947,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Groupe Perdriel",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Science magazine covering health, nature, archaeology and space."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sciencesetavenir.fr/",
+      "title": "Sciences et Avenir, l’actualité des sciences"
+    }
+  },
+  {
+    "id": "fr-le-progres",
+    "slug": "le-progres",
+    "name": "Le Progrès",
+    "url": "https://www.leprogres.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "founded_year": 1859,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "EBRA (Crédit Mutuel)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lyon daily covering the Rhône, Loire and Ain departments with local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.leprogres.fr/",
+      "title": "Le Progrès : info et actu nationale et régionale - Rhône, Loire, Ain, Haute-Loire et Jura"
+    }
+  },
+  {
+    "id": "fr-la-voix-du-nord",
+    "slug": "la-voix-du-nord",
+    "name": "La Voix du Nord",
+    "url": "https://www.lavoixdunord.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Hauts-de-France",
+    "founded_year": 1941,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Rossel",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lille daily covering northern France with dozens of local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lavoixdunord.fr/",
+      "title": "La Voix du Nord"
+    }
+  },
+  {
+    "id": "fr-sud-ouest",
+    "slug": "sud-ouest",
+    "name": "Sud Ouest",
+    "url": "https://www.sudouest.fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Nouvelle-Aquitaine",
+    "founded_year": 1944,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Groupe Sud Ouest",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bordeaux daily covering Nouvelle-Aquitaine and the southwest of France with local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sudouest.fr/",
+      "title": "Sud Ouest : actualités du jour et info locale en continu"
+    }
+  },
+  {
+    "id": "fr-la-provence",
+    "slug": "la-provence",
+    "name": "La Provence",
+    "url": "https://www.laprovence.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Provence-Alpes-Côte d'Azur",
+    "founded_year": 1997,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "CMA Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Marseille daily covering Provence and the Mediterranean coast."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.laprovence.com/",
+      "title": "La Provence : actualité en direct en France, par région et à l'international"
+    }
+  }
+]

@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "cn-xinhua",
+    "slug": "xinhua",
+    "name": "Xinhua",
+    "url": "https://www.news.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1931,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "State Council of China",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "China's state news agency and the official source of government announcements."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Xinhua_News_Agency"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.news.cn/",
+      "title": "新华网_让新闻离你更近"
+    }
+  },
+  {
+    "id": "cn-people-s-daily",
+    "slug": "people-s-daily",
+    "name": "People's Daily",
+    "url": "https://www.people.com.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 2,
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1948,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Central Committee of the Chinese Communist Party",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Official newspaper of the Chinese Communist Party's Central Committee."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/People%27s_Daily"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.people.com.cn/",
+      "title": "人民网_网上的人民日报"
+    }
+  },
+  {
+    "id": "cn-china-daily",
+    "slug": "china-daily",
+    "name": "China Daily",
+    "url": "https://www.chinadaily.com.cn/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1981,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Central Propaganda Department",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language state daily presenting Chinese news for international readers."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/China_Daily"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.chinadaily.com.cn/",
+      "title": "China Daily Website - Connecting China Connecting the World"
+    }
+  },
+  {
+    "id": "cn-global-times",
+    "slug": "global-times",
+    "name": "Global Times",
+    "url": "https://www.globaltimes.cn/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "People's Daily",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State tabloid published by People's Daily, focused on international affairs and commentary."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Global_Times"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.globaltimes.cn/",
+      "title": "Global Times"
+    }
+  },
+  {
+    "id": "cn-china-news-service",
+    "slug": "china-news-service",
+    "name": "China News Service",
+    "url": "https://www.chinanews.com.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1952,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "United Front Work Department",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State news agency serving overseas Chinese and Hong Kong and Macau audiences."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/China_News_Service"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.chinanews.com.cn/",
+      "title": "中国新闻网_梳理天下新闻"
+    }
+  },
+  {
+    "id": "cn-the-paper",
+    "slug": "the-paper",
+    "name": "The Paper",
+    "url": "https://www.thepaper.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "general-news",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Shanghai United Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Shanghai digital outlet known for current affairs and data-driven reporting."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/The_Paper"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.thepaper.cn/",
+      "title": "403 Forbidden"
+    }
+  },
+  {
+    "id": "cn-sixth-tone",
+    "slug": "sixth-tone",
+    "name": "Sixth Tone",
+    "url": "https://www.sixthtone.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Shanghai United Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language site on Chinese society and everyday life, from The Paper's publisher."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Sixth_Tone"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sixthtone.com/",
+      "title": "Fresh voices from today's China | Sixth Tone"
+    }
+  },
+  {
+    "id": "cn-qiushi",
+    "slug": "qiushi",
+    "name": "Qiushi",
+    "url": "https://www.qstheory.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Central Committee of the Chinese Communist Party",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Party theory journal publishing speeches and policy thinking of the leadership."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Qiushi"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.qstheory.cn/",
+      "title": "求是网 - 思想建党 理论强党"
+    }
+  },
+  {
+    "id": "cn-cctv-news",
+    "slug": "cctv-news",
+    "name": "CCTV News",
+    "url": "https://news.cctv.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1958,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "China Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State broadcaster's news, home of the nightly Xinwen Lianbo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/China_Central_Television"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://news.cctv.com/",
+      "title": "新闻频道_央视网(cctv.com)"
+    }
+  },
+  {
+    "id": "cn-cgtn",
+    "slug": "cgtn",
+    "name": "CGTN",
+    "url": "https://www.cgtn.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "China Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State broadcaster's international channel in English and other languages."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/CGTN"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cgtn.com/",
+      "title": "CGTN | Breaking News, China News, World News and Video"
+    }
+  },
+  {
+    "id": "cn-china-national-radio",
+    "slug": "china-national-radio",
+    "name": "China National Radio",
+    "url": "https://www.cnr.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1940,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "China Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National state radio with news channels and regional services."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/China_National_Radio"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnr.cn/",
+      "title": "央广网·中央广播电视总台"
+    }
+  },
+  {
+    "id": "cn-caixin",
+    "slug": "caixin",
+    "name": "Caixin",
+    "url": "https://www.caixin.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "economy",
+      "investigative"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Caixin Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business and finance publication known for investigative economic reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.caixin.com/",
+      "title": "财新网"
+    }
+  },
+  {
+    "id": "cn-yicai",
+    "slug": "yicai",
+    "name": "Yicai",
+    "url": "https://www.yicai.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Shanghai Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial media brand with markets, companies and economic policy coverage."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_Media_Group"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yicai.com/",
+      "title": "第一财经_专业创造价值"
+    }
+  },
+  {
+    "id": "cn-21st-century-business-herald",
+    "slug": "21st-century-business-herald",
+    "name": "21st Century Business Herald",
+    "url": "https://www.21jingji.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Southern Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business newspaper from Guangzhou covering companies, finance and policy."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/21st_Century_Business_Herald"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.21jingji.com/",
+      "title": "21经济网 - 21世纪经济报道官方网站"
+    }
+  },
+  {
+    "id": "cn-jiemian",
+    "slug": "jiemian",
+    "name": "Jiemian",
+    "url": "https://www.jiemian.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Shanghai United Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site covering companies, consumer trends and markets."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_United_Media_Group"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "cn-southern-weekly",
+    "slug": "southern-weekly",
+    "name": "Southern Weekly",
+    "url": "https://www.infzm.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 1984,
+    "paywall": "freemium",
+    "ownership_type": "state-controlled",
+    "owner": "Southern Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Guangzhou weekly historically known for in-depth and investigative reporting."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Southern_Weekly"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.infzm.com/",
+      "title": "南方周末"
+    }
+  },
+  {
+    "id": "cn-sina-sports",
+    "slug": "sina-sports",
+    "name": "Sina Sports",
+    "url": "https://sports.sina.com.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sina Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports channel of Sina with football, basketball and Olympic coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sports.sina.com.cn/",
+      "title": "新浪体育_新浪网"
+    }
+  },
+  {
+    "id": "cn-tencent-sports",
+    "slug": "tencent-sports",
+    "name": "Tencent Sports",
+    "url": "https://sports.qq.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Tencent",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports portal of Tencent with NBA, Chinese Super League and live streams."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sports.qq.com/",
+      "title": "腾讯体育 - 看NBA足球网球赛车NFL"
+    }
+  },
+  {
+    "id": "cn-cctv-sports",
+    "slug": "cctv-sports",
+    "name": "CCTV Sports",
+    "url": "https://sports.cctv.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "China Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State sports channel CCTV-5 and its site, with Olympic and football coverage."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/CCTV-5"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sports.cctv.com/",
+      "title": "体育_央视网(cctv.com)"
+    }
+  },
+  {
+    "id": "cn-hupu",
+    "slug": "hupu",
+    "name": "Hupu",
+    "url": "https://www.hupu.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Hupu",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports community and news site, popular for basketball and football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hupu.com/",
+      "title": "虎扑体育-虎扑网"
+    }
+  },
+  {
+    "id": "cn-36kr",
+    "slug": "36kr",
+    "name": "36Kr",
+    "url": "https://36kr.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "tech-science",
+      "economy"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1,
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "36Kr Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Startup and technology news site covering Chinese venture capital and companies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://36kr.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "cn-huxiu",
+    "slug": "huxiu",
+    "name": "Huxiu",
+    "url": "https://www.huxiu.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Huxiu",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology and business commentary site with long-form industry analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.huxiu.com/",
+      "title": "虎嗅网"
+    }
+  },
+  {
+    "id": "cn-science-and-technology-daily",
+    "slug": "science-and-technology-daily",
+    "name": "Science and Technology Daily",
+    "url": "https://www.stdaily.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ministry of Science and Technology",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National science newspaper under the Ministry of Science and Technology."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Science_and_Technology_Daily"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.stdaily.com/",
+      "title": "中国科技网"
+    }
+  },
+  {
+    "id": "cn-guokr",
+    "slug": "guokr",
+    "name": "Guokr",
+    "url": "https://www.guokr.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Guokr",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular science community explaining research and debunking myths."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.guokr.com/",
+      "title": "果壳 科技有意思"
+    }
+  },
+  {
+    "id": "cn-the-beijing-news",
+    "slug": "the-beijing-news",
+    "name": "The Beijing News",
+    "url": "https://www.bjnews.com.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Beijing",
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Beijing municipal party committee",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Beijing daily covering the capital, society and national news."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/The_Beijing_News"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "cn-xinmin-evening-news",
+    "slug": "xinmin-evening-news",
+    "name": "Xinmin Evening News",
+    "url": "https://www.xinmin.cn/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Shanghai",
+    "founded_year": 1929,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Shanghai United Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Shanghai evening paper covering city life, culture and local affairs."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Xinmin_Evening_News"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.xinmin.cn/",
+      "title": "新民网 - 为民分忧 与民同乐"
+    }
+  },
+  {
+    "id": "cn-southern-metropolis-daily",
+    "slug": "southern-metropolis-daily",
+    "name": "Southern Metropolis Daily",
+    "url": "https://www.oeeee.com/",
+    "rss_url": null,
+    "language": "zh",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Guangdong",
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Southern Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Guangzhou daily covering Guangdong and the Pearl River Delta."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Southern_Metropolis_Daily"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  }
+]

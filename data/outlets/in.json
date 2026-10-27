@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "in-the-hindu",
+    "slug": "the-hindu",
+    "name": "The Hindu",
+    "url": "https://www.thehindu.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1878,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "The Hindu Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Chennai-founded national daily known for sober political and policy coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thehindu.com/",
+      "title": "The Hindu: Latest News today from India and the World, Breaking news, Top Headlines and Trending News Videos. | The Hindu"
+    }
+  },
+  {
+    "id": "in-the-indian-express",
+    "slug": "the-indian-express",
+    "name": "The Indian Express",
+    "url": "https://indianexpress.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1932,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "The Indian Express Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily known for investigative reporting and explainers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://indianexpress.com/",
+      "title": "Latest News Today, Breaking News, India News, Top Headlines | The Indian Express"
+    }
+  },
+  {
+    "id": "in-the-times-of-india",
+    "slug": "the-times-of-india",
+    "name": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1838,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "The Times Group (Bennett Coleman & Co.)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Largest English-language daily in India, with city editions across the country."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://timesofindia.indiatimes.com/",
+      "title": "TOI - Breaking News, Latest News, India News, World News, Bollywood, Sports, Business and Political News | The Times of India"
+    }
+  },
+  {
+    "id": "in-hindustan-times",
+    "slug": "hindustan-times",
+    "name": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1924,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "HT Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Delhi-based national daily with politics, cities and world news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hindustantimes.com/",
+      "title": "Hindustan Times: Breaking News, Latest News, India News, World News & Cricket Today's Headlines | Hindustan Times"
+    }
+  },
+  {
+    "id": "in-press-trust-of-india",
+    "slug": "press-trust-of-india",
+    "name": "Press Trust of India",
+    "url": "https://www.ptinews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1947,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "PTI (nonprofit cooperative of newspapers)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "India's largest news agency, a nonprofit cooperative of Indian newspapers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ptinews.com/",
+      "title": "Press Trust Of India"
+    }
+  },
+  {
+    "id": "in-dainik-bhaskar",
+    "slug": "dainik-bhaskar",
+    "name": "Dainik Bhaskar",
+    "url": "https://www.bhaskar.com/",
+    "rss_url": null,
+    "language": "hi",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "regional": 1
+    },
+    "region": "Hindi belt",
+    "founded_year": 1958,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DB Corp",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Hindi daily with dozens of regional editions across north and central India."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bhaskar.com/",
+      "title": "Hindi News; Latest Hindi News, Breaking Hindi News Live, Hindi Samachar (हिंदी समाचार), Hindi News Paper Today - Dainik Bhaskar"
+    }
+  },
+  {
+    "id": "in-dainik-jagran",
+    "slug": "dainik-jagran",
+    "name": "Dainik Jagran",
+    "url": "https://www.jagran.com/",
+    "rss_url": null,
+    "language": "hi",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1942,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jagran Prakashan",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Hindi national daily with one of India's largest readerships."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.jagran.com/",
+      "title": "Hindi News, हिंदी न्यूज़, Latest News in Hindi, Aaj ki Taaja Khabar, Breaking Hindi News, Hindi Samachar"
+    }
+  },
+  {
+    "id": "in-theprint",
+    "slug": "theprint",
+    "name": "ThePrint",
+    "url": "https://theprint.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Printline Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Digital newsroom covering politics, governance and the bureaucracy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://theprint.in/",
+      "title": "Just a moment…"
+    }
+  },
+  {
+    "id": "in-the-wire",
+    "slug": "the-wire",
+    "name": "The Wire",
+    "url": "https://thewire.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Foundation for Independent Journalism",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit digital outlet covering politics, rights and the media."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thewire.in/",
+      "title": "The Wire: The Wire News India, Latest News,News from India, Politics, External Affairs, Science, Economics, Gender and Culture"
+    }
+  },
+  {
+    "id": "in-scroll-in",
+    "slug": "scroll-in",
+    "name": "Scroll.in",
+    "url": "https://scroll.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Scroll Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with reporting, long-form features and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://scroll.in/",
+      "title": "Scroll.in - Latest News, In depth news, India news, Politics news, Indian Cinema, Indian sports, Culture, Video News"
+    }
+  },
+  {
+    "id": "in-ndtv",
+    "slug": "ndtv",
+    "name": "NDTV",
+    "url": "https://www.ndtv.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "AMG Media Networks (Adani Group)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English news broadcaster with national, world and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ndtv.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-aaj-tak",
+    "slug": "aaj-tak",
+    "name": "Aaj Tak",
+    "url": "https://www.aajtak.in/",
+    "rss_url": null,
+    "language": "hi",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "India Today Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Most-watched Hindi news channel with live bulletins and breaking news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aajtak.in/",
+      "title": "Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest News in Hindi, Breaking News in Hindi, ताजा ख़बरें, Aaj Tak News"
+    }
+  },
+  {
+    "id": "in-dd-news",
+    "slug": "dd-news",
+    "name": "DD News",
+    "url": "https://ddnews.gov.in/",
+    "rss_url": null,
+    "language": "hi",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Prasar Bharati",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public broadcaster's 24-hour news channel, part of Prasar Bharati."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "in-india-today",
+    "slug": "india-today",
+    "name": "India Today",
+    "url": "https://www.indiatoday.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 10,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "India Today Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News magazine and TV channel with politics, current affairs and data stories."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.indiatoday.in/",
+      "title": "Latest News, Breaking News Today - Entertainment, Cricket, Business, Politics - India Today"
+    }
+  },
+  {
+    "id": "in-the-economic-times",
+    "slug": "the-economic-times",
+    "name": "The Economic Times",
+    "url": "https://economictimes.indiatimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "The Times Group (Bennett Coleman & Co.)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "India's largest business daily, covering markets, companies and policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://economictimes.indiatimes.com/",
+      "title": "Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times"
+    }
+  },
+  {
+    "id": "in-mint",
+    "slug": "mint",
+    "name": "Mint",
+    "url": "https://www.livemint.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "HT Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with markets, personal finance and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.livemint.com/",
+      "title": "Business News Today: Read Latest Business News, Live India Share Market News, Finance & Economy News | Mint"
+    }
+  },
+  {
+    "id": "in-business-standard",
+    "slug": "business-standard",
+    "name": "Business Standard",
+    "url": "https://www.business-standard.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Business Standard Private Ltd",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily known for economic policy and corporate reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.business-standard.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-moneycontrol",
+    "slug": "moneycontrol",
+    "name": "Moneycontrol",
+    "url": "https://www.moneycontrol.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Network18 (Reliance)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Markets portal with stock data, investing news and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.moneycontrol.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-alt-news",
+    "slug": "alt-news",
+    "name": "Alt News",
+    "url": "https://www.altnews.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Pravda Media Foundation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit fact-checking site debunking misinformation in Indian media."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.altnews.in/",
+      "title": "Alt News – Alternative News and Views in the Post-Truth World"
+    }
+  },
+  {
+    "id": "in-boom",
+    "slug": "boom",
+    "name": "BOOM",
+    "url": "https://www.boomlive.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ebiz Online",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking newsroom verifying viral claims in English, Hindi and Bangla."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.boomlive.in/",
+      "title": "BOOM Fact Check: Debunking Misinformation and Fake news"
+    }
+  },
+  {
+    "id": "in-the-caravan",
+    "slug": "the-caravan",
+    "name": "The Caravan",
+    "url": "https://caravanmagazine.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5,
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 1940,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Delhi Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Monthly magazine of long-form narrative and investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://caravanmagazine.in/",
+      "title": "The Caravan"
+    }
+  },
+  {
+    "id": "in-the-reporters-collective",
+    "slug": "the-reporters-collective",
+    "name": "The Reporters' Collective",
+    "url": "https://www.reporters-collective.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 6
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "The Reporters' Collective",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Collective of journalists publishing investigations on governance and power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.reporters-collective.in/",
+      "title": "The Reporters' Collective | Home"
+    }
+  },
+  {
+    "id": "in-espncricinfo",
+    "slug": "espncricinfo",
+    "name": "ESPNcricinfo",
+    "url": "https://www.espncricinfo.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Walt Disney Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "The world's leading cricket site with live scores, stats and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.espncricinfo.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-sportstar",
+    "slug": "sportstar",
+    "name": "Sportstar",
+    "url": "https://sportstar.thehindu.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Hindu Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports magazine with cricket, football, tennis and Olympic coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sportstar.thehindu.com/",
+      "title": "Sports News Today, Latest Updates & Headlines | Sportstar"
+    }
+  },
+  {
+    "id": "in-cricbuzz",
+    "slug": "cricbuzz",
+    "name": "Cricbuzz",
+    "url": "https://www.cricbuzz.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Times Internet",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cricket scores, ball-by-ball commentary and news, one of India's most-used cricket apps."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.cricbuzz.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-gadgets-360",
+    "slug": "gadgets-360",
+    "name": "Gadgets 360",
+    "url": "https://www.gadgets360.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Gadgets 360",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Consumer technology news, smartphone reviews and price guides for the Indian market."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.gadgets360.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-down-to-earth",
+    "slug": "down-to-earth",
+    "name": "Down To Earth",
+    "url": "https://www.downtoearth.org.in/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science",
+      "investigative"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2,
+      "investigative": 7
+    },
+    "region": null,
+    "founded_year": 1992,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Centre for Science and Environment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Science and environment magazine from the Centre for Science and Environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.downtoearth.org.in/",
+      "title": "Down To Earth | Latest news, opinion, analysis on environment & science issues | India, South Asia"
+    }
+  },
+  {
+    "id": "in-the-ken",
+    "slug": "the-ken",
+    "name": "The Ken",
+    "url": "https://the-ken.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science",
+      "economy"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3,
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The Ken",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription publication with one deep story a day on business and technology."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://the-ken.com/",
+      "title": "The Ken - Business, Startups, Technology and Healthcare news from India"
+    }
+  },
+  {
+    "id": "in-malayala-manorama",
+    "slug": "malayala-manorama",
+    "name": "Malayala Manorama",
+    "url": "https://www.manoramaonline.com/",
+    "rss_url": null,
+    "language": "ml",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Kerala",
+    "founded_year": 1888,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "MM Publications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malayalam daily and the most-read newspaper in Kerala, with editions across the state."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.manoramaonline.com/",
+      "title": "Manorama Online: Malayalam Breaking News | Kerala Local News | Politics | Videos | Podcasts | Business | Sports | Movie | Lifestyle | Malayala Manorama News Paper"
+    }
+  },
+  {
+    "id": "in-anandabazar-patrika",
+    "slug": "anandabazar-patrika",
+    "name": "Anandabazar Patrika",
+    "url": "https://www.anandabazar.com/",
+    "rss_url": null,
+    "language": "bn",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "West Bengal",
+    "founded_year": 1922,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ABP Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kolkata-based Bengali daily with the largest readership in West Bengal."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.anandabazar.com/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "in-eenadu",
+    "slug": "eenadu",
+    "name": "Eenadu",
+    "url": "https://www.eenadu.net/",
+    "rss_url": null,
+    "language": "te",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Andhra Pradesh and Telangana",
+    "founded_year": 1974,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ramoji Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Telugu daily covering Andhra Pradesh and Telangana, with district editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eenadu.net/",
+      "title": "Latest Telugu News | Breaking News Telugu | Telugu News Today | News in Telugu - Eenadu"
+    }
+  },
+  {
+    "id": "in-daily-thanthi",
+    "slug": "daily-thanthi",
+    "name": "Daily Thanthi",
+    "url": "https://www.dailythanthi.com/",
+    "rss_url": null,
+    "language": "ta",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Tamil Nadu",
+    "founded_year": 1942,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Thanthi Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tamil daily with the largest circulation in Tamil Nadu and editions across the state."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dailythanthi.com/",
+      "title": "Tamil News | தமிழ் செய்திகள் | Latest Tamil News Live| Today Breaking News & Headlines"
+    }
+  },
+  {
+    "id": "in-lokmat",
+    "slug": "lokmat",
+    "name": "Lokmat",
+    "url": "https://www.lokmat.com/",
+    "rss_url": null,
+    "language": "mr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Maharashtra",
+    "founded_year": 1971,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Lokmat Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Marathi daily with editions across Maharashtra, covering state politics and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lokmat.com/",
+      "title": "Marathi News | Live Marathi News | Latest News in Marathi | लोकमत मराठी बातम्या | Marathi News Paper | Breaking News in Marathi | Live Maharashtra, Mumbai & Pune Marathi News | मराठी बातम्या लाइव | आज"
+    }
+  }
+]

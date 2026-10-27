@@ -1,0 +1,68 @@
+{
+  "iso2": "MX",
+  "iso3": "MEX",
+  "slug": "mexico",
+  "name": {
+    "en": "Mexico"
+  },
+  "continent": "north-america",
+  "also_in": [],
+  "population": {
+    "value": 130900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "es"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "US",
+    "GT",
+    "BZ",
+    "CU"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Mexico has a large and competitive news market centered in Mexico City, with national dailies such as El Universal, Reforma, Milenio and La Jornada, and television news dominated by TelevisaUnivision and TV Azteca. Digital-native outlets and investigative organizations have grown in importance, producing reporting on corruption, public spending and organized crime. Journalism in Mexico carries serious physical risk: press freedom organizations consistently rank it among the most dangerous countries for reporters outside of war zones, particularly for local journalists. Government advertising has historically been a major source of revenue for many outlets, which affects editorial independence. Regional newspapers remain important in large states such as Nuevo León, Jalisco and Baja California. Most sites are free to read, with Reforma and its sister titles as notable exceptions behind a hard paywall.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Mexico?",
+          "a": "The main national outlets in the directory include El Universal, Milenio, Reforma, La Jornada and Excélsior. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Mexican news sites are free to read?",
+          "a": "Free-to-read outlets include El Universal, Milenio, El Financiero, La Jornada and Excélsior. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Mexican outlets are publicly or state funded?",
+          "a": "None of the outlets listed for Mexico is publicly or state funded. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Mexico?",
+          "a": "Regional coverage in the directory comes from El Norte (Nuevo León), El Informador (Jalisco), Diario de Yucatán (Yucatán) and Zeta Tijuana (Baja California). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Mexico's main national news outlets are based in Mexico City and combine print, web and in some cases television. The list below shows the dailies and news brands most used to follow national politics, security and the economy."
+        },
+        "economy": {
+          "intro": "Business and financial news in Mexico is covered by dedicated financial dailies and business magazines, with attention to trade with the United States, public finance and the peso. These are the main outlets for markets and companies."
+        },
+        "sports": {
+          "intro": "Mexican sports media is driven by football, from Liga MX to the national team, with additional coverage of boxing and baseball. The outlets below include sports dailies, a television network and online portals."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Mexico is carried out by news magazines, digital newsrooms and civil-society organizations that document corruption, violence and public spending, often at personal risk to reporters. These are the outlets known for that work."
+        },
+        "regional": {
+          "intro": "Beyond Mexico City, strong regional newspapers cover their states in depth. The outlets below serve Nuevo León, Jalisco, Yucatán and Baja California."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

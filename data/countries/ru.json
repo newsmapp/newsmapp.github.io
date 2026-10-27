@@ -1,0 +1,80 @@
+{
+  "iso2": "RU",
+  "iso3": "RUS",
+  "slug": "russia",
+  "name": {
+    "en": "Russia"
+  },
+  "continent": "europe",
+  "also_in": [
+    "asia"
+  ],
+  "population": {
+    "value": 143500000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ru"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "UA",
+    "BY",
+    "KZ",
+    "FI",
+    "EE",
+    "LV",
+    "LT",
+    "PL",
+    "GE",
+    "AZ",
+    "MN",
+    "CN",
+    "KP",
+    "JP"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Russia's domestic news market is dominated by state-controlled media. Federal television channels, the TASS and RIA Novosti news agencies and the official government newspaper reach the widest audiences, while large private outlets operate under significant legal and political constraints. Since 2022, laws on military information and the designation of outlets as foreign agents or undesirable organizations have led many independent newsrooms to close or relocate abroad, where they continue to publish in Russian, including Meduza, Novaya Gazeta Europe and several investigative projects. Access to many foreign and independent sites is blocked inside Russia. Business newspapers and agencies continue to report on markets and companies. International press freedom indexes rank Russia among the most restrictive environments for journalism. This page lists both domestic and exile outlets, with ownership clearly labeled.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Russia?",
+          "a": "The main national outlets in the directory include TASS, RIA Novosti, Interfax, Kommersant and RBC. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Russian news sites are free to read?",
+          "a": "Free-to-read outlets include TASS, RIA Novosti, Interfax, Forbes Russia and Izvestia. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Russian outlets are publicly or state funded?",
+          "a": "State-controlled outlets include TASS, RIA Novosti, Rossiyskaya Gazeta and Channel One. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Russia?",
+          "a": "Regional coverage in the directory comes from Fontanka (Saint Petersburg), Ura.ru (Ural region), NGS (Novosibirsk) and Business Online (Tatarstan). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "This list includes Russia's main domestic news agencies and newspapers, most of which are state-controlled or operate under strict legal limits, alongside independent Russian-language outlets that now publish from abroad. Ownership is labeled for every outlet."
+        },
+        "economy": {
+          "intro": "Russian business journalism is carried by private business newspapers, a news agency and business media groups covering markets, energy and sanctions."
+        },
+        "sports": {
+          "intro": "Russian sports media covers football, hockey and winter sports through sports dailies, online portals and a federal sports channel."
+        },
+        "investigative": {
+          "intro": "Most independent investigative journalism in Russian is now produced by newsrooms based outside Russia. These outlets focus on corruption, the security services and the war."
+        },
+        "regional": {
+          "intro": "Regional news sites cover Saint Petersburg, the Urals, Siberia and Tatarstan."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

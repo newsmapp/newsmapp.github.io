@@ -1,0 +1,70 @@
+{
+  "iso2": "DE",
+  "iso3": "DEU",
+  "slug": "germany",
+  "name": {
+    "en": "Germany"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 83500000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "de"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "FR",
+    "NL",
+    "BE",
+    "LU",
+    "CH",
+    "AT",
+    "CZ",
+    "PL",
+    "DK"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Germany has a dense news landscape built on a strong public broadcasting system and a large regional press. ARD, ZDF and Deutschlandradio are funded by a household licence fee and provide national news programs such as the Tagesschau. National quality newspapers include the Süddeutsche Zeitung, the Frankfurter Allgemeine Zeitung, Die Zeit and Die Welt, and the weekly Der Spiegel is known for investigative journalism. Germany also has one of the largest regional newspaper markets in Europe, although ownership has consolidated into a few publishing groups. Nonprofit newsrooms and digital-rights publications add investigative and policy reporting. Most publishers use freemium models, keeping part of their journalism free and placing in-depth articles behind a subscription. Press councils handle self-regulation through the German Press Code.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Germany?",
+          "a": "The main national outlets in the directory include Tagesschau, Der Spiegel, Süddeutsche Zeitung, Frankfurter Allgemeine Zeitung and Die Zeit. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which German news sites are free to read?",
+          "a": "Free-to-read outlets include Tagesschau, ZDFheute, Deutschlandfunk, Deutsche Welle and taz. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which German outlets are publicly or state funded?",
+          "a": "Public-service outlets include Tagesschau, ZDFheute, Deutschlandfunk and Deutsche Welle. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Germany?",
+          "a": "Regional coverage in the directory comes from Der Tagesspiegel (Berlin), Hamburger Abendblatt (Hamburg), Kölner Stadt-Anzeiger (North Rhine-Westphalia), Stuttgarter Zeitung (Baden-Württemberg) and Leipziger Volkszeitung (Saxony). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Germany comes from public broadcasters and a group of quality newspapers and magazines based in Hamburg, Munich, Frankfurt and Berlin. Each outlet below shows its paywall model and owner."
+        },
+        "economy": {
+          "intro": "German business journalism follows the country's industrial base, its exporters and the euro area economy. The outlets below include a leading business daily, weekly business magazines and personal finance titles."
+        },
+        "sports": {
+          "intro": "Football and the Bundesliga dominate German sports media, alongside motorsport, winter sports and Olympic disciplines. These outlets range from a long-running football magazine to public and private broadcasters."
+        },
+        "regional": {
+          "intro": "Germany's regional newspapers are central to local news. The titles below cover Berlin, Hamburg, Cologne, Stuttgart and Leipzig and their surrounding regions."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

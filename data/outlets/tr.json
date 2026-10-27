@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "tr-anadolu-agency",
+    "slug": "anadolu-agency",
+    "name": "Anadolu Agency",
+    "url": "https://www.aa.com.tr/tr",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Government of Türkiye",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State news agency publishing in more than ten languages, with national and world wires."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Anadolu_Agency"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aa.com.tr/tr",
+      "title": "Anadolu Ajansı"
+    }
+  },
+  {
+    "id": "tr-hurriyet",
+    "slug": "hurriyet",
+    "name": "Hürriyet",
+    "url": "https://www.hurriyet.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1948,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Demirören Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "High-circulation national daily with news, economy and sport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hurriyet.com.tr/",
+      "title": "Hürriyet - Haber, Son Dakika Haberler, Güncel Gazete Haberleri"
+    }
+  },
+  {
+    "id": "tr-sabah",
+    "slug": "sabah",
+    "name": "Sabah",
+    "url": "https://www.sabah.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Turkuvaz Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily of the Turkuvaz group with politics and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sabah.com.tr/",
+      "title": "Sabah - Haberler, Son Dakika Haber, Güncel ve Gazete Haberleri"
+    }
+  },
+  {
+    "id": "tr-milliyet",
+    "slug": "milliyet",
+    "name": "Milliyet",
+    "url": "https://www.milliyet.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1950,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Demirören Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily covering politics, society and culture, owned by Demirören Holding."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.milliyet.com.tr/",
+      "title": "Milliyet - Haberler, Son Dakika Haberleri ve Güncel Haber"
+    }
+  },
+  {
+    "id": "tr-sozcu",
+    "slug": "sozcu",
+    "name": "Sözcü",
+    "url": "https://www.sozcu.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sözcü Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with politics, columns and national news, also running a TV channel."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sozcu.com.tr/",
+      "title": "Sözcü Gazetesi - Haberler, son dakika haberleri, güncel haber, köşe yazıları"
+    }
+  },
+  {
+    "id": "tr-cumhuriyet",
+    "slug": "cumhuriyet",
+    "name": "Cumhuriyet",
+    "url": "https://www.cumhuriyet.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1924,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Cumhuriyet Foundation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Foundation-owned daily founded in the first year of the Republic."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cumhuriyet.com.tr/",
+      "title": "Cumhuriyet - Haberler, Spor, Ekonomi, Gündem Haberleri, Güncel Son Dakika Haberleri,"
+    }
+  },
+  {
+    "id": "tr-birgun",
+    "slug": "birgun",
+    "name": "BirGün",
+    "url": "https://www.birgun.net/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "BirGün",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily newspaper covering politics, labor and social movements."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.birgun.net/",
+      "title": "Birgün Gazetesi | Haber, Son Dakika Haberleri ve Güncel Haberler"
+    }
+  },
+  {
+    "id": "tr-t24",
+    "slug": "t24",
+    "name": "T24",
+    "url": "https://t24.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "T24",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent digital newspaper with politics, columns and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://t24.com.tr/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tr-medyascope",
+    "slug": "medyascope",
+    "name": "Medyascope",
+    "url": "https://medyascope.tv/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "politics",
+      "broadcast"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Medyascope",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Crowd-funded digital outlet with video news, interviews and debates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://medyascope.tv/",
+      "title": "Medyascope - Sivil, bağımsız, özgür ve çoğulcu haber ve yorum platformu"
+    }
+  },
+  {
+    "id": "tr-bianet",
+    "slug": "bianet",
+    "name": "bianet",
+    "url": "https://bianet.org/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Inter Press Service Communication Foundation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent news network covering rights, gender and press freedom."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://bianet.org/",
+      "title": "Bianet"
+    }
+  },
+  {
+    "id": "tr-ntv",
+    "slug": "ntv",
+    "name": "NTV",
+    "url": "https://www.ntv.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Doğuş Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News channel with national, economy and live coverage, owned by the Doğuş Group."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ntv.com.tr/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tr-cnn-turk",
+    "slug": "cnn-turk",
+    "name": "CNN Türk",
+    "url": "https://www.cnnturk.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Demirören Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Turkish CNN licensee owned by Demirören Holding, with news and debate programs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnnturk.com/",
+      "title": "CNN TÜRK Haber - Son Dakika Haberler"
+    }
+  },
+  {
+    "id": "tr-trt-haber",
+    "slug": "trt-haber",
+    "name": "TRT Haber",
+    "url": "https://www.trthaber.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Turkish Radio and Television Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News channel of the state broadcaster TRT, with national and international news."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/TRT_Haber"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.trthaber.com/",
+      "title": "TRT Haber: Son Dakika Haberler ile Türkiye’nin Haber Kaynağı"
+    }
+  },
+  {
+    "id": "tr-halk-tv",
+    "slug": "halk-tv",
+    "name": "Halk TV",
+    "url": "https://halktv.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "politics": 9
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Halk TV",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News channel with political talk shows, interviews and live news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "tr-dunya",
+    "slug": "dunya",
+    "name": "Dünya",
+    "url": "https://www.dunya.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1981,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dünya Yayıncılık",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, companies and the Turkish economy since 1981."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.dunya.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tr-bloomberg-ht",
+    "slug": "bloomberg-ht",
+    "name": "Bloomberg HT",
+    "url": "https://www.bloomberght.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "economy",
+      "broadcast"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ciner Media (Bloomberg licensee)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news channel and site with markets, the lira and economy coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bloomberght.com/",
+      "title": "Bloomberght Canlı Borsa, Altın Fiyatları, Döviz Kurları ve Son Dakika Ekonomi, Finans Haberleri"
+    }
+  },
+  {
+    "id": "tr-ekonomim",
+    "slug": "ekonomim",
+    "name": "Ekonomim",
+    "url": "https://www.ekonomim.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ekonomim",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site with markets, companies and economic analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ekonomim.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tr-teyit",
+    "slug": "teyit",
+    "name": "Teyit",
+    "url": "https://teyit.org/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Teyit",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit fact-checking platform verifying claims and images circulating online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://teyit.org/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tr-dogruluk-payi",
+    "slug": "dogruluk-payi",
+    "name": "Doğruluk Payı",
+    "url": "https://www.dogrulukpayi.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Doğruluk Payı",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking platform checking statements by Turkish politicians and officials."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dogrulukpayi.com/",
+      "title": "Ana Sayfa | Doğruluk Payı"
+    }
+  },
+  {
+    "id": "tr-fanatik",
+    "slug": "fanatik",
+    "name": "Fanatik",
+    "url": "https://www.fanatik.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Demirören Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily with Süper Lig, national team and transfer coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.fanatik.com.tr/",
+      "title": "Spor Haberleri - Sporda Bugün Son Dakika Haberler, Günün Güncel Spor Gazetesi"
+    }
+  },
+  {
+    "id": "tr-fotomac",
+    "slug": "fotomac",
+    "name": "Fotomaç",
+    "url": "https://www.fotomac.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Turkuvaz Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily covering football, basketball and transfers, from Turkuvaz Media Group."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.fotomac.com.tr/",
+      "title": "FOTOMAÇ - SON DAKİKA transfer ve spor haberleri"
+    }
+  },
+  {
+    "id": "tr-a-spor",
+    "slug": "a-spor",
+    "name": "A Spor",
+    "url": "https://www.aspor.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 7
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Turkuvaz Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports channel and site with football coverage and debate shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aspor.com.tr/",
+      "title": "A SPOR - TÜRKİYE'NİN 1 NUMARALI SPOR KANALI!"
+    }
+  },
+  {
+    "id": "tr-webtekno",
+    "slug": "webtekno",
+    "name": "Webtekno",
+    "url": "https://www.webtekno.com/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Webtekno",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site with gadgets, science and internet culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.webtekno.com/",
+      "title": "Webtekno – Güncel Teknoloji Haberleri ve Video İncelemeleri"
+    }
+  },
+  {
+    "id": "tr-shiftdelete-net",
+    "slug": "shiftdelete-net",
+    "name": "ShiftDelete.Net",
+    "url": "https://shiftdelete.net/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ShiftDelete.Net",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology site with smartphone, PC and automotive tech news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://shiftdelete.net/",
+      "title": "ShiftDelete.Net - Türkiye'nin en büyük teknoloji haber sitesi"
+    }
+  },
+  {
+    "id": "tr-bilim-ve-teknik",
+    "slug": "bilim-ve-teknik",
+    "name": "Bilim ve Teknik",
+    "url": "https://bilimteknik.tubitak.gov.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "TÜBİTAK",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular science magazine of the Scientific and Technological Research Council."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://bilimteknik.tubitak.gov.tr/",
+      "title": "Ana Sayfa &mdash; Bilim ve Teknik"
+    }
+  },
+  {
+    "id": "tr-yeni-asir",
+    "slug": "yeni-asir",
+    "name": "Yeni Asır",
+    "url": "https://www.yeniasir.com.tr/",
+    "rss_url": null,
+    "language": "tr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "İzmir",
+    "founded_year": 1895,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Turkuvaz Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Izmir daily covering the Aegean region, among the oldest newspapers in Türkiye."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yeniasir.com.tr/",
+      "title": "Yeni Asır: Haberler, Son Dakika Haberler ve Gazete Haberleri"
+    }
+  }
+]

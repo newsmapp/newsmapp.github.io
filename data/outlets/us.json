@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "us-the-new-york-times",
+    "slug": "the-new-york-times",
+    "name": "The New York Times",
+    "url": "https://www.nytimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1851,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "The New York Times Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily of record with deep coverage of politics, world affairs, culture and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.nytimes.com/",
+      "title": "nytimes.com"
+    }
+  },
+  {
+    "id": "us-the-washington-post",
+    "slug": "the-washington-post",
+    "name": "The Washington Post",
+    "url": "https://www.washingtonpost.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 1877,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nash Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Capital-based daily focused on federal politics, national security and accountability reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "us-associated-press",
+    "slug": "associated-press",
+    "name": "Associated Press",
+    "url": "https://apnews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1846,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "Associated Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit news cooperative supplying fast, plain-language wire reporting to thousands of outlets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://apnews.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "us-the-wall-street-journal",
+    "slug": "the-wall-street-journal",
+    "name": "The Wall Street Journal",
+    "url": "https://www.wsj.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1889,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Dow Jones & Company (News Corp)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily covering markets, companies and economic policy, with national and world news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 401,
+      "final_url": "https://www.wsj.com/",
+      "title": "wsj.com"
+    }
+  },
+  {
+    "id": "us-npr",
+    "slug": "npr",
+    "name": "NPR",
+    "url": "https://www.npr.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 5,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "National Public Radio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public radio network with national newscasts, long-form audio journalism and podcasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "us-los-angeles-times",
+    "slug": "los-angeles-times",
+    "name": "Los Angeles Times",
+    "url": "https://www.latimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "general-news": 6
+    },
+    "region": "California",
+    "founded_year": 1881,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Patrick Soon-Shiong",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Largest West Coast daily, covering California politics, entertainment and the environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.latimes.com/",
+      "title": "News from California, across the nation and world - Los Angeles Times"
+    }
+  },
+  {
+    "id": "us-cnn",
+    "slug": "cnn",
+    "name": "CNN",
+    "url": "https://www.cnn.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Warner Bros. Discovery",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour cable news network with breaking news, live video and international coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnn.com/",
+      "title": "Breaking News, Latest News and Videos | CNN"
+    }
+  },
+  {
+    "id": "us-pbs-news",
+    "slug": "pbs-news",
+    "name": "PBS News",
+    "url": "https://www.pbs.org/newshour/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Public Broadcasting Service member stations",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public television newscast known for long interviews, analysis and slower-paced reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.pbs.org/newshour/",
+      "title": "PBS News: News, Analysis, Top Headlines, Live Coverage"
+    }
+  },
+  {
+    "id": "us-nbc-news",
+    "slug": "nbc-news",
+    "name": "NBC News",
+    "url": "https://www.nbcnews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1940,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comcast (NBCUniversal)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Broadcast network news division with national, political and investigative reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nbcnews.com/",
+      "title": "NBC News - Breaking Headlines and Video Reports on World, U.S. and Local Angles | NBC News"
+    }
+  },
+  {
+    "id": "us-fox-news",
+    "slug": "fox-news",
+    "name": "Fox News",
+    "url": "https://www.foxnews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Fox Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cable news channel and website with national news, politics and opinion programming."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.foxnews.com/",
+      "title": "Fox News - Breaking News Updates | Latest News Headlines | Photos & News Videos"
+    }
+  },
+  {
+    "id": "us-politico",
+    "slug": "politico",
+    "name": "Politico",
+    "url": "https://www.politico.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Axel Springer",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Washington newsroom tracking Congress, the White House, campaigns and policy fights."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.politico.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "us-the-hill",
+    "slug": "the-hill",
+    "name": "The Hill",
+    "url": "https://thehill.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 8
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nexstar Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Capitol Hill publication covering Congress, lobbying, campaigns and federal policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thehill.com/",
+      "title": "The Hill - covering Congress, Politics, Political Campaigns and Capitol Hill"
+    }
+  },
+  {
+    "id": "us-bloomberg",
+    "slug": "bloomberg",
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Bloomberg L.P.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Global business and markets news service with data-driven reporting on companies and policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bloomberg.com/latinamerica",
+      "title": "Bloomberg Latin America"
+    }
+  },
+  {
+    "id": "us-cnbc",
+    "slug": "cnbc",
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "broadcast"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Comcast (NBCUniversal)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news channel with live market coverage, earnings and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnbc.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "us-marketwatch",
+    "slug": "marketwatch",
+    "name": "MarketWatch",
+    "url": "https://www.marketwatch.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Dow Jones & Company (News Corp)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Markets and personal finance site with stock data, investing news and commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 401,
+      "final_url": "https://www.marketwatch.com/",
+      "title": "marketwatch.com"
+    }
+  },
+  {
+    "id": "us-fortune",
+    "slug": "fortune",
+    "name": "Fortune",
+    "url": "https://fortune.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 1929,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Fortune Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine known for the Fortune 500 list and coverage of corporate leadership."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://fortune.com/",
+      "title": "Fortune - Fortune 500 Daily & Breaking Business News"
+    }
+  },
+  {
+    "id": "us-propublica",
+    "slug": "propublica",
+    "name": "ProPublica",
+    "url": "https://www.propublica.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Pro Publica Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit newsroom producing investigative journalism in the public interest, free to read."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.propublica.org/",
+      "title": "ProPublica — Investigative Journalism and News in the Public Interest"
+    }
+  },
+  {
+    "id": "us-politifact",
+    "slug": "politifact",
+    "name": "PolitiFact",
+    "url": "https://politifact.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Poynter Institute",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking site rating claims by politicians and public figures on its Truth-O-Meter."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://politifact.com/",
+      "title": "PolitiFact"
+    }
+  },
+  {
+    "id": "us-factcheck-org",
+    "slug": "factcheck-org",
+    "name": "FactCheck.org",
+    "url": "https://www.factcheck.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Annenberg Public Policy Center",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonpartisan project checking the accuracy of claims in U.S. politics and advertising."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.factcheck.org/",
+      "title": "FactCheck.org - A Project of The Annenberg Public Policy Center"
+    }
+  },
+  {
+    "id": "us-espn",
+    "slug": "espn",
+    "name": "ESPN",
+    "url": "https://www.espn.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1,
+      "broadcast": 7
+    },
+    "region": null,
+    "founded_year": 1979,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "The Walt Disney Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports network and site with scores, analysis and coverage of every major U.S. league."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.espn.com/",
+      "title": "ESPN - Serving Sports Fans. Anytime. Anywhere."
+    }
+  },
+  {
+    "id": "us-the-athletic",
+    "slug": "the-athletic",
+    "name": "The Athletic",
+    "url": "https://www.nytimes.com/athletic/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The New York Times Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription sports site with team-by-team beat reporting and in-depth analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.nytimes.com/athletic/",
+      "title": "nytimes.com"
+    }
+  },
+  {
+    "id": "us-sports-illustrated",
+    "slug": "sports-illustrated",
+    "name": "Sports Illustrated",
+    "url": "https://www.si.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Authentic Brands Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Long-running sports magazine brand with news, features and team coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.si.com/",
+      "title": "Sports Illustrated"
+    }
+  },
+  {
+    "id": "us-cbs-sports",
+    "slug": "cbs-sports",
+    "name": "CBS Sports",
+    "url": "https://www.cbssports.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Paramount",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports news, scores, fantasy tools and betting analysis from the CBS network."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cbssports.com/",
+      "title": "CBS Sports | News, live scores, schedules, Fantasy and more"
+    }
+  },
+  {
+    "id": "us-yahoo-sports",
+    "slug": "yahoo-sports",
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 5
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Yahoo Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "High-traffic sports portal with scores, fantasy leagues and national reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sports.yahoo.com/",
+      "title": "Yahoo Sports: News, Scores, Video, Fantasy Games, Schedules & More - Yahoo Sports"
+    }
+  },
+  {
+    "id": "us-wired",
+    "slug": "wired",
+    "name": "Wired",
+    "url": "https://www.wired.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Condé Nast",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Magazine on how technology changes culture, business, politics and science."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.wired.com/",
+      "title": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED"
+    }
+  },
+  {
+    "id": "us-ars-technica",
+    "slug": "ars-technica",
+    "name": "Ars Technica",
+    "url": "https://arstechnica.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Condé Nast",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology site with detailed reporting on science, IT, policy and gaming."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 405,
+      "final_url": "https://arstechnica.com/",
+      "title": "Human Verification"
+    }
+  },
+  {
+    "id": "us-scientific-american",
+    "slug": "scientific-american",
+    "name": "Scientific American",
+    "url": "https://www.scientificamerican.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1845,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Springer Nature",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Oldest continuously published U.S. magazine, explaining science for a general audience."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.scientificamerican.com/",
+      "title": "Scientific American"
+    }
+  },
+  {
+    "id": "us-mit-technology-review",
+    "slug": "mit-technology-review",
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 1899,
+    "paywall": "metered",
+    "ownership_type": "nonprofit",
+    "owner": "Massachusetts Institute of Technology",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "MIT-owned magazine on emerging technology, artificial intelligence and climate tech."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.technologyreview.com/",
+      "title": "MIT Technology Review"
+    }
+  },
+  {
+    "id": "us-the-verge",
+    "slug": "the-verge",
+    "name": "The Verge",
+    "url": "https://www.theverge.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 5
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Vox Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Consumer technology site covering gadgets, platforms, science and tech policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theverge.com/",
+      "title": "The Verge"
+    }
+  },
+  {
+    "id": "us-chicago-tribune",
+    "slug": "chicago-tribune",
+    "name": "Chicago Tribune",
+    "url": "https://www.chicagotribune.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Illinois",
+    "founded_year": 1847,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Alden Global Capital",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Chicago daily covering the city, Illinois politics and the Midwest."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.chicagotribune.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "us-the-boston-globe",
+    "slug": "the-boston-globe",
+    "name": "The Boston Globe",
+    "url": "https://www.bostonglobe.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Massachusetts",
+    "founded_year": 1872,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Boston Globe Media Partners",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "New England's largest daily, known for its Spotlight investigative team."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bostonglobe.com/",
+      "title": "The Boston Globe | New England news, weather and sports"
+    }
+  },
+  {
+    "id": "us-houston-chronicle",
+    "slug": "houston-chronicle",
+    "name": "Houston Chronicle",
+    "url": "https://www.houstonchronicle.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Texas",
+    "founded_year": 1901,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Hearst Communications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Largest daily in Texas, covering Houston, energy, Texas politics and the Gulf Coast."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.houstonchronicle.com/",
+      "title": "Client Challenge"
+    }
+  },
+  {
+    "id": "us-miami-herald",
+    "slug": "miami-herald",
+    "name": "Miami Herald",
+    "url": "https://www.miamiherald.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Florida",
+    "founded_year": 1903,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "McClatchy",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "South Florida daily with coverage of Miami, state politics and Latin America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  }
+]

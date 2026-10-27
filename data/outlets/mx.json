@@ -1,0 +1,964 @@
+[
+  {
+    "id": "mx-el-universal",
+    "slug": "el-universal",
+    "name": "El Universal",
+    "url": "https://www.eluniversal.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1916,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo El Universal",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Mexico City daily with national politics, security, business and opinion coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eluniversal.com.mx/",
+      "title": "El Universal | El periódico de México líder en noticias y clasificados"
+    }
+  },
+  {
+    "id": "mx-milenio",
+    "slug": "milenio",
+    "name": "Milenio",
+    "url": "https://www.milenio.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 1974,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Multimedios",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily and TV news channel with breaking news, politics and security reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.milenio.com/",
+      "title": "MILENIO | Noticias de hoy en México y el mundo al momento- Grupo Milenio"
+    }
+  },
+  {
+    "id": "mx-reforma",
+    "slug": "reforma",
+    "name": "Reforma",
+    "url": "https://www.reforma.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Grupo Reforma",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Mexico City daily known for independent political reporting, behind a strict paywall."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.reforma.com/",
+      "title": "REFORMA | Periodismo independiente"
+    }
+  },
+  {
+    "id": "mx-el-financiero",
+    "slug": "el-financiero",
+    "name": "El Financiero",
+    "url": "https://www.elfinanciero.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy",
+      "politics"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1981,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Multimedia Lauman",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and financial daily with markets, economy and political analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elfinanciero.com.mx/",
+      "title": "El Financiero | Las noticias de finanzas, economía y política más importantes del país."
+    }
+  },
+  {
+    "id": "mx-la-jornada",
+    "slug": "la-jornada",
+    "name": "La Jornada",
+    "url": "https://www.jornada.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1984,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DEMOS, Desarrollo de Medios",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mexico City daily covering national politics, labor, social movements and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.jornada.com.mx/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "mx-excelsior",
+    "slug": "excelsior",
+    "name": "Excélsior",
+    "url": "https://www.excelsior.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1917,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Imagen",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "One of Mexico's oldest dailies, with national news, politics and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.excelsior.com.mx/",
+      "title": "Excélsior | El periódico de la vida nacional"
+    }
+  },
+  {
+    "id": "mx-proceso",
+    "slug": "proceso",
+    "name": "Proceso",
+    "url": "https://www.proceso.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Comunicación e Información S.A. de C.V.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly news magazine known for investigative reporting on power and corruption."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.proceso.com.mx/",
+      "title": "Proceso"
+    }
+  },
+  {
+    "id": "mx-animal-politico",
+    "slug": "animal-politico",
+    "name": "Animal Político",
+    "url": "https://animalpolitico.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Animal Político",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital newsroom covering politics, public spending and fact-checking via El Sabueso."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://grupoanimal.mx/noticias",
+      "title": "Animal Político | Noticias verificadas de México y el Mundo"
+    }
+  },
+  {
+    "id": "mx-aristegui-noticias",
+    "slug": "aristegui-noticias",
+    "name": "Aristegui Noticias",
+    "url": "https://aristeguinoticias.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative",
+      "general-news"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Carmen Aristegui",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent news site led by journalist Carmen Aristegui, focused on investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://aristeguinoticias.com/",
+      "title": "Aristegui Noticias | Desde cualquier medio, periodismo en libertad"
+    }
+  },
+  {
+    "id": "mx-mexicanos-contra-la-corrupcion-y-la-impunidad",
+    "slug": "mexicanos-contra-la-corrupcion-y-la-impunidad",
+    "name": "Mexicanos contra la Corrupción y la Impunidad",
+    "url": "https://contralacorrupcion.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "MCCI",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Civil-society organization publishing data-driven investigations into corruption."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://contralacorrupcion.mx/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "mx-quinto-elemento-lab",
+    "slug": "quinto-elemento-lab",
+    "name": "Quinto Elemento Lab",
+    "url": "https://quintoelab.org/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Quinto Elemento Lab",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit lab producing and supporting long-form investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://quintoelab.org/",
+      "title": "Quinto Elemento, Laboratorio de Investigación."
+    }
+  },
+  {
+    "id": "mx-el-economista",
+    "slug": "el-economista",
+    "name": "El Economista",
+    "url": "https://www.eleconomista.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial daily covering markets, companies, public finance and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eleconomista.com.mx/",
+      "title": "El Economista | Periódico especializado en economía, finanzas y negocios"
+    }
+  },
+  {
+    "id": "mx-expansion",
+    "slug": "expansion",
+    "name": "Expansión",
+    "url": "https://expansion.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1969,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Expansión",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and technology publication covering companies, executives and innovation."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://expansion.mx/",
+      "title": "Expansión | Noticias de Negocios, Economía y Política en México"
+    }
+  },
+  {
+    "id": "mx-forbes-mexico",
+    "slug": "forbes-mexico",
+    "name": "Forbes México",
+    "url": "https://forbes.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Forbes licensee",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mexican edition of Forbes covering business, wealth and entrepreneurship."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://forbes.com.mx/",
+      "title": "Forbes México"
+    }
+  },
+  {
+    "id": "mx-record",
+    "slug": "record",
+    "name": "Récord",
+    "url": "https://www.record.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Récord",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading sports daily with Liga MX, national team and international football coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.record.com.mx/",
+      "title": "Noticias deportivas y las historias más destacadas"
+    }
+  },
+  {
+    "id": "mx-esto",
+    "slug": "esto",
+    "name": "ESTO",
+    "url": "https://www.esto.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1941,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Organización Editorial Mexicana",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Long-running sports daily covering football, boxing and lucha libre."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.esto.com.mx/",
+      "title": "Algo ha salido mal"
+    }
+  },
+  {
+    "id": "mx-tudn",
+    "slug": "tudn",
+    "name": "TUDN",
+    "url": "https://www.tudn.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TelevisaUnivision",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports network and site from TelevisaUnivision, focused on football coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tudn.com/",
+      "title": "TUDN: Liga MX, Fútbol, Boxeo, MLB, NFL, NBA y más | Deportes | TUDN"
+    }
+  },
+  {
+    "id": "mx-mediotiempo",
+    "slug": "mediotiempo",
+    "name": "Mediotiempo",
+    "url": "https://www.mediotiempo.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Multimedios",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports news site with Liga MX results, transfers and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mediotiempo.com/",
+      "title": "Mediotiempo | Líder en información deportiva en tiempo REAL en México - Mediotiempo"
+    }
+  },
+  {
+    "id": "mx-n",
+    "slug": "n",
+    "name": "N+",
+    "url": "https://www.nmas.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TelevisaUnivision",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News brand of Televisa, with national newscasts, live coverage and local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nmas.com.mx/",
+      "title": "N+ Noticias: De México y el Mundo | N+"
+    }
+  },
+  {
+    "id": "mx-azteca-noticias",
+    "slug": "azteca-noticias",
+    "name": "Azteca Noticias",
+    "url": "https://www.tvazteca.com/aztecanoticias",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TV Azteca",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News division of TV Azteca with national and local newscasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tvazteca.com/aztecanoticias",
+      "title": "Noticias de última hora de interés nacional e internacional en Azteca Noticias"
+    }
+  },
+  {
+    "id": "mx-el-norte",
+    "slug": "el-norte",
+    "name": "El Norte",
+    "url": "https://www.elnorte.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Nuevo León",
+    "founded_year": 1938,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Grupo Reforma",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Monterrey daily covering Nuevo León politics, industry and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elnorte.com/",
+      "title": "EL NORTE | Periodismo independiente"
+    }
+  },
+  {
+    "id": "mx-el-informador",
+    "slug": "el-informador",
+    "name": "El Informador",
+    "url": "https://www.informador.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Jalisco",
+    "founded_year": 1917,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Unión Editorialista",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Guadalajara daily covering Jalisco and western Mexico, its politics and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.informador.mx/",
+      "title": "Noticias de hoy de Jalisco, Guadalajara y México | El Informador"
+    }
+  },
+  {
+    "id": "mx-diario-de-yucatan",
+    "slug": "diario-de-yucatan",
+    "name": "Diario de Yucatán",
+    "url": "https://www.yucatan.com.mx/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Yucatán",
+    "founded_year": 1925,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Megamedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Mérida daily covering Yucatán and the Yucatán Peninsula, its politics and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yucatan.com.mx/",
+      "title": "Inicio - Diario de Yucatán"
+    }
+  },
+  {
+    "id": "mx-zeta-tijuana",
+    "slug": "zeta-tijuana",
+    "name": "Zeta Tijuana",
+    "url": "https://zetatijuana.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional",
+      "investigative"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4,
+      "investigative": 6
+    },
+    "region": "Baja California",
+    "founded_year": 1980,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Zeta Tijuana",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tijuana weekly known for investigative reporting on organized crime and corruption."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://zetatijuana.com/",
+      "title": "Semanario ZETA Tijuana, noticias de Baja California y todo México - Noticias de Baja California y todo México"
+    }
+  }
+]

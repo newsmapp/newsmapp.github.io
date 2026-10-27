@@ -1,0 +1,72 @@
+{
+  "iso2": "TR",
+  "iso3": "TUR",
+  "slug": "turkiye",
+  "name": {
+    "en": "Türkiye"
+  },
+  "continent": "asia",
+  "also_in": [
+    "europe"
+  ],
+  "population": {
+    "value": 85500000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "tr"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "GR",
+    "BG",
+    "GE",
+    "AM",
+    "AZ",
+    "IR",
+    "IQ",
+    "SY",
+    "CY"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Türkiye has a large news market in which ownership of mainstream media has become concentrated among business groups with close ties to the government. The Anadolu Agency and the public broadcaster TRT are state-run, and most of the highest-circulation newspapers and news channels belong to a few holdings. A smaller group of newspapers, news channels and digital outlets offer critical or independent coverage, and several have faced legal pressure, fines or broadcast bans from the regulator RTÜK. Journalists have been prosecuted under anti-terrorism and disinformation laws. Independent digital outlets and fact-checking platforms have grown as audiences seek alternative sources. Business and financial journalism covers inflation, the lira and markets closely. International press freedom indexes rank Türkiye among the more restrictive environments for journalism.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Türkiye?",
+          "a": "The main national outlets in the directory include Anadolu Agency, Hürriyet, Sabah, Milliyet and Sözcü. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Turkish news sites are free to read?",
+          "a": "Free-to-read outlets include Anadolu Agency, Hürriyet, Sabah, Milliyet and Sözcü. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Turkish outlets are publicly or state funded?",
+          "a": "Public-service outlets include Bilim ve Teknik. State-controlled outlets include Anadolu Agency and TRT Haber. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Türkiye?",
+          "a": "Regional coverage in the directory comes from Yeni Asır (İzmir). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Türkiye comes from the state news agency, high-circulation dailies owned by large holdings and a foundation-owned newspaper. Ownership is labeled for each outlet."
+        },
+        "politics": {
+          "intro": "Political coverage in Türkiye ranges from state media and pro-government dailies to independent digital outlets and newspapers that report critically on the government."
+        },
+        "economy": {
+          "intro": "Turkish business news follows inflation, interest rates, the lira and Borsa Istanbul through a business daily, a business news channel and a business news site."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in Türkiye includes the state broadcaster's news channel and private news channels owned by large holdings and independent companies."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

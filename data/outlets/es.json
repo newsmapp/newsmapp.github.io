@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "es-el-pais",
+    "slug": "el-pais",
+    "name": "El País",
+    "url": "https://elpais.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "PRISA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Madrid national daily of reference with Spanish politics, world news and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://elpais.com/",
+      "title": "elpais.com"
+    }
+  },
+  {
+    "id": "es-el-mundo",
+    "slug": "el-mundo",
+    "name": "El Mundo",
+    "url": "https://www.elmundo.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Unidad Editorial",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Madrid national daily with politics, investigations and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elmundo.es/",
+      "title": "EL MUNDO - Diario online líder de información en español"
+    }
+  },
+  {
+    "id": "es-abc",
+    "slug": "abc",
+    "name": "ABC",
+    "url": "https://www.abc.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1903,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Vocento",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Long-running Madrid daily with national politics, culture and the monarchy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.abc.es/",
+      "title": "ABC - Últimas noticias de España y el mundo hoy"
+    }
+  },
+  {
+    "id": "es-la-vanguardia",
+    "slug": "la-vanguardia",
+    "name": "La Vanguardia",
+    "url": "https://www.lavanguardia.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "regional": 1
+    },
+    "region": "Catalonia",
+    "founded_year": 1881,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Godó",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Barcelona daily covering Catalonia, Spain and the world, in Spanish and Catalan."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lavanguardia.com/",
+      "title": "Últimas noticias, actualidad y última hora en Catalunya, España y el mundo"
+    }
+  },
+  {
+    "id": "es-efe",
+    "slug": "efe",
+    "name": "EFE",
+    "url": "https://efe.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1939,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Spanish state holding SEPI",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Spain's international news agency, the largest Spanish-language wire service."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Agencia_EFE"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://efe.com/",
+      "title": "EFE - Agencia de noticias"
+    }
+  },
+  {
+    "id": "es-eldiario-es",
+    "slug": "eldiario-es",
+    "name": "elDiario.es",
+    "url": "https://www.eldiario.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 4,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Diario de Prensa Digital (majority journalist-owned)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Reader-supported digital daily focused on politics, inequality and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.eldiario.es/",
+      "title": "elDiario.es - Noticias de actualidad - Periodismo a pesar de todo"
+    }
+  },
+  {
+    "id": "es-el-confidencial",
+    "slug": "el-confidencial",
+    "name": "El Confidencial",
+    "url": "https://www.elconfidencial.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "economy",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5,
+      "economy": 1,
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Titania Compañía Editorial",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital daily known for political and business scoops and data investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elconfidencial.com/",
+      "title": "El Confidencial - El diario de los lectores influyentes"
+    }
+  },
+  {
+    "id": "es-rtve-noticias",
+    "slug": "rtve-noticias",
+    "name": "RTVE Noticias",
+    "url": "https://www.rtve.es/noticias/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1956,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Corporación de Radio y Televisión Española",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News from Spain's public broadcaster, home of Telediario and Canal 24 Horas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rtve.es/noticias/",
+      "title": "Noticias, la última hora de España y el mundo - RTVE.es"
+    }
+  },
+  {
+    "id": "es-cadena-ser",
+    "slug": "cadena-ser",
+    "name": "Cadena SER",
+    "url": "https://cadenaser.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 1924,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "PRISA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Spain's most-listened radio network, with Hoy por Hoy and Hora 25."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://cadenaser.com/",
+      "title": "Cadena SER: noticias, radio online y podcast"
+    }
+  },
+  {
+    "id": "es-cope",
+    "slug": "cope",
+    "name": "COPE",
+    "url": "https://www.cope.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Spanish Episcopal Conference",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National radio network owned by the Catholic Church, with news and sports."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cope.es/",
+      "title": "COPE | Noticias y radio online"
+    }
+  },
+  {
+    "id": "es-antena-3-noticias",
+    "slug": "antena-3-noticias",
+    "name": "Antena 3 Noticias",
+    "url": "https://www.antena3.com/noticias/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Atresmedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News division of Antena 3, Spain's most-watched private channel."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.antena3.com/noticias/",
+      "title": "Antena 3 Noticias: Última hora en España y el mundo"
+    }
+  },
+  {
+    "id": "es-lasexta",
+    "slug": "lasexta",
+    "name": "laSexta",
+    "url": "https://www.lasexta.com/noticias/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Atresmedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private channel with news, political talk shows and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lasexta.com/noticias/",
+      "title": "Las Noticias de Hoy en España y el Mundo - Última hora para estar al día"
+    }
+  },
+  {
+    "id": "es-europa-press",
+    "slug": "europa-press",
+    "name": "Europa Press",
+    "url": "https://www.europapress.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 8,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1953,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Europa Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private news agency with dense coverage of parliament, parties and regions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.europapress.es/",
+      "title": "Europa Press | Agencia de noticias privada líder en España"
+    }
+  },
+  {
+    "id": "es-expansion",
+    "slug": "expansion",
+    "name": "Expansión",
+    "url": "https://www.expansion.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Unidad Editorial",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Spain's leading business daily covering companies, markets and the IBEX 35."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.expansion.com/",
+      "title": "Expansión - Diario Económico e información de mercados"
+    }
+  },
+  {
+    "id": "es-cinco-dias",
+    "slug": "cinco-dias",
+    "name": "Cinco Días",
+    "url": "https://cincodias.elpais.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "PRISA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily covering companies, markets and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://cincodias.elpais.com/",
+      "title": "elpais.com"
+    }
+  },
+  {
+    "id": "es-eleconomista-es",
+    "slug": "eleconomista-es",
+    "name": "elEconomista.es",
+    "url": "https://www.eleconomista.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Editorial Ecoprensa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and markets daily with company news and investing tools."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.eleconomista.es/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "es-newtral",
+    "slug": "newtral",
+    "name": "Newtral",
+    "url": "https://www.newtral.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Newtral",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking and data journalism outlet verifying political claims."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.newtral.es/",
+      "title": "Newtral | Periodismo, fact-checking, tecnología y datos"
+    }
+  },
+  {
+    "id": "es-maldita-es",
+    "slug": "maldita-es",
+    "name": "Maldita.es",
+    "url": "https://maldita.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Fundación Maldita.es",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit fact-checking foundation fighting misinformation in Spain."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://maldita.es/",
+      "title": "Portada · Maldita.es"
+    }
+  },
+  {
+    "id": "es-civio",
+    "slug": "civio",
+    "name": "Civio",
+    "url": "https://civio.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 6
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Fundación Ciudadana Civio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit newsroom using public data to watch government and spending."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://civio.es/",
+      "title": "Civio"
+    }
+  },
+  {
+    "id": "es-marca",
+    "slug": "marca",
+    "name": "Marca",
+    "url": "https://www.marca.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1938,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Unidad Editorial",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Spain's best-selling sports daily, focused on football and Real Madrid."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.marca.com/",
+      "title": "MARCA - Diario online líder en información deportiva"
+    }
+  },
+  {
+    "id": "es-as",
+    "slug": "as",
+    "name": "AS",
+    "url": "https://as.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "PRISA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Madrid sports daily with football, basketball and motorsport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://as.com/",
+      "title": "as.com"
+    }
+  },
+  {
+    "id": "es-mundo-deportivo",
+    "slug": "mundo-deportivo",
+    "name": "Mundo Deportivo",
+    "url": "https://www.mundodeportivo.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1906,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Godó",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Barcelona sports daily focused on FC Barcelona and Catalan sport."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mundodeportivo.com/",
+      "title": "Mundo Deportivo | Noticias deportivas: Fútbol, motor, tenis y más"
+    }
+  },
+  {
+    "id": "es-sport",
+    "slug": "sport",
+    "name": "Sport",
+    "url": "https://www.sport.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1979,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Prensa Ibérica",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Barcelona sports daily covering FC Barcelona and football news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 406,
+      "final_url": "https://www.sport.es/es/",
+      "title": "406 WAF Forbidden"
+    }
+  },
+  {
+    "id": "es-xataka",
+    "slug": "xataka",
+    "name": "Xataka",
+    "url": "https://www.xataka.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Webedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Spain's largest technology site, with gadgets, science and digital culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.xataka.com/",
+      "title": "Xataka - Tecnología y gadgets, móviles, informática, electrónica"
+    }
+  },
+  {
+    "id": "es-agencia-sinc",
+    "slug": "agencia-sinc",
+    "name": "Agencia SINC",
+    "url": "https://www.agenciasinc.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "FECYT (public foundation)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public science news agency publishing research news under open licenses."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.agenciasinc.es/",
+      "title": "Sinc"
+    }
+  },
+  {
+    "id": "es-hipertextual",
+    "slug": "hipertextual",
+    "name": "Hipertextual",
+    "url": "https://hipertextual.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Hipertextual",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology, science and culture site with reviews and analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://hipertextual.com/",
+      "title": "Hipertextual | Tecnología, ciencia y cultura digital | Vivimos en 2077"
+    }
+  },
+  {
+    "id": "es-el-periodico",
+    "slug": "el-periodico",
+    "name": "El Periódico",
+    "url": "https://www.elperiodico.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Catalonia",
+    "founded_year": 1978,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Prensa Ibérica",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Barcelona daily in Spanish and Catalan covering Catalonia and Spain."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 406,
+      "final_url": "https://www.elperiodico.com/es/",
+      "title": "406 WAF Forbidden"
+    }
+  },
+  {
+    "id": "es-el-correo",
+    "slug": "el-correo",
+    "name": "El Correo",
+    "url": "https://www.elcorreo.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Basque Country",
+    "founded_year": 1910,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Vocento",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bilbao daily covering Basque politics, industry and communities across the Basque Country."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.elcorreo.com/",
+      "title": "EL CORREO - Diario con las últimas noticias, fotos y vídeos de Bizkaia"
+    }
+  },
+  {
+    "id": "es-levante-emv",
+    "slug": "levante-emv",
+    "name": "Levante-EMV",
+    "url": "https://www.levante-emv.com/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Valencian Community",
+    "founded_year": 1872,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Prensa Ibérica",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Valencia daily covering the Valencian Community, its politics, economy and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 406,
+      "final_url": "https://www.levante-emv.com/",
+      "title": "406 WAF Forbidden"
+    }
+  },
+  {
+    "id": "es-diario-de-sevilla",
+    "slug": "diario-de-sevilla",
+    "name": "Diario de Sevilla",
+    "url": "https://www.diariodesevilla.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Andalusia",
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Joly",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Seville daily covering the city, Andalusian politics and the regional economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.diariodesevilla.es/",
+      "title": "Diario de Sevilla | Noticias de Sevilla, Andalucía y España, actualidad y última hora"
+    }
+  },
+  {
+    "id": "es-la-voz-de-galicia",
+    "slug": "la-voz-de-galicia",
+    "name": "La Voz de Galicia",
+    "url": "https://www.lavozdegalicia.es/",
+    "rss_url": null,
+    "language": "es",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Galicia",
+    "founded_year": 1882,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Corporación Voz de Galicia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "A Coruña daily and Galicia's highest-circulation newspaper, with local editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lavozdegalicia.es/",
+      "title": "La Voz de Galicia. Toda la información y última hora sobre Galicia."
+    }
+  }
+]

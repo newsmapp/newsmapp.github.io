@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "ch-srf-news",
+    "slug": "srf-news",
+    "name": "SRF News",
+    "url": "https://www.srf.ch/news",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1931,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "German-language public broadcaster's news with Tagesschau, 10vor10 and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.srf.ch/news",
+      "title": "Aktuelle News aus der Schweiz und weltweit – SRF"
+    }
+  },
+  {
+    "id": "ch-neue-zurcher-zeitung",
+    "slug": "neue-zurcher-zeitung",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1780,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "NZZ-Mediengruppe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Zurich daily of record founded in 1780, known for international and economic reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nzz.ch/",
+      "title": "NZZ – Neue Zürcher Zeitung | Aktuelle News, Hintergründe & mehr"
+    }
+  },
+  {
+    "id": "ch-tages-anzeiger",
+    "slug": "tages-anzeiger",
+    "name": "Tages-Anzeiger",
+    "url": "https://www.tagesanzeiger.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "regional": 1
+    },
+    "region": "Zurich",
+    "founded_year": 1893,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Zurich daily with national politics, the city and investigative reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-blick",
+    "slug": "blick",
+    "name": "Blick",
+    "url": "https://www.blick.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Ringier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular national daily with breaking news, sport and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.blick.ch/",
+      "title": "Blick: Nachrichten und Schlagzeilen aus der Schweiz und aller Welt"
+    }
+  },
+  {
+    "id": "ch-20-minuten",
+    "slug": "20-minuten",
+    "name": "20 Minuten",
+    "url": "https://www.20min.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free commuter news brand with the largest readership in Switzerland."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.20min.ch/",
+      "title": "20 Minuten: Aktuelle Nachrichten, Schlagzeilen - News von Jetzt"
+    }
+  },
+  {
+    "id": "ch-rts-info",
+    "slug": "rts-info",
+    "name": "RTS Info",
+    "url": "https://www.rts.ch/info/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "broadcast": 2,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "French-language public broadcaster's news with the 19h30 and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rts.ch/info/",
+      "title": "RTS Info: suivez l'actualité suisse et Internationale en direct | RTS"
+    }
+  },
+  {
+    "id": "ch-rsi-info",
+    "slug": "rsi-info",
+    "name": "RSI Info",
+    "url": "https://www.rsi.ch/info/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "broadcast",
+      "regional"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "regional": 2
+    },
+    "region": "Ticino",
+    "founded_year": 1958,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Italian-language public broadcaster's news for Ticino and Italian-speaking Switzerland."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rsi.ch/info/",
+      "title": "Info - RSI"
+    }
+  },
+  {
+    "id": "ch-swissinfo-ch",
+    "slug": "swissinfo-ch",
+    "name": "swissinfo.ch",
+    "url": "https://www.swissinfo.ch/eng/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public international service explaining Swiss news and direct democracy in ten languages."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.swissinfo.ch/eng/",
+      "title": "Switzerland - News and perspectives - SWI swissinfo.ch"
+    }
+  },
+  {
+    "id": "ch-le-temps",
+    "slug": "le-temps",
+    "name": "Le Temps",
+    "url": "https://www.letemps.ch/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "metered",
+    "ownership_type": "nonprofit",
+    "owner": "Fondation Aventinus",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Geneva-based French-language daily of reference, owned by a foundation."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.letemps.ch/",
+      "title": "Le Temps: actualités et informations en Suisse et dans le Monde"
+    }
+  },
+  {
+    "id": "ch-keystone-sda",
+    "slug": "keystone-sda",
+    "name": "Keystone-SDA",
+    "url": "https://www.keystone-sda.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1894,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Keystone-SDA-ATS AG",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swiss national news agency with wire services in German, French and Italian."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.keystone-sda.ch/",
+      "title": "Keystone SDA | Ihre Nachrichtenagentur in der Schweiz."
+    }
+  },
+  {
+    "id": "ch-watson",
+    "slug": "watson",
+    "name": "Watson",
+    "url": "https://www.watson.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 10
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "CH Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with fast news, explainers and a light tone."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.watson.ch/",
+      "title": "watson - News, aber deep"
+    }
+  },
+  {
+    "id": "ch-republik",
+    "slug": "republik",
+    "name": "Republik",
+    "url": "https://www.republik.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "hard",
+    "ownership_type": "cooperative",
+    "owner": "Project R Genossenschaft",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Reader-owned, ad-free digital magazine for in-depth and investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.republik.ch/",
+      "title": "Republik Magazin - Ohne Journalismus keine Demokratie"
+    }
+  },
+  {
+    "id": "ch-heidi-news",
+    "slug": "heidi-news",
+    "name": "Heidi.news",
+    "url": "https://www.heidi.news/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative",
+      "tech-science"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Heidi.news SA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription newsroom on science, health and investigations in Romandy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.heidi.news/",
+      "title": "Heidi.news"
+    }
+  },
+  {
+    "id": "ch-gotham-city",
+    "slug": "gotham-city",
+    "name": "Gotham City",
+    "url": "https://gothamcity.ch/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Gotham City",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Newsletter reporting on economic crime through Swiss court records."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gothamcity.ch/",
+      "title": "Gotham City – La revue du crime économique"
+    }
+  },
+  {
+    "id": "ch-handelszeitung",
+    "slug": "handelszeitung",
+    "name": "Handelszeitung",
+    "url": "https://www.handelszeitung.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1861,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Ringier Medien Schweiz",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly business paper covering Swiss companies, banks and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.handelszeitung.ch/",
+      "title": "Handelszeitung – Wirtschaft, Märkte & aktuelle Top-Themen"
+    }
+  },
+  {
+    "id": "ch-finanz-und-wirtschaft",
+    "slug": "finanz-und-wirtschaft",
+    "name": "Finanz und Wirtschaft",
+    "url": "https://www.fuw.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1928,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial newspaper for investors, covering Swiss and global markets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-cash-ch",
+    "slug": "cash-ch",
+    "name": "cash.ch",
+    "url": "https://www.cash.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ringier Medien Schweiz",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial portal with stock prices, market news and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cash.ch/",
+      "title": "Alles über Finanzen: News, Banking & Trading | cash"
+    }
+  },
+  {
+    "id": "ch-l-agefi",
+    "slug": "l-agefi",
+    "name": "L'Agefi",
+    "url": "https://www.agefi.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 1950,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Agefi SA",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language financial daily covering Swiss finance and banking."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://agefi.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ch-srf-sport",
+    "slug": "srf-sport",
+    "name": "SRF Sport",
+    "url": "https://www.srf.ch/sport",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1931,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster's sport with skiing, football, tennis and ice hockey."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.srf.ch/sport",
+      "title": "Sport News aus der Schweiz und International – Sport – SRF"
+    }
+  },
+  {
+    "id": "ch-rts-sport",
+    "slug": "rts-sport",
+    "name": "RTS Sport",
+    "url": "https://www.rts.ch/sport/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "SRG SSR",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language public sports coverage with live results and broadcasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rts.ch/sport/",
+      "title": "RTS Sport : Toute l’actualité sportive et info en direct | RTS"
+    }
+  },
+  {
+    "id": "ch-blick-sport",
+    "slug": "blick-sport",
+    "name": "Blick Sport",
+    "url": "https://www.blick.ch/sport/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ringier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Blick's sports desk with Super League, ice hockey and skiing coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.blick.ch/sport",
+      "title": "Sport News und Ergebnisse aus der Schweiz & aller Welt | Blick"
+    }
+  },
+  {
+    "id": "ch-inside-it",
+    "slug": "inside-it",
+    "name": "Inside IT",
+    "url": "https://www.inside-it.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Inside IT",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swiss IT industry news on companies, public-sector IT and security."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.inside-it.ch/",
+      "title": "Inside IT – Das Magazin für IT-Verantwortliche"
+    }
+  },
+  {
+    "id": "ch-horizonte",
+    "slug": "horizonte",
+    "name": "Horizonte",
+    "url": "https://www.horizonte-magazin.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Swiss National Science Foundation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Research magazine of the Swiss National Science Foundation and the Swiss Academies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.horizonte-magazin.ch/",
+      "title": "Horizonte Magazin - Das Schweizer Forschungsmagazin"
+    }
+  },
+  {
+    "id": "ch-netzwoche",
+    "slug": "netzwoche",
+    "name": "Netzwoche",
+    "url": "https://www.netzwoche.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Netzmedien AG",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swiss ICT trade magazine covering the digital economy, IT providers and public-sector IT."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.netzwoche.ch/",
+      "title": "Startseite | Netzwoche"
+    }
+  },
+  {
+    "id": "ch-basler-zeitung",
+    "slug": "basler-zeitung",
+    "name": "Basler Zeitung",
+    "url": "https://www.bazonline.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Basel",
+    "founded_year": 1977,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Basel daily covering the city, its pharmaceutical industry and northwestern Switzerland."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-berner-zeitung",
+    "slug": "berner-zeitung",
+    "name": "Berner Zeitung",
+    "url": "https://www.bernerzeitung.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Bern",
+    "founded_year": 1979,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bern daily covering the federal city and the canton of Bern."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-luzerner-zeitung",
+    "slug": "luzerner-zeitung",
+    "name": "Luzerner Zeitung",
+    "url": "https://www.luzernerzeitung.ch/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Lucerne",
+    "founded_year": 1996,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "CH Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lucerne daily covering central Switzerland, its cantons and regional politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.luzernerzeitung.ch/",
+      "title": "Luzerner Zeitung | Nachrichten Luzern & Zentralschweiz"
+    }
+  },
+  {
+    "id": "ch-24-heures",
+    "slug": "24-heures",
+    "name": "24 heures",
+    "url": "https://www.24heures.ch/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Vaud",
+    "founded_year": 1762,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lausanne daily covering the canton of Vaud, its politics, economy and local life."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-tribune-de-geneve",
+    "slug": "tribune-de-geneve",
+    "name": "Tribune de Genève",
+    "url": "https://www.tdg.ch/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 7
+    },
+    "region": "Geneva",
+    "founded_year": 1879,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "TX Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Geneva daily covering the city, the canton and international Geneva."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ch-corriere-del-ticino",
+    "slug": "corriere-del-ticino",
+    "name": "Corriere del Ticino",
+    "url": "https://www.cdt.ch/",
+    "rss_url": null,
+    "language": "it",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 8
+    },
+    "region": "Ticino",
+    "founded_year": 1891,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Gruppo Corriere del Ticino",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lugano daily, the main Italian-language newspaper in Switzerland."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cdt.ch/",
+      "title": "Corriere del Ticino: Ultime Notizie, Approfondimenti e Video"
+    }
+  }
+]

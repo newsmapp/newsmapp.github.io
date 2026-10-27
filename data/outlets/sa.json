@@ -1,0 +1,765 @@
+[
+  {
+    "id": "sa-saudi-press-agency",
+    "slug": "saudi-press-agency",
+    "name": "Saudi Press Agency",
+    "url": "https://www.spa.gov.sa/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ministry of Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Official state news agency publishing royal decrees and government announcements."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Saudi_Press_Agency"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.spa.gov.sa/",
+      "title": "وكالة الأنباء السعودية"
+    }
+  },
+  {
+    "id": "sa-al-riyadh",
+    "slug": "al-riyadh",
+    "name": "Al Riyadh",
+    "url": "https://www.alriyadh.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "regional": 1
+    },
+    "region": "Riyadh",
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Al Yamamah Press Foundation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Riyadh daily with national news, economy and opinion, published by Al Yamamah Press."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "sa-okaz",
+    "slug": "okaz",
+    "name": "Okaz",
+    "url": "https://www.okaz.com.sa/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Okaz Organization for Press and Publication",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Jeddah daily with national news, society and sport, one of the Kingdom's largest papers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.okaz.com.sa/",
+      "title": "الرئيسية - أخبار المملكة العربية السعودية، الشرق الأوسط والعالم"
+    }
+  },
+  {
+    "id": "sa-al-watan",
+    "slug": "al-watan",
+    "name": "Al Watan",
+    "url": "https://www.alwatan.com.sa/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Assir Establishment for Press and Publishing",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Abha-founded national daily with news, society and commentary on Saudi affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.alwatan.com.sa/",
+      "title": "الرئيسية - جريدة الوطن السعودية"
+    }
+  },
+  {
+    "id": "sa-al-jazirah",
+    "slug": "al-jazirah",
+    "name": "Al Jazirah",
+    "url": "https://www.al-jazirah.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Al Jazirah Corporation for Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Riyadh daily with national, regional and economic news and opinion columns."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.al-jazirah.com/",
+      "title": "Al-Jazirah Daily Newspaper صحيفة الجزيرة"
+    }
+  },
+  {
+    "id": "sa-sabq",
+    "slug": "sabq",
+    "name": "Sabq",
+    "url": "https://sabq.org/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sabq",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular Saudi news site with breaking national news, society and official announcements."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://sabq.org/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "sa-arab-news",
+    "slug": "arab-news",
+    "name": "Arab News",
+    "url": "https://www.arabnews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Saudi Research and Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language daily covering Saudi Arabia and the Middle East."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.arabnews.com/",
+      "title": "Arab News | Worldwide News, Latest Breaking News & Updates"
+    }
+  },
+  {
+    "id": "sa-saudi-gazette",
+    "slug": "saudi-gazette",
+    "name": "Saudi Gazette",
+    "url": "https://saudigazette.com.sa/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Okaz Organization for Press and Publication",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily covering the Kingdom and expatriate communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://saudigazette.com.sa/",
+      "title": "Home - Latest News from Saudi Arabia and the World"
+    }
+  },
+  {
+    "id": "sa-asharq-al-awsat",
+    "slug": "asharq-al-awsat",
+    "name": "Asharq Al-Awsat",
+    "url": "https://aawsat.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Saudi Research and Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Pan-Arab daily with Middle East politics and international news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://aawsat.com/",
+      "title": "الشرق الأوسط: تغطية شاملة لأخبار اليوم العربية والعالمية"
+    }
+  },
+  {
+    "id": "sa-al-arabiya",
+    "slug": "al-arabiya",
+    "name": "Al Arabiya",
+    "url": "https://www.alarabiya.net/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "MBC Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Pan-Arab news channel with regional politics and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.alarabiya.net/",
+      "title": "تم رفض الوصول"
+    }
+  },
+  {
+    "id": "sa-al-ekhbariya",
+    "slug": "al-ekhbariya",
+    "name": "Al Ekhbariya",
+    "url": "https://www.alekhbariya.net/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Saudi Broadcasting Authority",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State news channel with national news, official events and live government coverage."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Al_Ekhbariya"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.alekhbariya.net/",
+      "title": "الإخبارية نت"
+    }
+  },
+  {
+    "id": "sa-argaam",
+    "slug": "argaam",
+    "name": "Argaam",
+    "url": "https://www.argaam.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Argaam Investment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Financial portal with Saudi stock market data and company news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.argaam.com/",
+      "title": "أرقام : أخبار ومعلومات سوق الأسهم السعودي"
+    }
+  },
+  {
+    "id": "sa-al-eqtisadiah",
+    "slug": "al-eqtisadiah",
+    "name": "Al Eqtisadiah",
+    "url": "https://www.aleqt.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1992,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Saudi Research and Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily covering the Saudi economy, oil, markets and economic reform programs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aleqt.com/",
+      "title": "الاقتصادية - الموقع الرسمي لأخبار الاقتصاد والأسواق"
+    }
+  },
+  {
+    "id": "sa-asharq-business",
+    "slug": "asharq-business",
+    "name": "Asharq Business",
+    "url": "https://asharqbusiness.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "economy",
+      "broadcast"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Saudi Research and Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic business news channel and site produced in partnership with Bloomberg."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://asharqbusiness.com/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "sa-maaal",
+    "slug": "maaal",
+    "name": "Maaal",
+    "url": "https://maaal.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Maaal",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business newspaper covering Saudi markets, companies and the economy, mainly online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://maaal.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "sa-arriyadiyah",
+    "slug": "arriyadiyah",
+    "name": "Arriyadiyah",
+    "url": "https://www.arriyadiyah.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1987,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Saudi Research and Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily focused on the Saudi Pro League and Gulf football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.arriyadiyah.com/",
+      "title": "صحيفة الرياضية | الصفحة الرئيسية"
+    }
+  },
+  {
+    "id": "sa-al-madina",
+    "slug": "al-madina",
+    "name": "Al Madina",
+    "url": "https://www.al-madina.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Hejaz",
+    "founded_year": 1937,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Al Madina Press Establishment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Jeddah daily covering the Hejaz region, Makkah, Madinah and national news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.al-madina.com/",
+      "title": "جريدة المدينة - صحيفة المدينة"
+    }
+  },
+  {
+    "id": "sa-al-yaum",
+    "slug": "al-yaum",
+    "name": "Al Yaum",
+    "url": "https://www.alyaum.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Eastern Province",
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dar Al Yaum",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dammam daily covering the Eastern Province, its energy industry and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.alyaum.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "sa-al-bilad",
+    "slug": "al-bilad",
+    "name": "Al Bilad",
+    "url": "https://albiladdaily.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Makkah Province",
+    "founded_year": 1932,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Al Bilad Establishment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Jeddah daily and one of the oldest newspapers in the Kingdom, covering Makkah Province."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://albiladdaily.com/",
+      "title": "صحيفة البلاد – Albilad newspaper"
+    }
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "iso2": "BR",
+  "iso3": "BRA",
+  "slug": "brazil",
+  "name": {
+    "en": "Brazil"
+  },
+  "continent": "south-america",
+  "also_in": [],
+  "population": {
+    "value": 211900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "pt"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "AR",
+    "UY",
+    "PY",
+    "BO",
+    "PE",
+    "CO",
+    "VE",
+    "GY",
+    "SR",
+    "GF"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Brazil has the largest news market in Latin America, with media concentrated in a few large groups. Grupo Globo owns the most-watched television network, the O Globo newspaper, the g1 portal and the business daily Valor Econômico, while Folha de S.Paulo and O Estado de S. Paulo are the main national newspapers based in São Paulo. A public communications company, EBC, runs the Agência Brasil news agency and public television. Since the 2010s, independent digital newsrooms and fact-checking agencies have become important sources of investigative reporting and verification, especially around elections. Regional newspapers remain influential in states such as Rio Grande do Sul, Minas Gerais and Pernambuco. Major newspapers use metered paywalls, while portals such as g1 and UOL are free to read. Football coverage is a large segment of the market.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Brazil?",
+          "a": "The main national outlets in the directory include Folha de S.Paulo, O Globo, O Estado de S. Paulo, g1 and UOL. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Brazilian news sites are free to read?",
+          "a": "Free-to-read outlets include g1, UOL, Agência Brasil, Poder360 and CNN Brasil. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Brazilian outlets are publicly or state funded?",
+          "a": "Public-service outlets include Revista Pesquisa FAPESP. State-controlled outlets include Agência Brasil. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Brazil?",
+          "a": "Regional coverage in the directory comes from g1 (National with state editions), Zero Hora (GZH) (Rio Grande do Sul), Estado de Minas (Minas Gerais), Correio Braziliense (Distrito Federal) and Jornal do Commercio (Pernambuco). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets Brazilians rely on for national news: São Paulo and Rio de Janeiro dailies, large free portals and the federal public news agency. Each entry shows its paywall model and owner."
+        },
+        "politics": {
+          "intro": "Political coverage in Brazil is concentrated in Brasília, with national newspapers, specialized digital newsrooms and the public news agency following Congress, the presidency and the courts. The outlets below are ordered by editorial relevance."
+        },
+        "economy": {
+          "intro": "Business news in Brazil is led by a dedicated business daily and complemented by investment portals and business magazines that follow the stock exchange, interest rates and public finances."
+        },
+        "investigative": {
+          "intro": "Investigative and fact-checking work in Brazil comes largely from independent digital newsrooms and nonprofit agencies, with a strong focus on human rights, the environment and online disinformation."
+        },
+        "sports": {
+          "intro": "Brazilian sports media is dominated by football, with a large free portal from Grupo Globo, a traditional sports brand and broadcaster sites covering the Brasileirão, the national team and international competitions."
+        },
+        "regional": {
+          "intro": "Regional newspapers in Brazil remain influential in their states, often owned by local media groups. The outlets below cover Rio Grande do Sul, Minas Gerais, the Federal District, Pernambuco and Paraná."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

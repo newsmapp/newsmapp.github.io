@@ -1,0 +1,1272 @@
+[
+  {
+    "id": "kr-yonhap-news-agency",
+    "slug": "yonhap-news-agency",
+    "name": "Yonhap News Agency",
+    "url": "https://www.yna.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "News Agency Promotion Committee (majority)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Korea's main news agency, publicly funded, with national wires and North Korea coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yna.co.kr/",
+      "title": "연합뉴스"
+    }
+  },
+  {
+    "id": "kr-the-chosun-ilbo",
+    "slug": "the-chosun-ilbo",
+    "name": "The Chosun Ilbo",
+    "url": "https://www.chosun.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Chosun Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily with the largest circulation in Korea, covering politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.chosun.com/",
+      "title": "조선일보 - 1등 디지털뉴스"
+    }
+  },
+  {
+    "id": "kr-joongang-ilbo",
+    "slug": "joongang-ilbo",
+    "name": "JoongAng Ilbo",
+    "url": "https://www.joongang.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "JoongAng Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with politics, economy and international coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.joongang.co.kr/",
+      "title": "중앙일보"
+    }
+  },
+  {
+    "id": "kr-the-dong-a-ilbo",
+    "slug": "the-dong-a-ilbo",
+    "name": "The Dong-A Ilbo",
+    "url": "https://www.donga.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dong-A Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "One of Korea's oldest national dailies, covering politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.donga.com/",
+      "title": "동아일보"
+    }
+  },
+  {
+    "id": "kr-the-hankyoreh",
+    "slug": "the-hankyoreh",
+    "name": "The Hankyoreh",
+    "url": "https://www.hani.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 5,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Citizen and employee shareholders",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily founded with funds from citizen shareholders after democratization."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hani.co.kr/",
+      "title": "한겨레"
+    }
+  },
+  {
+    "id": "kr-kyunghyang-shinmun",
+    "slug": "kyunghyang-shinmun",
+    "name": "Kyunghyang Shinmun",
+    "url": "https://www.khan.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Employee shareholders",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Employee-owned national daily with politics, society and labor coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.khan.co.kr/",
+      "title": "경향신문"
+    }
+  },
+  {
+    "id": "kr-hankook-ilbo",
+    "slug": "hankook-ilbo",
+    "name": "Hankook Ilbo",
+    "url": "https://www.hankookilbo.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dongwha Enterprise",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily covering politics, society and culture, one of Korea's older newspapers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hankookilbo.com/",
+      "title": "세상을 보는 균형ㅣ한국일보"
+    }
+  },
+  {
+    "id": "kr-the-korea-herald",
+    "slug": "the-korea-herald",
+    "name": "The Korea Herald",
+    "url": "https://www.koreaherald.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1953,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Herald Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily covering Korean news for international readers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.koreaherald.com/",
+      "title": "The Korea Herald"
+    }
+  },
+  {
+    "id": "kr-kbs-news",
+    "slug": "kbs-news",
+    "name": "KBS News",
+    "url": "https://news.kbs.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1927,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Korean Broadcasting System",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Public broadcaster's news, with national bulletins and disaster coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://news.kbs.co.kr/",
+      "title": null
+    }
+  },
+  {
+    "id": "kr-mbc-news",
+    "slug": "mbc-news",
+    "name": "MBC News",
+    "url": "https://imnews.imbc.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Foundation for Broadcast Culture",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News from MBC, a public broadcaster funded by advertising, with evening newscasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://imnews.imbc.com/",
+      "title": "MBC NEWS"
+    }
+  },
+  {
+    "id": "kr-sbs-news",
+    "slug": "sbs-news",
+    "name": "SBS News",
+    "url": "https://news.sbs.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "SBS Media Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News from SBS, Korea's main commercial terrestrial broadcaster."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://news.sbs.co.kr/",
+      "title": "SBS 뉴스"
+    }
+  },
+  {
+    "id": "kr-jtbc-news",
+    "slug": "jtbc-news",
+    "name": "JTBC News",
+    "url": "https://news.jtbc.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "broadcast",
+      "investigative"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "JoongAng Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cable channel news known for investigative reports and evening newscasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://news.jtbc.co.kr/",
+      "title": "JTBC"
+    }
+  },
+  {
+    "id": "kr-ytn",
+    "slug": "ytn",
+    "name": "YTN",
+    "url": "https://www.ytn.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "YTN",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Korea's first 24-hour news channel with breaking news and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ytn.co.kr/",
+      "title": "YTN | 대한민국 24시간 뉴스채널"
+    }
+  },
+  {
+    "id": "kr-maeil-business-newspaper",
+    "slug": "maeil-business-newspaper",
+    "name": "Maeil Business Newspaper",
+    "url": "https://www.mk.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1966,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Maekyung Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading business daily covering markets, companies and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mk.co.kr/",
+      "title": "매일경제"
+    }
+  },
+  {
+    "id": "kr-the-korea-economic-daily",
+    "slug": "the-korea-economic-daily",
+    "name": "The Korea Economic Daily",
+    "url": "https://www.hankyung.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1964,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Hankyung",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with markets, real estate and corporate news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hankyung.com/",
+      "title": "한국경제"
+    }
+  },
+  {
+    "id": "kr-money-today",
+    "slug": "money-today",
+    "name": "Money Today",
+    "url": "https://www.mt.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Money Today Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Economic daily with stock market, startup and industry coverage, plus online news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.mt.co.kr/",
+      "title": "머니투데이 - 돈이 보이는 리얼타임 뉴스"
+    }
+  },
+  {
+    "id": "kr-seoul-economic-daily",
+    "slug": "seoul-economic-daily",
+    "name": "Seoul Economic Daily",
+    "url": "https://www.sedaily.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Seoul Economic Daily",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily covering finance, real estate, industry and economic policy in Korea."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sedaily.com/",
+      "title": "서울경제"
+    }
+  },
+  {
+    "id": "kr-newstapa",
+    "slug": "newstapa",
+    "name": "Newstapa",
+    "url": "https://newstapa.org/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Korea Center for Investigative Journalism",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Member-funded nonprofit newsroom for investigative journalism."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://newstapa.org/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "kr-sisain",
+    "slug": "sisain",
+    "name": "SisaIN",
+    "url": "https://www.sisain.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4,
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "SisaIN",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly current-affairs magazine with investigative and in-depth reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sisain.co.kr/",
+      "title": "시사IN"
+    }
+  },
+  {
+    "id": "kr-ohmynews",
+    "slug": "ohmynews",
+    "name": "OhmyNews",
+    "url": "https://www.ohmynews.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 8,
+      "general-news": 10
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "OhmyNews",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Pioneering citizen-journalism site covering politics and society."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ohmynews.com/",
+      "title": "오마이뉴스 - 모든 시민은 기자다"
+    }
+  },
+  {
+    "id": "kr-sports-chosun",
+    "slug": "sports-chosun",
+    "name": "Sports Chosun",
+    "url": "https://www.sportschosun.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Chosun Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily with baseball, football and entertainment news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sportschosun.com/",
+      "title": "스포츠조선 - 스포츠·엔터테인먼트 전문 미디어"
+    }
+  },
+  {
+    "id": "kr-sports-seoul",
+    "slug": "sports-seoul",
+    "name": "Sports Seoul",
+    "url": "https://www.sportsseoul.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sports Seoul",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Korea's first sports daily, covering KBO, K League and entertainment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sportsseoul.com/",
+      "title": "스포츠서울 - 스포츠·연예 뉴스 전문 미디어"
+    }
+  },
+  {
+    "id": "kr-ilgan-sports",
+    "slug": "ilgan-sports",
+    "name": "Ilgan Sports",
+    "url": "https://isplus.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1969,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "JoongAng Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily with KBO baseball, football, golf and entertainment coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://isplus.com/",
+      "title": "일간스포츠"
+    }
+  },
+  {
+    "id": "kr-osen",
+    "slug": "osen",
+    "name": "OSEN",
+    "url": "https://www.osen.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Chosun Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports and entertainment news site known for fast match reports and baseball coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.osen.co.kr/",
+      "title": "OSEN"
+    }
+  },
+  {
+    "id": "kr-zdnet-korea",
+    "slug": "zdnet-korea",
+    "name": "ZDNet Korea",
+    "url": "https://zdnet.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Meganews",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news site covering Korean IT, semiconductors and platforms."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://zdnet.co.kr/",
+      "title": "IT세상을 바꾸는 힘 지디넷코리아"
+    }
+  },
+  {
+    "id": "kr-electronic-times",
+    "slug": "electronic-times",
+    "name": "Electronic Times",
+    "url": "https://www.etnews.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1982,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Electronic Times",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology and electronics industry daily covering semiconductors, displays and IT policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.etnews.com/",
+      "title": "전자신문"
+    }
+  },
+  {
+    "id": "kr-dong-a-science",
+    "slug": "dong-a-science",
+    "name": "Dong-A Science",
+    "url": "https://www.dongascience.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Dong-A Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular science magazine and news site explaining research for Korean readers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dongascience.com/en",
+      "title": "DongA Science"
+    }
+  },
+  {
+    "id": "kr-busan-ilbo",
+    "slug": "busan-ilbo",
+    "name": "Busan Ilbo",
+    "url": "https://www.busan.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Busan",
+    "founded_year": 1946,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Busan Ilbo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Busan daily covering the port city and the southeast region of Korea."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "kr-kookje-shinmun",
+    "slug": "kookje-shinmun",
+    "name": "Kookje Shinmun",
+    "url": "https://www.kookje.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Busan",
+    "founded_year": 1947,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kookje Shinmun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Busan daily covering Busan and South Gyeongsang Province politics and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kookje.co.kr/",
+      "title": "부산의 대표 정론지, 국제신문"
+    }
+  },
+  {
+    "id": "kr-maeil-shinmun",
+    "slug": "maeil-shinmun",
+    "name": "Maeil Shinmun",
+    "url": "https://www.imaeil.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Daegu",
+    "founded_year": 1946,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Maeil Shinmun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daegu daily covering Daegu and North Gyeongsang Province politics and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.imaeil.com/",
+      "title": "매일신문 - 대한민국이 pick한 뉴스"
+    }
+  },
+  {
+    "id": "kr-kyeongin-ilbo",
+    "slug": "kyeongin-ilbo",
+    "name": "Kyeongin Ilbo",
+    "url": "https://www.kyeongin.com/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Gyeonggi",
+    "founded_year": 1960,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kyeongin Ilbo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily covering Gyeonggi Province and Incheon, the populous region around Seoul."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kyeongin.com/",
+      "title": "경인일보"
+    }
+  },
+  {
+    "id": "kr-kangwon-ilbo",
+    "slug": "kangwon-ilbo",
+    "name": "Kangwon Ilbo",
+    "url": "https://www.kwnews.co.kr/",
+    "rss_url": null,
+    "language": "ko",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Gangwon",
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Kangwon Ilbo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Chuncheon daily covering Gangwon Province politics, tourism and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kwnews.co.kr/",
+      "title": "강원일보"
+    }
+  }
+]

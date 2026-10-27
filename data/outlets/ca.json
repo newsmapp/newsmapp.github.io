@@ -1,0 +1,935 @@
+[
+  {
+    "id": "ca-cbc-news",
+    "slug": "cbc-news",
+    "name": "CBC News",
+    "url": "https://www.cbc.ca/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1936,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Canadian Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language service of the national public broadcaster, with news from every province."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cbc.ca/news",
+      "title": "CBC News - Latest Canada, World, Entertainment and Business News"
+    }
+  },
+  {
+    "id": "ca-the-globe-and-mail",
+    "slug": "the-globe-and-mail",
+    "name": "The Globe and Mail",
+    "url": "https://www.theglobeandmail.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1844,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The Woodbridge Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily of record known for federal politics, business and investigative reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theglobeandmail.com/",
+      "title": "The Globe and Mail: Canadian, World, Politics and Business News & Analysis"
+    }
+  },
+  {
+    "id": "ca-national-post",
+    "slug": "national-post",
+    "name": "National Post",
+    "url": "https://nationalpost.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Postmedia Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Toronto-based national daily with news, politics and a strong opinion section."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://nationalpost.com/",
+      "title": "Home | The National Post Home Page | National Post"
+    }
+  },
+  {
+    "id": "ca-toronto-star",
+    "slug": "toronto-star",
+    "name": "Toronto Star",
+    "url": "https://www.thestar.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "regional",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "regional": 1,
+      "investigative": 1
+    },
+    "region": "Ontario",
+    "founded_year": 1892,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nordstar Capital",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Canada's largest-circulation daily, covering Toronto, Ontario and national affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thestar.com/",
+      "title": "Breaking News - Headlines & Top Stories | The Star"
+    }
+  },
+  {
+    "id": "ca-the-canadian-press",
+    "slug": "the-canadian-press",
+    "name": "The Canadian Press",
+    "url": "https://www.thecanadianpress.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1917,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Canadian Press Enterprises",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National news agency supplying English and French wire copy to Canadian media."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thecanadianpress.com/",
+      "title": "The Canadian Press | Canada's Trusted News Leader"
+    }
+  },
+  {
+    "id": "ca-ctv-news",
+    "slug": "ctv-news",
+    "name": "CTV News",
+    "url": "https://www.ctvnews.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bell Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National private television news network with local stations across the country."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ctvnews.ca/",
+      "title": "CTV News – Breaking News and Video, Canada News Today"
+    }
+  },
+  {
+    "id": "ca-global-news",
+    "slug": "global-news",
+    "name": "Global News",
+    "url": "https://globalnews.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1974,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Corus Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news network and site with national, local and investigative coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://globalnews.ca/",
+      "title": "Global News | Breaking, Latest News and Video for Canada"
+    }
+  },
+  {
+    "id": "ca-radio-canada",
+    "slug": "radio-canada",
+    "name": "Radio-Canada",
+    "url": "https://ici.radio-canada.ca/info",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast",
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "general-news": 8,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1936,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Canadian Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "French-language arm of the public broadcaster, covering Quebec, Canada and the world."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ici.radio-canada.ca/info",
+      "title": "Nouvelles et actualités | Info | Radio-Canada"
+    }
+  },
+  {
+    "id": "ca-la-presse",
+    "slug": "la-presse",
+    "name": "La Presse",
+    "url": "https://www.lapresse.ca/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9,
+      "regional": 2
+    },
+    "region": "Quebec",
+    "founded_year": 1884,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Fiducie de soutien à La Presse",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Montreal-based French-language news site, free to read and run by a nonprofit trust."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lapresse.ca/",
+      "title": "LaPresse.ca | Actualités et Infos au Québec et dans le monde"
+    }
+  },
+  {
+    "id": "ca-le-devoir",
+    "slug": "le-devoir",
+    "name": "Le Devoir",
+    "url": "https://www.ledevoir.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5,
+      "general-news": 10
+    },
+    "region": null,
+    "founded_year": 1910,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "L'Imprimerie Populaire",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Montreal daily with in-depth political, cultural and social coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ledevoir.com/",
+      "title": "Le Devoir | Nouvelles, politique, économie, culture et chroniques"
+    }
+  },
+  {
+    "id": "ca-the-hill-times",
+    "slug": "the-hill-times",
+    "name": "The Hill Times",
+    "url": "https://www.hilltimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Hill Times Publishing",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ottawa newspaper focused on Parliament, the federal public service and lobbying."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hilltimes.com/",
+      "title": "People. Policy. Politics - The Hill Times"
+    }
+  },
+  {
+    "id": "ca-ipolitics",
+    "slug": "ipolitics",
+    "name": "iPolitics",
+    "url": "https://www.ipolitics.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Torstar",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription site covering federal politics, policy and Parliament Hill."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.ipolitics.ca/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ca-the-logic",
+    "slug": "the-logic",
+    "name": "The Logic",
+    "url": "https://thelogic.co/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "The Logic Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription newsroom on Canada's innovation economy, technology and policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thelogic.co/",
+      "title": "Home - The Logic"
+    }
+  },
+  {
+    "id": "ca-financial-post",
+    "slug": "financial-post",
+    "name": "Financial Post",
+    "url": "https://financialpost.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1907,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Postmedia Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business section of the National Post, covering markets, investing and companies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://financialpost.com/",
+      "title": "Home | Financial Post Home Page | Financial Post"
+    }
+  },
+  {
+    "id": "ca-bnn-bloomberg",
+    "slug": "bnn-bloomberg",
+    "name": "BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "broadcast"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4,
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bell Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business television channel and site with Canadian markets and investing news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.bnnbloomberg.ca/",
+      "title": "BNN Bloomberg - Canada Business News, TSX Today, Oil and Energy Prices"
+    }
+  },
+  {
+    "id": "ca-the-narwhal",
+    "slug": "the-narwhal",
+    "name": "The Narwhal",
+    "url": "https://thenarwhal.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "tech-science"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "The Narwhal News Society",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit investigative outlet on Canada's natural world, energy and climate."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thenarwhal.ca/",
+      "title": "The Narwhal | News on Climate Change, Environmental Issues in Canada"
+    }
+  },
+  {
+    "id": "ca-tsn",
+    "slug": "tsn",
+    "name": "TSN",
+    "url": "https://www.tsn.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 1984,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bell Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Canada's leading sports network, with hockey, CFL and international sports coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tsn.ca/",
+      "title": "TSN - Canada's Sports Leader"
+    }
+  },
+  {
+    "id": "ca-sportsnet",
+    "slug": "sportsnet",
+    "name": "Sportsnet",
+    "url": "https://www.sportsnet.ca/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 7
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Rogers Sports & Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports network and site with NHL, MLB and NBA coverage from a Canadian angle."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sportsnet.ca/",
+      "title": "News, Scores and Live Streaming - Sportsnet.ca"
+    }
+  },
+  {
+    "id": "ca-rds",
+    "slug": "rds",
+    "name": "RDS",
+    "url": "https://www.rds.ca/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bell Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language sports network, home of Montreal Canadiens coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.rds.ca/",
+      "title": "RDS - Le sport sans limites"
+    }
+  },
+  {
+    "id": "ca-vancouver-sun",
+    "slug": "vancouver-sun",
+    "name": "Vancouver Sun",
+    "url": "https://vancouversun.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "British Columbia",
+    "founded_year": 1912,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Postmedia Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Vancouver daily covering British Columbia politics, business and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://vancouversun.com/",
+      "title": "Home | Vancouver Sun"
+    }
+  },
+  {
+    "id": "ca-calgary-herald",
+    "slug": "calgary-herald",
+    "name": "Calgary Herald",
+    "url": "https://calgaryherald.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Alberta",
+    "founded_year": 1883,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Postmedia Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Calgary daily covering Alberta politics, energy and local news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://calgaryherald.com/",
+      "title": "Home | Calgary Herald"
+    }
+  },
+  {
+    "id": "ca-winnipeg-free-press",
+    "slug": "winnipeg-free-press",
+    "name": "Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Manitoba",
+    "founded_year": 1872,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "FP Canadian Newspapers LP",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Winnipeg daily covering Manitoba and the Prairies."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.winnipegfreepress.com/",
+      "title": "Winnipeg Free Press – Breaking News, Sports, Manitoba, Canada"
+    }
+  },
+  {
+    "id": "ca-montreal-gazette",
+    "slug": "montreal-gazette",
+    "name": "Montreal Gazette",
+    "url": "https://montrealgazette.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Quebec",
+    "founded_year": 1778,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Postmedia Network",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Montreal's English-language daily, one of the oldest newspapers in North America."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://montrealgazette.com/",
+      "title": "Montreal Gazette | Montreal News, Stories and Headlines"
+    }
+  }
+]

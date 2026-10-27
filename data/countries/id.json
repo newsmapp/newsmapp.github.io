@@ -1,0 +1,70 @@
+{
+  "iso2": "ID",
+  "iso3": "IDN",
+  "slug": "indonesia",
+  "name": {
+    "en": "Indonesia"
+  },
+  "continent": "asia",
+  "also_in": [],
+  "population": {
+    "value": 283500000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "id"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "MY",
+    "SG",
+    "TL",
+    "PG",
+    "PH",
+    "AU"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Indonesia's news market expanded rapidly after the end of the New Order in 1998, and it is now one of the largest in Southeast Asia. Major media groups such as Kompas Gramedia, CT Corp, Media Group and Emtek own newspapers, television channels and online portals. Kompas is the national newspaper of reference, Tempo is known for investigative reporting, and detikcom pioneered online news. Antara is the state news agency, while TVRI and RRI are the public television and radio broadcasters. The country has a large regional press across its many islands, including networks of local news sites. Fact-checking organizations work to counter hoaxes that spread on social media and messaging apps. Most news sites are free to read and supported by advertising. Football and badminton dominate sports coverage.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Indonesia?",
+          "a": "The main national outlets in the directory include Kompas, Kompas.com, Tempo, detikcom and Antara. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Indonesian news sites are free to read?",
+          "a": "Free-to-read outlets include Kompas.com, detikcom, Antara, Republika and Media Indonesia. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Indonesian outlets are publicly or state funded?",
+          "a": "Public-service outlets include TVRI and RRI. State-controlled outlets include Antara. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Indonesia?",
+          "a": "Regional coverage in the directory comes from RRI (National with regional stations), Jawa Pos (East Java), Pikiran Rakyat (West Java), Suara Merdeka (Central Java) and Bali Post (Bali). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Indonesia comes from a newspaper of reference, large online portals, the state news agency and an English-language daily. Paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Indonesian business journalism follows commodities, banking, the stock exchange and the digital economy through business dailies, a business news channel and data-driven outlets."
+        },
+        "sports": {
+          "intro": "Indonesian sports media focuses on football and badminton, with sports portals from the country's major media groups."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in Indonesia comes from private news channels owned by large media groups and the public television and radio broadcasters."
+        },
+        "regional": {
+          "intro": "Regional outlets cover East Java, West Java, Central Java and Bali, alongside a national network of local news sites."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

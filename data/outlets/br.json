@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "br-folha-de-s-paulo",
+    "slug": "folha-de-s-paulo",
+    "name": "Folha de S.Paulo",
+    "url": "https://www.folha.uol.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1921,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Folha",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "São Paulo-based national daily known for coverage of federal politics and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.folha.uol.com.br/",
+      "title": "Notícias de hoje do Brasil e do Mundo | Folha de S.Paulo"
+    }
+  },
+  {
+    "id": "br-o-globo",
+    "slug": "o-globo",
+    "name": "O Globo",
+    "url": "https://oglobo.globo.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1925,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Rio de Janeiro daily of Grupo Globo with national politics, Rio news and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://oglobo.globo.com/",
+      "title": "O GLOBO | Confira as principais notícias do Brasil e do mundo"
+    }
+  },
+  {
+    "id": "br-o-estado-de-s-paulo",
+    "slug": "o-estado-de-s-paulo",
+    "name": "O Estado de S. Paulo",
+    "url": "https://www.estadao.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3,
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1875,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo Estado",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Traditional São Paulo daily with national politics, economy and long-form reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.estadao.com.br/",
+      "title": "Estadão | As Últimas Notícias do Brasil e do Mundo - Estadão"
+    }
+  },
+  {
+    "id": "br-g1",
+    "slug": "g1",
+    "name": "g1",
+    "url": "https://g1.globo.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "regional": 1
+    },
+    "region": "National with state editions",
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Globo's free news portal with national headlines and local editions for every state."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://g1.globo.com/",
+      "title": "g1 - O portal de notícias da Globo"
+    }
+  },
+  {
+    "id": "br-uol",
+    "slug": "uol",
+    "name": "UOL",
+    "url": "https://noticias.uol.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Folha",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Large Brazilian portal with national news, politics, columns and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://noticias.uol.com.br/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "br-agencia-brasil",
+    "slug": "agencia-brasil",
+    "name": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Empresa Brasil de Comunicação (federal government)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Federal public news agency publishing free-to-reuse reporting on government and society."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Empresa_Brasil_de_Comunica%C3%A7%C3%A3o"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://agenciabrasil.ebc.com.br/",
+      "title": "Agência Brasil | Últimas notícias do Brasil e do mundo"
+    }
+  },
+  {
+    "id": "br-poder360",
+    "slug": "poder360",
+    "name": "Poder360",
+    "url": "https://www.poder360.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Poder360",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brasília-based digital newsroom tracking Congress, the presidency and opinion polls."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.poder360.com.br/",
+      "title": "Poder360 | Notícias de interesse público e relevância jornalística."
+    }
+  },
+  {
+    "id": "br-cnn-brasil",
+    "slug": "cnn-brasil",
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Novus Mídia (CNN licensee)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brazilian CNN licensee with 24-hour news, politics and business coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.cnnbrasil.com.br/",
+      "title": "CNN Brasil | Notícias Ao Vivo do Brasil e do Mundo"
+    }
+  },
+  {
+    "id": "br-valor-economico",
+    "slug": "valor-economico",
+    "name": "Valor Econômico",
+    "url": "https://valor.globo.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Brazil's leading business daily covering markets, companies and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "br-infomoney",
+    "slug": "infomoney",
+    "name": "InfoMoney",
+    "url": "https://www.infomoney.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "XP Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Investing and markets site with stock coverage, personal finance and economic news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.infomoney.com.br/",
+      "title": "InfoMoney - Informações que valem dinheiro - InfoMoney"
+    }
+  },
+  {
+    "id": "br-exame",
+    "slug": "exame",
+    "name": "Exame",
+    "url": "https://exame.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "BTG Pactual",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine covering companies, careers, investing and technology."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://exame.com/",
+      "title": "Exame | Notícias, Negócios, Economia, Carreira e mais"
+    }
+  },
+  {
+    "id": "br-agencia-publica",
+    "slug": "agencia-publica",
+    "name": "Agência Pública",
+    "url": "https://apublica.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Agência Pública",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative agency covering human rights, environment and power in Brazil."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://apublica.org/",
+      "title": "Agência Pública: 15 anos de jornalismo investigativo no Brasil"
+    }
+  },
+  {
+    "id": "br-piaui",
+    "slug": "piaui",
+    "name": "piauí",
+    "url": "https://piaui.uol.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 7
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Editora Alvinegra",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Monthly magazine of long-form reporting, profiles and narrative journalism on Brazil."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://piaui.uol.com.br/",
+      "title": "revista piauí"
+    }
+  },
+  {
+    "id": "br-agencia-lupa",
+    "slug": "agencia-lupa",
+    "name": "Agência Lupa",
+    "url": "https://www.agencialupa.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Agência Lupa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brazil's first dedicated fact-checking agency, verifying claims by politicians and online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.agencialupa.org/",
+      "title": "Lupa • Decidir começa com se informar"
+    }
+  },
+  {
+    "id": "br-aos-fatos",
+    "slug": "aos-fatos",
+    "name": "Aos Fatos",
+    "url": "https://www.aosfatos.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Aos Fatos",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking platform tracking political claims and online disinformation in Brazil."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aosfatos.org/",
+      "title": "Aos Fatos | Valorize o que é real"
+    }
+  },
+  {
+    "id": "br-the-intercept-brasil",
+    "slug": "the-intercept-brasil",
+    "name": "The Intercept Brasil",
+    "url": "https://www.intercept.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "The Intercept Brasil",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent investigative outlet focused on corruption, security and human rights."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.intercept.com.br/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "br-ge",
+    "slug": "ge",
+    "name": "ge",
+    "url": "https://ge.globo.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Globo's sports portal with live football, Brasileirão coverage and Olympic sports."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ge.globo.com/",
+      "title": "ge.globo - É esporte sempre"
+    }
+  },
+  {
+    "id": "br-lance",
+    "slug": "lance",
+    "name": "Lance!",
+    "url": "https://www.lance.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Lance",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports news brand focused on Brazilian football clubs, transfers and results."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.lance.com.br/",
+      "title": "LANCE! Notícias e resultados de futebol e outros esportes"
+    }
+  },
+  {
+    "id": "br-espn-brasil",
+    "slug": "espn-brasil",
+    "name": "ESPN Brasil",
+    "url": "https://www.espn.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Walt Disney Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brazilian edition of ESPN with football, NBA, NFL and multi-sport coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.espn.com.br/",
+      "title": "ESPN Brasil - Tudo Pelo Esporte"
+    }
+  },
+  {
+    "id": "br-uol-esporte",
+    "slug": "uol-esporte",
+    "name": "UOL Esporte",
+    "url": "https://www.uol.com.br/esporte/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Folha",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports section of UOL with football news, columnists and live match coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.uol.com.br/esporte/",
+      "title": "UOL Esporte - Acompanhe ao vivo os principais eventos esportivos no Brasil e do mundo - UOL Esporte"
+    }
+  },
+  {
+    "id": "br-tv-globo-jornal-nacional",
+    "slug": "tv-globo-jornal-nacional",
+    "name": "TV Globo / Jornal Nacional",
+    "url": "https://g1.globo.com/jornal-nacional/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1969,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brazil's most-watched evening newscast, broadcast nationally by TV Globo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://g1.globo.com/jornal-nacional/",
+      "title": "Jornal Nacional"
+    }
+  },
+  {
+    "id": "br-band-jornalismo",
+    "slug": "band-jornalismo",
+    "name": "Band Jornalismo",
+    "url": "https://www.band.uol.com.br/noticias",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Bandeirantes",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News division of the Bandeirantes network with TV, radio and online coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "br-radio-cbn",
+    "slug": "radio-cbn",
+    "name": "Rádio CBN",
+    "url": "https://cbn.globo.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Grupo Globo",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "All-news radio network with live bulletins, interviews and commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://cbn.globo.com/",
+      "title": "CBN | As principais notícias do Brasil e do Mundo"
+    }
+  },
+  {
+    "id": "br-tecnoblog",
+    "slug": "tecnoblog",
+    "name": "Tecnoblog",
+    "url": "https://tecnoblog.net/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Tecnoblog",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent technology site covering gadgets, telecom, apps and digital policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tecnoblog.net/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "br-olhar-digital",
+    "slug": "olhar-digital",
+    "name": "Olhar Digital",
+    "url": "https://olhardigital.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Olhar Digital",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology and science news site with consumer tech, space and innovation coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://olhardigital.com.br/",
+      "title": "Olhar Digital - O futuro passa primeiro aqui"
+    }
+  },
+  {
+    "id": "br-revista-pesquisa-fapesp",
+    "slug": "revista-pesquisa-fapesp",
+    "name": "Revista Pesquisa FAPESP",
+    "url": "https://revistapesquisa.fapesp.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "São Paulo Research Foundation (FAPESP)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Science magazine from São Paulo's research foundation, covering Brazilian research."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://revistapesquisa.fapesp.br/",
+      "title": "Revista Pesquisa FAPESP"
+    }
+  },
+  {
+    "id": "br-zero-hora-gzh",
+    "slug": "zero-hora-gzh",
+    "name": "Zero Hora (GZH)",
+    "url": "https://gauchazh.clicrbs.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Rio Grande do Sul",
+    "founded_year": 1964,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo RBS",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Porto Alegre daily covering Rio Grande do Sul politics, economy and football."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gauchazh.clicrbs.com.br/",
+      "title": "GZH - notícias, porto alegre, grêmio, inter, colunistas, jogos ao vivo e mais"
+    }
+  },
+  {
+    "id": "br-estado-de-minas",
+    "slug": "estado-de-minas",
+    "name": "Estado de Minas",
+    "url": "https://www.em.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Minas Gerais",
+    "founded_year": 1928,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Diários Associados",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Belo Horizonte daily covering Minas Gerais politics, economy and local life."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.em.com.br/",
+      "title": "Estado de Minas: notícias e análises de MG, Brasil e do mundo"
+    }
+  },
+  {
+    "id": "br-correio-braziliense",
+    "slug": "correio-braziliense",
+    "name": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional",
+      "politics"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4,
+      "politics": 8
+    },
+    "region": "Distrito Federal",
+    "founded_year": 1960,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Diários Associados",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brasília daily covering the Federal District and the federal government."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.correiobraziliense.com.br/",
+      "title": "Correio Braziliense: notícias, análises e vídeos do DF, do Brasil e do mundo"
+    }
+  },
+  {
+    "id": "br-jornal-do-commercio",
+    "slug": "jornal-do-commercio",
+    "name": "Jornal do Commercio",
+    "url": "https://jc.uol.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Pernambuco",
+    "founded_year": 1919,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sistema Jornal do Commercio de Comunicação",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Recife daily covering Pernambuco politics, economy and the wider Northeast region."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://jc.uol.com.br/",
+      "title": "JC - Notícias, entretenimento, esportes e vídeos sobre Pernambuco, o Brasil e o mundo"
+    }
+  },
+  {
+    "id": "br-gazeta-do-povo",
+    "slug": "gazeta-do-povo",
+    "name": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional",
+      "politics"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6,
+      "politics": 9
+    },
+    "region": "Paraná",
+    "founded_year": 1919,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Grupo GRPCom",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Curitiba-based outlet with Paraná news and national political commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.gazetadopovo.com.br/",
+      "title": "Gazeta do Povo | Últimas notícias do Brasil e do Mundo"
+    }
+  }
+]

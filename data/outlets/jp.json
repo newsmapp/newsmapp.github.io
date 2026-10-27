@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "jp-nhk-news",
+    "slug": "nhk-news",
+    "name": "NHK News",
+    "url": "https://www3.nhk.or.jp/news/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1926,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Japan Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Japan's public broadcaster with national news, disaster alerts and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "jp-the-asahi-shimbun",
+    "slug": "the-asahi-shimbun",
+    "name": "The Asahi Shimbun",
+    "url": "https://www.asahi.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1879,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Asahi Shimbun Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Major national daily known for politics, society and investigative reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.asahi.com/",
+      "title": "朝日新聞：朝日新聞社のニュースサイト"
+    }
+  },
+  {
+    "id": "jp-the-yomiuri-shimbun",
+    "slug": "the-yomiuri-shimbun",
+    "name": "The Yomiuri Shimbun",
+    "url": "https://www.yomiuri.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1874,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Yomiuri Shimbun Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National daily with the largest print circulation in the world."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.yomiuri.co.jp/",
+      "title": "読売新聞 : きょうの最新ニュース・速報：発行部数No.1"
+    }
+  },
+  {
+    "id": "jp-the-mainichi",
+    "slug": "the-mainichi",
+    "name": "The Mainichi",
+    "url": "https://mainichi.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1872,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Mainichi Shimbun Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Japan's oldest national daily, with politics, society and culture coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://mainichi.jp/",
+      "title": "毎日新聞デジタル | 毎日新聞のニュースサイト"
+    }
+  },
+  {
+    "id": "jp-the-sankei-shimbun",
+    "slug": "the-sankei-shimbun",
+    "name": "The Sankei Shimbun",
+    "url": "https://www.sankei.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1933,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Fujisankei Communications Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with politics, security and national affairs coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sankei.com/",
+      "title": "産経ニュース"
+    }
+  },
+  {
+    "id": "jp-kyodo-news",
+    "slug": "kyodo-news",
+    "name": "Kyodo News",
+    "url": "https://www.kyodo.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "Kyodo News (member cooperative)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit cooperative news agency serving Japanese newspapers and broadcasters."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kyodo.co.jp/",
+      "title": "株式会社 共同通信社 ニュースサイト"
+    }
+  },
+  {
+    "id": "jp-jiji-press",
+    "slug": "jiji-press",
+    "name": "Jiji Press",
+    "url": "https://www.jiji.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 6,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Jiji Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News agency with fast political, economic and market wires for Japanese media and businesses."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.jiji.com/",
+      "title": "時事ドットコム：時事通信社が運営するニュースサイト"
+    }
+  },
+  {
+    "id": "jp-the-japan-times",
+    "slug": "the-japan-times",
+    "name": "The Japan Times",
+    "url": "https://www.japantimes.co.jp/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1897,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "News2u Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Japan's oldest English-language daily, covering Japan for international readers."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.japantimes.co.jp/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "jp-nikkei",
+    "slug": "nikkei",
+    "name": "Nikkei",
+    "url": "https://www.nikkei.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1876,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Nikkei Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Japan's leading business daily and publisher of the Nikkei stock index."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nikkei.com/",
+      "title": "日本経済新聞 - ニュース・速報 最新情報"
+    }
+  },
+  {
+    "id": "jp-toyo-keizai-online",
+    "slug": "toyo-keizai-online",
+    "name": "Toyo Keizai Online",
+    "url": "https://toyokeizai.net/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1895,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Toyo Keizai",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business publisher's site with corporate analysis, careers and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://toyokeizai.net/",
+      "title": "東洋経済オンライン | ふれるたび、視点がふえる"
+    }
+  },
+  {
+    "id": "jp-diamond-online",
+    "slug": "diamond-online",
+    "name": "Diamond Online",
+    "url": "https://diamond.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1913,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Diamond Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine site covering companies, management and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://diamond.jp/",
+      "title": "ダイヤモンド・オンライン"
+    }
+  },
+  {
+    "id": "jp-newspicks",
+    "slug": "newspicks",
+    "name": "NewsPicks",
+    "url": "https://newspicks.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Uzabase",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news platform with original reporting and expert commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://newspicks.com/",
+      "title": "NewsPicks | 経済を、もっとおもしろく。"
+    }
+  },
+  {
+    "id": "jp-tbs-news-dig",
+    "slug": "tbs-news-dig",
+    "name": "TBS News Dig",
+    "url": "https://newsdig.tbs.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1955,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TBS Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News platform of the TBS network and its regional JNN affiliates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://newsdig.tbs.co.jp/",
+      "title": "TBS NEWS DIG | TBS/JNNのニュースサイト"
+    }
+  },
+  {
+    "id": "jp-nippon-tv-news",
+    "slug": "nippon-tv-news",
+    "name": "Nippon TV News",
+    "url": "https://news.ntv.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1953,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nippon Television Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News from Nippon TV, Japan's first commercial broadcaster, and its NNN affiliate network."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://news.ntv.co.jp/",
+      "title": "日テレNEWS NNN｜日本テレビ系NNN30局のニュースサイト"
+    }
+  },
+  {
+    "id": "jp-fnn-prime-online",
+    "slug": "fnn-prime-online",
+    "name": "FNN Prime Online",
+    "url": "https://www.fnn.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1966,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Fuji Media Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the Fuji News Network and its affiliated stations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.fnn.jp/",
+      "title": "FNNプライムオンライン｜フジテレビ系FNN28局のニュースサイト"
+    }
+  },
+  {
+    "id": "jp-tv-asahi-news",
+    "slug": "tv-asahi-news",
+    "name": "TV Asahi News",
+    "url": "https://news.tv-asahi.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "TV Asahi Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News from TV Asahi and the ANN network, with national bulletins and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 406,
+      "final_url": "https://news.tv-asahi.co.jp/",
+      "title": null
+    }
+  },
+  {
+    "id": "jp-tansa",
+    "slug": "tansa",
+    "name": "Tansa",
+    "url": "https://tansajp.org/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Tansa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative newsroom reporting on power and accountability in Japan."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://tansajp.org/",
+      "title": "Tansa | 探査報道に特化したジャーナリズム組織"
+    }
+  },
+  {
+    "id": "jp-bunshun-online",
+    "slug": "bunshun-online",
+    "name": "Bunshun Online",
+    "url": "https://bunshun.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Bungeishunju",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Site of the weekly Shukan Bunshun, known for political and corporate scoops."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://bunshun.jp/",
+      "title": "文春オンライン | 世の中の「ほんとう」がわかります"
+    }
+  },
+  {
+    "id": "jp-japan-fact-check-center",
+    "slug": "japan-fact-check-center",
+    "name": "Japan Fact-check Center",
+    "url": "https://www.factcheckcenter.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2022,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Japan Fact-check Center",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit fact-checking organization verifying claims circulating online."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.factcheckcenter.jp/",
+      "title": "日本ファクトチェックセンター (JFC)"
+    }
+  },
+  {
+    "id": "jp-nikkan-sports",
+    "slug": "nikkan-sports",
+    "name": "Nikkan Sports",
+    "url": "https://www.nikkansports.com/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nikkan Sports News",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports daily with baseball, sumo, soccer and entertainment news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nikkansports.com/",
+      "title": "日刊スポーツ : nikkansports.com"
+    }
+  },
+  {
+    "id": "jp-sports-nippon",
+    "slug": "sports-nippon",
+    "name": "Sports Nippon",
+    "url": "https://www.sponichi.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1949,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sports Nippon Newspapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily affiliated with the Mainichi, strong on professional baseball."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sponichi.co.jp/",
+      "title": "スポニチ Sponichi Annex"
+    }
+  },
+  {
+    "id": "jp-sports-hochi",
+    "slug": "sports-hochi",
+    "name": "Sports Hochi",
+    "url": "https://hochi.news/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1872,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Hochi Shimbun (Yomiuri group)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily of the Yomiuri group with Yomiuri Giants and sumo coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://hochi.news/",
+      "title": "スポーツ報知：報知新聞社のスポーツ&芸能ニュースサイト"
+    }
+  },
+  {
+    "id": "jp-number-web",
+    "slug": "number-web",
+    "name": "Number Web",
+    "url": "https://number.bunshun.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bungeishunju",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Site of Sports Graphic Number, known for long-form sports writing."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://number.bunshun.jp/",
+      "title": "Number Web - スポーツ総合雑誌ナンバー"
+    }
+  },
+  {
+    "id": "jp-itmedia",
+    "slug": "itmedia",
+    "name": "ITmedia",
+    "url": "https://www.itmedia.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ITmedia Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Technology news network covering IT, business tech and consumer devices."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.itmedia.co.jp/",
+      "title": "IT総合情報ポータル「ITmedia」Home"
+    }
+  },
+  {
+    "id": "jp-impress-watch",
+    "slug": "impress-watch",
+    "name": "Impress Watch",
+    "url": "https://www.watch.impress.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Impress Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Family of technology news sites on PCs, mobile, AV and games."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.watch.impress.co.jp/",
+      "title": "Impress Watch - くらしを変えるテクノロジー"
+    }
+  },
+  {
+    "id": "jp-gigazine",
+    "slug": "gigazine",
+    "name": "GIGAZINE",
+    "url": "https://gigazine.net/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "OSA Inc.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular Japanese tech and science news site with hands-on reviews and internet culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://gigazine.net/",
+      "title": "GIGAZINE（ギガジン）"
+    }
+  },
+  {
+    "id": "jp-tokyo-shimbun",
+    "slug": "tokyo-shimbun",
+    "name": "Tokyo Shimbun",
+    "url": "https://www.tokyo-np.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "regional",
+      "politics"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "politics": 7
+    },
+    "region": "Tokyo",
+    "founded_year": 1884,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Chunichi Shimbun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tokyo daily of the Chunichi group with metropolitan and political coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tokyo-np.co.jp/",
+      "title": "東京新聞デジタル：東京新聞のニュースサイト"
+    }
+  },
+  {
+    "id": "jp-chunichi-shimbun",
+    "slug": "chunichi-shimbun",
+    "name": "Chunichi Shimbun",
+    "url": "https://www.chunichi.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Aichi",
+    "founded_year": 1942,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Chunichi Shimbun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nagoya-based daily covering the Chubu region, with one of Japan's largest circulations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.chunichi.co.jp/",
+      "title": "東海・中部地方のニュースなら「中日新聞Web」"
+    }
+  },
+  {
+    "id": "jp-hokkaido-shimbun",
+    "slug": "hokkaido-shimbun",
+    "name": "Hokkaido Shimbun",
+    "url": "https://www.hokkaido-np.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Hokkaido",
+    "founded_year": 1942,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Hokkaido Shimbun Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sapporo daily and the leading newspaper in Hokkaido, with regional editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.hokkaido-np.co.jp/",
+      "title": "北海道新聞デジタル"
+    }
+  },
+  {
+    "id": "jp-nishinippon-shimbun",
+    "slug": "nishinippon-shimbun",
+    "name": "Nishinippon Shimbun",
+    "url": "https://www.nishinippon.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Fukuoka",
+    "founded_year": 1877,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nishinippon Shimbun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fukuoka daily covering Kyushu's politics, economy and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nishinippon.co.jp/",
+      "title": "福岡のニュースなら【西日本新聞me】"
+    }
+  },
+  {
+    "id": "jp-kobe-shimbun",
+    "slug": "kobe-shimbun",
+    "name": "Kobe Shimbun",
+    "url": "https://www.kobe-np.co.jp/",
+    "rss_url": null,
+    "language": "ja",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Hyogo",
+    "founded_year": 1898,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Kobe Shimbun",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kobe daily covering Hyogo Prefecture, its port city and surrounding communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kobe-np.co.jp/",
+      "title": "神戸新聞NEXT"
+    }
+  }
+]

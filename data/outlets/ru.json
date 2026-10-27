@@ -1,0 +1,1231 @@
+[
+  {
+    "id": "ru-tass",
+    "slug": "tass",
+    "name": "TASS",
+    "url": "https://tass.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1904,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Russian government",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State news agency with official statements, national wires and world news."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/TASS"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://tass.ru/",
+      "title": null
+    }
+  },
+  {
+    "id": "ru-ria-novosti",
+    "slug": "ria-novosti",
+    "name": "RIA Novosti",
+    "url": "https://ria.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1941,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Rossiya Segodnya (state)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State news agency owned by Rossiya Segodnya, with national and world news."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/RIA_Novosti"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ria.ru/",
+      "title": "РИА Новости - события в Москве, России и мире сегодня: темы дня, фото, видео, инфографика, радио"
+    }
+  },
+  {
+    "id": "ru-interfax",
+    "slug": "interfax",
+    "name": "Interfax",
+    "url": "https://www.interfax.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Interfax Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Private news agency with fast wires on politics, business and energy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.interfax.ru/",
+      "title": "Интерфакс: новости"
+    }
+  },
+  {
+    "id": "ru-kommersant",
+    "slug": "kommersant",
+    "name": "Kommersant",
+    "url": "https://www.kommersant.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news",
+      "economy",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "economy": 2,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1909,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "USM Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Business daily with national politics, companies and markets coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kommersant.ru/",
+      "title": "Новости России и мира сегодня — последние новости на Коммерсантъ"
+    }
+  },
+  {
+    "id": "ru-rbc",
+    "slug": "rbc",
+    "name": "RBC",
+    "url": "https://www.rbc.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "economy",
+      "general-news"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3,
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "ESN Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news group with markets, companies, politics and a TV channel."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 401,
+      "final_url": "https://www.rbc.ru/",
+      "title": null
+    }
+  },
+  {
+    "id": "ru-vedomosti",
+    "slug": "vedomosti",
+    "name": "Vedomosti",
+    "url": "https://www.vedomosti.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Vedomosti",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily covering companies, markets and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.vedomosti.ru/",
+      "title": "«Ведомости» — ведущее деловое издание России"
+    }
+  },
+  {
+    "id": "ru-forbes-russia",
+    "slug": "forbes-russia",
+    "name": "Forbes Russia",
+    "url": "https://www.forbes.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Forbes licensee",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Russian edition of Forbes covering business, wealth and rankings."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.forbes.ru/",
+      "title": null
+    }
+  },
+  {
+    "id": "ru-izvestia",
+    "slug": "izvestia",
+    "name": "Izvestia",
+    "url": "https://iz.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1917,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "National Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National daily with politics, society and international news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://iz.ru/",
+      "title": "Проверка браузера перед переходом на сайт"
+    }
+  },
+  {
+    "id": "ru-rossiyskaya-gazeta",
+    "slug": "rossiyskaya-gazeta",
+    "name": "Rossiyskaya Gazeta",
+    "url": "https://rg.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Government of Russia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Official government daily that publishes laws and decrees when they take effect."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Rossiyskaya_Gazeta"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://rg.ru/",
+      "title": "Российская газета – последние новости и события России и мира сегодня"
+    }
+  },
+  {
+    "id": "ru-komsomolskaya-pravda",
+    "slug": "komsomolskaya-pravda",
+    "name": "Komsomolskaya Pravda",
+    "url": "https://www.kp.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1925,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ESN Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular national tabloid with news, entertainment and regional editions."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.kp.ru/",
+      "title": "Новости России и мира. Комсомольская Правда в РФ - газета, радио и сайт // WWW.KP.RU - KP.RU"
+    }
+  },
+  {
+    "id": "ru-meduza",
+    "slug": "meduza",
+    "name": "Meduza",
+    "url": "https://meduza.io/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "general-news",
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9,
+      "investigative": 1,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Meduza (based in Riga)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Independent Russian-language news site based in Latvia, with news and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://meduza.io/",
+      "title": "Meduza — Новости"
+    }
+  },
+  {
+    "id": "ru-novaya-gazeta-europe",
+    "slug": "novaya-gazeta-europe",
+    "name": "Novaya Gazeta Europe",
+    "url": "https://novayagazeta.eu/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2022,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Novaya Gazeta Europe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Exile newsroom of Novaya Gazeta journalists, focused on investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://novayagazeta.eu/",
+      "title": "Новая газета Европа"
+    }
+  },
+  {
+    "id": "ru-the-insider",
+    "slug": "the-insider",
+    "name": "The Insider",
+    "url": "https://theins.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Insider",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent investigative outlet known for open-source investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://theins.ru/",
+      "title": "Главные новости, расследования, фактчекинг — The Insider"
+    }
+  },
+  {
+    "id": "ru-istories",
+    "slug": "istories",
+    "name": "iStories",
+    "url": "https://istories.media/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "iStories",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent investigative newsroom on corruption and power in Russia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://istories.media/",
+      "title": "Важные истории"
+    }
+  },
+  {
+    "id": "ru-proekt",
+    "slug": "proekt",
+    "name": "Proekt",
+    "url": "https://www.proekt.media/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Proekt",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent investigative outlet on the Russian elite and state."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.proekt.media/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ru-channel-one",
+    "slug": "channel-one",
+    "name": "Channel One",
+    "url": "https://www.1tv.ru/news",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Russian government (majority)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Main federal TV channel, home of the evening news program Vremya."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Channel_One_Russia"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.1tv.ru/news",
+      "title": "Новости. Первый канал"
+    }
+  },
+  {
+    "id": "ru-vesti",
+    "slug": "vesti",
+    "name": "Vesti",
+    "url": "https://www.vesti.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "VGTRK",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News brand of state broadcaster VGTRK, including the Russia-24 news channel."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Russia-24"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.vesti.ru/",
+      "title": "Вести: новости России и мира сегодня, последние и свежие"
+    }
+  },
+  {
+    "id": "ru-ntv",
+    "slug": "ntv",
+    "name": "NTV",
+    "url": "https://www.ntv.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Gazprom-Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Federal TV channel owned by Gazprom-Media, with news and current affairs."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/NTV_(Russia)"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.ntv.ru/",
+      "title": "НТВ.Ru // Новости, видео, передачи и сериалы НТВ, прямой эфир и телепрограмма"
+    }
+  },
+  {
+    "id": "ru-sport-express",
+    "slug": "sport-express",
+    "name": "Sport-Express",
+    "url": "https://www.sport-express.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sport-Express",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National sports daily with football, hockey and Olympic sports coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sport-express.ru/",
+      "title": "СПОРТ-ЭКСПРЕСС – новости спорта, футбол, хоккей, биатлон, спортивная аналитика и интервью со звездами спорта. Спорт-Экспресс"
+    }
+  },
+  {
+    "id": "ru-sovetsky-sport",
+    "slug": "sovetsky-sport",
+    "name": "Sovetsky Sport",
+    "url": "https://www.sovsport.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1924,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ESN Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Long-running sports daily covering Russian football and hockey."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sovsport.ru/",
+      "title": "Советский спорт - футбол, хоккей, ММА, бокс, теннис, фигурное катание, биатлон - главные новости спорта"
+    }
+  },
+  {
+    "id": "ru-championat",
+    "slug": "championat",
+    "name": "Championat",
+    "url": "https://www.championat.com/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Rambler Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports portal with live results, football, hockey and esports."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.championat.com/",
+      "title": "Чемпионат"
+    }
+  },
+  {
+    "id": "ru-sports-ru",
+    "slug": "sports-ru",
+    "name": "Sports.ru",
+    "url": "https://www.sports.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sports.ru",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports site and fan community with news, blogs and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.sports.ru/",
+      "title": "DDoS-Guard"
+    }
+  },
+  {
+    "id": "ru-match-tv",
+    "slug": "match-tv",
+    "name": "Match TV",
+    "url": "https://matchtv.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 5,
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Gazprom-Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Federal sports TV channel owned by Gazprom-Media, with football and hockey broadcasts."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://en.wikipedia.org/wiki/Match_TV"
+      }
+    ],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ru-habr",
+    "slug": "habr",
+    "name": "Habr",
+    "url": "https://habr.com/ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Habr",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Large tech community with articles on software, engineering and science."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://habr.com/ru/feed/",
+      "title": "Публикации / Моя лента / Хабр"
+    }
+  },
+  {
+    "id": "ru-n-1",
+    "slug": "n-1",
+    "name": "N+1",
+    "url": "https://nplus1.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "N+1",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular science site covering physics, biology, medicine and technology."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://nplus1.ru/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ru-3dnews",
+    "slug": "3dnews",
+    "name": "3DNews",
+    "url": "https://3dnews.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "3DNews",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Hardware and technology news site with reviews, tests and consumer electronics coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://3dnews.ru/",
+      "title": "Все самое интересное из мира IT-индустрии"
+    }
+  },
+  {
+    "id": "ru-fontanka",
+    "slug": "fontanka",
+    "name": "Fontanka",
+    "url": "https://www.fontanka.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Saint Petersburg",
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Saint Petersburg news site covering city politics, incidents and culture."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.fontanka.ru/",
+      "title": "Новости Санкт-Петербурга и Ленинградской области | ФОНТАНКА.ру"
+    }
+  },
+  {
+    "id": "ru-ura-ru",
+    "slug": "ura-ru",
+    "name": "Ura.ru",
+    "url": "https://ura.news/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Ural region",
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Regional news agency covering the Urals and Siberia, their politics and economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ura.news/",
+      "title": "URA.RU: Главные новости России и мира сегодня, новости Урала"
+    }
+  },
+  {
+    "id": "ru-ngs",
+    "slug": "ngs",
+    "name": "NGS",
+    "url": "https://ngs.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Novosibirsk",
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Novosibirsk city portal with local news, incidents, transport and city services."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://ngs.ru/",
+      "title": "Новости Новосибирска и Новосибирской области | НГС.ру"
+    }
+  },
+  {
+    "id": "ru-business-online",
+    "slug": "business-online",
+    "name": "Business Online",
+    "url": "https://www.business-gazeta.ru/",
+    "rss_url": null,
+    "language": "ru",
+    "categories": [
+      "regional",
+      "economy"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4,
+      "economy": 6
+    },
+    "region": "Tatarstan",
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kazan business newspaper covering Tatarstan's economy and politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.business-gazeta.ru/",
+      "title": "БИЗНЕС Online &mdash; Новости Казани"
+    }
+  }
+]

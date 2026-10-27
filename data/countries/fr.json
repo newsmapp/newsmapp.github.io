@@ -1,0 +1,76 @@
+{
+  "iso2": "FR",
+  "iso3": "FRA",
+  "slug": "france",
+  "name": {
+    "en": "France"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 68500000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "fr"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "BE",
+    "LU",
+    "DE",
+    "CH",
+    "IT",
+    "ES",
+    "MC",
+    "AD",
+    "GB"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "France's news landscape combines national newspapers based in Paris, a large public broadcasting system and strong regional dailies. Le Monde, Le Figaro and Libération are the main national titles, and Agence France-Presse is one of the world's three global news agencies. Public broadcasters France Télévisions and Radio France run the franceinfo news service, while private channels such as BFMTV offer 24-hour news. Ownership of private media is concentrated among a few large industrial and financial groups, which is a recurring subject of public debate. Mediapart, a subscriber-funded site, is known for investigations into politics and finance. Regional dailies such as Ouest-France, the country's largest newspaper by circulation, cover their regions in depth. The state supports the press through direct and indirect subsidies.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in France?",
+          "a": "The main national outlets in the directory include Le Monde, Le Figaro, Libération, Agence France-Presse and franceinfo. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which French news sites are free to read?",
+          "a": "Free-to-read outlets include Agence France-Presse, franceinfo, BFMTV, France Inter and RFI. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which French outlets are publicly or state funded?",
+          "a": "Public-service outlets include Agence France-Presse, franceinfo, France Inter and RFI. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in France?",
+          "a": "Regional coverage in the directory comes from Le Parisien (Île-de-France), Ouest-France (Brittany and western France), Le Progrès (Auvergne-Rhône-Alpes), La Voix du Nord (Hauts-de-France) and Sud Ouest (Nouvelle-Aquitaine). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in France comes from Paris-based dailies, the AFP news agency and public broadcasting. Each outlet below shows its paywall model and owner."
+        },
+        "economy": {
+          "intro": "French business news is covered by a leading business daily, business magazines and personal finance titles following companies, the CAC 40 and economic policy."
+        },
+        "sports": {
+          "intro": "French sports media is led by a national sports daily and covers football, cycling and rugby through broadcasters, magazines and specialized sites."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in France includes a subscriber-funded news site, a nonprofit investigative outlet and fact-checking desks at the national news agency and a leading daily."
+        },
+        "regional": {
+          "intro": "Regional dailies are a pillar of the French press, with dozens of local editions. The titles below cover the west, Lyon, the north, the southwest and Provence."
+        },
+        "politics": {
+          "intro": "French political coverage follows the Élysée, the government and both chambers of Parliament through national dailies, public radio, a parliamentary channel and policy-focused subscription newsrooms."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

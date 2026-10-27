@@ -1,0 +1,68 @@
+{
+  "iso2": "CH",
+  "iso3": "CHE",
+  "slug": "switzerland",
+  "name": {
+    "en": "Switzerland"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 9000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "de",
+    "fr",
+    "it"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "DE",
+    "FR",
+    "IT",
+    "AT",
+    "LI"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Switzerland's media market is divided along language lines, with separate German-, French- and Italian-language news ecosystems. The public broadcaster SRG SSR runs SRF, RTS and RSI, financed by a household fee, and its international service swissinfo.ch publishes in ten languages. Private media is concentrated in a few groups, including TX Group, Ringier and CH Media, which own most daily newspapers. The Neue Zürcher Zeitung, founded in 1780, is one of the oldest newspapers in the world still in publication. Direct democracy shapes political coverage, with frequent national and cantonal votes. Reader-funded newsrooms such as Republik and Heidi.news have emerged alongside traditional titles. Business and financial journalism is extensive, reflecting the importance of banking, insurance and multinational companies to the economy.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Switzerland?",
+          "a": "The main national outlets in the directory include SRF News, Neue Zürcher Zeitung, Tages-Anzeiger, Blick and 20 Minuten. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Swiss news sites are free to read?",
+          "a": "Free-to-read outlets include SRF News, 20 Minuten, RTS Info, RSI Info and swissinfo.ch. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Swiss outlets are publicly or state funded?",
+          "a": "Public-service outlets include SRF News, RTS Info, RSI Info and swissinfo.ch. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Switzerland?",
+          "a": "Regional coverage in the directory comes from Tages-Anzeiger (Zurich), RSI Info (Ticino), Basler Zeitung (Basel), Berner Zeitung (Bern) and Luzerner Zeitung (Lucerne). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Switzerland comes from the public broadcaster in three languages, national dailies, free commuter titles and the national news agency. Language, paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Swiss business journalism follows banking, insurance, commodities and multinational companies, through business weeklies, a financial newspaper, a French-language financial daily and a markets portal."
+        },
+        "sports": {
+          "intro": "Swiss sports media covers skiing, ice hockey, football and tennis, mainly through the public broadcaster in each language region and the sports desks of national titles."
+        },
+        "regional": {
+          "intro": "Regional newspapers serve each language region and canton. The titles below cover Basel, Bern, Lucerne, Vaud, Geneva, Zurich and Ticino."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

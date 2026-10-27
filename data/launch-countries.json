@@ -1,0 +1,25 @@
+{
+  "description": "v1.0 launch countries: the 20 largest economies by nominal GDP.",
+  "countries": [
+    "US",
+    "CA",
+    "MX",
+    "BR",
+    "DE",
+    "GB",
+    "FR",
+    "IT",
+    "ES",
+    "NL",
+    "CH",
+    "RU",
+    "CN",
+    "JP",
+    "IN",
+    "KR",
+    "ID",
+    "SA",
+    "TR",
+    "AU"
+  ]
+}

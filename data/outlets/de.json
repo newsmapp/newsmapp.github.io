@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "de-tagesschau",
+    "slug": "tagesschau",
+    "name": "Tagesschau",
+    "url": "https://www.tagesschau.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1952,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "ARD",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Flagship news of public broadcaster ARD, with national, world and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tagesschau.de/",
+      "title": "tagesschau.de - die erste Adresse für Nachrichten und Information | tagesschau.de"
+    }
+  },
+  {
+    "id": "de-der-spiegel",
+    "slug": "der-spiegel",
+    "name": "Der Spiegel",
+    "url": "https://www.spiegel.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1947,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "SPIEGEL-Gruppe (partly employee-owned)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Hamburg news magazine known for investigative reporting and political analysis."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.spiegel.de/",
+      "title": "DER SPIEGEL | Online-Nachrichten"
+    }
+  },
+  {
+    "id": "de-suddeutsche-zeitung",
+    "slug": "suddeutsche-zeitung",
+    "name": "Süddeutsche Zeitung",
+    "url": "https://www.sueddeutsche.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3,
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Südwestdeutsche Medienholding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Munich-based national daily with strong investigative and international reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sueddeutsche.de/",
+      "title": "Aktuelle Nachrichten und Kommentare - SZ.de"
+    }
+  },
+  {
+    "id": "de-frankfurter-allgemeine-zeitung",
+    "slug": "frankfurter-allgemeine-zeitung",
+    "name": "Frankfurter Allgemeine Zeitung",
+    "url": "https://www.faz.net/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 4,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1949,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "FAZIT-Stiftung",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Frankfurt national daily known for politics, business and its culture section."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.faz.net/aktuell/",
+      "title": "Aktuelle Nachrichten online - FAZ.NET"
+    }
+  },
+  {
+    "id": "de-die-zeit",
+    "slug": "die-zeit",
+    "name": "Die Zeit",
+    "url": "https://www.zeit.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Holtzbrinck Publishing Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Hamburg weekly with long-form journalism, analysis and a busy daily news site."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.zeit.de/",
+      "title": "Da ist etwas schiefgelaufen"
+    }
+  },
+  {
+    "id": "de-die-welt",
+    "slug": "die-welt",
+    "name": "Die Welt",
+    "url": "https://www.welt.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Axel Springer",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Berlin national daily and TV news channel from Axel Springer."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.welt.de/",
+      "title": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos"
+    }
+  },
+  {
+    "id": "de-zdfheute",
+    "slug": "zdfheute",
+    "name": "ZDFheute",
+    "url": "https://www.zdfheute.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1963,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "ZDF",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News service of public broadcaster ZDF, home of the heute and heute journal shows."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.zdfheute.de/",
+      "title": "ZDFheute - Aktuelle Nachrichten und Videos auf einen Blick"
+    }
+  },
+  {
+    "id": "de-deutschlandfunk",
+    "slug": "deutschlandfunk",
+    "name": "Deutschlandfunk",
+    "url": "https://www.deutschlandfunk.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4,
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 1962,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Deutschlandradio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public national radio with in-depth news, interviews and political background."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.deutschlandfunk.de/",
+      "title": "Deutschlandfunk - Alles von Relevanz"
+    }
+  },
+  {
+    "id": "de-deutsche-welle",
+    "slug": "deutsche-welle",
+    "name": "Deutsche Welle",
+    "url": "https://www.dw.com/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1953,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Federal Republic of Germany (public broadcaster)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Germany's international broadcaster, publishing news in more than 30 languages."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.dw.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "de-der-tagesspiegel",
+    "slug": "der-tagesspiegel",
+    "name": "Der Tagesspiegel",
+    "url": "https://www.tagesspiegel.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "politics",
+      "regional"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 7,
+      "regional": 1
+    },
+    "region": "Berlin",
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Dieter von Holtzbrinck Medien",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Berlin daily covering the capital and federal politics, with policy newsletters."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.tagesspiegel.de/",
+      "title": "Aktuelle News: Nachrichten aus Berlin und der Welt"
+    }
+  },
+  {
+    "id": "de-taz",
+    "slug": "taz",
+    "name": "taz",
+    "url": "https://taz.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "politics",
+      "general-news"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 8,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "taz Verlagsgenossenschaft",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Berlin daily owned by a reader cooperative, free online with voluntary payment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://taz.de/",
+      "title": "taz.de | taz.de"
+    }
+  },
+  {
+    "id": "de-handelsblatt",
+    "slug": "handelsblatt",
+    "name": "Handelsblatt",
+    "url": "https://www.handelsblatt.com/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "DvH Medien",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Germany's leading business daily, covering companies, markets and economic policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.handelsblatt.com/",
+      "title": "Handelsblatt - Nachrichten aus Finanzen, Wirtschaft und Politik"
+    }
+  },
+  {
+    "id": "de-wirtschaftswoche",
+    "slug": "wirtschaftswoche",
+    "name": "Wirtschaftswoche",
+    "url": "https://www.wiwo.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1926,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "DvH Medien",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly business magazine covering companies, careers and personal finance."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.wiwo.de/",
+      "title": "WirtschaftsWoche: Das führende Wirtschaftsmagazin | WiWo"
+    }
+  },
+  {
+    "id": "de-manager-magazin",
+    "slug": "manager-magazin",
+    "name": "manager magazin",
+    "url": "https://www.manager-magazin.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "SPIEGEL-Gruppe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine focused on corporate leadership, strategy and wealth."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.manager-magazin.de/",
+      "title": "manager magazin | Wirtschaftsnachrichten"
+    }
+  },
+  {
+    "id": "de-capital",
+    "slug": "capital",
+    "name": "Capital",
+    "url": "https://www.capital.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 5
+    },
+    "region": null,
+    "founded_year": 1962,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "RTL Deutschland",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business and personal finance magazine covering investing and the economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.capital.de/",
+      "title": "Zugriff unterbunden"
+    }
+  },
+  {
+    "id": "de-correctiv",
+    "slug": "correctiv",
+    "name": "CORRECTIV",
+    "url": "https://correctiv.org/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "CORRECTIV gemeinnützige GmbH",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit investigative newsroom and fact-checker publishing free in-depth reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://correctiv.org/",
+      "title": "CORRECTIV"
+    }
+  },
+  {
+    "id": "de-netzpolitik-org",
+    "slug": "netzpolitik-org",
+    "name": "netzpolitik.org",
+    "url": "https://netzpolitik.org/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative",
+      "tech-science"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "netzpolitik.org e.V.",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Reader-funded site on digital rights, surveillance and internet policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://netzpolitik.org/",
+      "title": "netzpolitik.org - Medium für digitale Freiheitsrechte"
+    }
+  },
+  {
+    "id": "de-fragdenstaat",
+    "slug": "fragdenstaat",
+    "name": "FragDenStaat",
+    "url": "https://fragdenstaat.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 5
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Open Knowledge Foundation Deutschland",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Freedom-of-information platform publishing documents and investigations from FOI requests."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://fragdenstaat.de/",
+      "title": "FragDenStaat – Portal für Informationsfreiheit – FragDenStaat"
+    }
+  },
+  {
+    "id": "de-kicker",
+    "slug": "kicker",
+    "name": "kicker",
+    "url": "https://www.kicker.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Olympia-Verlag",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Germany's best-known football magazine, with Bundesliga data, ratings and news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.kicker.de/",
+      "title": "kicker.de"
+    }
+  },
+  {
+    "id": "de-sport1",
+    "slug": "sport1",
+    "name": "Sport1",
+    "url": "https://www.sport1.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Sport1 Medien",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports TV channel and site with football, motorsport and darts coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sport1.de/",
+      "title": "SPORT1 - Aktuelle Sportnachrichten, News, Liveticker & Ergebnisse"
+    }
+  },
+  {
+    "id": "de-sportbild",
+    "slug": "sportbild",
+    "name": "SPORTBILD",
+    "url": "https://sportbild.bild.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Axel Springer",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly sports magazine focused on the Bundesliga and transfer news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://sportbild.bild.de/",
+      "title": "SPORT BILD | Sport-Nachrichten | Live Sportergebnisse | Meinungen, NEWS & Videos | Sportbild.de"
+    }
+  },
+  {
+    "id": "de-sportschau",
+    "slug": "sportschau",
+    "name": "sportschau",
+    "url": "https://www.sportschau.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 4,
+      "broadcast": 7
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "ARD",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "ARD sports program and site with Bundesliga highlights and Olympic coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sportschau.de/",
+      "title": "Sportschau - Sport-News, Live-Ticker, Videos, Ergebnisse und Tabellen | sportschau.de"
+    }
+  },
+  {
+    "id": "de-heise-online",
+    "slug": "heise-online",
+    "name": "heise online",
+    "url": "https://www.heise.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Heise Medien",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading German IT news site from the publishers of c't and iX magazines."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.heise.de/",
+      "title": "heise online - IT-News, Nachrichten und Hintergründe | heise online"
+    }
+  },
+  {
+    "id": "de-golem-de",
+    "slug": "golem-de",
+    "name": "Golem.de",
+    "url": "https://www.golem.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1999,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Golem Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "IT news site covering hardware, software, science and digital policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.golem.de/",
+      "title": "Golem.de - IT News für Profis"
+    }
+  },
+  {
+    "id": "de-spektrum-der-wissenschaft",
+    "slug": "spektrum-der-wissenschaft",
+    "name": "Spektrum der Wissenschaft",
+    "url": "https://www.spektrum.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 4
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Spektrum der Wissenschaft Verlagsgesellschaft",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular science magazine, the German-language sister of Scientific American."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.spektrum.de/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "de-hamburger-abendblatt",
+    "slug": "hamburger-abendblatt",
+    "name": "Hamburger Abendblatt",
+    "url": "https://www.abendblatt.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Hamburg",
+    "founded_year": 1948,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "FUNKE Mediengruppe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Hamburg daily covering the city, northern Germany and local politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.abendblatt.de/",
+      "title": "Ein Fehler ist aufgetreten … | FUNKE"
+    }
+  },
+  {
+    "id": "de-kolner-stadt-anzeiger",
+    "slug": "kolner-stadt-anzeiger",
+    "name": "Kölner Stadt-Anzeiger",
+    "url": "https://www.ksta.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "North Rhine-Westphalia",
+    "founded_year": 1876,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "DuMont Mediengruppe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cologne daily covering the city, the Rhineland and North Rhine-Westphalia politics."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 404,
+      "final_url": "https://www.ksta.de/",
+      "title": "404"
+    }
+  },
+  {
+    "id": "de-stuttgarter-zeitung",
+    "slug": "stuttgarter-zeitung",
+    "name": "Stuttgarter Zeitung",
+    "url": "https://www.stuttgarter-zeitung.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Baden-Württemberg",
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Südwestdeutsche Medienholding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Stuttgart daily covering Baden-Württemberg politics and industry."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.stuttgarter-zeitung.de/",
+      "title": "Startseite | stuttgarter-zeitung.de"
+    }
+  },
+  {
+    "id": "de-leipziger-volkszeitung",
+    "slug": "leipziger-volkszeitung",
+    "name": "Leipziger Volkszeitung",
+    "url": "https://www.lvz.de/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "Saxony",
+    "founded_year": 1894,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Madsack Mediengruppe",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Leipzig daily covering Saxony, central Germany and the city's culture and economy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.lvz.de/",
+      "title": "lvz.de"
+    }
+  }
+]

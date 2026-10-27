@@ -1,0 +1,67 @@
+{
+  "iso2": "NL",
+  "iso3": "NLD",
+  "slug": "netherlands",
+  "name": {
+    "en": "Netherlands"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 17900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "nl"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "BE",
+    "DE",
+    "GB"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "The Netherlands has a compact but highly developed news market. The public broadcasting system, built around the NOS and a set of member-based broadcasting associations, produces the main television and radio news. National newspapers are concentrated in two groups, DPG Media and Mediahuis, which together own most national and regional titles, including de Volkskrant, NRC, De Telegraaf, Trouw and AD. NU.nl is the most-visited news website and is free to read. The country has a strong tradition of investigative journalism, supported by a dedicated fund and by subscription platforms that cover finance and power. Regional public broadcasters cover each province. Press freedom in the Netherlands is generally ranked among the highest in the world, though attacks on crime reporters have raised concern in recent years.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in the Netherlands?",
+          "a": "The main national outlets in the directory include NOS, NRC, de Volkskrant, De Telegraaf and AD. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Dutch news sites are free to read?",
+          "a": "Free-to-read outlets include NOS, NU.nl, ANP, RTL Nieuws and Nieuwsuur. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Dutch outlets are publicly or state funded?",
+          "a": "Public-service outlets include NOS, Nieuwsuur, Pointer and NOS Sport. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in the Netherlands?",
+          "a": "Regional coverage in the directory comes from AD (South Holland), Het Parool (North Holland), Dagblad van het Noorden (Groningen and Drenthe), De Limburger (Limburg) and Omroep Brabant (North Brabant). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in the Netherlands: the public broadcaster, national dailies from two publishing groups, the national news agency and a free news site."
+        },
+        "economy": {
+          "intro": "Dutch business news is led by a financial daily and a business news radio station, with investor sites and subscription investigations into money and power."
+        },
+        "sports": {
+          "intro": "Dutch sports media covers football, cycling, speed skating and Formula 1, through the public broadcaster, a leading football magazine and online outlets."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in the Netherlands is produced by subscription platforms, a nonprofit investigative platform, public broadcasting teams and a member-funded explanatory site."
+        },
+        "regional": {
+          "intro": "Regional news in the Netherlands is provided by newspapers and public broadcasters for Amsterdam, Rotterdam, the north, Limburg and North Brabant."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

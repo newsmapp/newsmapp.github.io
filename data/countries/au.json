@@ -1,0 +1,67 @@
+{
+  "iso2": "AU",
+  "iso3": "AUS",
+  "slug": "australia",
+  "name": {
+    "en": "Australia"
+  },
+  "continent": "oceania",
+  "also_in": [],
+  "population": {
+    "value": 27200000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "NZ",
+    "ID",
+    "PG"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Australia's news market is among the most concentrated in the developed world. News Corp Australia owns The Australian and most metropolitan tabloids, while Nine Entertainment owns The Sydney Morning Herald, The Age and the Australian Financial Review. The public broadcasters ABC and SBS provide national news, and Seven and Nine run the main commercial television newsrooms. Guardian Australia and independent digital outlets have grown as alternatives. The News Media Bargaining Code, introduced in 2021, requires large platforms to negotiate payments with publishers. Australian Associated Press, the national news agency, is now owned by philanthropic investors. Regional journalism has declined, with many local newspapers closed or merged. The ABC's Four Corners is the country's longest-running investigative program.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Australia?",
+          "a": "The main national outlets in the directory include ABC News, The Sydney Morning Herald, The Age, The Australian and Guardian Australia. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Australian news sites are free to read?",
+          "a": "Free-to-read outlets include ABC News, Guardian Australia, news.com.au, Australian Associated Press and SBS News. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which Australian outlets are publicly or state funded?",
+          "a": "Public-service outlets include ABC News, SBS News and Four Corners. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Australia?",
+          "a": "Regional coverage in the directory comes from The Sydney Morning Herald (New South Wales), The Age (Victoria), The Courier-Mail (Queensland), The West Australian (Western Australia) and The Advertiser (South Australia). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "National news in Australia comes from the public broadcaster, metropolitan newspapers owned by two large groups, a national broadsheet and free digital outlets. Paywall model and owner are shown for each outlet."
+        },
+        "economy": {
+          "intro": "Australian business journalism is led by a business daily covering the ASX, mining and banking, with sites for small business and investors."
+        },
+        "sports": {
+          "intro": "Australian sports media covers AFL, NRL, cricket, tennis and football through broadcasters and national sports sites."
+        },
+        "broadcast": {
+          "intro": "Broadcast news in Australia includes two public broadcasters, the commercial Nine and Seven networks and a 24-hour news channel."
+        },
+        "regional": {
+          "intro": "Metropolitan newspapers cover each state. The titles below serve New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}

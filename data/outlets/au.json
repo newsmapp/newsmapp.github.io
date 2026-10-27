@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "au-abc-news",
+    "slug": "abc-news",
+    "name": "ABC News",
+    "url": "https://www.abc.net.au/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1932,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Australian Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "National public broadcaster's news with state editions and live coverage."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.abc.net.au/",
+      "title": "ABC News & Headlines – Australian Broadcasting Corporation"
+    }
+  },
+  {
+    "id": "au-the-sydney-morning-herald",
+    "slug": "the-sydney-morning-herald",
+    "name": "The Sydney Morning Herald",
+    "url": "https://www.smh.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "regional": 1
+    },
+    "region": "New South Wales",
+    "founded_year": 1831,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nine Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Australia's oldest continuously published newspaper, covering Sydney and the nation."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.smh.com.au/",
+      "title": "Australian Breaking News Headlines & World News Online | SMH.com.au"
+    }
+  },
+  {
+    "id": "au-the-age",
+    "slug": "the-age",
+    "name": "The Age",
+    "url": "https://www.theage.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "regional": 2
+    },
+    "region": "Victoria",
+    "founded_year": 1854,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Nine Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Melbourne daily with Victorian and national news and investigations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theage.com.au/",
+      "title": "Latest & Breaking News Melbourne, Victoria | The Age"
+    }
+  },
+  {
+    "id": "au-the-australian",
+    "slug": "the-australian",
+    "name": "The Australian",
+    "url": "https://www.theaustralian.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1964,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National broadsheet with federal politics, business and opinion."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.theaustralian.com.au/",
+      "title": null
+    }
+  },
+  {
+    "id": "au-guardian-australia",
+    "slug": "guardian-australia",
+    "name": "Guardian Australia",
+    "url": "https://www.theguardian.com/au",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Scott Trust",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Australian edition of the Guardian, free to read, with politics and environment."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.theguardian.com/au",
+      "title": "Latest news, sport and opinion from the Guardian"
+    }
+  },
+  {
+    "id": "au-news-com-au",
+    "slug": "news-com-au",
+    "name": "news.com.au",
+    "url": "https://www.news.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "High-traffic free news site with national news and lifestyle."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.news.com.au/",
+      "title": null
+    }
+  },
+  {
+    "id": "au-australian-associated-press",
+    "slug": "australian-associated-press",
+    "name": "Australian Associated Press",
+    "url": "https://www.aap.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1935,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "AAP (philanthropic ownership)",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National news agency supplying wires and fact-checks to Australian media."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aap.com.au/",
+      "title": "Home | AAP"
+    }
+  },
+  {
+    "id": "au-sbs-news",
+    "slug": "sbs-news",
+    "name": "SBS News",
+    "url": "https://www.sbs.com.au/news",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1980,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Special Broadcasting Service",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public multicultural broadcaster with world news and in-language services."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.sbs.com.au/news",
+      "title": "Latest News & Headlines from Australia and the World | SBS News"
+    }
+  },
+  {
+    "id": "au-nine-news",
+    "slug": "nine-news",
+    "name": "Nine News",
+    "url": "https://www.9news.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1956,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nine Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news from the Nine Network, with evening bulletins for each capital city."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nine.com.au/#redirect=9news",
+      "title": "nine.com.au -- the new ninemsn - News, Sport, TV, Entertainment, Lifestyle | Latest Breaking News Headlines from Australia and the world"
+    }
+  },
+  {
+    "id": "au-7news",
+    "slug": "7news",
+    "name": "7NEWS",
+    "url": "https://7news.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1956,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Seven West Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Television news from the Seven Network, with evening bulletins for each capital city."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://7news.com.au/",
+      "title": "7NEWS Australia: Latest news, sport, video, entertainment and lifestyle from Australia and the world"
+    }
+  },
+  {
+    "id": "au-sky-news-australia",
+    "slug": "sky-news-australia",
+    "name": "Sky News Australia",
+    "url": "https://www.skynews.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 5,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "24-hour news channel with political interviews and commentary."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 404,
+      "final_url": "https://www.news24.com.au/nocookies?a=A.flavipes",
+      "title": "Nocookies | News24"
+    }
+  },
+  {
+    "id": "au-the-saturday-paper",
+    "slug": "the-saturday-paper",
+    "name": "The Saturday Paper",
+    "url": "https://www.thesaturdaypaper.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Schwartz Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly newspaper with long-form political and social reporting."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.thesaturdaypaper.com.au/",
+      "title": "The Saturday Paper"
+    }
+  },
+  {
+    "id": "au-crikey",
+    "slug": "crikey",
+    "name": "Crikey",
+    "url": "https://www.crikey.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Private Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent subscription site covering politics, media and power."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.crikey.com.au/",
+      "title": "Crikey - an independent Australian source for news and analysis"
+    }
+  },
+  {
+    "id": "au-australian-financial-review",
+    "slug": "australian-financial-review",
+    "name": "Australian Financial Review",
+    "url": "https://www.afr.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1951,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Nine Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Australia's business daily covering markets, companies and policy."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.afr.com/",
+      "title": "Financial Review - Business, Finance and Investment News | afr.com"
+    }
+  },
+  {
+    "id": "au-smartcompany",
+    "slug": "smartcompany",
+    "name": "SmartCompany",
+    "url": "https://www.smartcompany.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Private Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news and advice for Australian small and medium-sized enterprises and founders."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.smartcompany.com.au/",
+      "title": "SmartCompany: Breaking news, advice and opinion for Australian entrepreneurs"
+    }
+  },
+  {
+    "id": "au-livewire-markets",
+    "slug": "livewire-markets",
+    "name": "Livewire Markets",
+    "url": "https://www.livewiremarkets.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Livewire Markets",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Investing site with commentary from fund managers and market news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.livewiremarkets.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "au-four-corners",
+    "slug": "four-corners",
+    "name": "Four Corners",
+    "url": "https://www.abc.net.au/news/programs/4corners",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "broadcast"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "broadcast": 6
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Australian Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "ABC's flagship investigative television program, broadcasting long-form reports since 1961."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.abc.net.au/news/programs/4corners",
+      "title": "Four Corners - ABC News"
+    }
+  },
+  {
+    "id": "au-michael-west-media",
+    "slug": "michael-west-media",
+    "name": "Michael West Media",
+    "url": "https://michaelwest.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "economy"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3,
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": 2017,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Michael West Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent outlet investigating corporate power, tax avoidance and political donations."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://michaelwest.com.au/",
+      "title": "Error 403 Forbidden"
+    }
+  },
+  {
+    "id": "au-aap-factcheck",
+    "slug": "aap-factcheck",
+    "name": "AAP FactCheck",
+    "url": "https://www.aap.com.au/factcheck/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 4
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Australian Associated Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking service of AAP verifying claims in Australian public debate."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.aap.com.au/factcheck/",
+      "title": "AAP FactCheck | AAP"
+    }
+  },
+  {
+    "id": "au-fox-sports-australia",
+    "slug": "fox-sports-australia",
+    "name": "Fox Sports Australia",
+    "url": "https://www.foxsports.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sports news and broadcasts with AFL, NRL, cricket and football from News Corp Australia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.foxsports.com.au/?nk=4e8f325c3b4945c06014cb1ae7cd8807-1793075950",
+      "title": "FOX SPORTS | Live Sports Scores | NRL, AFL, Cricket Scores"
+    }
+  },
+  {
+    "id": "au-wide-world-of-sports",
+    "slug": "wide-world-of-sports",
+    "name": "Wide World of Sports",
+    "url": "https://www.nine.com.au/sport",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1981,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nine Entertainment",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nine's sports brand with NRL, tennis, cricket and Olympic coverage and live scores."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.nine.com.au/sport",
+      "title": "Nine's Wide World of Sports, Match Results, Fixtures, Videos & Live Scores - Nine.com.au"
+    }
+  },
+  {
+    "id": "au-espn-australia",
+    "slug": "espn-australia",
+    "name": "ESPN Australia",
+    "url": "https://www.espn.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Walt Disney Company",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Australian edition of ESPN with AFL, NRL, NBA and international sports news."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.espn.com.au/",
+      "title": "ESPN Australia - Serving sports fans. Anytime. Anywhere."
+    }
+  },
+  {
+    "id": "au-the-conversation",
+    "slug": "the-conversation",
+    "name": "The Conversation",
+    "url": "https://theconversation.com/au",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "The Conversation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Nonprofit site where academics write about research and current affairs."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://theconversation.com/au",
+      "title": "The Conversation: In-depth analysis, research, news and ideas from leading academics and researchers."
+    }
+  },
+  {
+    "id": "au-cosmos",
+    "slug": "cosmos",
+    "name": "Cosmos",
+    "url": "https://cosmosmagazine.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Royal Institution of Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Science magazine and news site published by the Royal Institution of Australia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://connectsci.au/news",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "au-itnews",
+    "slug": "itnews",
+    "name": "iTnews",
+    "url": "https://www.itnews.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 3
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "nextmedia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business technology news for Australian IT professionals, covering government IT and security."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://www.itnews.com.au/",
+      "title": "iTnews - For Australian Business"
+    }
+  },
+  {
+    "id": "au-the-courier-mail",
+    "slug": "the-courier-mail",
+    "name": "The Courier-Mail",
+    "url": "https://www.couriermail.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Queensland",
+    "founded_year": 1933,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brisbane daily covering Queensland politics, crime, sport and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.couriermail.com.au/",
+      "title": null
+    }
+  },
+  {
+    "id": "au-the-west-australian",
+    "slug": "the-west-australian",
+    "name": "The West Australian",
+    "url": "https://thewest.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Western Australia",
+    "founded_year": 1833,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Seven West Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Perth daily covering Western Australia's politics, mining industry and communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 200,
+      "final_url": "https://thewest.com.au/",
+      "title": "The West Australian | Perth, WA, National & World News"
+    }
+  },
+  {
+    "id": "au-the-advertiser",
+    "slug": "the-advertiser",
+    "name": "The Advertiser",
+    "url": "https://www.adelaidenow.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 5
+    },
+    "region": "South Australia",
+    "founded_year": 1858,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Adelaide daily covering South Australia's politics, sport and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "au-the-mercury",
+    "slug": "the-mercury",
+    "name": "The Mercury",
+    "url": "https://www.themercury.com.au/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 6
+    },
+    "region": "Tasmania",
+    "founded_year": 1854,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "News Corp Australia",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Hobart daily covering Tasmania's politics, environment and local communities."
+    },
+    "about": {},
+    "sources": [],
+    "status": "candidate",
+    "verified_at": null,
+    "health": {
+      "last_checked": "2026-10-27",
+      "http_status": 403,
+      "final_url": "https://www.themercury.com.au/",
+      "title": null
+    }
+  }
+]

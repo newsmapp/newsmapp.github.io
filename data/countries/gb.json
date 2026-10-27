@@ -1,0 +1,71 @@
+{
+  "iso2": "GB",
+  "iso3": "GBR",
+  "slug": "united-kingdom",
+  "name": {
+    "en": "United Kingdom"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 69200000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "IE",
+    "FR",
+    "NL",
+    "BE"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "The United Kingdom has a highly competitive national press concentrated in London and a public broadcaster, the BBC, that is one of the world's most-used news sources. National newspapers range from subscription titles such as The Times, the Financial Times and The Telegraph to The Guardian, which is owned by a trust and free to read online. Broadcast news also includes ITV, Channel 4 and Sky News, all subject to impartiality rules set by the regulator Ofcom. Investigative reporting comes from newspapers, broadcasters and nonprofit bureaus, and an independent charity leads national fact-checking. Scotland, Wales and Northern Ireland have their own newspapers and political coverage. Newspapers mostly self-regulate through the Independent Press Standards Organisation. Many regional newspapers have consolidated under a few large publishers.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in the United Kingdom?",
+          "a": "The main national outlets in the directory include BBC News, The Guardian, The Times, Financial Times and The Telegraph. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which British news sites are free to read?",
+          "a": "Free-to-read outlets include BBC News, The Guardian, The Independent, Sky News and ITV News. The paywall model of every outlet is shown next to its name."
+        },
+        {
+          "q": "Which British outlets are publicly or state funded?",
+          "a": "Public-service outlets include BBC News, Channel 4 News and BBC Sport. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in the United Kingdom?",
+          "a": "Regional coverage in the directory comes from Manchester Evening News (Greater Manchester), The Scotsman (Scotland), The Herald (Scotland), Belfast Telegraph (Northern Ireland) and WalesOnline (Wales). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used to follow national news in the United Kingdom, from the BBC and international wire services to national newspapers with different paywall models."
+        },
+        "economy": {
+          "intro": "British business journalism is anchored in the City of London, with a global business daily, a weekly economics magazine and outlets covering markets and personal finance."
+        },
+        "sports": {
+          "intro": "UK sports media covers the Premier League, cricket, rugby, tennis and Formula 1, through public and private broadcasters, a sports radio station and subscription beat reporting."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in the UK comes from a satirical magazine with a long record of scoops, nonprofit bureaus, an independent fact-checking charity and broadcast teams."
+        },
+        "politics": {
+          "intro": "Westminster politics is covered by national newspapers, weekly political magazines, a talk radio station and specialized parliamentary news sites."
+        },
+        "regional": {
+          "intro": "Regional outlets cover Scotland, Wales, Northern Ireland and English cities such as Manchester, each with its own political institutions and news agenda."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    }
+  }
+}
