@@ -16,14 +16,14 @@ export function serializeJsonLd(data: Thing | Thing[]): string {
 export const website = (siteUrl: string): Thing => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'NewsMap',
+  name: 'NewsMapp',
   url: absoluteUrl(siteUrl, '/'),
 });
 
 export const organization = (siteUrl: string): Thing => ({
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'NewsMap',
+  name: 'NewsMapp',
   url: absoluteUrl(siteUrl, '/'),
 });
 

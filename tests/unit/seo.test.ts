@@ -26,34 +26,34 @@ describe('meta', () => {
 
   it('suffixes the title once and maps noindex to robots', () => {
     const meta = buildMeta({ title: 'Brazil', description: 'd', path: '/brazil/', siteUrl: SITE });
-    expect(meta.title).toBe('Brazil | NewsMap');
+    expect(meta.title).toBe('Brazil | NewsMapp');
     expect(meta.robots).toContain('index, follow');
     expect(meta.og['og:url']).toBe('https://newsmap.example/brazil/');
     const home = buildMeta({
-      title: 'NewsMap',
+      title: 'NewsMapp',
       description: 'd',
       path: '/',
       siteUrl: SITE,
       noindex: true,
     });
-    expect(home.title).toBe('NewsMap');
+    expect(home.title).toBe('NewsMapp');
     expect(home.robots).toBe('noindex, follow');
     expect(
-      buildMeta({ title: 'X | NewsMap', description: 'd', path: '/', siteUrl: SITE }).title,
-    ).toBe('X | NewsMap');
+      buildMeta({ title: 'X | NewsMapp', description: 'd', path: '/', siteUrl: SITE }).title,
+    ).toBe('X | NewsMapp');
   });
 });
 
 describe('fitTitle', () => {
   it('keeps the brand suffix when it fits, drops it otherwise, and falls back to shorter candidates', () => {
-    expect(fitTitle(['Brazil'])).toBe('Brazil | NewsMap');
+    expect(fitTitle(['Brazil'])).toBe('Brazil | NewsMapp');
     const long = 'Business, Finance & Markets in Portugal: 5 outlets compared';
     expect(fitTitle([long])).toBe(long);
     expect(fitTitle([`${long} and more`, 'Sports in Portugal'])).toBe(
-      'Sports in Portugal | NewsMap',
+      'Sports in Portugal | NewsMapp',
     );
     expect(fitTitle(['x'.repeat(80), 'y'.repeat(70)]).length).toBeLessThanOrEqual(60);
-    expect(fitTitle([])).toBe('NewsMap');
+    expect(fitTitle([])).toBe('NewsMapp');
   });
 });
 

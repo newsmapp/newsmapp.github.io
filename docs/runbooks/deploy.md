@@ -1,6 +1,6 @@
 # Deploy runbook
 
-How to take NewsMap from this repository to production on Cloudflare (ADR 0008). No secret values live here: only variable names, where to get them and how to set them. Any manual change made in production must be written back into this file.
+How to take NewsMapp from this repository to production on Cloudflare (ADR 0008). No secret values live here: only variable names, where to get them and how to set them. Any manual change made in production must be written back into this file.
 
 Commands prefixed with `!` need your Cloudflare or GitHub login: run them yourself in the terminal. Secrets are always typed into a hidden prompt (`wrangler secret put`, `gh secret set`), never pasted into chat, issues, commits or files.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# One-off zone setup for NewsMap (ADR 0007). Idempotent: every call replaces the same rules.
+# One-off zone setup for NewsMapp (ADR 0007). Idempotent: every call replaces the same rules.
 #
 #   1. Cache Rule: bypass cache on /api/*, /go/*, /admin* (dynamic, per-request responses).
 #   2. WAF rate limit on /api/* (webhooks excluded: LemonSqueezy retries must not be blocked).
@@ -26,7 +26,7 @@ RATE_REQUESTS="${RATE_REQUESTS:-30}"
 
 cache_rules=$(jq -n '{
   rules: [{
-    description: "NewsMap: never cache dynamic routes",
+    description: "NewsMapp: never cache dynamic routes",
     expression: "starts_with(http.request.uri.path, \"/api/\") or starts_with(http.request.uri.path, \"/go/\") or starts_with(http.request.uri.path, \"/admin\")",
     action: "set_cache_settings",
     action_parameters: { cache: false }
@@ -35,7 +35,7 @@ cache_rules=$(jq -n '{
 
 rate_limit=$(jq -n --argjson n "$RATE_REQUESTS" '{
   rules: [{
-    description: "NewsMap: rate limit /api/* (webhooks excluded)",
+    description: "NewsMapp: rate limit /api/* (webhooks excluded)",
     expression: "starts_with(http.request.uri.path, \"/api/\") and not starts_with(http.request.uri.path, \"/api/webhooks/\")",
     action: "block",
     ratelimit: {
@@ -50,7 +50,7 @@ rate_limit=$(jq -n --argjson n "$RATE_REQUESTS" '{
 bot_fight='{"fight_mode": true}'
 
 access_app=$(jq -n --arg d "$DOMAIN" --arg e "${ADMIN_EMAIL:-owner@example.com}" '{
-  name: "NewsMap admin",
+  name: "NewsMapp admin",
   type: "self_hosted",
   domain: ($d + "/admin"),
   destinations: [
@@ -100,13 +100,13 @@ echo 'OK  Bot Fight Mode on (check webhook deliveries afterwards, see docs/runbo
 if [[ -n "${ADMIN_EMAIL:-}" ]]; then
   ACCOUNT_ID="${ACCOUNT_ID:?set ACCOUNT_ID to create the Access application}"
   existing=$(call GET "accounts/<ACCOUNT_ID>/access/apps" |
-    jq -r '.result[] | select(.name == "NewsMap admin") | .id' | head -1)
+    jq -r '.result[] | select(.name == "NewsMapp admin" or .name == "NewsMap admin") | .id' | head -1)
   if [[ -n "$existing" ]]; then
     app=$(call PUT "accounts/<ACCOUNT_ID>/access/apps/$existing" "$access_app")
   else
     app=$(call POST "accounts/<ACCOUNT_ID>/access/apps" "$access_app")
   fi
-  echo 'OK  Access application "NewsMap admin" protects /admin* and /api/admin/*'
+  echo 'OK  Access application "NewsMapp admin" protects /admin* and /api/admin/*'
   echo "    Set it on the Worker: wrangler secret put CF_ACCESS_AUD   (value: $(jq -r '.result.aud' <<<"$app"))"
   echo '    and: wrangler secret put CF_ACCESS_TEAM_DOMAIN   (value: <team>.cloudflareaccess.com)'
 else

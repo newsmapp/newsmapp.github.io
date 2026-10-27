@@ -1,6 +1,6 @@
 # SEO Playbook
 
-How NewsMap earns organic traffic without tripping scaled-content policies. Decisions behind it: ADR 0003, 0006, 0010.
+How NewsMapp earns organic traffic without tripping scaled-content policies. Decisions behind it: ADR 0003, 0006, 0010.
 
 ## Canonical URLs
 
@@ -21,7 +21,7 @@ Rules:
 
 ## Titles and descriptions
 
-- `<title>` 30–60 characters, unique per page. Pattern for countries: `Newspapers in Brazil: 34 outlets compared | NewsMap`.
+- `<title>` 30–60 characters, unique per page. Pattern for countries: `Newspapers in Brazil: 34 outlets compared | NewsMapp`.
 - Meta description 110–160 characters stating what the page lets the reader do (compare by paywall, ownership, format).
 - The SEO audit enforces both.
 

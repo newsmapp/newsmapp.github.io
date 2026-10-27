@@ -25,7 +25,7 @@ describe('badgeSvg', () => {
     const svg = badgeSvg({ rank: 2, category: 'Sports', country: 'Brazil' });
     expect(svg).toContain(`width="${BADGE_SIZE.width}" height="${BADGE_SIZE.height}"`);
     expect(svg).toContain('#2 in Sports, Brazil');
-    expect(svg).toContain('aria-label="Listed on NewsMap: #2 in Sports, Brazil"');
+    expect(svg).toContain('aria-label="Listed on NewsMapp: #2 in Sports, Brazil"');
   });
 
   it('escapes markup in names', () => {

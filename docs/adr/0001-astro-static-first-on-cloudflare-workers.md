@@ -5,7 +5,7 @@
 
 ## Context
 
-NewsMap is a directory: thousands of read-mostly pages and a handful of dynamic endpoints (click redirects, forms, payment webhooks, badges, admin). The business case requires infrastructure cost of US$ 0–5/month, top Core Web Vitals and HTML that works without JavaScript for crawlers and slow mobile connections.
+NewsMapp is a directory: thousands of read-mostly pages and a handful of dynamic endpoints (click redirects, forms, payment webhooks, badges, admin). The business case requires infrastructure cost of US$ 0–5/month, top Core Web Vitals and HTML that works without JavaScript for crawlers and slow mobile connections.
 
 ## Decision
 

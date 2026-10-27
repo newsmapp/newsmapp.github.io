@@ -13,7 +13,7 @@ What lives where (ADR 0007, ADR 0008):
 
 ## setup-zone.sh
 
-Idempotent: it replaces the zone's cache-settings and rate-limit entry-point rulesets and updates the Access application named `NewsMap admin` if it exists. Preview the payloads first:
+Idempotent: it replaces the zone's cache-settings and rate-limit entry-point rulesets and updates the Access application named `NewsMapp admin` if it exists. Preview the payloads first:
 
 ```sh
 DRY_RUN=1 DOMAIN=example.com ./deploy/cloudflare/setup-zone.sh

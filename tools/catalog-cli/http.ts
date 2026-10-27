@@ -1,7 +1,7 @@
 /** Shared HTTP helpers for health checks and icon downloads. */
 
 const SITE_URL = process.env.SITE_URL ?? 'https://newsmap.example';
-export const USER_AGENT = `NewsMapBot/1.0 (+${SITE_URL}/methodology/)`;
+export const USER_AGENT = `NewsMappBot/1.0 (+${SITE_URL}/methodology/)`;
 const TIMEOUT_MS = 15_000;
 const MAX_BODY = 512 * 1024;
 

@@ -19,7 +19,7 @@ Tier 3 is priced low because sponsor demand from outlets in those markets is unc
 
 ### LemonSqueezy setup
 
-1. Create a store; create one product "NewsMap sponsored slot" with two subscription variants (monthly, yearly) per tier.
+1. Create a store; create one product "NewsMapp sponsored slot" with two subscription variants (monthly, yearly) per tier.
 2. Put the variant IDs in `data/monetization/pricing.json`.
 3. Create a webhook to `https://<domain>/api/webhooks/lemonsqueezy` with events: `subscription_created`, `subscription_updated`, `subscription_payment_success`, `subscription_payment_failed`, `subscription_cancelled`, `subscription_expired`, `order_refunded`. Copy the signing secret.
 4. Secrets: `wrangler secret put LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_WEBHOOK_SECRET`.

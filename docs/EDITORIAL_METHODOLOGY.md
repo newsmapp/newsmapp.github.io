@@ -1,6 +1,6 @@
 # Editorial Methodology
 
-The rules behind every label NewsMap shows. The public `/methodology/` page is rendered from this document's substance; the owner approves the final wording.
+The rules behind every label NewsMapp shows. The public `/methodology/` page is rendered from this document's substance; the owner approves the final wording.
 
 ## Inclusion
 
@@ -41,7 +41,7 @@ Checked by visiting the site without an account; recorded as of `verified_at`.
 
 ## Political lean
 
-- Default is **unrated**. NewsMap does not assign political lean on its own judgment.
+- Default is **unrated**. NewsMapp does not assign political lean on its own judgment.
 - A lean is shown only when a recognized, published rating exists, cited in `political_lean.source_url`.
 - "Mixed" is used when recognized sources disagree materially.
 

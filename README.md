@@ -1,4 +1,4 @@
-# NewsMap
+# NewsMapp
 
 A global directory of news outlets, organised by country and category. Static-first Astro site on Cloudflare Workers: pages are pre-rendered from the catalog in `data/`, and a small Worker handles clicks, forms, sponsorships, badges and the admin.
 

@@ -1,4 +1,4 @@
-# NewsMap — contributor guide
+# NewsMapp — contributor guide
 
 Global news directory: static-first Astro site on Cloudflare Workers. `SPEC.md` is the source of truth; decisions live in `docs/adr/`.
 

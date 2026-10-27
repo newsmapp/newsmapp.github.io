@@ -9,7 +9,7 @@
 
 ### 0.1 O Produto e o Objetivo Comercial
 
-O **NewsMap** é um **diretório comercial curado de veículos de imprensa** (Notícias Gerais, Política, Esportes, Economia, Investigativo, Tecnologia, TV/Rádio e Regional), organizado por país. Ele foi desenhado para **gerar receita recorrente com custo de infraestrutura mínimo** (alvo: US$ 0–5/mês + domínio).
+O **NewsMapp** é um **diretório comercial curado de veículos de imprensa** (Notícias Gerais, Política, Esportes, Economia, Investigativo, Tecnologia, TV/Rádio e Regional), organizado por país. Ele foi desenhado para **gerar receita recorrente com custo de infraestrutura mínimo** (alvo: US$ 0–5/mês + domínio).
 
 - Produto comercial proprietário (não é open-source nem projeto de estudo). O tráfego vem de busca orgânica e de backlinks, e a receita de patrocínios, afiliados e, depois de haver tráfego, de anúncios.
 - **Expectativa realista:** buscas como "best newspapers in Japan" têm volume moderado e já são parcialmente respondidas por AI Overviews. A vantagem competitiva precisa vir da **qualidade e confiabilidade dos dados** (paywall, propriedade, links verificados) e da **velocidade e usabilidade** da página, e não do volume de páginas.
@@ -19,7 +19,7 @@ O **NewsMap** é um **diretório comercial curado de veículos de imprensa** (No
 - Os diretórios existentes (*OnlineNewspapers.com*, *NewspaperLists.com*, *4imn.com*) têm interfaces datadas, são lentos e ruins no mobile, não dão contexto sobre cada veículo (paywall, propriedade, idioma) e têm links quebrados.
 - Referência de UX: diretórios de alta densidade, ou seja, uma grade compacta, categorização em silos, ícones nítidos, micro-descrições no hover e carregamento instantâneo. *(Essa referência é interna; nunca deve aparecer em copy pública, nomes de componentes ou documentação publicada.)*
 
-### 0.3 O que é o NewsMap
+### 0.3 O que é o NewsMapp
 
 1. **Diretório visual de alta densidade:** País → Categoria em 1 ou 2 cliques. Cada veículo mostra ícone local, nome, pitch de 1 linha, **badge de paywall** (`Free`, `Metered`, `Freemium`, `Hard paywall`), **badge de propriedade** (`State-controlled`, `Public service`, `Nonprofit`, etc.), idioma e link de RSS quando existir.
 2. **SEO programático com controle de qualidade:** só são geradas e indexadas páginas que passam em limiares mínimos de conteúdo (seção 3.5). Dados estruturados Schema.org em todas as páginas. A arquitetura já fica pronta para i18n, mas o lançamento é só em `en`.
@@ -387,8 +387,8 @@ Não existe plano "Pro".
 
 #### 3.6.5 H2: Badges para backlinks
 
-- `GET /badge/[country]/[outlet].svg`: SVG gerado no Worker, com cache de 1 dia na borda. Texto: **"Listed on NewsMap · #N in [Category], [Country]"**. Todos os textos passam por escape XML, e a resposta usa `Content-Type: image/svg+xml` e `Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'`.
-- O snippet HTML na página do veículo usa **âncora e `alt` só com a marca** ("NewsMap"), sem palavras-chave, para não ser tratado como esquema de links por widget. O snippet exibido para veículos patrocinados inclui `rel="sponsored"`.
+- `GET /badge/[country]/[outlet].svg`: SVG gerado no Worker, com cache de 1 dia na borda. Texto: **"Listed on NewsMapp · #N in [Category], [Country]"**. Todos os textos passam por escape XML, e a resposta usa `Content-Type: image/svg+xml` e `Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'`.
+- O snippet HTML na página do veículo usa **âncora e `alt` só com a marca** ("NewsMapp"), sem palavras-chave, para não ser tratado como esquema de links por widget. O snippet exibido para veículos patrocinados inclui `rel="sponsored"`.
 - O ganho é incerto. O ADR 0010 documenta o risco e a estratégia de outreach manual.
 
 #### 3.6.6 R4: Newsletter (pós-lançamento)

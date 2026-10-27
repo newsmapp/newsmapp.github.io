@@ -17,7 +17,7 @@ export interface Meta {
   og: Record<string, string>;
 }
 
-const SITE_NAME = 'NewsMap';
+const SITE_NAME = 'NewsMapp';
 const SUFFIX = ` | ${SITE_NAME}`;
 export const TITLE_MAX = 60;
 const DESCRIPTION_MAX = 155;
