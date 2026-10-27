@@ -72,7 +72,7 @@ const crumbs = [
 ];
 const profileUrl = new URL(paths.outlet(country, outlet), siteUrl).toString();
 const badgeUrl = new URL(`/badge/${country.slug}/${outlet.slug}.svg`, siteUrl).toString();
-const badgeSnippet = `<a href="${profileUrl}"><img src="${badgeUrl}" alt="NewsMap" width="${BADGE_SIZE.width}" height="${BADGE_SIZE.height}"></a>`;
+const badgeSnippet = `<a href="${profileUrl}"><img src="${badgeUrl}" alt="NewsMapp" width="${BADGE_SIZE.width}" height="${BADGE_SIZE.height}"></a>`;
 const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPTION[outlet.paywall]}. ${OWNERSHIP_LABEL[outlet.ownership_type]} ownership.`;
 ---
 
@@ -227,7 +227,7 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
           <img
             class="badge-preview"
             src={`/badge/${country.slug}/${outlet.slug}.svg`}
-            alt="NewsMap"
+            alt="NewsMapp"
             width={BADGE_SIZE.width}
             height={BADGE_SIZE.height}
             loading="lazy"
@@ -317,16 +317,22 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
     gap: var(--space-1);
     min-height: 2.75rem;
     padding-inline: var(--space-4);
-    border-radius: var(--radius-card);
-    background: var(--link);
-    color: var(--on-link);
+    border: var(--line) solid var(--edge);
+    background: var(--accent);
+    box-shadow: var(--shadow-hard);
+    color: var(--on-accent);
     font-weight: var(--weight-strong);
     text-decoration: none;
   }
 
   .visit:hover {
-    background: var(--link-hover);
-    color: var(--on-link);
+    background: var(--surface-hover);
+    color: var(--ink);
+  }
+
+  .visit:active {
+    box-shadow: 0 0 0 var(--shadow-ink);
+    transform: translate(3px, 3px);
   }
 
   .layout {
@@ -414,10 +420,9 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
 
   .snippet code {
     padding: var(--space-3);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius-card);
+    border: var(--line) solid var(--edge);
     background: var(--surface);
-    font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    font-family: var(--font-data);
     font-size: var(--type-label);
     overflow-wrap: anywhere;
   }
@@ -425,9 +430,9 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
   .snippet button {
     min-height: 2.25rem;
     padding-inline: var(--space-3);
-    border: 1px solid var(--rule-strong);
-    border-radius: var(--radius-card);
+    border: var(--line) solid var(--edge);
     background: var(--surface);
+    box-shadow: var(--shadow-hard);
     color: var(--link);
     font: inherit;
     font-size: var(--type-data);
@@ -436,7 +441,7 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
   }
 
   .similar {
-    border-top: 1px solid var(--rule);
+    border-top: var(--line) solid var(--edge);
   }
 
   .similar li {

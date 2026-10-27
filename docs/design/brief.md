@@ -36,7 +36,7 @@ Not cream, not terracotta, not near-black with an acid accent: newsprint is a co
 ### Layout (country page, first viewport at 1440 px)
 
 ```
-NewsMap            [Search countries and outlets  ⌘ K]   Advertise  ◐
+NewsMapp            [Search countries and outlets  ⌘ K]   Advertise  ◐
 Home / Europe / Germany
 Newspapers and news sites in Germany
 29 outlets in 8 categories, ranked by our editors
@@ -61,3 +61,13 @@ The **rank gutter**: every column starts with a right-aligned, tabular rank numb
 
 - _Would a different product land here?_ An "editorial paper + serif" look is the default for anything about news. What keeps this specific: the serif is confined to prose (the grid is all Franklin), the paper is cool newsprint rather than cream, there are no hairline-only broadsheet columns (cards have a real border and padding), and the only ornament is the rank gutter and the sponsored highlighter, both of which carry data.
 - _Changed after review:_ dropped an all-caps "DIRECTORY" label above the H1 (eyebrow), replaced a planned accent-colored count badge in column headers with plain `--ink-2` figures, and limited the serif to prose.
+
+## Revision: structured frames (2026-10-27)
+
+The owner asked for the visual language of [structured.glass](https://structured.glass/), adapted rather than copied. What changed, and what did not:
+
+- **Canvas.** A periwinkle sheet (`--canvas`) with a 32 px graticule (`--grid-line`), the grid of a map plate. Surfaces stay near-white; dark mode is a deep indigo sheet, composed separately.
+- **Frames.** Square corners everywhere (`--radius-* = 0`). Cards, dialogs and inputs carry a 2 px `--edge` and a hard offset shadow (`--shadow-hard`, `--shadow-hard-lg`). Rows inside a frame keep the 1 px `--rule` hairline.
+- **Action.** Violet. `--accent` fills primary buttons and the pressed topic; `--link` is the darker violet that passes 4.5:1 for text. Buttons press in: the shadow collapses and the key moves by its offset.
+- **Type.** Libre Franklin stays, now up to weight 820 with tight tracking for headings and the home display line. Counts, ranks, paywall tags and shortcuts use the system monospace (`--font-data`), so no font is added to the download.
+- **Kept on purpose.** No eyebrow labels and no all-caps navigation, which the reference uses. Uppercase appears only in paywall and format tags, where it is data. The sponsored band keeps its highlighter color.

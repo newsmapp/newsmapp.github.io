@@ -4,6 +4,8 @@
   --font-ui:
     'Libre Franklin Variable', 'Franklin Gothic Medium', 'Arial Narrow', system-ui, sans-serif;
   --font-prose: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+  /* Counts, tags and shortcuts: the system monospace, so no extra font is downloaded. */
+  --font-data: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
 
   --type-label: 0.75rem;
   --type-data: 0.875rem;
@@ -12,8 +14,10 @@
   --type-h3: 1.2rem;
   --type-h2: 1.44rem;
   --type-h1: 2.07rem;
+  --type-display: clamp(2.5rem, 1.6rem + 4vw, 4.75rem);
   --weight-regular: 400;
   --weight-strong: 600;
+  --weight-heavy: 820;
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;
@@ -29,62 +33,76 @@
   --measure: 68ch;
   --page-max: 88rem;
 
-  --radius-tag: 2px;
-  --radius-card: 4px;
-  --radius-float: 6px;
+  /* Structured frames: square corners, a 2px edge and a hard offset shadow on what can be used. */
+  --radius-tag: 0;
+  --radius-card: 0;
+  --radius-float: 0;
+  --line: 2px;
+  --shadow-hard: 3px 3px 0 var(--shadow-ink);
+  --shadow-hard-lg: 5px 5px 0 var(--shadow-ink);
+  --grid-size: 32px;
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --duration-ui: 160ms;
+  --duration-press: 90ms;
 
   --z-sticky: 10;
   --z-float: 20;
   --z-dialog: 30;
 
-  /* Paper Light */
-  --canvas: oklch(0.975 0.004 95);
-  --surface: oklch(0.995 0.002 95);
-  --surface-hover: oklch(0.955 0.005 95);
-  --ink: oklch(0.22 0.015 255);
-  --ink-2: oklch(0.45 0.015 255);
-  --rule: oklch(0.88 0.006 95);
-  --rule-strong: oklch(0.7 0.008 95);
-  --link: oklch(0.45 0.13 255);
-  --link-hover: oklch(0.36 0.13 255);
+  /* Graticule Light: a periwinkle map sheet, white frames, violet for action. */
+  --canvas: oklch(0.925 0.022 268);
+  --grid-line: oklch(0.86 0.03 268 / 0.55);
+  --surface: oklch(0.995 0.003 285);
+  --surface-hover: oklch(0.965 0.018 290);
+  --ink: oklch(0.2 0.006 270);
+  --ink-2: oklch(0.43 0.012 270);
+  --edge: oklch(0.2 0.006 270);
+  --shadow-ink: oklch(0.2 0.006 270);
+  --rule: oklch(0.86 0.014 275);
+  --rule-strong: oklch(0.62 0.02 275);
+  --link: oklch(0.45 0.19 288);
+  --link-hover: oklch(0.36 0.19 288);
   --on-link: oklch(0.99 0 0);
-  --focus: oklch(0.45 0.13 255);
+  --accent: oklch(0.7 0.14 292);
+  --on-accent: oklch(0.2 0.006 270);
+  --focus: oklch(0.45 0.19 288);
   --sponsor: oklch(0.94 0.09 95);
   --on-sponsor: oklch(0.3 0.05 85);
   --tag-free: oklch(0.42 0.11 150);
   --tag-paid: oklch(0.45 0.1 50);
   --danger: oklch(0.5 0.17 27);
-  --selection: oklch(0.88 0.07 255);
-  --shadow-float:
-    0 8px 24px -6px oklch(0.22 0.015 255 / 0.22), 0 2px 6px -2px oklch(0.22 0.015 255 / 0.12);
+  --selection: oklch(0.86 0.08 292);
+  --shadow-float: var(--shadow-hard-lg);
 
   color-scheme: light;
 }
 
-/* Terminal Dark: composed separately, not inverted. Elevation = lighter surface. */
+/* Graticule Dark: composed separately. Frames keep a light edge; shadows take a deep violet. */
 :root[data-theme='dark'] {
-  --canvas: oklch(0.205 0.012 250);
-  --surface: oklch(0.245 0.014 250);
-  --surface-hover: oklch(0.285 0.016 250);
-  --ink: oklch(0.93 0.008 250);
-  --ink-2: oklch(0.74 0.012 250);
-  --rule: oklch(0.34 0.014 250);
-  --rule-strong: oklch(0.48 0.014 250);
-  --link: oklch(0.8 0.1 245);
-  --link-hover: oklch(0.88 0.08 245);
-  --on-link: oklch(0.2 0.02 250);
-  --focus: oklch(0.8 0.1 245);
+  --canvas: oklch(0.2 0.025 272);
+  --grid-line: oklch(0.3 0.03 272 / 0.5);
+  --surface: oklch(0.245 0.022 275);
+  --surface-hover: oklch(0.29 0.03 280);
+  --ink: oklch(0.94 0.008 275);
+  --ink-2: oklch(0.76 0.014 275);
+  --edge: oklch(0.72 0.03 280);
+  --shadow-ink: oklch(0.42 0.11 292);
+  --rule: oklch(0.34 0.022 275);
+  --rule-strong: oklch(0.5 0.025 275);
+  --link: oklch(0.8 0.11 292);
+  --link-hover: oklch(0.88 0.08 292);
+  --on-link: oklch(0.2 0.025 272);
+  --accent: oklch(0.72 0.13 292);
+  --on-accent: oklch(0.16 0.02 275);
+  --focus: oklch(0.8 0.11 292);
   --sponsor: oklch(0.36 0.07 85);
   --on-sponsor: oklch(0.94 0.05 90);
   --tag-free: oklch(0.8 0.12 150);
   --tag-paid: oklch(0.82 0.1 60);
   --danger: oklch(0.75 0.14 25);
-  --selection: oklch(0.42 0.08 250);
-  --shadow-float:
-    0 10px 28px -6px oklch(0.05 0.01 250 / 0.6), 0 2px 8px -2px oklch(0.05 0.01 250 / 0.4);
+  --selection: oklch(0.42 0.1 292);
+  --shadow-float: var(--shadow-hard-lg);
 
   color-scheme: dark;
 }

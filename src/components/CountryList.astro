@@ -55,8 +55,7 @@ const { countries, counts = true } = Astro.props;
   }
 
   img {
-    border: 1px solid var(--rule);
-    border-radius: 1px;
+    border: 1px solid var(--edge);
   }
 
   .name {
@@ -68,5 +67,7 @@ const { countries, counts = true } = Astro.props;
 
   .count {
     color: var(--ink-2);
+    font-family: var(--font-data);
+    font-size: 0.8125rem;
   }
 </style>

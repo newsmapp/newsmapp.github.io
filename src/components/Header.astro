@@ -65,8 +65,10 @@ const { search = true } = Astro.props;
     position: sticky;
     top: 0;
     z-index: var(--z-sticky);
-    border-bottom: 1px solid var(--rule);
-    background: var(--canvas);
+    border-bottom: var(--line) solid var(--edge);
+    /* Frosted so the graticule and the boxes stay faintly visible while scrolling under it. */
+    background: color-mix(in oklch, var(--surface) 88%, transparent);
+    backdrop-filter: blur(14px) saturate(1.4);
   }
 
   .bar {
@@ -138,17 +140,27 @@ const { search = true } = Astro.props;
     min-height: 2.5rem;
     margin-inline-start: auto;
     padding-inline: var(--space-3);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius-card);
+    border: var(--line) solid var(--edge);
     background: var(--surface);
+    box-shadow: var(--shadow-hard);
     color: var(--ink-2);
     font: inherit;
     font-size: var(--type-data);
     cursor: pointer;
   }
 
+  .search:active,
+  .theme:active {
+    box-shadow: 0 0 0 var(--shadow-ink);
+    transform: translate(3px, 3px);
+  }
+
+  .push {
+    margin-inline-start: auto;
+  }
+
   .search:hover {
-    border-color: var(--rule-strong);
+    background: var(--surface-hover);
     color: var(--ink);
   }
 
@@ -163,13 +175,15 @@ const { search = true } = Astro.props;
 
   kbd {
     padding: 0 var(--space-1);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius-tag);
-    font-family: inherit;
+    border: 1px solid var(--rule-strong);
+    font-family: var(--font-data);
     font-size: var(--type-label);
   }
 
   .nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
     color: var(--ink);
     font-size: var(--type-data);
     font-weight: var(--weight-strong);
@@ -186,10 +200,10 @@ const { search = true } = Astro.props;
     place-items: center;
     width: 2.5rem;
     height: 2.5rem;
-    border: 0;
-    border-radius: var(--radius-card);
-    background: none;
-    color: var(--ink-2);
+    border: var(--line) solid var(--edge);
+    background: var(--surface);
+    box-shadow: var(--shadow-hard);
+    color: var(--ink);
     cursor: pointer;
   }
 
