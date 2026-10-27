@@ -96,8 +96,8 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 ### 4.2 Repository on GitHub (owner, 5 min)
 
 - Goal: the code on a private GitHub repository (GitHub Free).
-- Action: `! gh repo create newsmap --private --source . --push`. GitHub Free offers no branch protection or environments on private repositories; the deploy gate is in `deploy.yml` itself (it ships only pushes to this repository's `main` that passed CI). Keep the repository single-owner: every collaborator can push to `main` and read the Actions secrets. Settings → Billing → keep the Actions spending limit at US$ 0, so running out of the 2,000 monthly minutes stops workflows instead of charging.
-- Then commit your repository name: in `wrangler.jsonc` set `"GITHUB_REPOSITORY": "<user>/newsmap"`.
+- Action: `! gh repo create newsmapp --private --source . --push`. GitHub Free offers no branch protection or environments on private repositories; the deploy gate is in `deploy.yml` itself (it ships only pushes to this repository's `main` that passed CI). Keep the repository single-owner: every collaborator can push to `main` and read the Actions secrets. Settings → Billing → keep the Actions spending limit at US$ 0, so running out of the 2,000 monthly minutes stops workflows instead of charging.
+- Then commit your repository name: in `wrangler.jsonc` set `"GITHUB_REPOSITORY": "<user>/newsmapp"`.
 - Verify: the Actions tab shows a `CI` run for the push; it must be green.
 - If it fails: open the run; the `e2e-reports` artifact holds the Playwright and Lighthouse reports.
 
@@ -108,18 +108,18 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.4 Create D1 and apply migrations (agent or owner, 5 min)
 
-- Action: `! pnpm exec wrangler d1 create newsmap`. Copy the printed `database_id` into `wrangler.jsonc` (replace the zeros) and commit it. Then `! pnpm db:migrate:remote`.
-- Verify: `! pnpm exec wrangler d1 execute newsmap --remote --command "SELECT name FROM sqlite_master WHERE type='table'"` lists the tables from `drizzle/migrations/`.
+- Action: `! pnpm exec wrangler d1 create newsmapp`. Copy the printed `database_id` into `wrangler.jsonc` (replace the zeros) and commit it. Then `! pnpm db:migrate:remote`.
+- Verify: `! pnpm exec wrangler d1 execute newsmapp --remote --command "SELECT name FROM sqlite_master WHERE type='table'"` lists the tables from `drizzle/migrations/`.
 - If it fails: "database not found" means the id in `wrangler.jsonc` does not match.
 
 ### 4.5 R2 bucket for backups (owner, 3 min)
 
-- Action: `! pnpm exec wrangler r2 bucket create newsmap-backups`, then Dashboard → R2 → `newsmap-backups` → Settings → Object lifecycle rules → delete objects with prefix `d1/` after 90 days.
+- Action: `! pnpm exec wrangler r2 bucket create newsmapp-backups`, then Dashboard → R2 → `newsmapp-backups` → Settings → Object lifecycle rules → delete objects with prefix `d1/` after 90 days.
 - Verify: `! pnpm exec wrangler r2 bucket list` shows the bucket.
 
 ### 4.6 Turnstile widget (owner, 3 min)
 
-- Where: Dashboard → Turnstile → Add widget. Hostnames: your domain and `newsmap.<subdomain>.workers.dev`. Mode: Managed.
+- Where: Dashboard → Turnstile → Add widget. Hostnames: your domain and `newsmapp.<subdomain>.workers.dev`. Mode: Managed.
 - Action: set the secret with `! pnpm exec wrangler secret put TURNSTILE_SECRET_KEY`; keep the site key for 4.8.
 - Verify: `! pnpm exec wrangler secret list` shows `TURNSTILE_SECRET_KEY`.
 
@@ -130,12 +130,12 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.8 First deploy to workers.dev = preview (agent + owner, 10 min)
 
-- Goal: the site running on `newsmap.<subdomain>.workers.dev` before any domain or real user.
+- Goal: the site running on `newsmapp.<subdomain>.workers.dev` before any domain or real user.
 - Action: create the API tokens and set the GitHub secrets and variables of §3 (`SITE_URL` can be the workers.dev URL for now). Then Actions → Deploy → Run workflow, reason `first deploy`. The workflow stops before deploying when `database_id` still has the zeros, when `VISITOR_HASH_SECRET` or `TURNSTILE_SECRET_KEY` is missing, when `LEMONSQUEEZY_API_KEY` is set without the store id and webhook secret, or when an `ADMIN_DEV_BYPASS` secret exists.
 - Smoke test (agent can run these once you share the URL):
 
   ```sh
-  BASE=https://newsmap.<subdomain>.workers.dev
+  BASE=https://newsmapp.<subdomain>.workers.dev
   curl -sI "$BASE/" | grep -iE '^(HTTP|content-security-policy|strict-transport|x-frame)'
   curl -s "$BASE/api/geo/"                                     # {"country":"BR"} or similar
   curl -s "$BASE/api/slots/?country=US&category=general-news"  # {"available":3,"total":3}: D1 works
@@ -147,7 +147,7 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.9 Domain, DNS and TLS (owner, 10 min + propagation)
 
-- Action: add the domain to Cloudflare (Dashboard → Add a domain, Free plan) and point the registrar's nameservers to the two Cloudflare nameservers shown. Then Workers & Pages → `newsmap` → Settings → Domains & Routes → Add → Custom domain → `your-domain` (and `www` if wanted). SSL/TLS → Edge Certificates: Always Use HTTPS on, minimum TLS 1.2.
+- Action: add the domain to Cloudflare (Dashboard → Add a domain, Free plan) and point the registrar's nameservers to the two Cloudflare nameservers shown. Then Workers & Pages → `newsmapp` → Settings → Domains & Routes → Add → Custom domain → `your-domain` (and `www` if wanted). SSL/TLS → Edge Certificates: Always Use HTTPS on, minimum TLS 1.2.
 - Update the `SITE_URL` variable to `https://your-domain` and re-run Deploy (canonicals and sitemaps use it). `wrangler.jsonc` declares no routes, so `wrangler deploy` keeps the custom domain added in the dashboard; if you prefer it in code, add `"routes": [{ "pattern": "your-domain", "custom_domain": true }]`.
 - Verify: `dig +short NS your-domain` shows Cloudflare; `curl -sI https://your-domain/` returns `200` with `strict-transport-security`.
 
@@ -156,7 +156,7 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 - Action: in Zero Trust, pick a team name (free plan) and add an identity method (One-time PIN by e-mail is enough). Then run `deploy/cloudflare/setup-zone.sh` as documented in `deploy/cloudflare/README.md`, and set the two printed secrets (`CF_ACCESS_AUD`, `CF_ACCESS_TEAM_DOMAIN`).
 - Verify: `curl -sI https://your-domain/admin/` redirects to `<team>.cloudflareaccess.com`; in a browser, logging in with your e-mail opens the admin. `curl -sI https://your-domain/api/admin/export/` also redirects. Twenty quick `curl` calls to `/api/geo/` should eventually return 429 from the WAF rule.
 - If the admin returns 403 after login: the AUD or team domain secret does not match the application.
-- Then close the workers.dev door: the zone's WAF, bot and Access rules do not apply there. Add `"workers_dev": false, "preview_urls": false` to `wrangler.jsonc`, commit, and let Deploy run. Verify: `curl -sI https://newsmap.<subdomain>.workers.dev/` no longer answers with the site. Also remove the workers.dev hostname from the Turnstile widget (4.6).
+- Then close the workers.dev door: the zone's WAF, bot and Access rules do not apply there. Add `"workers_dev": false, "preview_urls": false` to `wrangler.jsonc`, commit, and let Deploy run. Verify: `curl -sI https://newsmapp.<subdomain>.workers.dev/` no longer answers with the site. Also remove the workers.dev hostname from the Turnstile widget (4.6).
 
 ### 4.11 LemonSqueezy in test mode, webhook (owner, 20 min)
 
@@ -166,20 +166,20 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.12 Backups and monitoring (owner, 15 min)
 
-- Backup: Actions → Scheduled → Run workflow → `backup`. Verify the object in R2 → `newsmap-backups/d1/`.
+- Backup: Actions → Scheduled → Run workflow → `backup`. Verify the object in R2 → `newsmapp-backups/d1/`.
 - Restore test (do it once now):
 
   ```sh
-  ! pnpm exec wrangler r2 object get newsmap-backups/d1/newsmap-<date>.sql.gz --file restore.sql.gz --remote
+  ! pnpm exec wrangler r2 object get newsmapp-backups/d1/newsmapp-<date>.sql.gz --file restore.sql.gz --remote
   gunzip restore.sql.gz
-  ! pnpm exec wrangler d1 create newsmap-restore-test
-  ! pnpm exec wrangler d1 execute newsmap-restore-test --remote --file restore.sql
-  ! pnpm exec wrangler d1 execute newsmap-restore-test --remote --command "SELECT count(*) FROM sponsorships"
-  ! pnpm exec wrangler d1 delete newsmap-restore-test
+  ! pnpm exec wrangler d1 create newsmapp-restore-test
+  ! pnpm exec wrangler d1 execute newsmapp-restore-test --remote --file restore.sql
+  ! pnpm exec wrangler d1 execute newsmapp-restore-test --remote --command "SELECT count(*) FROM sponsorships"
+  ! pnpm exec wrangler d1 delete newsmapp-restore-test
   rm restore.sql
   ```
 
-- Monitoring: Notifications → add "Workers: error rate" (or weekly usage) to your e-mail; add an uptime check on `https://your-domain/` and `https://your-domain/api/geo/` (Cloudflare Health Checks need Pro; a free external monitor such as UptimeRobot works). Worker logs: Workers & Pages → `newsmap` → Logs (observability is enabled in `wrangler.jsonc`).
+- Monitoring: Notifications → add "Workers: error rate" (or weekly usage) to your e-mail; add an uptime check on `https://your-domain/` and `https://your-domain/api/geo/` (Cloudflare Health Checks need Pro; a free external monitor such as UptimeRobot works). Worker logs: Workers & Pages → `newsmapp` → Logs (observability is enabled in `wrangler.jsonc`).
 - Billing: Manage Account → Billing → set a budget alert if you move to Workers Paid.
 
 ### 4.13 Live payments (owner, after legal approval)
@@ -212,7 +212,7 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 - Code: `! pnpm exec wrangler deployments list` then `! pnpm exec wrangler rollback <version-id>` returns the Worker and its static assets to that version immediately. Afterwards `git revert` the bad commit on `main` so the next deploy does not bring it back.
 - Rehearsal: roll back to the previous version, check the site, then re-run Deploy to return to the latest.
-- Database: migrations are forward-only. A bad migration is fixed with a new migration. For data loss, D1 Time Travel restores to any minute in the last 30 days: `! pnpm exec wrangler d1 time-travel restore newsmap --timestamp <ISO-8601>` (this overwrites the current data; export first). The weekly R2 export is the fallback beyond that window.
+- Database: migrations are forward-only. A bad migration is fixed with a new migration. For data loss, D1 Time Travel restores to any minute in the last 30 days: `! pnpm exec wrangler d1 time-travel restore newsmapp --timestamp <ISO-8601>` (this overwrites the current data; export first). The weekly R2 export is the fallback beyond that window.
 - Emergency switches: disable the LemonSqueezy webhook or put the store in test mode (stops activations); delete `GITHUB_DISPATCH_TOKEN` (stops sponsor-triggered rebuilds); set `ADS_ENABLED=false` and redeploy; Security → Settings → "Under Attack" mode for abusive traffic.
 
 ## 7. After launch

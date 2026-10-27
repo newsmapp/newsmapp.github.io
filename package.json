@@ -1,5 +1,5 @@
 {
-  "name": "newsmap",
+  "name": "newsmapp",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.21.0",
@@ -34,8 +34,8 @@
     "catalog:report": "tsx tools/catalog-cli/index.ts report",
     "sponsorships:snapshot": "tsx tools/sponsorships-snapshot.ts",
     "db:generate": "drizzle-kit generate",
-    "db:migrate:local": "wrangler d1 migrations apply newsmap --local",
-    "db:migrate:remote": "wrangler d1 migrations apply newsmap --remote",
+    "db:migrate:local": "wrangler d1 migrations apply newsmapp --local",
+    "db:migrate:remote": "wrangler d1 migrations apply newsmapp --remote",
     "deploy": "pnpm build && wrangler deploy",
     "geo:generate": "tsx tools/generate-geo.ts",
     "catalog:build": "tsx tools/build-catalog.ts",

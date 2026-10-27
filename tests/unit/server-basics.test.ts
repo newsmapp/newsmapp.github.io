@@ -170,7 +170,7 @@ describe('analytics', () => {
   });
 
   it('builds the filtered-clicks query with a bounded window', () => {
-    const sql = filteredClicksSql('newsmap_clicks', 9999, 'blob2');
+    const sql = filteredClicksSql('newsmapp_clicks', 9999, 'blob2');
     expect(sql).toContain("INTERVAL '90' DAY");
     expect(sql).toContain("blob6 = 'human'");
     expect(sql).toContain('SELECT blob2 AS key');

@@ -19,7 +19,7 @@ const query = (groupBy: 'blob1' | 'blob2' | 'blob3') =>
   queryClicks(
     env.CLOUDFLARE_ACCOUNT_ID,
     env.CLOUDFLARE_ANALYTICS_TOKEN,
-    filteredClicksSql('newsmap_clicks', days, groupBy),
+    filteredClicksSql('newsmapp_clicks', days, groupBy),
   );
 const [byOutlet, byCountry, byCategory] = await Promise.all([
   query('blob1'),

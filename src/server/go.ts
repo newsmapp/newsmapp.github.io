@@ -14,7 +14,7 @@ export interface GoTarget {
 
 const withUtm = (url: string, medium: string, campaign: string): string => {
   const target = new URL(url);
-  target.searchParams.set('utm_source', 'newsmap');
+  target.searchParams.set('utm_source', 'newsmapp');
   target.searchParams.set('utm_medium', medium);
   if (campaign) target.searchParams.set('utm_campaign', campaign);
   return target.toString();

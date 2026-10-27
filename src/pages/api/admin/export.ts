@@ -21,7 +21,7 @@ export const GET: APIRoute = ({ request, url }) =>
         (await queryClicks(
           env.CLOUDFLARE_ACCOUNT_ID,
           env.CLOUDFLARE_ANALYTICS_TOKEN,
-          filteredClicksSql('newsmap_clicks', 30, 'blob1'),
+          filteredClicksSql('newsmapp_clicks', 30, 'blob1'),
         )) ?? [];
     } else if (isExport(type)) {
       rows = await exportRows(db(), type);
@@ -31,7 +31,7 @@ export const GET: APIRoute = ({ request, url }) =>
     return new Response(toCsv(rows), {
       headers: {
         'content-type': 'text/csv; charset=utf-8',
-        'content-disposition': `attachment; filename="newsmap-${type}-${new Date().toISOString().slice(0, 10)}.csv"`,
+        'content-disposition': `attachment; filename="newsmapp-${type}-${new Date().toISOString().slice(0, 10)}.csv"`,
         'cache-control': 'no-store',
       },
     });

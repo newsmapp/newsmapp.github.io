@@ -22,7 +22,7 @@ export async function dispatchRebuild(
       headers: {
         accept: 'application/vnd.github+json',
         authorization: `Bearer ${env.GITHUB_DISPATCH_TOKEN}`,
-        'user-agent': 'newsmap-worker',
+        'user-agent': 'newsmapp-worker',
         'x-github-api-version': '2022-11-28',
       },
       body: JSON.stringify({ ref: 'main', inputs: { reason: reason.slice(0, 100) } }),

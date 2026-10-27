@@ -49,7 +49,7 @@ function localRows(): SponsorshipRow[] {
       'wrangler',
       'd1',
       'execute',
-      'newsmap',
+      'newsmapp',
       '--local',
       '--json',
       '--command',

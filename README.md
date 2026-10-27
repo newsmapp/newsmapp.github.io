@@ -30,7 +30,7 @@ CATALOG_DIR=tests/fixtures/catalog pnpm build && pnpm preview   # Worker + local
 The full runbook, with verification for every step, is `docs/runbooks/deploy.md`. The short version:
 
 1. Accounts with 2FA: Cloudflare, GitHub. Push this repository to a private GitHub repo and protect `main`.
-2. `wrangler login`, then `wrangler d1 create newsmap`; put the printed id in `wrangler.jsonc` and run `pnpm db:migrate:remote`.
+2. `wrangler login`, then `wrangler d1 create newsmapp`; put the printed id in `wrangler.jsonc` and run `pnpm db:migrate:remote`.
 3. Create a Turnstile widget and the Worker secrets with `wrangler secret put` (inventory in the runbook §3).
 4. Create the three Cloudflare API tokens and set them as GitHub secrets; set the `SITE_URL` and `TURNSTILE_SITE_KEY` variables.
 5. Run Actions → Deploy. Smoke-test the `*.workers.dev` URL.
@@ -51,7 +51,7 @@ Git is the CMS: every outlet and country is a JSON file in `data/`, validated by
    pnpm catalog:add --country BR --name "…" --url https://… --categories general-news --pitch "…"
    ```
 
-2. Check links and fetch icons. `catalog:health` writes `reports/health-<date>.json` with redirects, dead links and invalid feeds; `catalog:icons` stores favicons locally (never hot-linked).
+2. Check links and fetch icons. `catalog:health` writes `reports/health-<date>.json` with redirects, dead links and invalid feeds; `catalog:icons` stores favicons locally (never hot-linked) as `public/icons/<id>.webp`; commit the new files with the outlets.
 
    ```sh
    pnpm catalog:health --country BR

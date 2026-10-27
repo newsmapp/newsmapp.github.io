@@ -61,7 +61,7 @@ describe('selectAffiliate', () => {
   it('adds the configured parameters to the destination', () => {
     const offer = config.affiliates[0]!;
     const url = new URL(affiliateUrl(offer));
-    expect(url.searchParams.get('utm_source')).toBe('newsmap');
+    expect(url.searchParams.get('utm_source')).toBe('newsmapp');
     expect(isVpnOffer(offer)).toBe(offer.context.startsWith('vpn'));
   });
 });

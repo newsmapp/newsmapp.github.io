@@ -5,7 +5,7 @@ import type { RuntimeCatalog } from '@/lib/catalog/public';
 import type { AffiliatesConfig } from '@/lib/monetization/affiliates';
 import { fakeFetch, jsonResponse } from '../helpers/server';
 
-const TEAM = 'newsmap.cloudflareaccess.com';
+const TEAM = 'newsmapp.cloudflareaccess.com';
 const AUD = 'aud-123';
 const encode = (value: unknown) => Buffer.from(JSON.stringify(value)).toString('base64url');
 
