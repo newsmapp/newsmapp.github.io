@@ -8,8 +8,8 @@ description = "Definition of done: format, lint, boundaries, types, catalog, tes
 run = "pnpm check"
 
 [tasks."check:all"]
-description = "check + build + SEO audit + E2E (what CI runs)"
-run = "pnpm check && pnpm build && pnpm seo:audit && pnpm e2e"
+description = "Exactly what CI runs: both jobs, real and fixture catalogs, E2E and Lighthouse"
+run = "tools/ci-local.sh"
 
 [tasks.fix]
 run = "pnpm fix"

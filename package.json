@@ -21,6 +21,7 @@
     "a11y": "playwright test --grep @a11y",
     "lhci": "lhci autorun",
     "seo:audit": "tsx tools/seo-audit.ts dist/client",
+    "ci:local": "tools/ci-local.sh",
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm catalog:validate && pnpm test",
     "fix": "prettier --write . && eslint . --fix",
     "catalog:validate": "tsx tools/catalog-cli/index.ts validate",
