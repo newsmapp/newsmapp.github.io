@@ -11,3 +11,4 @@ SPEC.md
 # owned by the catalog CLI (JSON.stringify formatting)
 data/
 tests/fixtures/
+/C:*

@@ -139,3 +139,15 @@ describe('sponsorship snapshot', () => {
     expect(snapshot[2]?.icon).toBeNull();
   });
 });
+
+describe('affiliate copy', () => {
+  // SPEC §3.6.2: no offer may suggest getting around paywalls, broadcast rights or geo-blocks.
+  const FORBIDDEN =
+    /paywall|bypass|unblock|circumvent|geo-?block|get around|stream (any|every)|watch .* abroad/i;
+
+  it('never promises to bypass paywalls, rights or geo-blocking', () => {
+    for (const offer of shipped.affiliates) {
+      expect(`${offer.headline} ${offer.body} ${offer.cta}`).not.toMatch(FORBIDDEN);
+    }
+  });
+});

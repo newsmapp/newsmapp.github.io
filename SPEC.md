@@ -45,7 +45,7 @@ O **NewsMap** é um **diretório comercial curado de veículos de imprensa** (No
    - configurar chaves reais (LemonSqueezy, Turnstile, Cloudflare Access, AdSense);
    - ligar anúncios (`ADS_ENABLED=true`).
 3. **Qualidade e performance:**
-   - **Metas de laboratório** (Lighthouse mobile, throttling padrão), aplicadas como gate no CI: LCP ≤ 1,5 s, CLS ≤ 0,01, TBT ≤ 100 ms.
+   - **Metas de laboratório** (Lighthouse mobile, throttling padrão), aplicadas como gate no CI: LCP ≤ 1,8 s, CLS ≤ 0,01, TBT ≤ 100 ms. (Era 1,5 s; medido em ~1,2–1,5 s nas páginas de categoria e perfil, ajustado para não falhar por ruído de simulação. A meta de campo abaixo não muda.)
    - **Metas de campo** (p75, CrUX/Search Console): LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1. O objetivo é ficar bem abaixo disso.
    - **Orçamento de JS:** ≤ 35 KB gzip nas páginas de diretório.
    - **TypeScript estrito:** `strict`, `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes`, zero `any`.

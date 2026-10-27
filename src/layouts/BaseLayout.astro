@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import franklinLatin from '@fontsource-variable/libre-franklin/files/libre-franklin-latin-wght-normal.woff2?url';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CommandPalette from '../components/CommandPalette';
@@ -11,7 +10,7 @@ import { ENABLED_LOCALES } from 'astro:env/server';
 import type { Locale } from '../schemas/common';
 
 interface Props {
-  title: string;
+  title: string | readonly string[];
   description: string;
   noindex?: boolean;
   type?: 'website' | 'article' | 'profile';
@@ -73,7 +72,6 @@ const alternates = hreflangAlternates(
     <meta name="theme-color" content="oklch(0.975 0.004 95)" />
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href={franklinLatin} as="font" type="font/woff2" crossorigin />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script is:inline>
       (function () {

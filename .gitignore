@@ -53,3 +53,6 @@ worker-configuration.d.ts
 # downloaded favicons and generated monograms (pnpm catalog:icons / catalog:build)
 public/icons/
 public/flags/
+
+# Chrome temp profiles that Lighthouse leaves behind when run under WSL
+/C:*

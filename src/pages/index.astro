@@ -24,12 +24,12 @@ const picks = countries
   .slice(0, 12);
 const description =
   countries.length > 0
-    ? `Compare ${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries by topic, paywall and ownership.`
-    : 'A directory of newspapers, broadcasters and news sites by country, with paywall and ownership for each.';
+    ? `Compare ${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries, sorted by topic, with paywall and ownership shown for each.`
+    : 'A directory of newspapers, broadcasters and news sites by country, sorted by topic, with paywall and ownership shown for each outlet.';
 ---
 
 <BaseLayout
-  title="NewsMap"
+  title="News sources of every country, side by side"
   description={description}
   jsonld={[website(siteUrl), organization(siteUrl)]}
 >

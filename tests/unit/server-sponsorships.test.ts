@@ -92,3 +92,14 @@ describe('releaseExpiredReservations and liveSponsorship', () => {
     expect(await releaseExpiredReservations(db, new Date('2027-01-01T00:00:00.000Z'))).toBe(0);
   });
 });
+
+describe('concurrent checkout', () => {
+  it('sells the last slot once when two buyers race for it', async () => {
+    const results = await Promise.all([
+      reserveSlot(db, input, 1, NOW),
+      reserveSlot(db, input, 1, NOW),
+    ]);
+    expect(results.filter(Boolean)).toHaveLength(1);
+    expect(await openSlots(db, 'PT', 'sports', 1, NOW)).toBe(0);
+  });
+});

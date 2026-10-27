@@ -47,6 +47,7 @@ const { country, outlet } = Astro.props;
 const name = countryName(country);
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const indexable = isProfileIndexable(outlet);
+// Site search still lists every published outlet; only search engines skip thin profiles.
 const about = outlet.about[LOCALE];
 const similar = similarOutlets(country, outlet);
 const withPages = new Set(categoryPages(country));
@@ -76,7 +77,12 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
 ---
 
 <BaseLayout
-  title={`${outlet.name} (${name}): ownership, paywall and alternatives`}
+  title={[
+    `${outlet.name} (${name}): ownership, paywall and alternatives`,
+    `${outlet.name}: ownership, paywall and alternatives`,
+    `${outlet.name}: ownership and paywall`,
+    outlet.name,
+  ]}
   description={description}
   noindex={!indexable}
   type="profile"
@@ -89,7 +95,7 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
       parentOrganization: ownerSourced ? outlet.owner : null,
     }),
   ]}
-  searchable={indexable}
+  searchable
   searchType="outlet"
 >
   <div class="page">

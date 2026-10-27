@@ -1,5 +1,6 @@
 export interface MetaInput {
-  title: string;
+  /** One title, or candidates from longest to shortest; the first that fits is used. */
+  title: string | readonly string[];
   description: string;
   /** Path with leading and trailing slash, e.g. "/brazil/". */
   path: string;
@@ -17,6 +18,8 @@ export interface Meta {
 }
 
 const SITE_NAME = 'NewsMap';
+const SUFFIX = ` | ${SITE_NAME}`;
+export const TITLE_MAX = 60;
 const DESCRIPTION_MAX = 155;
 
 /** Joins site origin and path into an absolute URL, keeping the trailing slash policy. */
@@ -32,11 +35,22 @@ export function clamp(text: string, max = DESCRIPTION_MAX): string {
   return `${cut.slice(0, Math.max(cut.lastIndexOf(' '), 0)).replace(/[,.;:]$/, '')}…`;
 }
 
+/**
+ * Picks the first candidate that fits in TITLE_MAX with the brand suffix, then the first that
+ * fits without it (search results cut long titles), else the shortest one clamped.
+ */
+export function fitTitle(candidates: readonly string[], max = TITLE_MAX): string {
+  const branded = (c: string) => (c === SITE_NAME || c.endsWith(SUFFIX) ? c : `${c}${SUFFIX}`);
+  const withSuffix = candidates.map(branded).find((c) => c.length <= max);
+  if (withSuffix) return withSuffix;
+  const bare = candidates.find((c) => c.length <= max);
+  if (bare) return bare;
+  const shortest = [...candidates].sort((a, b) => a.length - b.length)[0] ?? SITE_NAME;
+  return clamp(shortest, max);
+}
+
 export function buildMeta(input: MetaInput): Meta {
-  const title =
-    input.title.endsWith(`| ${SITE_NAME}`) || input.title === SITE_NAME
-      ? input.title
-      : `${input.title} | ${SITE_NAME}`;
+  const title = fitTitle(typeof input.title === 'string' ? [input.title] : input.title);
   const description = clamp(input.description);
   const canonical = absoluteUrl(input.siteUrl, input.path);
   return {

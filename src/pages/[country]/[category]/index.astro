@@ -59,7 +59,11 @@ const lower = label.charAt(0).toLowerCase() + label.slice(1);
 ---
 
 <BaseLayout
-  title={`${label} in ${name}: ${outlets.length} outlets compared`}
+  title={[
+    `${label} in ${name}: ${outlets.length} outlets compared`,
+    `${label} in ${name}: ${outlets.length} outlets`,
+    `${label} in ${name}`,
+  ]}
   description={`${outlets.length} ${lower} outlets in ${name} compared by founding year, owner, paywall and ownership type, in editorial order.`}
   jsonld={[
     breadcrumbList(siteUrl, crumbs),

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { absoluteUrl, buildMeta, clamp } from '@/lib/seo/meta';
+import { absoluteUrl, buildMeta, clamp, fitTitle } from '@/lib/seo/meta';
 import { hreflangAlternates, localizedPath } from '@/lib/seo/hreflang';
 import {
   breadcrumbList,
@@ -41,6 +41,19 @@ describe('meta', () => {
     expect(
       buildMeta({ title: 'X | NewsMap', description: 'd', path: '/', siteUrl: SITE }).title,
     ).toBe('X | NewsMap');
+  });
+});
+
+describe('fitTitle', () => {
+  it('keeps the brand suffix when it fits, drops it otherwise, and falls back to shorter candidates', () => {
+    expect(fitTitle(['Brazil'])).toBe('Brazil | NewsMap');
+    const long = 'Business, Finance & Markets in Portugal: 5 outlets compared';
+    expect(fitTitle([long])).toBe(long);
+    expect(fitTitle([`${long} and more`, 'Sports in Portugal'])).toBe(
+      'Sports in Portugal | NewsMap',
+    );
+    expect(fitTitle(['x'.repeat(80), 'y'.repeat(70)]).length).toBeLessThanOrEqual(60);
+    expect(fitTitle([])).toBe('NewsMap');
   });
 });
 

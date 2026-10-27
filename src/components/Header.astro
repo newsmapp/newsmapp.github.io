@@ -150,9 +150,18 @@ import Icon from './Icon.astro';
       justify-content: center;
     }
 
-    .search-label,
     kbd {
       display: none;
+    }
+
+    /* Hidden visually only: the label stays the button's accessible name. */
+    .search-label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
     }
   }
 </style>
