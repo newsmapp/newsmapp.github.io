@@ -95,8 +95,8 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.2 Repository on GitHub (owner, 5 min)
 
-- Goal: the code on a private GitHub repository with `main` protected.
-- Action: `! gh repo create newsmap --private --source . --push`, then Settings → Branches → add a rule for `main`: require the `CI` checks (`check`, `e2e`) to pass. Settings → Environments → create `production` (optionally require your approval).
+- Goal: the code on a private GitHub repository (GitHub Free).
+- Action: `! gh repo create newsmap --private --source . --push`. GitHub Free offers no branch protection or environments on private repositories; the deploy gate is in `deploy.yml` itself (it ships only pushes to this repository's `main` that passed CI). Keep the repository single-owner: every collaborator can push to `main` and read the Actions secrets. Settings → Billing → keep the Actions spending limit at US$ 0, so running out of the 2,000 monthly minutes stops workflows instead of charging.
 - Then commit your repository name: in `wrangler.jsonc` set `"GITHUB_REPOSITORY": "<user>/newsmap"`.
 - Verify: the Actions tab shows a `CI` run for the push; it must be green.
 - If it fails: open the run; the `e2e-reports` artifact holds the Playwright and Lighthouse reports.
@@ -156,10 +156,11 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 - Action: in Zero Trust, pick a team name (free plan) and add an identity method (One-time PIN by e-mail is enough). Then run `deploy/cloudflare/setup-zone.sh` as documented in `deploy/cloudflare/README.md`, and set the two printed secrets (`CF_ACCESS_AUD`, `CF_ACCESS_TEAM_DOMAIN`).
 - Verify: `curl -sI https://your-domain/admin/` redirects to `<team>.cloudflareaccess.com`; in a browser, logging in with your e-mail opens the admin. `curl -sI https://your-domain/api/admin/export/` also redirects. Twenty quick `curl` calls to `/api/geo/` should eventually return 429 from the WAF rule.
 - If the admin returns 403 after login: the AUD or team domain secret does not match the application.
+- Then close the workers.dev door: the zone's WAF, bot and Access rules do not apply there. Add `"workers_dev": false, "preview_urls": false` to `wrangler.jsonc`, commit, and let Deploy run. Verify: `curl -sI https://newsmap.<subdomain>.workers.dev/` no longer answers with the site. Also remove the workers.dev hostname from the Turnstile widget (4.6).
 
 ### 4.11 LemonSqueezy in test mode, webhook (owner, 20 min)
 
-- Action: create the store, one product with monthly and yearly variants per price tier, and write their `variant_ids` into `data/monetization/pricing.json` (commit). Settings → Webhooks → add `https://your-domain/api/webhooks/lemonsqueezy/` (the trailing slash matters), choose a signing secret, and select `subscription_created`, `subscription_updated`, `subscription_payment_success`, `subscription_payment_failed`, `subscription_cancelled`, `subscription_expired`, `order_refunded`. Set `LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_WEBHOOK_SECRET` and `GITHUB_DISPATCH_TOKEN` as Worker secrets.
+- Action: create the store, one product with monthly and yearly variants per price tier, and write their `variant_ids` into `data/monetization/pricing.json` (commit). Settings → Webhooks → add `https://your-domain/api/webhooks/lemonsqueezy/` (the trailing slash matters), choose a signing secret, and select `subscription_created`, `subscription_updated`, `subscription_payment_success`, `subscription_payment_failed`, `subscription_cancelled`, `subscription_expired`, `order_refunded`. Set `LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_WEBHOOK_SECRET` and `GITHUB_DISPATCH_TOKEN` as Worker secrets. While the store is in test mode, also set `LEMONSQUEEZY_ACCEPT_TEST_EVENTS` to `true`: without it, test-mode events are acknowledged and ignored.
 - Verify: on `/advertise/`, buy a slot with a test card; LemonSqueezy → Webhooks shows each delivery with response `200`; the admin lists the sponsorship as active; a Deploy run with reason starting "sponsorship" appears in Actions and, after it, the sponsor shows on the page. Then cancel, let a payment fail and refund in test mode, checking the status in the admin each time.
 - If deliveries fail with 403/challenge: Bot Fight Mode, see `deploy/cloudflare/README.md`. With 401: the webhook secret differs.
 

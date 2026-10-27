@@ -1,10 +1,14 @@
 # Every PR and push must pass this. Mirrors `pnpm check` plus the build, SEO, E2E and Lighthouse gates.
 name: CI
 
+# Documentation-only changes do not touch the site: skipping them saves Actions minutes
+# (private repository). Deploy follows CI, so a docs-only push does not redeploy either.
 on:
   pull_request:
+    paths-ignore: ['**/*.md', 'docs/**']
   push:
     branches: [main]
+    paths-ignore: ['**/*.md', 'docs/**']
 
 permissions:
   contents: read

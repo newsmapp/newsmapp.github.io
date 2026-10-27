@@ -46,10 +46,17 @@ jobs:
     name: Snapshot, build, migrate, deploy
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    environment:
-      name: production
-      url: ${{ vars.SITE_URL }}
+    # workflow_run's branch filter matches only the branch *name*: a fork PR from a branch called
+    # "main" would pass it. Deploy only pushes to this repository's main that CI passed.
+    # This is the only deploy gate: a private repository on GitHub Free has no environments
+    # or branch protection, so a red push to main simply never ships.
+    if: >-
+      github.event_name != 'workflow_run' || (
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.event == 'push' &&
+        github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.head_repository.full_name == github.repository
+      )
     env:
       SITE_URL: ${{ vars.SITE_URL }}
       TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
