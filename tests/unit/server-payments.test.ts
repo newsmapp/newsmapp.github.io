@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { eq } from 'drizzle-orm';
 import { sponsorships, submissions } from '@/db/schema';
+import type { Pricing } from '@/lib/monetization/pricing';
 import type { Database } from '@/server/db';
 import { hmacSha256, toHex } from '@/server/crypto';
 import {
@@ -193,6 +194,52 @@ describe('applyEvent', () => {
     const outcome = await applyEvent(db, stray, NOW);
     expect(outcome.unwanted).toMatchObject({ submissionId: null, subscriptionId: stray.data.id });
     expect((await submission())?.status).toBe('awaiting_payment');
+  });
+
+  it('hands back a payment for another tier or plan, and applies the right one', async () => {
+    const pricing: Pricing = {
+      currency: 'USD',
+      default_tier: 1,
+      tiers: [
+        {
+          tier: 1,
+          countries: ['PT'],
+          monthly: 29,
+          yearly: 249,
+          variant_ids: { monthly: '11', yearly: '12' },
+        },
+        {
+          tier: 3,
+          countries: ['BR'],
+          monthly: 9,
+          yearly: 79,
+          variant_ids: { monthly: '31', yearly: '32' },
+        },
+      ],
+      slots_per_category: 3,
+    };
+    const paid = (variant: string, second: number) => {
+      const created = event('subscription_created', new Date(NOW.getTime() + second * 1000));
+      return {
+        ...created,
+        data: {
+          ...created.data,
+          id: `${created.data.id}${second}`,
+          attributes: { ...created.data.attributes, variant_id: Number(variant) },
+        },
+      };
+    };
+    for (const [variant, second] of [
+      ['31', 1],
+      ['12', 2],
+    ] as const) {
+      const outcome = await applyEvent(db, paid(variant, second), NOW, pricing);
+      expect(outcome.unwanted).toMatchObject({ submissionId: null });
+      expect((await submission())?.status).toBe('awaiting_payment');
+    }
+    const outcome = await applyEvent(db, paid('11', 3), NOW, pricing);
+    expect(outcome).toEqual({ status: 'processed', rebuild: false });
+    expect((await submission())?.status).toBe('paid_pending_review');
   });
 
   it('does not let a late payment event undo a cancellation', async () => {

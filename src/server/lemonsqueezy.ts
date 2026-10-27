@@ -103,6 +103,7 @@ export interface WebhookEvent {
       ends_at?: string | null;
       renews_at?: string | null;
       subscription_id?: number | string;
+      variant_id?: number | string;
     };
   };
 }

@@ -1,5 +1,6 @@
 import { and, eq, inArray, sql } from 'drizzle-orm';
 import { sponsorships, submissions, webhookEvents } from '../db/schema';
+import { tierFor, type Pricing } from '../lib/monetization/pricing';
 import { addDays, iso, isUniqueViolation, type Database } from './db';
 import {
   cancelSubscription,
@@ -40,16 +41,19 @@ async function seen(db: Database, key: string): Promise<boolean> {
  * Applies a verified LemonSqueezy event to submissions and sponsorships (SPEC §3.6.1).
  * The idempotency row is written in the same batch as the changes, so an event that fails
  * half-way is retried by LemonSqueezy instead of being taken for a duplicate.
+ * With `pricing`, a payment counts only when its variant is the one for the submission's
+ * country and plan.
  */
 export async function applyEvent(
   db: Database,
   event: WebhookEvent,
   now: Date,
+  pricing?: Pricing,
 ): Promise<WebhookOutcome> {
   const key = idempotencyKey(event);
   if (await seen(db, key)) return DUPLICATE;
   try {
-    return await processEvent(db, event, now, key);
+    return await processEvent(db, event, now, key, pricing);
   } catch (error) {
     // A concurrent delivery of the same event won the insert.
     if (isUniqueViolation(error) && (await seen(db, key))) return DUPLICATE;
@@ -62,6 +66,7 @@ async function processEvent(
   event: WebhookEvent,
   now: Date,
   key: string,
+  pricing: Pricing | undefined,
 ): Promise<WebhookOutcome> {
   const record = db.insert(webhookEvents).values({
     idempotency_key: key,
@@ -86,13 +91,33 @@ async function processEvent(
       // must not reopen a submission the editor already rejected or refunded. The buyer was
       // charged all the same, so that payment is handed back for a refund.
       const [submission] = await db
-        .select({ status: submissions.status, subscription: submissions.ls_subscription_id })
+        .select({
+          status: submissions.status,
+          subscription: submissions.ls_subscription_id,
+          country: submissions.country_iso,
+          plan: submissions.plan,
+        })
         .from(submissions)
         .where(eq(submissions.id, submissionId));
       // The same subscription delivered again (a resend carries a newer updated_at, so it passes
       // the idempotency key) is the payment already applied, not a second one to refund.
       if (submission?.subscription === event.data.id) return ignored();
       const orderId = attributes.order_id === undefined ? null : String(attributes.order_id);
+      // A public buy link takes any submission id as custom data: a cheaper tier or the other
+      // plan paid for this slot is handed back, and the checkout stays open for the right one.
+      // A tier without variant ids is not on sale, so checkout never opens a submission for it.
+      const expected =
+        pricing && submission?.status === 'awaiting_payment' && submission.plan !== 'free'
+          ? tierFor(pricing, submission.country).variant_ids[submission.plan]
+          : '';
+      if (expected && String(attributes.variant_id ?? '') !== expected) {
+        await record;
+        return {
+          status: 'processed',
+          rebuild: false,
+          unwanted: { submissionId: null, subscriptionId: event.data.id, orderId },
+        };
+      }
       if (submission?.status !== 'awaiting_payment') {
         const closed = submission?.status === 'rejected' || submission?.status === 'refunded';
         // A closed submission keeps the payment ids, so the editor can retry a failed refund.
