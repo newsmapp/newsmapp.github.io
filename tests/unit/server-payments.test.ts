@@ -130,6 +130,16 @@ describe('applyEvent', () => {
     expect(await sponsorship()).toMatchObject({ status: 'reserved', reserved_until: null });
   });
 
+  it('never refunds the applied subscription when it is delivered again later', async () => {
+    await applyEvent(db, event('subscription_created'), NOW);
+    const later = new Date(NOW.getTime() + 60_000);
+    expect(await applyEvent(db, event('subscription_created', later), later)).toEqual({
+      status: 'ignored',
+      rebuild: false,
+    });
+    expect((await submission())?.status).toBe('paid_pending_review');
+  });
+
   it('retries an event that failed half-way instead of calling it a duplicate', async () => {
     const created = event('subscription_created');
     const batch = db.batch.bind(db);

@@ -86,9 +86,12 @@ async function processEvent(
       // must not reopen a submission the editor already rejected or refunded. The buyer was
       // charged all the same, so that payment is handed back for a refund.
       const [submission] = await db
-        .select({ status: submissions.status })
+        .select({ status: submissions.status, subscription: submissions.ls_subscription_id })
         .from(submissions)
         .where(eq(submissions.id, submissionId));
+      // The same subscription delivered again (a resend carries a newer updated_at, so it passes
+      // the idempotency key) is the payment already applied, not a second one to refund.
+      if (submission?.subscription === event.data.id) return ignored();
       const orderId = attributes.order_id === undefined ? null : String(attributes.order_id);
       if (submission?.status !== 'awaiting_payment') {
         const closed = submission?.status === 'rejected' || submission?.status === 'refunded';
