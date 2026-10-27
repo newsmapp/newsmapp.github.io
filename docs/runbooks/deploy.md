@@ -30,7 +30,7 @@ Pending on the owner: everything in §4 marked "owner", plus the content gates i
 
 Known limitations at launch:
 
-- No country is `published` yet and no outlet is `verified`, so the production build has only the home (with no country boxes), the legal pages and the hubs. That is the intended state until you verify outlets (README, "Catalog: from draft to published"). Preview the 40 drafted countries locally with `pnpm preview:drafts`; never deploy that build (`pnpm build` first).
+- 31 countries and 753 outlets were published on 2026-10-27 by the owner's decision to launch first and review after: the drafted outlets were marked `verified` in bulk, without the per-outlet check of `docs/EDITORIAL_METHODOLOGY.md`, and the country texts as `reviewed`. Review them country by country after launch and fix or retire what is wrong. Outlets whose last link check answered 404 or nothing stay `candidate`, so Belize, Egypt, Guatemala, Honduras, Kenya, Nicaragua, Pakistan, Panama and El Salvador are not published yet. Outlet profiles stay `noindex` until their `about.en.reviewed` is true.
 - Without LemonSqueezy keys the Worker runs checkout in simulation mode: a form submission reserves a slot without payment until the reservation expires. Do not link `/advertise/` publicly before step 4.11.
 - Preview versions (`wrangler versions upload`) share the production D1 database and secrets.
 
