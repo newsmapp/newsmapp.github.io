@@ -80,7 +80,7 @@ Git is the CMS: every outlet and country is a JSON file in `data/`, validated by
 
 These are deliberately left to you and block the launch definition of done (SPEC §5.2):
 
-- Verify the candidate outlets of the 20 launch countries and publish the countries.
+- Verify the candidate outlets of the 40 drafted countries and publish the countries that reach the thresholds.
 - Review the drafted `seo_context` texts and FAQs; fill `press_freedom` from RSF.
 - Approve the methodology, privacy, terms and disclosure pages and the data in `data/site.json` (set `legal_reviewed: true`).
 - Real keys, affiliate IDs and LemonSqueezy `variant_ids`; one real payment made and refunded.

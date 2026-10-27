@@ -8,18 +8,20 @@ Commands prefixed with `!` need your Cloudflare or GitHub login: run them yourse
 
 Done and verified locally (2026-10-27):
 
-| Item                                                                                                       | Evidence                                                                         |
-| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Format, lint, boundaries, types, catalog validation, 146 unit tests                                        | `pnpm check` exit 0                                                              |
-| Production catalog build and SEO audit                                                                     | `pnpm build && pnpm seo:audit`: 9 pages, 8 sitemap URLs, 0 findings              |
-| Fixture build, E2E and accessibility (axe) on the real Worker with local D1                                | `pnpm e2e`: 38/38                                                                |
-| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci` exit 0, CLS 0 on all 12 runs, LCP 1.36–1.68 s                        |
-| Worker bundle and bindings                                                                                 | `wrangler deploy --dry-run`: 276 KiB gzip, D1, Analytics Engine, 2 rate limiters |
-| Workflows (`ci.yml`, `deploy.yml`, `scheduled.yml`) and `setup-zone.sh`                                    | `actionlint` and `shellcheck` clean; `setup-zone.sh` dry run prints payloads     |
+| Item                                                                                                       | Evidence                                                                                   |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Format, lint, boundaries, types, catalog validation, 162 unit tests                                        | `pnpm check` exit 0; `pnpm ci:local` (both CI jobs) exit 0 in 233 s                        |
+| Production catalog build and SEO audit                                                                     | `pnpm build && pnpm seo:audit`: 9 pages, 8 sitemap URLs, 0 findings                        |
+| Fixture build, E2E and accessibility (axe) on the real Worker with local D1                                | `pnpm e2e`: 38/38                                                                          |
+| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci` exit 0, CLS 0 on all 12 runs, LCP 1.36–1.68 s                                  |
+| Worker bundle and bindings                                                                                 | `wrangler deploy --dry-run`: 280 KiB gzip, D1, Analytics Engine, 2 rate limiters           |
+| A clean clone builds what Deploy ships, favicons included                                                  | fresh `git clone`, `pnpm install --frozen-lockfile`, build: 486 WebP icons, 0 SEO findings |
+| Workflows (`ci.yml`, `deploy.yml`, `scheduled.yml`) and `setup-zone.sh`                                    | `actionlint` and `shellcheck` clean; `setup-zone.sh` dry run prints payloads               |
 
 Done but not verified (needs your accounts):
 
 - The workflows have never run on GitHub; the first push is their first run.
+- Deploy's "Require the Worker secrets" step reads `wrangler secret list` with `CLOUDFLARE_API_TOKEN`; tested locally with stubbed output only. If it fails with an authentication error, the token lacks Workers Scripts: Read.
 - `setup-zone.sh` has not been applied to a real zone; Cloudflare may reject a field if the free-plan limits changed.
 - The Analytics Engine SQL used by the admin click report (`src/server/analytics.ts`) is untested against the real dataset.
 - Bot Fight Mode vs LemonSqueezy webhooks (see `deploy/cloudflare/README.md`).
@@ -28,7 +30,7 @@ Pending on the owner: everything in §4 marked "owner", plus the content gates i
 
 Known limitations at launch:
 
-- No country is `published` yet, so the production build has only the home, legal pages and hubs. That is the intended state until outlets are verified.
+- No country is `published` yet and no outlet is `verified`, so the production build has only the home (with no country boxes), the legal pages and the hubs. That is the intended state until you verify outlets (README, "Catalog: from draft to published"). Preview the 40 drafted countries locally with `pnpm preview:drafts`; never deploy that build (`pnpm build` first).
 - Without LemonSqueezy keys the Worker runs checkout in simulation mode: a form submission reserves a slot without payment until the reservation expires. Do not link `/advertise/` publicly before step 4.11.
 - Preview versions (`wrangler versions upload`) share the production D1 database and secrets.
 
