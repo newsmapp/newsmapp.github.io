@@ -1,5 +1,8 @@
 ---
 import '../styles/global.css';
+// Preloaded so the Latin faces arrive before first paint; a late font swap shifts the layout (CLS).
+import uiFont from '@fontsource-variable/libre-franklin/files/libre-franklin-latin-wght-normal.woff2?url';
+import proseFont from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CommandPalette from '../components/CommandPalette';
@@ -71,6 +74,8 @@ const alternates = hreflangAlternates(
     <meta name="twitter:card" content="summary" />
     <meta name="theme-color" content="oklch(0.975 0.004 95)" />
     <meta name="color-scheme" content="light dark" />
+    <link rel="preload" href={uiFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={proseFont} as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script is:inline>
