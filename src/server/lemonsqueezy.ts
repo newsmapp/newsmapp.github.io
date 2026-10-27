@@ -92,7 +92,7 @@ export async function cancelSubscription(
 }
 
 export interface WebhookEvent {
-  meta: { event_name: string; custom_data?: { submission_id?: string } };
+  meta: { event_name: string; test_mode?: boolean; custom_data?: { submission_id?: string } };
   data: {
     type: string;
     id: string;
@@ -120,6 +120,10 @@ export function parseEvent(raw: string): WebhookEvent | null {
     return null;
   }
 }
+
+/** Test-mode purchases never change listings unless the owner opted in (store still in test mode). */
+export const acceptsEvent = (event: WebhookEvent, acceptTestEvents: boolean): boolean =>
+  event.meta.test_mode !== true || acceptTestEvents;
 
 export const idempotencyKey = (event: WebhookEvent): string =>
   `${event.meta.event_name}:${event.data.id}:${event.data.attributes.updated_at ?? ''}`;

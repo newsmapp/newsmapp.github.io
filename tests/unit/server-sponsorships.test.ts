@@ -20,6 +20,7 @@ const input: ReservationInput = {
   contact_email: 'billing@example.com',
   plan: 'monthly',
   outlet_id: null,
+  holder: null,
 };
 
 let db: Database;

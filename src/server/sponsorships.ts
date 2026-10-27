@@ -1,4 +1,4 @@
-import { and, eq, inArray, isNotNull, lt, or, gt, sql } from 'drizzle-orm';
+import { and, eq, inArray, isNotNull, lt, or, gt, sql, type SQL } from 'drizzle-orm';
 import { sponsorships, submissions } from '../db/schema';
 import { addMinutes, iso, isUniqueViolation, type Database } from './db';
 import { newId } from './crypto';
@@ -19,23 +19,12 @@ const holding = (now: Date) =>
     ),
   );
 
-/** Releases reservations whose 30 minutes ran out without payment. */
-export async function releaseExpiredReservations(
-  db: Database,
-  now: Date,
-  where = sql`1 = 1`,
-): Promise<number> {
+/** Ends unpaid holds (reserved with a deadline) matching `where`; paid holds have no deadline. */
+async function releaseHolds(db: Database, now: Date, where: SQL): Promise<number> {
   const released = await db
     .update(sponsorships)
-    .set({ status: 'ended', ends_at: iso(now) })
-    .where(
-      and(
-        eq(sponsorships.status, 'reserved'),
-        isNotNull(sponsorships.reserved_until),
-        lt(sponsorships.reserved_until, iso(now)),
-        where,
-      ),
-    )
+    .set({ status: 'ended', ends_at: iso(now), reserved_by: null })
+    .where(and(eq(sponsorships.status, 'reserved'), isNotNull(sponsorships.reserved_until), where))
     .returning({ submission_id: sponsorships.submission_id });
   if (released.length > 0) {
     await db
@@ -52,6 +41,40 @@ export async function releaseExpiredReservations(
       );
   }
   return released.length;
+}
+
+/** Releases reservations whose 30 minutes ran out without payment. */
+export const releaseExpiredReservations = (
+  db: Database,
+  now: Date,
+  where: SQL = sql`1 = 1`,
+): Promise<number> =>
+  releaseHolds(db, now, and(lt(sponsorships.reserved_until, iso(now)), where) ?? where);
+
+/** Gives an unpaid slot back at once, e.g. when the checkout could not be created. */
+export const releaseReservation = (db: Database, now: Date, sponsorshipId: string) =>
+  releaseHolds(db, now, eq(sponsorships.id, sponsorshipId));
+
+/** Unpaid holds a visitor can keep open at once (see heldBy). */
+export const MAX_HOLDS_PER_VISITOR = 2;
+
+/**
+ * Unpaid holds still open for `holder`. Checkout refuses a new one past MAX_HOLDS_PER_VISITOR,
+ * so nobody can fill a category with reservations they never pay. Holds are counted, never
+ * taken back: people behind one shared IP must not end each other's checkout.
+ */
+export async function heldBy(db: Database, holder: string, now: Date): Promise<number> {
+  const [row] = await db
+    .select({ held: sql<number>`count(*)` })
+    .from(sponsorships)
+    .where(
+      and(
+        eq(sponsorships.reserved_by, holder),
+        eq(sponsorships.status, 'reserved'),
+        gt(sponsorships.reserved_until, iso(now)),
+      ),
+    );
+  return Number(row?.held ?? 0);
 }
 
 export async function openSlots(
@@ -76,6 +99,8 @@ export interface ReservationInput {
   contact_email: string;
   plan: 'monthly' | 'yearly';
   outlet_id: string | null;
+  /** Daily keyed hash of the buyer's IP; null when unknown. */
+  holder: string | null;
 }
 
 export interface Reservation {
@@ -137,6 +162,7 @@ export async function reserveSlot(
           slot_position: position,
           status: 'reserved',
           reserved_until: reservedUntil,
+          reserved_by: input.holder,
           created_at: iso(now),
         }),
       ]);

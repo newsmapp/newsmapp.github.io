@@ -33,6 +33,21 @@ export interface RuntimeOutlet {
 
 export type RuntimeCatalog = Record<string, RuntimeOutlet>;
 
+/** "PT:example.com" for https://www.example.com/news/ in Portugal. */
+export const outletHostKey = (country: string, url: string): string =>
+  `${country}:${new URL(url).hostname.replace(/^www\./, '')}`;
+
+/** Outlet ids by country and host, built once so checkout matches a sponsor's URL in O(1). */
+export function outletHostIndex(catalog: RuntimeCatalog): ReadonlyMap<string, string> {
+  const index = new Map<string, string>();
+  // The first outlet wins when two in one country share a host, as the old lookup did.
+  for (const [id, outlet] of Object.entries(catalog)) {
+    const key = outletHostKey(outlet.country, outlet.url);
+    if (!index.has(key)) index.set(key, id);
+  }
+  return index;
+}
+
 /**
  * Projects the validated catalog onto what the site may show: published countries and their
  * verified outlets only. Candidates and retired outlets never leave this function.

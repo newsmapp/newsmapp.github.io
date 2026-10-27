@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { eq } from 'drizzle-orm';
 import { correctionRequests, sponsorships, submissions } from '@/db/schema';
 import type { Database } from '@/server/db';
-import { overview, runAction, toCsv } from '@/server/admin';
+import { exportRows, overview, runAction, toCsv } from '@/server/admin';
 import {
   startCheckout,
   submitCorrection,
@@ -10,9 +10,10 @@ import {
   type CheckoutDeps,
 } from '@/server/forms';
 import { maintain, retentionCutoff, runDailyMaintenance } from '@/server/maintenance';
+import { MAX_HOLDS_PER_VISITOR } from '@/server/sponsorships';
 import { createTestD1 } from '../helpers/d1';
 import { NOW, fakeFetch, jsonResponse, testDb } from '../helpers/server';
-import type { RuntimeCatalog } from '@/lib/catalog/public';
+import { outletHostIndex, type RuntimeCatalog } from '@/lib/catalog/public';
 import type { Pricing } from '@/lib/monetization/pricing';
 
 const catalog = {
@@ -56,7 +57,7 @@ const order = {
 const { plan: _plan, ...suggestion } = order;
 
 let db: Database;
-let deps: CheckoutDeps;
+let deps: CheckoutDeps & { catalog: RuntimeCatalog };
 beforeEach(() => {
   db = testDb();
   deps = {
@@ -65,6 +66,8 @@ beforeEach(() => {
     siteUrl: 'https://newsmap.example',
     human: async () => true,
     catalog,
+    outletsByHost: outletHostIndex(catalog),
+    holder: null,
     pricing,
     lemonSqueezy: null,
   };
@@ -143,6 +146,31 @@ describe('startCheckout', () => {
     expect((await startCheckout({ ...order, plan: 'weekly' }, deps)).status).toBe(422);
     expect((await startCheckout(order, { ...deps, human: async () => false })).status).toBe(403);
   });
+
+  it('gives the slot back when the payment page cannot be created', async () => {
+    const down = fakeFetch(() => new Response('', { status: 503 }));
+    const error = vi.spyOn(console, 'error').mockImplementation(() => {});
+    const live = { ...deps, lemonSqueezy: { apiKey: 'k', storeId: '1', fetcher: down.fetcher } };
+    expect((await startCheckout(order, live)).status).toBe(502);
+    expect((await startCheckout(order, live)).status).toBe(502);
+    error.mockRestore();
+    expect((await db.select().from(sponsorships)).map((s) => s.status)).toEqual(['ended', 'ended']);
+    expect((await startCheckout(order, deps)).status).toBe(201);
+  });
+
+  it('caps the unpaid holds of one visitor without ending any of them', async () => {
+    const wide = { ...deps, pricing: { ...pricing, slots_per_category: 4 }, holder: 'visitor-a' };
+    for (let i = 0; i < MAX_HOLDS_PER_VISITOR; i++)
+      expect((await startCheckout(order, wide)).status).toBe(201);
+    expect((await startCheckout(order, wide)).status).toBe(429);
+    const held = await db.select().from(sponsorships).where(eq(sponsorships.status, 'reserved'));
+    expect(held.map((h) => h.reserved_by)).toEqual(['visitor-a', 'visitor-a']);
+    // Another visitor still finds open places.
+    expect((await startCheckout(order, { ...wide, holder: 'visitor-b' })).status).toBe(201);
+    expect(
+      await db.select().from(sponsorships).where(eq(sponsorships.status, 'reserved')),
+    ).toHaveLength(3);
+  });
 });
 
 describe('admin actions', () => {
@@ -196,7 +224,52 @@ describe('admin actions', () => {
     expect(result.message).toMatch(/refund failed/);
     expect(api.calls.map((c) => c.init?.method)).toEqual(['DELETE', 'POST']);
     expect((await db.select().from(submissions))[0]?.status).toBe('rejected');
-    expect((await runAction(db, 'reject', id, NOW, null)).ok).toBe(false);
+    // The payment ids stay, so Reject retries the refund instead of answering "Already closed".
+    const ok = fakeFetch(() => new Response(null, { status: 200 }));
+    const retry = await runAction(db, 'reject', id, NOW, {
+      apiKey: 'k',
+      storeId: '1',
+      fetcher: ok.fetcher,
+    });
+    expect(retry).toMatchObject({ ok: true, message: 'Rejected.' });
+    expect((await db.select().from(submissions))[0]?.status).toBe('refunded');
+    expect((await runAction(db, 'reject', id, NOW, null)).message).toBe('Already closed.');
+  });
+
+  it('closes the listing and reports it when cancelling the subscription fails', async () => {
+    const id = await paid();
+    await runAction(db, 'approve', id, NOW, null);
+    const api = fakeFetch(
+      (_url, init) => new Response(null, { status: init?.method === 'DELETE' ? 404 : 200 }),
+    );
+    const result = await runAction(db, 'reject', id, NOW, {
+      apiKey: 'k',
+      storeId: '1',
+      fetcher: api.fetcher,
+    });
+    expect(result).toMatchObject({ ok: false, rebuild: true });
+    expect(result.message).toMatch(/cancelling the subscription failed/);
+    expect((await db.select().from(submissions))[0]?.status).toBe('refunded');
+  });
+
+  it('closes listing and submission together when the provider is unreachable', async () => {
+    const id = await paid();
+    await runAction(db, 'approve', id, NOW, null);
+    const offline = (async () => {
+      throw new TypeError('fetch failed');
+    }) as typeof fetch;
+    const result = await runAction(db, 'reject', id, NOW, {
+      apiKey: 'k',
+      storeId: '1',
+      fetcher: offline,
+    });
+    expect(result).toMatchObject({ ok: false, rebuild: true });
+    expect(result.message).toMatch(/cancelling the subscription and the refund failed/);
+    expect((await db.select().from(sponsorships))[0]?.status).toBe('ended');
+    expect((await db.select().from(submissions))[0]).toMatchObject({
+      status: 'rejected',
+      closed_at: NOW.toISOString(),
+    });
   });
 
   it('rejects an approved listing with a successful refund and asks for a rebuild', async () => {
@@ -235,6 +308,19 @@ describe('admin actions', () => {
     const after = await overview(db);
     expect(after.freeSuggestions).toHaveLength(0);
     expect(after.corrections).toHaveLength(0);
+  });
+});
+
+describe('exportRows', () => {
+  it('exports whole tables, closed records included', async () => {
+    for (let i = 0; i < 3; i++) await submitSuggestion(suggestion, deps);
+    await startCheckout(order, deps);
+    await db.update(submissions).set({ status: 'rejected' }).where(eq(submissions.plan, 'free'));
+    await db.update(sponsorships).set({ status: 'ended' });
+    expect(await exportRows(db, 'submissions')).toHaveLength(4);
+    expect(await exportRows(db, 'sponsorships')).toHaveLength(1);
+    expect(await exportRows(db, 'corrections')).toHaveLength(0);
+    expect((await overview(db)).freeSuggestions).toHaveLength(0);
   });
 });
 

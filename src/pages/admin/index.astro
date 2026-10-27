@@ -32,6 +32,10 @@ const topOutlets = (byOutlet ?? []).filter((row) => !row.key.startsWith('aff-'))
 const done = Astro.url.searchParams.get('done');
 const error = Astro.url.searchParams.get('error');
 const awaiting = data.paidSubmissions.filter((s) => s.status === 'paid_pending_review');
+// Rejected but still holding payment ids: the cancel or refund failed and needs a retry.
+const unrefunded = data.paidSubmissions.filter(
+  (s) => s.status === 'rejected' && (s.ls_subscription_id !== null || s.ls_order_id !== null),
+);
 const label = (category: string) => CATEGORY_LABELS[category as Category] ?? category;
 const reports: [string, ClickRow[] | null, (key: string) => string][] = [
   ['Top 20 outlets', topOutlets, outletName],
@@ -41,7 +45,7 @@ const reports: [string, ClickRow[] | null, (key: string) => string][] = [
 ];
 ---
 
-<BaseLayout title="Admin" description="NewsMap editorial admin." noindex>
+<BaseLayout title="Admin" description="NewsMapp editorial admin." noindex>
   <div class="page admin">
     <h1>Admin</h1>
     {done && (
@@ -99,6 +103,37 @@ const reports: [string, ClickRow[] | null, (key: string) => string][] = [
         </table>
       )}
     </section>
+
+    {unrefunded.length > 0 && (
+      <section aria-labelledby="unrefunded">
+        <h2 id="unrefunded">Refunds to retry ({unrefunded.length})</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Outlet</th>
+              <th scope="col">Order</th>
+              <th scope="col">Updated</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {unrefunded.map((s) => (
+              <tr>
+                <th scope="row">{s.outlet_name}</th>
+                <td class="num">{s.ls_order_id ?? s.ls_subscription_id}</td>
+                <td class="num">{s.updated_at.slice(0, 16).replace('T', ' ')}</td>
+                <td class="actions">
+                  <form method="post" action="/api/admin/reject/">
+                    <input type="hidden" name="id" value={s.id} />
+                    <button class="danger">Retry cancel and refund</button>
+                  </form>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
 
     <section aria-labelledby="slots">
       <h2 id="slots">Sponsored slots in use ({data.liveSponsorships.length})</h2>

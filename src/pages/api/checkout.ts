@@ -1,7 +1,16 @@
 import type { APIRoute } from 'astro';
 import { startCheckout } from '../../server/forms';
 import { problem, readJson, respond } from '../../server/http';
-import { catalog, db, env, human, lemonSqueezy, overLimit, pricing } from '../../runtime/worker';
+import {
+  db,
+  env,
+  holder,
+  human,
+  lemonSqueezy,
+  outletsByHost,
+  overLimit,
+  pricing,
+} from '../../runtime/worker';
 
 export const prerender = false;
 
@@ -14,7 +23,8 @@ export const POST: APIRoute = ({ request }) =>
       now: new Date(),
       siteUrl: new URL(request.url).origin,
       human: human(request),
-      catalog,
+      outletsByHost,
+      holder: await holder(request),
       pricing,
       lemonSqueezy: lemonSqueezy(),
     });

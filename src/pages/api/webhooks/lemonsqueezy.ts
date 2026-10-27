@@ -1,9 +1,9 @@
 import type { APIRoute } from 'astro';
-import { json, problem, respond } from '../../../server/http';
-import { parseEvent, verifySignature } from '../../../server/lemonsqueezy';
+import { json, problem, readText, respond } from '../../../server/http';
+import { acceptsEvent, parseEvent, verifySignature } from '../../../server/lemonsqueezy';
 import { dispatchRebuild } from '../../../server/rebuild';
-import { applyEvent } from '../../../server/webhooks';
-import { db, env, waitUntil } from '../../../runtime/worker';
+import { applyEvent, settleUnwanted } from '../../../server/webhooks';
+import { db, env, lemonSqueezy, waitUntil } from '../../../runtime/worker';
 
 export const prerender = false;
 
@@ -12,9 +12,7 @@ const MAX_WEBHOOK_BYTES = 256 * 1024;
 /** Signed with HMAC-SHA256 over the raw body; replays are absorbed by webhook_events. */
 export const POST: APIRoute = ({ request }) =>
   respond(async () => {
-    if (Number(request.headers.get('content-length') ?? 0) > MAX_WEBHOOK_BYTES)
-      return problem(413, 'Too large.');
-    const raw = await request.text();
+    const raw = await readText(request, MAX_WEBHOOK_BYTES);
     if (
       !(await verifySignature(
         raw,
@@ -26,7 +24,13 @@ export const POST: APIRoute = ({ request }) =>
     }
     const event = parseEvent(raw);
     if (!event) return problem(400, 'Unreadable event.');
-    const outcome = await applyEvent(db(), event, new Date());
+    // Answered 200 so LemonSqueezy does not retry an event we will never apply.
+    if (!acceptsEvent(event, env.LEMONSQUEEZY_ACCEPT_TEST_EVENTS === 'true'))
+      return json({ status: 'ignored', rebuild: false });
+    const now = new Date();
+    const { unwanted, ...outcome } = await applyEvent(db(), event, now);
+    const config = lemonSqueezy();
+    if (unwanted && config) waitUntil(settleUnwanted(db(), config, unwanted, now));
     if (outcome.rebuild) waitUntil(dispatchRebuild(env, `webhook ${event.meta.event_name}`));
     return json(outcome);
   });

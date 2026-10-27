@@ -1,0 +1,1 @@
+ALTER TABLE `sponsorships` ADD `reserved_by` text;

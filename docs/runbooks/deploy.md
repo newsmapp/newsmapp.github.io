@@ -183,7 +183,7 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 ### 4.13 Live payments (owner, after legal approval)
 
-- Action: switch LemonSqueezy to live mode, replace `LEMONSQUEEZY_API_KEY` and `LEMONSQUEEZY_WEBHOOK_SECRET` with the live values (create a live webhook with the same URL and events), update live `variant_ids` in `pricing.json`.
+- Action: switch LemonSqueezy to live mode, replace `LEMONSQUEEZY_API_KEY` and `LEMONSQUEEZY_WEBHOOK_SECRET` with the live values (create a live webhook with the same URL and events), update live `variant_ids` in `pricing.json`. Delete the test-events switch: `wrangler secret delete LEMONSQUEEZY_ACCEPT_TEST_EVENTS`, so a test purchase can never activate a listing.
 - Verify: one real purchase, then refund it; both events arrive with `200`.
 
 ### 4.14 Search registration (owner, 10 min)
@@ -195,8 +195,10 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 
 - [ ] 2FA on registrar, Cloudflare, GitHub, LemonSqueezy and the e-mail account; recovery codes offline.
 - [ ] One API token per purpose with the permissions in §3; no Global API Key anywhere; the `setup-zone.sh` token deleted.
-- [ ] `main` protected; deploy only through `deploy.yml`.
+- [ ] Deploy only through `deploy.yml` (CI green on `main`); no other collaborator on the repository.
 - [ ] workers.dev smoke test (4.8) passed before attaching the domain.
+- [ ] `workers_dev` and `preview_urls` off after the domain and Access work (4.10).
+- [ ] `LEMONSQUEEZY_ACCEPT_TEST_EVENTS` deleted before live payments (4.13).
 - [ ] Weekly backup ran and one restore was tested (4.12).
 - [ ] Uptime check and error alert reach you.
 - [ ] LemonSqueezy test cycle complete: purchase, renewal (or simulated `subscription_payment_success`), failure, cancellation, refund.

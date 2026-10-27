@@ -53,31 +53,46 @@ export async function runAction(
     }
     case 'reject': {
       const [submission] = await db.select().from(submissions).where(eq(submissions.id, id));
-      if (!submission || ['rejected', 'refunded'].includes(submission.status)) {
+      // A rejected submission that still holds payment ids had a refund fail: Reject retries it.
+      const retry =
+        submission?.status === 'rejected' &&
+        (submission.ls_subscription_id !== null || submission.ls_order_id !== null);
+      if (!submission || (['rejected', 'refunded'].includes(submission.status) && !retry)) {
         return { ok: false, message: 'Already closed.', rebuild: false };
       }
-      const wasLive = await db
-        .update(sponsorships)
-        .set({ status: 'ended', ends_at: iso(now) })
-        .where(and(eq(sponsorships.submission_id, id), ne(sponsorships.status, 'ended')))
-        .returning({ status: sponsorships.status });
+      // A failed provider call (error answer or network) is reported to the editor; the listing
+      // and the submission are closed together either way, so the site and the admin agree.
+      const failed = () => false;
+      let cancelled = true;
       let refunded = false;
-      if (lemonSqueezy && submission.ls_subscription_id) {
-        await cancelSubscription(lemonSqueezy, submission.ls_subscription_id);
-      }
+      if (lemonSqueezy && submission.ls_subscription_id)
+        cancelled = await cancelSubscription(lemonSqueezy, submission.ls_subscription_id).catch(
+          failed,
+        );
       if (lemonSqueezy && submission.ls_order_id)
-        refunded = await refundOrder(lemonSqueezy, submission.ls_order_id);
-      await db
-        .update(submissions)
-        .set({ status: refunded ? 'refunded' : 'rejected', updated_at: iso(now), ...closed })
-        .where(eq(submissions.id, id));
-      const paid = submission.ls_order_id !== null;
+        refunded = await refundOrder(lemonSqueezy, submission.ls_order_id).catch(failed);
+      const [wasLive] = await db.batch([
+        db
+          .update(sponsorships)
+          .set({ status: 'ended', ends_at: iso(now) })
+          .where(and(eq(sponsorships.submission_id, id), ne(sponsorships.status, 'ended')))
+          .returning({ status: sponsorships.status }),
+        db
+          .update(submissions)
+          .set({ status: refunded ? 'refunded' : 'rejected', updated_at: iso(now), ...closed })
+          .where(eq(submissions.id, id)),
+      ]);
+      const refundFailed = lemonSqueezy !== null && submission.ls_order_id !== null && !refunded;
+      const failures = [
+        ...(cancelled ? [] : ['cancelling the subscription']),
+        ...(refundFailed ? ['the refund'] : []),
+      ];
       return {
-        ok: !paid || refunded || !lemonSqueezy,
+        ok: failures.length === 0,
         message:
-          paid && lemonSqueezy && !refunded
-            ? 'Rejected, but the refund failed. Refund it in the LemonSqueezy dashboard.'
-            : 'Rejected.',
+          failures.length === 0
+            ? 'Rejected.'
+            : `Rejected, but ${failures.join(' and ')} failed. Finish it in the LemonSqueezy dashboard.`,
         rebuild: wasLive.length > 0 && submission.status === 'approved',
       };
     }
@@ -137,6 +152,21 @@ export async function overview(db: Database) {
       .limit(100),
   ]);
   return { paidSubmissions, freeSuggestions, liveSponsorships, corrections };
+}
+
+export const EXPORTS = ['submissions', 'sponsorships', 'corrections'] as const;
+export type ExportType = (typeof EXPORTS)[number];
+
+/** Whole tables for the CSV export, newest first: unlike overview(), nothing is left out. */
+export function exportRows(db: Database, type: ExportType): Promise<Record<string, unknown>[]> {
+  switch (type) {
+    case 'submissions':
+      return db.select().from(submissions).orderBy(desc(submissions.created_at));
+    case 'sponsorships':
+      return db.select().from(sponsorships).orderBy(desc(sponsorships.created_at));
+    case 'corrections':
+      return db.select().from(correctionRequests).orderBy(desc(correctionRequests.created_at));
+  }
 }
 
 /** RFC 4180 CSV; cells starting with = + - @ are prefixed so spreadsheets do not run them. */

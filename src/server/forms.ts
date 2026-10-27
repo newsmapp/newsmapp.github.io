@@ -1,5 +1,5 @@
 import { correctionRequests, submissions } from '../db/schema';
-import type { RuntimeCatalog } from '../lib/catalog/public';
+import { outletHostKey, type RuntimeCatalog } from '../lib/catalog/public';
 import { tierFor, type Pricing } from '../lib/monetization/pricing';
 import {
   checkoutPayloadSchema,
@@ -10,7 +10,7 @@ import { newId } from './crypto';
 import { iso, type Database } from './db';
 import { fieldErrors, json, problem } from './http';
 import { createCheckout, type LemonSqueezyConfig } from './lemonsqueezy';
-import { reserveSlot } from './sponsorships';
+import { heldBy, MAX_HOLDS_PER_VISITOR, releaseReservation, reserveSlot } from './sponsorships';
 
 export interface FormDeps {
   db: Database;
@@ -69,7 +69,10 @@ export async function submitCorrection(
 }
 
 export interface CheckoutDeps extends FormDeps {
-  catalog: RuntimeCatalog;
+  /** outletHostIndex() of the runtime catalog. */
+  outletsByHost: ReadonlyMap<string, string>;
+  /** Daily keyed hash of the buyer's IP (one unpaid hold per visitor); null when unknown. */
+  holder: string | null;
   pricing: Pricing;
   /** Null runs simulation mode: no payment provider is called. */
   lemonSqueezy: LemonSqueezyConfig | null;
@@ -88,15 +91,17 @@ export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<
   if (deps.lemonSqueezy && !variantId)
     return problem(503, 'Sponsorships are not on sale yet. Write to us instead.');
 
-  const host = new URL(data.url).hostname.replace(/^www\./, '');
-  const known = Object.entries(deps.catalog).find(
-    ([, outlet]) =>
-      outlet.country === data.country_iso &&
-      new URL(outlet.url).hostname.replace(/^www\./, '') === host,
-  );
+  if (deps.holder && (await heldBy(deps.db, deps.holder, deps.now)) >= MAX_HOLDS_PER_VISITOR) {
+    return problem(429, 'You already have checkouts open. Finish one, or try again in 30 minutes.');
+  }
   const reservation = await reserveSlot(
     deps.db,
-    { ...data, plan, outlet_id: known?.[0] ?? null },
+    {
+      ...data,
+      plan,
+      outlet_id: deps.outletsByHost.get(outletHostKey(data.country_iso, data.url)) ?? null,
+      holder: deps.holder,
+    },
     deps.pricing.slots_per_category,
     deps.now,
   );
@@ -115,12 +120,19 @@ export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<
       201,
     );
   }
-  const url = await createCheckout(deps.lemonSqueezy, {
-    variantId,
-    email: data.contact_email,
-    submissionId: reservation.submissionId,
-    redirectUrl: thanks.toString(),
-    expiresAt: reservation.reservedUntil,
-  });
-  return json({ redirect: url }, 201);
+  try {
+    const url = await createCheckout(deps.lemonSqueezy, {
+      variantId,
+      email: data.contact_email,
+      submissionId: reservation.submissionId,
+      redirectUrl: thanks.toString(),
+      expiresAt: reservation.reservedUntil,
+    });
+    return json({ redirect: url }, 201);
+  } catch (error) {
+    // No checkout, no hold: otherwise every retry would take another slot for 30 minutes.
+    await releaseReservation(deps.db, deps.now, reservation.sponsorshipId);
+    console.error(error);
+    return problem(502, 'The payment page could not be opened. Please try again in a minute.');
+  }
 }

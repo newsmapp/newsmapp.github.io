@@ -1,9 +1,10 @@
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { eq } from 'drizzle-orm';
 import { sponsorships, submissions } from '@/db/schema';
 import type { Database } from '@/server/db';
 import { hmacSha256, toHex } from '@/server/crypto';
 import {
+  acceptsEvent,
   cancelSubscription,
   createCheckout,
   idempotencyKey,
@@ -13,7 +14,7 @@ import {
   type WebhookEvent,
 } from '@/server/lemonsqueezy';
 import { reserveSlot } from '@/server/sponsorships';
-import { applyEvent } from '@/server/webhooks';
+import { applyEvent, settleUnwanted } from '@/server/webhooks';
 import { testEvent } from '../../tools/lemonsqueezy-simulate';
 import { NOW, fakeFetch, jsonResponse, testDb } from '../helpers/server';
 
@@ -81,6 +82,14 @@ describe('LemonSqueezy client', () => {
     expect(event?.data.attributes).toEqual({});
     expect(idempotencyKey(event!)).toBe('x:1:');
   });
+
+  it('applies test-mode events only when the owner opted in', () => {
+    const live = parseEvent('{"meta":{"event_name":"x"},"data":{"type":"orders","id":"1"}}')!;
+    const test = { ...live, meta: { ...live.meta, test_mode: true } };
+    expect(acceptsEvent(live, false)).toBe(true);
+    expect(acceptsEvent(test, false)).toBe(false);
+    expect(acceptsEvent(test, true)).toBe(true);
+  });
 });
 
 describe('applyEvent', () => {
@@ -105,6 +114,7 @@ describe('applyEvent', () => {
         contact_email: 'billing@example.com',
         plan: 'monthly',
         outlet_id: null,
+        holder: null,
       },
       3,
       NOW,
@@ -118,6 +128,78 @@ describe('applyEvent', () => {
     expect(await applyEvent(db, created, NOW)).toEqual({ status: 'duplicate', rebuild: false });
     expect((await submission())?.status).toBe('paid_pending_review');
     expect(await sponsorship()).toMatchObject({ status: 'reserved', reserved_until: null });
+  });
+
+  it('retries an event that failed half-way instead of calling it a duplicate', async () => {
+    const created = event('subscription_created');
+    const batch = db.batch.bind(db);
+    db.batch = (async () => {
+      throw new Error('D1 unavailable');
+    }) as typeof db.batch;
+    await expect(applyEvent(db, created, NOW)).rejects.toThrow(/D1 unavailable/);
+    db.batch = batch;
+    expect((await submission())?.status).toBe('awaiting_payment');
+    expect(await applyEvent(db, created, NOW)).toEqual({ status: 'processed', rebuild: false });
+    expect((await submission())?.status).toBe('paid_pending_review');
+  });
+
+  it('does not reopen a rejected submission on a late subscription_created', async () => {
+    await db
+      .update(submissions)
+      .set({ status: 'rejected', closed_at: NOW.toISOString() })
+      .where(eq(submissions.id, submissionId));
+    await db
+      .update(sponsorships)
+      .set({ status: 'ended' })
+      .where(eq(sponsorships.submission_id, submissionId));
+    const created = event('subscription_created');
+    const outcome = await applyEvent(db, created, NOW);
+    expect(outcome).toMatchObject({
+      status: 'processed',
+      rebuild: false,
+      unwanted: { submissionId, subscriptionId: created.data.id },
+    });
+    // Still closed, but the payment it received is kept for the refund.
+    expect(await submission()).toMatchObject({
+      status: 'rejected',
+      ls_subscription_id: created.data.id,
+      ls_order_id: outcome.unwanted?.orderId,
+    });
+    expect(await sponsorship()).toMatchObject({ status: 'ended', ls_subscription_id: null });
+
+    const down = fakeFetch(() => new Response(null, { status: 500 }));
+    const error = vi.spyOn(console, 'error').mockImplementation(() => {});
+    expect(await settleUnwanted(db, config(down.fetcher), outcome.unwanted!, NOW)).toBe(false);
+    error.mockRestore();
+    expect((await submission())?.status).toBe('rejected');
+    const api = fakeFetch(() => new Response(null, { status: 200 }));
+    expect(await settleUnwanted(db, config(api.fetcher), outcome.unwanted!, NOW)).toBe(true);
+    expect(api.calls.map((c) => c.init?.method)).toEqual(['DELETE', 'POST']);
+    expect((await submission())?.status).toBe('refunded');
+  });
+
+  it('hands back a payment for an unknown submission without touching any row', async () => {
+    const stray = testEvent('subscription_created', 'sub-unknown', NOW) as WebhookEvent;
+    const outcome = await applyEvent(db, stray, NOW);
+    expect(outcome.unwanted).toMatchObject({ submissionId: null, subscriptionId: stray.data.id });
+    expect((await submission())?.status).toBe('awaiting_payment');
+  });
+
+  it('does not let a late payment event undo a cancellation', async () => {
+    await applyEvent(db, event('subscription_created'), NOW);
+    await db
+      .update(sponsorships)
+      .set({ status: 'active' })
+      .where(eq(sponsorships.submission_id, submissionId));
+    await applyEvent(db, event('subscription_cancelled', new Date(NOW.getTime() + 1000)), NOW);
+    const endsAt = (await sponsorship())?.ends_at;
+    expect(endsAt).not.toBeNull();
+    await applyEvent(
+      db,
+      event('subscription_payment_success', new Date(NOW.getTime() + 2000)),
+      NOW,
+    );
+    expect(await sponsorship()).toMatchObject({ status: 'active', ends_at: endsAt });
   });
 
   it('keeps a lapsed slot ended when someone else took it meanwhile', async () => {
@@ -135,6 +217,7 @@ describe('applyEvent', () => {
         contact_email: 'o@example.com',
         plan: 'monthly',
         outlet_id: null,
+        holder: null,
       },
       1,
       NOW,
@@ -198,6 +281,26 @@ describe('applyEvent', () => {
     await applyEvent(db, updated('cancelled', '2026-12-01T00:00:00.000Z', 2), NOW);
     expect((await sponsorship())?.ends_at).toBe('2026-12-01T00:00:00.000Z');
     expect((await applyEvent(db, updated('active', null, 3), NOW)).rebuild).toBe(false);
+  });
+
+  it('keeps a resumed subscription listed past its old cancellation date', async () => {
+    await applyEvent(db, event('subscription_created'), NOW);
+    await db
+      .update(sponsorships)
+      .set({ status: 'active' })
+      .where(eq(sponsorships.submission_id, submissionId));
+    const base = event('subscription_cancelled', new Date(NOW.getTime() + 1000));
+    const withStatus = (status: string, ends_at: string | null, ms: number): WebhookEvent => ({
+      meta: { ...base.meta, event_name: 'subscription_updated' },
+      data: {
+        ...base.data,
+        attributes: { status, ends_at, updated_at: new Date(NOW.getTime() + ms).toISOString() },
+      },
+    });
+    await applyEvent(db, withStatus('cancelled', '2026-11-30T00:00:00.000Z', 2000), NOW);
+    expect((await sponsorship())?.ends_at).toBe('2026-11-30T00:00:00.000Z');
+    await applyEvent(db, withStatus('active', null, 3000), NOW);
+    expect(await sponsorship()).toMatchObject({ status: 'active', ends_at: null });
   });
 
   it('ends the listing on refund and ignores unknown orders and events', async () => {

@@ -1,11 +1,14 @@
 import type { APIRoute } from 'astro';
 import { isAdmin } from '../../../server/access';
-import { overview, toCsv } from '../../../server/admin';
+import { EXPORTS, exportRows, toCsv, type ExportType } from '../../../server/admin';
 import { filteredClicksSql, queryClicks } from '../../../server/analytics';
 import { problem, respond } from '../../../server/http';
 import { db, env } from '../../../runtime/worker';
 
 export const prerender = false;
+
+const isExport = (type: string | null): type is ExportType =>
+  (EXPORTS as readonly (string | null)[]).includes(type);
 
 /** CSV export: ?type=submissions|sponsorships|corrections|clicks. */
 export const GET: APIRoute = ({ request, url }) =>
@@ -20,15 +23,10 @@ export const GET: APIRoute = ({ request, url }) =>
           env.CLOUDFLARE_ANALYTICS_TOKEN,
           filteredClicksSql('newsmap_clicks', 30, 'blob1'),
         )) ?? [];
+    } else if (isExport(type)) {
+      rows = await exportRows(db(), type);
     } else {
-      const data = await overview(db());
-      const tables: Record<string, Record<string, unknown>[]> = {
-        submissions: [...data.paidSubmissions, ...data.freeSuggestions],
-        sponsorships: data.liveSponsorships,
-        corrections: data.corrections,
-      };
-      if (!type || !Object.hasOwn(tables, type)) return problem(400, 'Unknown export.');
-      rows = tables[type] ?? [];
+      return problem(400, 'Unknown export.');
     }
     return new Response(toCsv(rows), {
       headers: {

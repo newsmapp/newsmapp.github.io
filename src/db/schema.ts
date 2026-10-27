@@ -56,6 +56,8 @@ export const sponsorships = sqliteTable(
     slot_position: integer('slot_position').notNull(),
     status: text('status', { enum: ['reserved', 'active', 'grace', 'ended'] }).notNull(),
     reserved_until: text('reserved_until'),
+    /** Daily keyed hash of the buyer's IP while an unpaid hold runs: one hold per visitor. */
+    reserved_by: text('reserved_by'),
     starts_at: text('starts_at'),
     ends_at: text('ends_at'),
     ls_subscription_id: text('ls_subscription_id'),

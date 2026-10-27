@@ -6,8 +6,9 @@ import { env, waitUntil } from 'cloudflare:workers';
 import affiliatesJson from '../../data/monetization/affiliates.json';
 import pricingJson from '../../data/monetization/pricing.json';
 import runtimeCatalogJson from '../generated/runtime-catalog.json';
-import type { RuntimeCatalog } from '../lib/catalog/public';
+import { outletHostIndex, type RuntimeCatalog } from '../lib/catalog/public';
 import { affiliatesFileSchema, pricingFileSchema } from '../schemas/monetization.schema';
+import { visitorHash } from '../server/analytics';
 import { database } from '../server/db';
 import { clientIp } from '../server/http';
 import type { LemonSqueezyConfig } from '../server/lemonsqueezy';
@@ -16,6 +17,7 @@ import { verifyTurnstile } from '../server/turnstile';
 export { env, waitUntil };
 
 export const catalog = runtimeCatalogJson as RuntimeCatalog;
+export const outletsByHost = outletHostIndex(catalog);
 export const affiliates = affiliatesFileSchema.parse(affiliatesJson);
 export const pricing = pricingFileSchema.parse(pricingJson);
 
@@ -29,6 +31,20 @@ export const lemonSqueezy = (): LemonSqueezyConfig | null =>
 
 export const human = (request: Request) => (token: string) =>
   verifyTurnstile(token, env.TURNSTILE_SECRET_KEY, clientIp(request));
+
+/**
+ * Daily keyed hash of the client IP and User-Agent, the same kind of code as the click hash;
+ * null when the IP is unknown. The browser is part of it so that people sharing one IP rarely
+ * count as one visitor. The daily key means a cap can restart at midnight UTC, which at most
+ * doubles it for that night.
+ */
+export async function holder(request: Request): Promise<string | null> {
+  const ip = clientIp(request);
+  if (!ip) return null;
+  const userAgent = request.headers.get('user-agent') ?? '';
+  const day = new Date().toISOString().slice(0, 10);
+  return visitorHash(env.VISITOR_HASH_SECRET, day, ip, `hold\n${userAgent}`);
+}
 
 /** True when the caller exceeded the limiter (per client IP). */
 export async function overLimit(
