@@ -81,15 +81,35 @@ const description =
     </section>
 
     {groups.map((group, index) => (
-      <section class="continent" data-continent aria-labelledby={`c-${group.continent}`}>
-        <h2 id={`c-${group.continent}`}>
-          {hubs.has(group.continent) ? (
-            <a href={paths.continent(group.continent)}>{CONTINENT_LABELS[group.continent]}</a>
-          ) : (
-            CONTINENT_LABELS[group.continent]
-          )}
-        </h2>
-        <div class="boxes">
+      <section
+        class="continent"
+        data-continent={group.continent}
+        aria-labelledby={`c-${group.continent}`}
+      >
+        <div class="continent-head">
+          <h2 id={`c-${group.continent}`}>
+            {hubs.has(group.continent) ? (
+              <a href={paths.continent(group.continent)}>{CONTINENT_LABELS[group.continent]}</a>
+            ) : (
+              CONTINENT_LABELS[group.continent]
+            )}
+          </h2>
+          {/* Shown by the script: without it every continent stays open. */}
+          <button
+            class="fold"
+            type="button"
+            aria-expanded="true"
+            aria-controls={`boxes-${group.continent}`}
+            data-collapse
+            hidden
+          >
+            <Icon name="chevron-down" size={16} />
+            <span data-collapse-label>Hide</span>
+            <span class="data">{plural(group.countries.length, 'country', 'countries')}</span>
+            <span class="visually-hidden">in {CONTINENT_LABELS[group.continent]}</span>
+          </button>
+        </div>
+        <div class="boxes" id={`boxes-${group.continent}`}>
           {group.countries.map((country, i) => (
             <CountryBox country={country} lazy={index > 0 || i > 3} />
           ))}
@@ -132,6 +152,51 @@ const description =
     const initial = new URLSearchParams(location.search).get('topic');
     if (initial) show(initial);
   }
+
+  // Collapses a continent's boxes so the others come closer; the choice is kept per browser.
+  const KEY = 'collapsed-continents';
+  const remembered = (): string[] => {
+    try {
+      return JSON.parse(localStorage.getItem(KEY) ?? '[]') as string[];
+    } catch {
+      return [];
+    }
+  };
+  const collapsed = new Set(remembered());
+  const toggles = [...document.querySelectorAll<HTMLButtonElement>('button[data-collapse]')];
+  const setOpen = (button: HTMLButtonElement, open: boolean) => {
+    const boxes = document.getElementById(button.getAttribute('aria-controls') ?? '');
+    const label = button.querySelector('[data-collapse-label]');
+    if (boxes) boxes.hidden = !open;
+    if (label) label.textContent = open ? 'Hide' : 'Show';
+    button.setAttribute('aria-expanded', String(open));
+  };
+  const save = () => {
+    try {
+      localStorage.setItem(KEY, JSON.stringify([...collapsed]));
+    } catch {
+      // Storage blocked: the choice lasts until the page is left.
+    }
+  };
+  for (const button of toggles) {
+    const continent = button.closest<HTMLElement>('[data-continent]')?.dataset.continent ?? '';
+    button.hidden = false;
+    setOpen(button, !collapsed.has(continent));
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') !== 'true';
+      setOpen(button, open);
+      if (open) collapsed.delete(continent);
+      else collapsed.add(continent);
+      save();
+    });
+  }
+  // A jump link to a collapsed continent opens it.
+  document.querySelector('.jump')?.addEventListener('click', (event) => {
+    const href = (event.target as Element).closest('a')?.getAttribute('href') ?? '';
+    const section = document.getElementById(href.slice(1))?.closest('[data-continent]');
+    const button = section?.querySelector<HTMLButtonElement>('button[data-collapse]');
+    if (button?.getAttribute('aria-expanded') === 'false') button.click();
+  });
 </script>
 
 <style>
@@ -284,10 +349,68 @@ const description =
     gap: var(--space-5);
   }
 
+  .continent-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2) var(--space-4);
+    margin-bottom: var(--space-3);
+  }
+
   .continent h2 {
     scroll-margin-top: var(--space-4);
-    margin-bottom: var(--space-3);
     font-size: var(--type-h2);
+  }
+
+  .fold {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 2.75rem;
+    padding-inline: var(--space-3);
+    border: var(--line) solid var(--edge);
+    background: var(--surface);
+    box-shadow: var(--shadow-hard);
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--type-data);
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      transform var(--duration-press) var(--ease-out),
+      box-shadow var(--duration-press) var(--ease-out);
+  }
+
+  .fold[hidden] {
+    display: none;
+  }
+
+  .fold:hover {
+    background: var(--surface-hover);
+  }
+
+  .fold:active {
+    box-shadow: 0 0 0 var(--shadow-ink);
+    transform: translate(3px, 3px);
+  }
+
+  .fold .data {
+    color: var(--ink-2);
+    font-weight: normal;
+  }
+
+  /* The chevron points right while the continent is collapsed. */
+  .fold :global(.icon) {
+    transition: transform var(--duration-press) var(--ease-out);
+  }
+
+  .fold[aria-expanded='false'] :global(.icon) {
+    transform: rotate(-90deg);
+  }
+
+  .boxes[hidden] {
+    display: none;
   }
 
   .continent h2 a {
