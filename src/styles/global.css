@@ -48,10 +48,17 @@
       linear-gradient(var(--grid-line) 1px, transparent 1px),
       linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
     background-size: var(--grid-size) var(--grid-size);
+    /* A column whose main grows, so the footer sits at the bottom of short pages. */
+    display: flex;
+    flex-direction: column;
     min-height: 100dvh;
     font-size: var(--type-body);
     line-height: 1.5;
     font-feature-settings: 'tnum' 0;
+  }
+
+  body > main {
+    flex: 1 0 auto;
   }
 
   h1,
