@@ -1,18 +1,34 @@
 ---
 import Icon from './Icon.astro';
+
+interface Props {
+  /** The home page has its own search button in the intro, so the header leaves it out. */
+  search?: boolean;
+}
+
+const { search = true } = Astro.props;
 ---
 
 <header class="site-header">
   <div class="page bar">
     <a class="wordmark" href="/" translate="no">
-      NewsMap
+      News<span class="mapp">Mapp</span>
+      <!-- "Mapp" is drawn: a map folded in three panels with a route to a pin. -->
+      <svg class="fold" viewBox="0 0 36 24" aria-hidden="true" focusable="false">
+        <path class="shade" d="M13 2 23 6v16l-10-4z" />
+        <path class="outline" d="M2 6 13 2l10 4 11-4v16l-11 4-10-4-11 4zM13 2v16M23 6v16" />
+        <path class="route" d="M6 17c3-5 6-7 10-5s8 1 12-4" />
+        <circle class="pin" cx="28" cy="8" r="2.4" />
+      </svg>
     </a>
-    <button class="search" type="button" data-open-search aria-keyshortcuts="Meta+K Control+K">
-      <Icon name="search" size={16} />
-      <span class="search-label">Search countries and outlets</span>
-      <kbd class="data">⌘&nbsp;K</kbd>
-    </button>
-    <nav aria-label="Site" class="nav">
+    {search && (
+      <button class="search" type="button" data-open-search aria-keyshortcuts="Meta+K Control+K">
+        <Icon name="search" size={16} />
+        <span class="search-label">Search countries and outlets</span>
+        <kbd class="data">⌘&nbsp;K</kbd>
+      </button>
+    )}
+    <nav aria-label="Site" class:list={['nav', { push: !search }]}>
       <a href="/advertise/">Advertise</a>
     </nav>
     <button class="theme" type="button" data-theme-toggle aria-label="Switch to dark theme">
@@ -61,11 +77,56 @@ import Icon from './Icon.astro';
   }
 
   .wordmark {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
     color: var(--ink);
     font-size: 1.125rem;
-    font-weight: 700;
-    letter-spacing: -0.015em;
+    font-weight: var(--weight-heavy);
+    letter-spacing: -0.035em;
     text-decoration: none;
+  }
+
+  /* "Mapp" is read by assistive technology and drawn as the map below. */
+  .mapp {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  /* Taller than the cap height so the folds and the route stay legible at header size. */
+  .fold {
+    width: 1.95em;
+    height: 1.3em;
+    overflow: visible;
+  }
+
+  .fold .outline {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linejoin: round;
+  }
+
+  .fold .shade {
+    fill: currentColor;
+    opacity: 0.12;
+  }
+
+  .fold .route {
+    fill: none;
+    stroke: var(--link);
+    stroke-width: 1.75;
+    stroke-linecap: round;
+    stroke-dasharray: 2.5 2.5;
+  }
+
+  .fold .pin {
+    fill: var(--link);
   }
 
   .search {
