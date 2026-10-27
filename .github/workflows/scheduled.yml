@@ -52,7 +52,7 @@ jobs:
       - run: pnpm catalog:health
       - name: Write the issue body
         run: |
-          report=$(ls reports/health-*.json | tail -1)
+          report=$(printf '%s\n' reports/health-*.json | sort | tail -1)
           {
             echo "Weekly link check of the catalog ($(jq -r '.checked_at' "$report"))."
             echo
