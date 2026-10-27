@@ -1,0 +1,105 @@
+# Recurring jobs (times in UTC):
+#   - daily rebuild at 03:30, after the Worker's 03:00 maintenance cron expires sponsorships;
+#   - weekly catalog link health (Mon 05:00), reported as a GitHub issue for the owner to review;
+#   - weekly D1 export to R2 (Sun 04:00).
+# Each job can also be run by hand from Actions → Scheduled → Run workflow.
+name: Scheduled
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+    - cron: '0 5 * * 1'
+    - cron: '0 4 * * 0'
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Job to run
+        type: choice
+        options: [rebuild, health, backup]
+        default: rebuild
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    if: github.event.schedule == '30 3 * * *' || inputs.job == 'rebuild'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      reason: daily rebuild (expirations)
+    secrets:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_D1_READ_TOKEN: ${{ secrets.CLOUDFLARE_D1_READ_TOKEN }}
+
+  health:
+    if: github.event.schedule == '0 5 * * 1' || inputs.job == 'health'
+    name: Catalog link health
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Only reports: the outlet files it touches are not committed; the owner applies changes.
+      - run: pnpm catalog:health
+      - name: Write the issue body
+        run: |
+          report=$(ls reports/health-*.json | tail -1)
+          {
+            echo "Weekly link check of the catalog ($(jq -r '.checked_at' "$report"))."
+            echo
+            echo "- Checked: $(jq '.results | length' "$report")"
+            echo "- With findings: $(jq '.proposals | length' "$report")"
+            echo
+            echo "Review each finding and update \`data/outlets/\` by hand (or with \`pnpm catalog:health --country XX\` locally). Full JSON report: workflow run artifact."
+            echo
+            echo "| Outlet | Status | Findings |"
+            echo "| --- | --- | --- |"
+            jq -r '.proposals[] | "| `\(.id)` | \(.status) | \(.findings | join("; ")) |"' "$report" | head -300
+          } > health-issue.md
+      - uses: actions/upload-artifact@v7
+        with:
+          name: catalog-health
+          path: reports/
+          retention-days: 30
+      - name: Open the issue (closing last week's)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create catalog-health --color BFD4F2 --description 'Weekly link health report' --force
+          gh issue list --label catalog-health --state open --json number --jq '.[].number' |
+            xargs -r -I{} gh issue close {} --comment 'Superseded by the newer weekly report.'
+          gh issue create --title "Catalog health $(date -u +%F)" --label catalog-health --body-file health-issue.md
+
+  backup:
+    if: github.event.schedule == '0 4 * * 0' || inputs.job == 'backup'
+    name: D1 export to R2
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Scoped token: D1 Edit (export) + R2 Edit on the backup bucket only. See docs/runbooks/deploy.md.
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_BACKUP_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      BUCKET: newsmap-backups
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec wrangler d1 export newsmap --remote --output newsmap.sql
+      - run: |
+          test -s newsmap.sql
+          gzip -9 newsmap.sql
+          pnpm exec wrangler r2 object put "$BUCKET/d1/newsmap-$(date -u +%F).sql.gz" \
+            --file newsmap.sql.gz --content-type application/gzip --remote

@@ -1,0 +1,70 @@
+# Every PR and push must pass this. Mirrors `pnpm check` plus the build, SEO, E2E and Lighthouse gates.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Lint, types, catalog, unit tests, real build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # wrangler types reads .dev.vars to type the secrets; the example has no real values.
+      - run: cp .env.example .dev.vars
+      - run: pnpm format:check
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm catalog:validate
+      - run: pnpm test:coverage
+      # The production catalog must build and audit cleanly, not only the fixtures.
+      - run: pnpm build
+      - run: pnpm seo:audit
+
+  e2e:
+    name: Fixture build, SEO audit, E2E + a11y, Lighthouse
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CATALOG_DIR: tests/fixtures/catalog
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Local secrets for wrangler dev: Turnstile always-pass test keys, simulated checkout, admin bypass.
+      - run: cp .env.example .dev.vars
+      - run: pnpm build
+      - run: pnpm seo:audit
+      - run: pnpm exec playwright install --with-deps chromium
+      # Playwright starts the Worker itself (pnpm db:migrate:local && wrangler dev).
+      - run: pnpm e2e
+      - run: pnpm lhci
+      - if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: e2e-reports
+          path: |
+            playwright-report/
+            test-results/
+            .lighthouseci/
+          retention-days: 7

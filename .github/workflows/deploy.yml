@@ -1,0 +1,80 @@
+# Production deploy. Triggers:
+#   - CI finishing green on main (catalog or code change), so a red build never ships;
+#   - workflow_dispatch, which the Worker calls after a sponsorship changes (src/server/rebuild.ts)
+#     and the owner can run by hand;
+#   - workflow_call from scheduled.yml (daily rebuild for expirations).
+# Secrets: CLOUDFLARE_API_TOKEN (deploy), CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_READ_TOKEN (snapshot).
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: Why this rebuild runs (logged only)
+        required: false
+        default: manual
+  workflow_call:
+    inputs:
+      reason:
+        type: string
+        required: false
+        default: scheduled
+    secrets:
+      CLOUDFLARE_API_TOKEN:
+        required: true
+      CLOUDFLARE_ACCOUNT_ID:
+        required: true
+      CLOUDFLARE_D1_READ_TOKEN:
+        required: true
+
+permissions:
+  contents: read
+
+# One deploy at a time; a newer run waits instead of racing the older one.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Snapshot, build, migrate, deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    environment:
+      name: production
+    steps:
+      - name: Reason
+        run: echo "Deploy reason - ${REASON}"
+        env:
+          REASON: ${{ inputs.reason || 'CI passed on main' }}
+      - uses: actions/checkout@v7
+        with:
+          # workflow_run: deploy exactly the commit CI tested; otherwise the dispatched ref (main).
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Listed sponsorships are baked into the static pages; fail rather than ship an empty snapshot.
+      - run: pnpm sponsorships:snapshot --required
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_READ_TOKEN: ${{ secrets.CLOUDFLARE_D1_READ_TOKEN }}
+      - run: pnpm build
+      - run: pnpm seo:audit
+      # Migrations are forward-only and must land before the code that uses them.
+      - run: pnpm db:migrate:remote
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - run: pnpm exec wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
