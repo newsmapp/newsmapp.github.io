@@ -27,7 +27,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "State news agency publishing in more than ten languages, with national and world wires."
+      "en": "State news agency publishing in more than ten languages, with national and world wires.",
+      "pt": "Agência de notícias estatal que publica em mais de dez idiomas, com noticiário nacional e mundial."
     },
     "about": {},
     "sources": [
@@ -71,7 +72,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "High-circulation national daily with news, economy and sport."
+      "en": "High-circulation national daily with news, economy and sport.",
+      "pt": "Diário nacional de grande circulação com notícias, economia e esportes."
     },
     "about": {},
     "sources": [],
@@ -112,7 +114,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily of the Turkuvaz group with politics and current affairs."
+      "en": "National daily of the Turkuvaz group with politics and current affairs.",
+      "pt": "Diário nacional do grupo Turkuvaz com política e atualidades."
     },
     "about": {},
     "sources": [],
@@ -151,7 +154,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily covering politics, society and culture, owned by Demirören Holding."
+      "en": "National daily covering politics, society and culture, owned by Demirören Holding.",
+      "pt": "Diário nacional que cobre política, sociedade e cultura, da Demirören Holding."
     },
     "about": {},
     "sources": [],
@@ -192,7 +196,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with politics, columns and national news, also running a TV channel."
+      "en": "National daily with politics, columns and national news, also running a TV channel.",
+      "pt": "Diário nacional com política, colunas e notícias nacionais, que também mantém um canal de TV."
     },
     "about": {},
     "sources": [],
@@ -235,7 +240,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Foundation-owned daily founded in the first year of the Republic."
+      "en": "Foundation-owned daily founded in the first year of the Republic.",
+      "pt": "Diário controlado por uma fundação, criado no primeiro ano da República."
     },
     "about": {},
     "sources": [],
@@ -274,7 +280,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily newspaper covering politics, labor and social movements."
+      "en": "Daily newspaper covering politics, labor and social movements.",
+      "pt": "Diário que cobre política, o mundo do trabalho e movimentos sociais."
     },
     "about": {},
     "sources": [],
@@ -315,7 +322,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent digital newspaper with politics, columns and analysis."
+      "en": "Independent digital newspaper with politics, columns and analysis.",
+      "pt": "Jornal digital independente com política, colunas e análises."
     },
     "about": {},
     "sources": [],
@@ -356,7 +364,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Crowd-funded digital outlet with video news, interviews and debates."
+      "en": "Crowd-funded digital outlet with video news, interviews and debates.",
+      "pt": "Veículo digital financiado pelo público, com notícias em vídeo, entrevistas e debates."
     },
     "about": {},
     "sources": [],
@@ -397,7 +406,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent news network covering rights, gender and press freedom."
+      "en": "Independent news network covering rights, gender and press freedom.",
+      "pt": "Rede de notícias independente que cobre direitos, gênero e liberdade de imprensa."
     },
     "about": {},
     "sources": [],
@@ -436,7 +446,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News channel with national, economy and live coverage, owned by the Doğuş Group."
+      "en": "News channel with national, economy and live coverage, owned by the Doğuş Group.",
+      "pt": "Canal de notícias com cobertura nacional, econômica e ao vivo, do Grupo Doğuş."
     },
     "about": {},
     "sources": [],
@@ -475,7 +486,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Turkish CNN licensee owned by Demirören Holding, with news and debate programs."
+      "en": "Turkish CNN licensee owned by Demirören Holding, with news and debate programs.",
+      "pt": "Licenciada turca da CNN, da Demirören Holding, com notícias e programas de debate."
     },
     "about": {},
     "sources": [],
@@ -516,7 +528,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News channel of the state broadcaster TRT, with national and international news."
+      "en": "News channel of the state broadcaster TRT, with national and international news.",
+      "pt": "Canal de notícias da emissora estatal TRT, com notícias nacionais e internacionais."
     },
     "about": {},
     "sources": [
@@ -562,7 +575,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News channel with political talk shows, interviews and live news."
+      "en": "News channel with political talk shows, interviews and live news.",
+      "pt": "Canal de notícias com programas de debate político, entrevistas e notícias ao vivo."
     },
     "about": {},
     "sources": [],
@@ -601,7 +615,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, companies and the Turkish economy since 1981."
+      "en": "Business daily covering markets, companies and the Turkish economy since 1981.",
+      "pt": "Diário de negócios que cobre mercados, empresas e a economia turca desde 1981."
     },
     "about": {},
     "sources": [],
@@ -642,7 +657,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news channel and site with markets, the lira and economy coverage."
+      "en": "Business news channel and site with markets, the lira and economy coverage.",
+      "pt": "Canal e site de notícias de negócios com mercados, a lira e a economia."
     },
     "about": {},
     "sources": [],
@@ -681,7 +697,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news site with markets, companies and economic analysis."
+      "en": "Business news site with markets, companies and economic analysis.",
+      "pt": "Site de notícias de negócios com mercados, empresas e análise econômica."
     },
     "about": {},
     "sources": [],
@@ -720,7 +737,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit fact-checking platform verifying claims and images circulating online."
+      "en": "Nonprofit fact-checking platform verifying claims and images circulating online.",
+      "pt": "Plataforma de checagem sem fins lucrativos que verifica alegações e imagens que circulam na internet."
     },
     "about": {},
     "sources": [],
@@ -759,7 +777,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking platform checking statements by Turkish politicians and officials."
+      "en": "Fact-checking platform checking statements by Turkish politicians and officials.",
+      "pt": "Plataforma de checagem que verifica declarações de políticos e autoridades turcos."
     },
     "about": {},
     "sources": [],
@@ -798,7 +817,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily with Süper Lig, national team and transfer coverage."
+      "en": "Sports daily with Süper Lig, national team and transfer coverage.",
+      "pt": "Diário esportivo com Süper Lig, seleção e cobertura de transferências."
     },
     "about": {},
     "sources": [],
@@ -837,7 +857,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports daily covering football, basketball and transfers, from Turkuvaz Media Group."
+      "en": "Sports daily covering football, basketball and transfers, from Turkuvaz Media Group.",
+      "pt": "Diário esportivo que cobre futebol, basquete e transferências, do Turkuvaz Media Group."
     },
     "about": {},
     "sources": [],
@@ -878,7 +899,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports channel and site with football coverage and debate shows."
+      "en": "Sports channel and site with football coverage and debate shows.",
+      "pt": "Canal e site esportivo com cobertura de futebol e programas de debate."
     },
     "about": {},
     "sources": [],
@@ -917,7 +939,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site with gadgets, science and internet culture."
+      "en": "Technology news site with gadgets, science and internet culture.",
+      "pt": "Site de tecnologia com aparelhos, ciência e cultura da internet."
     },
     "about": {},
     "sources": [],
@@ -956,7 +979,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology site with smartphone, PC and automotive tech news."
+      "en": "Technology site with smartphone, PC and automotive tech news.",
+      "pt": "Site de tecnologia com notícias de smartphones, PCs e tecnologia automotiva."
     },
     "about": {},
     "sources": [],
@@ -995,7 +1019,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular science magazine of the Scientific and Technological Research Council."
+      "en": "Popular science magazine of the Scientific and Technological Research Council.",
+      "pt": "Revista de divulgação científica do Conselho de Pesquisa Científica e Tecnológica."
     },
     "about": {},
     "sources": [],
@@ -1034,7 +1059,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Izmir daily covering the Aegean region, among the oldest newspapers in Türkiye."
+      "en": "Izmir daily covering the Aegean region, among the oldest newspapers in Türkiye.",
+      "pt": "Diário de Esmirna que cobre a região do Egeu, entre os jornais mais antigos da Turquia."
     },
     "about": {},
     "sources": [],

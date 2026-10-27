@@ -29,7 +29,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Madrid national daily of reference with Spanish politics, world news and culture."
+      "en": "Madrid national daily of reference with Spanish politics, world news and culture.",
+      "pt": "Diário nacional de referência de Madri, com política espanhola, notícias do mundo e cultura."
     },
     "about": {},
     "sources": [],
@@ -70,7 +71,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Madrid national daily with politics, investigations and opinion."
+      "en": "Madrid national daily with politics, investigations and opinion.",
+      "pt": "Diário nacional de Madri com política, investigações e opinião."
     },
     "about": {},
     "sources": [],
@@ -111,7 +113,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Long-running Madrid daily with national politics, culture and the monarchy."
+      "en": "Long-running Madrid daily with national politics, culture and the monarchy.",
+      "pt": "Diário tradicional de Madri com política nacional, cultura e a monarquia."
     },
     "about": {},
     "sources": [],
@@ -152,7 +155,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Barcelona daily covering Catalonia, Spain and the world, in Spanish and Catalan."
+      "en": "Barcelona daily covering Catalonia, Spain and the world, in Spanish and Catalan.",
+      "pt": "Diário de Barcelona que cobre a Catalunha, a Espanha e o mundo, em espanhol e catalão."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Spain's international news agency, the largest Spanish-language wire service."
+      "en": "Spain's international news agency, the largest Spanish-language wire service.",
+      "pt": "Agência internacional de notícias da Espanha, a maior em língua espanhola."
     },
     "about": {},
     "sources": [
@@ -239,7 +244,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Reader-supported digital daily focused on politics, inequality and investigations."
+      "en": "Reader-supported digital daily focused on politics, inequality and investigations.",
+      "pt": "Diário digital apoiado pelos leitores, focado em política, desigualdade e investigações."
     },
     "about": {},
     "sources": [],
@@ -282,7 +288,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital daily known for political and business scoops and data investigations."
+      "en": "Digital daily known for political and business scoops and data investigations.",
+      "pt": "Diário digital conhecido por furos de política e negócios e investigações com dados."
     },
     "about": {},
     "sources": [],
@@ -323,7 +330,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News from Spain's public broadcaster, home of Telediario and Canal 24 Horas."
+      "en": "News from Spain's public broadcaster, home of Telediario and Canal 24 Horas.",
+      "pt": "Notícias da emissora pública espanhola, casa do Telediario e do Canal 24 Horas."
     },
     "about": {},
     "sources": [],
@@ -364,7 +372,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Spain's most-listened radio network, with Hoy por Hoy and Hora 25."
+      "en": "Spain's most-listened radio network, with Hoy por Hoy and Hora 25.",
+      "pt": "Rede de rádio mais ouvida da Espanha, com Hoy por Hoy e Hora 25."
     },
     "about": {},
     "sources": [],
@@ -403,7 +412,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "National radio network owned by the Catholic Church, with news and sports."
+      "en": "National radio network owned by the Catholic Church, with news and sports.",
+      "pt": "Rede nacional de rádio da Igreja Católica, com notícias e esportes."
     },
     "about": {},
     "sources": [],
@@ -442,7 +452,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News division of Antena 3, Spain's most-watched private channel."
+      "en": "News division of Antena 3, Spain's most-watched private channel.",
+      "pt": "Divisão de notícias da Antena 3, o canal privado mais assistido da Espanha."
     },
     "about": {},
     "sources": [],
@@ -483,7 +494,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Private channel with news, political talk shows and current affairs."
+      "en": "Private channel with news, political talk shows and current affairs.",
+      "pt": "Canal privado com notícias, programas de debate político e atualidades."
     },
     "about": {},
     "sources": [],
@@ -524,7 +536,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Private news agency with dense coverage of parliament, parties and regions."
+      "en": "Private news agency with dense coverage of parliament, parties and regions.",
+      "pt": "Agência de notícias privada com cobertura densa do parlamento, dos partidos e das regiões."
     },
     "about": {},
     "sources": [],
@@ -563,7 +576,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Spain's leading business daily covering companies, markets and the IBEX 35."
+      "en": "Spain's leading business daily covering companies, markets and the IBEX 35.",
+      "pt": "Principal diário de negócios da Espanha, com empresas, mercados e o IBEX 35."
     },
     "about": {},
     "sources": [],
@@ -602,7 +616,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily covering companies, markets and personal finance."
+      "en": "Business daily covering companies, markets and personal finance.",
+      "pt": "Diário de negócios que cobre empresas, mercados e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -641,7 +656,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business and markets daily with company news and investing tools."
+      "en": "Business and markets daily with company news and investing tools.",
+      "pt": "Diário de negócios e mercados com notícias de empresas e ferramentas de investimento."
     },
     "about": {},
     "sources": [],
@@ -680,7 +696,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking and data journalism outlet verifying political claims."
+      "en": "Fact-checking and data journalism outlet verifying political claims.",
+      "pt": "Veículo de checagem e jornalismo de dados que verifica declarações políticas."
     },
     "about": {},
     "sources": [],
@@ -719,7 +736,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit fact-checking foundation fighting misinformation in Spain."
+      "en": "Nonprofit fact-checking foundation fighting misinformation in Spain.",
+      "pt": "Fundação de checagem sem fins lucrativos que combate a desinformação na Espanha."
     },
     "about": {},
     "sources": [],
@@ -758,7 +776,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit newsroom using public data to watch government and spending."
+      "en": "Nonprofit newsroom using public data to watch government and spending.",
+      "pt": "Redação sem fins lucrativos que usa dados públicos para fiscalizar o governo e os gastos."
     },
     "about": {},
     "sources": [],
@@ -797,7 +816,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Spain's best-selling sports daily, focused on football and Real Madrid."
+      "en": "Spain's best-selling sports daily, focused on football and Real Madrid.",
+      "pt": "Diário esportivo mais vendido da Espanha, focado no futebol e no Real Madrid."
     },
     "about": {},
     "sources": [],
@@ -836,7 +856,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Madrid sports daily with football, basketball and motorsport."
+      "en": "Madrid sports daily with football, basketball and motorsport.",
+      "pt": "Diário esportivo de Madri com futebol, basquete e automobilismo."
     },
     "about": {},
     "sources": [],
@@ -875,7 +896,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Barcelona sports daily focused on FC Barcelona and Catalan sport."
+      "en": "Barcelona sports daily focused on FC Barcelona and Catalan sport.",
+      "pt": "Diário esportivo de Barcelona focado no FC Barcelona e no esporte catalão."
     },
     "about": {},
     "sources": [],
@@ -914,7 +936,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Barcelona sports daily covering FC Barcelona and football news."
+      "en": "Barcelona sports daily covering FC Barcelona and football news.",
+      "pt": "Diário esportivo de Barcelona que cobre o FC Barcelona e o noticiário do futebol."
     },
     "about": {},
     "sources": [],
@@ -953,7 +976,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Spain's largest technology site, with gadgets, science and digital culture."
+      "en": "Spain's largest technology site, with gadgets, science and digital culture.",
+      "pt": "Maior site de tecnologia da Espanha, com aparelhos, ciência e cultura digital."
     },
     "about": {},
     "sources": [],
@@ -992,7 +1016,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Public science news agency publishing research news under open licenses."
+      "en": "Public science news agency publishing research news under open licenses.",
+      "pt": "Agência pública de notícias científicas que publica sob licenças abertas."
     },
     "about": {},
     "sources": [],
@@ -1031,7 +1056,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology, science and culture site with reviews and analysis."
+      "en": "Technology, science and culture site with reviews and analysis.",
+      "pt": "Site de tecnologia, ciência e cultura com análises e avaliações."
     },
     "about": {},
     "sources": [],
@@ -1070,7 +1096,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Barcelona daily in Spanish and Catalan covering Catalonia and Spain."
+      "en": "Barcelona daily in Spanish and Catalan covering Catalonia and Spain.",
+      "pt": "Diário de Barcelona em espanhol e catalão que cobre a Catalunha e a Espanha."
     },
     "about": {},
     "sources": [],
@@ -1109,7 +1136,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Bilbao daily covering Basque politics, industry and communities across the Basque Country."
+      "en": "Bilbao daily covering Basque politics, industry and communities across the Basque Country.",
+      "pt": "Diário de Bilbao que cobre a política, a indústria e as comunidades do País Basco."
     },
     "about": {},
     "sources": [],
@@ -1148,7 +1176,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Valencia daily covering the Valencian Community, its politics, economy and local news."
+      "en": "Valencia daily covering the Valencian Community, its politics, economy and local news.",
+      "pt": "Diário de Valência que cobre a política, a economia e as notícias locais da Comunidade Valenciana."
     },
     "about": {},
     "sources": [],
@@ -1187,7 +1216,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Seville daily covering the city, Andalusian politics and the regional economy."
+      "en": "Seville daily covering the city, Andalusian politics and the regional economy.",
+      "pt": "Diário de Sevilha que cobre a cidade, a política andaluza e a economia regional."
     },
     "about": {},
     "sources": [],
@@ -1226,7 +1256,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "A Coruña daily and Galicia's highest-circulation newspaper, with local editions."
+      "en": "A Coruña daily and Galicia's highest-circulation newspaper, with local editions.",
+      "pt": "Diário da Corunha e jornal de maior circulação da Galícia, com edições locais."
     },
     "about": {},
     "sources": [],

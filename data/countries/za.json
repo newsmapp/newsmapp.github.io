@@ -3,7 +3,8 @@
   "iso3": "ZAF",
   "slug": "south-africa",
   "name": {
-    "en": "South Africa"
+    "en": "South Africa",
+    "pt": "África do Sul"
   },
   "continent": "africa",
   "also_in": [],
@@ -66,6 +67,42 @@
         },
         "sports": {
           "intro": "South African sports media covers football, rugby and cricket, with a pan-African sports broadcaster."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A África do Sul tem um dos mercados de notícias mais desenvolvidos e livres da África. O News24 é o site de notícias mais lido, ao lado do nativo digital Daily Maverick e do Mail & Guardian, enquanto a emissora pública SABC e o canal privado eNCA lideram o telejornalismo. O jornalismo investigativo é forte, liderado pelo amaBhungane e pela unidade Scorpio do Daily Maverick, cujas reportagens sobre a captura do Estado marcaram a política nacional. Entre os grupos de mídia estão Media24, Arena Holdings e Independent Media. O inglês domina as notícias on-line, com público também em africâner e outras línguas. Vários veículos usam assinaturas ou paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da África do Sul?",
+          "a": "Os principais veículos nacionais do diretório incluem News24, Daily Maverick, Mail & Guardian, TimesLIVE e IOL. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos sul-africanos são financiados com recursos públicos?",
+          "a": "A SABC News pertence à South African Broadcasting Corporation, a emissora pública. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da África do Sul?",
+          "a": "A cobertura regional do diretório vem do Daily Dispatch (Cabo Oriental) e do The Witness (KwaZulu-Natal). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da África do Sul combinam grandes sites de notícias digitais com jornais semanais e suas edições on-line."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios na África do Sul cobre a Bolsa de Joanesburgo, a mineração, a energia e o rand."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo sul-africano expôs a captura do Estado e continua cobrando prestação de contas de empresas e do governo."
+        },
+        "tech-science": {
+          "intro": "A África do Sul tem uma imprensa de tecnologia consolidada, que cobre telecomunicações, banda larga e o setor de tecnologia local."
+        },
+        "sports": {
+          "intro": "A mídia esportiva sul-africana cobre futebol, rúgbi e críquete, com uma emissora esportiva pan-africana."
         }
       },
       "reviewed": true,

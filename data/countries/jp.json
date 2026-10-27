@@ -3,7 +3,8 @@
   "iso3": "JPN",
   "slug": "japan",
   "name": {
-    "en": "Japan"
+    "en": "Japan",
+    "pt": "Japão"
   },
   "continent": "asia",
   "also_in": [],
@@ -59,6 +60,46 @@
         },
         "regional": {
           "intro": "Regional newspapers are influential in Japan's prefectures. The titles below cover Tokyo, Aichi, Hokkaido, Fukuoka and Hyogo."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O Japão tem algumas das maiores tiragens de jornais do mundo. Diários nacionais como Yomiuri Shimbun, Asahi Shimbun, Mainichi, Nikkei e Sankei estão ligados a redes de televisão comerciais, e a emissora pública NHK é a fonte de notícias mais usada. Duas agências de notícias, Kyodo e Jiji, abastecem a mídia nacional e regional. Os clubes de imprensa vinculados a ministérios, partidos e empresas dão aos veículos membros acesso privilegiado, um sistema muito criticado por limitar a reportagem independente. Revistas semanais publicam muitos furos sobre política e empresas, e surgiram pequenas redações sem fins lucrativos e um centro de checagem. Jornais regionais como o Chunichi Shimbun e o Hokkaido Shimbun são fortes em suas províncias. Os diários esportivos se concentram sobretudo no beisebol profissional.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Japão?",
+          "a": "Os principais veículos nacionais do diretório incluem NHK News, The Asahi Shimbun, The Yomiuri Shimbun, The Mainichi e The Sankei Shimbun. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias japoneses são gratuitos?",
+          "a": "Entre os veículos gratuitos estão NHK News, Kyodo News, Jiji Press, TBS News Dig e Nippon TV News. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos japoneses são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a NHK News. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do Japão?",
+          "a": "A cobertura regional do diretório vem do Tokyo Shimbun (Tóquio), Chunichi Shimbun (Aichi), Hokkaido Shimbun (Hokkaido), Nishinippon Shimbun (Fukuoka) e Kobe Shimbun (Hyogo). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais no Japão vêm da emissora pública, de cinco diários nacionais, de duas agências de notícias e de um diário em inglês. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios japonês é liderado por um diário econômico que também publica o índice Nikkei, com sites de revistas de negócios e uma plataforma de notícias econômicas que acompanham empresas e mercados."
+        },
+        "sports": {
+          "intro": "Os diários esportivos do Japão se concentram no beisebol profissional, no sumô e no futebol, cada um ligado a um grupo de jornal nacional, ao lado de uma revista esportiva de reportagens longas."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo no Japão vem da emissora pública NHK e de quatro redes comerciais, cada uma afiliada a um grupo de jornal nacional."
+        },
+        "regional": {
+          "intro": "Os jornais regionais são influentes nas províncias do Japão. Os títulos abaixo cobrem Tóquio, Aichi, Hokkaido, Fukuoka e Hyogo."
         }
       },
       "reviewed": true,

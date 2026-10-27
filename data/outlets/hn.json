@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "San Pedro Sula daily with national news, politics and coverage of northern Honduras."
+      "en": "San Pedro Sula daily with national news, politics and coverage of northern Honduras.",
+      "pt": "Diário de San Pedro Sula com notícias nacionais, política e cobertura do norte de Honduras."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Tegucigalpa daily with national politics, security and the economy."
+      "en": "Tegucigalpa daily with national politics, security and the economy.",
+      "pt": "Diário de Tegucigalpa com política nacional, segurança e economia."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Tegucigalpa daily with national news, politics, justice and opinion."
+      "en": "Tegucigalpa daily with national news, politics, justice and opinion.",
+      "pt": "Diário de Tegucigalpa com notícias nacionais, política, justiça e opinião."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national politics, justice and current affairs."
+      "en": "Digital news site with national politics, justice and current affairs.",
+      "pt": "Site de notícias digital com política nacional, justiça e atualidades."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national news, public services and entertainment."
+      "en": "Digital news site with national news, public services and entertainment.",
+      "pt": "Site de notícias digital com notícias nacionais, serviços públicos e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national news, politics and community stories."
+      "en": "Digital news site with national news, politics and community stories.",
+      "pt": "Site de notícias digital com notícias nacionais, política e histórias da comunidade."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit newsroom with investigations into corruption, land conflicts and migration."
+      "en": "Nonprofit newsroom with investigations into corruption, land conflicts and migration.",
+      "pt": "Redação sem fins lucrativos com investigações sobre corrupção, conflitos de terra e migração."
     },
     "about": {},
     "sources": [],
@@ -308,7 +315,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with investigations and analysis of politics and human rights."
+      "en": "Digital outlet with investigations and analysis of politics and human rights.",
+      "pt": "Veículo digital com investigações e análises sobre política e direitos humanos."
     },
     "about": {},
     "sources": [],
@@ -347,7 +355,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet covering human rights, violence and press freedom in Honduras."
+      "en": "Nonprofit outlet covering human rights, violence and press freedom in Honduras.",
+      "pt": "Veículo sem fins lucrativos que cobre direitos humanos, violência e liberdade de imprensa em Honduras."
     },
     "about": {},
     "sources": [],
@@ -386,7 +395,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily covering the Honduran football league, the national team and players abroad."
+      "en": "Sports daily covering the Honduran football league, the national team and players abroad.",
+      "pt": "Diário esportivo que cobre a liga hondurenha de futebol, a seleção e os jogadores no exterior."
     },
     "about": {},
     "sources": [],
@@ -425,7 +435,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "National radio station with news bulletins, interviews and political talk shows."
+      "en": "National radio station with news bulletins, interviews and political talk shows.",
+      "pt": "Rádio nacional com boletins de notícias, entrevistas e programas de debate político."
     },
     "about": {},
     "sources": [],
@@ -466,7 +477,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news channel with national newscasts and live coverage."
+      "en": "Television news channel with national newscasts and live coverage.",
+      "pt": "Canal de notícias de televisão com telejornais nacionais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],

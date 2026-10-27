@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Milan-based national daily of reference, covering politics, economy and culture."
+      "en": "Milan-based national daily of reference, covering politics, economy and culture.",
+      "pt": "Diário nacional de referência de Milão, com política, economia e cultura."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Rome-based national daily with politics, investigations and opinion."
+      "en": "Rome-based national daily with politics, investigations and opinion.",
+      "pt": "Diário nacional de Roma com política, investigações e opinião."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Turin national daily with strong coverage of Piedmont, Europe and world news."
+      "en": "Turin national daily with strong coverage of Piedmont, Europe and world news.",
+      "pt": "Diário nacional de Turim com forte cobertura do Piemonte, da Europa e do mundo."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Italy's main news agency, a cooperative of publishers, with national and regional wires."
+      "en": "Italy's main news agency, a cooperative of publishers, with national and regional wires.",
+      "pt": "Principal agência de notícias da Itália, cooperativa de editoras, com noticiário nacional e regional."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Italy's business daily, owned by the industry federation, covering markets and tax."
+      "en": "Italy's business daily, owned by the industry federation, covering markets and tax.",
+      "pt": "Diário de negócios da Itália, da federação das indústrias, com mercados e tributação."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital newsroom explaining the news calmly, with podcasts and a free core site."
+      "en": "Digital newsroom explaining the news calmly, with podcasts and a free core site.",
+      "pt": "Redação digital que explica as notícias com calma, com podcasts e um site gratuito."
     },
     "about": {},
     "sources": [],
@@ -269,7 +275,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent daily focused on politics, justice and corruption investigations."
+      "en": "Independent daily focused on politics, justice and corruption investigations.",
+      "pt": "Diário independente focado em política, justiça e investigações sobre corrupção."
     },
     "about": {},
     "sources": [],
@@ -310,7 +317,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Rome daily covering the capital, Lazio and national politics."
+      "en": "Rome daily covering the capital, Lazio and national politics.",
+      "pt": "Diário de Roma que cobre a capital, o Lácio e a política nacional."
     },
     "about": {},
     "sources": [],
@@ -351,7 +359,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster RAI's 24-hour news channel and portal, including TG1, TG2 and TG3."
+      "en": "Public broadcaster RAI's 24-hour news channel and portal, including TG1, TG2 and TG3.",
+      "pt": "Canal e portal de notícias 24 horas da emissora pública RAI, incluindo TG1, TG2 e TG3."
     },
     "about": {},
     "sources": [],
@@ -390,7 +399,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour news channel with live politics, world news and data journalism."
+      "en": "24-hour news channel with live politics, world news and data journalism.",
+      "pt": "Canal de notícias 24 horas com política ao vivo, notícias do mundo e jornalismo de dados."
     },
     "about": {},
     "sources": [],
@@ -429,7 +439,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Mediaset's all-news channel and site with breaking national news."
+      "en": "Mediaset's all-news channel and site with breaking national news.",
+      "pt": "Canal e site de notícias da Mediaset com notícias nacionais de última hora."
     },
     "about": {},
     "sources": [],
@@ -470,7 +481,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Radio covering Parliament, trials and congresses with complete unedited recordings."
+      "en": "Radio covering Parliament, trials and congresses with complete unedited recordings.",
+      "pt": "Rádio que cobre o Parlamento, julgamentos e congressos com gravações completas e sem cortes."
     },
     "about": {},
     "sources": [],
@@ -509,7 +521,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Political and policy site on Italian institutions, defense and foreign affairs."
+      "en": "Political and policy site on Italian institutions, defense and foreign affairs.",
+      "pt": "Site de política e políticas públicas sobre instituições italianas, defesa e relações exteriores."
     },
     "about": {},
     "sources": [],
@@ -548,7 +561,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial daily covering Italian markets, banks and listed companies."
+      "en": "Financial daily covering Italian markets, banks and listed companies.",
+      "pt": "Diário financeiro que cobre os mercados italianos, os bancos e as empresas listadas."
     },
     "about": {},
     "sources": [],
@@ -587,7 +601,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Markets and investing site with financial news and personal finance."
+      "en": "Markets and investing site with financial news and personal finance.",
+      "pt": "Site de mercados e investimentos com notícias financeiras e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -626,7 +641,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit investigative outlet on organized crime, corruption and the environment."
+      "en": "Nonprofit investigative outlet on organized crime, corruption and the environment.",
+      "pt": "Veículo investigativo sem fins lucrativos sobre crime organizado, corrupção e meio ambiente."
     },
     "about": {},
     "sources": [],
@@ -667,7 +683,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking site verifying statements by Italian politicians."
+      "en": "Fact-checking site verifying statements by Italian politicians.",
+      "pt": "Site de checagem que verifica declarações de políticos italianos."
     },
     "about": {},
     "sources": [],
@@ -706,7 +723,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking newsroom debunking online misinformation in Italy."
+      "en": "Fact-checking newsroom debunking online misinformation in Italy.",
+      "pt": "Redação de checagem que desmente a desinformação on-line na Itália."
     },
     "about": {},
     "sources": [],
@@ -747,7 +765,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly news magazine with a long history of investigative journalism."
+      "en": "Weekly news magazine with a long history of investigative journalism.",
+      "pt": "Revista semanal de notícias com longa tradição de jornalismo investigativo."
     },
     "about": {},
     "sources": [],
@@ -786,7 +805,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Italy's pink sports daily, with Serie A, cycling and the Giro d'Italia."
+      "en": "Italy's pink sports daily, with Serie A, cycling and the Giro d'Italia.",
+      "pt": "Diário esportivo cor-de-rosa da Itália, com Série A, ciclismo e o Giro d'Italia."
     },
     "about": {},
     "sources": [],
@@ -825,7 +845,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Rome-based sports daily focused on football and the capital's clubs."
+      "en": "Rome-based sports daily focused on football and the capital's clubs.",
+      "pt": "Diário esportivo de Roma focado no futebol e nos clubes da capital."
     },
     "about": {},
     "sources": [],
@@ -864,7 +885,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Turin sports daily focused on football, Juventus and Torino."
+      "en": "Turin sports daily focused on football, Juventus and Torino.",
+      "pt": "Diário esportivo de Turim focado no futebol, na Juventus e no Torino."
     },
     "about": {},
     "sources": [],
@@ -905,7 +927,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports broadcaster with Serie A, Formula 1 and MotoGP coverage."
+      "en": "Sports broadcaster with Serie A, Formula 1 and MotoGP coverage.",
+      "pt": "Emissora esportiva com cobertura da Série A, da Fórmula 1 e da MotoGP."
     },
     "about": {},
     "sources": [],
@@ -944,7 +967,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Italian edition of Wired, covering technology, science and digital culture."
+      "en": "Italian edition of Wired, covering technology, science and digital culture.",
+      "pt": "Edição italiana da Wired, com tecnologia, ciência e cultura digital."
     },
     "about": {},
     "sources": [],
@@ -983,7 +1007,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Italian edition of Scientific American, covering research and discovery."
+      "en": "Italian edition of Scientific American, covering research and discovery.",
+      "pt": "Edição italiana da Scientific American, com pesquisas e descobertas."
     },
     "about": {},
     "sources": [],
@@ -1022,7 +1047,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Consumer technology site with smartphone, PC and car tech reviews."
+      "en": "Consumer technology site with smartphone, PC and car tech reviews.",
+      "pt": "Site de tecnologia de consumo com análises de smartphones, PCs e tecnologia automotiva."
     },
     "about": {},
     "sources": [],
@@ -1061,7 +1087,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Naples daily covering Campania and southern Italy, its politics, economy and culture."
+      "en": "Naples daily covering Campania and southern Italy, its politics, economy and culture.",
+      "pt": "Diário de Nápoles que cobre a Campânia e o sul da Itália, sua política, economia e cultura."
     },
     "about": {},
     "sources": [],
@@ -1100,7 +1127,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Bologna daily covering Emilia-Romagna and the Marche with many local editions."
+      "en": "Bologna daily covering Emilia-Romagna and the Marche with many local editions.",
+      "pt": "Diário de Bolonha que cobre a Emília-Romanha e as Marcas, com muitas edições locais."
     },
     "about": {},
     "sources": [],
@@ -1139,7 +1167,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Venice daily covering Veneto and Friuli-Venezia Giulia with provincial editions."
+      "en": "Venice daily covering Veneto and Friuli-Venezia Giulia with provincial editions.",
+      "pt": "Diário de Veneza que cobre o Vêneto e o Friul-Veneza Júlia, com edições provinciais."
     },
     "about": {},
     "sources": [],
@@ -1178,7 +1207,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Palermo daily covering Sicily's politics, justice, economy and local communities."
+      "en": "Palermo daily covering Sicily's politics, justice, economy and local communities.",
+      "pt": "Diário de Palermo que cobre a política, a justiça, a economia e as comunidades da Sicília."
     },
     "about": {},
     "sources": [],

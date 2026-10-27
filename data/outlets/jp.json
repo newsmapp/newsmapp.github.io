@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Japan's public broadcaster with national news, disaster alerts and live coverage."
+      "en": "Japan's public broadcaster with national news, disaster alerts and live coverage.",
+      "pt": "Emissora pública do Japão, com notícias nacionais, alertas de desastres e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Major national daily known for politics, society and investigative reporting."
+      "en": "Major national daily known for politics, society and investigative reporting.",
+      "pt": "Grande diário nacional conhecido pela cobertura de política, sociedade e reportagem investigativa."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily with the largest print circulation in the world."
+      "en": "National daily with the largest print circulation in the world.",
+      "pt": "Diário nacional com a maior tiragem impressa do mundo, com política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -154,7 +157,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Japan's oldest national daily, with politics, society and culture coverage."
+      "en": "Japan's oldest national daily, with politics, society and culture coverage.",
+      "pt": "Diário nacional mais antigo do Japão, com cobertura de política, sociedade e cultura."
     },
     "about": {},
     "sources": [],
@@ -195,7 +199,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with politics, security and national affairs coverage."
+      "en": "National daily with politics, security and national affairs coverage.",
+      "pt": "Diário nacional com cobertura de política, segurança e assuntos nacionais."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit cooperative news agency serving Japanese newspapers and broadcasters."
+      "en": "Nonprofit cooperative news agency serving Japanese newspapers and broadcasters.",
+      "pt": "Agência de notícias cooperativa sem fins lucrativos que atende jornais e emissoras japoneses."
     },
     "about": {},
     "sources": [],
@@ -277,7 +283,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "News agency with fast political, economic and market wires for Japanese media and businesses."
+      "en": "News agency with fast political, economic and market wires for Japanese media and businesses.",
+      "pt": "Agência de notícias com noticiário rápido de política, economia e mercados para mídia e empresas."
     },
     "about": {},
     "sources": [],
@@ -316,7 +323,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Japan's oldest English-language daily, covering Japan for international readers."
+      "en": "Japan's oldest English-language daily, covering Japan for international readers.",
+      "pt": "Diário em inglês mais antigo do Japão, cobrindo o país para leitores estrangeiros."
     },
     "about": {},
     "sources": [],
@@ -357,7 +365,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Japan's leading business daily and publisher of the Nikkei stock index."
+      "en": "Japan's leading business daily and publisher of the Nikkei stock index.",
+      "pt": "Principal diário de negócios do Japão e editor do índice acionário Nikkei."
     },
     "about": {},
     "sources": [],
@@ -396,7 +405,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business publisher's site with corporate analysis, careers and the economy."
+      "en": "Business publisher's site with corporate analysis, careers and the economy.",
+      "pt": "Site de uma editora de negócios com análises de empresas, carreira e economia."
     },
     "about": {},
     "sources": [],
@@ -435,7 +445,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine site covering companies, management and personal finance."
+      "en": "Business magazine site covering companies, management and personal finance.",
+      "pt": "Site de revista de negócios que cobre empresas, gestão e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -476,7 +487,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news platform with original reporting and expert commentary."
+      "en": "Business news platform with original reporting and expert commentary.",
+      "pt": "Plataforma de notícias de negócios com reportagem própria e comentários de especialistas."
     },
     "about": {},
     "sources": [],
@@ -515,7 +527,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News platform of the TBS network and its regional JNN affiliates."
+      "en": "News platform of the TBS network and its regional JNN affiliates.",
+      "pt": "Plataforma de notícias da rede TBS e de suas afiliadas regionais da JNN."
     },
     "about": {},
     "sources": [],
@@ -554,7 +567,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News from Nippon TV, Japan's first commercial broadcaster, and its NNN affiliate network."
+      "en": "News from Nippon TV, Japan's first commercial broadcaster, and its NNN affiliate network.",
+      "pt": "Notícias da Nippon TV, primeira emissora comercial do Japão, e de sua rede de afiliadas NNN."
     },
     "about": {},
     "sources": [],
@@ -593,7 +607,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News site of the Fuji News Network and its affiliated stations."
+      "en": "News site of the Fuji News Network and its affiliated stations.",
+      "pt": "Site de notícias da Fuji News Network e de suas emissoras afiliadas."
     },
     "about": {},
     "sources": [],
@@ -632,7 +647,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News from TV Asahi and the ANN network, with national bulletins and live coverage."
+      "en": "News from TV Asahi and the ANN network, with national bulletins and live coverage.",
+      "pt": "Notícias da TV Asahi e da rede ANN, com noticiários nacionais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -671,7 +687,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit investigative newsroom reporting on power and accountability in Japan."
+      "en": "Nonprofit investigative newsroom reporting on power and accountability in Japan.",
+      "pt": "Redação investigativa sem fins lucrativos que cobre poder e prestação de contas no Japão."
     },
     "about": {},
     "sources": [],
@@ -710,7 +727,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Site of the weekly Shukan Bunshun, known for political and corporate scoops."
+      "en": "Site of the weekly Shukan Bunshun, known for political and corporate scoops.",
+      "pt": "Site do semanário Shukan Bunshun, conhecido por furos sobre política e empresas."
     },
     "about": {},
     "sources": [],
@@ -749,7 +767,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit fact-checking organization verifying claims circulating online."
+      "en": "Nonprofit fact-checking organization verifying claims circulating online.",
+      "pt": "Organização de checagem sem fins lucrativos que verifica alegações que circulam na internet."
     },
     "about": {},
     "sources": [],
@@ -788,7 +807,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily with baseball, sumo, soccer and entertainment news."
+      "en": "Sports daily with baseball, sumo, soccer and entertainment news.",
+      "pt": "Diário esportivo com beisebol, sumô, futebol e notícias de entretenimento."
     },
     "about": {},
     "sources": [],
@@ -827,7 +847,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports daily affiliated with the Mainichi, strong on professional baseball."
+      "en": "Sports daily affiliated with the Mainichi, strong on professional baseball.",
+      "pt": "Diário esportivo ligado ao Mainichi, forte na cobertura do beisebol profissional."
     },
     "about": {},
     "sources": [],
@@ -866,7 +887,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports daily of the Yomiuri group with Yomiuri Giants and sumo coverage."
+      "en": "Sports daily of the Yomiuri group with Yomiuri Giants and sumo coverage.",
+      "pt": "Diário esportivo do grupo Yomiuri, com cobertura do Yomiuri Giants e do sumô."
     },
     "about": {},
     "sources": [],
@@ -905,7 +927,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Site of Sports Graphic Number, known for long-form sports writing."
+      "en": "Site of Sports Graphic Number, known for long-form sports writing.",
+      "pt": "Site da Sports Graphic Number, conhecida pelas reportagens esportivas longas."
     },
     "about": {},
     "sources": [],
@@ -944,7 +967,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news network covering IT, business tech and consumer devices."
+      "en": "Technology news network covering IT, business tech and consumer devices.",
+      "pt": "Rede de notícias de tecnologia sobre TI, tecnologia corporativa e aparelhos de consumo."
     },
     "about": {},
     "sources": [],
@@ -983,7 +1007,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Family of technology news sites on PCs, mobile, AV and games."
+      "en": "Family of technology news sites on PCs, mobile, AV and games.",
+      "pt": "Família de sites de tecnologia sobre PCs, celulares, áudio e vídeo e games."
     },
     "about": {},
     "sources": [],
@@ -1022,7 +1047,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular Japanese tech and science news site with hands-on reviews and internet culture."
+      "en": "Popular Japanese tech and science news site with hands-on reviews and internet culture.",
+      "pt": "Site popular de tecnologia e ciência do Japão, com testes práticos e cultura da internet."
     },
     "about": {},
     "sources": [],
@@ -1063,7 +1089,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Tokyo daily of the Chunichi group with metropolitan and political coverage."
+      "en": "Tokyo daily of the Chunichi group with metropolitan and political coverage.",
+      "pt": "Diário de Tóquio do grupo Chunichi, com cobertura metropolitana e política."
     },
     "about": {},
     "sources": [],
@@ -1102,7 +1129,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Nagoya-based daily covering the Chubu region, with one of Japan's largest circulations."
+      "en": "Nagoya-based daily covering the Chubu region, with one of Japan's largest circulations.",
+      "pt": "Diário de Nagoya que cobre a região de Chubu, com uma das maiores tiragens do Japão."
     },
     "about": {},
     "sources": [],
@@ -1141,7 +1169,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sapporo daily and the leading newspaper in Hokkaido, with regional editions."
+      "en": "Sapporo daily and the leading newspaper in Hokkaido, with regional editions.",
+      "pt": "Diário de Sapporo e principal jornal de Hokkaido, com edições regionais."
     },
     "about": {},
     "sources": [],
@@ -1180,7 +1209,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fukuoka daily covering Kyushu's politics, economy and local communities."
+      "en": "Fukuoka daily covering Kyushu's politics, economy and local communities.",
+      "pt": "Diário de Fukuoka que cobre a política, a economia e as comunidades de Kyushu."
     },
     "about": {},
     "sources": [],
@@ -1219,7 +1249,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Kobe daily covering Hyogo Prefecture, its port city and surrounding communities."
+      "en": "Kobe daily covering Hyogo Prefecture, its port city and surrounding communities.",
+      "pt": "Diário de Kobe que cobre a província de Hyogo, sua cidade portuária e as comunidades vizinhas."
     },
     "about": {},
     "sources": [],

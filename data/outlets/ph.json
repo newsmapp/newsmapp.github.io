@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Manila daily founded in 1985, with national politics, investigations and opinion."
+      "en": "Manila daily founded in 1985, with national politics, investigations and opinion.",
+      "pt": "Diário de Manila fundado em 1985, com política nacional, investigações e opinião."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Manila daily with national news, business, sports and lifestyle."
+      "en": "Manila daily with national news, business, sports and lifestyle.",
+      "pt": "Diário de Manila com notícias nacionais, negócios, esportes e estilo de vida."
     },
     "about": {},
     "sources": [],
@@ -105,7 +107,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Manila daily founded in 1900, among the oldest newspapers in the Philippines."
+      "en": "Manila daily founded in 1900, among the oldest newspapers in the Philippines.",
+      "pt": "Diário de Manila fundado em 1900, entre os jornais mais antigos das Filipinas."
     },
     "about": {},
     "sources": [],
@@ -144,7 +147,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Filipino-language tabloid with national news, crime and entertainment."
+      "en": "Filipino-language tabloid with national news, crime and entertainment.",
+      "pt": "Tabloide em filipino com notícias nacionais, crime e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -185,7 +189,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital newsroom co-founded by Nobel laureate Maria Ressa, known for its investigations."
+      "en": "Digital newsroom co-founded by Nobel laureate Maria Ressa, known for its investigations.",
+      "pt": "Redação digital cofundada pela Nobel Maria Ressa, conhecida por suas investigações."
     },
     "about": {},
     "sources": [],
@@ -224,7 +229,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit center producing investigations into corruption, elections and governance."
+      "en": "Nonprofit center producing investigations into corruption, elections and governance.",
+      "pt": "Centro sem fins lucrativos que produz investigações sobre corrupção, eleições e governança."
     },
     "about": {},
     "sources": [],
@@ -263,7 +269,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet publishing fact-checks and in-depth reporting on public affairs."
+      "en": "Nonprofit outlet publishing fact-checks and in-depth reporting on public affairs.",
+      "pt": "Veículo sem fins lucrativos que publica checagens e reportagens aprofundadas sobre assuntos públicos."
     },
     "about": {},
     "sources": [],
@@ -302,7 +309,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, the peso, companies and economic policy."
+      "en": "Business daily covering markets, the peso, companies and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, o peso, empresas e política econômica."
     },
     "about": {},
     "sources": [],
@@ -341,7 +349,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily with markets, agriculture, trade and economic news."
+      "en": "Business daily with markets, agriculture, trade and economic news.",
+      "pt": "Diário de negócios com mercados, agricultura, comércio e notícias econômicas."
     },
     "about": {},
     "sources": [],
@@ -380,7 +389,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering gadgets, telecoms and the Philippine tech industry."
+      "en": "Technology news site covering gadgets, telecoms and the Philippine tech industry.",
+      "pt": "Site de tecnologia que cobre aparelhos, telecomunicações e o setor de tecnologia filipino."
     },
     "about": {},
     "sources": [],
@@ -421,7 +431,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News service of GMA Network, the most watched television network in the Philippines."
+      "en": "News service of GMA Network, the most watched television network in the Philippines.",
+      "pt": "Serviço de notícias da GMA Network, a rede de televisão mais assistida das Filipinas."
     },
     "about": {},
     "sources": [],
@@ -460,7 +471,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of ABS-CBN, published online and on cable since its franchise lapsed."
+      "en": "News service of ABS-CBN, published online and on cable since its franchise lapsed.",
+      "pt": "Serviço de notícias da ABS-CBN, publicado na internet e na TV a cabo desde o fim da concessão."
     },
     "about": {},
     "sources": [],
@@ -499,7 +511,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of People's Television Network, the government broadcaster."
+      "en": "News service of People's Television Network, the government broadcaster.",
+      "pt": "Serviço de notícias da People's Television Network, a emissora do governo."
     },
     "about": {},
     "sources": [],
@@ -538,7 +551,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports site covering the PBA, Gilas Pilipinas, volleyball and boxing."
+      "en": "Sports site covering the PBA, Gilas Pilipinas, volleyball and boxing.",
+      "pt": "Site esportivo que cobre a PBA, a Gilas Pilipinas, o vôlei e o boxe."
     },
     "about": {},
     "sources": [],
@@ -577,7 +591,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports site covering Philippine basketball, collegiate leagues and volleyball."
+      "en": "Sports site covering Philippine basketball, collegiate leagues and volleyball.",
+      "pt": "Site esportivo que cobre o basquete filipino, as ligas universitárias e o vôlei."
     },
     "about": {},
     "sources": [],
@@ -616,7 +631,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Network of community newspapers in Cebu, Davao and other cities outside Manila."
+      "en": "Network of community newspapers in Cebu, Davao and other cities outside Manila.",
+      "pt": "Rede de jornais comunitários em Cebu, Davao e outras cidades fora de Manila."
     },
     "about": {},
     "sources": [],
@@ -655,7 +671,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "News site run by journalists in Mindanao, covering peace, conflict and local news."
+      "en": "News site run by journalists in Mindanao, covering peace, conflict and local news.",
+      "pt": "Site de notícias mantido por jornalistas de Mindanao, com paz, conflitos e notícias locais."
     },
     "about": {},
     "sources": [],

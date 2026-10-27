@@ -27,7 +27,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "China's state news agency and the official source of government announcements."
+      "en": "China's state news agency and the official source of government announcements.",
+      "pt": "Agência estatal de notícias da China e fonte oficial dos anúncios do governo."
     },
     "about": {},
     "sources": [
@@ -73,7 +74,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Official newspaper of the Chinese Communist Party's Central Committee."
+      "en": "Official newspaper of the Chinese Communist Party's Central Committee.",
+      "pt": "Jornal oficial do Comitê Central do Partido Comunista Chinês."
     },
     "about": {},
     "sources": [
@@ -117,7 +119,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language state daily presenting Chinese news for international readers."
+      "en": "English-language state daily presenting Chinese news for international readers.",
+      "pt": "Diário estatal em inglês que apresenta as notícias chinesas a leitores estrangeiros."
     },
     "about": {},
     "sources": [
@@ -161,7 +164,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "State tabloid published by People's Daily, focused on international affairs and commentary."
+      "en": "State tabloid published by People's Daily, focused on international affairs and commentary.",
+      "pt": "Tabloide estatal do Diário do Povo, focado em assuntos internacionais e comentários."
     },
     "about": {},
     "sources": [
@@ -205,7 +209,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "State news agency serving overseas Chinese and Hong Kong and Macau audiences."
+      "en": "State news agency serving overseas Chinese and Hong Kong and Macau audiences.",
+      "pt": "Agência estatal de notícias voltada a chineses no exterior e ao público de Hong Kong e Macau."
     },
     "about": {},
     "sources": [
@@ -251,7 +256,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Shanghai digital outlet known for current affairs and data-driven reporting."
+      "en": "Shanghai digital outlet known for current affairs and data-driven reporting.",
+      "pt": "Veículo digital de Xangai conhecido por atualidades e reportagens baseadas em dados."
     },
     "about": {},
     "sources": [
@@ -295,7 +301,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language site on Chinese society and everyday life, from The Paper's publisher."
+      "en": "English-language site on Chinese society and everyday life, from The Paper's publisher.",
+      "pt": "Site em inglês sobre a sociedade e o cotidiano chineses, da editora do The Paper."
     },
     "about": {},
     "sources": [
@@ -339,7 +346,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Party theory journal publishing speeches and policy thinking of the leadership."
+      "en": "Party theory journal publishing speeches and policy thinking of the leadership.",
+      "pt": "Revista teórica do Partido que publica discursos e o pensamento político da liderança."
     },
     "about": {},
     "sources": [
@@ -385,7 +393,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "State broadcaster's news, home of the nightly Xinwen Lianbo."
+      "en": "State broadcaster's news, home of the nightly Xinwen Lianbo.",
+      "pt": "Notícias da emissora estatal, casa do telejornal noturno Xinwen Lianbo."
     },
     "about": {},
     "sources": [
@@ -429,7 +438,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "State broadcaster's international channel in English and other languages."
+      "en": "State broadcaster's international channel in English and other languages.",
+      "pt": "Canal internacional da emissora estatal, em inglês e outros idiomas."
     },
     "about": {},
     "sources": [
@@ -473,7 +483,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "National state radio with news channels and regional services."
+      "en": "National state radio with news channels and regional services.",
+      "pt": "Rádio estatal nacional com canais de notícias e serviços regionais."
     },
     "about": {},
     "sources": [
@@ -519,7 +530,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Business and finance publication known for investigative economic reporting."
+      "en": "Business and finance publication known for investigative economic reporting.",
+      "pt": "Publicação de negócios e finanças conhecida pela reportagem econômica investigativa."
     },
     "about": {},
     "sources": [],
@@ -558,7 +570,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial media brand with markets, companies and economic policy coverage."
+      "en": "Financial media brand with markets, companies and economic policy coverage.",
+      "pt": "Marca de mídia financeira com cobertura de mercados, empresas e política econômica."
     },
     "about": {},
     "sources": [
@@ -602,7 +615,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business newspaper from Guangzhou covering companies, finance and policy."
+      "en": "Business newspaper from Guangzhou covering companies, finance and policy.",
+      "pt": "Jornal de negócios de Guangzhou que cobre empresas, finanças e políticas."
     },
     "about": {},
     "sources": [
@@ -646,7 +660,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news site covering companies, consumer trends and markets."
+      "en": "Business news site covering companies, consumer trends and markets.",
+      "pt": "Site de notícias de negócios sobre empresas, tendências de consumo e mercados."
     },
     "about": {},
     "sources": [
@@ -690,7 +705,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Guangzhou weekly historically known for in-depth and investigative reporting."
+      "en": "Guangzhou weekly historically known for in-depth and investigative reporting.",
+      "pt": "Semanário de Guangzhou historicamente conhecido pela reportagem aprofundada e investigativa."
     },
     "about": {},
     "sources": [
@@ -734,7 +750,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports channel of Sina with football, basketball and Olympic coverage."
+      "en": "Sports channel of Sina with football, basketball and Olympic coverage.",
+      "pt": "Canal de esportes da Sina com futebol, basquete e cobertura olímpica."
     },
     "about": {},
     "sources": [],
@@ -773,7 +790,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports portal of Tencent with NBA, Chinese Super League and live streams."
+      "en": "Sports portal of Tencent with NBA, Chinese Super League and live streams.",
+      "pt": "Portal esportivo da Tencent com NBA, Superliga Chinesa e transmissões ao vivo."
     },
     "about": {},
     "sources": [],
@@ -814,7 +832,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "State sports channel CCTV-5 and its site, with Olympic and football coverage."
+      "en": "State sports channel CCTV-5 and its site, with Olympic and football coverage.",
+      "pt": "Canal esportivo estatal CCTV-5 e seu site, com Jogos Olímpicos e futebol."
     },
     "about": {},
     "sources": [
@@ -858,7 +877,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports community and news site, popular for basketball and football."
+      "en": "Sports community and news site, popular for basketball and football.",
+      "pt": "Comunidade e site de notícias esportivas, popular entre fãs de basquete e futebol."
     },
     "about": {},
     "sources": [],
@@ -899,7 +919,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Startup and technology news site covering Chinese venture capital and companies."
+      "en": "Startup and technology news site covering Chinese venture capital and companies.",
+      "pt": "Site de notícias de startups e tecnologia sobre capital de risco e empresas chinesas."
     },
     "about": {},
     "sources": [],
@@ -938,7 +959,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology and business commentary site with long-form industry analysis."
+      "en": "Technology and business commentary site with long-form industry analysis.",
+      "pt": "Site de comentários sobre tecnologia e negócios, com análises longas do setor."
     },
     "about": {},
     "sources": [],
@@ -977,7 +999,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National science newspaper under the Ministry of Science and Technology."
+      "en": "National science newspaper under the Ministry of Science and Technology.",
+      "pt": "Jornal nacional de ciência ligado ao Ministério da Ciência e Tecnologia."
     },
     "about": {},
     "sources": [
@@ -1021,7 +1044,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular science community explaining research and debunking myths."
+      "en": "Popular science community explaining research and debunking myths.",
+      "pt": "Comunidade de divulgação científica que explica pesquisas e desmente mitos."
     },
     "about": {},
     "sources": [],
@@ -1060,7 +1084,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Beijing daily covering the capital, society and national news."
+      "en": "Beijing daily covering the capital, society and national news.",
+      "pt": "Diário de Pequim que cobre a capital, a sociedade e as notícias nacionais."
     },
     "about": {},
     "sources": [
@@ -1104,7 +1129,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Shanghai evening paper covering city life, culture and local affairs."
+      "en": "Shanghai evening paper covering city life, culture and local affairs.",
+      "pt": "Vespertino de Xangai que cobre o cotidiano, a cultura e os assuntos locais da cidade."
     },
     "about": {},
     "sources": [
@@ -1148,7 +1174,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Guangzhou daily covering Guangdong and the Pearl River Delta."
+      "en": "Guangzhou daily covering Guangdong and the Pearl River Delta.",
+      "pt": "Diário de Guangzhou que cobre Guangdong e o Delta do Rio das Pérolas."
     },
     "about": {},
     "sources": [

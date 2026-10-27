@@ -3,7 +3,8 @@
   "iso3": "BRA",
   "slug": "brazil",
   "name": {
-    "en": "Brazil"
+    "en": "Brazil",
+    "pt": "Brasil"
   },
   "continent": "south-america",
   "also_in": [],
@@ -68,6 +69,49 @@
         },
         "regional": {
           "intro": "Regional newspapers in Brazil remain influential in their states, often owned by local media groups. The outlets below cover Rio Grande do Sul, Minas Gerais, the Federal District, Pernambuco and Paraná."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O Brasil tem o maior mercado de notícias da América Latina, com a mídia concentrada em poucos grandes grupos. O Grupo Globo é dono da rede de TV mais assistida, do jornal O Globo, do portal g1 e do diário econômico Valor Econômico, enquanto a Folha de S.Paulo e O Estado de S. Paulo são os principais jornais nacionais, sediados em São Paulo. Uma empresa pública de comunicação, a EBC, mantém a Agência Brasil e a televisão pública. Desde os anos 2010, redações digitais independentes e agências de checagem se tornaram fontes importantes de reportagem investigativa e verificação, sobretudo em eleições. Os jornais regionais continuam influentes em estados como Rio Grande do Sul, Minas Gerais e Pernambuco. Os grandes jornais usam paywall com limite de leitura, enquanto portais como g1 e UOL são gratuitos. A cobertura de futebol é um segmento grande do mercado.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Brasil?",
+          "a": "Os principais veículos nacionais do diretório incluem Folha de S.Paulo, O Globo, O Estado de S. Paulo, g1 e UOL. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias brasileiros são gratuitos?",
+          "a": "Entre os veículos gratuitos estão g1, UOL, Agência Brasil, Poder360 e CNN Brasil. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos brasileiros são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a Revista Pesquisa FAPESP. Entre os controlados pelo Estado está a Agência Brasil. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do Brasil?",
+          "a": "A cobertura regional do diretório vem do g1 (nacional, com edições estaduais), Zero Hora (GZH) (Rio Grande do Sul), Estado de Minas (Minas Gerais), Correio Braziliense (Distrito Federal) e Jornal do Commercio (Pernambuco). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos em que os brasileiros confiam para as notícias nacionais: diários de São Paulo e do Rio de Janeiro, grandes portais gratuitos e a agência pública federal de notícias. Cada item mostra o modelo de paywall e o dono."
+        },
+        "politics": {
+          "intro": "A cobertura política no Brasil se concentra em Brasília, com jornais nacionais, redações digitais especializadas e a agência pública acompanhando o Congresso, a Presidência e os tribunais. Os veículos abaixo estão em ordem de relevância editorial."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios no Brasil é liderado por um diário econômico dedicado e complementado por portais de investimento e revistas de negócios que acompanham a bolsa, os juros e as contas públicas."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo e a checagem de fatos no Brasil vêm sobretudo de redações digitais independentes e agências sem fins lucrativos, com foco forte em direitos humanos, meio ambiente e desinformação na internet."
+        },
+        "sports": {
+          "intro": "A mídia esportiva brasileira é dominada pelo futebol, com um grande portal gratuito do Grupo Globo, uma marca esportiva tradicional e sites de emissoras que cobrem o Brasileirão, a seleção e as competições internacionais."
+        },
+        "regional": {
+          "intro": "Os jornais regionais continuam influentes em seus estados, muitas vezes ligados a grupos de mídia locais. Os veículos abaixo cobrem Rio Grande do Sul, Minas Gerais, Distrito Federal, Pernambuco e Paraná."
         }
       },
       "reviewed": true,

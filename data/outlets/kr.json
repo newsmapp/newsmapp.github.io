@@ -27,7 +27,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Korea's main news agency, publicly funded, with national wires and North Korea coverage."
+      "en": "Korea's main news agency, publicly funded, with national wires and North Korea coverage.",
+      "pt": "Principal agência de notícias da Coreia, com financiamento público, noticiário nacional e cobertura da Coreia do Norte."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily with the largest circulation in Korea, covering politics and society."
+      "en": "National daily with the largest circulation in Korea, covering politics and society.",
+      "pt": "Diário nacional com a maior tiragem da Coreia, cobrindo política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with politics, economy and international coverage."
+      "en": "National daily with politics, economy and international coverage.",
+      "pt": "Diário nacional com cobertura de política, economia e assuntos internacionais."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "One of Korea's oldest national dailies, covering politics and society."
+      "en": "One of Korea's oldest national dailies, covering politics and society.",
+      "pt": "Um dos diários nacionais mais antigos da Coreia, cobrindo política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -193,7 +197,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily founded with funds from citizen shareholders after democratization."
+      "en": "National daily founded with funds from citizen shareholders after democratization.",
+      "pt": "Diário nacional fundado com recursos de acionistas cidadãos após a redemocratização."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Employee-owned national daily with politics, society and labor coverage."
+      "en": "Employee-owned national daily with politics, society and labor coverage.",
+      "pt": "Diário nacional controlado pelos funcionários, com cobertura de política, sociedade e trabalho."
     },
     "about": {},
     "sources": [],
@@ -273,7 +279,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily covering politics, society and culture, one of Korea's older newspapers."
+      "en": "National daily covering politics, society and culture, one of Korea's older newspapers.",
+      "pt": "Diário nacional que cobre política, sociedade e cultura, um dos jornais mais antigos da Coreia."
     },
     "about": {},
     "sources": [],
@@ -312,7 +319,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language daily covering Korean news for international readers."
+      "en": "English-language daily covering Korean news for international readers.",
+      "pt": "Diário em inglês que cobre as notícias da Coreia para leitores estrangeiros."
     },
     "about": {},
     "sources": [],
@@ -353,7 +361,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster's news, with national bulletins and disaster coverage."
+      "en": "Public broadcaster's news, with national bulletins and disaster coverage.",
+      "pt": "Notícias da emissora pública, com noticiários nacionais e cobertura de desastres."
     },
     "about": {},
     "sources": [],
@@ -392,7 +401,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News from MBC, a public broadcaster funded by advertising, with evening newscasts."
+      "en": "News from MBC, a public broadcaster funded by advertising, with evening newscasts.",
+      "pt": "Notícias da MBC, emissora pública financiada por publicidade, com telejornais noturnos."
     },
     "about": {},
     "sources": [],
@@ -431,7 +441,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News from SBS, Korea's main commercial terrestrial broadcaster."
+      "en": "News from SBS, Korea's main commercial terrestrial broadcaster.",
+      "pt": "Notícias da SBS, a principal emissora comercial de TV aberta da Coreia."
     },
     "about": {},
     "sources": [],
@@ -472,7 +483,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Cable channel news known for investigative reports and evening newscasts."
+      "en": "Cable channel news known for investigative reports and evening newscasts.",
+      "pt": "Notícias de canal a cabo conhecido pelas reportagens investigativas e pelos telejornais noturnos."
     },
     "about": {},
     "sources": [],
@@ -511,7 +523,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Korea's first 24-hour news channel with breaking news and live coverage."
+      "en": "Korea's first 24-hour news channel with breaking news and live coverage.",
+      "pt": "Primeiro canal de notícias 24 horas da Coreia, com notícias de última hora e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -550,7 +563,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Leading business daily covering markets, companies and the economy."
+      "en": "Leading business daily covering markets, companies and the economy.",
+      "pt": "Principal diário de negócios, com mercados, empresas e a economia."
     },
     "about": {},
     "sources": [],
@@ -589,7 +603,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily with markets, real estate and corporate news."
+      "en": "Business daily with markets, real estate and corporate news.",
+      "pt": "Diário de negócios com mercados, setor imobiliário e notícias de empresas."
     },
     "about": {},
     "sources": [],
@@ -628,7 +643,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Economic daily with stock market, startup and industry coverage, plus online news."
+      "en": "Economic daily with stock market, startup and industry coverage, plus online news.",
+      "pt": "Diário econômico com bolsa, startups e indústria, além de notícias on-line."
     },
     "about": {},
     "sources": [],
@@ -667,7 +683,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily covering finance, real estate, industry and economic policy in Korea."
+      "en": "Business daily covering finance, real estate, industry and economic policy in Korea.",
+      "pt": "Diário de negócios que cobre finanças, imóveis, indústria e política econômica na Coreia."
     },
     "about": {},
     "sources": [],
@@ -706,7 +723,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Member-funded nonprofit newsroom for investigative journalism."
+      "en": "Member-funded nonprofit newsroom for investigative journalism.",
+      "pt": "Redação sem fins lucrativos de jornalismo investigativo, financiada por associados."
     },
     "about": {},
     "sources": [],
@@ -747,7 +765,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly current-affairs magazine with investigative and in-depth reporting."
+      "en": "Weekly current-affairs magazine with investigative and in-depth reporting.",
+      "pt": "Revista semanal de atualidades com reportagens investigativas e aprofundadas."
     },
     "about": {},
     "sources": [],
@@ -788,7 +807,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Pioneering citizen-journalism site covering politics and society."
+      "en": "Pioneering citizen-journalism site covering politics and society.",
+      "pt": "Site pioneiro de jornalismo cidadão que cobre política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -827,7 +847,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily with baseball, football and entertainment news."
+      "en": "Sports daily with baseball, football and entertainment news.",
+      "pt": "Diário esportivo com beisebol, futebol e notícias de entretenimento."
     },
     "about": {},
     "sources": [],
@@ -866,7 +887,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Korea's first sports daily, covering KBO, K League and entertainment."
+      "en": "Korea's first sports daily, covering KBO, K League and entertainment.",
+      "pt": "Primeiro diário esportivo da Coreia, com KBO, K League e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -905,7 +927,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports daily with KBO baseball, football, golf and entertainment coverage."
+      "en": "Sports daily with KBO baseball, football, golf and entertainment coverage.",
+      "pt": "Diário esportivo com beisebol da KBO, futebol, golfe e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -944,7 +967,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports and entertainment news site known for fast match reports and baseball coverage."
+      "en": "Sports and entertainment news site known for fast match reports and baseball coverage.",
+      "pt": "Site de esportes e entretenimento conhecido pelos relatos rápidos de jogos e pelo beisebol."
     },
     "about": {},
     "sources": [],
@@ -983,7 +1007,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering Korean IT, semiconductors and platforms."
+      "en": "Technology news site covering Korean IT, semiconductors and platforms.",
+      "pt": "Site de tecnologia que cobre a TI coreana, os semicondutores e as plataformas."
     },
     "about": {},
     "sources": [],
@@ -1022,7 +1047,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology and electronics industry daily covering semiconductors, displays and IT policy."
+      "en": "Technology and electronics industry daily covering semiconductors, displays and IT policy.",
+      "pt": "Diário da indústria de tecnologia e eletrônicos, com semicondutores, telas e política de TI."
     },
     "about": {},
     "sources": [],
@@ -1061,7 +1087,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular science magazine and news site explaining research for Korean readers."
+      "en": "Popular science magazine and news site explaining research for Korean readers.",
+      "pt": "Revista e site de divulgação científica que explicam pesquisas para leitores coreanos."
     },
     "about": {},
     "sources": [],
@@ -1100,7 +1127,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Busan daily covering the port city and the southeast region of Korea."
+      "en": "Busan daily covering the port city and the southeast region of Korea.",
+      "pt": "Diário de Busan que cobre a cidade portuária e a região sudeste da Coreia."
     },
     "about": {},
     "sources": [],
@@ -1139,7 +1167,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Busan daily covering Busan and South Gyeongsang Province politics and communities."
+      "en": "Busan daily covering Busan and South Gyeongsang Province politics and communities.",
+      "pt": "Diário de Busan que cobre a política e as comunidades de Busan e de Gyeongsang do Sul."
     },
     "about": {},
     "sources": [],
@@ -1178,7 +1207,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daegu daily covering Daegu and North Gyeongsang Province politics and communities."
+      "en": "Daegu daily covering Daegu and North Gyeongsang Province politics and communities.",
+      "pt": "Diário de Daegu que cobre a política e as comunidades de Daegu e de Gyeongsang do Norte."
     },
     "about": {},
     "sources": [],
@@ -1217,7 +1247,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily covering Gyeonggi Province and Incheon, the populous region around Seoul."
+      "en": "Daily covering Gyeonggi Province and Incheon, the populous region around Seoul.",
+      "pt": "Diário que cobre a província de Gyeonggi e Incheon, a populosa região em torno de Seul."
     },
     "about": {},
     "sources": [],
@@ -1256,7 +1287,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Chuncheon daily covering Gangwon Province politics, tourism and local communities."
+      "en": "Chuncheon daily covering Gangwon Province politics, tourism and local communities.",
+      "pt": "Diário de Chuncheon que cobre a política, o turismo e as comunidades da província de Gangwon."
     },
     "about": {},
     "sources": [],

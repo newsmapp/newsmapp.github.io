@@ -3,7 +3,8 @@
   "iso3": "KEN",
   "slug": "kenya",
   "name": {
-    "en": "Kenya"
+    "en": "Kenya",
+    "pt": "Quênia"
   },
   "continent": "africa",
   "also_in": [],
@@ -51,6 +52,36 @@
         },
         "broadcast": {
           "intro": "Television and radio are central to news in Kenya. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "O Quênia tem o mercado de notícias mais desenvolvido da África Oriental, liderado a partir de Nairóbi por dois grupos de mídia: o Nation Media Group, editor do Daily Nation, do Business Daily e do The EastAfrican e dono da NTV, e o Standard Group. A Citizen TV, da Royal Media Services, é o canal mais assistido, e o rádio é uma grande fonte de notícias em inglês, suaíli e línguas locais. Veículos digitais como The Elephant e Africa Uncensored publicam análises e investigações. Nairóbi também é um polo regional de jornalismo de tecnologia e negócios. O Daily Nation usa paywall com limite de leitura; a maioria dos outros sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Quênia?",
+          "a": "Os principais veículos nacionais do diretório incluem Daily Nation, The Standard, The Star e Citizen Digital. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos quenianos são financiados com recursos públicos?",
+          "a": "A KBC é a Kenya Broadcasting Corporation, a emissora pública. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias do Quênia em suaíli?",
+          "a": "O Taifa Leo publica em suaíli. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Quênia ficam em Nairóbi e são liderados por dois grupos de jornais tradicionais."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios no Quênia cobre a Bolsa de Nairóbi, o dinheiro móvel e o comércio na África Oriental."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio são centrais para as notícias no Quênia. Os canais e as emissoras abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": false,

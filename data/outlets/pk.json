@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Pakistan's leading English-language daily, founded in 1941 by Muhammad Ali Jinnah."
+      "en": "Pakistan's leading English-language daily, founded in 1941 by Muhammad Ali Jinnah.",
+      "pt": "Principal diário em inglês do Paquistão, fundado em 1941 por Muhammad Ali Jinnah."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language daily with national news, politics and opinion."
+      "en": "English-language daily with national news, politics and opinion.",
+      "pt": "Diário em inglês com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language daily of the Jang Group, with politics and investigations."
+      "en": "English-language daily of the Jang Group, with politics and investigations.",
+      "pt": "Diário em inglês do Jang Group, com política e investigações."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Urdu daily founded in 1939, among the most read newspapers in Pakistan."
+      "en": "Urdu daily founded in 1939, among the most read newspapers in Pakistan.",
+      "pt": "Diário em urdu fundado em 1939, entre os jornais mais lidos do Paquistão."
     },
     "about": {},
     "sources": [],
@@ -187,7 +191,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Urdu daily of the Express Media Group with national news and opinion."
+      "en": "Urdu daily of the Express Media Group with national news and opinion.",
+      "pt": "Diário em urdu do Express Media Group com notícias nacionais e opinião."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly news magazine known for independent political analysis and reporting."
+      "en": "Weekly news magazine known for independent political analysis and reporting.",
+      "pt": "Revista semanal de notícias conhecida pela análise e reportagem política independentes."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, the rupee, energy and economic policy."
+      "en": "Business daily covering markets, the rupee, energy and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, a rupia, energia e política econômica."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine of Pakistan Today with in-depth reporting on companies and markets."
+      "en": "Business magazine of Pakistan Today with in-depth reporting on companies and markets.",
+      "pt": "Revista de negócios do Pakistan Today com reportagens aprofundadas sobre empresas e mercados."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology and business news site covering telecoms, startups and the economy."
+      "en": "Technology and business news site covering telecoms, startups and the economy.",
+      "pt": "Site de tecnologia e negócios que cobre telecomunicações, startups e a economia."
     },
     "about": {},
     "sources": [],
@@ -386,7 +395,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News channel of the Jang Group, among the most watched in Pakistan."
+      "en": "News channel of the Jang Group, among the most watched in Pakistan.",
+      "pt": "Canal de notícias do Jang Group, entre os mais assistidos do Paquistão."
     },
     "about": {},
     "sources": [],
@@ -425,7 +435,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news channel with national news, politics and talk shows."
+      "en": "Television news channel with national news, politics and talk shows.",
+      "pt": "Canal de notícias na televisão com notícias nacionais, política e programas de debate."
     },
     "about": {},
     "sources": [],
@@ -464,7 +475,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Lahore-based television news channel with national and Punjab coverage."
+      "en": "Lahore-based television news channel with national and Punjab coverage.",
+      "pt": "Canal de notícias de Lahore com cobertura nacional e do Punjab."
     },
     "about": {},
     "sources": [],
@@ -503,7 +515,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of Pakistan Television, the state broadcaster, in Urdu and English."
+      "en": "News service of Pakistan Television, the state broadcaster, in Urdu and English.",
+      "pt": "Serviço de notícias da Pakistan Television, a emissora estatal, em urdu e inglês."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Cricket site covering the national team, the PSL and domestic cricket."
+      "en": "Cricket site covering the national team, the PSL and domestic cricket.",
+      "pt": "Site de críquete que cobre a seleção, a PSL e o críquete doméstico."
     },
     "about": {},
     "sources": [],

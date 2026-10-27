@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Cairo daily founded in 1875, the flagship of the state-owned Al-Ahram Establishment."
+      "en": "Cairo daily founded in 1875, the flagship of the state-owned Al-Ahram Establishment.",
+      "pt": "Diário do Cairo fundado em 1875, principal título do grupo estatal Al-Ahram Establishment."
     },
     "about": {},
     "sources": [
@@ -73,7 +74,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Private Cairo daily with national news, politics and opinion."
+      "en": "Private Cairo daily with national news, politics and opinion.",
+      "pt": "Diário privado do Cairo com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -112,7 +114,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "High-volume Arabic news site and daily with national news and breaking updates."
+      "en": "High-volume Arabic news site and daily with national news and breaking updates.",
+      "pt": "Site e diário de notícias em árabe de grande volume, com notícias nacionais e de última hora."
     },
     "about": {},
     "sources": [],
@@ -153,7 +156,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Private Cairo daily with national news, analysis and opinion columns."
+      "en": "Private Cairo daily with national news, analysis and opinion columns.",
+      "pt": "Diário privado do Cairo com notícias nacionais, análise e colunas de opinião."
     },
     "about": {},
     "sources": [],
@@ -192,7 +196,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Arabic news portal with national news, public services and sports."
+      "en": "Arabic news portal with national news, public services and sports.",
+      "pt": "Portal de notícias em árabe com notícias nacionais, serviços públicos e esportes."
     },
     "about": {},
     "sources": [],
@@ -231,7 +236,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily newspaper of the Wafd Party, with political news and opinion."
+      "en": "Daily newspaper of the Wafd Party, with political news and opinion.",
+      "pt": "Diário ligado ao Partido Wafd, com notícias políticas, nacionais e opinião."
     },
     "about": {},
     "sources": [],
@@ -270,7 +276,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site of the state-owned Al-Ahram Establishment."
+      "en": "English-language news site of the state-owned Al-Ahram Establishment.",
+      "pt": "Site de notícias em inglês do grupo estatal Al-Ahram Establishment."
     },
     "about": {},
     "sources": [
@@ -314,7 +321,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site of Al-Masry Al-Youm with national news and politics."
+      "en": "English-language news site of Al-Masry Al-Youm with national news and politics.",
+      "pt": "Site de notícias em inglês do Al-Masry Al-Youm, com notícias nacionais e política."
     },
     "about": {},
     "sources": [],
@@ -355,7 +363,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Independent outlet publishing investigations and analysis in Arabic and English."
+      "en": "Independent outlet publishing investigations and analysis in Arabic and English.",
+      "pt": "Veículo independente que publica investigações e análises em árabe e inglês."
     },
     "about": {},
     "sources": [],
@@ -396,7 +405,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site with business, investment and national news."
+      "en": "English-language news site with business, investment and national news.",
+      "pt": "Site de notícias em inglês com negócios, investimentos e notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -435,7 +445,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language business newsletter and site covering Egyptian markets and policy."
+      "en": "English-language business newsletter and site covering Egyptian markets and policy.",
+      "pt": "Newsletter e site de negócios em inglês sobre os mercados e as políticas do Egito."
     },
     "about": {},
     "sources": [],
@@ -474,7 +485,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Arabic business newspaper covering markets, banking and investment."
+      "en": "Arabic business newspaper covering markets, banking and investment.",
+      "pt": "Jornal de negócios em árabe que cobre mercados, bancos e investimentos."
     },
     "about": {},
     "sources": [],
@@ -513,7 +525,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Arabic football site covering the Egyptian league, the national team and world football."
+      "en": "Arabic football site covering the Egyptian league, the national team and world football.",
+      "pt": "Site de futebol em árabe que cobre o campeonato egípcio, a seleção e o futebol mundial."
     },
     "about": {},
     "sources": [],
@@ -552,7 +565,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Arabic sports site with live scores, Egyptian football and international results."
+      "en": "Arabic sports site with live scores, Egyptian football and international results.",
+      "pt": "Site esportivo em árabe com placares ao vivo, futebol egípcio e resultados internacionais."
     },
     "about": {},
     "sources": [],

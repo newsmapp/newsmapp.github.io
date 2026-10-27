@@ -3,7 +3,8 @@
   "iso3": "CAN",
   "slug": "canada",
   "name": {
-    "en": "Canada"
+    "en": "Canada",
+    "pt": "Canadá"
   },
   "continent": "north-america",
   "also_in": [],
@@ -52,6 +53,40 @@
         },
         "sports": {
           "intro": "Sports media in Canada is dominated by hockey, with national networks in English and French that also cover the CFL, basketball, baseball and international events. The outlets below are ordered by editorial relevance."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O cenário de notícias do Canadá é marcado por dois idiomas oficiais e por uma emissora pública forte. A CBC/Radio-Canada oferece notícias nacionais e regionais em inglês e francês, ao lado de redes privadas de televisão como CTV e Global. No impresso, The Globe and Mail e National Post disputam o público nacional, enquanto a Postmedia é dona de muitos dos maiores diários das cidades. Quebec tem seu próprio mercado em francês, liderado por La Presse, Le Devoir e Radio-Canada. Programas federais, como um crédito fiscal para salários de jornalistas, apoiam as empresas de notícias, e a Online News Act levou a Meta a bloquear links de notícias em suas plataformas no Canadá. Redações digitais sem fins lucrativos e por assinatura surgiram para cobrir políticas públicas, meio ambiente e o setor de tecnologia. A maioria dos jornais usa paywall com limite de leitura, enquanto a radiodifusão pública continua gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Canadá?",
+          "a": "Os principais veículos nacionais do diretório incluem CBC News, The Globe and Mail, National Post, Toronto Star e The Canadian Press. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias canadenses são gratuitos?",
+          "a": "Entre os veículos gratuitos estão CBC News, The Canadian Press, CTV News, Global News e Radio-Canada. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos canadenses são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão CBC News e Radio-Canada. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do Canadá?",
+          "a": "A cobertura regional do diretório vem do Toronto Star (Ontário), La Presse (Quebec), Vancouver Sun (Colúmbia Britânica), Calgary Herald (Alberta) e Winnipeg Free Press (Manitoba). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos que a maioria dos canadenses usa para acompanhar as notícias nacionais, da emissora pública nos dois idiomas oficiais aos jornais nacionais e à agência The Canadian Press. O tipo de paywall e a propriedade aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios canadense cobre bancos, energia, mineração e um setor de tecnologia em crescimento. Os veículos abaixo incluem cadernos de economia nacionais, um canal de TV de negócios e redações por assinatura dedicadas à economia da inovação."
+        },
+        "sports": {
+          "intro": "A mídia esportiva no Canadá é dominada pelo hóquei, com redes nacionais em inglês e francês que também cobrem a CFL, basquete, beisebol e eventos internacionais. Os veículos abaixo estão em ordem de relevância editorial."
         }
       },
       "reviewed": true,

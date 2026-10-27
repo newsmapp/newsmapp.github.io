@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster's news service with UK, world and live coverage, free in the UK."
+      "en": "Public broadcaster's news service with UK, world and live coverage, free in the UK.",
+      "pt": "Serviço de notícias da emissora pública, com cobertura britânica, mundial e ao vivo, gratuito no Reino Unido."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Trust-owned national daily, free to read online, with strong environment and investigative work."
+      "en": "Trust-owned national daily, free to read online, with strong environment and investigative work.",
+      "pt": "Diário nacional controlado por um trust, gratuito na internet, forte em meio ambiente e investigações."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily of record covering politics, business and culture, behind a paywall."
+      "en": "National daily of record covering politics, business and culture, behind a paywall.",
+      "pt": "Diário nacional de referência com política, negócios e cultura, atrás de um paywall."
     },
     "about": {},
     "sources": [],
@@ -154,7 +157,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Global business daily known for markets, economics and international affairs."
+      "en": "Global business daily known for markets, economics and international affairs.",
+      "pt": "Diário de negócios global conhecido pela cobertura de mercados, economia e assuntos internacionais."
     },
     "about": {},
     "sources": [],
@@ -195,7 +199,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "London national daily with politics, business, sport and opinion."
+      "en": "London national daily with politics, business, sport and opinion.",
+      "pt": "Diário nacional de Londres com política, negócios, esportes e opinião."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital-only national news site with UK and world news, free to read."
+      "en": "Digital-only national news site with UK and world news, free to read.",
+      "pt": "Site nacional só digital com notícias do Reino Unido e do mundo, gratuito."
     },
     "about": {},
     "sources": [],
@@ -275,7 +281,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Global news agency with fast, sourced reporting on markets, politics and world events."
+      "en": "Global news agency with fast, sourced reporting on markets, politics and world events.",
+      "pt": "Agência de notícias global com cobertura rápida e apurada de mercados, política e eventos mundiais."
     },
     "about": {},
     "sources": [],
@@ -316,7 +323,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour news channel and site with UK breaking news and live coverage."
+      "en": "24-hour news channel and site with UK breaking news and live coverage.",
+      "pt": "Canal e site de notícias 24 horas com notícias de última hora e cobertura ao vivo do Reino Unido."
     },
     "about": {},
     "sources": [],
@@ -355,7 +363,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "National and regional television news from the ITV network, with evening bulletins."
+      "en": "National and regional television news from the ITV network, with evening bulletins.",
+      "pt": "Telejornalismo nacional e regional da rede ITV, com noticiários à noite."
     },
     "about": {},
     "sources": [],
@@ -396,7 +405,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Publicly owned channel's evening news, known for long interviews and investigations."
+      "en": "Publicly owned channel's evening news, known for long interviews and investigations.",
+      "pt": "Telejornal noturno do canal público, conhecido pelas entrevistas longas e investigações."
     },
     "about": {},
     "sources": [],
@@ -437,7 +447,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "London talk radio station with national phone-ins, interviews and political debate."
+      "en": "London talk radio station with national phone-ins, interviews and political debate.",
+      "pt": "Rádio de debates de Londres com participação de ouvintes, entrevistas e debate político."
     },
     "about": {},
     "sources": [],
@@ -476,7 +487,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Westminster news site covering Parliament, government and party politics."
+      "en": "Westminster news site covering Parliament, government and party politics.",
+      "pt": "Site de notícias de Westminster que cobre o Parlamento, o governo e os partidos."
     },
     "about": {},
     "sources": [],
@@ -515,7 +527,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly magazine of politics and culture, one of the oldest in continuous publication."
+      "en": "Weekly magazine of politics and culture, one of the oldest in continuous publication.",
+      "pt": "Revista semanal de política e cultura, uma das mais antigas em publicação contínua."
     },
     "about": {},
     "sources": [],
@@ -554,7 +567,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly politics and culture magazine with Westminster analysis and essays."
+      "en": "Weekly politics and culture magazine with Westminster analysis and essays.",
+      "pt": "Revista semanal de política e cultura com análises de Westminster e ensaios."
     },
     "about": {},
     "sources": [],
@@ -595,7 +609,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly on international politics, business and economics with a global readership."
+      "en": "Weekly on international politics, business and economics with a global readership.",
+      "pt": "Semanário de política internacional, negócios e economia com leitores no mundo todo."
     },
     "about": {},
     "sources": [],
@@ -634,7 +649,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Free London business newspaper covering the City, markets and financial services."
+      "en": "Free London business newspaper covering the City, markets and financial services.",
+      "pt": "Jornal de negócios gratuito de Londres que cobre a City, os mercados e os serviços financeiros."
     },
     "about": {},
     "sources": [],
@@ -673,7 +689,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Personal finance site covering savings, mortgages, pensions and investing."
+      "en": "Personal finance site covering savings, mortgages, pensions and investing.",
+      "pt": "Site de finanças pessoais sobre poupança, financiamento imobiliário, aposentadoria e investimentos."
     },
     "about": {},
     "sources": [],
@@ -712,7 +729,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit newsroom producing public-interest investigations with partner outlets."
+      "en": "Nonprofit newsroom producing public-interest investigations with partner outlets.",
+      "pt": "Redação sem fins lucrativos que produz investigações de interesse público com veículos parceiros."
     },
     "about": {},
     "sources": [],
@@ -751,7 +769,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent fact-checking charity checking claims by politicians, media and online."
+      "en": "Independent fact-checking charity checking claims by politicians, media and online.",
+      "pt": "Organização independente de checagem que verifica afirmações de políticos, da mídia e da internet."
     },
     "about": {},
     "sources": [],
@@ -792,7 +811,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Satirical fortnightly with a long record of investigative reporting on the powerful."
+      "en": "Satirical fortnightly with a long record of investigative reporting on the powerful.",
+      "pt": "Quinzenário satírico com longo histórico de reportagem investigativa sobre os poderosos."
     },
     "about": {},
     "sources": [],
@@ -831,7 +851,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent platform for investigations into dark money, democracy and human rights."
+      "en": "Independent platform for investigations into dark money, democracy and human rights.",
+      "pt": "Plataforma independente de investigações sobre dinheiro oculto, democracia e direitos humanos."
     },
     "about": {},
     "sources": [],
@@ -870,7 +891,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Live scores, reports and commentary on football, cricket, rugby and more."
+      "en": "Live scores, reports and commentary on football, cricket, rugby and more.",
+      "pt": "Placares ao vivo, reportagens e comentários sobre futebol, críquete, rúgbi e mais."
     },
     "about": {},
     "sources": [],
@@ -911,7 +933,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports broadcaster with Premier League, cricket, F1 and golf coverage."
+      "en": "Sports broadcaster with Premier League, cricket, F1 and golf coverage.",
+      "pt": "Emissora esportiva com Premier League, críquete, F1 e golfe."
     },
     "about": {},
     "sources": [],
@@ -950,7 +973,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "UK edition of The Athletic with club-by-club football reporting."
+      "en": "UK edition of The Athletic with club-by-club football reporting.",
+      "pt": "Edição britânica do The Athletic, com cobertura de futebol clube a clube."
     },
     "about": {},
     "sources": [],
@@ -991,7 +1015,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports radio station and site with football news, phone-ins and commentary."
+      "en": "Sports radio station and site with football news, phone-ins and commentary.",
+      "pt": "Rádio e site esportivo com notícias de futebol, participação de ouvintes e comentários."
     },
     "about": {},
     "sources": [],
@@ -1030,7 +1055,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Weekly science magazine covering research, technology and the environment."
+      "en": "Weekly science magazine covering research, technology and the environment.",
+      "pt": "Revista semanal de ciência sobre pesquisa, tecnologia e meio ambiente."
     },
     "about": {},
     "sources": [],
@@ -1069,7 +1095,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Irreverent technology news site focused on enterprise IT, security and the industry."
+      "en": "Irreverent technology news site focused on enterprise IT, security and the industry.",
+      "pt": "Site irreverente de tecnologia focado em TI corporativa, segurança e no setor."
     },
     "about": {},
     "sources": [],
@@ -1108,7 +1135,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Manchester daily covering the city, Greater Manchester and its football clubs."
+      "en": "Manchester daily covering the city, Greater Manchester and its football clubs.",
+      "pt": "Diário de Manchester que cobre a cidade, a Grande Manchester e seus clubes de futebol."
     },
     "about": {},
     "sources": [],
@@ -1147,7 +1175,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Edinburgh daily covering Scottish politics, business and culture."
+      "en": "Edinburgh daily covering Scottish politics, business and culture.",
+      "pt": "Diário de Edimburgo que cobre a política, os negócios e a cultura da Escócia."
     },
     "about": {},
     "sources": [],
@@ -1186,7 +1215,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Glasgow daily, one of the oldest English-language newspapers still published."
+      "en": "Glasgow daily, one of the oldest English-language newspapers still published.",
+      "pt": "Diário de Glasgow, um dos jornais em língua inglesa mais antigos ainda publicados."
     },
     "about": {},
     "sources": [],
@@ -1225,7 +1255,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Belfast daily covering Northern Ireland politics, business and communities."
+      "en": "Belfast daily covering Northern Ireland politics, business and communities.",
+      "pt": "Diário de Belfast que cobre a política, os negócios e as comunidades da Irlanda do Norte."
     },
     "about": {},
     "sources": [],
@@ -1264,7 +1295,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Wales' largest news site, covering Cardiff, the Senedd and communities across Wales."
+      "en": "Wales' largest news site, covering Cardiff, the Senedd and communities across Wales.",
+      "pt": "Maior site de notícias do País de Gales, com Cardiff, o Senedd e comunidades de todo o país."
     },
     "about": {},
     "sources": [],

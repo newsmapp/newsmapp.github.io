@@ -3,7 +3,8 @@
   "iso3": "DEU",
   "slug": "germany",
   "name": {
-    "en": "Germany"
+    "en": "Germany",
+    "pt": "Alemanha"
   },
   "continent": "europe",
   "also_in": [],
@@ -61,6 +62,43 @@
         },
         "regional": {
           "intro": "Germany's regional newspapers are central to local news. The titles below cover Berlin, Hamburg, Cologne, Stuttgart and Leipzig and their surrounding regions."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Alemanha tem um cenário de notícias denso, apoiado num sistema forte de radiodifusão pública e numa grande imprensa regional. ARD, ZDF e Deutschlandradio são financiadas por uma taxa paga pelos domicílios e produzem noticiários nacionais como o Tagesschau. Entre os jornais nacionais de qualidade estão o Süddeutsche Zeitung, o Frankfurter Allgemeine Zeitung, o Die Zeit e o Die Welt, e a revista semanal Der Spiegel é conhecida pelo jornalismo investigativo. O país também tem um dos maiores mercados de jornais regionais da Europa, embora a propriedade tenha se concentrado em poucos grupos editoriais. Redações sem fins lucrativos e publicações sobre direitos digitais acrescentam reportagem investigativa e sobre políticas públicas. A maioria das editoras usa o modelo freemium, mantendo parte do jornalismo gratuita e as reportagens aprofundadas para assinantes. Os conselhos de imprensa cuidam da autorregulação por meio do Código de Imprensa alemão.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Alemanha?",
+          "a": "Os principais veículos nacionais do diretório incluem Tagesschau, Der Spiegel, Süddeutsche Zeitung, Frankfurter Allgemeine Zeitung e Die Zeit. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias alemães são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Tagesschau, ZDFheute, Deutschlandfunk, Deutsche Welle e taz. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos alemães são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão Tagesschau, ZDFheute, Deutschlandfunk e Deutsche Welle. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Alemanha?",
+          "a": "A cobertura regional do diretório vem do Der Tagesspiegel (Berlim), Hamburger Abendblatt (Hamburgo), Kölner Stadt-Anzeiger (Renânia do Norte-Vestfália), Stuttgarter Zeitung (Baden-Württemberg) e Leipziger Volkszeitung (Saxônia). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Alemanha vêm das emissoras públicas e de um grupo de jornais e revistas de qualidade sediados em Hamburgo, Munique, Frankfurt e Berlim. Cada veículo abaixo mostra o modelo de paywall e o dono."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios alemão acompanha a base industrial do país, seus exportadores e a economia da zona do euro. Os veículos abaixo incluem um diário econômico de referência, revistas semanais de negócios e títulos de finanças pessoais."
+        },
+        "sports": {
+          "intro": "O futebol e a Bundesliga dominam a mídia esportiva alemã, ao lado do automobilismo, dos esportes de inverno e das modalidades olímpicas. Os veículos vão de uma revista de futebol tradicional a emissoras públicas e privadas."
+        },
+        "regional": {
+          "intro": "Os jornais regionais da Alemanha são centrais para as notícias locais. Os títulos abaixo cobrem Berlim, Hamburgo, Colônia, Stuttgart e Leipzig e suas regiões."
         }
       },
       "reviewed": true,

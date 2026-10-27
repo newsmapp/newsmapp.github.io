@@ -3,7 +3,8 @@
   "iso3": "SAU",
   "slug": "saudi-arabia",
   "name": {
-    "en": "Saudi Arabia"
+    "en": "Saudi Arabia",
+    "pt": "Arábia Saudita"
   },
   "continent": "asia",
   "also_in": [],
@@ -54,6 +55,37 @@
         },
         "economy": {
           "intro": "Business journalism in Saudi Arabia follows the Tadawul stock exchange, oil, and economic reform programs through financial portals, a business daily and a business news channel."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A mídia de notícias da Arábia Saudita opera sob estreita supervisão do governo. A Saudi Press Agency é a fonte oficial de decretos reais e anúncios do governo, e a autoridade estatal de radiodifusão mantém a televisão nacional e o canal de notícias Al Ekhbariya. Os jornais diários são publicados por estabelecimentos de imprensa licenciados, e o Saudi Research and Media Group publica vários títulos, entre eles o Asharq Al-Awsat e o Arab News, em inglês. O canal pan-árabe Al Arabiya faz parte do MBC Group, de capital saudita. A cobertura de negócios cresceu com as reformas econômicas, a expansão da bolsa e os grandes projetos de investimento público. Jornais regionais atendem o Hejaz e a Província Oriental. Os índices internacionais de liberdade de imprensa classificam a Arábia Saudita entre os ambientes mais restritivos para o jornalismo, e a reportagem investigativa independente é muito limitada.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Arábia Saudita?",
+          "a": "Os principais veículos nacionais do diretório incluem Saudi Press Agency, Al Riyadh, Okaz, Al Watan e Al Jazirah. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias sauditas são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Saudi Press Agency, Al Riyadh, Okaz, Al Watan e Al Jazirah. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos sauditas são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos controlados pelo Estado estão a Saudi Press Agency e a Al Ekhbariya. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Arábia Saudita?",
+          "a": "A cobertura regional do diretório vem do Al Riyadh (Riad), Al Madina (Hejaz), Al Yaum (Província Oriental) e Al Bilad (Província de Meca). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Arábia Saudita vêm da agência oficial de notícias, de jornais diários publicados por estabelecimentos de imprensa licenciados e de títulos em inglês. A propriedade de cada veículo aparece indicada."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios na Arábia Saudita acompanha a bolsa Tadawul, o petróleo e os programas de reforma econômica por meio de portais financeiros, um diário econômico e um canal de notícias de negócios."
         }
       },
       "reviewed": true,

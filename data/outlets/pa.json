@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Panama City daily known for investigations into corruption, with politics and the economy."
+      "en": "Panama City daily known for investigations into corruption, with politics and the economy.",
+      "pt": "Diário da Cidade do Panamá conhecido por investigações sobre corrupção, com política e economia."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Daily founded in 1849, one of the oldest newspapers in the Americas."
+      "en": "Daily founded in 1849, one of the oldest newspapers in the Americas.",
+      "pt": "Diário fundado em 1849, um dos jornais mais antigos das Américas."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Panama City daily founded in 1925, with national news, politics and opinion."
+      "en": "Panama City daily founded in 1925, with national news, politics and opinion.",
+      "pt": "Diário da Cidade do Panamá fundado em 1925, com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular daily with national news, crime and community stories."
+      "en": "Popular daily with national news, crime and community stories.",
+      "pt": "Diário popular com notícias nacionais, crime e histórias da comunidade."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular daily from Corporación La Prensa with local news, sports and entertainment."
+      "en": "Popular daily from Corporación La Prensa with local news, sports and entertainment.",
+      "pt": "Diário popular da Corporación La Prensa com notícias locais, esportes e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site covering Panama's politics, business and community news."
+      "en": "English-language news site covering Panama's politics, business and community news.",
+      "pt": "Site de notícias em inglês que cobre a política, os negócios e as comunidades do Panamá."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital outlet with investigations into politics, public contracts and corruption."
+      "en": "Digital outlet with investigations into politics, public contracts and corruption.",
+      "pt": "Veículo digital com investigações sobre política, contratos públicos e corrupção."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business newspaper covering banking, the canal, trade and companies."
+      "en": "Business newspaper covering banking, the canal, trade and companies.",
+      "pt": "Jornal de negócios que cobre bancos, o canal, o comércio e as empresas."
     },
     "about": {},
     "sources": [],
@@ -347,7 +355,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News service of TVN with national newscasts and live coverage."
+      "en": "News service of TVN with national newscasts and live coverage.",
+      "pt": "Serviço de notícias da TVN, com telejornais nacionais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -388,7 +397,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television channel with national newscasts, sports and live coverage."
+      "en": "Television channel with national newscasts, sports and live coverage.",
+      "pt": "Canal de televisão com telejornais nacionais, esportes e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -427,7 +437,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news channel with interviews, politics and current affairs."
+      "en": "Television news channel with interviews, politics and current affairs.",
+      "pt": "Canal de notícias na televisão com entrevistas, política e atualidades."
     },
     "about": {},
     "sources": [],
@@ -466,7 +477,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News radio station with national bulletins, interviews and talk shows."
+      "en": "News radio station with national bulletins, interviews and talk shows.",
+      "pt": "Rádio de notícias com boletins nacionais, entrevistas e programas de debate."
     },
     "about": {},
     "sources": [],

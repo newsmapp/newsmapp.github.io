@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Chennai-founded national daily known for sober political and policy coverage."
+      "en": "Chennai-founded national daily known for sober political and policy coverage.",
+      "pt": "Diário nacional fundado em Chennai, conhecido pela cobertura sóbria de política e políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -70,7 +71,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily known for investigative reporting and explainers."
+      "en": "National daily known for investigative reporting and explainers.",
+      "pt": "Diário nacional conhecido pela reportagem investigativa e pelos textos explicativos."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Largest English-language daily in India, with city editions across the country."
+      "en": "Largest English-language daily in India, with city editions across the country.",
+      "pt": "Maior diário em inglês da Índia, com edições de cidades em todo o país."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Delhi-based national daily with politics, cities and world news."
+      "en": "Delhi-based national daily with politics, cities and world news.",
+      "pt": "Diário nacional de Délhi com política, cidades e notícias do mundo."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "India's largest news agency, a nonprofit cooperative of Indian newspapers."
+      "en": "India's largest news agency, a nonprofit cooperative of Indian newspapers.",
+      "pt": "Maior agência de notícias da Índia, uma cooperativa sem fins lucrativos de jornais indianos."
     },
     "about": {},
     "sources": [],
@@ -230,7 +235,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Hindi daily with dozens of regional editions across north and central India."
+      "en": "Hindi daily with dozens of regional editions across north and central India.",
+      "pt": "Diário em hindi com dezenas de edições regionais no norte e no centro da Índia."
     },
     "about": {},
     "sources": [],
@@ -269,7 +275,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Hindi national daily with one of India's largest readerships."
+      "en": "Hindi national daily with one of India's largest readerships.",
+      "pt": "Diário nacional em hindi com um dos maiores públicos leitores da Índia."
     },
     "about": {},
     "sources": [],
@@ -308,7 +315,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital newsroom covering politics, governance and the bureaucracy."
+      "en": "Digital newsroom covering politics, governance and the bureaucracy.",
+      "pt": "Redação digital que cobre política, governança e a burocracia estatal."
     },
     "about": {},
     "sources": [],
@@ -349,7 +357,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit digital outlet covering politics, rights and the media."
+      "en": "Nonprofit digital outlet covering politics, rights and the media.",
+      "pt": "Veículo digital sem fins lucrativos que cobre política, direitos e a mídia."
     },
     "about": {},
     "sources": [],
@@ -390,7 +399,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with reporting, long-form features and culture."
+      "en": "Digital news site with reporting, long-form features and culture.",
+      "pt": "Site de notícias digital com reportagens, textos longos e cultura."
     },
     "about": {},
     "sources": [],
@@ -431,7 +441,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "English news broadcaster with national, world and live coverage."
+      "en": "English news broadcaster with national, world and live coverage.",
+      "pt": "Emissora de notícias em inglês com cobertura nacional, mundial e ao vivo."
     },
     "about": {},
     "sources": [],
@@ -470,7 +481,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Most-watched Hindi news channel with live bulletins and breaking news."
+      "en": "Most-watched Hindi news channel with live bulletins and breaking news.",
+      "pt": "Canal de notícias em hindi mais assistido, com boletins ao vivo e notícias de última hora."
     },
     "about": {},
     "sources": [],
@@ -511,7 +523,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public broadcaster's 24-hour news channel, part of Prasar Bharati."
+      "en": "Public broadcaster's 24-hour news channel, part of Prasar Bharati.",
+      "pt": "Canal de notícias 24 horas da emissora pública, parte da Prasar Bharati."
     },
     "about": {},
     "sources": [],
@@ -552,7 +565,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "News magazine and TV channel with politics, current affairs and data stories."
+      "en": "News magazine and TV channel with politics, current affairs and data stories.",
+      "pt": "Revista de notícias e canal de TV com política, atualidades e reportagens com dados."
     },
     "about": {},
     "sources": [],
@@ -591,7 +605,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "India's largest business daily, covering markets, companies and policy."
+      "en": "India's largest business daily, covering markets, companies and policy.",
+      "pt": "Maior diário de negócios da Índia, com mercados, empresas e políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -630,7 +645,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily with markets, personal finance and economic policy."
+      "en": "Business daily with markets, personal finance and economic policy.",
+      "pt": "Diário de negócios com mercados, finanças pessoais e política econômica."
     },
     "about": {},
     "sources": [],
@@ -669,7 +685,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily known for economic policy and corporate reporting."
+      "en": "Business daily known for economic policy and corporate reporting.",
+      "pt": "Diário de negócios conhecido pela cobertura de política econômica e de empresas."
     },
     "about": {},
     "sources": [],
@@ -708,7 +725,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Markets portal with stock data, investing news and personal finance."
+      "en": "Markets portal with stock data, investing news and personal finance.",
+      "pt": "Portal de mercados com dados de ações, notícias de investimentos e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -747,7 +765,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit fact-checking site debunking misinformation in Indian media."
+      "en": "Nonprofit fact-checking site debunking misinformation in Indian media.",
+      "pt": "Site de checagem sem fins lucrativos que desmente a desinformação na mídia indiana."
     },
     "about": {},
     "sources": [],
@@ -786,7 +805,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking newsroom verifying viral claims in English, Hindi and Bangla."
+      "en": "Fact-checking newsroom verifying viral claims in English, Hindi and Bangla.",
+      "pt": "Redação de checagem que verifica alegações virais em inglês, hindi e bengali."
     },
     "about": {},
     "sources": [],
@@ -827,7 +847,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Monthly magazine of long-form narrative and investigative journalism."
+      "en": "Monthly magazine of long-form narrative and investigative journalism.",
+      "pt": "Revista mensal de jornalismo narrativo e investigativo de fôlego."
     },
     "about": {},
     "sources": [],
@@ -866,7 +887,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Collective of journalists publishing investigations on governance and power."
+      "en": "Collective of journalists publishing investigations on governance and power.",
+      "pt": "Coletivo de jornalistas que publica investigações sobre governança e poder."
     },
     "about": {},
     "sources": [],
@@ -905,7 +927,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "The world's leading cricket site with live scores, stats and analysis."
+      "en": "The world's leading cricket site with live scores, stats and analysis.",
+      "pt": "Principal site de críquete do mundo, com placares ao vivo, estatísticas e análises."
     },
     "about": {},
     "sources": [],
@@ -944,7 +967,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports magazine with cricket, football, tennis and Olympic coverage."
+      "en": "Sports magazine with cricket, football, tennis and Olympic coverage.",
+      "pt": "Revista esportiva com críquete, futebol, tênis e esportes olímpicos."
     },
     "about": {},
     "sources": [],
@@ -983,7 +1007,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Cricket scores, ball-by-ball commentary and news, one of India's most-used cricket apps."
+      "en": "Cricket scores, ball-by-ball commentary and news, one of India's most-used cricket apps.",
+      "pt": "Placares, narração lance a lance e notícias de críquete, um dos apps mais usados na Índia."
     },
     "about": {},
     "sources": [],
@@ -1022,7 +1047,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Consumer technology news, smartphone reviews and price guides for the Indian market."
+      "en": "Consumer technology news, smartphone reviews and price guides for the Indian market.",
+      "pt": "Notícias de tecnologia de consumo, análises de smartphones e guias de preços para o mercado indiano."
     },
     "about": {},
     "sources": [],
@@ -1063,7 +1089,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Science and environment magazine from the Centre for Science and Environment."
+      "en": "Science and environment magazine from the Centre for Science and Environment.",
+      "pt": "Revista de ciência e meio ambiente do Centre for Science and Environment."
     },
     "about": {},
     "sources": [],
@@ -1104,7 +1131,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Subscription publication with one deep story a day on business and technology."
+      "en": "Subscription publication with one deep story a day on business and technology.",
+      "pt": "Publicação por assinatura com uma reportagem aprofundada por dia sobre negócios e tecnologia."
     },
     "about": {},
     "sources": [],
@@ -1143,7 +1171,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Malayalam daily and the most-read newspaper in Kerala, with editions across the state."
+      "en": "Malayalam daily and the most-read newspaper in Kerala, with editions across the state.",
+      "pt": "Diário em malaiala e jornal mais lido de Kerala, com edições em todo o estado."
     },
     "about": {},
     "sources": [],
@@ -1182,7 +1211,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Kolkata-based Bengali daily with the largest readership in West Bengal."
+      "en": "Kolkata-based Bengali daily with the largest readership in West Bengal.",
+      "pt": "Diário em bengali de Calcutá, com o maior público leitor de Bengala Ocidental."
     },
     "about": {},
     "sources": [],
@@ -1221,7 +1251,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Telugu daily covering Andhra Pradesh and Telangana, with district editions."
+      "en": "Telugu daily covering Andhra Pradesh and Telangana, with district editions.",
+      "pt": "Diário em telugo que cobre Andhra Pradesh e Telangana, com edições distritais."
     },
     "about": {},
     "sources": [],
@@ -1260,7 +1291,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Tamil daily with the largest circulation in Tamil Nadu and editions across the state."
+      "en": "Tamil daily with the largest circulation in Tamil Nadu and editions across the state.",
+      "pt": "Diário em tâmil com a maior circulação de Tamil Nadu e edições em todo o estado."
     },
     "about": {},
     "sources": [],
@@ -1299,7 +1331,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Marathi daily with editions across Maharashtra, covering state politics and local news."
+      "en": "Marathi daily with editions across Maharashtra, covering state politics and local news.",
+      "pt": "Diário em marata com edições em todo o Maharashtra, cobrindo a política estadual e notícias locais."
     },
     "about": {},
     "sources": [],

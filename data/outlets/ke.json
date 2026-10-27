@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Kenya's largest daily, with national politics, counties and investigations."
+      "en": "Kenya's largest daily, with national politics, counties and investigations.",
+      "pt": "Maior diário do Quênia, com política nacional, condados e investigações."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Nairobi daily founded in 1902, with national news, politics and opinion."
+      "en": "Nairobi daily founded in 1902, with national news, politics and opinion.",
+      "pt": "Diário de Nairóbi fundado em 1902, com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -107,7 +109,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Nairobi daily with national news, politics and county coverage."
+      "en": "Nairobi daily with national news, politics and county coverage.",
+      "pt": "Diário de Nairóbi com notícias nacionais, política e cobertura dos condados."
     },
     "about": {},
     "sources": [],
@@ -146,7 +149,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national news, politics and public services in Kenya."
+      "en": "Digital news site with national news, politics and public services in Kenya.",
+      "pt": "Site de notícias digital com notícias nacionais, política e serviços públicos do Quênia."
     },
     "about": {},
     "sources": [],
@@ -185,7 +189,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Swahili-language daily of Nation Media Group, with national and regional news."
+      "en": "Swahili-language daily of Nation Media Group, with national and regional news.",
+      "pt": "Diário em suaíli do Nation Media Group, com notícias nacionais e regionais."
     },
     "about": {},
     "sources": [],
@@ -226,7 +231,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital platform publishing long-form analysis of politics and society in East Africa."
+      "en": "Digital platform publishing long-form analysis of politics and society in East Africa.",
+      "pt": "Plataforma digital com análises longas sobre política e sociedade na África Oriental."
     },
     "about": {},
     "sources": [],
@@ -265,7 +271,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Investigative media house producing video and written investigations in Kenya."
+      "en": "Investigative media house producing video and written investigations in Kenya.",
+      "pt": "Produtora investigativa que faz investigações em vídeo e texto no Quênia."
     },
     "about": {},
     "sources": [],
@@ -304,7 +311,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, companies and economic policy in Kenya."
+      "en": "Business daily covering markets, companies and economic policy in Kenya.",
+      "pt": "Diário de negócios que cobre mercados, empresas e política econômica no Quênia."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper covering politics and business across the East African region."
+      "en": "Weekly newspaper covering politics and business across the East African region.",
+      "pt": "Semanário que cobre a política e os negócios de toda a região da África Oriental."
     },
     "about": {},
     "sources": [],
@@ -384,7 +393,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial news site covering the Nairobi Securities Exchange, banking and startups."
+      "en": "Financial news site covering the Nairobi Securities Exchange, banking and startups.",
+      "pt": "Site de notícias financeiras sobre a Bolsa de Nairóbi, os bancos e as startups."
     },
     "about": {},
     "sources": [],
@@ -423,7 +433,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering Kenyan startups, telecoms and mobile money."
+      "en": "Technology news site covering Kenyan startups, telecoms and mobile money.",
+      "pt": "Site de tecnologia que cobre startups quenianas, telecomunicações e dinheiro móvel."
     },
     "about": {},
     "sources": [],
@@ -464,7 +475,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News site of Citizen TV and Radio Citizen, Kenya's most watched news network."
+      "en": "News site of Citizen TV and Radio Citizen, Kenya's most watched news network.",
+      "pt": "Site de notícias da Citizen TV e da Radio Citizen, a rede de notícias mais assistida do Quênia."
     },
     "about": {},
     "sources": [],
@@ -503,7 +515,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television station of Nation Media Group with national newscasts and talk shows."
+      "en": "Television station of Nation Media Group with national newscasts and talk shows.",
+      "pt": "Emissora de televisão do Nation Media Group com telejornais nacionais e programas de debate."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public broadcaster with television and radio news in English and Swahili."
+      "en": "Public broadcaster with television and radio news in English and Swahili.",
+      "pt": "Emissora pública com notícias na televisão e no rádio em inglês e suaíli."
     },
     "about": {},
     "sources": [],
@@ -583,7 +597,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Nairobi radio station with a national news site covering politics and business."
+      "en": "Nairobi radio station with a national news site covering politics and business.",
+      "pt": "Rádio de Nairóbi com um site de notícias nacional que cobre política e negócios."
     },
     "about": {},
     "sources": [],

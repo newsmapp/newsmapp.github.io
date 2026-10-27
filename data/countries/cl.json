@@ -3,7 +3,8 @@
   "iso3": "CHL",
   "slug": "chile",
   "name": {
-    "en": "Chile"
+    "en": "Chile",
+    "pt": "Chile"
   },
   "continent": "south-america",
   "also_in": [],
@@ -51,6 +52,39 @@
         },
         "regional": {
           "intro": "Beyond Santiago, regional dailies cover their regions in depth. The outlets below serve Valparaíso, Biobío and La Araucanía."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado impresso do Chile está dividido há muito tempo entre dois grupos, El Mercurio e Copesa, editora do La Tercera, enquanto rádios como Bío-Bío e Cooperativa estão entre as fontes de notícias mais confiáveis. O telejornalismo vem da emissora pública TVN e de canais privados como o Canal 13. Veículos nativos digitais e sem fins lucrativos, liderados pelo CIPER, são conhecidos pela reportagem investigativa sobre negócios e política. Diários regionais cobrem Valparaíso, Concepción e o sul. O Emol, site de notícias do El Mercurio, é gratuito; La Tercera e Diario Financiero usam paywall.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Chile?",
+          "a": "Os principais veículos nacionais do diretório incluem El Mercurio, La Tercera, BioBioChile e Cooperativa. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos chilenos têm financiamento público?",
+          "a": "O 24 Horas é o serviço de notícias da TVN, a emissora pública do Chile. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do Chile?",
+          "a": "A cobertura regional do diretório vem do El Mercurio de Valparaíso, El Sur (Biobío) e El Austral (Araucanía). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Chile combinam dois grupos de jornais tradicionais com rádios cujos sites estão entre os mais lidos do país."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo no Chile é liderado por redações sem fins lucrativos e digitais que reportam sobre negócios, política e instituições públicas. Estes são os veículos conhecidos por esse trabalho."
+        },
+        "broadcast": {
+          "intro": "Rádio e televisão são centrais para as notícias no Chile. As emissoras e os canais abaixo publicam seus noticiários e a cobertura ao vivo na internet."
+        },
+        "regional": {
+          "intro": "Fora de Santiago, os diários regionais cobrem suas regiões em profundidade. Os veículos abaixo atendem Valparaíso, Biobío e La Araucanía."
         }
       },
       "reviewed": true,

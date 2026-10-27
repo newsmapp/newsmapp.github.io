@@ -3,7 +3,8 @@
   "iso3": "RUS",
   "slug": "russia",
   "name": {
-    "en": "Russia"
+    "en": "Russia",
+    "pt": "Rússia"
   },
   "continent": "europe",
   "also_in": [
@@ -71,6 +72,46 @@
         },
         "regional": {
           "intro": "Regional news sites cover Saint Petersburg, the Urals, Siberia and Tatarstan."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado interno de notícias da Rússia é dominado pela mídia controlada pelo Estado. Os canais federais de televisão, as agências TASS e RIA Novosti e o jornal oficial do governo alcançam os maiores públicos, enquanto grandes veículos privados operam sob fortes restrições legais e políticas. Desde 2022, leis sobre informações militares e a classificação de veículos como agentes estrangeiros ou organizações indesejáveis levaram muitas redações independentes a fechar ou a se mudar para o exterior, de onde continuam publicando em russo, como Meduza, Novaya Gazeta Europe e vários projetos investigativos. O acesso a muitos sites estrangeiros e independentes é bloqueado dentro da Rússia. Jornais e agências de negócios continuam cobrindo mercados e empresas. Os índices internacionais de liberdade de imprensa classificam a Rússia entre os ambientes mais restritivos para o jornalismo. Esta página lista veículos internos e no exílio, com a propriedade claramente indicada.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Rússia?",
+          "a": "Os principais veículos nacionais do diretório incluem TASS, RIA Novosti, Interfax, Kommersant e RBC. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias russos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão TASS, RIA Novosti, Interfax, Forbes Russia e Izvestia. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos russos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos controlados pelo Estado estão TASS, RIA Novosti, Rossiyskaya Gazeta e Channel One. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Rússia?",
+          "a": "A cobertura regional do diretório vem do Fontanka (São Petersburgo), Ura.ru (região dos Urais), NGS (Novosibirsk) e Business Online (Tartaristão). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Esta lista inclui as principais agências e jornais internos da Rússia, a maioria controlada pelo Estado ou sujeita a limites legais rígidos, ao lado de veículos independentes em russo que hoje publicam do exterior. A propriedade de cada veículo aparece indicada."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios russo é feito por jornais privados de negócios, uma agência de notícias e grupos de mídia econômica que cobrem mercados, energia e sanções."
+        },
+        "sports": {
+          "intro": "A mídia esportiva russa cobre futebol, hóquei e esportes de inverno por meio de diários esportivos, portais on-line e um canal esportivo federal."
+        },
+        "investigative": {
+          "intro": "A maior parte do jornalismo investigativo independente em russo é hoje produzida por redações sediadas fora da Rússia. Esses veículos se concentram em corrupção, nos serviços de segurança e na guerra."
+        },
+        "regional": {
+          "intro": "Sites de notícias regionais cobrem São Petersburgo, os Urais, a Sibéria e o Tartaristão."
         }
       },
       "reviewed": true,

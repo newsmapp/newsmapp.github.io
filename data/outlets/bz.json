@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Belize City newspaper founded in 1969, with national news, politics and opinion."
+      "en": "Belize City newspaper founded in 1969, with national news, politics and opinion.",
+      "pt": "Jornal da Cidade de Belize fundado em 1969, com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with daily national news, crime and community stories."
+      "en": "Digital news site with daily national news, crime and community stories.",
+      "pt": "Site de notícias digital com notícias nacionais, crime e histórias da comunidade todos os dias."
     },
     "about": {},
     "sources": [],
@@ -105,7 +107,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper of the People's United Party, with political news and opinion."
+      "en": "Weekly newspaper of the People's United Party, with political news and opinion.",
+      "pt": "Semanário do People's United Party, com notícias políticas e opinião."
     },
     "about": {},
     "sources": [],
@@ -144,7 +147,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper of the United Democratic Party, with political news and opinion."
+      "en": "Weekly newspaper of the United Democratic Party, with political news and opinion.",
+      "pt": "Semanário do United Democratic Party, com notícias políticas e opinião."
     },
     "about": {},
     "sources": [],
@@ -183,7 +187,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television station publishing the full transcript of its evening newscast."
+      "en": "Television station publishing the full transcript of its evening newscast.",
+      "pt": "Emissora de TV que publica a transcrição completa do seu telejornal noturno."
     },
     "about": {},
     "sources": [],
@@ -222,7 +227,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Radio and television group with national news bulletins and talk shows."
+      "en": "Radio and television group with national news bulletins and talk shows.",
+      "pt": "Grupo de rádio e televisão com boletins de notícias nacionais e programas de debate."
     },
     "about": {},
     "sources": [],
@@ -261,7 +267,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper covering San Pedro and Ambergris Caye, including tourism news."
+      "en": "Weekly newspaper covering San Pedro and Ambergris Caye, including tourism news.",
+      "pt": "Semanário que cobre San Pedro e Ambergris Caye, incluindo notícias de turismo."
     },
     "about": {},
     "sources": [],

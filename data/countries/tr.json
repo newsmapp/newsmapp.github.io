@@ -3,7 +3,8 @@
   "iso3": "TUR",
   "slug": "turkiye",
   "name": {
-    "en": "Türkiye"
+    "en": "Türkiye",
+    "pt": "Turquia"
   },
   "continent": "asia",
   "also_in": [
@@ -63,6 +64,43 @@
         },
         "broadcast": {
           "intro": "Broadcast news in Türkiye includes the state broadcaster's news channel and private news channels owned by large holdings and independent companies."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Turquia tem um grande mercado de notícias no qual a propriedade da mídia tradicional se concentrou em grupos empresariais próximos do governo. A Agência Anadolu e a emissora pública TRT são estatais, e a maioria dos jornais e canais de notícias de maior audiência pertence a poucas holdings. Um grupo menor de jornais, canais de notícias e veículos digitais oferece cobertura crítica ou independente, e vários enfrentaram pressão judicial, multas ou proibições de transmissão do regulador RTÜK. Jornalistas foram processados com base em leis antiterrorismo e de desinformação. Veículos digitais independentes e plataformas de checagem cresceram à medida que o público procura fontes alternativas. O jornalismo de negócios e finanças acompanha de perto a inflação, a lira e os mercados. Os índices internacionais de liberdade de imprensa classificam a Turquia entre os ambientes mais restritivos para o jornalismo.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Turquia?",
+          "a": "Os principais veículos nacionais do diretório incluem Agência Anadolu, Hürriyet, Sabah, Milliyet e Sözcü. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias turcos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Agência Anadolu, Hürriyet, Sabah, Milliyet e Sözcü. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos turcos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a Bilim ve Teknik. Entre os controlados pelo Estado estão a Agência Anadolu e a TRT Haber. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Turquia?",
+          "a": "A cobertura regional do diretório vem do Yeni Asır (Esmirna). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Turquia vêm da agência estatal, de diários de grande circulação controlados por grandes holdings e de um jornal controlado por uma fundação. A propriedade de cada veículo aparece indicada."
+        },
+        "politics": {
+          "intro": "A cobertura política na Turquia vai da mídia estatal e dos diários pró-governo a veículos digitais independentes e jornais que cobrem o governo de forma crítica."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios turco acompanha a inflação, os juros, a lira e a Borsa Istanbul por meio de um diário econômico, um canal de notícias de negócios e um site de negócios."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo na Turquia inclui o canal de notícias da emissora estatal e canais privados de notícias controlados por grandes holdings e por empresas independentes."
         }
       },
       "reviewed": true,

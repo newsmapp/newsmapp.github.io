@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Mexico City daily with national politics, security, business and opinion coverage."
+      "en": "Mexico City daily with national politics, security, business and opinion coverage.",
+      "pt": "Diário da Cidade do México com cobertura de política nacional, segurança, negócios e opinião."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily and TV news channel with breaking news, politics and security reporting."
+      "en": "National daily and TV news channel with breaking news, politics and security reporting.",
+      "pt": "Diário nacional e canal de notícias na TV com notícias de última hora, política e segurança."
     },
     "about": {},
     "sources": [],
@@ -111,7 +113,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Mexico City daily known for independent political reporting, behind a strict paywall."
+      "en": "Mexico City daily known for independent political reporting, behind a strict paywall.",
+      "pt": "Diário da Cidade do México conhecido pela reportagem política independente, com paywall rígido."
     },
     "about": {},
     "sources": [],
@@ -152,7 +155,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business and financial daily with markets, economy and political analysis."
+      "en": "Business and financial daily with markets, economy and political analysis.",
+      "pt": "Diário de negócios e finanças com mercados, economia e análise política."
     },
     "about": {},
     "sources": [],
@@ -193,7 +197,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Mexico City daily covering national politics, labor, social movements and culture."
+      "en": "Mexico City daily covering national politics, labor, social movements and culture.",
+      "pt": "Diário da Cidade do México que cobre política nacional, trabalho, movimentos sociais e cultura."
     },
     "about": {},
     "sources": [],
@@ -232,7 +237,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "One of Mexico's oldest dailies, with national news, politics and entertainment."
+      "en": "One of Mexico's oldest dailies, with national news, politics and entertainment.",
+      "pt": "Um dos diários mais antigos do México, com notícias nacionais, política e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -273,7 +279,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Weekly news magazine known for investigative reporting on power and corruption."
+      "en": "Weekly news magazine known for investigative reporting on power and corruption.",
+      "pt": "Revista semanal de notícias conhecida pela reportagem investigativa sobre poder e corrupção."
     },
     "about": {},
     "sources": [],
@@ -314,7 +321,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital newsroom covering politics, public spending and fact-checking via El Sabueso."
+      "en": "Digital newsroom covering politics, public spending and fact-checking via El Sabueso.",
+      "pt": "Redação digital que cobre política, gasto público e checagem por meio do El Sabueso."
     },
     "about": {},
     "sources": [],
@@ -355,7 +363,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent news site led by journalist Carmen Aristegui, focused on investigations."
+      "en": "Independent news site led by journalist Carmen Aristegui, focused on investigations.",
+      "pt": "Site de notícias independente liderado pela jornalista Carmen Aristegui, focado em investigações."
     },
     "about": {},
     "sources": [],
@@ -394,7 +403,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Civil-society organization publishing data-driven investigations into corruption."
+      "en": "Civil-society organization publishing data-driven investigations into corruption.",
+      "pt": "Organização da sociedade civil que publica investigações baseadas em dados sobre corrupção."
     },
     "about": {},
     "sources": [],
@@ -433,7 +443,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit lab producing and supporting long-form investigative journalism."
+      "en": "Nonprofit lab producing and supporting long-form investigative journalism.",
+      "pt": "Laboratório sem fins lucrativos que produz e apoia jornalismo investigativo de fôlego."
     },
     "about": {},
     "sources": [],
@@ -472,7 +483,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial daily covering markets, companies, public finance and the economy."
+      "en": "Financial daily covering markets, companies, public finance and the economy.",
+      "pt": "Diário financeiro que cobre mercados, empresas, finanças públicas e a economia."
     },
     "about": {},
     "sources": [],
@@ -513,7 +525,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business and technology publication covering companies, executives and innovation."
+      "en": "Business and technology publication covering companies, executives and innovation.",
+      "pt": "Publicação de negócios e tecnologia que cobre empresas, executivos e inovação."
     },
     "about": {},
     "sources": [],
@@ -552,7 +565,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Mexican edition of Forbes covering business, wealth and entrepreneurship."
+      "en": "Mexican edition of Forbes covering business, wealth and entrepreneurship.",
+      "pt": "Edição mexicana da Forbes, com negócios, fortunas e empreendedorismo."
     },
     "about": {},
     "sources": [],
@@ -591,7 +605,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Leading sports daily with Liga MX, national team and international football coverage."
+      "en": "Leading sports daily with Liga MX, national team and international football coverage.",
+      "pt": "Principal diário esportivo, com Liga MX, a seleção e o futebol internacional."
     },
     "about": {},
     "sources": [],
@@ -630,7 +645,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Long-running sports daily covering football, boxing and lucha libre."
+      "en": "Long-running sports daily covering football, boxing and lucha libre.",
+      "pt": "Diário esportivo tradicional que cobre futebol, boxe e luta livre."
     },
     "about": {},
     "sources": [],
@@ -671,7 +687,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports network and site from TelevisaUnivision, focused on football coverage."
+      "en": "Sports network and site from TelevisaUnivision, focused on football coverage.",
+      "pt": "Rede e site esportivo da TelevisaUnivision, focado na cobertura de futebol."
     },
     "about": {},
     "sources": [],
@@ -710,7 +727,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports news site with Liga MX results, transfers and analysis."
+      "en": "Sports news site with Liga MX results, transfers and analysis.",
+      "pt": "Site de notícias esportivas com resultados da Liga MX, transferências e análises."
     },
     "about": {},
     "sources": [],
@@ -751,7 +769,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News brand of Televisa, with national newscasts, live coverage and local editions."
+      "en": "News brand of Televisa, with national newscasts, live coverage and local editions.",
+      "pt": "Marca de notícias da Televisa, com telejornais nacionais, cobertura ao vivo e edições locais."
     },
     "about": {},
     "sources": [],
@@ -790,7 +809,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News division of TV Azteca with national and local newscasts."
+      "en": "News division of TV Azteca with national and local newscasts.",
+      "pt": "Divisão de notícias da TV Azteca, com telejornais nacionais e locais."
     },
     "about": {},
     "sources": [],
@@ -829,7 +849,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Monterrey daily covering Nuevo León politics, industry and local news."
+      "en": "Monterrey daily covering Nuevo León politics, industry and local news.",
+      "pt": "Diário de Monterrey que cobre a política, a indústria e as notícias locais de Nuevo León."
     },
     "about": {},
     "sources": [],
@@ -868,7 +889,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Guadalajara daily covering Jalisco and western Mexico, its politics and local news."
+      "en": "Guadalajara daily covering Jalisco and western Mexico, its politics and local news.",
+      "pt": "Diário de Guadalajara que cobre Jalisco e o oeste do México, sua política e notícias locais."
     },
     "about": {},
     "sources": [],
@@ -907,7 +929,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Mérida daily covering Yucatán and the Yucatán Peninsula, its politics and communities."
+      "en": "Mérida daily covering Yucatán and the Yucatán Peninsula, its politics and communities.",
+      "pt": "Diário de Mérida que cobre Yucatán e a Península de Yucatán, sua política e comunidades."
     },
     "about": {},
     "sources": [],
@@ -948,7 +971,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Tijuana weekly known for investigative reporting on organized crime and corruption."
+      "en": "Tijuana weekly known for investigative reporting on organized crime and corruption.",
+      "pt": "Semanário de Tijuana conhecido pela reportagem investigativa sobre crime organizado e corrupção."
     },
     "about": {},
     "sources": [],

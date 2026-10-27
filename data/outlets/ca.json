@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language service of the national public broadcaster, with news from every province."
+      "en": "English-language service of the national public broadcaster, with news from every province.",
+      "pt": "Serviço em inglês da emissora pública nacional, com notícias de todas as províncias."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily of record known for federal politics, business and investigative reporting."
+      "en": "National daily of record known for federal politics, business and investigative reporting.",
+      "pt": "Diário nacional de referência, conhecido por política federal, negócios e reportagem investigativa."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Toronto-based national daily with news, politics and a strong opinion section."
+      "en": "Toronto-based national daily with news, politics and a strong opinion section.",
+      "pt": "Diário nacional de Toronto com notícias, política e uma forte seção de opinião."
     },
     "about": {},
     "sources": [],
@@ -156,7 +159,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Canada's largest-circulation daily, covering Toronto, Ontario and national affairs."
+      "en": "Canada's largest-circulation daily, covering Toronto, Ontario and national affairs.",
+      "pt": "Diário de maior circulação do Canadá, com cobertura de Toronto, Ontário e assuntos nacionais."
     },
     "about": {},
     "sources": [],
@@ -195,7 +199,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "National news agency supplying English and French wire copy to Canadian media."
+      "en": "National news agency supplying English and French wire copy to Canadian media.",
+      "pt": "Agência nacional de notícias que fornece despachos em inglês e francês à mídia canadense."
     },
     "about": {},
     "sources": [],
@@ -236,7 +241,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "National private television news network with local stations across the country."
+      "en": "National private television news network with local stations across the country.",
+      "pt": "Rede nacional privada de telejornalismo com emissoras locais em todo o país."
     },
     "about": {},
     "sources": [],
@@ -277,7 +283,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news network and site with national, local and investigative coverage."
+      "en": "Television news network and site with national, local and investigative coverage.",
+      "pt": "Rede de telejornalismo e site com cobertura nacional, local e investigativa."
     },
     "about": {},
     "sources": [],
@@ -320,7 +327,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "French-language arm of the public broadcaster, covering Quebec, Canada and the world."
+      "en": "French-language arm of the public broadcaster, covering Quebec, Canada and the world.",
+      "pt": "Braço em francês da emissora pública, cobrindo Quebec, o Canadá e o mundo."
     },
     "about": {},
     "sources": [],
@@ -361,7 +369,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Montreal-based French-language news site, free to read and run by a nonprofit trust."
+      "en": "Montreal-based French-language news site, free to read and run by a nonprofit trust.",
+      "pt": "Site de notícias em francês de Montreal, gratuito e mantido por um fundo sem fins lucrativos."
     },
     "about": {},
     "sources": [],
@@ -402,7 +411,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent Montreal daily with in-depth political, cultural and social coverage."
+      "en": "Independent Montreal daily with in-depth political, cultural and social coverage.",
+      "pt": "Diário independente de Montreal com cobertura aprofundada de política, cultura e sociedade."
     },
     "about": {},
     "sources": [],
@@ -441,7 +451,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Ottawa newspaper focused on Parliament, the federal public service and lobbying."
+      "en": "Ottawa newspaper focused on Parliament, the federal public service and lobbying.",
+      "pt": "Jornal de Ottawa focado no Parlamento, no serviço público federal e no lobby."
     },
     "about": {},
     "sources": [],
@@ -480,7 +491,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Subscription site covering federal politics, policy and Parliament Hill."
+      "en": "Subscription site covering federal politics, policy and Parliament Hill.",
+      "pt": "Site por assinatura que cobre política federal, políticas públicas e o Parlamento."
     },
     "about": {},
     "sources": [],
@@ -521,7 +533,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Subscription newsroom on Canada's innovation economy, technology and policy."
+      "en": "Subscription newsroom on Canada's innovation economy, technology and policy.",
+      "pt": "Redação por assinatura sobre a economia da inovação, a tecnologia e as políticas do Canadá."
     },
     "about": {},
     "sources": [],
@@ -560,7 +573,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business section of the National Post, covering markets, investing and companies."
+      "en": "Business section of the National Post, covering markets, investing and companies.",
+      "pt": "Caderno de negócios do National Post, com mercados, investimentos e empresas."
     },
     "about": {},
     "sources": [],
@@ -601,7 +615,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Business television channel and site with Canadian markets and investing news."
+      "en": "Business television channel and site with Canadian markets and investing news.",
+      "pt": "Canal de TV e site de negócios com notícias dos mercados e investimentos canadenses."
     },
     "about": {},
     "sources": [],
@@ -642,7 +657,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit investigative outlet on Canada's natural world, energy and climate."
+      "en": "Nonprofit investigative outlet on Canada's natural world, energy and climate.",
+      "pt": "Veículo investigativo sem fins lucrativos sobre a natureza, a energia e o clima do Canadá."
     },
     "about": {},
     "sources": [],
@@ -683,7 +699,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Canada's leading sports network, with hockey, CFL and international sports coverage."
+      "en": "Canada's leading sports network, with hockey, CFL and international sports coverage.",
+      "pt": "Principal rede esportiva do Canadá, com hóquei, CFL e cobertura de esportes internacionais."
     },
     "about": {},
     "sources": [],
@@ -724,7 +741,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports network and site with NHL, MLB and NBA coverage from a Canadian angle."
+      "en": "Sports network and site with NHL, MLB and NBA coverage from a Canadian angle.",
+      "pt": "Rede e site esportivos com NHL, MLB e NBA sob o ponto de vista canadense."
     },
     "about": {},
     "sources": [],
@@ -763,7 +781,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "French-language sports network, home of Montreal Canadiens coverage."
+      "en": "French-language sports network, home of Montreal Canadiens coverage.",
+      "pt": "Rede esportiva em francês, casa da cobertura do Montreal Canadiens."
     },
     "about": {},
     "sources": [],
@@ -802,7 +821,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Vancouver daily covering British Columbia politics, business and communities."
+      "en": "Vancouver daily covering British Columbia politics, business and communities.",
+      "pt": "Diário de Vancouver que cobre a política, os negócios e as comunidades da Colúmbia Britânica."
     },
     "about": {},
     "sources": [],
@@ -841,7 +861,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Calgary daily covering Alberta politics, energy and local news."
+      "en": "Calgary daily covering Alberta politics, energy and local news.",
+      "pt": "Diário de Calgary que cobre a política, a energia e as notícias locais de Alberta."
     },
     "about": {},
     "sources": [],
@@ -880,7 +901,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent Winnipeg daily covering Manitoba and the Prairies."
+      "en": "Independent Winnipeg daily covering Manitoba and the Prairies.",
+      "pt": "Diário independente de Winnipeg que cobre Manitoba e as Pradarias."
     },
     "about": {},
     "sources": [],
@@ -919,7 +941,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Montreal's English-language daily, one of the oldest newspapers in North America."
+      "en": "Montreal's English-language daily, one of the oldest newspapers in North America.",
+      "pt": "Diário em inglês de Montreal, um dos jornais mais antigos da América do Norte."
     },
     "about": {},
     "sources": [],

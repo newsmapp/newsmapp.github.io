@@ -29,7 +29,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "São Paulo-based national daily known for coverage of federal politics and the economy."
+      "en": "São Paulo-based national daily known for coverage of federal politics and the economy.",
+      "pt": "Diário nacional de São Paulo conhecido pela cobertura de política federal e economia."
     },
     "about": {},
     "sources": [],
@@ -70,7 +71,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Rio de Janeiro daily of Grupo Globo with national politics, Rio news and opinion."
+      "en": "Rio de Janeiro daily of Grupo Globo with national politics, Rio news and opinion.",
+      "pt": "Diário carioca do Grupo Globo com política nacional, notícias do Rio e opinião."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Traditional São Paulo daily with national politics, economy and long-form reporting."
+      "en": "Traditional São Paulo daily with national politics, economy and long-form reporting.",
+      "pt": "Diário tradicional de São Paulo com política nacional, economia e reportagens longas."
     },
     "about": {},
     "sources": [],
@@ -154,7 +157,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Globo's free news portal with national headlines and local editions for every state."
+      "en": "Globo's free news portal with national headlines and local editions for every state.",
+      "pt": "Portal de notícias gratuito da Globo, com manchetes nacionais e edições locais em todos os estados."
     },
     "about": {},
     "sources": [],
@@ -193,7 +197,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Large Brazilian portal with national news, politics, columns and live coverage."
+      "en": "Large Brazilian portal with national news, politics, columns and live coverage.",
+      "pt": "Grande portal brasileiro com notícias nacionais, política, colunas e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Federal public news agency publishing free-to-reuse reporting on government and society."
+      "en": "Federal public news agency publishing free-to-reuse reporting on government and society.",
+      "pt": "Agência pública federal com reportagens de livre reprodução sobre governo e sociedade."
     },
     "about": {},
     "sources": [
@@ -278,7 +284,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Brasília-based digital newsroom tracking Congress, the presidency and opinion polls."
+      "en": "Brasília-based digital newsroom tracking Congress, the presidency and opinion polls.",
+      "pt": "Redação digital de Brasília que acompanha o Congresso, a Presidência e as pesquisas eleitorais."
     },
     "about": {},
     "sources": [],
@@ -319,7 +326,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Brazilian CNN licensee with 24-hour news, politics and business coverage."
+      "en": "Brazilian CNN licensee with 24-hour news, politics and business coverage.",
+      "pt": "Licenciada brasileira da CNN, com notícias 24 horas, política e economia."
     },
     "about": {},
     "sources": [],
@@ -358,7 +366,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Brazil's leading business daily covering markets, companies and economic policy."
+      "en": "Brazil's leading business daily covering markets, companies and economic policy.",
+      "pt": "Principal diário de negócios do Brasil, com mercados, empresas e política econômica."
     },
     "about": {},
     "sources": [],
@@ -397,7 +406,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Investing and markets site with stock coverage, personal finance and economic news."
+      "en": "Investing and markets site with stock coverage, personal finance and economic news.",
+      "pt": "Site de investimentos e mercado com ações, finanças pessoais e notícias de economia."
     },
     "about": {},
     "sources": [],
@@ -438,7 +448,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine covering companies, careers, investing and technology."
+      "en": "Business magazine covering companies, careers, investing and technology.",
+      "pt": "Revista de negócios que cobre empresas, carreira, investimentos e tecnologia."
     },
     "about": {},
     "sources": [],
@@ -477,7 +488,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit investigative agency covering human rights, environment and power in Brazil."
+      "en": "Nonprofit investigative agency covering human rights, environment and power in Brazil.",
+      "pt": "Agência investigativa sem fins lucrativos sobre direitos humanos, meio ambiente e poder no Brasil."
     },
     "about": {},
     "sources": [],
@@ -518,7 +530,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Monthly magazine of long-form reporting, profiles and narrative journalism on Brazil."
+      "en": "Monthly magazine of long-form reporting, profiles and narrative journalism on Brazil.",
+      "pt": "Revista mensal de reportagens longas, perfis e jornalismo narrativo sobre o Brasil."
     },
     "about": {},
     "sources": [],
@@ -557,7 +570,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Brazil's first dedicated fact-checking agency, verifying claims by politicians and online."
+      "en": "Brazil's first dedicated fact-checking agency, verifying claims by politicians and online.",
+      "pt": "Primeira agência de checagem dedicada do Brasil, que verifica falas de políticos e conteúdos online."
     },
     "about": {},
     "sources": [],
@@ -596,7 +610,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking platform tracking political claims and online disinformation in Brazil."
+      "en": "Fact-checking platform tracking political claims and online disinformation in Brazil.",
+      "pt": "Plataforma de checagem que acompanha declarações políticas e desinformação na internet."
     },
     "about": {},
     "sources": [],
@@ -635,7 +650,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent investigative outlet focused on corruption, security and human rights."
+      "en": "Independent investigative outlet focused on corruption, security and human rights.",
+      "pt": "Veículo investigativo independente focado em corrupção, segurança e direitos humanos."
     },
     "about": {},
     "sources": [],
@@ -674,7 +690,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Globo's sports portal with live football, Brasileirão coverage and Olympic sports."
+      "en": "Globo's sports portal with live football, Brasileirão coverage and Olympic sports.",
+      "pt": "Portal esportivo da Globo com futebol ao vivo, cobertura do Brasileirão e esportes olímpicos."
     },
     "about": {},
     "sources": [],
@@ -713,7 +730,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports news brand focused on Brazilian football clubs, transfers and results."
+      "en": "Sports news brand focused on Brazilian football clubs, transfers and results.",
+      "pt": "Marca de notícias esportivas focada nos clubes do futebol brasileiro, contratações e resultados."
     },
     "about": {},
     "sources": [],
@@ -754,7 +772,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Brazilian edition of ESPN with football, NBA, NFL and multi-sport coverage."
+      "en": "Brazilian edition of ESPN with football, NBA, NFL and multi-sport coverage.",
+      "pt": "Edição brasileira da ESPN com futebol, NBA, NFL e cobertura de vários esportes."
     },
     "about": {},
     "sources": [],
@@ -793,7 +812,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports section of UOL with football news, columnists and live match coverage."
+      "en": "Sports section of UOL with football news, columnists and live match coverage.",
+      "pt": "Seção de esportes do UOL com notícias de futebol, colunistas e jogos ao vivo."
     },
     "about": {},
     "sources": [],
@@ -832,7 +852,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Brazil's most-watched evening newscast, broadcast nationally by TV Globo."
+      "en": "Brazil's most-watched evening newscast, broadcast nationally by TV Globo.",
+      "pt": "Telejornal noturno mais assistido do Brasil, exibido em rede nacional pela TV Globo."
     },
     "about": {},
     "sources": [],
@@ -871,7 +892,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News division of the Bandeirantes network with TV, radio and online coverage."
+      "en": "News division of the Bandeirantes network with TV, radio and online coverage.",
+      "pt": "Divisão de jornalismo da Rede Bandeirantes, com cobertura em TV, rádio e internet."
     },
     "about": {},
     "sources": [],
@@ -910,7 +932,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "All-news radio network with live bulletins, interviews and commentary."
+      "en": "All-news radio network with live bulletins, interviews and commentary.",
+      "pt": "Rede de rádio só de notícias, com boletins ao vivo, entrevistas e comentários."
     },
     "about": {},
     "sources": [],
@@ -949,7 +972,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent technology site covering gadgets, telecom, apps and digital policy."
+      "en": "Independent technology site covering gadgets, telecom, apps and digital policy.",
+      "pt": "Site independente de tecnologia sobre aparelhos, telecomunicações, apps e política digital."
     },
     "about": {},
     "sources": [],
@@ -988,7 +1012,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology and science news site with consumer tech, space and innovation coverage."
+      "en": "Technology and science news site with consumer tech, space and innovation coverage.",
+      "pt": "Site de tecnologia e ciência com eletrônicos de consumo, espaço e inovação."
     },
     "about": {},
     "sources": [],
@@ -1027,7 +1052,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Science magazine from São Paulo's research foundation, covering Brazilian research."
+      "en": "Science magazine from São Paulo's research foundation, covering Brazilian research.",
+      "pt": "Revista de ciência da fundação de pesquisa de São Paulo, sobre a pesquisa brasileira."
     },
     "about": {},
     "sources": [],
@@ -1066,7 +1092,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Porto Alegre daily covering Rio Grande do Sul politics, economy and football."
+      "en": "Porto Alegre daily covering Rio Grande do Sul politics, economy and football.",
+      "pt": "Diário de Porto Alegre que cobre a política, a economia e o futebol do Rio Grande do Sul."
     },
     "about": {},
     "sources": [],
@@ -1105,7 +1132,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Belo Horizonte daily covering Minas Gerais politics, economy and local life."
+      "en": "Belo Horizonte daily covering Minas Gerais politics, economy and local life.",
+      "pt": "Diário de Belo Horizonte que cobre a política, a economia e o cotidiano de Minas Gerais."
     },
     "about": {},
     "sources": [],
@@ -1146,7 +1174,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Brasília daily covering the Federal District and the federal government."
+      "en": "Brasília daily covering the Federal District and the federal government.",
+      "pt": "Diário de Brasília que cobre o Distrito Federal e o governo federal."
     },
     "about": {},
     "sources": [],
@@ -1185,7 +1214,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Recife daily covering Pernambuco politics, economy and the wider Northeast region."
+      "en": "Recife daily covering Pernambuco politics, economy and the wider Northeast region.",
+      "pt": "Diário do Recife que cobre a política e a economia de Pernambuco e do Nordeste."
     },
     "about": {},
     "sources": [],
@@ -1226,7 +1256,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Curitiba-based outlet with Paraná news and national political commentary."
+      "en": "Curitiba-based outlet with Paraná news and national political commentary.",
+      "pt": "Veículo de Curitiba com notícias do Paraná e comentário político nacional."
     },
     "about": {},
     "sources": [],

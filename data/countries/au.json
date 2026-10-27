@@ -3,7 +3,8 @@
   "iso3": "AUS",
   "slug": "australia",
   "name": {
-    "en": "Australia"
+    "en": "Australia",
+    "pt": "Austrália"
   },
   "continent": "oceania",
   "also_in": [],
@@ -58,6 +59,46 @@
         },
         "regional": {
           "intro": "Metropolitan newspapers cover each state. The titles below serve New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Austrália está entre os mais concentrados do mundo desenvolvido. A News Corp Australia é dona do The Australian e da maioria dos tabloides metropolitanos, enquanto a Nine Entertainment controla o The Sydney Morning Herald, o The Age e o Australian Financial Review. As emissoras públicas ABC e SBS oferecem notícias nacionais, e as redes Seven e Nine mantêm as principais redações de TV comercial. O Guardian Australia e veículos digitais independentes cresceram como alternativas. O News Media Bargaining Code, criado em 2021, obriga as grandes plataformas a negociar pagamentos com os editores. A Australian Associated Press, a agência nacional de notícias, hoje pertence a investidores filantrópicos. O jornalismo regional encolheu, com muitos jornais locais fechados ou fundidos. O Four Corners, da ABC, é o programa investigativo mais longevo do país.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Austrália?",
+          "a": "Os principais veículos nacionais do diretório incluem ABC News, The Sydney Morning Herald, The Age, The Australian e Guardian Australia. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias australianos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão ABC News, Guardian Australia, news.com.au, Australian Associated Press e SBS News. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos australianos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão ABC News, SBS News e Four Corners. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Austrália?",
+          "a": "A cobertura regional do diretório vem do The Sydney Morning Herald (Nova Gales do Sul), The Age (Victoria), The Courier-Mail (Queensland), The West Australian (Austrália Ocidental) e The Advertiser (Austrália Meridional). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Austrália vêm da emissora pública, de jornais metropolitanos de dois grandes grupos, de um jornal nacional de referência e de veículos digitais gratuitos. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios australiano é liderado por um diário econômico que cobre a ASX, a mineração e os bancos, além de sites para pequenas empresas e investidores."
+        },
+        "sports": {
+          "intro": "A mídia esportiva australiana cobre AFL, NRL, críquete, tênis e futebol por meio de emissoras e sites esportivos nacionais."
+        },
+        "broadcast": {
+          "intro": "O jornalismo de TV e rádio na Austrália inclui duas emissoras públicas, as redes comerciais Nine e Seven e um canal de notícias 24 horas."
+        },
+        "regional": {
+          "intro": "Os jornais metropolitanos cobrem cada estado. Os títulos abaixo atendem Nova Gales do Sul, Victoria, Queensland, Austrália Ocidental, Austrália Meridional e Tasmânia."
         }
       },
       "reviewed": true,

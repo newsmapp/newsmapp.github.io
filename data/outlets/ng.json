@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Lagos daily with one of the largest readerships in Nigeria, covering politics and society."
+      "en": "Lagos daily with one of the largest readerships in Nigeria, covering politics and society.",
+      "pt": "Diário de Lagos com um dos maiores públicos leitores da Nigéria, cobrindo política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Lagos daily known for analysis and opinion on politics, business and culture."
+      "en": "Lagos daily known for analysis and opinion on politics, business and culture.",
+      "pt": "Diário de Lagos conhecido por análises e opinião sobre política, negócios e cultura."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Lagos daily with national news, politics and coverage of the Niger Delta."
+      "en": "Lagos daily with national news, politics and coverage of the Niger Delta.",
+      "pt": "Diário de Lagos com notícias nacionais, política e cobertura do Delta do Níger."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with politics, business and a widely read Sunday edition."
+      "en": "National daily with politics, business and a widely read Sunday edition.",
+      "pt": "Diário nacional com política, negócios e uma edição de domingo muito lida."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital newsroom covering national politics, the economy and fact-checks."
+      "en": "Digital newsroom covering national politics, the economy and fact-checks.",
+      "pt": "Redação digital que cobre a política nacional, a economia e checagens de fatos."
     },
     "about": {},
     "sources": [],
@@ -230,7 +235,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with political reporting and coverage of government and security."
+      "en": "Digital outlet with political reporting and coverage of government and security.",
+      "pt": "Veículo digital com reportagem política e cobertura do governo e da segurança."
     },
     "about": {},
     "sources": [],
@@ -271,7 +277,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Abuja-based digital newspaper known for investigations into corruption and public spending."
+      "en": "Abuja-based digital newspaper known for investigations into corruption and public spending.",
+      "pt": "Jornal digital de Abuja conhecido por investigações sobre corrupção e gasto público."
     },
     "about": {},
     "sources": [],
@@ -310,7 +317,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Citizen-driven news site publishing reports on corruption and abuses of power."
+      "en": "Citizen-driven news site publishing reports on corruption and abuses of power.",
+      "pt": "Site de notícias movido por cidadãos que publica denúncias de corrupção e abuso de poder."
     },
     "about": {},
     "sources": [],
@@ -349,7 +357,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit newsroom investigating fraud, police abuse and failures of public services."
+      "en": "Nonprofit newsroom investigating fraud, police abuse and failures of public services.",
+      "pt": "Redação sem fins lucrativos que investiga fraudes, abusos policiais e falhas dos serviços públicos."
     },
     "about": {},
     "sources": [],
@@ -388,7 +397,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet covering conflict, displacement and humanitarian issues in Africa."
+      "en": "Digital outlet covering conflict, displacement and humanitarian issues in Africa.",
+      "pt": "Veículo digital que cobre conflitos, deslocamentos e questões humanitárias na África."
     },
     "about": {},
     "sources": [],
@@ -427,7 +437,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, the naira, energy and economic policy."
+      "en": "Business daily covering markets, the naira, energy and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, a naira, energia e política econômica."
     },
     "about": {},
     "sources": [],
@@ -466,7 +477,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial news site with markets, company results and personal finance."
+      "en": "Financial news site with markets, company results and personal finance.",
+      "pt": "Site de notícias financeiras com mercados, resultados de empresas e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -505,7 +517,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering African startups, fintech and telecoms from Lagos."
+      "en": "Technology news site covering African startups, fintech and telecoms from Lagos.",
+      "pt": "Site de tecnologia de Lagos que cobre startups africanas, fintechs e telecomunicações."
     },
     "about": {},
     "sources": [],
@@ -546,7 +559,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Lagos-based television station with national newscasts, interviews and live coverage."
+      "en": "Lagos-based television station with national newscasts, interviews and live coverage.",
+      "pt": "Emissora de televisão de Lagos com telejornais nacionais, entrevistas e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -585,7 +599,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news channel with politics, business and long-form interviews."
+      "en": "Television news channel with politics, business and long-form interviews.",
+      "pt": "Canal de notícias na televisão com política, negócios e entrevistas longas."
     },
     "about": {},
     "sources": [],
@@ -624,7 +639,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports outlet covering Nigerian football, the Super Eagles and players abroad."
+      "en": "Sports outlet covering Nigerian football, the Super Eagles and players abroad.",
+      "pt": "Veículo esportivo que cobre o futebol nigeriano, as Super Águias e os jogadores no exterior."
     },
     "about": {},
     "sources": [],
@@ -665,7 +681,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Abuja daily with the widest coverage of northern Nigeria and its states."
+      "en": "Abuja daily with the widest coverage of northern Nigeria and its states.",
+      "pt": "Diário de Abuja com a cobertura mais ampla do norte da Nigéria e de seus estados."
     },
     "about": {},
     "sources": [],
@@ -704,7 +721,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Ibadan daily founded in 1949, the oldest private newspaper still published in Nigeria."
+      "en": "Ibadan daily founded in 1949, the oldest private newspaper still published in Nigeria.",
+      "pt": "Diário de Ibadan fundado em 1949, o jornal privado mais antigo ainda publicado na Nigéria."
     },
     "about": {},
     "sources": [],

@@ -3,7 +3,8 @@
   "iso3": "IDN",
   "slug": "indonesia",
   "name": {
-    "en": "Indonesia"
+    "en": "Indonesia",
+    "pt": "Indonésia"
   },
   "continent": "asia",
   "also_in": [],
@@ -61,6 +62,46 @@
         },
         "regional": {
           "intro": "Regional outlets cover East Java, West Java, Central Java and Bali, alongside a national network of local news sites."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Indonésia cresceu rapidamente após o fim da Nova Ordem, em 1998, e hoje é um dos maiores do Sudeste Asiático. Grandes grupos de mídia como Kompas Gramedia, CT Corp, Media Group e Emtek controlam jornais, canais de televisão e portais na internet. O Kompas é o jornal nacional de referência, o Tempo é conhecido pela reportagem investigativa e o detikcom foi pioneiro do jornalismo on-line. A Antara é a agência de notícias estatal, e TVRI e RRI são as emissoras públicas de televisão e rádio. O país tem uma grande imprensa regional espalhada por suas muitas ilhas, incluindo redes de sites de notícias locais. Organizações de checagem trabalham para combater boatos que se espalham pelas redes sociais e por aplicativos de mensagens. A maioria dos sites de notícias é gratuita e financiada por publicidade. Futebol e badminton dominam a cobertura esportiva.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Indonésia?",
+          "a": "Os principais veículos nacionais do diretório incluem Kompas, Kompas.com, Tempo, detikcom e Antara. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias indonésios são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Kompas.com, detikcom, Antara, Republika e Media Indonesia. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos indonésios são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão TVRI e RRI. Entre os controlados pelo Estado está a Antara. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Indonésia?",
+          "a": "A cobertura regional do diretório vem da RRI (nacional, com emissoras regionais), Jawa Pos (Java Oriental), Pikiran Rakyat (Java Ocidental), Suara Merdeka (Java Central) e Bali Post (Bali). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Indonésia vêm de um jornal de referência, de grandes portais on-line, da agência estatal e de um diário em inglês. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios indonésio acompanha commodities, bancos, a bolsa de valores e a economia digital por meio de diários econômicos, um canal de notícias de negócios e veículos baseados em dados."
+        },
+        "sports": {
+          "intro": "A mídia esportiva indonésia se concentra no futebol e no badminton, com portais esportivos dos grandes grupos de mídia do país."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo e o radiojornalismo na Indonésia vêm de canais privados de notícias dos grandes grupos de mídia e das emissoras públicas de televisão e rádio."
+        },
+        "regional": {
+          "intro": "Os veículos regionais cobrem Java Oriental, Java Ocidental, Java Central e Bali, ao lado de uma rede nacional de sites de notícias locais."
         }
       },
       "reviewed": true,

@@ -3,7 +3,8 @@
   "iso3": "PAK",
   "slug": "pakistan",
   "name": {
-    "en": "Pakistan"
+    "en": "Pakistan",
+    "pt": "Paquistão"
   },
   "continent": "asia",
   "also_in": [],
@@ -50,6 +51,36 @@
         },
         "sports": {
           "intro": "Cricket dominates Pakistani sports coverage, from the national team to the Pakistan Super League."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "O Paquistão tem uma grande imprensa em urdu e inglês, liderada por dois grupos de mídia: o Jang Group, editor do Daily Jang e do The News e dono da Geo News, e o Express Media Group, editor do The Express Tribune e do Daily Express. O Dawn, fundado em 1941 por Muhammad Ali Jinnah, é o principal jornal em inglês. Canais privados de notícias como Geo, ARY e Dunya são a principal fonte de notícias para a maioria das pessoas. Organizações de liberdade de imprensa relatam pressão de instituições do Estado sobre a mídia, incluindo suspensões de canais e ataques a jornalistas. O Business Recorder cobre a economia, e o críquete domina a cobertura esportiva. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias do Paquistão?",
+          "a": "Os principais veículos do diretório incluem Dawn, The Express Tribune, The News e Daily Jang. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Há notícias do Paquistão em urdu?",
+          "a": "Daily Jang e Daily Express publicam em urdu. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Quais veículos paquistaneses são financiados com recursos públicos?",
+          "a": "A PTV News pertence à Pakistan Television, a emissora estatal. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Paquistão publicam em urdu e inglês e são liderados por alguns grandes grupos de mídia de Karachi e Lahore."
+        },
+        "broadcast": {
+          "intro": "Os canais privados de notícias na televisão são a principal fonte de notícias no Paquistão. Os canais abaixo publicam sua cobertura na internet."
+        },
+        "sports": {
+          "intro": "O críquete domina a cobertura esportiva paquistanesa, da seleção à Pakistan Super League."
         }
       },
       "reviewed": false,

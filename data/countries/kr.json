@@ -3,7 +3,8 @@
   "iso3": "KOR",
   "slug": "south-korea",
   "name": {
-    "en": "South Korea"
+    "en": "South Korea",
+    "pt": "Coreia do Sul"
   },
   "continent": "asia",
   "also_in": [],
@@ -61,6 +62,49 @@
         },
         "politics": {
           "intro": "Political coverage in South Korea follows the presidency, the National Assembly and party politics through national dailies, the national news agency and digital outlets."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Coreia do Sul tem um mercado de notícias rápido e muito digital, em que a maioria das pessoas lê notícias pelos portais da Naver e da Kakao. Três grandes diários, Chosun Ilbo, JoongAng Ilbo e Dong-A Ilbo, dominam há muito tempo a imprensa escrita, enquanto o Hankyoreh, fundado com acionistas cidadãos, e o Kyunghyang Shinmun, controlado pelos funcionários, oferecem modelos alternativos de propriedade. As emissoras públicas KBS e MBC convivem com os canais comerciais SBS, JTBC e o canal de notícias 24 horas YTN. A Yonhap, agência nacional de notícias, recebe financiamento público. A reportagem investigativa é produzida por emissoras, por uma revista semanal e pelo Newstapa, redação sem fins lucrativos financiada por associados. Os jornais de negócios são numerosos, refletindo o peso dos conglomerados na economia. Jornais regionais atendem Busan, Daegu, Gyeonggi e Gangwon.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Coreia do Sul?",
+          "a": "Os principais veículos nacionais do diretório incluem Yonhap News Agency, The Chosun Ilbo, JoongAng Ilbo, The Dong-A Ilbo e The Hankyoreh. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias sul-coreanos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Yonhap News Agency, The Chosun Ilbo, The Dong-A Ilbo, The Hankyoreh e Kyunghyang Shinmun. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos sul-coreanos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão Yonhap News Agency, KBS News e MBC News. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Coreia do Sul?",
+          "a": "A cobertura regional do diretório vem do Busan Ilbo (Busan), Kookje Shinmun (Busan), Maeil Shinmun (Daegu), Kyeongin Ilbo (Gyeonggi) e Kangwon Ilbo (Gangwon). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Coreia do Sul vêm da agência Yonhap, de diários nacionais com diferentes modelos de propriedade e de um diário em inglês. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios sul-coreano acompanha os conglomerados, os semicondutores, o mercado imobiliário e a bolsa por meio de vários diários econômicos especializados."
+        },
+        "sports": {
+          "intro": "A mídia esportiva sul-coreana cobre o beisebol da KBO, o futebol da K League e o golfe por meio de diários esportivos ligados a grupos de jornais nacionais e de veículos on-line rápidos."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo na Coreia do Sul inclui duas emissoras públicas, uma rede comercial aberta, canais de notícias a cabo e um canal de notícias 24 horas."
+        },
+        "regional": {
+          "intro": "Os jornais regionais da Coreia do Sul cobrem Busan, Daegu, a província de Gyeonggi e a província de Gangwon."
+        },
+        "politics": {
+          "intro": "A cobertura política na Coreia do Sul acompanha a Presidência, a Assembleia Nacional e os partidos por meio de diários nacionais, da agência nacional de notícias e de veículos digitais."
         }
       },
       "reviewed": true,

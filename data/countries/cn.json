@@ -3,7 +3,8 @@
   "iso3": "CHN",
   "slug": "china",
   "name": {
-    "en": "China"
+    "en": "China",
+    "pt": "China"
   },
   "continent": "asia",
   "also_in": [],
@@ -72,6 +73,46 @@
         },
         "broadcast": {
           "intro": "Broadcast news in China is produced by the state-owned China Media Group, which runs national television, international channels and national radio."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A mídia jornalística da China continental opera sob a direção do Partido Comunista Chinês. A agência Xinhua, o Diário do Povo e o China Media Group, que inclui CCTV, CGTN e a Rádio Nacional da China, são os veículos estatais centrais, e a maioria dos jornais pertence a grupos de mídia estatais das províncias ou dos municípios. Plataformas comerciais de empresas de tecnologia distribuem notícias e mantêm grandes canais de esporte e tecnologia, mas precisam de licença e seguem as regras de conteúdo. Poucos veículos, como a revista financeira Caixin, são conhecidos por uma cobertura econômica mais independente dentro desses limites. Muitos sites de notícias estrangeiros são bloqueados. Os índices internacionais de liberdade de imprensa classificam a China entre os ambientes mais restritivos para jornalistas. Esta página indica a propriedade estatal em cada veículo para que o leitor identifique a fonte por trás de cada publicação.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da China?",
+          "a": "Os principais veículos nacionais do diretório incluem Xinhua, Diário do Povo, China Daily, China News Service e The Paper. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias chineses são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Xinhua, Diário do Povo, China Daily, Global Times e China News Service. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos chineses são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos controlados pelo Estado estão Xinhua, Diário do Povo, China Daily e Global Times. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da China?",
+          "a": "A cobertura regional do diretório vem do The Beijing News (Pequim), Xinmin Evening News (Xangai) e Southern Metropolis Daily (Guangdong). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os principais veículos de notícias da China são estatais: a agência nacional, o jornal do Partido e a emissora estatal, além de veículos digitais estatais de Xangai. A propriedade estatal aparece indicada em cada veículo."
+        },
+        "economy": {
+          "intro": "As notícias de negócios e finanças na China vêm de uma revista financeira privada e de jornais e veículos digitais financeiros estatais que cobrem mercados, empresas e políticas."
+        },
+        "sports": {
+          "intro": "A mídia esportiva chinesa inclui o canal estatal de esportes e grandes portais comerciais de empresas de tecnologia, com futebol, basquete e Jogos Olímpicos."
+        },
+        "tech-science": {
+          "intro": "A cobertura de tecnologia na China é liderada por veículos comerciais que acompanham startups, capital de risco e a indústria de tecnologia, ao lado de um jornal estatal de ciência e de uma comunidade de divulgação científica."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo e o radiojornalismo na China são produzidos pelo China Media Group, estatal, que mantém a televisão nacional, canais internacionais e a rádio nacional."
         }
       },
       "reviewed": true,

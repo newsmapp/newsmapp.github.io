@@ -3,7 +3,8 @@
   "iso3": "FRA",
   "slug": "france",
   "name": {
-    "en": "France"
+    "en": "France",
+    "pt": "França"
   },
   "continent": "europe",
   "also_in": [],
@@ -67,6 +68,49 @@
         },
         "politics": {
           "intro": "French political coverage follows the Élysée, the government and both chambers of Parliament through national dailies, public radio, a parliamentary channel and policy-focused subscription newsrooms."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O cenário de notícias da França combina jornais nacionais sediados em Paris, um grande sistema de radiodifusão pública e fortes diários regionais. Le Monde, Le Figaro e Libération são os principais títulos nacionais, e a Agence France-Presse é uma das três agências de notícias globais do mundo. As emissoras públicas France Télévisions e Radio France mantêm o serviço de notícias franceinfo, enquanto canais privados como o BFMTV oferecem notícias 24 horas. A propriedade da mídia privada está concentrada em poucos grandes grupos industriais e financeiros, tema recorrente do debate público. O Mediapart, financiado por assinantes, é conhecido por investigações sobre política e finanças. Diários regionais como o Ouest-France, o jornal de maior circulação do país, cobrem suas regiões em profundidade. O Estado apoia a imprensa com subsídios diretos e indiretos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da França?",
+          "a": "Os principais veículos nacionais do diretório incluem Le Monde, Le Figaro, Libération, Agence France-Presse e franceinfo. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias franceses são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Agence France-Presse, franceinfo, BFMTV, France Inter e RFI. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos franceses são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão Agence France-Presse, franceinfo, France Inter e RFI. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da França?",
+          "a": "A cobertura regional do diretório vem do Le Parisien (Île-de-France), Ouest-France (Bretanha e oeste da França), Le Progrès (Auvergne-Rhône-Alpes), La Voix du Nord (Hauts-de-France) e Sud Ouest (Nova Aquitânia). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na França vêm de diários de Paris, da agência AFP e da radiodifusão pública. Cada veículo abaixo mostra o modelo de paywall e o dono."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios francês é coberto por um diário econômico de referência, revistas de negócios e títulos de finanças pessoais que acompanham empresas, o CAC 40 e a política econômica."
+        },
+        "sports": {
+          "intro": "A mídia esportiva francesa é liderada por um diário esportivo nacional e cobre futebol, ciclismo e rúgbi por meio de emissoras, revistas e sites especializados."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na França inclui um site financiado por assinantes, um veículo investigativo sem fins lucrativos e editorias de checagem na agência nacional e num diário de referência."
+        },
+        "regional": {
+          "intro": "Os diários regionais são um pilar da imprensa francesa, com dezenas de edições locais. Os títulos abaixo cobrem o oeste, Lyon, o norte, o sudoeste e a Provença."
+        },
+        "politics": {
+          "intro": "A cobertura política francesa acompanha o Eliseu, o governo e as duas câmaras do Parlamento por meio de diários nacionais, da rádio pública, de um canal parlamentar e de redações por assinatura focadas em políticas públicas."
         }
       },
       "reviewed": true,

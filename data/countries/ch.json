@@ -3,7 +3,8 @@
   "iso3": "CHE",
   "slug": "switzerland",
   "name": {
-    "en": "Switzerland"
+    "en": "Switzerland",
+    "pt": "Suíça"
   },
   "continent": "europe",
   "also_in": [],
@@ -59,6 +60,43 @@
         },
         "regional": {
           "intro": "Regional newspapers serve each language region and canton. The titles below cover Basel, Bern, Lucerne, Vaud, Geneva, Zurich and Ticino."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de mídia da Suíça é dividido por idioma, com ecossistemas de notícias separados em alemão, francês e italiano. A emissora pública SRG SSR mantém SRF, RTS e RSI, financiadas por uma taxa paga pelos domicílios, e seu serviço internacional swissinfo.ch publica em dez idiomas. A mídia privada está concentrada em poucos grupos, como TX Group, Ringier e CH Media, donos da maioria dos jornais diários. O Neue Zürcher Zeitung, fundado em 1780, é um dos jornais mais antigos do mundo ainda em circulação. A democracia direta molda a cobertura política, com votações nacionais e cantonais frequentes. Redações financiadas pelos leitores, como Republik e Heidi.news, surgiram ao lado dos títulos tradicionais. O jornalismo de negócios e finanças é amplo, refletindo o peso dos bancos, das seguradoras e das multinacionais na economia.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Suíça?",
+          "a": "Os principais veículos nacionais do diretório incluem SRF News, Neue Zürcher Zeitung, Tages-Anzeiger, Blick e 20 Minuten. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias suíços são gratuitos?",
+          "a": "Entre os veículos gratuitos estão SRF News, 20 Minuten, RTS Info, RSI Info e swissinfo.ch. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos suíços são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão SRF News, RTS Info, RSI Info e swissinfo.ch. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Suíça?",
+          "a": "A cobertura regional do diretório vem do Tages-Anzeiger (Zurique), RSI Info (Ticino), Basler Zeitung (Basileia), Berner Zeitung (Berna) e Luzerner Zeitung (Lucerna). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Suíça vêm da emissora pública em três idiomas, de diários nacionais, de títulos gratuitos distribuídos no transporte público e da agência nacional de notícias. Idioma, modelo de paywall e dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios suíço acompanha bancos, seguradoras, commodities e multinacionais por meio de semanários de negócios, um jornal financeiro, um diário financeiro em francês e um portal de mercado."
+        },
+        "sports": {
+          "intro": "A mídia esportiva suíça cobre esqui, hóquei no gelo, futebol e tênis, sobretudo pela emissora pública em cada região linguística e pelas editorias de esporte dos títulos nacionais."
+        },
+        "regional": {
+          "intro": "Os jornais regionais atendem cada região linguística e cantão. Os títulos abaixo cobrem Basileia, Berna, Lucerna, Vaud, Genebra, Zurique e Ticino."
         }
       },
       "reviewed": true,

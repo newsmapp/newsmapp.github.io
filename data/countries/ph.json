@@ -3,7 +3,8 @@
   "iso3": "PHL",
   "slug": "philippines",
   "name": {
-    "en": "Philippines"
+    "en": "Philippines",
+    "pt": "Filipinas"
   },
   "continent": "asia",
   "also_in": [],
@@ -48,6 +49,39 @@
         },
         "sports": {
           "intro": "Philippine sports media is dominated by basketball, from the PBA to the national team, along with boxing and volleyball."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "As Filipinas têm uma imprensa viva e competitiva em inglês e filipino. Philippine Daily Inquirer, The Philippine Star e Manila Bulletin lideram a imprensa escrita, enquanto GMA e ABS-CBN dominam o telejornalismo; a ABS-CBN perdeu sua concessão de radiodifusão em 2020, mas continua como marca de notícias na internet e na TV a cabo. O Rappler, cofundado pela Nobel da Paz Maria Ressa, e organizações sem fins lucrativos como o Philippine Center for Investigative Journalism e a VERA Files lideram a reportagem investigativa. O país continua entre os mais perigosos da Ásia para jornalistas, sobretudo fora de Manila. Veículos regionais como SunStar e MindaNews cobrem as Visayas e Mindanao. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais das Filipinas?",
+          "a": "Os principais veículos nacionais do diretório incluem Philippine Daily Inquirer, Rappler, The Philippine Star, Manila Bulletin e GMA News. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo nas Filipinas?",
+          "a": "O trabalho investigativo do diretório vem do Rappler, do Philippine Center for Investigative Journalism e da VERA Files. A coluna Investigativo os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar notícias regionais das Filipinas?",
+          "a": "A cobertura regional do diretório vem do SunStar (Visayas e Mindanao) e do MindaNews (Mindanao). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais das Filipinas ficam na região metropolitana de Manila e publicam principalmente em inglês, com tabloides em filipino."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo filipino, de redações digitais a centros sem fins lucrativos, documentou corrupção e violações de direitos humanos."
+        },
+        "broadcast": {
+          "intro": "As redes de televisão são a principal fonte de notícias para a maioria dos filipinos. As redes abaixo publicam seus telejornais na internet."
+        },
+        "sports": {
+          "intro": "A mídia esportiva filipina é dominada pelo basquete, da PBA à seleção, ao lado do boxe e do vôlei."
         }
       },
       "reviewed": true,

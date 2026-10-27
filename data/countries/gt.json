@@ -3,7 +3,8 @@
   "iso3": "GTM",
   "slug": "guatemala",
   "name": {
-    "en": "Guatemala"
+    "en": "Guatemala",
+    "pt": "Guatemala"
   },
   "continent": "north-america",
   "also_in": [],
@@ -45,6 +46,32 @@
         },
         "broadcast": {
           "intro": "Radio and television carry national news across Guatemala. The stations and channels below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Guatemala é liderado, a partir da Cidade da Guatemala, pelo Prensa Libre, o maior diário, ao lado do tabloide popular Nuestro Diario, do nativo digital Soy502 e do radiojornalismo da Emisoras Unidas. Redações sem fins lucrativos e digitais como Plaza Pública e Agencia Ocote cobrem corrupção, justiça e migração. Os jornalistas enfrentam pressão judicial e ameaças, e o fechamento do elPeriódico em 2023, após a prisão de seu fundador, é muito citado por organizações de liberdade de imprensa. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Guatemala?",
+          "a": "Os principais veículos nacionais do diretório incluem Prensa Libre, Soy502, La Hora e Nuestro Diario. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo na Guatemala?",
+          "a": "O trabalho investigativo do diretório vem de Plaza Pública, Agencia Ocote, No-Ficción e Ojoconmipisto. A coluna Investigativo os lista em ordem editorial."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Guatemala ficam na Cidade da Guatemala e combinam um diário tradicional, um tabloide popular e sites de notícias digitais."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Guatemala vem sobretudo de redações sem fins lucrativos e digitais que cobrem corrupção, justiça e gasto público."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão levam as notícias nacionais a toda a Guatemala. As emissoras e os canais abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": false,

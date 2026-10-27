@@ -3,7 +3,8 @@
   "iso3": "BLZ",
   "slug": "belize",
   "name": {
-    "en": "Belize"
+    "en": "Belize",
+    "pt": "Belize"
   },
   "continent": "north-america",
   "also_in": [],
@@ -40,6 +41,29 @@
         },
         "broadcast": {
           "intro": "Evening television newscasts and radio are central to news in Belize. The stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "Belize, único país de língua inglesa da América Central, tem um mercado de notícias pequeno, construído em torno de jornais semanais e telejornais noturnos. O Amandala é o principal semanário independente, enquanto The Belize Times e The Guardian estão ligados aos dois principais partidos políticos. O 7 News publica seu telejornal noturno na internet, e a Love FM é uma das principais rádios. O San Pedro Sun cobre Ambergris Caye. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias de Belize?",
+          "a": "Os principais veículos do diretório incluem Amandala, Breaking Belize News, 7 News e Love FM. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Os jornais de Belize estão ligados a partidos políticos?",
+          "a": "O The Belize Times está ligado ao People's United Party, e o The Guardian, ao United Democratic Party. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias de Belize vêm sobretudo de jornais semanais e de seus sites, com atualizações diárias na internet."
+        },
+        "broadcast": {
+          "intro": "Os telejornais noturnos e o rádio são centrais para as notícias em Belize. As emissoras abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": false,

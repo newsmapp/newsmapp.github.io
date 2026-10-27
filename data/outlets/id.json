@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Indonesia's national daily of reference, with politics, economy and in-depth reporting."
+      "en": "Indonesia's national daily of reference, with politics, economy and in-depth reporting.",
+      "pt": "Diário nacional de referência da Indonésia, com política, economia e reportagens aprofundadas."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Free news portal of the Kompas group, with national and regional news."
+      "en": "Free news portal of the Kompas group, with national and regional news.",
+      "pt": "Portal de notícias gratuito do grupo Kompas, com notícias nacionais e regionais."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Weekly news magazine and daily site known for investigative reporting on power."
+      "en": "Weekly news magazine and daily site known for investigative reporting on power.",
+      "pt": "Revista semanal e site diário conhecidos pela reportagem investigativa sobre o poder."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Indonesia's pioneering online news portal with fast national news."
+      "en": "Indonesia's pioneering online news portal with fast national news.",
+      "pt": "Portal pioneiro de notícias on-line da Indonésia, com notícias nacionais rápidas."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "State news agency with national wires in Indonesian and English."
+      "en": "State news agency with national wires in Indonesian and English.",
+      "pt": "Agência de notícias estatal com noticiário nacional em indonésio e inglês."
     },
     "about": {},
     "sources": [
@@ -235,7 +240,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language daily covering Indonesian politics and society."
+      "en": "English-language daily covering Indonesian politics and society.",
+      "pt": "Diário em inglês que cobre a política e a sociedade da Indonésia."
     },
     "about": {},
     "sources": [],
@@ -274,7 +280,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with news for a Muslim readership and national affairs."
+      "en": "National daily with news for a Muslim readership and national affairs.",
+      "pt": "Diário nacional com notícias voltadas ao público muçulmano e assuntos nacionais."
     },
     "about": {},
     "sources": [],
@@ -315,7 +322,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily of the Media Group, sister title to Metro TV, with politics and economy."
+      "en": "National daily of the Media Group, sister title to Metro TV, with politics and economy.",
+      "pt": "Diário nacional do Media Group, irmão da Metro TV, com política e economia."
     },
     "about": {},
     "sources": [],
@@ -356,7 +364,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Indonesian CNN licensee from CT Corp, with television bulletins and online national news."
+      "en": "Indonesian CNN licensee from CT Corp, with television bulletins and online national news.",
+      "pt": "Licenciada da CNN na Indonésia, da CT Corp, com telejornais e notícias nacionais on-line."
     },
     "about": {},
     "sources": [],
@@ -395,7 +404,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News television channel of the Kompas Gramedia group, with national and regional bulletins."
+      "en": "News television channel of the Kompas Gramedia group, with national and regional bulletins.",
+      "pt": "Canal de notícias do grupo Kompas Gramedia, com noticiários nacionais e regionais."
     },
     "about": {},
     "sources": [],
@@ -434,7 +444,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Indonesia's first 24-hour news channel, owned by Media Group, with live national news."
+      "en": "Indonesia's first 24-hour news channel, owned by Media Group, with live national news.",
+      "pt": "Primeiro canal de notícias 24 horas da Indonésia, do Media Group, com notícias nacionais ao vivo."
     },
     "about": {},
     "sources": [],
@@ -473,7 +484,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Indonesia's public television broadcaster and its news service."
+      "en": "Indonesia's public television broadcaster and its news service.",
+      "pt": "Emissora pública de televisão da Indonésia e seu serviço de notícias."
     },
     "about": {},
     "sources": [],
@@ -514,7 +526,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Public radio network with stations in every province, broadcasting national and local news."
+      "en": "Public radio network with stations in every province, broadcasting national and local news.",
+      "pt": "Rede pública de rádio com emissoras em todas as províncias, com notícias nacionais e locais."
     },
     "about": {},
     "sources": [],
@@ -553,7 +566,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Leading business daily covering markets, companies and the economy."
+      "en": "Leading business daily covering markets, companies and the economy.",
+      "pt": "Principal diário de negócios, com mercados, empresas e a economia."
     },
     "about": {},
     "sources": [],
@@ -592,7 +606,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business and investment publication from Kompas Gramedia with stock market and company news."
+      "en": "Business and investment publication from Kompas Gramedia with stock market and company news.",
+      "pt": "Publicação de negócios e investimentos da Kompas Gramedia, com bolsa e notícias de empresas."
     },
     "about": {},
     "sources": [],
@@ -633,7 +648,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news channel and site with markets and economy coverage."
+      "en": "Business news channel and site with markets and economy coverage.",
+      "pt": "Canal e site de notícias de negócios com cobertura de mercados e economia."
     },
     "about": {},
     "sources": [],
@@ -672,7 +688,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Data-driven business and economy news site with charts, research and policy coverage."
+      "en": "Data-driven business and economy news site with charts, research and policy coverage.",
+      "pt": "Site de negócios e economia baseado em dados, com gráficos, pesquisas e políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -713,7 +730,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with explainers, data journalism and fact-checking."
+      "en": "Digital outlet with explainers, data journalism and fact-checking.",
+      "pt": "Veículo digital com textos explicativos, jornalismo de dados e checagem."
     },
     "about": {},
     "sources": [],
@@ -752,7 +770,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet reporting on marginalized communities and public interest issues."
+      "en": "Nonprofit outlet reporting on marginalized communities and public interest issues.",
+      "pt": "Veículo sem fins lucrativos que cobre comunidades marginalizadas e temas de interesse público."
     },
     "about": {},
     "sources": [],
@@ -791,7 +810,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking project of Mafindo, debunking hoaxes circulating online."
+      "en": "Fact-checking project of Mafindo, debunking hoaxes circulating online.",
+      "pt": "Projeto de checagem da Mafindo que desmente boatos que circulam na internet."
     },
     "about": {},
     "sources": [],
@@ -830,7 +850,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports news site with football, badminton and MotoGP coverage."
+      "en": "Sports news site with football, badminton and MotoGP coverage.",
+      "pt": "Site de notícias esportivas com futebol, badminton e MotoGP."
     },
     "about": {},
     "sources": [],
@@ -869,7 +890,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports portal from Emtek focused on Indonesian football, the national team and European leagues."
+      "en": "Sports portal from Emtek focused on Indonesian football, the national team and European leagues.",
+      "pt": "Portal esportivo da Emtek focado no futebol indonésio, na seleção e nas ligas europeias."
     },
     "about": {},
     "sources": [],
@@ -908,7 +930,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports channel of detikcom with football and badminton news."
+      "en": "Sports channel of detikcom with football and badminton news.",
+      "pt": "Canal esportivo do detikcom com notícias de futebol e badminton."
     },
     "about": {},
     "sources": [],
@@ -947,7 +970,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports news site covering Indonesian football and badminton."
+      "en": "Sports news site covering Indonesian football and badminton.",
+      "pt": "Site de notícias esportivas que cobre o futebol e o badminton indonésios."
     },
     "about": {},
     "sources": [],
@@ -986,7 +1010,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology channel of Kompas.com with gadgets and internet news."
+      "en": "Technology channel of Kompas.com with gadgets and internet news.",
+      "pt": "Canal de tecnologia do Kompas.com com notícias de aparelhos e internet."
     },
     "about": {},
     "sources": [],
@@ -1027,7 +1052,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Startup and technology news site covering Indonesia's digital economy."
+      "en": "Startup and technology news site covering Indonesia's digital economy.",
+      "pt": "Site de notícias de startups e tecnologia que cobre a economia digital da Indonésia."
     },
     "about": {},
     "sources": [],
@@ -1068,7 +1094,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Surabaya-based daily covering East Java and national news, flagship of the Jawa Pos Group."
+      "en": "Surabaya-based daily covering East Java and national news, flagship of the Jawa Pos Group.",
+      "pt": "Diário de Surabaya com notícias de Java Oriental e nacionais, principal título do Jawa Pos Group."
     },
     "about": {},
     "sources": [],
@@ -1107,7 +1134,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Bandung daily covering West Java's politics, economy and local communities."
+      "en": "Bandung daily covering West Java's politics, economy and local communities.",
+      "pt": "Diário de Bandung que cobre a política, a economia e as comunidades de Java Ocidental."
     },
     "about": {},
     "sources": [],
@@ -1146,7 +1174,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Semarang daily covering Central Java's politics, economy and local communities."
+      "en": "Semarang daily covering Central Java's politics, economy and local communities.",
+      "pt": "Diário de Semarang que cobre a política, a economia e as comunidades de Java Central."
     },
     "about": {},
     "sources": [],
@@ -1185,7 +1214,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Denpasar daily covering Bali's politics, tourism, culture and local communities."
+      "en": "Denpasar daily covering Bali's politics, tourism, culture and local communities.",
+      "pt": "Diário de Denpasar que cobre a política, o turismo, a cultura e as comunidades de Bali."
     },
     "about": {},
     "sources": [],
@@ -1226,7 +1256,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Network of regional news sites under the Tribun brand, with local editions across Indonesia."
+      "en": "Network of regional news sites under the Tribun brand, with local editions across Indonesia.",
+      "pt": "Rede de sites de notícias regionais da marca Tribun, com edições locais em toda a Indonésia."
     },
     "about": {},
     "sources": [],

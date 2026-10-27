@@ -3,7 +3,8 @@
   "iso3": "NIC",
   "slug": "nicaragua",
   "name": {
-    "en": "Nicaragua"
+    "en": "Nicaragua",
+    "pt": "Nicarágua"
   },
   "continent": "north-america",
   "also_in": [],
@@ -40,6 +41,29 @@
         },
         "investigative": {
           "intro": "Investigative journalism on Nicaragua is carried out by digital newsrooms operating mostly from abroad."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "A imprensa independente da Nicarágua trabalha em grande parte do exílio. Desde 2018, o governo fechou ou confiscou redações, incluindo as sedes do La Prensa e do Confidencial, e muitos jornalistas foram forçados a deixar o país ou tiveram a nacionalidade retirada. Veículos como La Prensa, Confidencial, Divergentes e Artículo 66 continuam publicando na internet a partir do exterior, enquanto as notícias alinhadas ao governo são publicadas pelo El 19 Digital e pelos canais oficiais. Organizações de liberdade de imprensa classificam a Nicarágua entre os países mais restritivos das Américas. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "A mídia independente da Nicarágua ainda publica?",
+          "a": "Sim. La Prensa, Confidencial, Divergentes e Artículo 66 publicam na internet, sobretudo do exílio. O diretório os lista com a sua propriedade."
+        },
+        {
+          "q": "Quais veículos nicaraguenses são alinhados ao governo?",
+          "a": "O El 19 Digital é o site de notícias oficial do governo. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os principais veículos independentes da Nicarágua hoje publicam na internet, sobretudo do exílio, ao lado da mídia alinhada ao governo."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo sobre a Nicarágua é feito por redações digitais que operam sobretudo do exterior."
         }
       },
       "reviewed": false,

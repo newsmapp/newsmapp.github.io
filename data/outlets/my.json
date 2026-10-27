@@ -27,7 +27,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Independent subscription news site founded in 1999, known for political reporting."
+      "en": "Independent subscription news site founded in 1999, known for political reporting.",
+      "pt": "Site de notícias independente por assinatura fundado em 1999, conhecido pela reportagem política."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language daily with the largest circulation in Malaysia."
+      "en": "English-language daily with the largest circulation in Malaysia.",
+      "pt": "Diário em inglês com a maior circulação da Malásia, com notícias nacionais e negócios."
     },
     "about": {},
     "sources": [],
@@ -105,7 +107,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language daily tracing its history to 1845, with national news and politics."
+      "en": "English-language daily tracing its history to 1845, with national news and politics.",
+      "pt": "Diário em inglês com história que remonta a 1845, com notícias nacionais e política."
     },
     "about": {},
     "sources": [],
@@ -146,7 +149,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent bilingual news site with national news, politics and opinion."
+      "en": "Independent bilingual news site with national news, politics and opinion.",
+      "pt": "Site de notícias bilíngue e independente, com notícias nacionais, política e opinião."
     },
     "about": {},
     "sources": [],
@@ -185,7 +189,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Malay-language daily with national news, politics and religion."
+      "en": "Malay-language daily with national news, politics and religion.",
+      "pt": "Diário em malaio com notícias nacionais, política e religião."
     },
     "about": {},
     "sources": [],
@@ -226,7 +231,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Malay-language daily with national news, politics and community stories."
+      "en": "Malay-language daily with national news, politics and community stories.",
+      "pt": "Diário em malaio com notícias nacionais, política e histórias da comunidade."
     },
     "about": {},
     "sources": [],
@@ -265,7 +271,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Malay-language daily with a long history of political coverage."
+      "en": "Malay-language daily with a long history of political coverage.",
+      "pt": "Diário em malaio com longa tradição de cobertura política e notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -304,7 +311,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Malay-language tabloid with local news, crime, sports and entertainment."
+      "en": "Malay-language tabloid with local news, crime, sports and entertainment.",
+      "pt": "Tabloide em malaio com notícias locais, crime, esportes e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -343,7 +351,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Malaysia's national news agency, with news in English and Malay."
+      "en": "Malaysia's national news agency, with news in English and Malay.",
+      "pt": "Agência nacional de notícias da Malásia, com notícias em inglês e malaio."
     },
     "about": {},
     "sources": [
@@ -387,7 +396,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet with in-depth reporting on the environment and land in Malaysia."
+      "en": "Nonprofit outlet with in-depth reporting on the environment and land in Malaysia.",
+      "pt": "Veículo sem fins lucrativos com reportagens aprofundadas sobre meio ambiente e terra na Malásia."
     },
     "about": {},
     "sources": [],
@@ -426,7 +436,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business weekly and site covering Bursa Malaysia, companies and investigations."
+      "en": "Business weekly and site covering Bursa Malaysia, companies and investigations.",
+      "pt": "Semanário e site de negócios que cobrem a Bursa Malaysia, as empresas e investigações."
     },
     "about": {},
     "sources": [],
@@ -465,7 +476,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily covering Malaysian markets, trade and economic policy."
+      "en": "Business daily covering Malaysian markets, trade and economic policy.",
+      "pt": "Diário de negócios que cobre os mercados, o comércio e a política econômica da Malásia."
     },
     "about": {},
     "sources": [],
@@ -504,7 +516,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering smartphones, telecoms and electric vehicles in Malaysia."
+      "en": "Technology news site covering smartphones, telecoms and electric vehicles in Malaysia.",
+      "pt": "Site de tecnologia que cobre smartphones, telecomunicações e veículos elétricos na Malásia."
     },
     "about": {},
     "sources": [],
@@ -545,7 +558,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "24-hour news channel and site in Malay and English, from Astro."
+      "en": "24-hour news channel and site in Malay and English, from Astro.",
+      "pt": "Canal e site de notícias 24 horas em malaio e inglês, da Astro."
     },
     "about": {},
     "sources": [],
@@ -584,7 +598,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of Radio Televisyen Malaysia, the state broadcaster."
+      "en": "News service of Radio Televisyen Malaysia, the state broadcaster.",
+      "pt": "Serviço de notícias da Radio Televisyen Malaysia, a emissora estatal."
     },
     "about": {},
     "sources": [],
@@ -623,7 +638,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports site covering Malaysian football, badminton and international sport."
+      "en": "Sports site covering Malaysian football, badminton and international sport.",
+      "pt": "Site esportivo que cobre o futebol malaio, o badminton e o esporte internacional."
     },
     "about": {},
     "sources": [],
@@ -662,7 +678,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Kuching-based English-language daily covering Sarawak, Sabah and Borneo."
+      "en": "Kuching-based English-language daily covering Sarawak, Sabah and Borneo.",
+      "pt": "Diário em inglês de Kuching que cobre Sarawak, Sabah e Bornéu."
     },
     "about": {},
     "sources": [],
@@ -701,7 +718,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Kota Kinabalu daily covering Sabah, its politics and communities."
+      "en": "Kota Kinabalu daily covering Sabah, its politics and communities.",
+      "pt": "Diário de Kota Kinabalu que cobre Sabah, sua política e suas comunidades."
     },
     "about": {},
     "sources": [],

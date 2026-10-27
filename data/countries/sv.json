@@ -3,7 +3,8 @@
   "iso3": "SLV",
   "slug": "el-salvador",
   "name": {
-    "en": "El Salvador"
+    "en": "El Salvador",
+    "pt": "El Salvador"
   },
   "continent": "north-america",
   "also_in": [],
@@ -40,6 +41,29 @@
         },
         "investigative": {
           "intro": "El Salvador's digital newsrooms are known across the region for investigations into gangs, corruption and public spending."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "Os dois diários tradicionais de El Salvador, La Prensa Gráfica e El Diario de Hoy, lideram um mercado que inclui também o Diario El Mundo, o Diario Co Latino, controlado por uma cooperativa, e o Diario El Salvador, lançado em 2021. O El Faro, fundado em 1998 como um dos primeiros jornais digitais da América Latina, é conhecido internacionalmente por suas investigações, assim como a Revista Factum e o GatoEncerrado. Organizações de liberdade de imprensa relatam pressão crescente sobre jornalistas independentes, e o El Faro transferiu seu registro legal para a Costa Rica em 2023. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de El Salvador?",
+          "a": "Os principais veículos nacionais do diretório incluem La Prensa Gráfica, El Diario de Hoy e Diario El Mundo. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo em El Salvador?",
+          "a": "O trabalho investigativo do diretório vem do El Faro, Revista Factum, GatoEncerrado e Focos. A coluna Investigativo os lista em ordem editorial."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais de El Salvador ficam em San Salvador e incluem dois diários fundados no início do século 20."
+        },
+        "investigative": {
+          "intro": "As redações digitais de El Salvador são conhecidas em toda a região por investigações sobre gangues, corrupção e gasto público."
         }
       },
       "reviewed": false,

@@ -3,7 +3,8 @@
   "iso3": "MEX",
   "slug": "mexico",
   "name": {
-    "en": "Mexico"
+    "en": "Mexico",
+    "pt": "México"
   },
   "continent": "north-america",
   "also_in": [],
@@ -59,6 +60,46 @@
         },
         "regional": {
           "intro": "Beyond Mexico City, strong regional newspapers cover their states in depth. The outlets below serve Nuevo León, Jalisco, Yucatán and Baja California."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O México tem um mercado de notícias grande e competitivo centrado na Cidade do México, com diários nacionais como El Universal, Reforma, Milenio e La Jornada, e um telejornalismo dominado por TelevisaUnivision e TV Azteca. Veículos nativos digitais e organizações investigativas ganharam importância, produzindo reportagens sobre corrupção, gasto público e crime organizado. O jornalismo no México envolve sério risco físico: organizações de liberdade de imprensa classificam o país, de forma constante, entre os mais perigosos para repórteres fora de zonas de guerra, sobretudo para jornalistas locais. A publicidade oficial foi historicamente uma grande fonte de receita para muitos veículos, o que afeta a independência editorial. Os jornais regionais continuam importantes em estados grandes como Nuevo León, Jalisco e Baja California. A maioria dos sites é gratuita; o Reforma e seus títulos irmãos são exceções notáveis, com paywall rígido.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do México?",
+          "a": "Os principais veículos nacionais do diretório incluem El Universal, Milenio, Reforma, La Jornada e Excélsior. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias mexicanos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão El Universal, Milenio, El Financiero, La Jornada e Excélsior. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos mexicanos são públicos ou financiados pelo Estado?",
+          "a": "Nenhum dos veículos listados para o México é público ou financiado pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do México?",
+          "a": "A cobertura regional do diretório vem do El Norte (Nuevo León), El Informador (Jalisco), Diario de Yucatán (Yucatán) e Zeta Tijuana (Baja California). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os principais veículos nacionais do México ficam na Cidade do México e combinam impresso, internet e, em alguns casos, televisão. A lista abaixo mostra os diários e as marcas de notícias mais usados para acompanhar a política, a segurança e a economia do país."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios e finanças no México é coberto por diários financeiros e revistas de negócios, com atenção ao comércio com os Estados Unidos, às finanças públicas e ao peso. Estes são os principais veículos sobre mercados e empresas."
+        },
+        "sports": {
+          "intro": "A mídia esportiva mexicana gira em torno do futebol, da Liga MX à seleção, com cobertura também de boxe e beisebol. Os veículos abaixo incluem diários esportivos, uma rede de televisão e portais on-line."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo no México é feito por revistas de notícias, redações digitais e organizações da sociedade civil que documentam corrupção, violência e gasto público, muitas vezes com risco pessoal para os repórteres. Estes são os veículos conhecidos por esse trabalho."
+        },
+        "regional": {
+          "intro": "Fora da Cidade do México, jornais regionais fortes cobrem seus estados em profundidade. Os veículos abaixo atendem Nuevo León, Jalisco, Yucatán e Baja California."
         }
       },
       "reviewed": true,

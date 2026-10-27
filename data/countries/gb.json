@@ -3,7 +3,8 @@
   "iso3": "GBR",
   "slug": "united-kingdom",
   "name": {
-    "en": "United Kingdom"
+    "en": "United Kingdom",
+    "pt": "Reino Unido"
   },
   "continent": "europe",
   "also_in": [],
@@ -62,6 +63,49 @@
         },
         "regional": {
           "intro": "Regional outlets cover Scotland, Wales, Northern Ireland and English cities such as Manchester, each with its own political institutions and news agenda."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O Reino Unido tem uma imprensa nacional muito competitiva, concentrada em Londres, e uma emissora pública, a BBC, que é uma das fontes de notícias mais usadas do mundo. Os jornais nacionais vão de títulos por assinatura como The Times, Financial Times e The Telegraph ao The Guardian, que pertence a um trust e é gratuito na internet. O telejornalismo inclui também ITV, Channel 4 e Sky News, todos sujeitos às regras de imparcialidade do regulador Ofcom. A reportagem investigativa vem de jornais, emissoras e redações sem fins lucrativos, e uma organização beneficente independente lidera a checagem de fatos no país. Escócia, País de Gales e Irlanda do Norte têm seus próprios jornais e cobertura política. Os jornais se autorregulam sobretudo por meio da Independent Press Standards Organisation. Muitos jornais regionais foram consolidados sob poucas grandes editoras.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Reino Unido?",
+          "a": "Os principais veículos nacionais do diretório incluem BBC News, The Guardian, The Times, Financial Times e The Telegraph. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias britânicos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão BBC News, The Guardian, The Independent, Sky News e ITV News. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos britânicos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão BBC News, Channel 4 News e BBC Sport. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais do Reino Unido?",
+          "a": "A cobertura regional do diretório vem do Manchester Evening News (Grande Manchester), The Scotsman (Escócia), The Herald (Escócia), Belfast Telegraph (Irlanda do Norte) e WalesOnline (País de Gales). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para acompanhar as notícias nacionais no Reino Unido, da BBC e das agências internacionais aos jornais nacionais com diferentes modelos de paywall."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios britânico tem seu centro na City de Londres, com um diário de negócios global, uma revista semanal de economia e veículos que cobrem mercados e finanças pessoais."
+        },
+        "sports": {
+          "intro": "A mídia esportiva britânica cobre a Premier League, o críquete, o rúgbi, o tênis e a Fórmula 1 por meio de emissoras públicas e privadas, uma rádio esportiva e reportagem por assinatura."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo no Reino Unido vem de uma revista satírica com longo histórico de furos, de redações sem fins lucrativos, de uma organização independente de checagem e de equipes de TV."
+        },
+        "politics": {
+          "intro": "A política de Westminster é coberta por jornais nacionais, revistas políticas semanais, uma rádio de debates e sites especializados em notícias do Parlamento."
+        },
+        "regional": {
+          "intro": "Os veículos regionais cobrem a Escócia, o País de Gales, a Irlanda do Norte e cidades inglesas como Manchester, cada uma com suas instituições políticas e sua própria pauta."
         }
       },
       "reviewed": true,

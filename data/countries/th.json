@@ -3,7 +3,8 @@
   "iso3": "THA",
   "slug": "thailand",
   "name": {
-    "en": "Thailand"
+    "en": "Thailand",
+    "pt": "Tailândia"
   },
   "continent": "asia",
   "also_in": [],
@@ -49,6 +50,36 @@
         },
         "investigative": {
           "intro": "Independent and investigative journalism in Thailand works under legal limits on coverage of the monarchy and national security."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Tailândia tem uma grande imprensa em tailandês, liderada pelo diário popular Thairath e pelo grupo Matichon, editor do Matichon, do Khaosod e do jornal de negócios Prachachat Turakij. Veículos digitais como The Standard e Workpoint Today cresceram rapidamente, e a Thai PBS é a principal emissora pública. Prachatai e Isranews são conhecidos pela reportagem independente e investigativa, embora as leis de lesa-majestade e de crimes informáticos limitem a cobertura da monarquia e levem a processos, segundo organizações de liberdade de imprensa. As notícias em inglês vêm do Bangkok Post, do The Nation e do Khaosod English. O Isaan Record cobre o nordeste. A maioria dos sites é gratuita; o Bangkok Post usa paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias da Tailândia?",
+          "a": "Os principais veículos do diretório incluem Thairath, Matichon, Khaosod, The Standard e Bangkok Post. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Há notícias da Tailândia em inglês?",
+          "a": "Bangkok Post, The Nation, Khaosod English e The Isaan Record publicam em inglês. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Quais veículos tailandeses são financiados com recursos públicos?",
+          "a": "A Thai PBS é a emissora pública. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Tailândia ficam em Bangkok e incluem diários populares, grupos de jornais e sites digitais em rápido crescimento."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios na Tailândia cobre exportações, turismo, o baht e a Bolsa de Valores da Tailândia."
+        },
+        "investigative": {
+          "intro": "O jornalismo independente e investigativo na Tailândia trabalha sob limites legais à cobertura da monarquia e da segurança nacional."
         }
       },
       "reviewed": true,

@@ -27,7 +27,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Official state news agency publishing royal decrees and government announcements."
+      "en": "Official state news agency publishing royal decrees and government announcements.",
+      "pt": "Agência de notícias oficial do Estado, que publica decretos reais e anúncios do governo."
     },
     "about": {},
     "sources": [
@@ -73,7 +74,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Riyadh daily with national news, economy and opinion, published by Al Yamamah Press."
+      "en": "Riyadh daily with national news, economy and opinion, published by Al Yamamah Press.",
+      "pt": "Diário de Riad com notícias nacionais, economia e opinião, publicado pela Al Yamamah Press."
     },
     "about": {},
     "sources": [],
@@ -112,7 +114,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Jeddah daily with national news, society and sport, one of the Kingdom's largest papers."
+      "en": "Jeddah daily with national news, society and sport, one of the Kingdom's largest papers.",
+      "pt": "Diário de Jidá com notícias nacionais, sociedade e esportes, um dos maiores jornais do reino."
     },
     "about": {},
     "sources": [],
@@ -151,7 +154,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Abha-founded national daily with news, society and commentary on Saudi affairs."
+      "en": "Abha-founded national daily with news, society and commentary on Saudi affairs.",
+      "pt": "Diário nacional fundado em Abha, com notícias, sociedade e comentários sobre assuntos sauditas."
     },
     "about": {},
     "sources": [],
@@ -190,7 +194,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Riyadh daily with national, regional and economic news and opinion columns."
+      "en": "Riyadh daily with national, regional and economic news and opinion columns.",
+      "pt": "Diário de Riad com notícias nacionais, regionais e econômicas e colunas de opinião."
     },
     "about": {},
     "sources": [],
@@ -229,7 +234,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular Saudi news site with breaking national news, society and official announcements."
+      "en": "Popular Saudi news site with breaking national news, society and official announcements.",
+      "pt": "Site de notícias saudita popular, com notícias nacionais de última hora, sociedade e anúncios oficiais."
     },
     "about": {},
     "sources": [],
@@ -270,7 +276,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language daily covering Saudi Arabia and the Middle East."
+      "en": "English-language daily covering Saudi Arabia and the Middle East.",
+      "pt": "Diário em inglês que cobre a Arábia Saudita e o Oriente Médio."
     },
     "about": {},
     "sources": [],
@@ -309,7 +316,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language daily covering the Kingdom and expatriate communities."
+      "en": "English-language daily covering the Kingdom and expatriate communities.",
+      "pt": "Diário em inglês que cobre o reino e as comunidades de estrangeiros."
     },
     "about": {},
     "sources": [],
@@ -350,7 +358,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Pan-Arab daily with Middle East politics and international news."
+      "en": "Pan-Arab daily with Middle East politics and international news.",
+      "pt": "Diário pan-árabe com política do Oriente Médio e notícias internacionais."
     },
     "about": {},
     "sources": [],
@@ -391,7 +400,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Pan-Arab news channel with regional politics and live coverage."
+      "en": "Pan-Arab news channel with regional politics and live coverage.",
+      "pt": "Canal de notícias pan-árabe com política regional e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -430,7 +440,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "State news channel with national news, official events and live government coverage."
+      "en": "State news channel with national news, official events and live government coverage.",
+      "pt": "Canal de notícias estatal com notícias nacionais, eventos oficiais e cobertura ao vivo do governo."
     },
     "about": {},
     "sources": [
@@ -474,7 +485,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Financial portal with Saudi stock market data and company news."
+      "en": "Financial portal with Saudi stock market data and company news.",
+      "pt": "Portal financeiro com dados da bolsa saudita e notícias de empresas."
     },
     "about": {},
     "sources": [],
@@ -513,7 +525,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily covering the Saudi economy, oil, markets and economic reform programs."
+      "en": "Business daily covering the Saudi economy, oil, markets and economic reform programs.",
+      "pt": "Diário de negócios que cobre a economia saudita, o petróleo, os mercados e as reformas econômicas."
     },
     "about": {},
     "sources": [],
@@ -554,7 +567,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Arabic business news channel and site produced in partnership with Bloomberg."
+      "en": "Arabic business news channel and site produced in partnership with Bloomberg.",
+      "pt": "Canal e site de notícias de negócios em árabe produzidos em parceria com a Bloomberg."
     },
     "about": {},
     "sources": [],
@@ -593,7 +607,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business newspaper covering Saudi markets, companies and the economy, mainly online."
+      "en": "Business newspaper covering Saudi markets, companies and the economy, mainly online.",
+      "pt": "Jornal de negócios que cobre os mercados, as empresas e a economia sauditas, sobretudo on-line."
     },
     "about": {},
     "sources": [],
@@ -632,7 +647,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily focused on the Saudi Pro League and Gulf football."
+      "en": "Sports daily focused on the Saudi Pro League and Gulf football.",
+      "pt": "Diário esportivo focado na Saudi Pro League e no futebol do Golfo."
     },
     "about": {},
     "sources": [],
@@ -671,7 +687,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Jeddah daily covering the Hejaz region, Makkah, Madinah and national news."
+      "en": "Jeddah daily covering the Hejaz region, Makkah, Madinah and national news.",
+      "pt": "Diário de Jidá que cobre a região do Hejaz, Meca, Medina e as notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -710,7 +727,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Dammam daily covering the Eastern Province, its energy industry and communities."
+      "en": "Dammam daily covering the Eastern Province, its energy industry and communities.",
+      "pt": "Diário de Damã que cobre a Província Oriental, sua indústria de energia e suas comunidades."
     },
     "about": {},
     "sources": [],
@@ -749,7 +767,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Jeddah daily and one of the oldest newspapers in the Kingdom, covering Makkah Province."
+      "en": "Jeddah daily and one of the oldest newspapers in the Kingdom, covering Makkah Province.",
+      "pt": "Diário de Jidá e um dos jornais mais antigos do reino, cobrindo a Província de Meca."
     },
     "about": {},
     "sources": [],

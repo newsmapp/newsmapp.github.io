@@ -29,7 +29,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National daily of record with deep coverage of politics, world affairs, culture and investigations."
+      "en": "National daily of record with deep coverage of politics, world affairs, culture and investigations.",
+      "pt": "Diário nacional de referência com cobertura aprofundada de política, mundo, cultura e investigações."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Capital-based daily focused on federal politics, national security and accountability reporting."
+      "en": "Capital-based daily focused on federal politics, national security and accountability reporting.",
+      "pt": "Diário da capital focado em política federal, segurança nacional e fiscalização do poder."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit news cooperative supplying fast, plain-language wire reporting to thousands of outlets."
+      "en": "Nonprofit news cooperative supplying fast, plain-language wire reporting to thousands of outlets.",
+      "pt": "Cooperativa de notícias sem fins lucrativos que fornece noticiário rápido e direto a milhares de veículos."
     },
     "about": {},
     "sources": [],
@@ -154,7 +157,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, companies and economic policy, with national and world news."
+      "en": "Business daily covering markets, companies and economic policy, with national and world news.",
+      "pt": "Diário de negócios que cobre mercados, empresas e política econômica, com notícias nacionais e do mundo."
     },
     "about": {},
     "sources": [],
@@ -197,7 +201,8 @@
     "format": "broadcaster-radio",
     "editor_pick": true,
     "pitch": {
-      "en": "Public radio network with national newscasts, long-form audio journalism and podcasts."
+      "en": "Public radio network with national newscasts, long-form audio journalism and podcasts.",
+      "pt": "Rede de rádio pública com noticiários nacionais, jornalismo em áudio de fôlego e podcasts."
     },
     "about": {},
     "sources": [],
@@ -238,7 +243,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Largest West Coast daily, covering California politics, entertainment and the environment."
+      "en": "Largest West Coast daily, covering California politics, entertainment and the environment.",
+      "pt": "Maior diário da Costa Oeste, com a política da Califórnia, entretenimento e meio ambiente."
     },
     "about": {},
     "sources": [],
@@ -279,7 +285,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour cable news network with breaking news, live video and international coverage."
+      "en": "24-hour cable news network with breaking news, live video and international coverage.",
+      "pt": "Rede de notícias a cabo 24 horas com notícias de última hora, vídeo ao vivo e cobertura internacional."
     },
     "about": {},
     "sources": [],
@@ -320,7 +327,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public television newscast known for long interviews, analysis and slower-paced reporting."
+      "en": "Public television newscast known for long interviews, analysis and slower-paced reporting.",
+      "pt": "Telejornal público conhecido pelas entrevistas longas, pela análise e por um ritmo mais calmo."
     },
     "about": {},
     "sources": [],
@@ -359,7 +367,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Broadcast network news division with national, political and investigative reporting."
+      "en": "Broadcast network news division with national, political and investigative reporting.",
+      "pt": "Divisão de notícias da rede de TV, com reportagem nacional, política e investigativa."
     },
     "about": {},
     "sources": [],
@@ -400,7 +409,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Cable news channel and website with national news, politics and opinion programming."
+      "en": "Cable news channel and website with national news, politics and opinion programming.",
+      "pt": "Canal de notícias a cabo e site com notícias nacionais, política e programas de opinião."
     },
     "about": {},
     "sources": [],
@@ -439,7 +449,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Washington newsroom tracking Congress, the White House, campaigns and policy fights."
+      "en": "Washington newsroom tracking Congress, the White House, campaigns and policy fights.",
+      "pt": "Redação de Washington que acompanha o Congresso, a Casa Branca, as campanhas e as disputas de políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -478,7 +489,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Capitol Hill publication covering Congress, lobbying, campaigns and federal policy."
+      "en": "Capitol Hill publication covering Congress, lobbying, campaigns and federal policy.",
+      "pt": "Publicação do Capitólio que cobre o Congresso, o lobby, as campanhas e a política federal."
     },
     "about": {},
     "sources": [],
@@ -517,7 +529,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Global business and markets news service with data-driven reporting on companies and policy."
+      "en": "Global business and markets news service with data-driven reporting on companies and policy.",
+      "pt": "Serviço global de notícias de negócios e mercados com reportagem baseada em dados sobre empresas e políticas."
     },
     "about": {},
     "sources": [],
@@ -558,7 +571,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news channel with live market coverage, earnings and personal finance."
+      "en": "Business news channel with live market coverage, earnings and personal finance.",
+      "pt": "Canal de notícias de negócios com cobertura ao vivo dos mercados, balanços e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -597,7 +611,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Markets and personal finance site with stock data, investing news and commentary."
+      "en": "Markets and personal finance site with stock data, investing news and commentary.",
+      "pt": "Site de mercados e finanças pessoais com dados de ações, notícias de investimentos e comentários."
     },
     "about": {},
     "sources": [],
@@ -636,7 +651,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine known for the Fortune 500 list and coverage of corporate leadership."
+      "en": "Business magazine known for the Fortune 500 list and coverage of corporate leadership.",
+      "pt": "Revista de negócios conhecida pela lista Fortune 500 e pela cobertura da liderança corporativa."
     },
     "about": {},
     "sources": [],
@@ -675,7 +691,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit newsroom producing investigative journalism in the public interest, free to read."
+      "en": "Nonprofit newsroom producing investigative journalism in the public interest, free to read.",
+      "pt": "Redação sem fins lucrativos que produz jornalismo investigativo de interesse público, gratuito."
     },
     "about": {},
     "sources": [],
@@ -714,7 +731,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking site rating claims by politicians and public figures on its Truth-O-Meter."
+      "en": "Fact-checking site rating claims by politicians and public figures on its Truth-O-Meter.",
+      "pt": "Site de checagem que avalia alegações de políticos e figuras públicas em seu Truth-O-Meter."
     },
     "about": {},
     "sources": [],
@@ -753,7 +771,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonpartisan project checking the accuracy of claims in U.S. politics and advertising."
+      "en": "Nonpartisan project checking the accuracy of claims in U.S. politics and advertising.",
+      "pt": "Projeto apartidário que verifica a precisão de alegações na política e na publicidade dos EUA."
     },
     "about": {},
     "sources": [],
@@ -794,7 +813,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports network and site with scores, analysis and coverage of every major U.S. league."
+      "en": "Sports network and site with scores, analysis and coverage of every major U.S. league.",
+      "pt": "Rede e site esportivo com placares, análises e cobertura de todas as grandes ligas dos EUA."
     },
     "about": {},
     "sources": [],
@@ -833,7 +853,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Subscription sports site with team-by-team beat reporting and in-depth analysis."
+      "en": "Subscription sports site with team-by-team beat reporting and in-depth analysis.",
+      "pt": "Site esportivo por assinatura com cobertura time a time e análises aprofundadas."
     },
     "about": {},
     "sources": [],
@@ -872,7 +893,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Long-running sports magazine brand with news, features and team coverage."
+      "en": "Long-running sports magazine brand with news, features and team coverage.",
+      "pt": "Marca tradicional de revista esportiva com notícias, reportagens e cobertura de times."
     },
     "about": {},
     "sources": [],
@@ -911,7 +933,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports news, scores, fantasy tools and betting analysis from the CBS network."
+      "en": "Sports news, scores, fantasy tools and betting analysis from the CBS network.",
+      "pt": "Notícias esportivas, placares, ferramentas de fantasy e análises de apostas da rede CBS."
     },
     "about": {},
     "sources": [],
@@ -950,7 +973,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "High-traffic sports portal with scores, fantasy leagues and national reporting."
+      "en": "High-traffic sports portal with scores, fantasy leagues and national reporting.",
+      "pt": "Portal esportivo de grande audiência com placares, ligas de fantasy e reportagem nacional."
     },
     "about": {},
     "sources": [],
@@ -989,7 +1013,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Magazine on how technology changes culture, business, politics and science."
+      "en": "Magazine on how technology changes culture, business, politics and science.",
+      "pt": "Revista sobre como a tecnologia transforma a cultura, os negócios, a política e a ciência."
     },
     "about": {},
     "sources": [],
@@ -1028,7 +1053,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology site with detailed reporting on science, IT, policy and gaming."
+      "en": "Technology site with detailed reporting on science, IT, policy and gaming.",
+      "pt": "Site de tecnologia com reportagem detalhada sobre ciência, TI, políticas públicas e games."
     },
     "about": {},
     "sources": [],
@@ -1067,7 +1093,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Oldest continuously published U.S. magazine, explaining science for a general audience."
+      "en": "Oldest continuously published U.S. magazine, explaining science for a general audience.",
+      "pt": "Revista americana mais antiga em publicação contínua, que explica a ciência para o público geral."
     },
     "about": {},
     "sources": [],
@@ -1106,7 +1133,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "MIT-owned magazine on emerging technology, artificial intelligence and climate tech."
+      "en": "MIT-owned magazine on emerging technology, artificial intelligence and climate tech.",
+      "pt": "Revista do MIT sobre tecnologias emergentes, inteligência artificial e tecnologia climática."
     },
     "about": {},
     "sources": [],
@@ -1145,7 +1173,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Consumer technology site covering gadgets, platforms, science and tech policy."
+      "en": "Consumer technology site covering gadgets, platforms, science and tech policy.",
+      "pt": "Site de tecnologia de consumo que cobre aparelhos, plataformas, ciência e política de tecnologia."
     },
     "about": {},
     "sources": [],
@@ -1184,7 +1213,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Chicago daily covering the city, Illinois politics and the Midwest."
+      "en": "Chicago daily covering the city, Illinois politics and the Midwest.",
+      "pt": "Diário de Chicago que cobre a cidade, a política de Illinois e o Meio-Oeste."
     },
     "about": {},
     "sources": [],
@@ -1223,7 +1253,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "New England's largest daily, known for its Spotlight investigative team."
+      "en": "New England's largest daily, known for its Spotlight investigative team.",
+      "pt": "Maior diário da Nova Inglaterra, conhecido por sua equipe investigativa Spotlight."
     },
     "about": {},
     "sources": [],
@@ -1262,7 +1293,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Largest daily in Texas, covering Houston, energy, Texas politics and the Gulf Coast."
+      "en": "Largest daily in Texas, covering Houston, energy, Texas politics and the Gulf Coast.",
+      "pt": "Maior diário do Texas, cobrindo Houston, energia, a política texana e a Costa do Golfo."
     },
     "about": {},
     "sources": [],
@@ -1301,7 +1333,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "South Florida daily with coverage of Miami, state politics and Latin America."
+      "en": "South Florida daily with coverage of Miami, state politics and Latin America.",
+      "pt": "Diário do sul da Flórida com cobertura de Miami, da política estadual e da América Latina."
     },
     "about": {},
     "sources": [],

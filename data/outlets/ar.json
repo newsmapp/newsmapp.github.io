@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Buenos Aires daily with the largest readership in Argentina, covering politics, the economy and society."
+      "en": "Buenos Aires daily with the largest readership in Argentina, covering politics, the economy and society.",
+      "pt": "Diário de Buenos Aires com o maior número de leitores da Argentina, cobrindo política, economia e sociedade."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Buenos Aires daily founded by Bartolomé Mitre, with national politics, business and opinion."
+      "en": "Buenos Aires daily founded by Bartolomé Mitre, with national politics, business and opinion.",
+      "pt": "Diário de Buenos Aires fundado por Bartolomé Mitre, com política nacional, negócios e opinião."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "High-volume digital news site with national, Latin American and world coverage."
+      "en": "High-volume digital news site with national, Latin American and world coverage.",
+      "pt": "Site de notícias digital de grande volume, com cobertura nacional, latino-americana e mundial."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Buenos Aires daily focused on politics, human rights and culture."
+      "en": "Buenos Aires daily focused on politics, human rights and culture.",
+      "pt": "Diário de Buenos Aires focado em política, direitos humanos e cultura."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekend newspaper and news site with interviews, politics and analysis."
+      "en": "Weekend newspaper and news site with interviews, politics and analysis.",
+      "pt": "Jornal de fim de semana e site de notícias com entrevistas, política e análise."
     },
     "about": {},
     "sources": [],
@@ -232,7 +237,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital newsroom covering national politics, the economy and social issues."
+      "en": "Digital newsroom covering national politics, the economy and social issues.",
+      "pt": "Redação digital que cobre política nacional, economia e temas sociais."
     },
     "about": {},
     "sources": [],
@@ -273,7 +279,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Financial daily covering markets, the peso, inflation and economic policy."
+      "en": "Financial daily covering markets, the peso, inflation and economic policy.",
+      "pt": "Diário financeiro que cobre mercados, o peso, a inflação e a política econômica."
     },
     "about": {},
     "sources": [],
@@ -312,7 +319,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily with markets, companies and personal finance."
+      "en": "Business daily with markets, companies and personal finance.",
+      "pt": "Diário de negócios com mercados, empresas e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -353,7 +361,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business and technology news site covering companies, finance and digital industries."
+      "en": "Business and technology news site covering companies, finance and digital industries.",
+      "pt": "Site de notícias de negócios e tecnologia que cobre empresas, finanças e setores digitais."
     },
     "about": {},
     "sources": [],
@@ -392,7 +401,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily centered on Argentine football, from the national team to the Liga Profesional."
+      "en": "Sports daily centered on Argentine football, from the national team to the Liga Profesional.",
+      "pt": "Diário esportivo centrado no futebol argentino, da seleção à Liga Profesional."
     },
     "about": {},
     "sources": [],
@@ -433,7 +443,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports television channel and website with football coverage and live results."
+      "en": "Sports television channel and website with football coverage and live results.",
+      "pt": "Canal de televisão esportiva e site com cobertura de futebol e resultados ao vivo."
     },
     "about": {},
     "sources": [],
@@ -474,7 +485,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Todo Noticias, the 24-hour cable news channel of Grupo Clarín."
+      "en": "Todo Noticias, the 24-hour cable news channel of Grupo Clarín.",
+      "pt": "Todo Noticias, o canal de notícias a cabo 24 horas do Grupo Clarín."
     },
     "about": {},
     "sources": [],
@@ -513,7 +525,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "AM news and talk radio station from Buenos Aires, with morning political shows."
+      "en": "AM news and talk radio station from Buenos Aires, with morning political shows.",
+      "pt": "Rádio AM de notícias e debate de Buenos Aires, com programas políticos pela manhã."
     },
     "about": {},
     "sources": [],
@@ -552,7 +565,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour cable news channel with politics and current affairs."
+      "en": "24-hour cable news channel with politics and current affairs.",
+      "pt": "Canal de notícias a cabo 24 horas com política e atualidades."
     },
     "about": {},
     "sources": [],
@@ -591,7 +605,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit fact-checking site that verifies statements by public figures and data in the news."
+      "en": "Nonprofit fact-checking site that verifies statements by public figures and data in the news.",
+      "pt": "Site de checagem sem fins lucrativos que verifica declarações de figuras públicas e dados do noticiário."
     },
     "about": {},
     "sources": [],
@@ -630,7 +645,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Córdoba's main daily, covering the province and national news."
+      "en": "Córdoba's main daily, covering the province and national news.",
+      "pt": "Principal diário de Córdoba, com cobertura da província e notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -669,7 +685,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Mendoza daily covering Cuyo, wine country and national news."
+      "en": "Mendoza daily covering Cuyo, wine country and national news.",
+      "pt": "Diário de Mendoza que cobre Cuyo, a região dos vinhos e notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -708,7 +725,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Rosario daily, one of Argentina's oldest newspapers, covering Santa Fe province."
+      "en": "Rosario daily, one of Argentina's oldest newspapers, covering Santa Fe province.",
+      "pt": "Diário de Rosário, um dos jornais mais antigos da Argentina, com cobertura da província de Santa Fe."
     },
     "about": {},
     "sources": [],
@@ -747,7 +765,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily covering northern Patagonia, including Vaca Muerta and the energy industry."
+      "en": "Daily covering northern Patagonia, including Vaca Muerta and the energy industry.",
+      "pt": "Diário que cobre o norte da Patagônia, incluindo Vaca Muerta e o setor de energia."
     },
     "about": {},
     "sources": [],
@@ -786,7 +805,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Private news agency providing national wire coverage of politics and the economy."
+      "en": "Private news agency providing national wire coverage of politics and the economy.",
+      "pt": "Agência de notícias privada com cobertura nacional de política e economia."
     },
     "about": {},
     "sources": [],

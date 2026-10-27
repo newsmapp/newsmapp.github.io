@@ -3,7 +3,8 @@
   "iso3": "USA",
   "slug": "united-states",
   "name": {
-    "en": "United States"
+    "en": "United States",
+    "pt": "Estados Unidos"
   },
   "continent": "north-america",
   "also_in": [],
@@ -53,6 +54,40 @@
         },
         "sports": {
           "intro": "American sports media combines national networks, subscription beat reporting and free score portals. The outlets listed here cover the NFL, NBA, MLB, NHL and college sports, with notes on which ones require a subscription."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "Os Estados Unidos têm um dos maiores e mais diversos mercados de notícias do mundo do ponto de vista comercial. Jornais nacionais como The New York Times, The Washington Post e The Wall Street Journal construíram grandes negócios de assinatura digital, enquanto redes a cabo e emissoras públicas disputam o público na televisão, no rádio e nos podcasts. As redações sem fins lucrativos se tornaram parte importante da reportagem investigativa, e organizações dedicadas à checagem acompanham as alegações feitas em campanhas políticas. O jornalismo local encolheu muito nas últimas duas décadas, e muitas comunidades perderam seu jornal diário; por isso, grandes diários metropolitanos e rádios públicas fazem boa parte da cobertura regional. A liberdade de imprensa é protegida pela Primeira Emenda, e não existe um regulador nacional da imprensa. A maioria dos grandes veículos usa paywall com limite de leitura ou rígido, mas agências de notícias, a mídia pública e muitos sites sem fins lucrativos continuam gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais dos Estados Unidos?",
+          "a": "Os principais veículos nacionais do diretório incluem The New York Times, The Washington Post, Associated Press, The Wall Street Journal e NPR. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias americanos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Associated Press, NPR, PBS News, NBC News e Fox News. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos americanos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a PBS News. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais dos Estados Unidos?",
+          "a": "A cobertura regional do diretório vem do Los Angeles Times (Califórnia), Chicago Tribune (Illinois), The Boston Globe (Massachusetts), Houston Chronicle (Texas) e Miami Herald (Flórida). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais nos Estados Unidos são lideradas por alguns grandes jornais com assinaturas digitais, pela agência Associated Press e pela rádio pública. Esta página lista os veículos em que os editores confiam para a cobertura diária de política, economia e assuntos internacionais, com o modelo de paywall e o dono ao lado de cada nome."
+        },
+        "economy": {
+          "intro": "A cobertura de negócios nos Estados Unidos vai de títulos por assinatura focados em mercados e empresas a canais a cabo com cobertura do pregão ao vivo e sites gratuitos de finanças pessoais. Os veículos abaixo estão ordenados por relevância editorial para acompanhar empresas, Wall Street e a política econômica."
+        },
+        "sports": {
+          "intro": "A mídia esportiva americana combina redes nacionais, cobertura por assinatura e portais gratuitos de placares. Os veículos listados aqui cobrem a NFL, a NBA, a MLB, a NHL e o esporte universitário, com indicação de quais exigem assinatura."
         }
       },
       "reviewed": true,

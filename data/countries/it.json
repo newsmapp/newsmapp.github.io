@@ -3,7 +3,8 @@
   "iso3": "ITA",
   "slug": "italy",
   "name": {
-    "en": "Italy"
+    "en": "Italy",
+    "pt": "Itália"
   },
   "continent": "europe",
   "also_in": [],
@@ -62,6 +63,46 @@
         },
         "regional": {
           "intro": "Regional newspapers in Italy cover Naples and Campania, Emilia-Romagna, Veneto, Sicily and Piedmont."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Itália é liderado por jornais nacionais sediados em Milão, Roma e Turim, pela emissora pública RAI e pelo grupo de televisão comercial Mediaset. Corriere della Sera, la Repubblica e La Stampa são os principais diários nacionais, e a ANSA, uma cooperativa de editoras, é a principal agência de notícias. A televisão continua sendo a fonte de notícias mais usada, e a governança da RAI está muito ligada aos partidos no poder, tema de debate antigo. Veículos digitais e checadores cresceram, e o jornalismo investigativo se concentra no crime organizado e na corrupção, com alguns jornalistas vivendo sob proteção policial. A Itália também tem uma grande imprensa esportiva, liderada pela La Gazzetta dello Sport. Os jornais regionais são importantes em Nápoles, Bolonha, Veneza e na Sicília. A maioria dos jornais usa paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Itália?",
+          "a": "Os principais veículos nacionais do diretório incluem Corriere della Sera, la Repubblica, La Stampa, ANSA e Il Post. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias italianos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão ANSA, Rai News, Sky TG24, TGCom24 e Radio Radicale. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos italianos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a Rai News. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Itália?",
+          "a": "A cobertura regional do diretório vem do La Stampa (Piemonte), Il Messaggero (Lácio), Il Mattino (Campânia), Il Resto del Carlino (Emília-Romanha) e Il Gazzettino (Vêneto). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos que os italianos usam para acompanhar as notícias nacionais: diários nacionais, a agência ANSA, a emissora pública e um site digital explicativo e sereno. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios italiano tem como base um diário econômico da federação das indústrias, além de jornais financeiros e sites para investidores que cobrem a bolsa de Milão, os bancos e as finanças públicas."
+        },
+        "sports": {
+          "intro": "A Itália tem três diários esportivos nacionais e emissoras que cobrem a Série A, o ciclismo, a Fórmula 1 e a MotoGP. Os veículos abaixo estão ordenados por relevância editorial."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Itália cobre o crime organizado, a corrupção e a prestação de contas dos políticos, por meio de uma revista semanal, um diário independente, uma redação sem fins lucrativos e checadores."
+        },
+        "regional": {
+          "intro": "Os jornais regionais da Itália cobrem Nápoles e a Campânia, a Emília-Romanha, o Vêneto, a Sicília e o Piemonte."
         }
       },
       "reviewed": true,

@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "San José daily with national politics, the economy and investigations."
+      "en": "San José daily with national politics, the economy and investigations.",
+      "pt": "Diário de San José com política nacional, economia e investigações."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital news site with national news, politics and public services in Costa Rica."
+      "en": "Digital news site with national news, politics and public services in Costa Rica.",
+      "pt": "Site de notícias digital com notícias nacionais, política e serviços públicos da Costa Rica."
     },
     "about": {},
     "sources": [],
@@ -105,7 +107,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Mass-market daily with national news, crime and community stories."
+      "en": "Mass-market daily with national news, crime and community stories.",
+      "pt": "Diário popular com notícias nacionais, crime e histórias da comunidade."
     },
     "about": {},
     "sources": [],
@@ -146,7 +149,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with national politics, the economy and interviews."
+      "en": "Digital outlet with national politics, the economy and interviews.",
+      "pt": "Veículo digital com política nacional, economia e entrevistas."
     },
     "about": {},
     "sources": [],
@@ -185,7 +189,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet covering the Legislative Assembly, politics and public policy."
+      "en": "Digital outlet covering the Legislative Assembly, politics and public policy.",
+      "pt": "Veículo digital que cobre a Assembleia Legislativa, a política e as políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -224,7 +229,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national news, politics and municipal affairs."
+      "en": "Digital news site with national news, politics and municipal affairs.",
+      "pt": "Site de notícias digital com notícias nacionais, política e assuntos municipais."
     },
     "about": {},
     "sources": [],
@@ -263,7 +269,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site founded in 1956, covering Costa Rica and Central America."
+      "en": "English-language news site founded in 1956, covering Costa Rica and Central America.",
+      "pt": "Site de notícias em inglês fundado em 1956, cobrindo a Costa Rica e a América Central."
     },
     "about": {},
     "sources": [],
@@ -304,7 +311,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Weekly of the University of Costa Rica, known for investigations and political coverage."
+      "en": "Weekly of the University of Costa Rica, known for investigations and political coverage.",
+      "pt": "Semanário da Universidade da Costa Rica, conhecido por investigações e cobertura política."
     },
     "about": {},
     "sources": [],
@@ -343,7 +351,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business weekly covering companies, markets, trade and economic policy."
+      "en": "Business weekly covering companies, markets, trade and economic policy.",
+      "pt": "Semanário de negócios que cobre empresas, mercados, comércio e política econômica."
     },
     "about": {},
     "sources": [],
@@ -382,7 +391,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine covering companies and the economy across Central America."
+      "en": "Business magazine covering companies and the economy across Central America.",
+      "pt": "Revista de negócios que cobre empresas e a economia de toda a América Central."
     },
     "about": {},
     "sources": [],
@@ -423,7 +433,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Television channel 7, whose Telenoticias newscast is the most watched in the country."
+      "en": "Television channel 7, whose Telenoticias newscast is the most watched in the country.",
+      "pt": "Canal 7 de televisão, cujo telejornal Telenoticias é o mais assistido do país."
     },
     "about": {},
     "sources": [],
@@ -462,7 +473,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television network with national newscasts and live coverage from San José."
+      "en": "Television network with national newscasts and live coverage from San José.",
+      "pt": "Rede de televisão com telejornais nacionais e cobertura ao vivo de San José."
     },
     "about": {},
     "sources": [],
@@ -501,7 +513,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News radio station with bulletins, interviews and political talk shows."
+      "en": "News radio station with bulletins, interviews and political talk shows.",
+      "pt": "Rádio de notícias com boletins, entrevistas e programas de debate político."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News and sports radio station with national news and football coverage."
+      "en": "News and sports radio station with national news and football coverage.",
+      "pt": "Rádio de notícias e esportes com noticiário nacional e cobertura de futebol."
     },
     "about": {},
     "sources": [],
@@ -583,7 +597,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Popular daily with football coverage, local news and entertainment."
+      "en": "Popular daily with football coverage, local news and entertainment.",
+      "pt": "Diário popular com cobertura de futebol, notícias locais e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -622,7 +637,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet covering Guanacaste, its communities, environment and tourism."
+      "en": "Nonprofit outlet covering Guanacaste, its communities, environment and tourism.",
+      "pt": "Veículo sem fins lucrativos que cobre Guanacaste, suas comunidades, o meio ambiente e o turismo."
     },
     "about": {},
     "sources": [],

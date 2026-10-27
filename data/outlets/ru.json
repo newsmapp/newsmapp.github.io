@@ -27,7 +27,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "State news agency with official statements, national wires and world news."
+      "en": "State news agency with official statements, national wires and world news.",
+      "pt": "Agência de notícias estatal com declarações oficiais, noticiário nacional e notícias do mundo."
     },
     "about": {},
     "sources": [
@@ -73,7 +74,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "State news agency owned by Rossiya Segodnya, with national and world news."
+      "en": "State news agency owned by Rossiya Segodnya, with national and world news.",
+      "pt": "Agência de notícias estatal da Rossiya Segodnya, com notícias nacionais e do mundo."
     },
     "about": {},
     "sources": [
@@ -119,7 +121,8 @@
     "format": "agency",
     "editor_pick": true,
     "pitch": {
-      "en": "Private news agency with fast wires on politics, business and energy."
+      "en": "Private news agency with fast wires on politics, business and energy.",
+      "pt": "Agência de notícias privada com noticiário rápido de política, negócios e energia."
     },
     "about": {},
     "sources": [],
@@ -162,7 +165,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily with national politics, companies and markets coverage."
+      "en": "Business daily with national politics, companies and markets coverage.",
+      "pt": "Diário de negócios com cobertura de política nacional, empresas e mercados."
     },
     "about": {},
     "sources": [],
@@ -203,7 +207,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news group with markets, companies, politics and a TV channel."
+      "en": "Business news group with markets, companies, politics and a TV channel.",
+      "pt": "Grupo de notícias de negócios com mercados, empresas, política e um canal de TV."
     },
     "about": {},
     "sources": [],
@@ -242,7 +247,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business daily covering companies, markets and economic policy."
+      "en": "Business daily covering companies, markets and economic policy.",
+      "pt": "Diário de negócios que cobre empresas, mercados e política econômica."
     },
     "about": {},
     "sources": [],
@@ -281,7 +287,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Russian edition of Forbes covering business, wealth and rankings."
+      "en": "Russian edition of Forbes covering business, wealth and rankings.",
+      "pt": "Edição russa da Forbes, com negócios, fortunas, empresas e rankings."
     },
     "about": {},
     "sources": [],
@@ -320,7 +327,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily with politics, society and international news."
+      "en": "National daily with politics, society and international news.",
+      "pt": "Diário nacional com política, sociedade e notícias internacionais."
     },
     "about": {},
     "sources": [],
@@ -361,7 +369,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Official government daily that publishes laws and decrees when they take effect."
+      "en": "Official government daily that publishes laws and decrees when they take effect.",
+      "pt": "Diário oficial do governo, que publica leis e decretos quando entram em vigor."
     },
     "about": {},
     "sources": [
@@ -405,7 +414,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular national tabloid with news, entertainment and regional editions."
+      "en": "Popular national tabloid with news, entertainment and regional editions.",
+      "pt": "Tabloide nacional popular com notícias, entretenimento e edições regionais."
     },
     "about": {},
     "sources": [],
@@ -448,7 +458,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Independent Russian-language news site based in Latvia, with news and investigations."
+      "en": "Independent Russian-language news site based in Latvia, with news and investigations.",
+      "pt": "Site de notícias independente em russo sediado na Letônia, com notícias e investigações."
     },
     "about": {},
     "sources": [],
@@ -489,7 +500,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Exile newsroom of Novaya Gazeta journalists, focused on investigations."
+      "en": "Exile newsroom of Novaya Gazeta journalists, focused on investigations.",
+      "pt": "Redação no exílio de jornalistas do Novaya Gazeta, focada em investigações."
     },
     "about": {},
     "sources": [],
@@ -528,7 +540,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent investigative outlet known for open-source investigations."
+      "en": "Independent investigative outlet known for open-source investigations.",
+      "pt": "Veículo investigativo independente conhecido por investigações com fontes abertas."
     },
     "about": {},
     "sources": [],
@@ -567,7 +580,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent investigative newsroom on corruption and power in Russia."
+      "en": "Independent investigative newsroom on corruption and power in Russia.",
+      "pt": "Redação investigativa independente sobre corrupção e poder na Rússia."
     },
     "about": {},
     "sources": [],
@@ -606,7 +620,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent investigative outlet on the Russian elite and state."
+      "en": "Independent investigative outlet on the Russian elite and state.",
+      "pt": "Veículo investigativo independente sobre a elite e o Estado russos."
     },
     "about": {},
     "sources": [],
@@ -645,7 +660,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Main federal TV channel, home of the evening news program Vremya."
+      "en": "Main federal TV channel, home of the evening news program Vremya.",
+      "pt": "Principal canal federal de TV, casa do telejornal noturno Vremya."
     },
     "about": {},
     "sources": [
@@ -689,7 +705,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News brand of state broadcaster VGTRK, including the Russia-24 news channel."
+      "en": "News brand of state broadcaster VGTRK, including the Russia-24 news channel.",
+      "pt": "Marca de notícias da emissora estatal VGTRK, incluindo o canal de notícias Rossiya-24."
     },
     "about": {},
     "sources": [
@@ -733,7 +750,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Federal TV channel owned by Gazprom-Media, with news and current affairs."
+      "en": "Federal TV channel owned by Gazprom-Media, with news and current affairs.",
+      "pt": "Canal federal de TV da Gazprom-Media, com notícias e atualidades."
     },
     "about": {},
     "sources": [
@@ -777,7 +795,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "National sports daily with football, hockey and Olympic sports coverage."
+      "en": "National sports daily with football, hockey and Olympic sports coverage.",
+      "pt": "Diário esportivo nacional com futebol, hóquei e esportes olímpicos."
     },
     "about": {},
     "sources": [],
@@ -816,7 +835,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Long-running sports daily covering Russian football and hockey."
+      "en": "Long-running sports daily covering Russian football and hockey.",
+      "pt": "Diário esportivo tradicional que cobre o futebol e o hóquei russos."
     },
     "about": {},
     "sources": [],
@@ -855,7 +875,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports portal with live results, football, hockey and esports."
+      "en": "Sports portal with live results, football, hockey and esports.",
+      "pt": "Portal esportivo com resultados ao vivo, futebol, hóquei e esports."
     },
     "about": {},
     "sources": [],
@@ -894,7 +915,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports site and fan community with news, blogs and live coverage."
+      "en": "Sports site and fan community with news, blogs and live coverage.",
+      "pt": "Site esportivo e comunidade de torcedores com notícias, blogs e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -935,7 +957,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Federal sports TV channel owned by Gazprom-Media, with football and hockey broadcasts."
+      "en": "Federal sports TV channel owned by Gazprom-Media, with football and hockey broadcasts.",
+      "pt": "Canal esportivo federal da Gazprom-Media, com transmissões de futebol e hóquei."
     },
     "about": {},
     "sources": [
@@ -979,7 +1002,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Large tech community with articles on software, engineering and science."
+      "en": "Large tech community with articles on software, engineering and science.",
+      "pt": "Grande comunidade de tecnologia com artigos sobre software, engenharia e ciência."
     },
     "about": {},
     "sources": [],
@@ -1018,7 +1042,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular science site covering physics, biology, medicine and technology."
+      "en": "Popular science site covering physics, biology, medicine and technology.",
+      "pt": "Site de divulgação científica sobre física, biologia, medicina e tecnologia."
     },
     "about": {},
     "sources": [],
@@ -1057,7 +1082,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Hardware and technology news site with reviews, tests and consumer electronics coverage."
+      "en": "Hardware and technology news site with reviews, tests and consumer electronics coverage.",
+      "pt": "Site de hardware e tecnologia com análises, testes e cobertura de eletrônicos de consumo."
     },
     "about": {},
     "sources": [],
@@ -1096,7 +1122,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Saint Petersburg news site covering city politics, incidents and culture."
+      "en": "Saint Petersburg news site covering city politics, incidents and culture.",
+      "pt": "Site de notícias de São Petersburgo que cobre a política, as ocorrências e a cultura da cidade."
     },
     "about": {},
     "sources": [],
@@ -1135,7 +1162,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Regional news agency covering the Urals and Siberia, their politics and economy."
+      "en": "Regional news agency covering the Urals and Siberia, their politics and economy.",
+      "pt": "Agência de notícias regional que cobre os Urais e a Sibéria, sua política e economia."
     },
     "about": {},
     "sources": [],
@@ -1174,7 +1202,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Novosibirsk city portal with local news, incidents, transport and city services."
+      "en": "Novosibirsk city portal with local news, incidents, transport and city services.",
+      "pt": "Portal de Novosibirsk com notícias locais, ocorrências, transporte e serviços da cidade."
     },
     "about": {},
     "sources": [],
@@ -1215,7 +1244,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Kazan business newspaper covering Tatarstan's economy and politics."
+      "en": "Kazan business newspaper covering Tatarstan's economy and politics.",
+      "pt": "Jornal de negócios de Kazan que cobre a economia e a política do Tartaristão."
     },
     "about": {},
     "sources": [],

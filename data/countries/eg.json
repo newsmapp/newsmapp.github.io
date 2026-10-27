@@ -3,7 +3,8 @@
   "iso3": "EGY",
   "slug": "egypt",
   "name": {
-    "en": "Egypt"
+    "en": "Egypt",
+    "pt": "Egito"
   },
   "continent": "africa",
   "also_in": [
@@ -51,6 +52,36 @@
         },
         "sports": {
           "intro": "Egyptian sports media is centered on football, from Al Ahly and Zamalek to the national team."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "O Egito tem a maior imprensa em língua árabe do mundo, centrada no Cairo. O Al-Ahram, fundado em 1875, e outros grandes títulos são estatais, e organizações de liberdade de imprensa relatam que a maior parte da mídia privada pertence ou é controlada por empresas próximas do Estado. Diários privados como Al-Masry Al-Youm e Al-Shorouk continuam muito lidos, e o Youm7 está entre os sites de notícias em árabe mais visitados. Veículos independentes como o Mada Masr publicam reportagem investigativa apesar de estarem bloqueados dentro do país. As notícias em inglês vêm do Ahram Online, do Egypt Independent e do Daily News Egypt. A cobertura de futebol é dominada por sites como o FilGoal.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias do Egito?",
+          "a": "Os principais veículos do diretório incluem Al-Ahram, Al-Masry Al-Youm, Youm7 e Al-Shorouk. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos egípcios são estatais?",
+          "a": "Al-Ahram e Ahram Online pertencem ao Al-Ahram Establishment, estatal. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias do Egito em inglês?",
+          "a": "Ahram Online, Egypt Independent, Daily News Egypt e Enterprise publicam em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Egito ficam no Cairo e incluem títulos estatais, diários privados e grandes sites de notícias em árabe."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios no Egito cobre a libra, a inflação, o Canal de Suez e os investimentos, em árabe e inglês."
+        },
+        "sports": {
+          "intro": "A mídia esportiva egípcia gira em torno do futebol, do Al Ahly e do Zamalek à seleção."
         }
       },
       "reviewed": false,

@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Emol, the free news site of El Mercurio, Chile's newspaper of record."
+      "en": "Emol, the free news site of El Mercurio, Chile's newspaper of record.",
+      "pt": "Emol, o site de notícias gratuito do El Mercurio, o jornal de referência do Chile."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Santiago daily with national politics, business coverage and investigations."
+      "en": "Santiago daily with national politics, business coverage and investigations.",
+      "pt": "Diário de Santiago com política nacional, cobertura de negócios e investigações."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "broadcaster-radio",
     "editor_pick": true,
     "pitch": {
-      "en": "News site of Radio Bío-Bío, one of Chile's most read outlets."
+      "en": "News site of Radio Bío-Bío, one of Chile's most read outlets.",
+      "pt": "Site de notícias da Rádio Bío-Bío, um dos veículos mais lidos do Chile."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News radio station and site with national and international coverage."
+      "en": "News radio station and site with national and international coverage.",
+      "pt": "Rádio e site de notícias com cobertura nacional e internacional."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Chile's first digital-only daily, focused on politics and opinion."
+      "en": "Chile's first digital-only daily, focused on politics and opinion.",
+      "pt": "Primeiro diário só digital do Chile, focado em política e opinião."
     },
     "about": {},
     "sources": [],
@@ -230,7 +235,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet founded in 2021 with political reporting, interviews and analysis."
+      "en": "Digital outlet founded in 2021 with political reporting, interviews and analysis.",
+      "pt": "Veículo digital fundado em 2021 com reportagem política, entrevistas e análise."
     },
     "about": {},
     "sources": [],
@@ -269,7 +275,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit investigative newsroom reporting on business, politics and public institutions."
+      "en": "Nonprofit investigative newsroom reporting on business, politics and public institutions.",
+      "pt": "Redação investigativa sem fins lucrativos sobre negócios, política e instituições públicas."
     },
     "about": {},
     "sources": [],
@@ -308,7 +315,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet publishing investigations and long-form reporting."
+      "en": "Digital outlet publishing investigations and long-form reporting.",
+      "pt": "Veículo digital que publica investigações e reportagens longas."
     },
     "about": {},
     "sources": [],
@@ -349,7 +357,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Magazine and news site mixing satire, interviews and reporting."
+      "en": "Magazine and news site mixing satire, interviews and reporting.",
+      "pt": "Revista e site de notícias que misturam sátira, entrevistas e reportagem."
     },
     "about": {},
     "sources": [],
@@ -388,7 +397,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, companies and economic policy."
+      "en": "Business daily covering markets, companies and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, empresas e política econômica."
     },
     "about": {},
     "sources": [],
@@ -427,7 +437,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of TVN, Chile's public broadcaster, with newscasts and live coverage."
+      "en": "News service of TVN, Chile's public broadcaster, with newscasts and live coverage.",
+      "pt": "Serviço de notícias da TVN, a emissora pública do Chile, com telejornais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -466,7 +477,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of Canal 13, with national newscasts, live coverage and interviews."
+      "en": "News service of Canal 13, with national newscasts, live coverage and interviews.",
+      "pt": "Serviço de notícias do Canal 13, com telejornais nacionais, cobertura ao vivo e entrevistas."
     },
     "about": {},
     "sources": [],
@@ -507,7 +519,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News and sports radio station with national news and live football commentary."
+      "en": "News and sports radio station with national news and live football commentary.",
+      "pt": "Rádio de notícias e esportes com noticiário nacional e narração de futebol ao vivo."
     },
     "about": {},
     "sources": [],
@@ -546,7 +559,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Football news site covering Chilean clubs, the national team and players abroad."
+      "en": "Football news site covering Chilean clubs, the national team and players abroad.",
+      "pt": "Site de futebol que cobre os clubes chilenos, a seleção e os jogadores no exterior."
     },
     "about": {},
     "sources": [],
@@ -587,7 +601,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports channel broadcasting the Chilean football league, with news and results."
+      "en": "Sports channel broadcasting the Chilean football league, with news and results.",
+      "pt": "Canal esportivo que transmite o campeonato chileno de futebol, com notícias e resultados."
     },
     "about": {},
     "sources": [],
@@ -626,7 +641,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology news site covering gadgets, science and the internet in Spanish."
+      "en": "Technology news site covering gadgets, science and the internet in Spanish.",
+      "pt": "Site de tecnologia em espanhol sobre aparelhos, ciência e internet."
     },
     "about": {},
     "sources": [],
@@ -665,7 +681,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Valparaíso daily, the oldest Spanish-language newspaper still in print."
+      "en": "Valparaíso daily, the oldest Spanish-language newspaper still in print.",
+      "pt": "Diário de Valparaíso, o jornal em língua espanhola mais antigo ainda em circulação."
     },
     "about": {},
     "sources": [],
@@ -704,7 +721,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Concepción daily covering the Biobío region, its industry, ports and universities."
+      "en": "Concepción daily covering the Biobío region, its industry, ports and universities.",
+      "pt": "Diário de Concepción que cobre a região do Biobío, sua indústria, portos e universidades."
     },
     "about": {},
     "sources": [],
@@ -743,7 +761,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Temuco daily covering La Araucanía, including regional politics and agriculture."
+      "en": "Temuco daily covering La Araucanía, including regional politics and agriculture.",
+      "pt": "Diário de Temuco que cobre La Araucanía, incluindo a política regional e a agricultura."
     },
     "about": {},
     "sources": [],

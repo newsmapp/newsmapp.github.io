@@ -3,7 +3,8 @@
   "iso3": "COL",
   "slug": "colombia",
   "name": {
-    "en": "Colombia"
+    "en": "Colombia",
+    "pt": "Colômbia"
   },
   "continent": "south-america",
   "also_in": [],
@@ -56,6 +57,42 @@
         },
         "regional": {
           "intro": "Beyond Bogotá, regional dailies cover their departments in depth. The outlets below serve Antioquia, Valle del Cauca, Atlántico and Santander."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Colômbia se concentra em Bogotá, com os diários nacionais El Tiempo e El Espectador, a revista semanal Semana e duas redes privadas de televisão, Caracol e RCN, que também mantêm grandes cadeias de rádio. A propriedade está concentrada em poucos grupos empresariais. Veículos investigativos e digitais como La Silla Vacía cobrem a política, o conflito armado e o processo de paz. Jornalistas de várias regiões sofrem ameaças, que as organizações de liberdade de imprensa documentam todos os anos. Jornais regionais fortes atendem Medellín, Cali, Barranquilla e Bucaramanga. Vários diários importantes usam paywall com limite de leitura; os sites de rádio e TV são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Colômbia?",
+          "a": "Os principais veículos nacionais do diretório incluem El Tiempo, El Espectador e Semana. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos colombianos têm financiamento público?",
+          "a": "O RTVC Noticias pertence ao RTVC, o sistema de mídia pública. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Colômbia?",
+          "a": "A cobertura regional do diretório vem do El Colombiano (Antioquia), El País (Valle del Cauca), El Heraldo (Atlántico) e Vanguardia (Santander). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Colômbia ficam em Bogotá e combinam diários centenários com uma revista semanal e sites digitais. A lista abaixo mostra os veículos mais usados para acompanhar a política e a segurança do país."
+        },
+        "economy": {
+          "intro": "As notícias de negócios na Colômbia vêm de diários financeiros e veículos digitais que cobrem mercados, petróleo, comércio e finanças públicas."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Colômbia documenta a corrupção, o conflito armado e as disputas por terra, muitas vezes por meio de redações sem fins lucrativos. Estes são os veículos conhecidos por esse trabalho."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio continuam sendo as principais fontes de notícias para muitos colombianos. As redes e cadeias de rádio abaixo publicam seus noticiários na internet."
+        },
+        "regional": {
+          "intro": "Fora de Bogotá, os diários regionais cobrem seus departamentos em profundidade. Os veículos abaixo atendem Antioquia, Valle del Cauca, Atlántico e Santander."
         }
       },
       "reviewed": true,

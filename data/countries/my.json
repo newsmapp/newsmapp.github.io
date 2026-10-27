@@ -3,7 +3,8 @@
   "iso3": "MYS",
   "slug": "malaysia",
   "name": {
-    "en": "Malaysia"
+    "en": "Malaysia",
+    "pt": "Malásia"
   },
   "continent": "asia",
   "also_in": [],
@@ -48,6 +49,36 @@
         },
         "regional": {
           "intro": "Sabah and Sarawak, on Borneo, have their own newspapers covering local politics and communities."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Malásia atende leitores em malaio, inglês, chinês e tâmil. O Malaysiakini, fundado em 1999 como um dos primeiros sites de notícias por assinatura da Ásia, e o Free Malaysia Today lideram o jornalismo digital independente, enquanto The Star, New Straits Times, Berita Harian e Sinar Harian são os principais jornais. Vários títulos têm laços históricos com partidos políticos. A Astro Awani e a emissora estatal RTM lideram o telejornalismo, e a Bernama é a agência nacional de notícias. The Edge cobre negócios. Sabah e Sarawak têm seus próprios jornais, como o Daily Express e o Borneo Post. Malaysiakini e The Edge usam paywall; a maioria dos outros sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias da Malásia?",
+          "a": "Os principais veículos do diretório incluem Malaysiakini, The Star, New Straits Times, Free Malaysia Today e Berita Harian. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Há notícias da Malásia em inglês e em malaio?",
+          "a": "O diretório inclui veículos em inglês, como The Star e Free Malaysia Today, e em malaio, como Berita Harian e Sinar Harian. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Malásia?",
+          "a": "A cobertura regional do diretório vem do Borneo Post (Sarawak) e do Daily Express (Sabah). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Malásia publicam em malaio e inglês e incluem jornais tradicionais e sites digitais independentes."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios na Malásia cobre a Bursa Malaysia, o óleo de palma, a energia e a indústria de semicondutores."
+        },
+        "regional": {
+          "intro": "Sabah e Sarawak, em Bornéu, têm seus próprios jornais, que cobrem a política e as comunidades locais."
         }
       },
       "reviewed": true,

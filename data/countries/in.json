@@ -3,7 +3,8 @@
   "iso3": "IND",
   "slug": "india",
   "name": {
-    "en": "India"
+    "en": "India",
+    "pt": "Índia"
   },
   "continent": "asia",
   "also_in": [],
@@ -63,6 +64,46 @@
         },
         "politics": {
           "intro": "Political coverage in India follows Parliament, the central government and state elections through national dailies, digital newsrooms and the public broadcaster."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Índia tem um dos maiores e mais diversos mercados de notícias do mundo em termos de idiomas, com milhares de jornais em hindi, inglês e línguas regionais. Diários em inglês como The Times of India, The Hindu, Hindustan Times e The Indian Express moldam o debate nacional, enquanto jornais em hindi como Dainik Bhaskar e Dainik Jagran alcançam os maiores públicos. O telejornalismo é numeroso e competitivo, e a emissora pública Prasar Bharati mantém a DD News e a All India Radio. A propriedade de várias grandes empresas de mídia está ligada a grandes grupos industriais. Redações nativas digitais, veículos sem fins lucrativos e organizações de checagem cresceram, em parte como resposta à desinformação em aplicativos de mensagens. Jornais em línguas regionais dominam em estados como Kerala, Bengala Ocidental, Tamil Nadu, Maharashtra e Andhra Pradesh. O críquete é o assunto dominante da mídia esportiva.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Índia?",
+          "a": "Os principais veículos nacionais do diretório incluem The Hindu, The Indian Express, The Times of India, Hindustan Times e Press Trust of India. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias indianos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Hindustan Times, Press Trust of India, Dainik Bhaskar, Dainik Jagran e The Wire. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos indianos são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público está a DD News. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Índia?",
+          "a": "A cobertura regional do diretório vem do Dainik Bhaskar (cinturão do hindi), Malayala Manorama (Kerala), Anandabazar Patrika (Bengala Ocidental), Eenadu (Andhra Pradesh e Telangana) e Daily Thanthi (Tamil Nadu). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Índia são lideradas por diários em inglês, grandes jornais em hindi, a Press Trust of India e redações digitais. O idioma, o modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O jornalismo de negócios indiano cobre as bolsas de valores, o Reserve Bank of India e os grandes conglomerados por meio de diários econômicos, um portal de mercados e publicações por assinatura."
+        },
+        "investigative": {
+          "intro": "O trabalho investigativo e de verificação na Índia vem de revistas de reportagem longa, redações sem fins lucrativos, um coletivo de jornalistas e organizações de checagem que monitoram a desinformação."
+        },
+        "regional": {
+          "intro": "Os jornais em línguas regionais lideram a leitura em muitos estados indianos. Os títulos abaixo publicam em hindi, malaiala, bengali, telugo, tâmil e marata."
+        },
+        "politics": {
+          "intro": "A cobertura política na Índia acompanha o Parlamento, o governo central e as eleições estaduais por meio de diários nacionais, redações digitais e da emissora pública."
         }
       },
       "reviewed": true,

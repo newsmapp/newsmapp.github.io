@@ -3,7 +3,8 @@
   "iso3": "HND",
   "slug": "honduras",
   "name": {
-    "en": "Honduras"
+    "en": "Honduras",
+    "pt": "Honduras"
   },
   "continent": "north-america",
   "also_in": [],
@@ -44,6 +45,32 @@
         },
         "broadcast": {
           "intro": "Radio and television carry most news in Honduras. The stations and channels below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "Os maiores jornais de Honduras, La Prensa, de San Pedro Sula, e El Heraldo, de Tegucigalpa, pertencem ao mesmo grupo, o Grupo OPSA, que também publica o diário esportivo Diez. La Tribuna e veículos digitais como Proceso Digital e Tu Nota completam o mercado nacional, enquanto o rádio continua sendo uma grande fonte de notícias. Redações sem fins lucrativos como Contracorriente e Criterio cobrem corrupção, conflitos de terra e migração. Organizações de liberdade de imprensa relatam violência frequente contra jornalistas. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Honduras?",
+          "a": "Os principais veículos nacionais do diretório incluem La Prensa, El Heraldo, La Tribuna e Proceso Digital. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo em Honduras?",
+          "a": "O trabalho investigativo do diretório vem de Contracorriente, Criterio e Reportar sin Miedo. A coluna Investigativo os lista em ordem editorial."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais de Honduras se dividem entre Tegucigalpa e San Pedro Sula, com dois diários líderes do mesmo grupo."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo em Honduras vem sobretudo de redações sem fins lucrativos e digitais que cobrem corrupção, terra e direitos humanos."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão levam a maior parte das notícias em Honduras. As emissoras e os canais abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": false,

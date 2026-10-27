@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster's news service with the NOS Journaal, live blogs and national coverage."
+      "en": "Public broadcaster's news service with the NOS Journaal, live blogs and national coverage.",
+      "pt": "Serviço de notícias da emissora pública, com o NOS Journaal, blogs ao vivo e cobertura nacional."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Rotterdam-founded quality daily known for analysis, investigations and long reads."
+      "en": "Rotterdam-founded quality daily known for analysis, investigations and long reads.",
+      "pt": "Diário de qualidade fundado em Roterdã, conhecido por análises, investigações e textos longos."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Amsterdam national daily with politics, science and culture coverage."
+      "en": "Amsterdam national daily with politics, science and culture coverage.",
+      "pt": "Diário nacional de Amsterdã com cobertura de política, ciência e cultura."
     },
     "about": {},
     "sources": [],
@@ -152,7 +155,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Highest-circulation Dutch daily with national news, crime, finance and sport."
+      "en": "Highest-circulation Dutch daily with national news, crime, finance and sport.",
+      "pt": "Diário neerlandês de maior circulação, com notícias nacionais, crime, finanças e esportes."
     },
     "about": {},
     "sources": [],
@@ -193,7 +197,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular national daily with regional editions for Rotterdam, The Hague and Utrecht."
+      "en": "Popular national daily with regional editions for Rotterdam, The Hague and Utrecht.",
+      "pt": "Diário nacional popular com edições regionais para Roterdã, Haia e Utrecht."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National daily founded in the resistance, with focus on religion, nature and society."
+      "en": "National daily founded in the resistance, with focus on religion, nature and society.",
+      "pt": "Diário nacional fundado na resistência, com foco em religião, natureza e sociedade."
     },
     "about": {},
     "sources": [],
@@ -273,7 +279,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Most-visited Dutch news site with fast, free updates on national and world news."
+      "en": "Most-visited Dutch news site with fast, free updates on national and world news.",
+      "pt": "Site de notícias mais visitado dos Países Baixos, com atualizações rápidas e gratuitas do país e do mundo."
     },
     "about": {},
     "sources": [],
@@ -312,7 +319,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Dutch national news agency supplying text, photo and video to Dutch media."
+      "en": "Dutch national news agency supplying text, photo and video to Dutch media.",
+      "pt": "Agência nacional de notícias neerlandesa, que fornece texto, foto e vídeo à mídia do país."
     },
     "about": {},
     "sources": [],
@@ -351,7 +359,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Commercial television news with evening bulletins and live coverage."
+      "en": "Commercial television news with evening bulletins and live coverage.",
+      "pt": "Telejornalismo comercial com noticiários noturnos e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -394,7 +403,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public current-affairs program with in-depth interviews and investigations."
+      "en": "Public current-affairs program with in-depth interviews and investigations.",
+      "pt": "Programa público de atualidades com entrevistas aprofundadas e investigações."
     },
     "about": {},
     "sources": [],
@@ -435,7 +445,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "All-news radio station focused on business, markets and current affairs."
+      "en": "All-news radio station focused on business, markets and current affairs.",
+      "pt": "Rádio só de notícias focada em negócios, mercados e atualidades."
     },
     "about": {},
     "sources": [],
@@ -474,7 +485,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Dutch business daily covering companies, markets and economic policy."
+      "en": "Dutch business daily covering companies, markets and economic policy.",
+      "pt": "Diário de negócios neerlandês que cobre empresas, mercados e política econômica."
     },
     "about": {},
     "sources": [],
@@ -513,7 +525,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Investor site with stock market news, analysis and the Dutch market indexes."
+      "en": "Investor site with stock market news, analysis and the Dutch market indexes.",
+      "pt": "Site para investidores com notícias da bolsa, análises e os índices do mercado neerlandês."
     },
     "about": {},
     "sources": [],
@@ -554,7 +567,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Subscription platform for investigative financial journalism."
+      "en": "Subscription platform for investigative financial journalism.",
+      "pt": "Plataforma por assinatura de jornalismo financeiro investigativo."
     },
     "about": {},
     "sources": [],
@@ -593,7 +607,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit platform for investigative journalism published with partner outlets."
+      "en": "Nonprofit platform for investigative journalism published with partner outlets.",
+      "pt": "Plataforma sem fins lucrativos de jornalismo investigativo publicado com veículos parceiros."
     },
     "about": {},
     "sources": [],
@@ -632,7 +647,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public broadcaster's investigative and data journalism team."
+      "en": "Public broadcaster's investigative and data journalism team.",
+      "pt": "Equipe de jornalismo investigativo e de dados da emissora pública."
     },
     "about": {},
     "sources": [],
@@ -673,7 +689,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Ad-free, member-funded platform for explanatory and investigative journalism."
+      "en": "Ad-free, member-funded platform for explanatory and investigative journalism.",
+      "pt": "Plataforma sem anúncios e financiada por associados, de jornalismo explicativo e investigativo."
     },
     "about": {},
     "sources": [],
@@ -714,7 +731,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster's sports desk with football, cycling, speed skating and Formula 1."
+      "en": "Public broadcaster's sports desk with football, cycling, speed skating and Formula 1.",
+      "pt": "Editoria esportiva da emissora pública, com futebol, ciclismo, patinação de velocidade e Fórmula 1."
     },
     "about": {},
     "sources": [],
@@ -753,7 +771,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Leading Dutch football magazine with Eredivisie news, data and transfer coverage."
+      "en": "Leading Dutch football magazine with Eredivisie news, data and transfer coverage.",
+      "pt": "Principal revista de futebol neerlandesa, com notícias da Eredivisie, dados e transferências."
     },
     "about": {},
     "sources": [],
@@ -792,7 +811,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Dutch ESPN edition with Eredivisie broadcasts and football news."
+      "en": "Dutch ESPN edition with Eredivisie broadcasts and football news.",
+      "pt": "Edição neerlandesa da ESPN, com transmissões da Eredivisie e notícias de futebol."
     },
     "about": {},
     "sources": [],
@@ -831,7 +851,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Football news site covering Dutch and international club football."
+      "en": "Football news site covering Dutch and international club football.",
+      "pt": "Site de notícias de futebol que cobre os clubes neerlandeses e internacionais."
     },
     "about": {},
     "sources": [],
@@ -870,7 +891,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Dutch technology community with news, product reviews and price comparisons."
+      "en": "Dutch technology community with news, product reviews and price comparisons.",
+      "pt": "Comunidade de tecnologia neerlandesa com notícias, análises de produtos e comparação de preços."
     },
     "about": {},
     "sources": [],
@@ -909,7 +931,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Science news site from NEMO, explaining Dutch research for the public."
+      "en": "Science news site from NEMO, explaining Dutch research for the public.",
+      "pt": "Site de notícias científicas do NEMO, que explica a pesquisa neerlandesa ao público."
     },
     "about": {},
     "sources": [],
@@ -950,7 +973,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital business publication covering e-commerce, marketing and tech."
+      "en": "Digital business publication covering e-commerce, marketing and tech.",
+      "pt": "Publicação de negócios digitais que cobre comércio eletrônico, marketing e tecnologia."
     },
     "about": {},
     "sources": [],
@@ -989,7 +1013,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Amsterdam daily founded in the resistance, covering the city and its culture."
+      "en": "Amsterdam daily founded in the resistance, covering the city and its culture.",
+      "pt": "Diário de Amsterdã fundado na resistência, que cobre a cidade e sua cultura."
     },
     "about": {},
     "sources": [],
@@ -1028,7 +1053,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Regional daily for Groningen and Drenthe in the north of the Netherlands."
+      "en": "Regional daily for Groningen and Drenthe in the north of the Netherlands.",
+      "pt": "Diário regional de Groningen e Drenthe, no norte dos Países Baixos."
     },
     "about": {},
     "sources": [],
@@ -1067,7 +1093,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Regional daily covering the province of Limburg in the south of the Netherlands."
+      "en": "Regional daily covering the province of Limburg in the south of the Netherlands.",
+      "pt": "Diário regional que cobre a província de Limburgo, no sul dos Países Baixos."
     },
     "about": {},
     "sources": [],
@@ -1108,7 +1135,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Regional public broadcaster for North Brabant, on TV, radio and online."
+      "en": "Regional public broadcaster for North Brabant, on TV, radio and online.",
+      "pt": "Emissora pública regional do Brabante do Norte, na TV, no rádio e na internet."
     },
     "about": {},
     "sources": [],
@@ -1147,7 +1175,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Regional public broadcaster for Rotterdam and the Rijnmond area."
+      "en": "Regional public broadcaster for Rotterdam and the Rijnmond area.",
+      "pt": "Emissora pública regional de Roterdã e da região de Rijnmond."
     },
     "about": {},
     "sources": [],

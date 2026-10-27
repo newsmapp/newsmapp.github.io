@@ -3,7 +3,8 @@
   "iso3": "NGA",
   "slug": "nigeria",
   "name": {
-    "en": "Nigeria"
+    "en": "Nigeria",
+    "pt": "Nigéria"
   },
   "continent": "africa",
   "also_in": [],
@@ -52,6 +53,39 @@
         },
         "broadcast": {
           "intro": "Television news in Nigeria is led by private channels that publish their newscasts and live coverage online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Nigéria tem a maior e mais competitiva imprensa em língua inglesa da África, centrada em Lagos e Abuja. Diários nacionais como Punch, The Guardian, Vanguard e ThisDay competem com veículos digitais como Premium Times e TheCable, enquanto a Channels Television lidera o telejornalismo. O jornalismo investigativo é forte, liderado pelo Premium Times, pela Foundation for Investigative Journalism e pelo HumAngle, que cobre os conflitos no norte. O Daily Trust é o principal jornal do norte, e o Nigerian Tribune, do sudoeste. Lagos também é um polo de mídia de tecnologia e negócios. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Nigéria?",
+          "a": "Os principais veículos nacionais do diretório incluem Punch, The Guardian, Vanguard, ThisDay e Premium Times. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo na Nigéria?",
+          "a": "O trabalho investigativo do diretório vem do Premium Times, Sahara Reporters, Foundation for Investigative Journalism e HumAngle. A coluna Investigativo os lista em ordem editorial."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Nigéria?",
+          "a": "A cobertura regional do diretório vem do Daily Trust (norte da Nigéria) e do Nigerian Tribune (sudoeste). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Nigéria ficam em Lagos e Abuja e combinam diários tradicionais com redações digitais em rápido crescimento."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios na Nigéria cobre o petróleo, a naira, os bancos e um cenário de startups em rápido crescimento. Estes são os principais veículos sobre mercados e empresas."
+        },
+        "investigative": {
+          "intro": "A Nigéria tem uma das tradições investigativas mais fortes da África, de redações digitais a centros sem fins lucrativos que cobrem corrupção e conflitos."
+        },
+        "broadcast": {
+          "intro": "O telejornalismo na Nigéria é liderado por canais privados que publicam seus telejornais e coberturas ao vivo na internet."
         }
       },
       "reviewed": true,

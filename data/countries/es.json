@@ -3,7 +3,8 @@
   "iso3": "ESP",
   "slug": "spain",
   "name": {
-    "en": "Spain"
+    "en": "Spain",
+    "pt": "Espanha"
   },
   "continent": "europe",
   "also_in": [],
@@ -67,6 +68,49 @@
         },
         "broadcast": {
           "intro": "Spanish broadcast news includes the public broadcaster, two private television groups and influential national radio networks that set the morning news agenda."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Espanha é liderado por jornais nacionais sediados em Madri e Barcelona, pela emissora pública RTVE e pelos grupos privados de televisão Atresmedia e Mediaset España. El País, El Mundo e ABC são os principais diários nacionais, enquanto o La Vanguardia lidera na Catalunha. Veículos nativos digitais como elDiario.es e El Confidencial se tornaram fontes importantes de reportagem política e econômica. A agência EFE, estatal, é a maior agência de notícias em língua espanhola do mundo. O rádio tem influência incomum, com redes como Cadena SER e COPE definindo a pauta da manhã. A Espanha também tem mídia regional forte na Catalunha, no País Basco, na Galícia, em Valência e na Andaluzia, parte dela publicada nas línguas cooficiais. Os diários esportivos dedicados ao futebol estão entre os de maior público do país.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Espanha?",
+          "a": "Os principais veículos nacionais do diretório incluem El País, El Mundo, ABC, La Vanguardia e EFE. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias espanhóis são gratuitos?",
+          "a": "Entre os veículos gratuitos estão EFE, elDiario.es, RTVE Noticias, Cadena SER e COPE. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos espanhóis são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão RTVE Noticias e Agencia SINC. Entre os controlados pelo Estado está a EFE. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Espanha?",
+          "a": "A cobertura regional do diretório vem do La Vanguardia (Catalunha), El Periódico (Catalunha), El Correo (País Basco), Levante-EMV (Comunidade Valenciana) e Diario de Sevilla (Andaluzia). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "As notícias nacionais na Espanha vêm de diários de Madri e Barcelona, de redações digitais, da agência EFE e da emissora pública. O modelo de paywall e o dono aparecem em cada veículo."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios espanhol é coberto por três diários econômicos e pelos cadernos de economia dos veículos nacionais, que acompanham o IBEX 35, os bancos e as finanças públicas."
+        },
+        "sports": {
+          "intro": "Os diários esportivos da Espanha, liderados por títulos de Madri e Barcelona, se concentram no futebol e nos grandes clubes, com cobertura também de basquete, tênis e automobilismo."
+        },
+        "investigative": {
+          "intro": "O trabalho investigativo e de verificação na Espanha vem de redações digitais, de fundações de checagem sem fins lucrativos e de uma organização cívica que analisa dados públicos."
+        },
+        "regional": {
+          "intro": "Os jornais regionais cobrem a Catalunha, o País Basco, a Comunidade Valenciana, a Andaluzia e a Galícia, alguns deles nas línguas cooficiais."
+        },
+        "broadcast": {
+          "intro": "O jornalismo de TV e rádio na Espanha inclui a emissora pública, dois grupos privados de televisão e redes nacionais de rádio influentes que definem a pauta da manhã."
         }
       },
       "reviewed": true,

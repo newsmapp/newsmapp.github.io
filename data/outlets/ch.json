@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "German-language public broadcaster's news with Tagesschau, 10vor10 and live coverage."
+      "en": "German-language public broadcaster's news with Tagesschau, 10vor10 and live coverage.",
+      "pt": "Notícias da emissora pública em alemão, com Tagesschau, 10vor10 e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -72,7 +73,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Zurich daily of record founded in 1780, known for international and economic reporting."
+      "en": "Zurich daily of record founded in 1780, known for international and economic reporting.",
+      "pt": "Diário de referência de Zurique fundado em 1780, conhecido pela cobertura internacional e econômica."
     },
     "about": {},
     "sources": [],
@@ -113,7 +115,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Zurich daily with national politics, the city and investigative reporting."
+      "en": "Zurich daily with national politics, the city and investigative reporting.",
+      "pt": "Diário de Zurique com política nacional, notícias da cidade e reportagem investigativa."
     },
     "about": {},
     "sources": [],
@@ -152,7 +155,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular national daily with breaking news, sport and entertainment."
+      "en": "Popular national daily with breaking news, sport and entertainment.",
+      "pt": "Diário nacional popular com notícias de última hora, esporte e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Free commuter news brand with the largest readership in Switzerland."
+      "en": "Free commuter news brand with the largest readership in Switzerland.",
+      "pt": "Marca de notícias gratuita para quem usa o transporte público, com o maior público da Suíça."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "French-language public broadcaster's news with the 19h30 and live coverage."
+      "en": "French-language public broadcaster's news with the 19h30 and live coverage.",
+      "pt": "Notícias da emissora pública em francês, com o 19h30 e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -275,7 +281,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Italian-language public broadcaster's news for Ticino and Italian-speaking Switzerland."
+      "en": "Italian-language public broadcaster's news for Ticino and Italian-speaking Switzerland.",
+      "pt": "Notícias da emissora pública em italiano para o Ticino e a Suíça de língua italiana."
     },
     "about": {},
     "sources": [],
@@ -316,7 +323,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Public international service explaining Swiss news and direct democracy in ten languages."
+      "en": "Public international service explaining Swiss news and direct democracy in ten languages.",
+      "pt": "Serviço público internacional que explica as notícias suíças e a democracia direta em dez idiomas."
     },
     "about": {},
     "sources": [],
@@ -357,7 +365,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Geneva-based French-language daily of reference, owned by a foundation."
+      "en": "Geneva-based French-language daily of reference, owned by a foundation.",
+      "pt": "Diário de referência em francês sediado em Genebra, pertencente a uma fundação."
     },
     "about": {},
     "sources": [],
@@ -396,7 +405,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Swiss national news agency with wire services in German, French and Italian."
+      "en": "Swiss national news agency with wire services in German, French and Italian.",
+      "pt": "Agência nacional de notícias da Suíça, com despachos em alemão, francês e italiano."
     },
     "about": {},
     "sources": [],
@@ -435,7 +445,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with fast news, explainers and a light tone."
+      "en": "Digital news site with fast news, explainers and a light tone.",
+      "pt": "Site de notícias digital com notícias rápidas, explicações e tom leve."
     },
     "about": {},
     "sources": [],
@@ -476,7 +487,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Reader-owned, ad-free digital magazine for in-depth and investigative journalism."
+      "en": "Reader-owned, ad-free digital magazine for in-depth and investigative journalism.",
+      "pt": "Revista digital sem anúncios e de propriedade dos leitores, com jornalismo aprofundado e investigativo."
     },
     "about": {},
     "sources": [],
@@ -517,7 +529,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Subscription newsroom on science, health and investigations in Romandy."
+      "en": "Subscription newsroom on science, health and investigations in Romandy.",
+      "pt": "Redação por assinatura sobre ciência, saúde e investigações na Suíça francófona."
     },
     "about": {},
     "sources": [],
@@ -556,7 +569,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Newsletter reporting on economic crime through Swiss court records."
+      "en": "Newsletter reporting on economic crime through Swiss court records.",
+      "pt": "Newsletter que reporta crimes econômicos a partir de processos judiciais suíços."
     },
     "about": {},
     "sources": [],
@@ -595,7 +609,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Weekly business paper covering Swiss companies, banks and economic policy."
+      "en": "Weekly business paper covering Swiss companies, banks and economic policy.",
+      "pt": "Semanário de negócios que cobre empresas, bancos e a política econômica da Suíça."
     },
     "about": {},
     "sources": [],
@@ -634,7 +649,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial newspaper for investors, covering Swiss and global markets."
+      "en": "Financial newspaper for investors, covering Swiss and global markets.",
+      "pt": "Jornal financeiro para investidores, com cobertura dos mercados suíço e global."
     },
     "about": {},
     "sources": [],
@@ -673,7 +689,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial portal with stock prices, market news and personal finance."
+      "en": "Financial portal with stock prices, market news and personal finance.",
+      "pt": "Portal financeiro com cotações, notícias de mercado e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -712,7 +729,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "French-language financial daily covering Swiss finance and banking."
+      "en": "French-language financial daily covering Swiss finance and banking.",
+      "pt": "Diário financeiro em francês que cobre as finanças e os bancos suíços."
     },
     "about": {},
     "sources": [],
@@ -753,7 +771,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster's sport with skiing, football, tennis and ice hockey."
+      "en": "Public broadcaster's sport with skiing, football, tennis and ice hockey.",
+      "pt": "Esporte da emissora pública, com esqui, futebol, tênis e hóquei no gelo."
     },
     "about": {},
     "sources": [],
@@ -792,7 +811,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "French-language public sports coverage with live results and broadcasts."
+      "en": "French-language public sports coverage with live results and broadcasts.",
+      "pt": "Cobertura esportiva pública em francês, com resultados e transmissões ao vivo."
     },
     "about": {},
     "sources": [],
@@ -831,7 +851,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Blick's sports desk with Super League, ice hockey and skiing coverage."
+      "en": "Blick's sports desk with Super League, ice hockey and skiing coverage.",
+      "pt": "Editoria de esportes do Blick, com Super League, hóquei no gelo e esqui."
     },
     "about": {},
     "sources": [],
@@ -870,7 +891,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Swiss IT industry news on companies, public-sector IT and security."
+      "en": "Swiss IT industry news on companies, public-sector IT and security.",
+      "pt": "Notícias do setor de TI suíço sobre empresas, TI do setor público e segurança."
     },
     "about": {},
     "sources": [],
@@ -909,7 +931,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Research magazine of the Swiss National Science Foundation and the Swiss Academies."
+      "en": "Research magazine of the Swiss National Science Foundation and the Swiss Academies.",
+      "pt": "Revista de pesquisa do Fundo Nacional Suíço de Ciência e das Academias Suíças."
     },
     "about": {},
     "sources": [],
@@ -948,7 +971,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Swiss ICT trade magazine covering the digital economy, IT providers and public-sector IT."
+      "en": "Swiss ICT trade magazine covering the digital economy, IT providers and public-sector IT.",
+      "pt": "Revista suíça do setor de TIC sobre economia digital, fornecedores de TI e TI pública."
     },
     "about": {},
     "sources": [],
@@ -987,7 +1011,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Basel daily covering the city, its pharmaceutical industry and northwestern Switzerland."
+      "en": "Basel daily covering the city, its pharmaceutical industry and northwestern Switzerland.",
+      "pt": "Diário da Basileia que cobre a cidade, a indústria farmacêutica e o noroeste da Suíça."
     },
     "about": {},
     "sources": [],
@@ -1026,7 +1051,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Bern daily covering the federal city and the canton of Bern."
+      "en": "Bern daily covering the federal city and the canton of Bern.",
+      "pt": "Diário de Berna que cobre a cidade federal e o cantão de Berna."
     },
     "about": {},
     "sources": [],
@@ -1065,7 +1091,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Lucerne daily covering central Switzerland, its cantons and regional politics."
+      "en": "Lucerne daily covering central Switzerland, its cantons and regional politics.",
+      "pt": "Diário de Lucerna que cobre a Suíça central, seus cantões e a política regional."
     },
     "about": {},
     "sources": [],
@@ -1104,7 +1131,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Lausanne daily covering the canton of Vaud, its politics, economy and local life."
+      "en": "Lausanne daily covering the canton of Vaud, its politics, economy and local life.",
+      "pt": "Diário de Lausanne que cobre o cantão de Vaud, sua política, economia e vida local."
     },
     "about": {},
     "sources": [],
@@ -1143,7 +1171,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Geneva daily covering the city, the canton and international Geneva."
+      "en": "Geneva daily covering the city, the canton and international Geneva.",
+      "pt": "Diário de Genebra que cobre a cidade, o cantão e a Genebra internacional."
     },
     "about": {},
     "sources": [],
@@ -1182,7 +1211,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Lugano daily, the main Italian-language newspaper in Switzerland."
+      "en": "Lugano daily, the main Italian-language newspaper in Switzerland.",
+      "pt": "Diário de Lugano, o principal jornal em língua italiana da Suíça."
     },
     "about": {},
     "sources": [],

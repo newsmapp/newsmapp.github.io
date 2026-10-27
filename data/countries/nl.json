@@ -3,7 +3,8 @@
   "iso3": "NLD",
   "slug": "netherlands",
   "name": {
-    "en": "Netherlands"
+    "en": "Netherlands",
+    "pt": "Países Baixos"
   },
   "continent": "europe",
   "also_in": [],
@@ -58,6 +59,46 @@
         },
         "regional": {
           "intro": "Regional news in the Netherlands is provided by newspapers and public broadcasters for Amsterdam, Rotterdam, the north, Limburg and North Brabant."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "Os Países Baixos têm um mercado de notícias compacto, mas muito desenvolvido. O sistema público de radiodifusão, organizado em torno da NOS e de um conjunto de associações de radiodifusão baseadas em associados, produz os principais noticiários de TV e rádio. Os jornais nacionais estão concentrados em dois grupos, DPG Media e Mediahuis, que juntos controlam a maioria dos títulos nacionais e regionais, entre eles de Volkskrant, NRC, De Telegraaf, Trouw e AD. O NU.nl é o site de notícias mais visitado e é gratuito. O país tem forte tradição de jornalismo investigativo, apoiada por um fundo dedicado e por plataformas por assinatura que cobrem finanças e poder. Emissoras públicas regionais cobrem cada província. A liberdade de imprensa nos Países Baixos costuma estar entre as mais altas do mundo, embora ataques a repórteres que cobrem o crime tenham gerado preocupação nos últimos anos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais dos Países Baixos?",
+          "a": "Os principais veículos nacionais do diretório incluem NOS, NRC, de Volkskrant, De Telegraaf e AD. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias neerlandeses são gratuitos?",
+          "a": "Entre os veículos gratuitos estão NOS, NU.nl, ANP, RTL Nieuws e Nieuwsuur. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Quais veículos neerlandeses são públicos ou financiados pelo Estado?",
+          "a": "Entre os veículos de serviço público estão NOS, Nieuwsuur, Pointer e NOS Sport. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais dos Países Baixos?",
+          "a": "A cobertura regional do diretório vem do AD (Holanda do Sul), Het Parool (Holanda do Norte), Dagblad van het Noorden (Groningen e Drenthe), De Limburger (Limburgo) e Omroep Brabant (Brabante do Norte). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais nos Países Baixos: a emissora pública, diários nacionais de dois grupos editoriais, a agência nacional de notícias e um site de notícias gratuito."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios neerlandês é liderado por um diário financeiro e uma rádio de notícias econômicas, com sites para investidores e investigações por assinatura sobre dinheiro e poder."
+        },
+        "sports": {
+          "intro": "A mídia esportiva neerlandesa cobre futebol, ciclismo, patinação de velocidade e Fórmula 1 por meio da emissora pública, de uma revista de futebol de referência e de veículos on-line."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo nos Países Baixos é produzido por plataformas por assinatura, uma plataforma investigativa sem fins lucrativos, equipes da radiodifusão pública e um site explicativo financiado por associados."
+        },
+        "regional": {
+          "intro": "As notícias regionais nos Países Baixos vêm de jornais e emissoras públicas de Amsterdã, Roterdã, do norte, de Limburgo e do Brabante do Norte."
         }
       },
       "reviewed": true,

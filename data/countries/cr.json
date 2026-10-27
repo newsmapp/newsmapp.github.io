@@ -3,7 +3,8 @@
   "iso3": "CRI",
   "slug": "costa-rica",
   "name": {
-    "en": "Costa Rica"
+    "en": "Costa Rica",
+    "pt": "Costa Rica"
   },
   "continent": "north-america",
   "also_in": [],
@@ -47,6 +48,36 @@
         },
         "broadcast": {
           "intro": "Television and radio remain major news sources in Costa Rica. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Costa Rica tem um dos ambientes de mídia mais abertos da América Latina. O La Nación, principal diário, pertence ao Grupo Nación, que também publica o La Teja e o semanário de negócios El Financiero. O nativo digital CRHoy está entre os sites mais lidos, e os canais Teletica e Repretel lideram o telejornalismo. O Semanario Universidad, publicado pela Universidade da Costa Rica, é conhecido pela reportagem investigativa. O Tico Times cobre o país em inglês. A maioria dos sites de notícias é gratuita; o La Nación usa paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Costa Rica?",
+          "a": "Os principais veículos nacionais do diretório incluem La Nación, CRHoy, Teletica e Diario Extra. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Há notícias da Costa Rica em inglês?",
+          "a": "O Tico Times cobre a Costa Rica em inglês. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Costa Rica?",
+          "a": "A cobertura regional do diretório vem do La Voz de Guanacaste. A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais da Costa Rica ficam em San José e combinam um diário de referência, sites digitais e telejornais."
+        },
+        "economy": {
+          "intro": "As notícias de negócios na Costa Rica vêm de um semanário econômico e de revistas regionais que cobrem empresas, comércio e investimentos."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio continuam sendo grandes fontes de notícias na Costa Rica. Os canais e as emissoras abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": true,

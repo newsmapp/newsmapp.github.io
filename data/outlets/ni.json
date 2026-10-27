@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Nicaragua's oldest daily, now published online from exile after its offices were seized."
+      "en": "Nicaragua's oldest daily, now published online from exile after its offices were seized.",
+      "pt": "Diário mais antigo da Nicarágua, hoje publicado na internet a partir do exílio após o confisco de sua sede."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital outlet founded by Carlos Fernando Chamorro, publishing from exile since 2021."
+      "en": "Digital outlet founded by Carlos Fernando Chamorro, publishing from exile since 2021.",
+      "pt": "Veículo digital fundado por Carlos Fernando Chamorro, publicado do exílio desde 2021."
     },
     "about": {},
     "sources": [],
@@ -107,7 +109,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital newsroom publishing investigations and long-form reporting on Nicaragua."
+      "en": "Digital newsroom publishing investigations and long-form reporting on Nicaragua.",
+      "pt": "Redação digital que publica investigações e reportagens longas sobre a Nicarágua."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with national news, politics and human rights coverage of Nicaragua."
+      "en": "Digital outlet with national news, politics and human rights coverage of Nicaragua.",
+      "pt": "Veículo digital com notícias nacionais, política e cobertura de direitos humanos na Nicarágua."
     },
     "about": {},
     "sources": [],
@@ -187,7 +191,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with investigations into power, money and public institutions."
+      "en": "Digital outlet with investigations into power, money and public institutions.",
+      "pt": "Veículo digital com investigações sobre poder, dinheiro e instituições públicas."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with daily news and investigative reports on Nicaragua."
+      "en": "Digital outlet with daily news and investigative reports on Nicaragua.",
+      "pt": "Veículo digital com notícias diárias e reportagens investigativas sobre a Nicarágua."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet with investigations into power and corruption in Central America."
+      "en": "Nonprofit outlet with investigations into power and corruption in Central America.",
+      "pt": "Veículo sem fins lucrativos com investigações sobre poder e corrupção na América Central."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent radio station with news bulletins and political talk shows."
+      "en": "Independent radio station with news bulletins and political talk shows.",
+      "pt": "Rádio independente com boletins de notícias e programas de debate político."
     },
     "about": {},
     "sources": [],
@@ -347,7 +355,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Official news site of the Nicaraguan government, publishing government statements."
+      "en": "Official news site of the Nicaraguan government, publishing government statements.",
+      "pt": "Site de notícias oficial do governo da Nicarágua, que publica comunicados do governo."
     },
     "about": {},
     "sources": [

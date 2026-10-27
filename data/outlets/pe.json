@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Lima daily founded in 1839, Peru's newspaper of record for politics and society."
+      "en": "Lima daily founded in 1839, Peru's newspaper of record for politics and society.",
+      "pt": "Diário de Lima fundado em 1839, o jornal de referência do Peru em política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Lima daily with national politics, investigations and opinion."
+      "en": "Lima daily with national politics, investigations and opinion.",
+      "pt": "Diário de Lima com política nacional, investigações e opinião."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "broadcaster-radio",
     "editor_pick": true,
     "pitch": {
-      "en": "News site of Radio Programas del Perú, the country's main news radio network."
+      "en": "News site of Radio Programas del Perú, the country's main news radio network.",
+      "pt": "Site de notícias da Radio Programas del Perú, a principal rede de rádio de notícias do país."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Lima tabloid-format daily with politics and current affairs."
+      "en": "Lima tabloid-format daily with politics and current affairs.",
+      "pt": "Diário de Lima em formato tabloide com política e atualidades."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Peruvian edition of Infobae, with national politics, security and current affairs."
+      "en": "Peruvian edition of Infobae, with national politics, security and current affairs.",
+      "pt": "Edição peruana do Infobae, com política nacional, segurança e atualidades."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, mining and economic policy."
+      "en": "Business daily covering markets, mining and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, mineração e política econômica."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Business magazine with analysis of Peruvian companies and the economy."
+      "en": "Business magazine with analysis of Peruvian companies and the economy.",
+      "pt": "Revista de negócios com análises das empresas e da economia peruanas."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit investigative unit known for the Lava Jato and judicial corruption reporting."
+      "en": "Nonprofit investigative unit known for the Lava Jato and judicial corruption reporting.",
+      "pt": "Unidade investigativa sem fins lucrativos conhecida pelas reportagens sobre a Lava Jato e a corrupção judicial."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit newsroom using data journalism to investigate power and public money."
+      "en": "Nonprofit newsroom using data journalism to investigate power and public money.",
+      "pt": "Redação sem fins lucrativos que usa jornalismo de dados para investigar o poder e o dinheiro público."
     },
     "about": {},
     "sources": [],
@@ -384,7 +393,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit investigative outlet covering extractive industries and public contracts."
+      "en": "Nonprofit investigative outlet covering extractive industries and public contracts.",
+      "pt": "Veículo investigativo sem fins lucrativos que cobre indústrias extrativas e contratos públicos."
     },
     "about": {},
     "sources": [],
@@ -425,7 +435,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent digital outlet covering politics, the environment and social conflicts."
+      "en": "Independent digital outlet covering politics, the environment and social conflicts.",
+      "pt": "Veículo digital independente que cobre política, meio ambiente e conflitos sociais."
     },
     "about": {},
     "sources": [],
@@ -464,7 +475,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of Latina Televisión, with national newscasts and political interviews."
+      "en": "News service of Latina Televisión, with national newscasts and political interviews.",
+      "pt": "Serviço de notícias da Latina Televisión, com telejornais nacionais e entrevistas políticas."
     },
     "about": {},
     "sources": [],
@@ -503,7 +515,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of América Televisión, Peru's most watched channel."
+      "en": "News service of América Televisión, Peru's most watched channel.",
+      "pt": "Serviço de notícias da América Televisión, o canal mais assistido do Peru."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour cable news channel with politics, interviews and live coverage from Lima."
+      "en": "24-hour cable news channel with politics, interviews and live coverage from Lima.",
+      "pt": "Canal de notícias 24 horas a cabo com política, entrevistas e cobertura ao vivo de Lima."
     },
     "about": {},
     "sources": [],
@@ -581,7 +595,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of the state broadcaster IRTP, with national newscasts and live events."
+      "en": "News service of the state broadcaster IRTP, with national newscasts and live events.",
+      "pt": "Serviço de notícias da emissora estatal IRTP, com telejornais nacionais e eventos ao vivo."
     },
     "about": {},
     "sources": [],
@@ -620,7 +635,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports daily centered on Peruvian football and the national team."
+      "en": "Sports daily centered on Peruvian football and the national team.",
+      "pt": "Diário esportivo centrado no futebol peruano, nos clubes e na seleção."
     },
     "about": {},
     "sources": [],
@@ -659,7 +675,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports daily covering Liga 1, Peruvian clubs and the national football team."
+      "en": "Sports daily covering Liga 1, Peruvian clubs and the national football team.",
+      "pt": "Diário esportivo que cobre a Liga 1, os clubes peruanos e a seleção de futebol."
     },
     "about": {},
     "sources": [],
@@ -700,7 +717,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily newspaper with regional editions across Peru, covering local and national news."
+      "en": "Daily newspaper with regional editions across Peru, covering local and national news.",
+      "pt": "Diário com edições regionais em todo o Peru, com notícias locais e nacionais."
     },
     "about": {},
     "sources": [],
@@ -739,7 +757,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Piura daily covering northern Peru, its agriculture, fishing and regional politics."
+      "en": "Piura daily covering northern Peru, its agriculture, fishing and regional politics.",
+      "pt": "Diário de Piura que cobre o norte do Peru, sua agricultura, a pesca e a política regional."
     },
     "about": {},
     "sources": [],

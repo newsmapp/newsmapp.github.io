@@ -29,7 +29,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "National public broadcaster's news with state editions and live coverage."
+      "en": "National public broadcaster's news with state editions and live coverage.",
+      "pt": "Notícias da emissora pública nacional, com edições por estado e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -70,7 +71,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Australia's oldest continuously published newspaper, covering Sydney and the nation."
+      "en": "Australia's oldest continuously published newspaper, covering Sydney and the nation.",
+      "pt": "Jornal publicado sem interrupção há mais tempo na Austrália, cobrindo Sydney e o país."
     },
     "about": {},
     "sources": [],
@@ -111,7 +113,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Melbourne daily with Victorian and national news and investigations."
+      "en": "Melbourne daily with Victorian and national news and investigations.",
+      "pt": "Diário de Melbourne com notícias de Victoria e do país, além de investigações."
     },
     "about": {},
     "sources": [],
@@ -152,7 +155,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "National broadsheet with federal politics, business and opinion."
+      "en": "National broadsheet with federal politics, business and opinion.",
+      "pt": "Jornal nacional de referência com política federal, negócios e opinião."
     },
     "about": {},
     "sources": [],
@@ -195,7 +199,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Australian edition of the Guardian, free to read, with politics and environment."
+      "en": "Australian edition of the Guardian, free to read, with politics and environment.",
+      "pt": "Edição australiana do Guardian, gratuita, com política e meio ambiente."
     },
     "about": {},
     "sources": [],
@@ -234,7 +239,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "High-traffic free news site with national news and lifestyle."
+      "en": "High-traffic free news site with national news and lifestyle.",
+      "pt": "Site de notícias gratuito de grande audiência, com notícias nacionais e estilo de vida."
     },
     "about": {},
     "sources": [],
@@ -273,7 +279,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "National news agency supplying wires and fact-checks to Australian media."
+      "en": "National news agency supplying wires and fact-checks to Australian media.",
+      "pt": "Agência nacional de notícias que fornece despachos e checagens à mídia australiana."
     },
     "about": {},
     "sources": [],
@@ -314,7 +321,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Public multicultural broadcaster with world news and in-language services."
+      "en": "Public multicultural broadcaster with world news and in-language services.",
+      "pt": "Emissora pública multicultural com notícias do mundo e serviços em vários idiomas."
     },
     "about": {},
     "sources": [],
@@ -353,7 +361,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news from the Nine Network, with evening bulletins for each capital city."
+      "en": "Television news from the Nine Network, with evening bulletins for each capital city.",
+      "pt": "Telejornal da Nine Network, com edições noturnas para cada capital."
     },
     "about": {},
     "sources": [],
@@ -392,7 +401,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news from the Seven Network, with evening bulletins for each capital city."
+      "en": "Television news from the Seven Network, with evening bulletins for each capital city.",
+      "pt": "Telejornal da Seven Network, com edições noturnas para cada capital."
     },
     "about": {},
     "sources": [],
@@ -433,7 +443,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour news channel with political interviews and commentary."
+      "en": "24-hour news channel with political interviews and commentary.",
+      "pt": "Canal de notícias 24 horas com entrevistas políticas e comentários."
     },
     "about": {},
     "sources": [],
@@ -472,7 +483,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper with long-form political and social reporting."
+      "en": "Weekly newspaper with long-form political and social reporting.",
+      "pt": "Jornal semanal com reportagens longas sobre política e sociedade."
     },
     "about": {},
     "sources": [],
@@ -511,7 +523,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent subscription site covering politics, media and power."
+      "en": "Independent subscription site covering politics, media and power.",
+      "pt": "Site independente por assinatura que cobre política, mídia e poder."
     },
     "about": {},
     "sources": [],
@@ -550,7 +563,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Australia's business daily covering markets, companies and policy."
+      "en": "Australia's business daily covering markets, companies and policy.",
+      "pt": "Diário de negócios da Austrália, com mercados, empresas e políticas públicas."
     },
     "about": {},
     "sources": [],
@@ -589,7 +603,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business news and advice for Australian small and medium-sized enterprises and founders."
+      "en": "Business news and advice for Australian small and medium-sized enterprises and founders.",
+      "pt": "Notícias e orientação de negócios para pequenas e médias empresas e fundadores australianos."
     },
     "about": {},
     "sources": [],
@@ -628,7 +643,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Investing site with commentary from fund managers and market news."
+      "en": "Investing site with commentary from fund managers and market news.",
+      "pt": "Site de investimentos com comentários de gestores de fundos e notícias do mercado."
     },
     "about": {},
     "sources": [],
@@ -669,7 +685,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "ABC's flagship investigative television program, broadcasting long-form reports since 1961."
+      "en": "ABC's flagship investigative television program, broadcasting long-form reports since 1961.",
+      "pt": "Principal programa investigativo de TV da ABC, com reportagens longas desde 1961."
     },
     "about": {},
     "sources": [],
@@ -710,7 +727,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Independent outlet investigating corporate power, tax avoidance and political donations."
+      "en": "Independent outlet investigating corporate power, tax avoidance and political donations.",
+      "pt": "Veículo independente que investiga o poder corporativo, a elisão fiscal e doações políticas."
     },
     "about": {},
     "sources": [],
@@ -749,7 +767,8 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Fact-checking service of AAP verifying claims in Australian public debate."
+      "en": "Fact-checking service of AAP verifying claims in Australian public debate.",
+      "pt": "Serviço de checagem da AAP que verifica afirmações do debate público australiano."
     },
     "about": {},
     "sources": [],
@@ -788,7 +807,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports news and broadcasts with AFL, NRL, cricket and football from News Corp Australia."
+      "en": "Sports news and broadcasts with AFL, NRL, cricket and football from News Corp Australia.",
+      "pt": "Notícias e transmissões esportivas com AFL, NRL, críquete e futebol, da News Corp Australia."
     },
     "about": {},
     "sources": [],
@@ -827,7 +847,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Nine's sports brand with NRL, tennis, cricket and Olympic coverage and live scores."
+      "en": "Nine's sports brand with NRL, tennis, cricket and Olympic coverage and live scores.",
+      "pt": "Marca esportiva da Nine com NRL, tênis, críquete, Jogos Olímpicos e placares ao vivo."
     },
     "about": {},
     "sources": [],
@@ -866,7 +887,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Australian edition of ESPN with AFL, NRL, NBA and international sports news."
+      "en": "Australian edition of ESPN with AFL, NRL, NBA and international sports news.",
+      "pt": "Edição australiana da ESPN com AFL, NRL, NBA e notícias do esporte internacional."
     },
     "about": {},
     "sources": [],
@@ -905,7 +927,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit site where academics write about research and current affairs."
+      "en": "Nonprofit site where academics write about research and current affairs.",
+      "pt": "Site sem fins lucrativos em que acadêmicos escrevem sobre pesquisa e atualidades."
     },
     "about": {},
     "sources": [],
@@ -944,7 +967,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Science magazine and news site published by the Royal Institution of Australia."
+      "en": "Science magazine and news site published by the Royal Institution of Australia.",
+      "pt": "Revista e site de ciência publicados pela Royal Institution of Australia."
     },
     "about": {},
     "sources": [],
@@ -983,7 +1007,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Business technology news for Australian IT professionals, covering government IT and security."
+      "en": "Business technology news for Australian IT professionals, covering government IT and security.",
+      "pt": "Notícias de tecnologia corporativa para profissionais de TI, com TI de governo e segurança."
     },
     "about": {},
     "sources": [],
@@ -1022,7 +1047,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Brisbane daily covering Queensland politics, crime, sport and local communities."
+      "en": "Brisbane daily covering Queensland politics, crime, sport and local communities.",
+      "pt": "Diário de Brisbane que cobre política, crime, esporte e comunidades de Queensland."
     },
     "about": {},
     "sources": [],
@@ -1061,7 +1087,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Perth daily covering Western Australia's politics, mining industry and communities."
+      "en": "Perth daily covering Western Australia's politics, mining industry and communities.",
+      "pt": "Diário de Perth que cobre a política, a mineração e as comunidades da Austrália Ocidental."
     },
     "about": {},
     "sources": [],
@@ -1100,7 +1127,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Adelaide daily covering South Australia's politics, sport and local communities."
+      "en": "Adelaide daily covering South Australia's politics, sport and local communities.",
+      "pt": "Diário de Adelaide que cobre a política, o esporte e as comunidades da Austrália Meridional."
     },
     "about": {},
     "sources": [],
@@ -1139,7 +1167,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Hobart daily covering Tasmania's politics, environment and local communities."
+      "en": "Hobart daily covering Tasmania's politics, environment and local communities.",
+      "pt": "Diário de Hobart que cobre a política, o meio ambiente e as comunidades da Tasmânia."
     },
     "about": {},
     "sources": [],

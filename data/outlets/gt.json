@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Guatemala City daily with the widest reach in the country, covering politics, security and the economy."
+      "en": "Guatemala City daily with the widest reach in the country, covering politics, security and the economy.",
+      "pt": "Diário da Cidade da Guatemala com o maior alcance do país, cobrindo política, segurança e economia."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital news site with national news, public services and sports from Guatemala."
+      "en": "Digital news site with national news, public services and sports from Guatemala.",
+      "pt": "Site de notícias digital com notícias nacionais, serviços públicos e esportes da Guatemala."
     },
     "about": {},
     "sources": [],
@@ -107,7 +109,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Afternoon daily founded in 1920, with national politics, justice and opinion."
+      "en": "Afternoon daily founded in 1920, with national politics, justice and opinion.",
+      "pt": "Vespertino fundado em 1920, com política nacional, justiça e opinião."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Mass-market tabloid with national news, crime coverage and football."
+      "en": "Mass-market tabloid with national news, crime coverage and football.",
+      "pt": "Tabloide popular com notícias nacionais, cobertura policial e futebol."
     },
     "about": {},
     "sources": [],
@@ -189,7 +193,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with national politics, the economy and opinion."
+      "en": "Digital outlet with national politics, the economy and opinion.",
+      "pt": "Veículo digital guatemalteco com política nacional, economia e opinião."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Free daily distributed in Guatemala City, with national and local news."
+      "en": "Free daily distributed in Guatemala City, with national and local news.",
+      "pt": "Diário gratuito distribuído na Cidade da Guatemala, com notícias nacionais e locais."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit outlet publishing in-depth reporting on power, justice and inequality."
+      "en": "Nonprofit outlet publishing in-depth reporting on power, justice and inequality.",
+      "pt": "Veículo sem fins lucrativos que publica reportagens aprofundadas sobre poder, justiça e desigualdade."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit newsroom covering justice, migration, the environment and gender."
+      "en": "Nonprofit newsroom covering justice, migration, the environment and gender.",
+      "pt": "Redação sem fins lucrativos que cobre justiça, migração, meio ambiente e gênero."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet publishing long-form investigations into politics and organized crime."
+      "en": "Nonprofit outlet publishing long-form investigations into politics and organized crime.",
+      "pt": "Veículo sem fins lucrativos com investigações longas sobre política e crime organizado."
     },
     "about": {},
     "sources": [],
@@ -384,7 +393,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit outlet investigating municipal governments and local public spending."
+      "en": "Nonprofit outlet investigating municipal governments and local public spending.",
+      "pt": "Veículo sem fins lucrativos que investiga governos municipais e o gasto público local."
     },
     "about": {},
     "sources": [],
@@ -425,7 +435,8 @@
     "format": "broadcaster-radio",
     "editor_pick": true,
     "pitch": {
-      "en": "News radio network with national news, live coverage and morning shows."
+      "en": "News radio network with national news, live coverage and morning shows.",
+      "pt": "Rede de rádio de notícias com noticiário nacional, cobertura ao vivo e programas matinais."
     },
     "about": {},
     "sources": [],
@@ -464,7 +475,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television channel with national newscasts, interviews and current affairs."
+      "en": "Television channel with national newscasts, interviews and current affairs.",
+      "pt": "Canal de televisão com telejornais nacionais, entrevistas e atualidades."
     },
     "about": {},
     "sources": [],
@@ -503,7 +515,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television channel with news, political debate and interviews."
+      "en": "Television channel with news, political debate and interviews.",
+      "pt": "Canal de televisão com notícias, debate político e entrevistas."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Television news service with national newscasts and live coverage."
+      "en": "Television news service with national newscasts and live coverage.",
+      "pt": "Serviço de telejornalismo com telejornais nacionais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],

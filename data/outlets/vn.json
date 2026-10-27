@@ -25,7 +25,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Vietnam's most read news site, with national news, business, science and sports."
+      "en": "Vietnam's most read news site, with national news, business, science and sports.",
+      "pt": "Site de notícias mais lido do Vietnã, com notícias nacionais, negócios, ciência e esportes."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Ho Chi Minh City daily of the Communist Youth Union, one of the most read in Vietnam."
+      "en": "Ho Chi Minh City daily of the Communist Youth Union, one of the most read in Vietnam.",
+      "pt": "Diário da Cidade de Ho Chi Minh da União da Juventude Comunista, um dos mais lidos do Vietnã."
     },
     "about": {},
     "sources": [
@@ -110,7 +112,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily of the Vietnam Youth Federation with national news, society and education."
+      "en": "Daily of the Vietnam Youth Federation with national news, society and education.",
+      "pt": "Diário da Federação da Juventude do Vietnã com notícias nacionais, sociedade e educação."
     },
     "about": {},
     "sources": [
@@ -154,7 +157,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "High-traffic news site with national news, society, education and labor."
+      "en": "High-traffic news site with national news, society, education and labor.",
+      "pt": "Site de notícias de grande audiência com notícias nacionais, sociedade, educação e trabalho."
     },
     "about": {},
     "sources": [
@@ -198,7 +202,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "News site with national news, politics, technology and education."
+      "en": "News site with national news, politics, technology and education.",
+      "pt": "Site de notícias com notícias nacionais, política, tecnologia e educação."
     },
     "about": {},
     "sources": [
@@ -242,7 +247,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Official newspaper of the Communist Party of Vietnam, publishing party positions."
+      "en": "Official newspaper of the Communist Party of Vietnam, publishing party positions.",
+      "pt": "Jornal oficial do Partido Comunista do Vietnã, que publica as posições do partido."
     },
     "about": {},
     "sources": [
@@ -286,7 +292,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language edition of VnExpress with news, business and travel."
+      "en": "English-language edition of VnExpress with news, business and travel.",
+      "pt": "Edição em inglês do VnExpress, com notícias, negócios e viagens."
     },
     "about": {},
     "sources": [],
@@ -325,7 +332,8 @@
     "format": "magazine",
     "editor_pick": true,
     "pitch": {
-      "en": "Business news site and magazine covering markets, banking and the Vietnamese economy."
+      "en": "Business news site and magazine covering markets, banking and the Vietnamese economy.",
+      "pt": "Site e revista de negócios que cobrem mercados, bancos e a economia vietnamita."
     },
     "about": {},
     "sources": [],
@@ -364,7 +372,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial news site with stock market data, company news and real estate."
+      "en": "Financial news site with stock market data, company news and real estate.",
+      "pt": "Site de notícias financeiras com dados da bolsa, notícias de empresas e setor imobiliário."
     },
     "about": {},
     "sources": [],
@@ -403,7 +412,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language business newspaper covering foreign investment in Vietnam."
+      "en": "English-language business newspaper covering foreign investment in Vietnam.",
+      "pt": "Jornal de negócios em inglês que cobre o investimento estrangeiro no Vietnã."
     },
     "about": {},
     "sources": [
@@ -447,7 +457,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering smartphones, the internet and science."
+      "en": "Technology news site covering smartphones, the internet and science.",
+      "pt": "Site de tecnologia que cobre smartphones, a internet e a ciência."
     },
     "about": {},
     "sources": [],
@@ -486,7 +497,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News site of Vietnam Television, the national state broadcaster."
+      "en": "News site of Vietnam Television, the national state broadcaster.",
+      "pt": "Site de notícias da Vietnam Television, a emissora estatal nacional."
     },
     "about": {},
     "sources": [
@@ -530,7 +542,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Voice of Vietnam, the national state radio, with news in Vietnamese and other languages."
+      "en": "Voice of Vietnam, the national state radio, with news in Vietnamese and other languages.",
+      "pt": "A Voz do Vietnã, rádio estatal nacional, com notícias em vietnamita e outros idiomas."
     },
     "about": {},
     "sources": [
@@ -574,7 +587,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Football news site covering the V.League, the national team and European football."
+      "en": "Football news site covering the V.League, the national team and European football.",
+      "pt": "Site de futebol que cobre a V.League, a seleção e o futebol europeu."
     },
     "about": {},
     "sources": [],
@@ -613,7 +627,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports and culture newspaper of the Vietnam News Agency, covering football and entertainment."
+      "en": "Sports and culture newspaper of the Vietnam News Agency, covering football and entertainment.",
+      "pt": "Jornal de esportes e cultura da Agência Vietnamita de Notícias, com futebol e entretenimento."
     },
     "about": {},
     "sources": [
@@ -657,7 +672,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily of the Ho Chi Minh City party committee, covering the city and the south."
+      "en": "Daily of the Ho Chi Minh City party committee, covering the city and the south.",
+      "pt": "Diário do comitê do partido da Cidade de Ho Chi Minh, que cobre a cidade e o sul."
     },
     "about": {},
     "sources": [
@@ -701,7 +717,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily of the Hanoi party committee, covering the capital and its districts."
+      "en": "Daily of the Hanoi party committee, covering the capital and its districts.",
+      "pt": "Diário do comitê do partido de Hanói, que cobre a capital e seus distritos."
     },
     "about": {},
     "sources": [

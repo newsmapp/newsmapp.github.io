@@ -3,7 +3,8 @@
   "iso3": "PAN",
   "slug": "panama",
   "name": {
-    "en": "Panama"
+    "en": "Panama",
+    "pt": "Panamá"
   },
   "continent": "north-america",
   "also_in": [],
@@ -40,6 +41,29 @@
         },
         "broadcast": {
           "intro": "Television and radio carry national news across Panama. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "O mercado de notícias do Panamá é centrado na Cidade do Panamá. O La Prensa, fundado em 1980, é conhecido por investigações sobre corrupção e é publicado pela Corporación La Prensa, que também publica o Mi Diario. O La Estrella de Panamá, fundado em 1849, é um dos jornais mais antigos das Américas, e o Grupo Epasa publica o Panamá América e o Crítica. O telejornalismo é liderado por TVN e Telemetro. A cobertura do Canal do Panamá, dos bancos e do comércio é central no noticiário econômico. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Panamá?",
+          "a": "Os principais veículos nacionais do diretório incluem La Prensa, La Estrella de Panamá, Panamá América e TVN Noticias. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Há notícias do Panamá em inglês?",
+          "a": "O Newsroom Panama cobre o Panamá em inglês. Seu idioma aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Panamá ficam na Cidade do Panamá e incluem um dos jornais mais antigos das Américas."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio levam as notícias nacionais a todo o Panamá. Os canais e as emissoras abaixo publicam seus noticiários na internet."
         }
       },
       "reviewed": false,

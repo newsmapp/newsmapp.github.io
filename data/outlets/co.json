@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Bogotá daily with the largest circulation in Colombia, covering politics, security and society."
+      "en": "Bogotá daily with the largest circulation in Colombia, covering politics, security and society.",
+      "pt": "Diário de Bogotá de maior circulação na Colômbia, com política, segurança e sociedade."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Colombia's oldest daily, known for political coverage and opinion."
+      "en": "Colombia's oldest daily, known for political coverage and opinion.",
+      "pt": "Diário mais antigo da Colômbia, conhecido pela cobertura política e pela opinião."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Newsweekly and news site with politics, interviews and current affairs."
+      "en": "Newsweekly and news site with politics, interviews and current affairs.",
+      "pt": "Revista semanal e site de notícias com política, entrevistas e atualidades."
     },
     "about": {},
     "sources": [],
@@ -150,7 +153,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital outlet that maps power in Colombian politics, with in-depth reporting and analysis."
+      "en": "Digital outlet that maps power in Colombian politics, with in-depth reporting and analysis.",
+      "pt": "Veículo digital que mapeia o poder na política colombiana, com reportagem e análise aprofundadas."
     },
     "about": {},
     "sources": [],
@@ -191,7 +195,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "News magazine with investigations into politics and public contracts."
+      "en": "News magazine with investigations into politics and public contracts.",
+      "pt": "Revista de notícias com investigações sobre política e contratos públicos."
     },
     "about": {},
     "sources": [],
@@ -230,7 +235,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit investigative newsroom using data and public records."
+      "en": "Nonprofit investigative newsroom using data and public records.",
+      "pt": "Redação investigativa sem fins lucrativos que usa dados e registros públicos."
     },
     "about": {},
     "sources": [],
@@ -269,7 +275,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit site documenting the armed conflict, land restitution and transitional justice."
+      "en": "Nonprofit site documenting the armed conflict, land restitution and transitional justice.",
+      "pt": "Site sem fins lucrativos que documenta o conflito armado, a restituição de terras e a justiça de transição."
     },
     "about": {},
     "sources": [],
@@ -308,7 +315,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering markets, companies and economic policy."
+      "en": "Business daily covering markets, companies and economic policy.",
+      "pt": "Diário de negócios que cobre mercados, empresas e política econômica."
     },
     "about": {},
     "sources": [],
@@ -347,7 +355,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial daily with markets, companies and personal finance."
+      "en": "Financial daily with markets, companies and personal finance.",
+      "pt": "Diário financeiro com mercados, empresas e finanças pessoais."
     },
     "about": {},
     "sources": [],
@@ -386,7 +395,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet covering Colombian markets, banking and corporate news."
+      "en": "Digital outlet covering Colombian markets, banking and corporate news.",
+      "pt": "Veículo digital que cobre os mercados, os bancos e as empresas da Colômbia."
     },
     "about": {},
     "sources": [],
@@ -427,7 +437,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News service of Caracol Televisión, one of Colombia's two main private networks."
+      "en": "News service of Caracol Televisión, one of Colombia's two main private networks.",
+      "pt": "Serviço de notícias da Caracol Televisión, uma das duas principais redes privadas do país."
     },
     "about": {},
     "sources": [],
@@ -466,7 +477,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of RCN Televisión with national newscasts online."
+      "en": "News service of RCN Televisión with national newscasts online.",
+      "pt": "Serviço de notícias da RCN Televisión, com telejornais nacionais na internet."
     },
     "about": {},
     "sources": [],
@@ -505,7 +517,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "National news radio network with morning shows and live coverage."
+      "en": "National news radio network with morning shows and live coverage.",
+      "pt": "Rede nacional de rádio de notícias com programas matinais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -544,7 +557,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "News and talk radio network with politics and current affairs."
+      "en": "News and talk radio network with politics and current affairs.",
+      "pt": "Rede de rádio de notícias e debate com política e atualidades."
     },
     "about": {},
     "sources": [],
@@ -583,7 +597,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "News service of RTVC, Colombia's public media system, with national newscasts."
+      "en": "News service of RTVC, Colombia's public media system, with national newscasts.",
+      "pt": "Serviço de notícias do RTVC, o sistema de mídia pública da Colômbia, com telejornais nacionais."
     },
     "about": {},
     "sources": [],
@@ -622,7 +637,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Football news site covering the Liga BetPlay, the national team and Colombian players abroad."
+      "en": "Football news site covering the Liga BetPlay, the national team and Colombian players abroad.",
+      "pt": "Site de futebol que cobre a Liga BetPlay, a seleção e os jogadores colombianos no exterior."
     },
     "about": {},
     "sources": [],
@@ -663,7 +679,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Sports channel holding the television rights to Colombian football."
+      "en": "Sports channel holding the television rights to Colombian football.",
+      "pt": "Canal esportivo detentor dos direitos de TV do futebol colombiano."
     },
     "about": {},
     "sources": [],
@@ -702,7 +719,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology news site covering gadgets, telecoms and the digital economy in Colombia."
+      "en": "Technology news site covering gadgets, telecoms and the digital economy in Colombia.",
+      "pt": "Site de tecnologia sobre aparelhos, telecomunicações e a economia digital na Colômbia."
     },
     "about": {},
     "sources": [],
@@ -741,7 +759,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Medellín daily covering Antioquia, the city's economy and national news."
+      "en": "Medellín daily covering Antioquia, the city's economy and national news.",
+      "pt": "Diário de Medellín que cobre Antioquia, a economia da cidade e as notícias nacionais."
     },
     "about": {},
     "sources": [],
@@ -780,7 +799,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Cali daily covering Valle del Cauca and southwestern Colombia."
+      "en": "Cali daily covering Valle del Cauca and southwestern Colombia.",
+      "pt": "Diário de Cali que cobre o Valle del Cauca e o sudoeste da Colômbia."
     },
     "about": {},
     "sources": [],
@@ -819,7 +839,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Barranquilla daily covering the Caribbean coast, its ports and its culture."
+      "en": "Barranquilla daily covering the Caribbean coast, its ports and its culture.",
+      "pt": "Diário de Barranquilla que cobre a costa caribenha, seus portos e sua cultura."
     },
     "about": {},
     "sources": [],
@@ -858,7 +879,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Bucaramanga daily covering Santander and northeastern Colombia."
+      "en": "Bucaramanga daily covering Santander and northeastern Colombia.",
+      "pt": "Diário de Bucaramanga que cobre Santander e o nordeste da Colômbia."
     },
     "about": {},
     "sources": [],

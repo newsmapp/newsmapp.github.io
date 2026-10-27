@@ -27,7 +27,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "South Africa's most read news site, with national news, politics and investigations."
+      "en": "South Africa's most read news site, with national news, politics and investigations.",
+      "pt": "Site de notícias mais lido da África do Sul, com notícias nacionais, política e investigações."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital newsroom known for investigations into state capture, politics and business."
+      "en": "Digital newsroom known for investigations into state capture, politics and business.",
+      "pt": "Redação digital conhecida pelas investigações sobre a captura do Estado, a política e os negócios."
     },
     "about": {},
     "sources": [],
@@ -109,7 +111,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Weekly newspaper and news site with politics, investigations and analysis."
+      "en": "Weekly newspaper and news site with politics, investigations and analysis.",
+      "pt": "Semanário e site de notícias com política, investigações e análises."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "News site of the Sunday Times with national news, politics and courts."
+      "en": "News site of the Sunday Times with national news, politics and courts.",
+      "pt": "Site de notícias do Sunday Times com notícias nacionais, política e tribunais."
     },
     "about": {},
     "sources": [],
@@ -187,7 +191,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "News site of Independent Media's daily newspapers, with national and local news."
+      "en": "News site of Independent Media's daily newspapers, with national and local news.",
+      "pt": "Site de notícias dos diários da Independent Media, com notícias nacionais e locais."
     },
     "about": {},
     "sources": [],
@@ -226,7 +231,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Afrikaans-language news site with national news, community stories and opinion."
+      "en": "Afrikaans-language news site with national news, community stories and opinion.",
+      "pt": "Site de notícias em africâner com notícias nacionais, histórias da comunidade e opinião."
     },
     "about": {},
     "sources": [],
@@ -265,7 +271,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Nonprofit centre for investigative journalism known for its reporting on state capture."
+      "en": "Nonprofit centre for investigative journalism known for its reporting on state capture.",
+      "pt": "Centro sem fins lucrativos de jornalismo investigativo conhecido pelas reportagens sobre a captura do Estado."
     },
     "about": {},
     "sources": [],
@@ -304,7 +311,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit news agency reporting on social justice, courts and vulnerable communities."
+      "en": "Nonprofit news agency reporting on social justice, courts and vulnerable communities.",
+      "pt": "Agência de notícias sem fins lucrativos que cobre justiça social, tribunais e comunidades vulneráveis."
     },
     "about": {},
     "sources": [],
@@ -343,7 +351,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business daily covering the Johannesburg Stock Exchange, companies and economic policy."
+      "en": "Business daily covering the Johannesburg Stock Exchange, companies and economic policy.",
+      "pt": "Diário de negócios que cobre a Bolsa de Joanesburgo, as empresas e a política econômica."
     },
     "about": {},
     "sources": [],
@@ -382,7 +391,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Financial news site with markets, personal finance and company news."
+      "en": "Financial news site with markets, personal finance and company news.",
+      "pt": "Site de notícias financeiras com mercados, finanças pessoais e notícias de empresas."
     },
     "about": {},
     "sources": [],
@@ -421,7 +431,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering telecoms, broadband, power and consumer tech."
+      "en": "Technology news site covering telecoms, broadband, power and consumer tech.",
+      "pt": "Site de tecnologia que cobre telecomunicações, banda larga, energia e tecnologia de consumo."
     },
     "about": {},
     "sources": [],
@@ -460,7 +471,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Technology news site covering the South African ICT industry and telecoms policy."
+      "en": "Technology news site covering the South African ICT industry and telecoms policy.",
+      "pt": "Site de tecnologia que cobre o setor de TIC sul-africano e a política de telecomunicações."
     },
     "about": {},
     "sources": [],
@@ -501,7 +513,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "News service of the public broadcaster, with television, radio and online news."
+      "en": "News service of the public broadcaster, with television, radio and online news.",
+      "pt": "Serviço de notícias da emissora pública, com notícias na televisão, no rádio e na internet."
     },
     "about": {},
     "sources": [],
@@ -540,7 +553,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "24-hour television news channel with national news and live coverage."
+      "en": "24-hour television news channel with national news and live coverage.",
+      "pt": "Canal de notícias 24 horas na televisão com notícias nacionais e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -581,7 +595,8 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Eyewitness News, the newsroom of Primedia's radio stations, with live updates."
+      "en": "Eyewitness News, the newsroom of Primedia's radio stations, with live updates.",
+      "pt": "Eyewitness News, a redação das rádios da Primedia, com atualizações ao vivo."
     },
     "about": {},
     "sources": [],
@@ -622,7 +637,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Pan-African sports broadcaster covering football, rugby and cricket."
+      "en": "Pan-African sports broadcaster covering football, rugby and cricket.",
+      "pt": "Emissora esportiva pan-africana que cobre futebol, rúgbi e críquete."
     },
     "about": {},
     "sources": [],
@@ -661,7 +677,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Football magazine and site covering the Premiership, Bafana Bafana and African football."
+      "en": "Football magazine and site covering the Premiership, Bafana Bafana and African football.",
+      "pt": "Revista e site de futebol que cobrem a Premiership, os Bafana Bafana e o futebol africano."
     },
     "about": {},
     "sources": [],
@@ -700,7 +717,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "East London daily covering the Eastern Cape, founded in 1872."
+      "en": "East London daily covering the Eastern Cape, founded in 1872.",
+      "pt": "Diário de East London que cobre o Cabo Oriental, fundado em 1872."
     },
     "about": {},
     "sources": [],
@@ -739,7 +757,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Pietermaritzburg daily covering KwaZulu-Natal, one of South Africa's oldest newspapers."
+      "en": "Pietermaritzburg daily covering KwaZulu-Natal, one of South Africa's oldest newspapers.",
+      "pt": "Diário de Pietermaritzburg que cobre KwaZulu-Natal, um dos jornais mais antigos da África do Sul."
     },
     "about": {},
     "sources": [],

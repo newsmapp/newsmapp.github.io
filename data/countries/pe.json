@@ -3,7 +3,8 @@
   "iso3": "PER",
   "slug": "peru",
   "name": {
-    "en": "Peru"
+    "en": "Peru",
+    "pt": "Peru"
   },
   "continent": "south-america",
   "also_in": [],
@@ -55,6 +56,39 @@
         },
         "regional": {
           "intro": "Outside Lima, regional dailies and editions cover the north and the rest of the country. The outlets below serve Piura and Correo's regional editions."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "O mercado de notícias do Peru é liderado, a partir de Lima, pelo Grupo El Comercio, que publica El Comercio, Gestión, Depor e a rede regional Correo, ao lado do La República e da rede de rádio RPP. O telejornalismo vem de canais privados como Latina e América e da emissora estatal TV Perú. Redações sem fins lucrativos, como IDL-Reporteros, OjoPúblico e Convoca, revelaram grandes casos de corrupção e de contratos públicos. O El Tiempo cobre Piura e o norte, e o Correo publica edições regionais em todo o país. A maioria dos sites é gratuita; El Comercio e Gestión usam paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Peru?",
+          "a": "Os principais veículos nacionais do diretório incluem El Comercio, La República e RPP Noticias. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos peruanos são financiados com recursos públicos?",
+          "a": "A TV Perú Noticias pertence ao IRTP, a emissora estatal. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo no Peru?",
+          "a": "O trabalho investigativo do diretório vem do IDL-Reporteros, OjoPúblico, Convoca e Wayka. A coluna Investigativo os lista em ordem editorial."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos nacionais do Peru ficam em Lima e incluem um dos diários mais antigos da América Latina e uma das principais redes de rádio de notícias."
+        },
+        "investigative": {
+          "intro": "As redações investigativas sem fins lucrativos do Peru revelaram grandes casos de corrupção e de licitações. Estes são os veículos conhecidos por esse trabalho."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão levam as notícias nacionais a todo o Peru. As redes abaixo publicam seus noticiários na internet."
+        },
+        "regional": {
+          "intro": "Fora de Lima, diários e edições regionais cobrem o norte e o restante do país. Os veículos abaixo atendem Piura e as edições regionais do Correo."
         }
       },
       "reviewed": true,

@@ -25,7 +25,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Mass-market Bangkok daily with the largest readership in Thailand."
+      "en": "Mass-market Bangkok daily with the largest readership in Thailand.",
+      "pt": "Diário popular de Bangkok com o maior público leitor da Tailândia."
     },
     "about": {},
     "sources": [],
@@ -66,7 +67,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Bangkok daily known for its political coverage, analysis and opinion columns."
+      "en": "Bangkok daily known for its political coverage, analysis and opinion columns.",
+      "pt": "Diário de Bangkok conhecido pela cobertura política, pelas análises e pelas colunas de opinião."
     },
     "about": {},
     "sources": [],
@@ -105,7 +107,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Popular daily of the Matichon group with national news, crime and entertainment."
+      "en": "Popular daily of the Matichon group with national news, crime and entertainment.",
+      "pt": "Diário popular do grupo Matichon com notícias nacionais, crime e entretenimento."
     },
     "about": {},
     "sources": [],
@@ -144,7 +147,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news outlet with national news, politics, business and podcasts."
+      "en": "Digital news outlet with national news, politics, business and podcasts.",
+      "pt": "Veículo digital com notícias nacionais, política, negócios e podcasts."
     },
     "about": {},
     "sources": [],
@@ -183,7 +187,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with explainers, politics and international news."
+      "en": "Digital news site with explainers, politics and international news.",
+      "pt": "Site de notícias digital com textos explicativos, política e notícias internacionais."
     },
     "about": {},
     "sources": [],
@@ -224,7 +229,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "English-language daily founded in 1946, with politics, business and regional news."
+      "en": "English-language daily founded in 1946, with politics, business and regional news.",
+      "pt": "Diário em inglês fundado em 1946, com política, negócios e notícias regionais."
     },
     "about": {},
     "sources": [],
@@ -263,7 +269,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site with national news, business and ASEAN coverage."
+      "en": "English-language news site with national news, business and ASEAN coverage.",
+      "pt": "Site de notícias em inglês com notícias nacionais, negócios e cobertura da ASEAN."
     },
     "about": {},
     "sources": [],
@@ -304,7 +311,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "English-language news site of Khaosod with politics, society and culture."
+      "en": "English-language news site of Khaosod with politics, society and culture.",
+      "pt": "Site de notícias em inglês do Khaosod, com política, sociedade e cultura."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Independent nonprofit news site covering human rights, politics and civil liberties."
+      "en": "Independent nonprofit news site covering human rights, politics and civil liberties.",
+      "pt": "Site de notícias independente e sem fins lucrativos que cobre direitos humanos, política e liberdades civis."
     },
     "about": {},
     "sources": [],
@@ -384,7 +393,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Investigative news agency reporting on corruption and the conflict in the deep south."
+      "en": "Investigative news agency reporting on corruption and the conflict in the deep south.",
+      "pt": "Agência de notícias investigativa que cobre a corrupção e o conflito no extremo sul."
     },
     "about": {},
     "sources": [],
@@ -423,7 +433,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business newspaper of the Matichon group covering markets, property and trade."
+      "en": "Business newspaper of the Matichon group covering markets, property and trade.",
+      "pt": "Jornal de negócios do grupo Matichon que cobre mercados, imóveis e comércio."
     },
     "about": {},
     "sources": [],
@@ -462,7 +473,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Business newspaper covering companies, investment and economic policy."
+      "en": "Business newspaper covering companies, investment and economic policy.",
+      "pt": "Jornal de negócios que cobre empresas, investimentos e política econômica."
     },
     "about": {},
     "sources": [],
@@ -501,7 +513,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Technology news site covering the internet, software and the Thai tech industry."
+      "en": "Technology news site covering the internet, software and the Thai tech industry.",
+      "pt": "Site de tecnologia que cobre a internet, o software e o setor de tecnologia tailandês."
     },
     "about": {},
     "sources": [],
@@ -542,7 +555,8 @@
     "format": "broadcaster-tv",
     "editor_pick": true,
     "pitch": {
-      "en": "Public broadcaster with national newscasts, documentaries and regional reporting."
+      "en": "Public broadcaster with national newscasts, documentaries and regional reporting.",
+      "pt": "Emissora pública com telejornais nacionais, documentários e reportagem regional."
     },
     "about": {},
     "sources": [],
@@ -581,7 +595,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital television channel with national news, talk shows and live coverage."
+      "en": "Digital television channel with national news, talk shows and live coverage.",
+      "pt": "Canal de televisão digital com notícias nacionais, programas de debate e cobertura ao vivo."
     },
     "about": {},
     "sources": [],
@@ -620,7 +635,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports newspaper and site covering Thai football, boxing and international sport."
+      "en": "Sports newspaper and site covering Thai football, boxing and international sport.",
+      "pt": "Jornal e site esportivo que cobre o futebol tailandês, o boxe e o esporte internacional."
     },
     "about": {},
     "sources": [],
@@ -659,7 +675,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Outlet covering Isan, Thailand's northeast, its politics, rights and culture."
+      "en": "Outlet covering Isan, Thailand's northeast, its politics, rights and culture.",
+      "pt": "Veículo que cobre o Isan, o nordeste da Tailândia, sua política, direitos e cultura."
     },
     "about": {},
     "sources": [],

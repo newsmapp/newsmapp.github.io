@@ -3,7 +3,8 @@
   "iso3": "ARG",
   "slug": "argentina",
   "name": {
-    "en": "Argentina"
+    "en": "Argentina",
+    "pt": "Argentina"
   },
   "continent": "south-america",
   "also_in": [],
@@ -56,6 +57,42 @@
         },
         "regional": {
           "intro": "Beyond Buenos Aires, provincial dailies cover their regions in depth. The outlets below serve Córdoba, Mendoza, Santa Fe and northern Patagonia."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "A Argentina tem um dos maiores mercados de notícias da América Latina, concentrado em Buenos Aires, com diários nacionais como Clarín e La Nación, o nativo digital Infobae e uma forte tradição de semanários políticos e rádios de debate. O Grupo Clarín é o maior grupo de mídia, com jornais, canal de notícias a cabo e rádio. A cobertura é marcada pela instabilidade econômica, por isso diários financeiros como Ámbito e El Cronista têm leitores muito além do mundo dos negócios. A checagem de fatos e o jornalismo sem fins lucrativos são bem desenvolvidos, liderados pelo Chequeado. Os diários das províncias continuam importantes em Córdoba, Mendoza, Santa Fe e na Patagônia. A maioria dos sites é gratuita; Clarín e La Nación usam paywall com limite de leitura.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Argentina?",
+          "a": "Os principais veículos nacionais do diretório incluem Clarín, La Nación, Infobae, Página/12 e Perfil. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais sites de notícias argentinos são gratuitos?",
+          "a": "Entre os veículos gratuitos estão Infobae, Página/12, Perfil e Ámbito. O modelo de paywall de cada veículo aparece ao lado do nome."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Argentina?",
+          "a": "A cobertura regional do diretório vem do La Voz del Interior (Córdoba), Los Andes (Mendoza), La Capital (Santa Fe) e Río Negro (Patagônia). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os veículos de notícias nacionais da Argentina ficam em Buenos Aires e incluem diários centenários e grandes sites nativos digitais. A lista abaixo mostra os veículos mais usados para acompanhar a política e a economia do país."
+        },
+        "economy": {
+          "intro": "Inflação, câmbio e dívida pública tornam a notícia econômica central na Argentina. Estes diários financeiros e sites de negócios cobrem mercados, empresas e política econômica."
+        },
+        "sports": {
+          "intro": "A mídia esportiva argentina é dominada pelo futebol, da seleção à Liga Profesional, com um diário esportivo dedicado e televisão esportiva."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo e a checagem de fatos na Argentina são liderados por redações sem fins lucrativos e digitais. Estes são os veículos conhecidos pela verificação e pela fiscalização do poder."
+        },
+        "regional": {
+          "intro": "Fora de Buenos Aires, os diários das províncias cobrem suas regiões em profundidade. Os veículos abaixo atendem Córdoba, Mendoza, Santa Fe e o norte da Patagônia."
         }
       },
       "reviewed": true,

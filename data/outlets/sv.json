@@ -27,7 +27,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "San Salvador daily founded in 1915, with national politics, security and the economy."
+      "en": "San Salvador daily founded in 1915, with national politics, security and the economy.",
+      "pt": "Diário de San Salvador fundado em 1915, com política nacional, segurança e economia."
     },
     "about": {},
     "sources": [],
@@ -68,7 +69,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "San Salvador daily with national news, politics and opinion, published at elsalvador.com."
+      "en": "San Salvador daily with national news, politics and opinion, published at elsalvador.com.",
+      "pt": "Diário de San Salvador com notícias nacionais, política e opinião, publicado em elsalvador.com."
     },
     "about": {},
     "sources": [],
@@ -107,7 +109,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "San Salvador daily with national news, politics and the economy."
+      "en": "San Salvador daily with national news, politics and the economy.",
+      "pt": "Diário de San Salvador com notícias nacionais, política e economia."
     },
     "about": {},
     "sources": [],
@@ -148,7 +151,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Cooperative-owned daily and one of the oldest newspapers in Central America."
+      "en": "Cooperative-owned daily and one of the oldest newspapers in Central America.",
+      "pt": "Diário controlado por uma cooperativa e um dos jornais mais antigos da América Central."
     },
     "about": {},
     "sources": [],
@@ -187,7 +191,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Daily launched in 2021 with national news, government and public works coverage."
+      "en": "Daily launched in 2021 with national news, government and public works coverage.",
+      "pt": "Diário lançado em 2021 com notícias nacionais e cobertura do governo e de obras públicas."
     },
     "about": {},
     "sources": [],
@@ -228,7 +233,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Digital newspaper known internationally for investigations into gangs, corruption and power."
+      "en": "Digital newspaper known internationally for investigations into gangs, corruption and power.",
+      "pt": "Jornal digital conhecido internacionalmente por investigações sobre gangues, corrupção e poder."
     },
     "about": {},
     "sources": [],
@@ -267,7 +273,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital magazine publishing investigations and long-form reporting on El Salvador."
+      "en": "Digital magazine publishing investigations and long-form reporting on El Salvador.",
+      "pt": "Revista digital que publica investigações e reportagens longas sobre El Salvador."
     },
     "about": {},
     "sources": [],
@@ -306,7 +313,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Nonprofit newsroom investigating public spending, transparency and the environment."
+      "en": "Nonprofit newsroom investigating public spending, transparency and the environment.",
+      "pt": "Redação sem fins lucrativos que investiga gasto público, transparência e meio ambiente."
     },
     "about": {},
     "sources": [],
@@ -345,7 +353,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital outlet with video reporting and investigations on politics and justice."
+      "en": "Digital outlet with video reporting and investigations on politics and justice.",
+      "pt": "Veículo digital com reportagens em vídeo e investigações sobre política e justiça."
     },
     "about": {},
     "sources": [],
@@ -384,7 +393,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Digital news site with national news, politics and the economy of El Salvador."
+      "en": "Digital news site with national news, politics and the economy of El Salvador.",
+      "pt": "Site de notícias digital com notícias nacionais, política e economia de El Salvador."
     },
     "about": {},
     "sources": [],
@@ -423,7 +433,8 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Business news outlet covering the economies of El Salvador and Central America."
+      "en": "Business news outlet covering the economies of El Salvador and Central America.",
+      "pt": "Veículo de notícias de negócios que cobre as economias de El Salvador e da América Central."
     },
     "about": {},
     "sources": [],
@@ -462,7 +473,8 @@
     "format": "digital-native",
     "editor_pick": true,
     "pitch": {
-      "en": "Sports site covering Salvadoran football, the national team and international sport."
+      "en": "Sports site covering Salvadoran football, the national team and international sport.",
+      "pt": "Site esportivo que cobre o futebol salvadorenho, a seleção e o esporte internacional."
     },
     "about": {},
     "sources": [],

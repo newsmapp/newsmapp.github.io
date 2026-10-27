@@ -3,7 +3,8 @@
   "iso3": "VNM",
   "slug": "vietnam",
   "name": {
-    "en": "Vietnam"
+    "en": "Vietnam",
+    "pt": "Vietnã"
   },
   "continent": "asia",
   "also_in": [],
@@ -48,6 +49,36 @@
         },
         "broadcast": {
           "intro": "The national broadcasters VTV and VOV are the main television and radio news sources in Vietnam."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
+    },
+    "pt": {
+      "summary": "Toda a mídia no Vietnã opera sob o controle do Partido Comunista e do Estado, e cada jornal e emissora pertence a uma organização do partido, do governo ou de massas, como as organizações de liberdade de imprensa documentam todos os anos. Dentro desse sistema, o mercado on-line é grande e competitivo: o VnExpress, do grupo de tecnologia FPT, é o site de notícias mais lido, ao lado de Tuổi Trẻ, Thanh Niên, Dân Trí e VietnamNet. O jornal do partido Nhân Dân, as emissoras VTV e VOV e os jornais regionais de Hanói e da Cidade de Ho Chi Minh trazem as posições oficiais. As notícias em inglês vêm do VnExpress International e do Vietnam Investment Review. Os sites de notícias são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias do Vietnã?",
+          "a": "Os principais veículos do diretório incluem VnExpress, Tuổi Trẻ, Thanh Niên, Dân Trí e VietnamNet. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quem é dono da mídia no Vietnã?",
+          "a": "A mídia vietnamita pertence a organizações do partido, do Estado ou de massas; o VnExpress é publicado pelo grupo FPT sob licença estatal. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias do Vietnã em inglês?",
+          "a": "VnExpress International e Vietnam Investment Review publicam em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Os principais sites de notícias do Vietnã têm dezenas de milhões de leitores e publicam sob a supervisão do Estado e do Partido Comunista."
+        },
+        "economy": {
+          "intro": "O noticiário de negócios no Vietnã cobre a indústria, as exportações, o mercado imobiliário e a bolsa, em vietnamita e inglês."
+        },
+        "broadcast": {
+          "intro": "As emissoras nacionais VTV e VOV são as principais fontes de notícias na televisão e no rádio do Vietnã."
         }
       },
       "reviewed": true,
