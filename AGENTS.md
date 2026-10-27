@@ -32,7 +32,7 @@ Boundaries are enforced by dependency-cruiser (`.dependency-cruiser.cjs`).
 
 - Never commit secrets. Local secrets go in `.dev.vars` (see `.env.example`); production uses `wrangler secret put`.
 - Only the owner marks an outlet `verified` or a country `published`. Tools may draft `candidate` outlets only.
-- Every outbound link goes through `/go/<id>/`. No third-party scripts, fonts or images at runtime.
+- Organic outbound links are direct `href`s with a click beacon; sponsored and affiliate links go through `/go/<id>/` (ADR 0006). No third-party scripts, fonts or images at runtime, except the Turnstile widget on forms.
 - No raw IP or User-Agent is stored. Clicks are aggregated with a daily-salted hash.
 - Run `pnpm check` before committing. Conventional Commits, one logical change per commit.
 - After changing `wrangler.jsonc`, `pnpm typecheck` regenerates binding types.
