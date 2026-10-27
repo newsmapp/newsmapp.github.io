@@ -20,7 +20,7 @@
     "NI",
     "PA"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Costa Rica has one of the most open media environments in Latin America. La Nación, the leading daily, belongs to Grupo Nación, which also publishes La Teja and the business weekly El Financiero. Digital-native CRHoy is among the most read sites, and the television channels Teletica and Repretel lead broadcast news. Semanario Universidad, published by the University of Costa Rica, is known for investigative reporting. The Tico Times covers the country in English. Most news sites are free to read; La Nación uses a metered paywall.",
@@ -49,8 +49,8 @@
           "intro": "Television and radio remain major news sources in Costa Rica. The channels and stations below publish their newscasts online."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

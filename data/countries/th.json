@@ -22,7 +22,7 @@
     "KH",
     "MY"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Thailand has a large Thai-language press led by the mass-market daily Thairath and the Matichon group, publisher of Matichon, Khaosod and the business paper Prachachat Turakij. Digital outlets such as The Standard and Workpoint Today have grown quickly, and Thai PBS is the main public broadcaster. Prachatai and Isranews are known for independent and investigative reporting, though lese-majeste and computer crime laws limit coverage of the monarchy and lead to prosecutions, as press freedom organizations report. English-language news comes from the Bangkok Post, The Nation and Khaosod English. The Isaan Record covers the northeast. Most sites are free; the Bangkok Post uses a metered paywall.",
@@ -51,8 +51,8 @@
           "intro": "Independent and investigative journalism in Thailand works under legal limits on coverage of the monarchy and national security."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

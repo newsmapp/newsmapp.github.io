@@ -28,7 +28,7 @@
     "SR",
     "GF"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Brazil has the largest news market in Latin America, with media concentrated in a few large groups. Grupo Globo owns the most-watched television network, the O Globo newspaper, the g1 portal and the business daily Valor Econômico, while Folha de S.Paulo and O Estado de S. Paulo are the main national newspapers based in São Paulo. A public communications company, EBC, runs the Agência Brasil news agency and public television. Since the 2010s, independent digital newsrooms and fact-checking agencies have become important sources of investigative reporting and verification, especially around elections. Regional newspapers remain influential in states such as Rio Grande do Sul, Minas Gerais and Pernambuco. Major newspapers use metered paywalls, while portals such as g1 and UOL are free to read. Football coverage is a large segment of the market.",
@@ -70,8 +70,8 @@
           "intro": "Regional newspapers in Brazil remain influential in their states, often owned by local media groups. The outlets below cover Rio Grande do Sul, Minas Gerais, the Federal District, Pernambuco and Paraná."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

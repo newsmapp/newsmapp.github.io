@@ -21,7 +21,7 @@
     "DE",
     "GB"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "The Netherlands has a compact but highly developed news market. The public broadcasting system, built around the NOS and a set of member-based broadcasting associations, produces the main television and radio news. National newspapers are concentrated in two groups, DPG Media and Mediahuis, which together own most national and regional titles, including de Volkskrant, NRC, De Telegraaf, Trouw and AD. NU.nl is the most-visited news website and is free to read. The country has a strong tradition of investigative journalism, supported by a dedicated fund and by subscription platforms that cover finance and power. Regional public broadcasters cover each province. Press freedom in the Netherlands is generally ranked among the highest in the world, though attacks on crime reporters have raised concern in recent years.",
@@ -60,8 +60,8 @@
           "intro": "Regional news in the Netherlands is provided by newspapers and public broadcasters for Amsterdam, Rotterdam, the north, Limburg and North Brabant."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

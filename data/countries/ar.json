@@ -23,7 +23,7 @@
     "BR",
     "UY"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Argentina has one of Latin America's largest news markets, concentrated in Buenos Aires, with national dailies such as Clarín and La Nación, the digital-native Infobae and a strong tradition of political weeklies and talk radio. Grupo Clarín is the largest media group, with newspapers, cable news and radio. Coverage is shaped by economic volatility, so financial dailies such as Ámbito and El Cronista have a wide readership beyond business. Fact-checking and nonprofit journalism are well developed, led by Chequeado. Provincial dailies remain important in Córdoba, Mendoza, Santa Fe and Patagonia. Most sites are free to read; Clarín and La Nación use metered paywalls.",
@@ -58,8 +58,8 @@
           "intro": "Beyond Buenos Aires, provincial dailies cover their regions in depth. The outlets below serve Córdoba, Mendoza, Santa Fe and northern Patagonia."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

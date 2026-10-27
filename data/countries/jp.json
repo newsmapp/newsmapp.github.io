@@ -22,7 +22,7 @@
     "TW",
     "RU"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Japan has some of the highest newspaper circulations in the world. National dailies such as the Yomiuri Shimbun, the Asahi Shimbun, the Mainichi, the Nikkei and the Sankei are each tied to commercial television networks, and the public broadcaster NHK is the most widely used news source. Two news agencies, Kyodo and Jiji, supply national and regional media. Press clubs attached to ministries, parties and companies give member outlets privileged access, a system often criticized for limiting independent reporting. Weekly magazines publish many political and corporate scoops, and small nonprofit newsrooms and a fact-checking center have emerged. Regional newspapers such as the Chunichi Shimbun and the Hokkaido Shimbun are strong in their prefectures. Sports dailies focus heavily on professional baseball.",
@@ -61,8 +61,8 @@
           "intro": "Regional newspapers are influential in Japan's prefectures. The titles below cover Tokyo, Aichi, Hokkaido, Fukuoka and Hyogo."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

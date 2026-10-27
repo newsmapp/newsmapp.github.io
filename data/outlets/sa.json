@@ -36,8 +36,8 @@
         "url": "https://en.wikipedia.org/wiki/Saudi_Press_Agency"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -116,8 +116,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -155,8 +155,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -194,8 +194,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -233,8 +233,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -274,8 +274,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -313,8 +313,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -354,8 +354,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -395,8 +395,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -439,8 +439,8 @@
         "url": "https://en.wikipedia.org/wiki/Al_Ekhbariya"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -478,8 +478,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -517,8 +517,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -558,8 +558,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -597,8 +597,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -636,8 +636,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -675,8 +675,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -714,8 +714,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -753,8 +753,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,

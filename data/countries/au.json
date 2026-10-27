@@ -21,7 +21,7 @@
     "ID",
     "PG"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Australia's news market is among the most concentrated in the developed world. News Corp Australia owns The Australian and most metropolitan tabloids, while Nine Entertainment owns The Sydney Morning Herald, The Age and the Australian Financial Review. The public broadcasters ABC and SBS provide national news, and Seven and Nine run the main commercial television newsrooms. Guardian Australia and independent digital outlets have grown as alternatives. The News Media Bargaining Code, introduced in 2021, requires large platforms to negotiate payments with publishers. Australian Associated Press, the national news agency, is now owned by philanthropic investors. Regional journalism has declined, with many local newspapers closed or merged. The ABC's Four Corners is the country's longest-running investigative program.",
@@ -60,8 +60,8 @@
           "intro": "Metropolitan newspapers cover each state. The titles below serve New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

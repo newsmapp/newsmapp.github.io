@@ -21,7 +21,7 @@
     "US",
     "GL"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Canada's news landscape is shaped by two official languages and a strong public broadcaster. CBC/Radio-Canada provides national and regional news in English and French, alongside private television networks such as CTV and Global. In print, The Globe and Mail and the National Post compete nationally, while Postmedia owns many of the largest city dailies. Quebec has its own French-language market, led by La Presse, Le Devoir and Radio-Canada. Federal programs, including a journalism labour tax credit, support news organizations, and the Online News Act led Meta to block news links on its platforms in Canada. Nonprofit and subscription digital newsrooms have emerged to cover policy, the environment and the technology sector. Most newspapers use metered paywalls, while public broadcasting remains free to access.",
@@ -54,8 +54,8 @@
           "intro": "Sports media in Canada is dominated by hockey, with national networks in English and French that also cover the CFL, basketball, baseball and international events. The outlets below are ordered by editorial relevance."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

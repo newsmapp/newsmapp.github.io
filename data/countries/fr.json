@@ -27,7 +27,7 @@
     "AD",
     "GB"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "France's news landscape combines national newspapers based in Paris, a large public broadcasting system and strong regional dailies. Le Monde, Le Figaro and Libération are the main national titles, and Agence France-Presse is one of the world's three global news agencies. Public broadcasters France Télévisions and Radio France run the franceinfo news service, while private channels such as BFMTV offer 24-hour news. Ownership of private media is concentrated among a few large industrial and financial groups, which is a recurring subject of public debate. Mediapart, a subscriber-funded site, is known for investigations into politics and finance. Regional dailies such as Ouest-France, the country's largest newspaper by circulation, cover their regions in depth. The state supports the press through direct and indirect subsidies.",
@@ -69,8 +69,8 @@
           "intro": "French political coverage follows the Élysée, the government and both chambers of Parliament through national dailies, public radio, a parliamentary channel and policy-focused subscription newsrooms."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

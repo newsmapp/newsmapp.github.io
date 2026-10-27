@@ -24,7 +24,7 @@
     "PH",
     "AU"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Indonesia's news market expanded rapidly after the end of the New Order in 1998, and it is now one of the largest in Southeast Asia. Major media groups such as Kompas Gramedia, CT Corp, Media Group and Emtek own newspapers, television channels and online portals. Kompas is the national newspaper of reference, Tempo is known for investigative reporting, and detikcom pioneered online news. Antara is the state news agency, while TVRI and RRI are the public television and radio broadcasters. The country has a large regional press across its many islands, including networks of local news sites. Fact-checking organizations work to counter hoaxes that spread on social media and messaging apps. Most news sites are free to read and supported by advertising. Football and badminton dominate sports coverage.",
@@ -63,8 +63,8 @@
           "intro": "Regional outlets cover East Java, West Java, Central Java and Bali, alongside a national network of local news sites."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

@@ -29,7 +29,7 @@
     "SY",
     "CY"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Türkiye has a large news market in which ownership of mainstream media has become concentrated among business groups with close ties to the government. The Anadolu Agency and the public broadcaster TRT are state-run, and most of the highest-circulation newspapers and news channels belong to a few holdings. A smaller group of newspapers, news channels and digital outlets offer critical or independent coverage, and several have faced legal pressure, fines or broadcast bans from the regulator RTÜK. Journalists have been prosecuted under anti-terrorism and disinformation laws. Independent digital outlets and fact-checking platforms have grown as audiences seek alternative sources. Business and financial journalism covers inflation, the lira and markets closely. International press freedom indexes rank Türkiye among the more restrictive environments for journalism.",
@@ -65,8 +65,8 @@
           "intro": "Broadcast news in Türkiye includes the state broadcaster's news channel and private news channels owned by large holdings and independent companies."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

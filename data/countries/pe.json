@@ -25,7 +25,7 @@
     "BO",
     "CL"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Peru's news market is led from Lima by Grupo El Comercio, which publishes El Comercio, Gestión, Depor and the regional chain Correo, alongside La República and the radio network RPP. Television news comes from private channels such as Latina and América, and from the state broadcaster TV Perú. Nonprofit newsrooms, including IDL-Reporteros, OjoPúblico and Convoca, have broken major stories on corruption and public contracts. El Tiempo covers Piura and the north, and Correo publishes regional editions across the country. Most sites are free to read; El Comercio and Gestión use metered paywalls.",
@@ -57,8 +57,8 @@
           "intro": "Outside Lima, regional dailies and editions cover the north and the rest of the country. The outlets below serve Piura and Correo's regional editions."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

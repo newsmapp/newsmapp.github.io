@@ -33,7 +33,7 @@
     "SZ",
     "LS"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "South Africa has one of Africa's most developed and free news markets. News24 is the most read news site, alongside the digital-native Daily Maverick and the Mail & Guardian, while the public broadcaster SABC and the private channel eNCA lead television news. Investigative journalism is strong, led by amaBhungane and Daily Maverick's Scorpio unit, whose reporting on state capture shaped national politics. Media groups include Media24, Arena Holdings and Independent Media. English dominates online news, with Afrikaans and other languages also served. Several outlets use subscriptions or metered paywalls.",
@@ -68,8 +68,8 @@
           "intro": "South African sports media covers football, rugby and cricket, with a pan-African sports broadcaster."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

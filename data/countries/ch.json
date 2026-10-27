@@ -25,7 +25,7 @@
     "AT",
     "LI"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Switzerland's media market is divided along language lines, with separate German-, French- and Italian-language news ecosystems. The public broadcaster SRG SSR runs SRF, RTS and RSI, financed by a household fee, and its international service swissinfo.ch publishes in ten languages. Private media is concentrated in a few groups, including TX Group, Ringier and CH Media, which own most daily newspapers. The Neue Zürcher Zeitung, founded in 1780, is one of the oldest newspapers in the world still in publication. Direct democracy shapes political coverage, with frequent national and cantonal votes. Reader-funded newsrooms such as Republik and Heidi.news have emerged alongside traditional titles. Business and financial journalism is extensive, reflecting the importance of banking, insurance and multinational companies to the economy.",
@@ -61,8 +61,8 @@
           "intro": "Regional newspapers serve each language region and canton. The titles below cover Basel, Bern, Lucerne, Vaud, Geneva, Zurich and Ticino."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

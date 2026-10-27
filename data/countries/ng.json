@@ -22,7 +22,7 @@
     "TD",
     "CM"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Nigeria has Africa's largest and most competitive English-language press, centered in Lagos and Abuja. National dailies such as Punch, The Guardian, Vanguard and ThisDay compete with digital outlets such as Premium Times and TheCable, while Channels Television leads broadcast news. Investigative journalism is strong, led by Premium Times, the Foundation for Investigative Journalism and HumAngle, which covers conflict in the north. Daily Trust is the main newspaper from the north and the Nigerian Tribune from the southwest. Lagos is also a hub for technology and business media. Most news sites are free to read.",
@@ -54,8 +54,8 @@
           "intro": "Television news in Nigeria is led by private channels that publish their newscasts and live coverage online."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

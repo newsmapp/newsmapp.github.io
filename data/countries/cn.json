@@ -35,7 +35,7 @@
     "JP",
     "TW"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "News media in mainland China operates under the direction of the Chinese Communist Party. The Xinhua news agency, People's Daily and the China Media Group, which includes CCTV, CGTN and China National Radio, are the central state outlets, and most newspapers belong to state-owned provincial or municipal media groups. Commercial platforms owned by technology companies distribute news and run large sports and technology channels, but they are licensed and must follow content regulations. A small number of outlets, such as the financial magazine Caixin, are known for more independent economic reporting within these limits. Many foreign news sites are blocked. International press freedom indexes rank China among the most restrictive environments for journalists. This page labels state ownership on every outlet so readers can identify the source behind each publication.",
@@ -74,8 +74,8 @@
           "intro": "Broadcast news in China is produced by the state-owned China Media Group, which runs national television, international channels and national radio."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

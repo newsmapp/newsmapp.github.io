@@ -25,7 +25,7 @@
     "VA",
     "MT"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Italy's news market is led by national newspapers based in Milan, Rome and Turin, a public broadcaster, RAI, and the commercial television group Mediaset. Corriere della Sera, la Repubblica and La Stampa are the main national dailies, and ANSA, a cooperative of publishers, is the main news agency. Television remains the most-used source of news, and the governance of RAI is closely tied to the governing parties, a long-standing subject of debate. Digital outlets and fact-checkers have grown, and investigative journalism focuses on organized crime and corruption, with some journalists living under police protection. Italy also has a large sports press led by La Gazzetta dello Sport. Regional newspapers are important in Naples, Bologna, Venice and Sicily. Most newspapers use metered paywalls.",
@@ -64,8 +64,8 @@
           "intro": "Regional newspapers in Italy cover Naples and Campania, Emilia-Romagna, Veneto, Sicily and Piedmont."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

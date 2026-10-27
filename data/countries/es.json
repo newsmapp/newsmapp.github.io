@@ -27,7 +27,7 @@
     "MA",
     "GI"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Spain's news market is led by national newspapers based in Madrid and Barcelona, a public broadcaster, RTVE, and private television groups Atresmedia and Mediaset España. El País, El Mundo and ABC are the main national dailies, while La Vanguardia leads in Catalonia. Digital-native outlets such as elDiario.es and El Confidencial have become major sources of political and business reporting. The EFE agency, owned by the state, is the largest Spanish-language news agency in the world. Radio is unusually influential, with networks such as Cadena SER and COPE shaping the morning news agenda. Spain also has strong regional media in Catalonia, the Basque Country, Galicia, Valencia and Andalusia, some publishing in co-official languages. Sports dailies focused on football have some of the highest readerships in the country.",
@@ -69,8 +69,8 @@
           "intro": "Spanish broadcast news includes the public broadcaster, two private television groups and influential national radio networks that set the morning news agenda."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

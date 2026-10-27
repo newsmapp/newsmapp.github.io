@@ -36,8 +36,8 @@
         "url": "https://en.wikipedia.org/wiki/TASS"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -82,8 +82,8 @@
         "url": "https://en.wikipedia.org/wiki/RIA_Novosti"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -123,8 +123,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -166,8 +166,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -207,8 +207,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 401,
@@ -246,8 +246,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -285,8 +285,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -324,8 +324,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -370,8 +370,8 @@
         "url": "https://en.wikipedia.org/wiki/Rossiyskaya_Gazeta"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -409,8 +409,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -452,8 +452,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -493,8 +493,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -532,8 +532,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -571,8 +571,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -610,8 +610,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -654,8 +654,8 @@
         "url": "https://en.wikipedia.org/wiki/Channel_One_Russia"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -698,8 +698,8 @@
         "url": "https://en.wikipedia.org/wiki/Russia-24"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -742,8 +742,8 @@
         "url": "https://en.wikipedia.org/wiki/NTV_(Russia)"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -781,8 +781,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -820,8 +820,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -859,8 +859,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -898,8 +898,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -983,8 +983,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1022,8 +1022,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -1061,8 +1061,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1100,8 +1100,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1139,8 +1139,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1178,8 +1178,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1219,8 +1219,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,

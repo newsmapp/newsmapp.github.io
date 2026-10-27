@@ -21,7 +21,7 @@
     "JP",
     "CN"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "South Korea has a fast, highly digital news market where most people read news through portals run by Naver and Kakao. Three large dailies, the Chosun Ilbo, JoongAng Ilbo and Dong-A Ilbo, have long dominated print, while the Hankyoreh, founded with citizen shareholders, and the employee-owned Kyunghyang Shinmun offer alternative ownership models. Public broadcasters KBS and MBC sit alongside commercial channels SBS, JTBC and the 24-hour news channel YTN. Yonhap, the national news agency, receives public funding. Investigative reporting is produced by broadcasters, a weekly magazine and Newstapa, a nonprofit newsroom funded by members. Business newspapers are numerous, reflecting the weight of conglomerates in the economy. Regional newspapers serve Busan, Daegu, Gyeonggi and Gangwon.",
@@ -63,8 +63,8 @@
           "intro": "Political coverage in South Korea follows the presidency, the National Assembly and party politics through national dailies, the national news agency and digital outlets."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

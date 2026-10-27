@@ -36,8 +36,8 @@
         "url": "https://en.wikipedia.org/wiki/Xinhua_News_Agency"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -82,8 +82,8 @@
         "url": "https://en.wikipedia.org/wiki/People%27s_Daily"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -126,8 +126,8 @@
         "url": "https://en.wikipedia.org/wiki/China_Daily"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -170,8 +170,8 @@
         "url": "https://en.wikipedia.org/wiki/Global_Times"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -214,8 +214,8 @@
         "url": "https://en.wikipedia.org/wiki/China_News_Service"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -260,8 +260,8 @@
         "url": "https://en.wikipedia.org/wiki/The_Paper"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 403,
@@ -304,8 +304,8 @@
         "url": "https://en.wikipedia.org/wiki/Sixth_Tone"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -348,8 +348,8 @@
         "url": "https://en.wikipedia.org/wiki/Qiushi"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -394,8 +394,8 @@
         "url": "https://en.wikipedia.org/wiki/China_Central_Television"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -438,8 +438,8 @@
         "url": "https://en.wikipedia.org/wiki/CGTN"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -482,8 +482,8 @@
         "url": "https://en.wikipedia.org/wiki/China_National_Radio"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -523,8 +523,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -567,8 +567,8 @@
         "url": "https://en.wikipedia.org/wiki/Shanghai_Media_Group"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -611,8 +611,8 @@
         "url": "https://en.wikipedia.org/wiki/21st_Century_Business_Herald"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -699,8 +699,8 @@
         "url": "https://en.wikipedia.org/wiki/Southern_Weekly"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -738,8 +738,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -777,8 +777,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -823,8 +823,8 @@
         "url": "https://en.wikipedia.org/wiki/CCTV-5"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -862,8 +862,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -903,8 +903,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -942,8 +942,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -986,8 +986,8 @@
         "url": "https://en.wikipedia.org/wiki/Science_and_Technology_Daily"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1025,8 +1025,8 @@
     },
     "about": {},
     "sources": [],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,
@@ -1113,8 +1113,8 @@
         "url": "https://en.wikipedia.org/wiki/Xinmin_Evening_News"
       }
     ],
-    "status": "candidate",
-    "verified_at": null,
+    "status": "verified",
+    "verified_at": "2026-10-27",
     "health": {
       "last_checked": "2026-10-27",
       "http_status": 200,

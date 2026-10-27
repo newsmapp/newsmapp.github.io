@@ -22,7 +22,7 @@
     "BZ",
     "CU"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Mexico has a large and competitive news market centered in Mexico City, with national dailies such as El Universal, Reforma, Milenio and La Jornada, and television news dominated by TelevisaUnivision and TV Azteca. Digital-native outlets and investigative organizations have grown in importance, producing reporting on corruption, public spending and organized crime. Journalism in Mexico carries serious physical risk: press freedom organizations consistently rank it among the most dangerous countries for reporters outside of war zones, particularly for local journalists. Government advertising has historically been a major source of revenue for many outlets, which affects editorial independence. Regional newspapers remain important in large states such as Nuevo León, Jalisco and Baja California. Most sites are free to read, with Reforma and its sister titles as notable exceptions behind a hard paywall.",
@@ -61,8 +61,8 @@
           "intro": "Beyond Mexico City, strong regional newspapers cover their states in depth. The outlets below serve Nuevo León, Jalisco, Yucatán and Baja California."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

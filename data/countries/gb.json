@@ -22,7 +22,7 @@
     "NL",
     "BE"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "The United Kingdom has a highly competitive national press concentrated in London and a public broadcaster, the BBC, that is one of the world's most-used news sources. National newspapers range from subscription titles such as The Times, the Financial Times and The Telegraph to The Guardian, which is owned by a trust and free to read online. Broadcast news also includes ITV, Channel 4 and Sky News, all subject to impartiality rules set by the regulator Ofcom. Investigative reporting comes from newspapers, broadcasters and nonprofit bureaus, and an independent charity leads national fact-checking. Scotland, Wales and Northern Ireland have their own newspapers and political coverage. Newspapers mostly self-regulate through the Independent Press Standards Organisation. Many regional newspapers have consolidated under a few large publishers.",
@@ -64,8 +64,8 @@
           "intro": "Regional outlets cover Scotland, Wales, Northern Ireland and English cities such as Manchester, each with its own political institutions and news agenda."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

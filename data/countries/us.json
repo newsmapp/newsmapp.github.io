@@ -22,7 +22,7 @@
     "CU",
     "BS"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "The United States has one of the largest and most commercially diverse news markets in the world. National newspapers such as The New York Times, The Washington Post and The Wall Street Journal built large digital subscription businesses, while cable networks and public broadcasters compete for audiences on television, radio and podcasts. Nonprofit newsrooms have grown into a significant part of investigative reporting, and dedicated fact-checking organizations track claims made in political campaigns. Local journalism has contracted sharply over the past two decades, with many communities losing their daily newspaper, so large metropolitan dailies and public radio stations carry much of the regional coverage. Press freedom is protected by the First Amendment, and there is no national press regulator. Most major outlets use metered or hard paywalls, but wire services, public media and many nonprofit sites remain free to read.",
@@ -55,8 +55,8 @@
           "intro": "American sports media combines national networks, subscription beat reporting and free score portals. The outlets listed here cover the NFL, NBA, MLB, NHL and college sports, with notes on which ones require a subscription."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

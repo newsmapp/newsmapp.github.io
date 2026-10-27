@@ -21,7 +21,7 @@
     "ID",
     "BN"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Malaysia's news market serves readers in Malay, English, Chinese and Tamil. Malaysiakini, founded in 1999 as one of Asia's first subscription news sites, and Free Malaysia Today lead independent digital news, while The Star, the New Straits Times, Berita Harian and Sinar Harian are the main newspapers. Several titles have historic ties to political parties. Astro Awani and the state broadcaster RTM lead television news, and Bernama is the national news agency. The Edge covers business. Sabah and Sarawak have their own newspapers, such as the Daily Express and the Borneo Post. Malaysiakini and The Edge use paywalls; most other sites are free.",
@@ -50,8 +50,8 @@
           "intro": "Sabah and Sarawak, on Borneo, have their own newspapers covering local politics and communities."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

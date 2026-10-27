@@ -26,7 +26,7 @@
     "OM",
     "YE"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "Saudi Arabia's news media operates under close government oversight. The Saudi Press Agency is the official source of royal decrees and government announcements, and the state broadcasting authority runs national television and the Al Ekhbariya news channel. Daily newspapers are published by licensed press establishments, and the Saudi Research and Media Group publishes several titles, including Asharq Al-Awsat and the English-language Arab News. The pan-Arab channel Al Arabiya is part of the Saudi-owned MBC Group. Business coverage has expanded with economic reforms, stock market growth and large public investment projects. Regional newspapers serve the Hejaz and the Eastern Province. International press freedom indexes rank Saudi Arabia among the most restrictive environments for journalism, and independent investigative reporting is very limited.",
@@ -56,8 +56,8 @@
           "intro": "Business journalism in Saudi Arabia follows the Tadawul stock exchange, oil, and economic reform programs through financial portals, a business daily and a business news channel."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }

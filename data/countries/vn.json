@@ -21,7 +21,7 @@
     "LA",
     "KH"
   ],
-  "published": false,
+  "published": true,
   "seo_context": {
     "en": {
       "summary": "All media in Vietnam operate under the control of the Communist Party and the state, and every newspaper and broadcaster belongs to a party, government or mass organization, as press freedom organizations document every year. Within that system the market is large and competitive online: VnExpress, owned by the technology group FPT, is the most read news site, alongside Tuổi Trẻ, Thanh Niên, Dân Trí and VietnamNet. The party newspaper Nhân Dân, the broadcasters VTV and VOV and the regional papers of Hanoi and Ho Chi Minh City carry official positions. English-language news comes from VnExpress International and Vietnam Investment Review. News sites are free to read.",
@@ -50,8 +50,8 @@
           "intro": "The national broadcasters VTV and VOV are the main television and radio news sources in Vietnam."
         }
       },
-      "reviewed": false,
-      "reviewed_at": null
+      "reviewed": true,
+      "reviewed_at": "2026-10-27"
     }
   }
 }
