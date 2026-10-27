@@ -50,8 +50,9 @@ notes/
 src/generated/
 worker-configuration.d.ts
 
-# downloaded favicons and generated monograms (pnpm catalog:icons / catalog:build)
-public/icons/
+# generated at build time (pnpm catalog:build): monograms and flags. Downloaded favicons
+# (public/icons/*.webp, pnpm catalog:icons) are committed, so deploys have them.
+public/icons/*.svg
 public/flags/
 
 # Chrome temp profiles that Lighthouse leaves behind when run under WSL

@@ -10,7 +10,7 @@ Broken links are the main failure of existing directories. Loading favicons from
 ## Decision
 
 - `pnpm catalog:health` checks every outlet URL and RSS feed with bounded concurrency and an identified User-Agent; records status, final URL and redirects; writes `reports/health-YYYY-MM-DD.json`; proposes changes but never edits `verified` records automatically. Runs weekly in CI and opens an issue with the report.
-- `pnpm catalog:icons` downloads favicons at build/maintenance time into `public/icons/outlets/`, normalized to 40×40 (displayed at 20×20), and generates a deterministic monogram SVG for every outlet as the fallback.
+- `pnpm catalog:icons` downloads favicons at maintenance time into `public/icons/<outlet-id>.webp`, normalized to 40×40 (displayed at 20×20); they are committed. `pnpm catalog:build` generates a deterministic monogram SVG for every outlet without one.
 - No icon, font or flag is requested from a third party at runtime.
 
 ## Alternatives considered
