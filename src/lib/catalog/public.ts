@@ -1,7 +1,7 @@
 import type { Country, Outlet } from '../../schemas/catalog.schema';
 import type { Continent, Locale } from '../../schemas/common';
 import type { Catalog } from './validate';
-import { isVerified } from './thresholds';
+import { isVerified, outletsInCategory } from './thresholds';
 
 export type PublicOutlet = Omit<Outlet, 'health' | 'status'> & {
   country: string;
@@ -19,10 +19,19 @@ export interface PublicCatalog {
 }
 
 /** Minimal data the Worker needs at runtime (redirects, badges, slot labels). */
-export type RuntimeCatalog = Record<
-  string,
-  { name: string; url: string; country: string; slug: string; categories: string[] }
->;
+export interface RuntimeOutlet {
+  name: string;
+  url: string;
+  country: string;
+  slug: string;
+  categories: string[];
+  country_slug: string;
+  country_name: string;
+  /** Position in the primary category's column, as shown on the country page (badge text). */
+  badge: { position: number; category: Outlet['primary_category'] };
+}
+
+export type RuntimeCatalog = Record<string, RuntimeOutlet>;
 
 /**
  * Projects the validated catalog onto what the site may show: published countries and their
@@ -61,7 +70,7 @@ export function toPublicCatalog(
 export function toRuntimeCatalog(catalog: PublicCatalog): RuntimeCatalog {
   return Object.fromEntries(
     catalog.countries.flatMap((country) =>
-      country.outlets.map((outlet) => [
+      country.outlets.map((outlet): [string, RuntimeOutlet] => [
         outlet.id,
         {
           name: outlet.name,
@@ -69,6 +78,15 @@ export function toRuntimeCatalog(catalog: PublicCatalog): RuntimeCatalog {
           country: country.iso2,
           slug: outlet.slug,
           categories: outlet.categories,
+          country_slug: country.slug,
+          country_name: country.name.en ?? country.iso2,
+          badge: {
+            position:
+              outletsInCategory(country.outlets, outlet.primary_category).findIndex(
+                (o) => o.id === outlet.id,
+              ) + 1,
+            category: outlet.primary_category,
+          },
         },
       ]),
     ),

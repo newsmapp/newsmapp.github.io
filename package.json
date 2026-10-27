@@ -37,7 +37,8 @@
     "deploy": "pnpm build && wrangler deploy",
     "geo:generate": "tsx tools/generate-geo.ts",
     "catalog:build": "tsx tools/build-catalog.ts",
-    "fixtures:generate": "tsx tools/generate-fixtures.ts"
+    "fixtures:generate": "tsx tools/generate-fixtures.ts",
+    "lemonsqueezy:simulate": "tsx tools/lemonsqueezy-simulate.ts"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.2",

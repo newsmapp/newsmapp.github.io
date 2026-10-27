@@ -88,6 +88,9 @@ describe('public catalog', () => {
       country: 'PT',
       slug: 'morning-ledger',
       categories: ['general-news', 'politics'],
+      country_slug: 'portugal',
+      country_name: 'Portugal',
+      badge: { position: 1, category: 'general-news' },
     });
     expect(runtime['pt-unverified-gazette']).toBeUndefined();
   });

@@ -110,3 +110,32 @@ describe('pricing', () => {
     expect(formatUsd(1234)).toBe('$1,234');
   });
 });
+
+describe('sponsorship snapshot', () => {
+  it('keeps listed slots only, in a stable order, with catalog icons', async () => {
+    const { toSnapshot } = await import('@/lib/monetization/snapshot');
+    const row = {
+      id: 'sp-1',
+      outlet_id: null,
+      outlet_name: 'A',
+      outlet_url: 'https://a.example/',
+      country_iso: 'PT',
+      category: 'sports',
+      slot_position: 2,
+      status: 'active',
+    };
+    const snapshot = toSnapshot(
+      [
+        row,
+        { ...row, id: 'sp-2', slot_position: 1, status: 'grace', outlet_id: 'pt-b' },
+        { ...row, id: 'sp-3', status: 'reserved' },
+        { ...row, id: 'sp-4', status: 'ended' },
+        { ...row, id: 'sp-5', country_iso: 'BR' },
+      ],
+      (id) => `/icons/${id}.svg`,
+    );
+    expect(snapshot.map((s) => s.id)).toEqual(['sp-5', 'sp-2', 'sp-1']);
+    expect(snapshot[1]).toMatchObject({ icon: '/icons/pt-b.svg', position: 1, country: 'PT' });
+    expect(snapshot[2]?.icon).toBeNull();
+  });
+});
