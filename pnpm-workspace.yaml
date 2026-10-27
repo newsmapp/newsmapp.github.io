@@ -4,3 +4,10 @@ onlyBuiltDependencies:
   - sharp
   - workerd
 minimumReleaseAge: 1440
+# Security patches for transitive dev/CI tooling (pnpm audit); drop each once its parent updates.
+overrides:
+  'undici@>=7.0.0 <7.30.1': '>=7.30.1 <8'
+  'tmp@<0.2.6': '^0.2.6'
+  'uuid@<11.1.1': '^11.1.1'
+  'basic-ftp@<6.2.1': '^6.2.1'
+  '@esbuild-kit/core-utils>esbuild': '^0.25.0'
