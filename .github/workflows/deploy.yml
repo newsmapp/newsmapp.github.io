@@ -90,6 +90,29 @@ jobs:
           CLOUDFLARE_D1_READ_TOKEN: ${{ secrets.CLOUDFLARE_D1_READ_TOKEN }}
       - run: pnpm build
       - run: pnpm seo:audit
+      # A missing secret does not fail at deploy time, it fails users later: without
+      # VISITOR_HASH_SECRET the click hash has a guessable key, and LemonSqueezy keys without the
+      # webhook secret take payments the site never applies. Only names can be read, never values.
+      - name: Require the Worker secrets and the D1 id
+        run: |
+          ! grep -qE '"database_id": "0{8}-' wrangler.jsonc ||
+            { echo '::error::Set the D1 database_id in wrangler.jsonc (runbook 4.4)'; exit 1; }
+          names=$(pnpm exec wrangler secret list --format json | jq -r '.[].name')
+          has() { grep -qx "$1" <<<"$names"; }
+          missing=()
+          for name in VISITOR_HASH_SECRET TURNSTILE_SECRET_KEY; do has "$name" || missing+=("$name"); done
+          if has LEMONSQUEEZY_API_KEY; then
+            for name in LEMONSQUEEZY_STORE_ID LEMONSQUEEZY_WEBHOOK_SECRET; do
+              has "$name" || missing+=("$name")
+            done
+          fi
+          ((${#missing[@]} == 0)) ||
+            { echo "::error::Set the Worker secrets: ${missing[*]} (runbook §3)"; exit 1; }
+          ! has ADMIN_DEV_BYPASS ||
+            { echo '::error::Delete the ADMIN_DEV_BYPASS secret: it is for local development only'; exit 1; }
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       # Migrations are forward-only and must land before the code that uses them.
       - run: pnpm db:migrate:remote
         env:

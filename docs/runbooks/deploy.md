@@ -131,7 +131,7 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
 ### 4.8 First deploy to workers.dev = preview (agent + owner, 10 min)
 
 - Goal: the site running on `newsmap.<subdomain>.workers.dev` before any domain or real user.
-- Action: create the API tokens and set the GitHub secrets and variables of §3 (`SITE_URL` can be the workers.dev URL for now). Then Actions → Deploy → Run workflow, reason `first deploy`.
+- Action: create the API tokens and set the GitHub secrets and variables of §3 (`SITE_URL` can be the workers.dev URL for now). Then Actions → Deploy → Run workflow, reason `first deploy`. The workflow stops before deploying when `database_id` still has the zeros, when `VISITOR_HASH_SECRET` or `TURNSTILE_SECRET_KEY` is missing, when `LEMONSQUEEZY_API_KEY` is set without the store id and webhook secret, or when an `ADMIN_DEV_BYPASS` secret exists.
 - Smoke test (agent can run these once you share the URL):
 
   ```sh
