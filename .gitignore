@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-*/
+.astro/
+.wrangler/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+.lighthouseci/
+
+# local data and reports
+reports/
+*.local.*
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# os / editors
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+
+# AI agent config and state stay local (see privacy skill §3)
+CLAUDE.md
+.claude/
+.cursor/
+.aider*
+
+# local databases, dumps and keys
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+*.p12
+*.tsbuildinfo
+.eslintcache
+.cache/
+notes/
