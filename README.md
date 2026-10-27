@@ -2,7 +2,7 @@
 
 A global directory of news outlets, organised by country and category. Static-first Astro site on Cloudflare Workers: pages are pre-rendered from the catalog in `data/`, and a small Worker handles clicks, forms, sponsorships, badges and the admin.
 
-- What the product must do: `SPEC.md` (source of truth). Why it is built this way: `docs/adr/`.
+- What the product must do: `SPEC.md` (source of truth, kept locally by the owner, not versioned). Why it is built this way: `docs/adr/`.
 - How to contribute and the repository rules: `AGENTS.md`.
 - Production deploy, step by step: `docs/runbooks/deploy.md`.
 

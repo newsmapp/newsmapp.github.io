@@ -57,3 +57,6 @@ public/flags/
 
 # Chrome temp profiles that Lighthouse leaves behind when run under WSL
 /C:*
+
+# product spec stays local
+SPEC.md

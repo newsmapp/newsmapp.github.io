@@ -1,6 +1,6 @@
 # NewsMapp — contributor guide
 
-Global news directory: static-first Astro site on Cloudflare Workers. `SPEC.md` is the source of truth; decisions live in `docs/adr/`.
+Global news directory: static-first Astro site on Cloudflare Workers. `SPEC.md` (the owner's local copy, not versioned) is the source of truth; decisions live in `docs/adr/`.
 
 ## Commands
 
