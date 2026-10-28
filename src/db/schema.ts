@@ -15,7 +15,7 @@ export const submissions = sqliteTable(
     url: text('url').notNull(),
     country_iso: text('country_iso').notNull(),
     category: text('category').notNull(),
-    /** Anonymized 24 months after closure (cron). */
+    /** Anonymized 24 months after closure, or after creation if never closed (cron). */
     contact_email: text('contact_email'),
     note: text('note'),
     plan: text('plan', { enum: ['free', 'monthly', 'yearly'] }).notNull(),
@@ -31,6 +31,10 @@ export const submissions = sqliteTable(
     }).notNull(),
     ls_order_id: text('ls_order_id'),
     ls_subscription_id: text('ls_subscription_id'),
+    /** When LemonSqueezy confirmed the subscription cancelled (our call or its webhook). */
+    cancelled_at: text('cancelled_at'),
+    /** When LemonSqueezy confirmed the order refunded (our call or its webhook). */
+    refunded_at: text('refunded_at'),
     ...timestamps,
     updated_at: text('updated_at')
       .notNull()

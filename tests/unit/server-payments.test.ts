@@ -15,6 +15,7 @@ import {
   type WebhookEvent,
 } from '@/server/lemonsqueezy';
 import { reserveSlot } from '@/server/sponsorships';
+import { overview } from '@/server/admin';
 import { applyEvent, settleUnwanted } from '@/server/webhooks';
 import { testEvent } from '../../tools/lemonsqueezy-simulate';
 import { NOW, fakeFetch, jsonResponse, testDb } from '../helpers/server';
@@ -208,6 +209,43 @@ describe('applyEvent', () => {
       ls_subscription_id: 'sub-first',
       ls_order_id: 'order-first',
     });
+  });
+
+  it('lets a settled submission take a new payment so its refund can be retried', async () => {
+    await db
+      .update(submissions)
+      .set({
+        status: 'refunded',
+        closed_at: NOW.toISOString(),
+        ls_subscription_id: 'sub-first',
+        ls_order_id: 'order-first',
+        cancelled_at: NOW.toISOString(),
+        refunded_at: NOW.toISOString(),
+      })
+      .where(eq(submissions.id, submissionId));
+    const second = event('subscription_created');
+    const outcome = await applyEvent(db, second, NOW);
+    expect(outcome.unwanted).toMatchObject({ submissionId, subscriptionId: second.data.id });
+    expect(await submission()).toMatchObject({
+      status: 'rejected',
+      ls_subscription_id: second.data.id,
+      cancelled_at: null,
+      refunded_at: null,
+    });
+    expect((await overview(db)).unrefunded).toHaveLength(1);
+  });
+
+  it('takes a cancellation confirmed by the provider off the retry list', async () => {
+    const created = event('subscription_created');
+    await applyEvent(db, created, NOW);
+    await db
+      .update(submissions)
+      .set({ status: 'rejected', refunded_at: NOW.toISOString() })
+      .where(eq(submissions.id, submissionId));
+    expect((await overview(db)).unrefunded).toHaveLength(1);
+    await applyEvent(db, event('subscription_cancelled'), NOW);
+    expect((await submission())?.cancelled_at).toBe(NOW.toISOString());
+    expect((await overview(db)).unrefunded).toEqual([]);
   });
 
   it('hands back a payment for an unknown submission without touching any row', async () => {

@@ -252,7 +252,14 @@ describe('admin actions', () => {
       fetcher: ok.fetcher,
     });
     expect(retry).toMatchObject({ ok: true, message: 'Rejected.' });
-    expect((await db.select().from(submissions))[0]?.status).toBe('refunded');
+    // Only the failed step is retried: the subscription was already cancelled.
+    expect(ok.calls.map((c) => c.init?.method)).toEqual(['POST']);
+    expect((await db.select().from(submissions))[0]).toMatchObject({
+      status: 'refunded',
+      cancelled_at: NOW.toISOString(),
+      refunded_at: NOW.toISOString(),
+    });
+    expect((await overview(db)).unrefunded).toEqual([]);
     expect((await runAction(db, 'reject', id, NOW, null)).message).toBe('Already closed.');
   });
 
@@ -269,6 +276,22 @@ describe('admin actions', () => {
     });
     expect(result).toMatchObject({ ok: false, rebuild: true });
     expect(result.message).toMatch(/cancelling the subscription failed/);
+    // The refund went through, but the subscription could still renew: it stays to retry.
+    expect((await db.select().from(submissions))[0]).toMatchObject({
+      status: 'rejected',
+      cancelled_at: null,
+      refunded_at: NOW.toISOString(),
+    });
+    expect((await overview(db)).unrefunded).toHaveLength(1);
+    const ok = fakeFetch(() => new Response(null, { status: 200 }));
+    const retry = await runAction(db, 'reject', id, NOW, {
+      apiKey: 'k',
+      storeId: '1',
+      fetcher: ok.fetcher,
+    });
+    expect(retry).toMatchObject({ ok: true, rebuild: false });
+    // The refund is never issued twice.
+    expect(ok.calls.map((c) => c.init?.method)).toEqual(['DELETE']);
     expect((await db.select().from(submissions))[0]?.status).toBe('refunded');
   });
 

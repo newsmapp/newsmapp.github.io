@@ -1,4 +1,4 @@
-import { and, eq, inArray, sql } from 'drizzle-orm';
+import { and, eq, inArray, isNull, sql } from 'drizzle-orm';
 import { sponsorships, submissions, webhookEvents } from '../db/schema';
 import { tierFor, type Pricing } from '../lib/monetization/pricing';
 import { addDays, iso, isUniqueViolation, type Database } from './db';
@@ -81,6 +81,13 @@ async function processEvent(
   const subscriptionId =
     event.data.type === 'subscriptions' ? event.data.id : String(attributes.subscription_id ?? '');
   const bySubscription = eq(sponsorships.ls_subscription_id, subscriptionId);
+  // The provider confirms the cancellation, whoever asked for it (Reject or its dashboard).
+  const confirmCancelled = db
+    .update(submissions)
+    .set({ cancelled_at: iso(now) })
+    .where(
+      and(eq(submissions.ls_subscription_id, subscriptionId), isNull(submissions.cancelled_at)),
+    );
   const stamp = { updated_at: iso(now) };
 
   switch (event.meta.event_name) {
@@ -95,6 +102,8 @@ async function processEvent(
           status: submissions.status,
           subscription: submissions.ls_subscription_id,
           order: submissions.ls_order_id,
+          cancelledAt: submissions.cancelled_at,
+          refundedAt: submissions.refunded_at,
           country: submissions.country_iso,
           plan: submissions.plan,
         })
@@ -121,12 +130,14 @@ async function processEvent(
       }
       if (submission?.status !== 'awaiting_payment') {
         // A closed submission takes this payment's ids, so the editor can retry a failed refund,
-        // unless it still holds an earlier payment whose refund failed: those ids must stay, and
+        // unless it still holds an earlier payment not yet settled: those ids must stay, and
         // this payment is settled on its own.
+        const unsettled =
+          submission !== undefined &&
+          ((submission.subscription !== null && submission.cancelledAt === null) ||
+            (submission.order !== null && submission.refundedAt === null));
         const closed =
-          (submission?.status === 'rejected' || submission?.status === 'refunded') &&
-          submission.subscription === null &&
-          submission.order === null;
+          (submission?.status === 'rejected' || submission?.status === 'refunded') && !unsettled;
         if (closed) {
           await db.batch([
             record,
@@ -136,6 +147,8 @@ async function processEvent(
                 status: 'rejected',
                 ls_subscription_id: event.data.id,
                 ls_order_id: orderId,
+                cancelled_at: null,
+                refunded_at: null,
                 ...stamp,
               })
               .where(eq(submissions.id, submissionId)),
@@ -257,6 +270,7 @@ async function processEvent(
           .where(
             and(bySubscription, inArray(sponsorships.status, ['active', 'grace', 'reserved'])),
           ),
+        confirmCancelled,
       ]);
       return { status: 'processed', rebuild: false };
     }
@@ -272,6 +286,7 @@ async function processEvent(
           .update(submissions)
           .set({ closed_at: iso(now), ...stamp })
           .where(eq(submissions.ls_subscription_id, subscriptionId)),
+        confirmCancelled,
       ]);
       return { status: 'processed', rebuild: ended.length > 0 };
     }
@@ -281,7 +296,7 @@ async function processEvent(
         record,
         db
           .update(submissions)
-          .set({ status: 'refunded', closed_at: iso(now), ...stamp })
+          .set({ status: 'refunded', refunded_at: iso(now), closed_at: iso(now), ...stamp })
           .where(byOrder)
           .returning({ id: submissions.id }),
         db
@@ -306,7 +321,7 @@ async function processEvent(
 /**
  * Cancels and refunds a payment no checkout was waiting for (see UnwantedPayment). A submission
  * is marked refunded only when both calls succeed; otherwise it stays rejected with its payment
- * ids, and the admin lists it for a retry.
+ * ids and the steps still pending, and the admin lists it for a retry.
  */
 export async function settleUnwanted(
   db: Database,
@@ -321,10 +336,16 @@ export async function settleUnwanted(
     : true;
   const settled = cancelled && refunded;
   if (!settled) console.error(`Unwanted payment ${unwanted.subscriptionId} needs a manual refund.`);
-  else if (unwanted.submissionId)
+  // The steps that went through are recorded, so a retry from the admin repeats only the rest.
+  if (unwanted.submissionId)
     await db
       .update(submissions)
-      .set({ status: 'refunded', closed_at: iso(now), updated_at: iso(now) })
+      .set({
+        ...(settled ? { status: 'refunded' as const, closed_at: iso(now) } : {}),
+        ...(cancelled ? { cancelled_at: iso(now) } : {}),
+        ...(refunded && unwanted.orderId ? { refunded_at: iso(now) } : {}),
+        updated_at: iso(now),
+      })
       .where(eq(submissions.id, unwanted.submissionId));
   return settled;
 }

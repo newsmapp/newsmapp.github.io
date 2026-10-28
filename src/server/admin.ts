@@ -1,4 +1,4 @@
-import { and, desc, eq, inArray, isNotNull, ne, or } from 'drizzle-orm';
+import { and, desc, eq, inArray, isNotNull, isNull, ne, or } from 'drizzle-orm';
 import { correctionRequests, sponsorships, submissions } from '../db/schema';
 import { iso, type Database } from './db';
 import { cancelSubscription, refundOrder, type LemonSqueezyConfig } from './lemonsqueezy';
@@ -53,24 +53,29 @@ export async function runAction(
     }
     case 'reject': {
       const [submission] = await db.select().from(submissions).where(eq(submissions.id, id));
-      // A rejected submission that still holds payment ids had a refund fail: Reject retries it.
-      const retry =
-        submission?.status === 'rejected' &&
-        (submission.ls_subscription_id !== null || submission.ls_order_id !== null);
-      if (!submission || (['rejected', 'refunded'].includes(submission.status) && !retry)) {
+      if (!submission) return { ok: false, message: 'Already closed.', rebuild: false };
+      // Each provider step is recorded once it succeeds, so Reject on a closed submission only
+      // retries the steps that failed and never repeats a refund.
+      const toCancel = submission.ls_subscription_id !== null && submission.cancelled_at === null;
+      const toRefund = submission.ls_order_id !== null && submission.refunded_at === null;
+      const closedAlready = submission.status === 'rejected' || submission.status === 'refunded';
+      if (closedAlready && !(lemonSqueezy && (toCancel || toRefund))) {
         return { ok: false, message: 'Already closed.', rebuild: false };
       }
       // A failed provider call (error answer or network) is reported to the editor; the listing
       // and the submission are closed together either way, so the site and the admin agree.
       const failed = () => false;
-      let cancelled = true;
-      let refunded = false;
-      if (lemonSqueezy && submission.ls_subscription_id)
-        cancelled = await cancelSubscription(lemonSqueezy, submission.ls_subscription_id).catch(
-          failed,
-        );
-      if (lemonSqueezy && submission.ls_order_id)
-        refunded = await refundOrder(lemonSqueezy, submission.ls_order_id).catch(failed);
+      const cancelled =
+        lemonSqueezy && toCancel && submission.ls_subscription_id
+          ? await cancelSubscription(lemonSqueezy, submission.ls_subscription_id).catch(failed)
+          : false;
+      const refunded =
+        lemonSqueezy && toRefund && submission.ls_order_id
+          ? await refundOrder(lemonSqueezy, submission.ls_order_id).catch(failed)
+          : false;
+      const cancelPending = toCancel && !cancelled;
+      const refundPending = toRefund && !refunded;
+      const anyRefund = submission.refunded_at !== null || refunded;
       const [wasLive] = await db.batch([
         db
           .update(sponsorships)
@@ -79,20 +84,29 @@ export async function runAction(
           .returning({ status: sponsorships.status }),
         db
           .update(submissions)
-          .set({ status: refunded ? 'refunded' : 'rejected', updated_at: iso(now), ...closed })
+          .set({
+            // Refunded only once nothing is left to settle; until then Reject can retry.
+            status: anyRefund && !cancelPending && !refundPending ? 'refunded' : 'rejected',
+            updated_at: iso(now),
+            ...(cancelled ? { cancelled_at: iso(now) } : {}),
+            ...(refunded ? { refunded_at: iso(now) } : {}),
+            ...(closedAlready ? {} : closed),
+          })
           .where(eq(submissions.id, id)),
       ]);
-      const refundFailed = lemonSqueezy !== null && submission.ls_order_id !== null && !refunded;
-      const failures = [
-        ...(cancelled ? [] : ['cancelling the subscription']),
-        ...(refundFailed ? ['the refund'] : []),
-      ];
+      // Without LemonSqueezy (simulation) nothing is called, so nothing is reported as failed.
+      const failures = lemonSqueezy
+        ? [
+            ...(cancelPending ? ['cancelling the subscription'] : []),
+            ...(refundPending ? ['the refund'] : []),
+          ]
+        : [];
       return {
         ok: failures.length === 0,
         message:
           failures.length === 0
             ? 'Rejected.'
-            : `Rejected, but ${failures.join(' and ')} failed. Finish it in the LemonSqueezy dashboard.`,
+            : `Rejected, but ${failures.join(' and ')} failed. Retry with Reject, or finish it in the LemonSqueezy dashboard.`,
         rebuild: wasLive.length > 0 && submission.status === 'approved',
       };
     }
@@ -151,15 +165,18 @@ export async function overview(db: Database) {
         .where(eq(correctionRequests.status, 'open'))
         .orderBy(desc(correctionRequests.created_at))
         .limit(100),
-      // Rejected but still holding payment ids: the cancel or refund failed and needs a retry.
+      // Closed with a cancellation or refund still unconfirmed: it failed and needs a retry.
       // Queried on its own so an old one never drops off with the 100-row list above.
       db
         .select()
         .from(submissions)
         .where(
           and(
-            eq(submissions.status, 'rejected'),
-            or(isNotNull(submissions.ls_subscription_id), isNotNull(submissions.ls_order_id)),
+            inArray(submissions.status, ['rejected', 'refunded']),
+            or(
+              and(isNotNull(submissions.ls_subscription_id), isNull(submissions.cancelled_at)),
+              and(isNotNull(submissions.ls_order_id), isNull(submissions.refunded_at)),
+            ),
           ),
         )
         .orderBy(desc(submissions.updated_at)),
