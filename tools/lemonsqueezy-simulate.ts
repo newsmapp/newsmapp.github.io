@@ -32,7 +32,16 @@ function secret(): string {
 }
 
 /** Test ids derived from the submission, so later events find what subscription_created stored. */
-export function testEvent(name: EventName, submissionId: string, now = new Date()) {
+/**
+ * A signed-shape LemonSqueezy event. Pass the variant id once pricing.json has real ones:
+ * a subscription_created for the wrong variant (or none) is refunded as an unwanted payment.
+ */
+export function testEvent(
+  name: EventName,
+  submissionId: string,
+  now = new Date(),
+  variantId?: string,
+) {
   const suffix = submissionId.replace(/[^0-9a-f]/g, '').slice(0, 8) || '1';
   const subscriptionId = `90${parseInt(suffix, 16) % 1_000_000}`;
   const orderId = `80${parseInt(suffix, 16) % 1_000_000}`;
@@ -62,6 +71,7 @@ export function testEvent(name: EventName, submissionId: string, now = new Date(
       attributes: {
         status,
         order_id: Number(orderId),
+        ...(variantId ? { variant_id: Number(variantId) } : {}),
         updated_at: now.toISOString(),
         ends_at: name === 'subscription_cancelled' ? endsAt : null,
         renews_at: endsAt,
@@ -74,13 +84,15 @@ async function main() {
   const [name, submissionId] = process.argv.slice(2);
   const urlFlag = process.argv.indexOf('--url');
   const base = urlFlag > 0 ? process.argv[urlFlag + 1] : 'http://localhost:8787';
+  const variantFlag = process.argv.indexOf('--variant');
+  const variantId = variantFlag > 0 ? process.argv[variantFlag + 1] : undefined;
   if (!name || !EVENTS.includes(name as EventName) || !submissionId) {
     console.error(
-      `Usage: pnpm lemonsqueezy:simulate <${EVENTS.join('|')}> <submission-id> [--url URL]`,
+      `Usage: pnpm lemonsqueezy:simulate <${EVENTS.join('|')}> <submission-id> [--url URL] [--variant ID]`,
     );
     process.exit(2);
   }
-  const body = JSON.stringify(testEvent(name as EventName, submissionId));
+  const body = JSON.stringify(testEvent(name as EventName, submissionId, new Date(), variantId));
   const response = await fetch(`${base}/api/webhooks/lemonsqueezy/`, {
     method: 'POST',
     headers: {
