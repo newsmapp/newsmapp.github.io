@@ -32,10 +32,7 @@ const topOutlets = (byOutlet ?? []).filter((row) => !row.key.startsWith('aff-'))
 const done = Astro.url.searchParams.get('done');
 const error = Astro.url.searchParams.get('error');
 const awaiting = data.paidSubmissions.filter((s) => s.status === 'paid_pending_review');
-// Rejected but still holding payment ids: the cancel or refund failed and needs a retry.
-const unrefunded = data.paidSubmissions.filter(
-  (s) => s.status === 'rejected' && (s.ls_subscription_id !== null || s.ls_order_id !== null),
-);
+const unrefunded = data.unrefunded;
 const label = (category: string) => CATEGORY_LABELS[category as Category] ?? category;
 const reports: [string, ClickRow[] | null, (key: string) => string][] = [
   ['Top 20 outlets', topOutlets, outletName],
@@ -45,7 +42,7 @@ const reports: [string, ClickRow[] | null, (key: string) => string][] = [
 ];
 ---
 
-<BaseLayout title="Admin" description="NewsMapp editorial admin." noindex>
+<BaseLayout title="Admin" description="NewsMapp editorial admin." noindex switchTo={false}>
   <div class="page admin">
     <h1>Admin</h1>
     {done && (

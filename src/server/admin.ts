@@ -1,4 +1,4 @@
-import { and, desc, eq, inArray, ne } from 'drizzle-orm';
+import { and, desc, eq, inArray, isNotNull, ne, or } from 'drizzle-orm';
 import { correctionRequests, sponsorships, submissions } from '../db/schema';
 import { iso, type Database } from './db';
 import { cancelSubscription, refundOrder, type LemonSqueezyConfig } from './lemonsqueezy';
@@ -126,32 +126,45 @@ export async function runAction(
 
 /** Everything the admin page lists, newest first. */
 export async function overview(db: Database) {
-  const [paidSubmissions, freeSuggestions, liveSponsorships, corrections] = await Promise.all([
-    db
-      .select()
-      .from(submissions)
-      .where(inArray(submissions.plan, ['monthly', 'yearly']))
-      .orderBy(desc(submissions.created_at))
-      .limit(100),
-    db
-      .select()
-      .from(submissions)
-      .where(and(eq(submissions.plan, 'free'), eq(submissions.status, 'pending')))
-      .orderBy(desc(submissions.created_at))
-      .limit(100),
-    db
-      .select()
-      .from(sponsorships)
-      .where(inArray(sponsorships.status, ['reserved', 'active', 'grace']))
-      .orderBy(sponsorships.country_iso, sponsorships.category, sponsorships.slot_position),
-    db
-      .select()
-      .from(correctionRequests)
-      .where(eq(correctionRequests.status, 'open'))
-      .orderBy(desc(correctionRequests.created_at))
-      .limit(100),
-  ]);
-  return { paidSubmissions, freeSuggestions, liveSponsorships, corrections };
+  const [paidSubmissions, freeSuggestions, liveSponsorships, corrections, unrefunded] =
+    await Promise.all([
+      db
+        .select()
+        .from(submissions)
+        .where(inArray(submissions.plan, ['monthly', 'yearly']))
+        .orderBy(desc(submissions.created_at))
+        .limit(100),
+      db
+        .select()
+        .from(submissions)
+        .where(and(eq(submissions.plan, 'free'), eq(submissions.status, 'pending')))
+        .orderBy(desc(submissions.created_at))
+        .limit(100),
+      db
+        .select()
+        .from(sponsorships)
+        .where(inArray(sponsorships.status, ['reserved', 'active', 'grace']))
+        .orderBy(sponsorships.country_iso, sponsorships.category, sponsorships.slot_position),
+      db
+        .select()
+        .from(correctionRequests)
+        .where(eq(correctionRequests.status, 'open'))
+        .orderBy(desc(correctionRequests.created_at))
+        .limit(100),
+      // Rejected but still holding payment ids: the cancel or refund failed and needs a retry.
+      // Queried on its own so an old one never drops off with the 100-row list above.
+      db
+        .select()
+        .from(submissions)
+        .where(
+          and(
+            eq(submissions.status, 'rejected'),
+            or(isNotNull(submissions.ls_subscription_id), isNotNull(submissions.ls_order_id)),
+          ),
+        )
+        .orderBy(desc(submissions.updated_at)),
+    ]);
+  return { paidSubmissions, freeSuggestions, liveSponsorships, corrections, unrefunded };
 }
 
 export const EXPORTS = ['submissions', 'sponsorships', 'corrections'] as const;
