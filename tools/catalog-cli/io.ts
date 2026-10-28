@@ -7,12 +7,14 @@ import type { CatalogInput, RawFile } from '../../src/lib/catalog/validate';
 /** Catalog root. Tests and E2E point CATALOG_DIR at a fixtures catalog. */
 export const catalogDir = resolve(process.env.CATALOG_DIR ?? 'data');
 
+/** Locales the catalog must carry: English first, then ENABLED_LOCALES. */
 export function enabledLocales(): Locale[] {
   const raw = (process.env.ENABLED_LOCALES ?? 'en,pt').split(',').map((l) => l.trim());
   const invalid = raw.filter((l) => !(LOCALES as readonly string[]).includes(l));
   if (invalid.length > 0)
     throw new Error(`Unknown locale(s) in ENABLED_LOCALES: ${invalid.join()}`);
-  return raw as Locale[];
+  // English is always built at the root (parseLangs), so it is always validated too.
+  return [...new Set(['en', ...raw])] as Locale[];
 }
 
 const readJson = (path: string): unknown => JSON.parse(readFileSync(path, 'utf8'));

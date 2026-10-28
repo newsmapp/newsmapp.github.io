@@ -64,6 +64,10 @@ describe('http helpers', () => {
       'Folha & Co – News!',
     );
     expect(extractTitle('<title>&bogus; ok</title>')).toBe('&bogus; ok');
+    // Malformed numeric references must not throw and abort a whole health run.
+    expect(extractTitle('<title>News &#abc; &#x110000; Today</title>')).toBe(
+      'News &#abc; &#x110000; Today',
+    );
     expect(extractTitle('<html></html>')).toBeNull();
     expect(extractTitle('<title> </title>')).toBeNull();
   });

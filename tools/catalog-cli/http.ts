@@ -115,10 +115,13 @@ export function extractTitle(html: string): string | null {
   const raw = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html)?.[1];
   if (!raw) return null;
   const title = raw
-    .replace(/&(#x?[0-9a-f]+|\w+);/gi, (match, entity: string) => {
-      if (entity.startsWith('#x') || entity.startsWith('#X'))
-        return String.fromCodePoint(parseInt(entity.slice(2), 16));
-      if (entity.startsWith('#')) return String.fromCodePoint(parseInt(entity.slice(1), 10));
+    .replace(/&(#x[0-9a-f]+|#[0-9]+|\w+);/gi, (match, entity: string) => {
+      if (entity.startsWith('#')) {
+        const hex = entity[1] === 'x' || entity[1] === 'X';
+        const code = parseInt(entity.slice(hex ? 2 : 1), hex ? 16 : 10);
+        // Out-of-range references (&#x110000;) are left as written instead of throwing.
+        return code >= 0 && code <= 0x10ffff ? String.fromCodePoint(code) : match;
+      }
       return ENTITIES[entity.toLowerCase()] ?? match;
     })
     .replace(/\s+/g, ' ')
