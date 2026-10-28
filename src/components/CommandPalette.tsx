@@ -74,7 +74,9 @@ export default function CommandPalette({ labels }: { labels: PaletteLabels }) {
   useEffect(() => {
     const term = query.trim();
     if (term.length < 2) {
+      // The search this replaces may have been cancelled mid-flight, before it reset the status.
       setHits([]);
+      setStatus('idle');
       return;
     }
     let cancelled = false;
