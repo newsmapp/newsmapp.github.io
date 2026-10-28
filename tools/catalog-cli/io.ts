@@ -8,7 +8,7 @@ import type { CatalogInput, RawFile } from '../../src/lib/catalog/validate';
 export const catalogDir = resolve(process.env.CATALOG_DIR ?? 'data');
 
 export function enabledLocales(): Locale[] {
-  const raw = (process.env.ENABLED_LOCALES ?? 'en').split(',').map((l) => l.trim());
+  const raw = (process.env.ENABLED_LOCALES ?? 'en,pt').split(',').map((l) => l.trim());
   const invalid = raw.filter((l) => !(LOCALES as readonly string[]).includes(l));
   if (invalid.length > 0)
     throw new Error(`Unknown locale(s) in ENABLED_LOCALES: ${invalid.join()}`);

@@ -1,0 +1,316 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { THRESHOLDS } from '../../lib/catalog/thresholds';
+import { forEachLang, i18n } from '../../data/i18n';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang, paths } = i18n(Astro.url);
+---
+
+{lang === 'pt' ? (
+  <ProseLayout
+    title="Metodologia: como listamos e ordenamos os veículos"
+    description="Como o NewsMapp verifica cada veículo, classifica paywalls e propriedade, trata a orientação política e decide a ordem em cada categoria."
+    heading="Como listamos, classificamos e ordenamos os veículos"
+    updated="2026-10-27"
+    legal
+  >
+    <p>
+      Cada veículo do NewsMapp é conferido por uma pessoa antes de aparecer. Esta página explica o
+      que significa cada rótulo, de onde vêm os dados e como é decidida a ordem dentro de cada
+      categoria.
+    </p>
+
+    <h2>Quais veículos entram</h2>
+    <p>Um veículo entra no diretório quando:</p>
+    <ul>
+      <li>
+        publica notícias ou análises próprias com regularidade, não só agregação ou comunicados;
+      </li>
+      <li>tem uma editora ou um dono identificável;</li>
+      <li>pode ser acessado por HTTPS.</li>
+    </ul>
+    <p>
+      A página de um país é publicada quando ele tem pelo menos {THRESHOLDS.countryMinOutlets}{' '}
+      veículos verificados em pelo menos {THRESHOLDS.countryMinCategories} categorias e um panorama
+      revisado da sua mídia. Uma categoria ganha página própria com{' '}
+      {THRESHOLDS.categoryPageMinOutlets} ou mais veículos verificados.
+    </p>
+
+    <h2>Como os veículos são verificados</h2>
+    <ol>
+      <li>
+        Os candidatos são rascunhados e conferidos automaticamente: registramos o status HTTP, o
+        endereço final depois dos redirecionamentos e o título do próprio site.
+      </li>
+      <li>
+        Um editor confere cada candidato no site do próprio veículo e em pelo menos uma fonte
+        independente.
+      </li>
+      <li>
+        Dados com consequências (dono, ano de fundação, tipo de propriedade) trazem um link para a
+        fonte no perfil do veículo.
+      </li>
+      <li>
+        Os sites são conferidos de novo toda semana. Sites quebrados ou que mudaram de endereço são
+        sinalizados e corrigidos por um editor, nunca automaticamente.
+      </li>
+    </ol>
+
+    <h2>Rótulos de paywall</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Rótulo</th>
+          <th scope="col">Significado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Grátis</td>
+          <td>Todos os artigos podem ser lidos sem pagamento nem cadastro</td>
+        </tr>
+        <tr>
+          <td>Com limite</td>
+          <td>Alguns artigos grátis por período, depois assinatura</td>
+        </tr>
+        <tr>
+          <td>Freemium</td>
+          <td>Algumas seções grátis, seções premium pagas</td>
+        </tr>
+        <tr>
+          <td>Paywall</td>
+          <td>Quase todo o conteúdo exige assinatura</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Os paywalls são conferidos visitando o site sem conta e registrados na data da verificação.
+    </p>
+
+    <h2>Rótulos de propriedade</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Rótulo</th>
+          <th scope="col">Significado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Privado</td>
+          <td>Pertence a uma empresa ou a pessoas físicas</td>
+        </tr>
+        <tr>
+          <td>Serviço público</td>
+          <td>Financiamento público, com independência editorial garantida por lei ou estatuto</td>
+        </tr>
+        <tr>
+          <td>Controlado pelo Estado</td>
+          <td>
+            Linha editorial controlada por um governo ou partido no poder. Sempre indicado com
+            fonte.
+          </td>
+        </tr>
+        <tr>
+          <td>Sem fins lucrativos</td>
+          <td>Pertence a uma fundação, um trust ou uma organização sem fins lucrativos</td>
+        </tr>
+        <tr>
+          <td>Cooperativa</td>
+          <td>Pertence aos funcionários, aos leitores ou às editoras associadas</td>
+        </tr>
+        <tr>
+          <td>Desconhecido</td>
+          <td>Não foi possível determinar a propriedade</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Orientação política</h2>
+    <p>
+      O NewsMapp não classifica a orientação política dos veículos por conta própria. Por padrão,
+      nenhum veículo é classificado. Uma orientação só aparece quando existe uma classificação
+      reconhecida e publicada, e essa classificação tem link. Quando fontes reconhecidas discordam,
+      o veículo é marcado como misto.
+    </p>
+
+    <h2>Como cada categoria é ordenada</h2>
+    <p>
+      As posições dentro de uma categoria são uma decisão editorial baseada no alcance nacional, na
+      frequência de publicação, na originalidade da reportagem e no tempo de existência do veículo,
+      nessa ordem de peso.
+    </p>
+    <p>
+      Destaques patrocinados nunca mudam essas posições. Eles aparecem acima da classificação, com
+      fundo destacado e a palavra Patrocinado, e são revisados antes de entrar no ar. Veja a nossa
+      página de <a href={paths.page('/disclosures/')}>transparência</a>.
+    </p>
+
+    <h2>Dados de liberdade de imprensa e população</h2>
+    <p>
+      As páginas de países citam o Ranking Mundial da Liberdade de Imprensa da Repórteres Sem
+      Fronteiras e os dados de população do Banco Mundial, com o ano de cada número e um link para a
+      fonte.
+    </p>
+
+    <h2>Correções</h2>
+    <p>
+      Qualquer pessoa pode <a href={paths.page('/corrections/')}>enviar uma correção</a>. Um editor
+      analisa cada pedido; as correções aceitas aparecem na próxima atualização do site. Se você
+      deixar um e-mail, contamos o resultado, e o endereço é anonimizado 24 meses depois que o
+      pedido é encerrado.
+    </p>
+  </ProseLayout>
+) : (
+  <ProseLayout
+    title="Methodology: how outlets are listed, labeled and ranked"
+    description="How NewsMapp verifies each outlet, labels paywalls and ownership, handles political lean and decides the order within every category."
+    heading="How we list, label and rank outlets"
+    updated="2026-10-27"
+  >
+    <p>
+      Every outlet on NewsMapp is checked by a person before it appears. This page explains what
+      each label means, where the facts come from and how the order within a category is decided.
+    </p>
+
+    <h2>Which outlets are listed</h2>
+    <p>An outlet is listed when it:</p>
+    <ul>
+      <li>
+        publishes original news or analysis regularly, not only aggregation or press releases;
+      </li>
+      <li>has an identifiable publisher or owner;</li>
+      <li>is reachable over HTTPS.</li>
+    </ul>
+    <p>
+      A country page is published once it has at least {THRESHOLDS.countryMinOutlets} verified
+      outlets in at least {THRESHOLDS.countryMinCategories} categories and a reviewed overview of
+      its media. A category gets its own page with {THRESHOLDS.categoryPageMinOutlets} or more
+      verified outlets.
+    </p>
+
+    <h2>How outlets are verified</h2>
+    <ol>
+      <li>
+        Candidates are drafted and checked automatically: we record the HTTP status, the final
+        address after redirects and the site's own title.
+      </li>
+      <li>
+        An editor checks each candidate against the outlet's own site and at least one independent
+        source.
+      </li>
+      <li>
+        Facts with consequences (owner, founding year, ownership type) carry a link to their source
+        on the outlet's profile.
+      </li>
+      <li>
+        Sites are re-checked every week. Broken or moved sites are flagged and fixed by an editor,
+        never automatically.
+      </li>
+    </ol>
+
+    <h2>Paywall labels</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Label</th>
+          <th scope="col">Meaning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Free</td>
+          <td>All articles can be read without payment or registration</td>
+        </tr>
+        <tr>
+          <td>Metered</td>
+          <td>A number of free articles per period, then a subscription</td>
+        </tr>
+        <tr>
+          <td>Freemium</td>
+          <td>Some sections free, premium sections paid</td>
+        </tr>
+        <tr>
+          <td>Paywall</td>
+          <td>Nearly all content requires a subscription</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Paywalls are checked by visiting the site without an account, and recorded as of the date of
+      verification.
+    </p>
+
+    <h2>Ownership labels</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Label</th>
+          <th scope="col">Meaning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Private</td>
+          <td>Owned by a company or individuals</td>
+        </tr>
+        <tr>
+          <td>Public service</td>
+          <td>Publicly funded, with editorial independence guaranteed by law or charter</td>
+        </tr>
+        <tr>
+          <td>State-controlled</td>
+          <td>
+            Editorial line controlled by a government or ruling party. Always shown with a source.
+          </td>
+        </tr>
+        <tr>
+          <td>Nonprofit</td>
+          <td>Owned by a foundation, trust or nonprofit organization</td>
+        </tr>
+        <tr>
+          <td>Cooperative</td>
+          <td>Owned by its employees, readers or member publishers</td>
+        </tr>
+        <tr>
+          <td>Unknown</td>
+          <td>Ownership could not be established</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Political lean</h2>
+    <p>
+      NewsMapp does not rate the political lean of outlets on its own judgment. By default every
+      outlet is unrated. A lean is shown only when a recognized, published rating exists, and that
+      rating is linked. When recognized sources disagree, the outlet is labeled mixed.
+    </p>
+
+    <h2>How each category is ordered</h2>
+    <p>
+      Positions within a category are an editorial judgment based on national reach, how often the
+      outlet publishes, the originality of its reporting and how long it has existed, in that order
+      of weight.
+    </p>
+    <p>
+      Sponsored listings never change these positions. They appear above the ranking, on a
+      highlighted background, labeled Sponsored, and are reviewed before they go live. See our{' '}
+      <a href="/disclosures/">disclosures</a>.
+    </p>
+
+    <h2>Press freedom and population data</h2>
+    <p>
+      Country pages cite the Reporters Without Borders World Press Freedom Index and World Bank
+      population figures, with the year of each figure and a link to the source.
+    </p>
+
+    <h2>Corrections</h2>
+    <p>
+      Anyone can <a href="/corrections/">report a correction</a>. An editor reviews every request;
+      accepted corrections appear with the next update of the site. If you leave an e-mail address
+      we tell you the outcome, and the address is anonymized 24 months after the request is closed.
+    </p>
+  </ProseLayout>
+)}

@@ -5,11 +5,27 @@ export interface FilterOption {
   label: string;
 }
 
+export interface FilterLabels {
+  form: string;
+  paywall: string;
+  anyPaywall: string;
+  ownership: string;
+  anyOwnership: string;
+  format: string;
+  anyFormat: string;
+  name: string;
+  namePlaceholder: string;
+  clear: string;
+  result: string;
+  resultAll: string;
+}
+
 interface Props {
   paywalls: FilterOption[];
   ownership: FilterOption[];
   formats: FilterOption[];
   total: number;
+  labels: FilterLabels;
 }
 
 interface Filters {
@@ -63,7 +79,10 @@ function apply(filters: Filters): number {
 
 const isFiltering = (filters: Filters): boolean => KEYS.some((key) => filters[key] !== '');
 
-export default function FilterBar({ paywalls, ownership, formats, total }: Props) {
+const fill = (template: string, values: Record<string, number>): string =>
+  template.replace(/\{(\w+)\}/g, (match, key: string) => String(values[key] ?? match));
+
+export default function FilterBar({ paywalls, ownership, formats, total, labels }: Props) {
   const [filters, setFilters] = useState<Filters>({
     paywall: '',
     ownership: '',
@@ -97,18 +116,23 @@ export default function FilterBar({ paywalls, ownership, formats, total }: Props
   const selects = useMemo(
     () =>
       [
-        { key: 'paywall', label: 'Paywall', any: 'Any access', options: paywalls },
-        { key: 'ownership', label: 'Ownership', any: 'Any ownership', options: ownership },
-        { key: 'format', label: 'Format', any: 'Any format', options: formats },
+        { key: 'paywall', label: labels.paywall, any: labels.anyPaywall, options: paywalls },
+        {
+          key: 'ownership',
+          label: labels.ownership,
+          any: labels.anyOwnership,
+          options: ownership,
+        },
+        { key: 'format', label: labels.format, any: labels.anyFormat, options: formats },
       ] as const,
-    [paywalls, ownership, formats],
+    [paywalls, ownership, formats, labels],
   );
 
   return (
     <form
       class="filters"
       role="search"
-      aria-label="Filter outlets"
+      aria-label={labels.form}
       onSubmit={(event) => event.preventDefault()}
     >
       {selects.map((select) => (
@@ -125,11 +149,11 @@ export default function FilterBar({ paywalls, ownership, formats, total }: Props
         </label>
       ))}
       <label class="filter filter-text">
-        <span class="filter-label">Name</span>
+        <span class="filter-label">{labels.name}</span>
         <input
           type="search"
           name="q"
-          placeholder="Filter by name…"
+          placeholder={labels.namePlaceholder}
           autoComplete="off"
           spellcheck={false}
           value={filters.q}
@@ -137,7 +161,9 @@ export default function FilterBar({ paywalls, ownership, formats, total }: Props
         />
       </label>
       <p class="filter-result" role="status" aria-live="polite">
-        {isFiltering(filters) ? `${shown} of ${total} outlets shown` : `${total} outlets`}
+        {isFiltering(filters)
+          ? fill(labels.result, { shown, total })
+          : fill(labels.resultAll, { total })}
       </p>
       {isFiltering(filters) && (
         <button
@@ -145,7 +171,7 @@ export default function FilterBar({ paywalls, ownership, formats, total }: Props
           class="filter-reset"
           onClick={() => setFilters({ paywall: '', ownership: '', format: '', q: '' })}
         >
-          Clear filters
+          {labels.clear}
         </button>
       )}
     </form>

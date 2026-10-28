@@ -1,42 +1,42 @@
 ---
+import { i18n } from '../data/i18n';
+
+const { t, paths } = i18n(Astro.url);
 const year = new Date().getUTCFullYear();
+const about = [
+  ['/about/', t.footer.about],
+  ['/methodology/', t.footer.methodology],
+  ['/corrections/', t.footer.corrections],
+  ['/advertise/', t.footer.advertise],
+] as const;
+const legal = [
+  ['/disclosures/', t.footer.disclosures],
+  ['/privacy/', t.footer.privacy],
+  ['/terms/', t.footer.terms],
+] as const;
 ---
 
 <footer class="site-footer">
   <div class="page cols">
-    <nav aria-label="About NewsMapp">
+    <nav aria-label={t.footer.aboutNav}>
       <ul>
-        <li>
-          <a href="/about/">About</a>
-        </li>
-        <li>
-          <a href="/methodology/">Methodology</a>
-        </li>
-        <li>
-          <a href="/corrections/">Report a correction</a>
-        </li>
-        <li>
-          <a href="/advertise/">Advertise</a>
-        </li>
+        {about.map(([path, label]) => (
+          <li>
+            <a href={paths.page(path)}>{label}</a>
+          </li>
+        ))}
       </ul>
     </nav>
-    <nav aria-label="Legal">
+    <nav aria-label={t.footer.legalNav}>
       <ul>
-        <li>
-          <a href="/disclosures/">Disclosures</a>
-        </li>
-        <li>
-          <a href="/privacy/">Privacy</a>
-        </li>
-        <li>
-          <a href="/terms/">Terms</a>
-        </li>
+        {legal.map(([path, label]) => (
+          <li>
+            <a href={paths.page(path)}>{label}</a>
+          </li>
+        ))}
       </ul>
     </nav>
-    <p class="note">
-      Outlets are ranked by our editors, not by payment. Sponsored listings are labeled and kept
-      apart from the ranking. © {year} NewsMapp.
-    </p>
+    <p class="note">{t.footer.note(year)}</p>
   </div>
 </footer>
 

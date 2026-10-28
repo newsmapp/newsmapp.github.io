@@ -1,15 +1,7 @@
 ---
 import type { Category } from '../schemas/catalog.schema';
 import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
-import { paths } from '../data/catalog';
-import {
-  FORMAT_LABEL,
-  FORMAT_TAG,
-  OWNERSHIP_LABEL,
-  OWNERSHIP_TAG,
-  PAYWALL_DESCRIPTION,
-  PAYWALL_TAG,
-} from '../lib/format';
+import { i18n } from '../data/i18n';
 import Icon from './Icon.astro';
 
 interface Props {
@@ -23,9 +15,10 @@ interface Props {
 }
 
 const { outlet, country, category, position, lazy = false, ranked = true } = Astro.props;
+const { lang, t, l, paths } = i18n(Astro.url);
 const detailId = `detail-${category}-${outlet.id}`;
-const ownershipTag = OWNERSHIP_TAG[outlet.ownership_type];
-const formatTag = FORMAT_TAG[outlet.format];
+const ownershipTag = l.ownershipTag[outlet.ownership_type];
+const formatTag = l.formatTag[outlet.format];
 ---
 
 <li
@@ -37,7 +30,7 @@ const formatTag = FORMAT_TAG[outlet.format];
   data-format={outlet.format}
 >
   {ranked ? (
-    <span class="rank data" aria-label={`Rank ${position}`}>
+    <span class="rank data" aria-label={t.row.rank(position)}>
       {position}
     </span>
   ) : (
@@ -67,46 +60,46 @@ const formatTag = FORMAT_TAG[outlet.format];
   <span class="tags">
     <span
       class:list={['tag', outlet.paywall === 'free' ? 'tag-free' : 'tag-paid']}
-      title={PAYWALL_DESCRIPTION[outlet.paywall]}
+      title={l.paywallDescription[outlet.paywall]}
     >
-      {PAYWALL_TAG[outlet.paywall]}
+      {l.paywallTag[outlet.paywall]}
     </span>
     {ownershipTag && (
-      <span class="tag" title={OWNERSHIP_LABEL[outlet.ownership_type]}>
+      <span class="tag" title={l.ownership[outlet.ownership_type]}>
         {ownershipTag}
       </span>
     )}
     {formatTag && (
-      <span class="tag" title={FORMAT_LABEL[outlet.format]}>
+      <span class="tag" title={l.format[outlet.format]}>
         {formatTag}
       </span>
     )}
   </span>
-  <button class="info" type="button" popovertarget={detailId} aria-label={`About ${outlet.name}`}>
+  <button class="info" type="button" popovertarget={detailId} aria-label={t.row.about(outlet.name)}>
     <Icon name="info" size={16} />
   </button>
   <div class="detail" id={detailId} popover>
     <p class="detail-name">{outlet.name}</p>
-    <p class="detail-pitch">{outlet.pitch.en}</p>
+    <p class="detail-pitch">{outlet.pitch[lang] ?? outlet.pitch.en}</p>
     <dl class="facts data">
       {outlet.owner && (
         <>
-          <dt>Owner</dt>
+          <dt>{t.row.owner}</dt>
           <dd>{outlet.owner}</dd>
         </>
       )}
-      <dt>Ownership</dt>
-      <dd>{OWNERSHIP_LABEL[outlet.ownership_type]}</dd>
+      <dt>{t.row.ownership}</dt>
+      <dd>{l.ownership[outlet.ownership_type]}</dd>
       {outlet.founded_year && (
         <>
-          <dt>Founded</dt>
+          <dt>{t.row.founded}</dt>
           <dd>{outlet.founded_year}</dd>
         </>
       )}
-      <dt>Access</dt>
-      <dd>{PAYWALL_DESCRIPTION[outlet.paywall]}</dd>
-      <dt>Format</dt>
-      <dd>{FORMAT_LABEL[outlet.format]}</dd>
+      <dt>{t.row.access}</dt>
+      <dd>{l.paywallDescription[outlet.paywall]}</dd>
+      <dt>{t.row.format}</dt>
+      <dd>{l.format[outlet.format]}</dd>
     </dl>
     <p class="detail-links">
       <a
@@ -116,9 +109,9 @@ const formatTag = FORMAT_TAG[outlet.format];
         data-country={country.iso2}
         data-category={category}
       >
-        Visit site <Icon name="arrow-up-right" size={14} />
+        {t.row.visit} <Icon name="arrow-up-right" size={14} />
       </a>
-      <a href={paths.outlet(country, outlet)}>Profile and alternatives</a>
+      <a href={paths.outlet(country, outlet)}>{t.row.profile}</a>
     </p>
   </div>
 </li>

@@ -1,0 +1,284 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Turnstile from '../../components/Turnstile.astro';
+import { CATEGORIES } from '../../schemas/catalog.schema';
+import { categoryLabel, countryName, sortedCountries } from '../../data/catalog';
+import { forEachLang, i18n } from '../../data/i18n';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang, t } = i18n(Astro.url);
+const countries = sortedCountries(lang);
+const outletOptions = countries.flatMap((country) =>
+  country.outlets.map((outlet) => ({
+    id: outlet.id,
+    label: `${outlet.name} (${countryName(country, lang)})`,
+  })),
+);
+const c = {
+  en: {
+    title: 'Report a correction or suggest an outlet',
+    description:
+      'Tell us about a wrong fact in a NewsMapp listing, or suggest a news outlet we should add. Every request is reviewed by an editor.',
+    lede: 'An editor reads every request. Accepted changes appear with the next update of the site, usually within a few days.',
+    fix: 'Fix a listing',
+    fixSuccess: 'Thank you. An editor will review your correction.',
+    outlet: 'Outlet',
+    chooseOutlet: 'Choose an outlet…',
+    wrong: 'What is wrong',
+    fields: {
+      url: 'Website address',
+      paywall: 'Paywall',
+      ownership: 'Owner or ownership type',
+      founded_year: 'Founding year',
+      category: 'Category or rank',
+      closed: 'The outlet has closed',
+      other: 'Something else',
+    },
+    details: 'Details and a source',
+    detailsPlaceholder: 'The paywall became metered in 2026, see https://…',
+    optionalEmail: 'Your e-mail (optional)',
+    optionalEmailHint:
+      'Only to tell you the outcome. Anonymized 24 months after the request is closed.',
+    emailPlaceholder: 'you@example.com',
+    sendCorrection: 'Send correction',
+    suggest: 'Suggest an outlet',
+    suggestSuccess: 'Thank you. An editor will review your suggestion.',
+    outletName: 'Outlet name',
+    website: 'Website',
+    country: 'Country',
+    chooseCountry: 'Choose a country…',
+    category: 'Category',
+    email: 'Your e-mail',
+    emailHint: 'To ask questions about the outlet if needed.',
+    note: 'Note (optional)',
+    sendSuggestion: 'Send suggestion',
+  },
+  pt: {
+    title: 'Envie uma correção ou sugira um veículo',
+    description:
+      'Avise sobre um dado errado em um item do NewsMapp ou sugira um veículo de notícias que devemos incluir. Cada pedido é analisado por um editor.',
+    lede: 'Um editor lê cada pedido. As mudanças aceitas aparecem na próxima atualização do site, em geral em poucos dias.',
+    fix: 'Corrigir um item',
+    fixSuccess: 'Obrigado. Um editor vai analisar a sua correção.',
+    outlet: 'Veículo',
+    chooseOutlet: 'Escolha um veículo…',
+    wrong: 'O que está errado',
+    fields: {
+      url: 'Endereço do site',
+      paywall: 'Paywall',
+      ownership: 'Dono ou tipo de propriedade',
+      founded_year: 'Ano de fundação',
+      category: 'Categoria ou posição',
+      closed: 'O veículo fechou',
+      other: 'Outra coisa',
+    },
+    details: 'Detalhes e uma fonte',
+    detailsPlaceholder: 'O paywall passou a ter limite de leitura em 2026, veja https://…',
+    optionalEmail: 'Seu e-mail (opcional)',
+    optionalEmailHint:
+      'Só para contar o resultado. Anonimizado 24 meses depois que o pedido é encerrado.',
+    emailPlaceholder: 'voce@exemplo.com',
+    sendCorrection: 'Enviar correção',
+    suggest: 'Sugerir um veículo',
+    suggestSuccess: 'Obrigado. Um editor vai analisar a sua sugestão.',
+    outletName: 'Nome do veículo',
+    website: 'Site',
+    country: 'País',
+    chooseCountry: 'Escolha um país…',
+    category: 'Categoria',
+    email: 'Seu e-mail',
+    emailHint: 'Para tirar dúvidas sobre o veículo, se for preciso.',
+    note: 'Observação (opcional)',
+    sendSuggestion: 'Enviar sugestão',
+  },
+}[lang];
+---
+
+<BaseLayout turnstile title={c.title} description={c.description} searchable searchType="page">
+  <div class="page doc">
+    <h1>{c.title}</h1>
+    <p class="lede">{c.lede}</p>
+
+    <div class="forms">
+      <section aria-labelledby="fix">
+        <h2 id="fix">{c.fix}</h2>
+        <form
+          class="form"
+          data-api-form
+          data-endpoint="/api/corrections/"
+          data-success={c.fixSuccess}
+          data-failed={t.forms.failed}
+          data-offline={t.forms.offline}
+          data-lang={lang}
+          novalidate
+        >
+          <label class="field">
+            <span>{c.outlet}</span>
+            <select name="outlet_id" required data-prefill="outlet">
+              <option value="">{c.chooseOutlet}</option>
+              {outletOptions.map((o) => (
+                <option value={o.id}>{o.label}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="outlet_id"></span>
+          </label>
+          <label class="field">
+            <span>{c.wrong}</span>
+            <select name="field" required>
+              {Object.entries(c.fields).map(([value, label]) => (
+                <option value={value}>{label}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="field"></span>
+          </label>
+          <label class="field">
+            <span>{c.details}</span>
+            <textarea
+              name="message"
+              required
+              maxlength="2000"
+              placeholder={c.detailsPlaceholder}
+            ></textarea>
+            <span class="field-error" data-field-error="message"></span>
+          </label>
+          <label class="field">
+            <span>{c.optionalEmail}</span>
+            <span class="hint">{c.optionalEmailHint}</span>
+            <input
+              type="email"
+              name="contact_email"
+              autocomplete="email"
+              spellcheck="false"
+              placeholder={c.emailPlaceholder}
+            />
+            <span class="field-error" data-field-error="contact_email"></span>
+          </label>
+          <Turnstile />
+          <button class="submit" type="submit" data-busy={t.forms.sending}>
+            {c.sendCorrection}
+          </button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+
+      <section aria-labelledby="suggest">
+        <h2 id="suggest">{c.suggest}</h2>
+        <form
+          class="form"
+          data-api-form
+          data-endpoint="/api/submit/"
+          data-success={c.suggestSuccess}
+          data-failed={t.forms.failed}
+          data-offline={t.forms.offline}
+          data-lang={lang}
+          novalidate
+        >
+          <label class="field">
+            <span>{c.outletName}</span>
+            <input name="outlet_name" required maxlength="120" autocomplete="off" />
+            <span class="field-error" data-field-error="outlet_name"></span>
+          </label>
+          <label class="field">
+            <span>{c.website}</span>
+            <input
+              name="url"
+              type="url"
+              required
+              inputmode="url"
+              spellcheck="false"
+              autocomplete="off"
+              placeholder="https://…"
+            />
+            <span class="field-error" data-field-error="url"></span>
+          </label>
+          <label class="field">
+            <span>{c.country}</span>
+            <select name="country_iso" required data-prefill="country">
+              <option value="">{c.chooseCountry}</option>
+              {countries.map((country) => (
+                <option value={country.iso2}>{countryName(country, lang)}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="country_iso"></span>
+          </label>
+          <label class="field">
+            <span>{c.category}</span>
+            <select name="category" required data-prefill="category">
+              {CATEGORIES.map((category) => (
+                <option value={category}>{categoryLabel(category, lang)}</option>
+              ))}
+            </select>
+            <span class="field-error" data-field-error="category"></span>
+          </label>
+          <label class="field">
+            <span>{c.email}</span>
+            <span class="hint">{c.emailHint}</span>
+            <input
+              type="email"
+              name="contact_email"
+              required
+              autocomplete="email"
+              spellcheck="false"
+              placeholder={c.emailPlaceholder}
+            />
+            <span class="field-error" data-field-error="contact_email"></span>
+          </label>
+          <label class="field">
+            <span>{c.note}</span>
+            <textarea name="note" maxlength="1000"></textarea>
+          </label>
+          <Turnstile />
+          <button class="submit" type="submit" data-busy={t.forms.sending}>
+            {c.sendSuggestion}
+          </button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import '../../scripts/forms';
+  import { asSelect } from '../../scripts/slots';
+
+  // Prefill from links such as /corrections/?outlet=br-folha or ?country=BR&category=sports.
+  const params = new URLSearchParams(window.location.search);
+  for (const element of document.querySelectorAll('select[data-prefill]')) {
+    const select = asSelect(element);
+    if (!select) continue;
+    const value = params.get(select.dataset.prefill ?? '');
+    if (value && [...select.options].some((o) => o.value === value)) select.value = value;
+  }
+  if (params.has('outlet')) document.getElementById('fix')?.scrollIntoView();
+  else if (params.has('country')) document.getElementById('suggest')?.scrollIntoView();
+</script>
+
+<style>
+  .doc {
+    padding-block: var(--space-6) var(--space-7);
+  }
+
+  .lede {
+    max-width: 60ch;
+    margin-top: var(--space-2);
+    color: var(--ink-2);
+  }
+
+  .forms {
+    display: grid;
+    gap: var(--space-7);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 1024px) {
+    .forms {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  h2 {
+    margin-bottom: var(--space-4);
+  }
+</style>

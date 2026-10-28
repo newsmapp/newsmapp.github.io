@@ -8,6 +8,7 @@ import { join, relative, sep } from 'node:path';
 import { validateCatalog } from '../src/lib/catalog/validate';
 import { audit, type Page } from './seo-audit/audit';
 import { enabledLocales, loadCatalogInput } from './catalog-cli/io';
+import { localizePath, parseLangs } from '../src/lib/i18n/lang';
 
 const root = process.argv[2] ?? 'dist/client';
 const siteUrl = (process.env.SITE_URL ?? 'https://newsmap.example').replace(/\/$/, '');
@@ -30,15 +31,23 @@ const pages: Page[] = htmlFiles(root)
   .filter((file) => !file.endsWith(`${sep}404.html`))
   .map((file) => ({ path: toPath(file), html: readFileSync(file, 'utf8') }));
 
-const sitemapLocs = [
-  ...readFileSync(join(root, 'sitemap-en.xml'), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g),
-].map((m) => m[1] ?? '');
+// One sitemap per language (sitemap-en.xml, sitemap-pt.xml); the index only points at them.
+const sitemapLocs = readdirSync(root)
+  .filter((name) => /^sitemap-[a-z]{2}\.xml$/.test(name))
+  .flatMap((name) => [...readFileSync(join(root, name), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)])
+  .map((m) => m[1] ?? '');
 
 const { catalog } = validateCatalog(loadCatalogInput());
+const langs = parseLangs(enabledLocales().join(','));
 const hidden = catalog.countries.flatMap((country) =>
   (catalog.outlets.get(country.iso2) ?? [])
     .filter((o) => o.status !== 'verified')
-    .map((o) => ({ id: o.id, path: `/${country.slug}/outlet/${o.slug}/` })),
+    .flatMap((o) =>
+      langs.map((lang) => ({
+        id: o.id,
+        path: localizePath(`/${country.slug}/outlet/${o.slug}/`, lang),
+      })),
+    ),
 );
 
 const findings = audit({
@@ -48,7 +57,7 @@ const findings = audit({
   exists: (path) =>
     existsSync(join(root, path, 'index.html')) ||
     (!path.endsWith('/') && existsSync(join(root, path))),
-  locales: enabledLocales().length,
+  locales: langs.length,
   hiddenOutletIds: new Set(hidden.map((h) => h.id)),
   hiddenPaths: new Set(hidden.map((h) => h.path)),
 });

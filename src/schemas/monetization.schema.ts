@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { CATEGORIES, PAYWALLS } from './catalog.schema';
-import { httpsUrl, iso2, slug, text } from './common';
+import { LOCALES, httpsUrl, iso2, slug, text } from './common';
 
 export const AFFILIATE_CONTEXTS = ['vpn-travel', 'vpn-privacy', 'finance', 'paid-news'] as const;
 export type AffiliateContext = (typeof AFFILIATE_CONTEXTS)[number];
@@ -15,6 +15,10 @@ export const affiliateSchema = z.strictObject({
   headline: text,
   body: text,
   cta: text,
+  /** The copy in other languages; English above is the fallback. */
+  translations: z
+    .partialRecord(z.enum(LOCALES), z.strictObject({ headline: text, body: text, cta: text }))
+    .optional(),
   active: z.boolean(),
 });
 

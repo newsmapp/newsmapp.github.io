@@ -74,7 +74,7 @@ Git is the CMS: every outlet and country is a JSON file in `data/`, validated by
 ## Countries and locales
 
 - New country: add `data/countries/<iso2>.json` (copy an existing one; `published: false`, `press_freedom: null` until you fill it) and an empty `data/outlets/<iso2>.json` (`[]`), then follow the catalog flow above. `pnpm catalog:validate` lists any missing field. The launch list is `data/launch-countries.json`.
-- New locale (`pt`, `es`, `fr`, `de`): v1.0 is English only, and the localized routes under `/<locale>/…` are on the post-launch roadmap (SPEC §4); they are not built yet. What already exists: `ENABLED_LOCALES` (comma-separated, `en` first) makes `catalog:validate` require `name.<locale>` and `seo_context.<locale>` for every country and `pitch.<locale>` for every outlet, and the `hreflang` generator (`src/lib/seo/hreflang.ts`) emits alternates with `x-default` → English once more than one locale is enabled. So translate first, then enable the locale together with the routes. See `docs/SEO_PLAYBOOK.md`.
+- Languages: English at the root and Brazilian Portuguese under `/pt/` (`ENABLED_LOCALES=en,pt`). Interface copy lives in `src/lib/i18n/` (`ui.ts`, `labels.ts`), catalog copy in each country's `name`/`seo_context` and each outlet's `pitch`; `catalog:validate` fails on any missing translation for an enabled locale. Pages live under `src/pages/[...lang]/` and are built once per language. Adding `es`, `fr` or `de` follows the same path; see `docs/SEO_PLAYBOOK.md`.
 
 ## Before launch: your decisions
 

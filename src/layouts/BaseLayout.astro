@@ -9,8 +9,8 @@ import CommandPalette from '../components/CommandPalette';
 import { buildMeta } from '../lib/seo/meta';
 import { hreflangAlternates } from '../lib/seo/hreflang';
 import { serializeJsonLd } from '../lib/seo/jsonld';
-import { ENABLED_LOCALES } from 'astro:env/server';
-import type { Locale } from '../schemas/common';
+import { LANG_META, stripLang } from '../lib/i18n/lang';
+import { i18n, siteLangs } from '../data/i18n';
 
 interface Props {
   title: string | readonly string[];
@@ -43,6 +43,7 @@ if (turnstile) {
   Astro.csp?.insertScriptResource('https://challenges.cloudflare.com');
   Astro.csp?.insertDirective('frame-src https://challenges.cloudflare.com');
 }
+const { lang, t, paths } = i18n(Astro.url);
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const meta = buildMeta({
   title,
@@ -50,17 +51,17 @@ const meta = buildMeta({
   path: Astro.url.pathname,
   siteUrl,
   noindex,
+  locale: LANG_META[lang].og,
   ...(type ? { type } : {}),
 });
-const alternates = hreflangAlternates(
-  Astro.url.pathname,
-  ENABLED_LOCALES.split(',').map((l) => l.trim()) as Locale[],
-  siteUrl,
-);
+// Every indexable page exists in every site language; noindex pages carry no alternates.
+const alternates = noindex
+  ? []
+  : hreflangAlternates(stripLang(Astro.url.pathname), siteLangs, siteUrl);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={LANG_META[lang].tag}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -106,15 +107,15 @@ const alternates = hreflangAlternates(
   </head>
   <body>
     <a class="skip" href="#main">
-      Skip to content
+      {t.skip}
     </a>
-    <Header search={Astro.url.pathname !== '/'} />
+    <Header search={Astro.url.pathname !== paths.home} />
     <main id="main" tabindex="-1" {...(searchable ? { 'data-pagefind-body': '' } : {})}>
       {searchType && <meta data-pagefind-filter="type[content]" content={searchType} />}
       <slot />
     </main>
     <Footer />
-    <CommandPalette client:idle />
+    <CommandPalette client:idle labels={t.palette} />
     <script>
       import '../scripts/track';
     </script>

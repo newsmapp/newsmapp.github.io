@@ -1,20 +1,25 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import CountryBox from '../components/CountryBox.astro';
-import Icon from '../components/Icon.astro';
-import { CONTINENT_LABELS, countries, hubs, paths } from '../data/catalog';
-import { CONTINENTS } from '../schemas/common';
-import { CATEGORIES } from '../schemas/catalog.schema';
-import { CATEGORY_ICON, CATEGORY_SHORT, plural } from '../lib/format';
-import type { IconName } from '../components/Icon.astro';
-import { organization, website } from '../lib/seo/jsonld';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CountryBox from '../../components/CountryBox.astro';
+import Icon from '../../components/Icon.astro';
+import { countries, hubs, sortedCountries } from '../../data/catalog';
+import { forEachLang, i18n } from '../../data/i18n';
+import { CONTINENTS } from '../../schemas/common';
+import { CATEGORIES } from '../../schemas/catalog.schema';
+import { CATEGORY_ICON } from '../../lib/format';
+import type { IconName } from '../../components/Icon.astro';
+import { organization, website } from '../../lib/seo/jsonld';
 
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang, t, l, paths } = i18n(Astro.url);
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const outletCount = countries.reduce((n, c) => n + c.outlets.length, 0);
 // Primary continent only, so transcontinental countries are listed once.
+const sorted = sortedCountries(lang);
 const groups = CONTINENTS.map((continent) => ({
   continent,
-  countries: countries.filter((c) => c.continent === continent),
+  countries: sorted.filter((c) => c.continent === continent),
 })).filter((g) => g.countries.length > 0);
 // Topics any published country covers, with how many outlets each has across the catalog.
 const topics = CATEGORIES.map((category) => ({
@@ -26,51 +31,49 @@ const topics = CATEGORIES.map((category) => ({
 })).filter((t) => t.count > 0);
 const description =
   countries.length > 0
-    ? `${outletCount} newspapers, broadcasters and news sites from ${countries.length} countries, ranked by editors. Paywall and owner are marked on every outlet.`
-    : 'A directory of newspapers, broadcasters and news sites by country, sorted by topic, with paywall and ownership shown for each outlet.';
+    ? t.home.description(outletCount, countries.length)
+    : t.home.emptyDescription;
 ---
 
 <BaseLayout
-  title="Newspapers and news sites by country, ranked by editors"
+  title={t.home.title}
   description={description}
   jsonld={[website(siteUrl), organization(siteUrl)]}
   prose={false}
 >
   <div class="page">
     <section class="intro">
-      <h1>Pick a country. Read its press.</h1>
+      <h1>{t.home.heading}</h1>
       <p class="lede">
-        {countries.length > 0
-          ? `${plural(outletCount, 'newspaper, broadcaster and news site', 'newspapers, broadcasters and news sites')} from ${plural(countries.length, 'country', 'countries')}, ranked by our editors. Paywall and owner are marked on every one.`
-          : 'Country pages are being reviewed and will appear here once their outlets are verified.'}
+        {countries.length > 0 ? t.home.lede(outletCount, countries.length) : t.home.empty}
       </p>
       <button class="find" type="button" data-open-search>
         <Icon name="search" size={18} />
-        <span>Find a country or outlet</span>
+        <span>{t.home.find}</span>
         <kbd class="data">⌘&nbsp;K</kbd>
       </button>
       {topics.length > 1 && (
-        <div class="topics" role="group" aria-label="Show outlets by topic" data-topics>
+        <div class="topics" role="group" aria-label={t.home.topics} data-topics>
           <button type="button" aria-pressed="true" data-topic="all">
             <Icon name="list" size={16} />
-            All topics
+            {t.home.allTopics}
           </button>
-          {topics.map((t) => (
-            <button type="button" aria-pressed="false" data-topic={t.category}>
-              <Icon name={CATEGORY_ICON[t.category] as IconName} size={16} />
-              {CATEGORY_SHORT[t.category]}
-              <span class="data">{t.count}</span>
+          {topics.map((topic) => (
+            <button type="button" aria-pressed="false" data-topic={topic.category}>
+              <Icon name={CATEGORY_ICON[topic.category] as IconName} size={16} />
+              {l.categoryShort[topic.category]}
+              <span class="data">{topic.count}</span>
             </button>
           ))}
         </div>
       )}
       {groups.length > 1 && (
-        <nav class="jump" aria-label="Continents">
+        <nav class="jump" aria-label={t.home.continents}>
           <ul>
             {groups.map((group) => (
               <li>
                 <a href={`#c-${group.continent}`}>
-                  {CONTINENT_LABELS[group.continent]}
+                  {l.continent[group.continent]}
                   <span class="data">{group.countries.length}</span>
                 </a>
               </li>
@@ -89,9 +92,9 @@ const description =
         <div class="continent-head">
           <h2 id={`c-${group.continent}`}>
             {hubs.has(group.continent) ? (
-              <a href={paths.continent(group.continent)}>{CONTINENT_LABELS[group.continent]}</a>
+              <a href={paths.continent(group.continent)}>{l.continent[group.continent]}</a>
             ) : (
-              CONTINENT_LABELS[group.continent]
+              l.continent[group.continent]
             )}
           </h2>
           {/* Shown by the script: without it every continent stays open. */}
@@ -101,12 +104,14 @@ const description =
             aria-expanded="true"
             aria-controls={`boxes-${group.continent}`}
             data-collapse
+            data-hide={t.home.hide}
+            data-show={t.home.show}
             hidden
           >
             <Icon name="chevron-down" size={16} />
-            <span data-collapse-label>Hide</span>
-            <span class="data">{plural(group.countries.length, 'country', 'countries')}</span>
-            <span class="visually-hidden">in {CONTINENT_LABELS[group.continent]}</span>
+            <span data-collapse-label>{t.home.hide}</span>
+            <span class="data">{t.countries(group.countries.length)}</span>
+            <span class="visually-hidden">{t.home.inContinent(l.continent[group.continent])}</span>
           </button>
         </div>
         <div class="boxes" id={`boxes-${group.continent}`}>
@@ -118,8 +123,7 @@ const description =
     ))}
 
     <p class="note">
-      New countries are added once at least 15 of their outlets are verified.{' '}
-      <a href="/methodology/">Read how we verify outlets</a>.
+      {t.home.note} <a href={paths.page('/methodology/')}>{t.home.noteLink}</a>.
     </p>
   </div>
 </BaseLayout>
@@ -168,7 +172,7 @@ const description =
     const boxes = document.getElementById(button.getAttribute('aria-controls') ?? '');
     const label = button.querySelector('[data-collapse-label]');
     if (boxes) boxes.hidden = !open;
-    if (label) label.textContent = open ? 'Hide' : 'Show';
+    if (label) label.textContent = (open ? button.dataset.hide : button.dataset.show) ?? '';
     button.setAttribute('aria-expanded', String(open));
   };
   const save = () => {

@@ -25,10 +25,10 @@ Rules:
 - Meta description 110–160 characters stating what the page lets the reader do (compare by paywall, ownership, format).
 - The SEO audit enforces both.
 
-## Internationalization (future)
+## Internationalization
 
-- v1.0: English at the root. `ENABLED_LOCALES=en`; no `hreflang` emitted.
-- Adding a locale (post-launch, SPEC §4): first add `name.[locale]` and `seo_context.[locale]` to every country and `pitch.[locale]` to every outlet; with the locale in `ENABLED_LOCALES`, `catalog:validate` fails on any missing one. The `/[locale]/…` routes are not built yet and ship together with enabling the locale; `hreflang` is emitted from then on.
+- English at the root, Brazilian Portuguese under `/pt/` with the same English slugs (`/pt/brazil/sports/`). `ENABLED_LOCALES=en,pt`; every indexable page emits `hreflang` for `en`, `pt-BR` and `x-default` → English, and each language has its own sitemap (`sitemap-en.xml`, `sitemap-pt.xml`).
+- Adding another locale (`es`, `fr`, `de`): add it to `LANGS` (`src/lib/i18n/lang.ts`) with its interface copy (`ui.ts`, `labels.ts`); add `name.[locale]` and `seo_context.[locale]` to every country and `pitch.[locale]` to every outlet; with the locale in `ENABLED_LOCALES`, `catalog:validate` fails on any missing one. Routes under `src/pages/[...lang]/` pick it up from `ENABLED_LOCALES`.
 - Matrix when more than one locale is enabled: every page lists all its available locale variants plus `x-default` → English, reciprocally. The audit checks reciprocity.
 
 ## Internal linking

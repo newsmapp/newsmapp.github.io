@@ -1,74 +1,72 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import AffiliateCard from '../../../components/AffiliateCard.astro';
-import CategoryColumnCard from '../../../components/CategoryColumnCard.astro';
-import type { PublicCountry } from '../../../lib/catalog/public';
-import type { Category } from '../../../schemas/catalog.schema';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import AffiliateCard from '../../../../components/AffiliateCard.astro';
+import CategoryColumnCard from '../../../../components/CategoryColumnCard.astro';
+import type { PublicCountry } from '../../../../lib/catalog/public';
+import type { Category } from '../../../../schemas/catalog.schema';
 import {
-  CONTINENT_LABELS,
-  LOCALE,
   categoryLabel,
   categoryPages,
   countries,
   countriesIn,
   countryName,
+  countryPlace,
   hubs,
   outletsFor,
-  paths,
-} from '../../../data/catalog';
-import { affiliates, sponsorshipsFor } from '../../../data/monetization';
-import { selectAffiliate } from '../../../lib/monetization/affiliates';
-import { OWNERSHIP_LABEL, PAYWALL_TAG } from '../../../lib/format';
-import { breadcrumbList, itemList } from '../../../lib/seo/jsonld';
+} from '../../../../data/catalog';
+import { forEachLang, i18n } from '../../../../data/i18n';
+import type { Lang } from '../../../../lib/i18n/lang';
+import { affiliates, sponsorshipsFor } from '../../../../data/monetization';
+import { selectAffiliate } from '../../../../lib/monetization/affiliates';
+import { breadcrumbList, itemList } from '../../../../lib/seo/jsonld';
 
-export function getStaticPaths() {
-  return countries.flatMap((country) =>
-    categoryPages(country).map((category) => ({
-      params: { country: country.slug, category },
-      props: { country, category },
-    })),
+export const getStaticPaths = () =>
+  forEachLang((lang) =>
+    countries.flatMap((country) =>
+      categoryPages(country, lang).map((category) => ({
+        params: { country: country.slug, category },
+        props: { country, category },
+      })),
+    ),
   );
-}
 
 interface Props {
   country: PublicCountry;
   category: Category;
+  lang: Lang;
 }
 
-const { country, category } = Astro.props;
-const name = countryName(country);
-const label = categoryLabel(category);
+const { country, category, lang } = Astro.props;
+const { t, l, paths } = i18n(Astro.url);
+const where = countryPlace(country, lang);
+const name = where.name;
+const label = categoryLabel(category, lang);
 const outlets = outletsFor(country, category);
-const intro = country.seo_context[LOCALE]?.categories[category]?.intro ?? '';
+const intro = country.seo_context[lang]?.categories[category]?.intro ?? '';
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const affiliate = selectAffiliate(affiliates, { kind: 'category', category });
 // The same category in other countries of the continent, for internal linking.
 const elsewhere = countriesIn(country.continent)
-  .filter((c) => c.iso2 !== country.iso2 && categoryPages(c).includes(category))
+  .filter((c) => c.iso2 !== country.iso2 && categoryPages(c, lang).includes(category))
   .slice(0, 8);
 const crumbs = [
-  { label: 'Home', href: paths.home },
+  { label: t.crumbs.home, href: paths.home },
   ...(hubs.has(country.continent)
-    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    ? [{ label: l.continent[country.continent], href: paths.continent(country.continent) }]
     : []),
   { label: name, href: paths.country(country) },
   { label, href: paths.category(country, category) },
 ];
-const lower = label.charAt(0).toLowerCase() + label.slice(1);
 ---
 
 <BaseLayout
-  title={[
-    `${label} in ${name}: ${outlets.length} outlets compared`,
-    `${label} in ${name}: ${outlets.length} outlets`,
-    `${label} in ${name}`,
-  ]}
-  description={`${outlets.length} ${lower} outlets in ${name} compared by founding year, owner, paywall and ownership type, in editorial order.`}
+  title={t.category.titles(label, where, outlets.length)}
+  description={t.category.description(label, where, outlets.length)}
   jsonld={[
     breadcrumbList(siteUrl, crumbs),
     itemList(
-      `${label} in ${name}`,
+      t.category.heading(label, where),
       outlets.map((o) => ({
         name: o.name,
         url: new URL(paths.outlet(country, o), siteUrl).toString(),
@@ -81,9 +79,7 @@ const lower = label.charAt(0).toLowerCase() + label.slice(1);
   <div class="page">
     <div class="intro">
       <Breadcrumbs items={crumbs} />
-      <h1>
-        {label} in {name}
-      </h1>
+      <h1>{t.category.heading(label, where)}</h1>
       <p class="prose">{intro}</p>
     </div>
 
@@ -91,17 +87,15 @@ const lower = label.charAt(0).toLowerCase() + label.slice(1);
       <div class="main">
         <div class="table-wrap">
           <table>
-            <caption class="visually-hidden">
-              {label}in{name}, compared
-            </caption>
+            <caption class="visually-hidden">{t.category.caption(label, where)}</caption>
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Outlet</th>
-                <th scope="col">Founded</th>
-                <th scope="col">Owner</th>
-                <th scope="col">Access</th>
-                <th scope="col">Ownership</th>
+                <th scope="col">{t.category.outlet}</th>
+                <th scope="col">{t.category.founded}</th>
+                <th scope="col">{t.category.owner}</th>
+                <th scope="col">{t.category.access}</th>
+                <th scope="col">{t.category.ownership}</th>
                 <th scope="col">RSS</th>
               </tr>
             </thead>
@@ -112,17 +106,17 @@ const lower = label.charAt(0).toLowerCase() + label.slice(1);
                   <th scope="row">
                     <a href={paths.outlet(country, outlet)}>{outlet.name}</a>
                   </th>
-                  <td class="num">{outlet.founded_year ?? 'Unknown'}</td>
-                  <td>{outlet.owner ?? 'Unknown'}</td>
-                  <td>{PAYWALL_TAG[outlet.paywall]}</td>
-                  <td>{OWNERSHIP_LABEL[outlet.ownership_type]}</td>
+                  <td class="num">{outlet.founded_year ?? t.category.unknown}</td>
+                  <td>{outlet.owner ?? t.category.unknown}</td>
+                  <td>{l.paywallTag[outlet.paywall]}</td>
+                  <td>{l.ownership[outlet.ownership_type]}</td>
                   <td>
                     {outlet.rss_url ? (
                       <a href={outlet.rss_url} rel="noopener">
-                        Feed
+                        {t.category.feed}
                       </a>
                     ) : (
-                      'None'
+                      t.category.none
                     )}
                   </td>
                 </tr>
@@ -143,20 +137,18 @@ const lower = label.charAt(0).toLowerCase() + label.slice(1);
         {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
         {elsewhere.length > 0 && (
           <section aria-labelledby="elsewhere">
-            <h2 id="elsewhere">
-              {label} elsewhere in {CONTINENT_LABELS[country.continent]}
-            </h2>
+            <h2 id="elsewhere">{t.category.elsewhere(label, l.continent[country.continent])}</h2>
             <ul class="links">
               {elsewhere.map((c) => (
                 <li>
-                  <a href={paths.category(c, category)}>{countryName(c)}</a>
+                  <a href={paths.category(c, category)}>{countryName(c, lang)}</a>
                 </li>
               ))}
             </ul>
           </section>
         )}
         <p class="back">
-          <a href={paths.country(country)}>All categories in {name}</a>
+          <a href={paths.country(country)}>{t.category.back(where)}</a>
         </p>
       </aside>
     </div>

@@ -1,7 +1,7 @@
 ---
 import type { PublicCountry } from '../lib/catalog/public';
-import { countryName, paths } from '../data/catalog';
-import { plural } from '../lib/format';
+import { countryName } from '../data/catalog';
+import { i18n } from '../data/i18n';
 
 interface Props {
   countries: PublicCountry[];
@@ -10,6 +10,7 @@ interface Props {
 }
 
 const { countries, counts = true } = Astro.props;
+const { lang, t, paths } = i18n(Astro.url);
 ---
 
 <ul class="countries">
@@ -24,8 +25,8 @@ const { countries, counts = true } = Astro.props;
           loading="lazy"
           decoding="async"
         />
-        <span class="name">{countryName(country)}</span>
-        {counts && <span class="count data">{plural(country.outlets.length, 'outlet')}</span>}
+        <span class="name">{countryName(country, lang)}</span>
+        {counts && <span class="count data">{t.outlets(country.outlets.length)}</span>}
       </a>
     </li>
   ))}

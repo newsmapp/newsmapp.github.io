@@ -43,7 +43,7 @@ describe('catalog thresholds', () => {
       `${THRESHOLDS.countryMinOutlets} more verified outlets`,
       `${THRESHOLDS.countryMinCategories} more categories with verified outlets`,
       'seo_context.en review',
-      'seo_context.pt',
+      'seo_context.pt review',
     ]);
   });
 
@@ -52,7 +52,9 @@ describe('catalog thresholds', () => {
     expect(categoryPageEligible(pt, ptOutlets, 'economy', 'en')).toBe(true);
     // Enough outlets? No (4). Intro? No.
     expect(categoryPageEligible(pt, ptOutlets, 'sports', 'en')).toBe(false);
-    expect(categoryPageEligible(pt, ptOutlets, 'general-news', 'pt')).toBe(false);
+    expect(categoryPageEligible(pt, ptOutlets, 'general-news', 'pt')).toBe(true);
+    // No Spanish intro.
+    expect(categoryPageEligible(pt, ptOutlets, 'general-news', 'es')).toBe(false);
   });
 
   it('moves thin categories into the "More outlets" card', () => {

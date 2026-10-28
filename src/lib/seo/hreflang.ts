@@ -1,4 +1,4 @@
-import type { Locale } from '../../schemas/common';
+import { DEFAULT_LANG, LANG_META, localizePath, type Lang } from '../i18n/lang';
 import { absoluteUrl } from './meta';
 
 export interface Alternate {
@@ -6,29 +6,22 @@ export interface Alternate {
   href: string;
 }
 
-const DEFAULT_LOCALE: Locale = 'en';
-
-/** Path of a page in a locale: the default locale lives at the root, others under /<locale>/. */
-export function localizedPath(path: string, locale: Locale): string {
-  return locale === DEFAULT_LOCALE ? path : `/${locale}${path}`;
-}
-
 /**
- * hreflang alternates for a page available in `locales`. Emits nothing while only one locale
- * is enabled, so the v1.0 site carries no hreflang at all.
+ * hreflang alternates for a page available in `langs`, given its English path. Emits nothing
+ * while only one language is enabled.
  */
 export function hreflangAlternates(
   path: string,
-  locales: readonly Locale[],
+  langs: readonly Lang[],
   siteUrl: string,
 ): Alternate[] {
-  if (locales.length <= 1) return [];
-  const alternates = locales.map((locale) => ({
-    hreflang: locale,
-    href: absoluteUrl(siteUrl, localizedPath(path, locale)),
+  if (langs.length <= 1) return [];
+  const alternates = langs.map((lang) => ({
+    hreflang: LANG_META[lang].tag,
+    href: absoluteUrl(siteUrl, localizePath(path, lang)),
   }));
   return [
     ...alternates,
-    { hreflang: 'x-default', href: absoluteUrl(siteUrl, localizedPath(path, DEFAULT_LOCALE)) },
+    { hreflang: 'x-default', href: absoluteUrl(siteUrl, localizePath(path, DEFAULT_LANG)) },
   ];
 }

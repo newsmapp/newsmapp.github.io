@@ -1,0 +1,90 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { countries } from '../../data/catalog';
+import { forEachLang, i18n } from '../../data/i18n';
+import { formatNumber } from '../../lib/format';
+import site from '../../../data/site.json';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang, paths } = i18n(Astro.url);
+const outlets = countries.reduce((n, c) => n + c.outlets.length, 0);
+const mail = `mailto:${site.contact_email}`;
+---
+
+{lang === 'pt' ? (
+  <ProseLayout
+    title="Sobre o diretório mundial de notícias"
+    description="O NewsMapp é um diretório dos jornais, emissoras e sites de notícias de cada país, com o paywall e a propriedade de cada veículo."
+    heading="Sobre o NewsMapp"
+  >
+    <p>
+      O NewsMapp reúne num só lugar as principais fontes de notícias de cada país, organizadas em
+      oito categorias, das notícias nacionais aos jornais regionais. Para cada veículo, mostra se dá
+      para ler de graça, quem é o dono e se é um jornal, uma emissora ou uma redação digital.
+    </p>
+    {countries.length > 0 && (
+      <p>
+        O diretório cobre hoje {formatNumber(countries.length, lang)} países e{' '}
+        {formatNumber(outlets, lang)} veículos. Cada item foi conferido por uma pessoa antes de ser
+        publicado.
+      </p>
+    )}
+    <h2>Para quem é</h2>
+    <p>
+      Para quem mora fora e quer notícias de casa, estudantes e pesquisadores que comparam sistemas
+      de mídia, viajantes e qualquer pessoa que queira saber de onde vem o jornalismo de um país
+      antes de escolher o que ler.
+    </p>
+    <h2>Como é financiado</h2>
+    <p>
+      O NewsMapp é pago por destaques patrocinados, que são identificados e ficam separados da
+      classificação editorial, e por ofertas de parceiros, informadas onde aparecem. A ordem dos
+      veículos nunca está à venda. Os detalhes estão na nossa página de{' '}
+      <a href={paths.page('/disclosures/')}>transparência</a> e na{' '}
+      <a href={paths.page('/methodology/')}>metodologia</a>.
+    </p>
+    <h2>Contato</h2>
+    <p>
+      Escreva para <a href={mail}>{site.contact_email}</a>. Para corrigir um item, use o{' '}
+      <a href={paths.page('/corrections/')}>formulário de correção</a>.
+    </p>
+  </ProseLayout>
+) : (
+  <ProseLayout
+    title="About the world news directory"
+    description="NewsMapp is a directory of each country's newspapers, broadcasters and news sites, with paywall and ownership shown for every outlet."
+    heading="About NewsMapp"
+  >
+    <p>
+      NewsMapp lists the main news sources of each country in one place, sorted into eight
+      categories, from national news to regional papers. For every outlet it shows whether you can
+      read it for free, who owns it and whether it is a newspaper, a broadcaster or a digital
+      newsroom.
+    </p>
+    {countries.length > 0 && (
+      <p>
+        The directory currently covers {countries.length} countries and {outlets} outlets. Every
+        listing was checked by a person before it was published.
+      </p>
+    )}
+    <h2>Who it is for</h2>
+    <p>
+      People living abroad who want news from home, students and researchers comparing media
+      systems, travelers, and anyone who wants to know where a country's journalism comes from
+      before choosing what to read.
+    </p>
+    <h2>How it is funded</h2>
+    <p>
+      NewsMapp is paid for by sponsored listings, which are labeled and kept apart from the
+      editorial ranking, and by partner offers, which are disclosed where they appear. Rankings are
+      never for sale. The details are in our <a href="/disclosures/">disclosures</a> and{' '}
+      <a href="/methodology/">methodology</a>.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      Write to <a href={mail}>{site.contact_email}</a>. To fix a listing, use the{' '}
+      <a href="/corrections/">correction form</a>.
+    </p>
+  </ProseLayout>
+)}

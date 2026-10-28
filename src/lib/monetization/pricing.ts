@@ -1,5 +1,6 @@
 import type { z } from 'zod';
 import type { Plan, pricingFileSchema } from '../../schemas/monetization.schema';
+import { LANG_META, type Lang } from '../i18n/lang';
 
 export type Pricing = z.infer<typeof pricingFileSchema>;
 export type Tier = Pricing['tiers'][number];
@@ -20,8 +21,8 @@ export const priceFor = (pricing: Pricing, iso2: string, plan: Plan): number =>
 export const yearlySavingMonths = (tier: Tier): number =>
   Math.floor((tier.monthly * 12 - tier.yearly) / tier.monthly);
 
-export const formatUsd = (value: number): string =>
-  new Intl.NumberFormat('en-US', {
+export const formatUsd = (value: number, lang: Lang = 'en'): string =>
+  new Intl.NumberFormat(LANG_META[lang].intl, {
     style: 'currency',
     currency: 'USD',
     maximumFractionDigits: 0,
@@ -37,20 +38,28 @@ export interface PriceRow {
  * The default tier also covers every country not listed, so it says so; tiers with no
  * published country are left out.
  */
+/** How the default tier's row is worded. */
+export interface OthersWording {
+  all: string;
+  and: (listed: string) => string;
+}
+
+const OTHERS_EN: OthersWording = {
+  all: 'All other countries',
+  and: (listed) => `${listed} and all other countries`,
+};
+
 export function priceRows(
   pricing: Pricing,
   nameOf: (iso2: string) => string | undefined,
+  others: OthersWording = OTHERS_EN,
 ): PriceRow[] {
   return pricing.tiers.flatMap((tier) => {
     const names = tier.countries.flatMap((iso) => nameOf(iso) ?? []);
     const isDefault = tier.tier === pricing.default_tier;
     if (names.length === 0 && !isDefault) return [];
     const listed = names.join(', ');
-    const label = isDefault
-      ? listed
-        ? `${listed} and all other countries`
-        : 'All other countries'
-      : listed;
+    const label = isDefault ? (listed ? others.and(listed) : others.all) : listed;
     return [{ tier, label }];
   });
 }

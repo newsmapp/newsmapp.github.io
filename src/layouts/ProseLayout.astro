@@ -1,5 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { LANG_META } from '../lib/i18n/lang';
+import { i18n } from '../data/i18n';
 
 interface Props {
   title: string;
@@ -8,11 +10,14 @@ interface Props {
   updated?: string;
   /** Utility pages (thank-you, confirmations) stay out of search engines and site search. */
   noindex?: boolean;
+  /** Translated policies say that the English text prevails. */
+  legal?: boolean;
 }
 
-const { title, description, heading, updated, noindex = false } = Astro.props;
+const { title, description, heading, updated, noindex = false, legal = false } = Astro.props;
+const { lang, t } = i18n(Astro.url);
 const updatedLabel = updated
-  ? new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(
+  ? new Intl.DateTimeFormat(LANG_META[lang].intl, { dateStyle: 'long', timeZone: 'UTC' }).format(
       new Date(updated),
     )
   : null;
@@ -31,9 +36,10 @@ const updatedLabel = updated
       <h1>{heading}</h1>
       {updatedLabel && (
         <p class="updated">
-          Last updated <time datetime={updated}>{updatedLabel}</time>
+          {t.prose.updated} <time datetime={updated}>{updatedLabel}</time>
         </p>
       )}
+      {legal && t.prose.translation && <p class="updated">{t.prose.translation}</p>}
     </header>
     <div class="prose body">
       <slot />

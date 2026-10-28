@@ -3,7 +3,8 @@
   "iso3": "FRA",
   "slug": "france",
   "name": {
-    "en": "France"
+    "en": "France",
+    "pt": "França"
   },
   "continent": "europe",
   "also_in": [],
@@ -12,7 +13,9 @@
     "year": 2024,
     "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
   },
-  "official_languages": ["fr"],
+  "official_languages": [
+    "fr"
+  ],
   "press_freedom": {
     "rank": 10,
     "status": "good",
@@ -20,7 +23,17 @@
     "source": "RSF World Press Freedom Index",
     "source_url": "https://rsf.org/en/index"
   },
-  "neighbors": ["BE", "LU", "DE", "CH", "IT", "ES", "MC", "AD", "GB"],
+  "neighbors": [
+    "BE",
+    "LU",
+    "DE",
+    "CH",
+    "IT",
+    "ES",
+    "MC",
+    "AD",
+    "GB"
+  ],
   "published": true,
   "seo_context": {
     "en": {
@@ -41,6 +54,29 @@
         },
         "economy": {
           "intro": "Fixture intro for business news in France."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    },
+    "pt": {
+      "summary": "Resumo fictício do panorama da mídia (França), usado apenas pelos testes automatizados do diretório.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias (França)?",
+          "a": "O fixture lista primeiro o France Morning Ledger."
+        },
+        {
+          "q": "Quais sites de notícias (França) são gratuitos?",
+          "a": "Vários veículos do fixture são de leitura gratuita."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Introdução do fixture para notícias nacionais (França)."
+        },
+        "economy": {
+          "intro": "Introdução do fixture para negócios (França)."
         }
       },
       "reviewed": true,

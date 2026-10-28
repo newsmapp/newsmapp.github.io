@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { absoluteUrl, buildMeta, clamp, fitTitle } from '@/lib/seo/meta';
-import { hreflangAlternates, localizedPath } from '@/lib/seo/hreflang';
+import { hreflangAlternates } from '@/lib/seo/hreflang';
+import { localizePath } from '@/lib/i18n/lang';
 import {
   breadcrumbList,
   faqPage,
@@ -59,14 +60,15 @@ describe('fitTitle', () => {
 
 describe('hreflang', () => {
   it('keeps the default locale at the root', () => {
-    expect(localizedPath('/brazil/', 'en')).toBe('/brazil/');
-    expect(localizedPath('/brazil/', 'pt')).toBe('/pt/brazil/');
+    expect(localizePath('/brazil/', 'en')).toBe('/brazil/');
+    expect(localizePath('/brazil/', 'pt')).toBe('/pt/brazil/');
   });
 
   it('emits nothing for a single locale and x-default otherwise', () => {
     expect(hreflangAlternates('/brazil/', ['en'], SITE)).toEqual([]);
     const alternates = hreflangAlternates('/brazil/', ['en', 'pt'], SITE);
-    expect(alternates.map((a) => a.hreflang)).toEqual(['en', 'pt', 'x-default']);
+    expect(alternates.map((a) => a.hreflang)).toEqual(['en', 'pt-BR', 'x-default']);
+    expect(alternates[1]?.href).toBe('https://newsmap.example/pt/brazil/');
     expect(alternates.at(-1)?.href).toBe('https://newsmap.example/brazil/');
   });
 });

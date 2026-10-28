@@ -1,0 +1,105 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { forEachLang, i18n } from '../../data/i18n';
+import site from '../../../data/site.json';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang, paths } = i18n(Astro.url);
+---
+
+{lang === 'pt' ? (
+  <ProseLayout
+    title="Termos de uso para leitores e patrocinadores"
+    description="Os termos para ler o NewsMapp, sugerir veículos e comprar um destaque patrocinado, incluindo revisão editorial, reembolsos e cancelamento."
+    heading="Termos de uso"
+    updated="2026-10-27"
+    legal
+  >
+    <h2>Uso do diretório</h2>
+    <ul>
+      <li>
+        O NewsMapp aponta para veículos que não controla. O conteúdo, os paywalls e os termos deles
+        são de responsabilidade de cada um.
+      </li>
+      <li>
+        Conferimos os itens com cuidado, mas não podemos garantir que todos os dados estejam
+        atualizados. Informe erros pelo{' '}
+        <a href={paths.page('/corrections/')}>formulário de correção</a>.
+      </li>
+      <li>
+        Você pode linkar qualquer página e citar trechos curtos com atribuição. Não é permitido
+        copiar o diretório em massa.
+      </li>
+    </ul>
+
+    <h2>Destaques patrocinados</h2>
+    <ul>
+      <li>
+        Um destaque patrocinado é uma assinatura mensal ou anual de uma vaga em uma categoria de um
+        país, paga pela LemonSqueezy.
+      </li>
+      <li>
+        Toda compra é revisada. Se recusarmos um destaque, o pagamento é reembolsado integralmente.
+      </li>
+      <li>
+        Você pode cancelar a qualquer momento; o destaque fica no ar até o fim do período pago.
+      </li>
+      <li>
+        Um destaque patrocinado nunca muda a posição editorial de um veículo, e podemos remover um
+        destaque que engane os leitores, com reembolso do período não usado.
+      </li>
+    </ul>
+
+    <h2>Contato</h2>
+    <p>
+      {site.legal_name}, <a href={`mailto:${site.contact_email}`}>{site.contact_email}</a>. Estes
+      termos são regidos pela lei de {site.jurisdiction}.
+    </p>
+  </ProseLayout>
+) : (
+  <ProseLayout
+    title="Terms of use for readers and sponsors"
+    description="The terms for reading NewsMapp, suggesting outlets and buying a sponsored listing, including editorial review, refunds and cancellation."
+    heading="Terms of use"
+    updated="2026-10-27"
+  >
+    <h2>Using the directory</h2>
+    <ul>
+      <li>
+        NewsMapp links to outlets it does not control. Their content, paywalls and terms are their
+        own.
+      </li>
+      <li>
+        We check listings carefully but cannot guarantee that every fact is current. Report errors
+        through the <a href="/corrections/">correction form</a>.
+      </li>
+      <li>
+        You may link to any page and quote short parts with attribution. Copying the directory in
+        bulk is not allowed.
+      </li>
+    </ul>
+
+    <h2>Sponsored listings</h2>
+    <ul>
+      <li>
+        A sponsored listing is a monthly or yearly subscription for one place in one category of one
+        country, paid through LemonSqueezy.
+      </li>
+      <li>Every purchase is reviewed. If we decline a listing, the payment is refunded in full.</li>
+      <li>
+        You can cancel at any time; the listing stays until the end of the period you paid for.
+      </li>
+      <li>
+        A sponsored listing never changes an outlet's editorial position, and we may remove a
+        listing that misleads readers, with a refund for the unused period.
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      {site.legal_name}, <a href={`mailto:${site.contact_email}`}>{site.contact_email}</a>. These
+      terms are governed by the law of {site.jurisdiction}.
+    </p>
+  </ProseLayout>
+)}

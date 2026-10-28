@@ -3,7 +3,8 @@
   "iso3": "ITA",
   "slug": "italy",
   "name": {
-    "en": "Italy"
+    "en": "Italy",
+    "pt": "Itália"
   },
   "continent": "europe",
   "also_in": [],
@@ -12,7 +13,9 @@
     "year": 2024,
     "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
   },
-  "official_languages": ["it"],
+  "official_languages": [
+    "it"
+  ],
   "press_freedom": {
     "rank": 10,
     "status": "good",
@@ -20,7 +23,15 @@
     "source": "RSF World Press Freedom Index",
     "source_url": "https://rsf.org/en/index"
   },
-  "neighbors": ["FR", "CH", "AT", "SI", "SM", "VA", "MT"],
+  "neighbors": [
+    "FR",
+    "CH",
+    "AT",
+    "SI",
+    "SM",
+    "VA",
+    "MT"
+  ],
   "published": false,
   "seo_context": {
     "en": {
@@ -41,6 +52,29 @@
         },
         "economy": {
           "intro": "Fixture intro for business news in Italy."
+        }
+      },
+      "reviewed": false,
+      "reviewed_at": null
+    },
+    "pt": {
+      "summary": "Resumo fictício do panorama da mídia (Itália), usado apenas pelos testes automatizados do diretório.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias (Itália)?",
+          "a": "O fixture lista primeiro o Italy Morning Ledger."
+        },
+        {
+          "q": "Quais sites de notícias (Itália) são gratuitos?",
+          "a": "Vários veículos do fixture são de leitura gratuita."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Introdução do fixture para notícias nacionais (Itália)."
+        },
+        "economy": {
+          "intro": "Introdução do fixture para negócios (Itália)."
         }
       },
       "reviewed": false,

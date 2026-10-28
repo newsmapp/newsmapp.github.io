@@ -8,7 +8,7 @@
   "observability": { "enabled": true },
   "vars": {
     "SITE_URL": "https://newsmap.example",
-    "ENABLED_LOCALES": "en",
+    "ENABLED_LOCALES": "en,pt",
     "ADS_ENABLED": "false",
     "GITHUB_REPOSITORY": "owner/newsmapp",
   },

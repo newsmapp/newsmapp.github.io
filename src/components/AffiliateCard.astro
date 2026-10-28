@@ -1,7 +1,7 @@
 ---
 import type { Affiliate } from '../lib/monetization/affiliates';
 import { isVpnOffer } from '../lib/monetization/affiliates';
-import { paths } from '../data/catalog';
+import { i18n } from '../data/i18n';
 
 interface Props {
   affiliate: Affiliate;
@@ -10,23 +10,25 @@ interface Props {
 }
 
 const { affiliate, pageCountry } = Astro.props;
+const { lang, t, paths } = i18n(Astro.url);
+const copy = affiliate.translations?.[lang] ?? affiliate;
 ---
 
 <aside
   class="affiliate"
-  aria-label="Partner offer"
+  aria-label={t.affiliate.label}
   data-affiliate
   data-vpn={isVpnOffer(affiliate) ? '' : undefined}
   data-page-country={pageCountry}
 >
-  <p class="headline">{affiliate.headline}</p>
-  <p class="body">{affiliate.body}</p>
+  <p class="headline">{copy.headline}</p>
+  <p class="body">{copy.body}</p>
   <p class="actions">
     <a class="cta" href={paths.go(`aff-${affiliate.id}`)} rel="sponsored noopener">
-      {affiliate.cta}
+      {copy.cta}
     </a>
     <span class="disclosure">
-      Partner link. We may earn a commission. <a href="/disclosures/">How we pick partners</a>
+      {t.affiliate.disclosure} <a href={paths.page('/disclosures/')}>{t.affiliate.how}</a>
     </span>
   </p>
 </aside>

@@ -1,8 +1,8 @@
 ---
 import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
 import { CATEGORIES, type Category } from '../schemas/catalog.schema';
-import { categoryPages, countryName, outletsFor, paths } from '../data/catalog';
-import { CATEGORY_SHORT, PAYWALL_DESCRIPTION, PAYWALL_TAG, plural } from '../lib/format';
+import { categoryPages, countryPlace, outletsFor } from '../data/catalog';
+import { i18n } from '../data/i18n';
 
 interface Props {
   country: PublicCountry;
@@ -13,14 +13,16 @@ interface Props {
 }
 
 const { country, visible = 5, lazy = true } = Astro.props;
-const name = countryName(country);
+const { lang, t, l, paths } = i18n(Astro.url);
+const where = countryPlace(country, lang);
+const name = where.name;
 // The editors' national ranking leads; other outlets fill the box in rank order.
 const national = outletsFor(country, 'general-news');
 const top: PublicOutlet[] = [
   ...national,
   ...country.outlets.filter((o) => !national.includes(o)),
 ].slice(0, visible);
-const pages = categoryPages(country);
+const pages = categoryPages(country, lang);
 // One list per topic the country covers; the home page topic switcher shows one at a time.
 const lists: { topic: Category | 'all'; outlets: PublicOutlet[]; total: number; href: string }[] = [
   { topic: 'all', outlets: top, total: country.outlets.length, href: paths.country(country) },
@@ -86,17 +88,19 @@ const headingId = `box-${country.iso2.toLowerCase()}`;
             </a>
             <span
               class:list={['tag', outlet.paywall === 'free' ? 'tag-free' : 'tag-paid']}
-              title={PAYWALL_DESCRIPTION[outlet.paywall]}
+              title={l.paywallDescription[outlet.paywall]}
             >
-              {PAYWALL_TAG[outlet.paywall]}
+              {l.paywallTag[outlet.paywall]}
             </span>
           </li>
         ))}
       </ol>
       <a class="all" href={list.href}>
-        See all {plural(list.total, 'outlet')}
+        {t.box.seeAll(list.total)}
         <span class="visually-hidden">
-          {list.topic === 'all' ? '' : `for ${CATEGORY_SHORT[list.topic]} `}in {name}
+          {' '}
+          {list.topic === 'all' ? '' : t.box.forTopic(l.categoryShort[list.topic])}
+          {t.box.inCountry(where)}
         </span>
       </a>
     </div>

@@ -1,56 +1,54 @@
 ---
-import BaseLayout from '../../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
-import AffiliateCard from '../../../../components/AffiliateCard.astro';
-import Icon from '../../../../components/Icon.astro';
-import type { PublicCountry, PublicOutlet } from '../../../../lib/catalog/public';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
+import AffiliateCard from '../../../../../components/AffiliateCard.astro';
+import Icon from '../../../../../components/Icon.astro';
+import type { PublicCountry, PublicOutlet } from '../../../../../lib/catalog/public';
 import {
-  CONTINENT_LABELS,
-  LOCALE,
   categoryLabel,
   categoryPages,
   countries,
-  countryName,
+  countryPlace,
   hubs,
   isProfileIndexable,
   outletsFor,
-  paths,
   similarOutlets,
-} from '../../../../data/catalog';
-import { affiliates } from '../../../../data/monetization';
-import { selectAffiliate } from '../../../../lib/monetization/affiliates';
-import { BADGE_SIZE } from '../../../../lib/badge';
-import {
-  FORMAT_LABEL,
-  OWNERSHIP_LABEL,
-  PAYWALL_DESCRIPTION,
-  PAYWALL_TAG,
-  displayHost,
-} from '../../../../lib/format';
-import { breadcrumbList, newsMediaOrganization } from '../../../../lib/seo/jsonld';
+} from '../../../../../data/catalog';
+import { forEachLang, i18n } from '../../../../../data/i18n';
+import { LANG_META, type Lang } from '../../../../../lib/i18n/lang';
+import { affiliates } from '../../../../../data/monetization';
+import { selectAffiliate } from '../../../../../lib/monetization/affiliates';
+import { BADGE_SIZE } from '../../../../../lib/badge';
+import { displayHost } from '../../../../../lib/format';
+import { breadcrumbList, newsMediaOrganization } from '../../../../../lib/seo/jsonld';
 
-export function getStaticPaths() {
-  return countries.flatMap((country) =>
-    country.outlets.map((outlet) => ({
-      params: { country: country.slug, outlet: outlet.slug },
-      props: { country, outlet },
-    })),
+export const getStaticPaths = () =>
+  forEachLang(() =>
+    countries.flatMap((country) =>
+      country.outlets.map((outlet) => ({
+        params: { country: country.slug, outlet: outlet.slug },
+        props: { country, outlet },
+      })),
+    ),
   );
-}
 
 interface Props {
   country: PublicCountry;
   outlet: PublicOutlet;
+  lang: Lang;
 }
 
-const { country, outlet } = Astro.props;
-const name = countryName(country);
+const { country, outlet, lang } = Astro.props;
+const { t, l, paths } = i18n(Astro.url);
+const where = countryPlace(country, lang);
+const name = where.name;
+const pitch = outlet.pitch[lang] ?? outlet.pitch.en ?? '';
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
-const indexable = isProfileIndexable(outlet);
+const indexable = isProfileIndexable(outlet, lang);
 // Site search still lists every published outlet; only search engines skip thin profiles.
-const about = outlet.about[LOCALE];
+const about = outlet.about[lang];
 const similar = similarOutlets(country, outlet);
-const withPages = new Set(categoryPages(country));
+const withPages = new Set(categoryPages(country, lang));
 const affiliate = selectAffiliate(affiliates, {
   kind: 'outlet',
   category: outlet.primary_category,
@@ -63,9 +61,9 @@ const ranks = outlet.categories.map((category) => ({
 const primary = ranks.find((r) => r.category === outlet.primary_category) ?? ranks[0];
 const ownerSourced = outlet.sources.some((s) => s.field === 'owner');
 const crumbs = [
-  { label: 'Home', href: paths.home },
+  { label: t.crumbs.home, href: paths.home },
   ...(hubs.has(country.continent)
-    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    ? [{ label: l.continent[country.continent], href: paths.continent(country.continent) }]
     : []),
   { label: name, href: paths.country(country) },
   { label: outlet.name, href: paths.outlet(country, outlet) },
@@ -73,16 +71,19 @@ const crumbs = [
 const profileUrl = new URL(paths.outlet(country, outlet), siteUrl).toString();
 const badgeUrl = new URL(`/badge/${country.slug}/${outlet.slug}.svg`, siteUrl).toString();
 const badgeSnippet = `<a href="${profileUrl}"><img src="${badgeUrl}" alt="NewsMapp" width="${BADGE_SIZE.width}" height="${BADGE_SIZE.height}"></a>`;
-const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPTION[outlet.paywall]}. ${OWNERSHIP_LABEL[outlet.ownership_type]} ownership.`;
+const description = t.outlet.description(
+  outlet.name,
+  pitch,
+  l.paywallDescription[outlet.paywall],
+  l.ownership[outlet.ownership_type],
+);
+const language =
+  new Intl.DisplayNames([LANG_META[lang].intl], { type: 'language' }).of(outlet.language) ??
+  outlet.language;
 ---
 
 <BaseLayout
-  title={[
-    `${outlet.name} (${name}): ownership, paywall and alternatives`,
-    `${outlet.name}: ownership, paywall and alternatives`,
-    `${outlet.name}: ownership and paywall`,
-    outlet.name,
-  ]}
+  title={t.outlet.titles(outlet.name, name)}
   description={description}
   noindex={!indexable}
   type="profile"
@@ -105,7 +106,7 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
         <img class="favicon" src={outlet.icon} alt="" width="32" height="32" />
         <span translate="no">{outlet.name}</span>
       </h1>
-      <p class="lede">{outlet.pitch.en}</p>
+      <p class="lede">{pitch}</p>
       <p class="actions">
         <a
           class="visit"
@@ -115,78 +116,77 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
           data-country={country.iso2}
           data-category={outlet.primary_category}
         >
-          Visit {displayHost(outlet.url)}
+          {t.outlet.visit(displayHost(outlet.url))}
           <Icon name="arrow-up-right" size={16} />
         </a>
-        <a href={`/corrections/?outlet=${outlet.id}`}>Report a correction</a>
+        <a href={paths.page(`/corrections/?outlet=${outlet.id}`)}>{t.outlet.correction}</a>
       </p>
     </div>
 
     <div class="layout">
       <div class="main">
         <section aria-labelledby="facts">
-          <h2 id="facts">Facts</h2>
+          <h2 id="facts">{t.outlet.facts}</h2>
           <dl class="facts">
-            <dt>Country</dt>
+            <dt>{t.outlet.country}</dt>
             <dd>
               <a href={paths.country(country)}>{name}</a>
             </dd>
-            <dt>Ranked in</dt>
+            <dt>{t.outlet.rankedIn}</dt>
             <dd>
               <ul class="ranks">
                 {ranks.map(({ category, position }) => (
                   <li>
-                    #{position} in{' '}
+                    {t.outlet.rankIn(position)}{' '}
                     {withPages.has(category) ? (
-                      <a href={paths.category(country, category)}>{categoryLabel(category)}</a>
+                      <a href={paths.category(country, category)}>
+                        {categoryLabel(category, lang)}
+                      </a>
                     ) : (
                       <a href={`${paths.country(country)}#${category}`}>
-                        {categoryLabel(category)}
+                        {categoryLabel(category, lang)}
                       </a>
                     )}
                   </li>
                 ))}
               </ul>
             </dd>
-            <dt>Access</dt>
+            <dt>{t.outlet.access}</dt>
             <dd>
-              {PAYWALL_TAG[outlet.paywall]}: {PAYWALL_DESCRIPTION[outlet.paywall].toLowerCase()}
+              {l.paywallTag[outlet.paywall]}: {l.paywallDescription[outlet.paywall].toLowerCase()}
             </dd>
-            <dt>Ownership</dt>
-            <dd>{OWNERSHIP_LABEL[outlet.ownership_type]}</dd>
+            <dt>{t.outlet.ownership}</dt>
+            <dd>{l.ownership[outlet.ownership_type]}</dd>
             {outlet.owner && (
               <>
-                <dt>Owner</dt>
+                <dt>{t.outlet.owner}</dt>
                 <dd>{outlet.owner}</dd>
               </>
             )}
             {outlet.founded_year && (
               <>
-                <dt>Founded</dt>
+                <dt>{t.outlet.founded}</dt>
                 <dd class="num">{outlet.founded_year}</dd>
               </>
             )}
-            <dt>Format</dt>
-            <dd>{FORMAT_LABEL[outlet.format]}</dd>
+            <dt>{t.outlet.format}</dt>
+            <dd>{l.format[outlet.format]}</dd>
             {outlet.region && (
               <>
-                <dt>Region</dt>
+                <dt>{t.outlet.region}</dt>
                 <dd>{outlet.region}</dd>
               </>
             )}
-            <dt>Language</dt>
-            <dd>
-              {new Intl.DisplayNames(['en'], { type: 'language' }).of(outlet.language) ??
-                outlet.language}
-            </dd>
-            <dt>RSS</dt>
+            <dt>{t.outlet.language}</dt>
+            <dd>{language}</dd>
+            <dt>{t.outlet.rss}</dt>
             <dd>
               {outlet.rss_url ? (
                 <a href={outlet.rss_url} rel="noopener">
-                  {displayHost(outlet.rss_url)} feed
+                  {t.outlet.feed(displayHost(outlet.rss_url))}
                 </a>
               ) : (
-                'None listed'
+                t.outlet.noFeed
               )}
             </dd>
           </dl>
@@ -194,14 +194,14 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
 
         {about?.reviewed && (
           <section aria-labelledby="about">
-            <h2 id="about">About {outlet.name}</h2>
+            <h2 id="about">{t.outlet.about(outlet.name)}</h2>
             <p class="prose">{about.text}</p>
           </section>
         )}
 
         {outlet.sources.length > 0 && (
           <section aria-labelledby="sources">
-            <h2 id="sources">Sources</h2>
+            <h2 id="sources">{t.outlet.sources}</h2>
             <ul class="sources">
               {outlet.sources.map((source) => (
                 <li>
@@ -216,13 +216,14 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
         )}
 
         <section aria-labelledby="badge">
-          <h2 id="badge">Badge for {displayHost(outlet.url)}</h2>
+          <h2 id="badge">{t.outlet.badge(displayHost(outlet.url))}</h2>
           <p class="hint">
-            Show readers that {outlet.name} is listed
-            {primary && primary.position > 0
-              ? ` as #${primary.position} in ${categoryLabel(primary.category)}`
-              : ''}
-            . Paste this HTML into your site.
+            {t.outlet.badgeHint(
+              outlet.name,
+              primary && primary.position > 0
+                ? t.outlet.badgeRank(primary.position, categoryLabel(primary.category, lang))
+                : '',
+            )}
           </p>
           <img
             class="badge-preview"
@@ -234,8 +235,13 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
           />
           <div class="snippet">
             <code id="badge-code">{badgeSnippet}</code>
-            <button type="button" data-copy="badge-code">
-              Copy HTML
+            <button
+              type="button"
+              data-copy="badge-code"
+              data-copied={t.outlet.copied}
+              data-fallback={t.outlet.copyFallback}
+            >
+              {t.outlet.copy}
             </button>
           </div>
         </section>
@@ -244,13 +250,13 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
       <aside class="side">
         {similar.length > 0 && (
           <section aria-labelledby="similar">
-            <h2 id="similar">Alternatives in {name}</h2>
+            <h2 id="similar">{t.outlet.alternatives(where)}</h2>
             <ul class="similar">
               {similar.map((o) => (
                 <li>
                   <img src={o.icon} alt="" width="20" height="20" loading="lazy" decoding="async" />
                   <a href={paths.outlet(country, o)}>{o.name}</a>
-                  <span class="tag">{PAYWALL_TAG[o.paywall]}</span>
+                  <span class="tag">{l.paywallTag[o.paywall]}</span>
                 </li>
               ))}
             </ul>
@@ -264,17 +270,18 @@ const description = `${outlet.name}: ${outlet.pitch.en ?? ''} ${PAYWALL_DESCRIPT
 
 <script>
   document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((button) => {
+    const label = button.textContent;
     button.addEventListener('click', async () => {
       const code = document.getElementById(button.dataset.copy ?? '');
       if (!code) return;
       try {
         await navigator.clipboard.writeText(code.textContent ?? '');
-        button.textContent = 'Copied';
+        button.textContent = button.dataset.copied ?? '';
       } catch {
         getSelection()?.selectAllChildren(code);
-        button.textContent = 'Press ⌘ C to copy';
+        button.textContent = button.dataset.fallback ?? '';
       }
-      setTimeout(() => (button.textContent = 'Copy HTML'), 2000);
+      setTimeout(() => (button.textContent = label), 2000);
     });
   });
 </script>

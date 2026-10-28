@@ -14,15 +14,17 @@ interface Spec {
   iso2: string;
   slug: string;
   name: string;
+  /** Portuguese name, for the /pt/ build. */
+  pt: string;
   published: boolean;
 }
 
 const COUNTRIES: Spec[] = [
-  { iso2: 'PT', slug: 'portugal', name: 'Portugal', published: true },
-  { iso2: 'ES', slug: 'spain', name: 'Spain', published: true },
-  { iso2: 'FR', slug: 'france', name: 'France', published: true },
-  { iso2: 'BR', slug: 'brazil', name: 'Brazil', published: true },
-  { iso2: 'IT', slug: 'italy', name: 'Italy', published: false },
+  { iso2: 'PT', slug: 'portugal', name: 'Portugal', pt: 'Portugal', published: true },
+  { iso2: 'ES', slug: 'spain', name: 'Spain', pt: 'Espanha', published: true },
+  { iso2: 'FR', slug: 'france', name: 'France', pt: 'França', published: true },
+  { iso2: 'BR', slug: 'brazil', name: 'Brazil', pt: 'Brasil', published: true },
+  { iso2: 'IT', slug: 'italy', name: 'Italy', pt: 'Itália', published: false },
 ];
 
 /** [name, categories, paywall, ownership, format] — 18 verified outlets per published country. */
@@ -92,12 +94,17 @@ function outletsFor(spec: Spec): Outlet[] {
       editor_pick: index < 2,
       pitch: {
         en: `Fictional ${name.toLowerCase()} used to test the ${spec.name} directory page layout.`,
+        pt: `Veículo fictício (${name}) usado para testar a página do diretório: ${spec.pt}.`,
       },
       about:
         index < 4
           ? {
               en: {
                 text: `${spec.name} ${name} is a fictional outlet used only in automated tests.`,
+                reviewed: true,
+              },
+              pt: {
+                text: `${spec.name} ${name} é um veículo fictício usado apenas em testes automatizados.`,
                 reviewed: true,
               },
             }
@@ -151,7 +158,7 @@ function countryFor(spec: Spec): Country {
     iso2: spec.iso2,
     iso3: entry.iso3,
     slug: spec.slug,
-    name: { en: spec.name },
+    name: { en: spec.name, pt: spec.pt },
     continent: entry.continent as Country['continent'],
     also_in: entry.also_in as Country['also_in'],
     population: {
@@ -185,6 +192,25 @@ function countryFor(spec: Spec): Country {
         categories: {
           'general-news': { intro: `Fixture intro for national news in ${spec.name}.` },
           economy: { intro: `Fixture intro for business news in ${spec.name}.` },
+        },
+        reviewed: spec.published,
+        reviewed_at: spec.published ? DATE : null,
+      },
+      pt: {
+        summary: `Resumo fictício do panorama da mídia (${spec.pt}), usado apenas pelos testes automatizados do diretório.`,
+        faq: [
+          {
+            q: `Quais são os principais veículos de notícias (${spec.pt})?`,
+            a: `O fixture lista primeiro o ${spec.name} Morning Ledger.`,
+          },
+          {
+            q: `Quais sites de notícias (${spec.pt}) são gratuitos?`,
+            a: 'Vários veículos do fixture são de leitura gratuita.',
+          },
+        ],
+        categories: {
+          'general-news': { intro: `Introdução do fixture para notícias nacionais (${spec.pt}).` },
+          economy: { intro: `Introdução do fixture para negócios (${spec.pt}).` },
         },
         reviewed: spec.published,
         reviewed_at: spec.published ? DATE : null,

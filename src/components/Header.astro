@@ -1,5 +1,7 @@
 ---
 import Icon from './Icon.astro';
+import { LANG_META, localizePath, stripLang } from '../lib/i18n/lang';
+import { i18n, siteLangs } from '../data/i18n';
 
 interface Props {
   /** The home page has its own search button in the intro, so the header leaves it out. */
@@ -7,11 +9,16 @@ interface Props {
 }
 
 const { search = true } = Astro.props;
+const { lang, t, paths } = i18n(Astro.url);
+// The same page in the other site languages.
+const switches = siteLangs
+  .filter((l) => l !== lang)
+  .map((l) => ({ lang: l, href: localizePath(stripLang(Astro.url.pathname), l) }));
 ---
 
 <header class="site-header">
   <div class="page bar">
-    <a class="wordmark" href="/" translate="no">
+    <a class="wordmark" href={paths.home} translate="no">
       News<span class="mapp">Mapp</span>
       <!-- "Mapp" is drawn: a map folded in three panels with a route to a pin. -->
       <svg class="fold" viewBox="0 0 36 24" aria-hidden="true" focusable="false">
@@ -24,14 +31,36 @@ const { search = true } = Astro.props;
     {search && (
       <button class="search" type="button" data-open-search aria-keyshortcuts="Meta+K Control+K">
         <Icon name="search" size={16} />
-        <span class="search-label">Search countries and outlets</span>
+        <span class="search-label">{t.header.search}</span>
         <kbd class="data">⌘&nbsp;K</kbd>
       </button>
     )}
-    <nav aria-label="Site" class:list={['nav', { push: !search }]}>
-      <a href="/advertise/">Advertise</a>
+    <nav aria-label={t.header.nav} class:list={['nav', { push: !search }]}>
+      <a href={paths.page('/advertise/')}>{t.header.advertise}</a>
+      {switches.map((s) => (
+        <a
+          class="lang"
+          href={s.href}
+          hreflang={LANG_META[s.lang].tag}
+          lang={LANG_META[s.lang].tag}
+          data-lang-switch
+        >
+          <Icon name="languages" size={16} />
+          <span class="lang-name">{LANG_META[s.lang].name}</span>
+          <span class="lang-code" aria-hidden="true">
+            {s.lang.toUpperCase()}
+          </span>
+        </a>
+      ))}
     </nav>
-    <button class="theme" type="button" data-theme-toggle aria-label="Switch to dark theme">
+    <button
+      class="theme"
+      type="button"
+      data-theme-toggle
+      data-to-dark={t.header.toDark}
+      data-to-light={t.header.toLight}
+      aria-label={t.header.toDark}
+    >
       <Icon name="moon" size={18} class="when-light" />
       <Icon name="sun" size={18} class="when-dark" />
     </button>
@@ -40,7 +69,8 @@ const { search = true } = Astro.props;
 
 <script>
   const toggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
-  const label = (theme: string) => `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`;
+  const label = (theme: string) =>
+    (theme === 'dark' ? toggle?.dataset.toLight : toggle?.dataset.toDark) ?? '';
   const root = document.documentElement;
   if (toggle) {
     toggle.setAttribute('aria-label', label(root.dataset.theme ?? 'light'));
@@ -180,8 +210,14 @@ const { search = true } = Astro.props;
     font-size: var(--type-label);
   }
 
+  .nav {
+    display: flex;
+    gap: var(--space-3);
+  }
+
   .nav a {
     display: inline-flex;
+    gap: var(--space-1);
     align-items: center;
     min-height: 2.5rem;
     color: var(--ink);
@@ -217,7 +253,25 @@ const { search = true } = Astro.props;
     display: none;
   }
 
+  .lang-code {
+    display: none;
+  }
+
   @media (max-width: 639px) {
+    /* The full name stays the link's accessible name; the code is what fits. */
+    .lang-name {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+
+    .lang-code {
+      display: inline;
+    }
+
     .search {
       flex: 0 0 auto;
       width: 2.5rem;

@@ -79,7 +79,7 @@ GitHub Actions variables (public), set with `gh variable set NAME --body VALUE`:
 | -------------------- | ------------------------------------------------------ |
 | `SITE_URL`           | `https://your-domain` (no trailing slash)              |
 | `TURNSTILE_SITE_KEY` | The widget's site key (public by design)               |
-| `ENABLED_LOCALES`    | Optional, default `en`                                 |
+| `ENABLED_LOCALES`    | Optional, default `en,pt`                              |
 | `ADS_ENABLED`        | Optional, default `false` (see README before changing) |
 
 Committed configuration (not secret): `database_id` and `GITHUB_REPOSITORY` in `wrangler.jsonc`, `data/site.json`, `data/monetization/*.json`.

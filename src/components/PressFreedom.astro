@@ -1,43 +1,37 @@
 ---
 import type { PublicCountry } from '../lib/catalog/public';
+import type { Place } from '../lib/i18n/place';
+import { i18n } from '../data/i18n';
 
 interface Props {
   country: PublicCountry;
-  name: string;
+  where: Place;
 }
 
-const { country, name } = Astro.props;
+const { country, where } = Astro.props;
+const { t, l } = i18n(Astro.url);
 const pf = country.press_freedom;
-const STATUS: Record<string, string> = {
-  good: 'Good',
-  satisfactory: 'Satisfactory',
-  problematic: 'Problematic',
-  difficult: 'Difficult',
-  'very-serious': 'Very serious',
-};
 ---
 
 {pf && (
   <section class="press" aria-labelledby="press-freedom">
-    <h2 id="press-freedom">Press freedom in {name}</h2>
+    <h2 id="press-freedom">{t.press.heading(where)}</h2>
     <dl class="data">
       <div>
-        <dt>Rank</dt>
-        <dd>
-          {pf.rank} of 180 ({pf.year})
-        </dd>
+        <dt>{t.press.rank}</dt>
+        <dd>{t.press.rankValue(pf.rank, pf.year)}</dd>
       </div>
       <div>
-        <dt>Situation</dt>
-        <dd>{STATUS[pf.status]}</dd>
+        <dt>{t.press.situation}</dt>
+        <dd>{l.pressFreedom[pf.status]}</dd>
       </div>
     </dl>
     <p class="source">
-      Source:{' '}
+      {t.press.source}{' '}
       <a href={pf.source_url} rel="noopener">
         {pf.source}
       </a>
-      , Reporters Without Borders.
+      {t.press.rsf}
     </p>
   </section>
 )}

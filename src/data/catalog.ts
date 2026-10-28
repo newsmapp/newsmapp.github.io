@@ -1,6 +1,9 @@
 import catalogJson from '../generated/catalog.json';
-import { CATEGORIES, CATEGORY_LABELS, type Category } from '../schemas/catalog.schema';
-import { CONTINENTS, type Continent, type Locale } from '../schemas/common';
+import { CATEGORIES, type Category } from '../schemas/catalog.schema';
+import { CONTINENTS, type Continent } from '../schemas/common';
+import { localizePath, LANG_META, type Lang } from '../lib/i18n/lang';
+import { LABELS } from '../lib/i18n/labels';
+import { place, type Place } from '../lib/i18n/place';
 import type { PublicCatalog, PublicCountry, PublicOutlet } from '../lib/catalog/public';
 import {
   categoryPageEligible,
@@ -11,18 +14,6 @@ import {
 
 /** Build-time catalog: published countries and their verified outlets only. */
 export const catalog = catalogJson as unknown as PublicCatalog;
-export const LOCALE: Locale = 'en';
-
-export const CONTINENT_LABELS: Record<Continent, string> = {
-  africa: 'Africa',
-  antarctica: 'Antarctica',
-  asia: 'Asia',
-  europe: 'Europe',
-  'north-america': 'North America',
-  oceania: 'Oceania',
-  'south-america': 'South America',
-};
-
 export const countries = catalog.countries;
 const byIso = new Map(countries.map((c) => [c.iso2, c]));
 const bySlug = new Map(countries.map((c) => [c.slug, c]));
@@ -30,10 +21,22 @@ const geoByIso = new Map(catalog.geo.map((g) => [g.iso2, g]));
 
 export const countryByIso = (iso2: string): PublicCountry | undefined => byIso.get(iso2);
 export const countryBySlug = (slug: string): PublicCountry | undefined => bySlug.get(slug);
-export const countryName = (country: PublicCountry): string => country.name[LOCALE] ?? country.iso2;
+export const countryName = (country: PublicCountry, lang: Lang): string =>
+  country.name[lang] ?? country.name.en ?? country.iso2;
+export const countryPlace = (country: PublicCountry, lang: Lang): Place =>
+  place(countryName(country, lang), country.iso2, lang);
 export const geoName = (iso2: string): string => geoByIso.get(iso2)?.name ?? iso2;
 
-export const categoryLabel = (category: Category): string => CATEGORY_LABELS[category];
+export const categoryLabel = (category: Category, lang: Lang): string =>
+  LABELS[lang].category[category];
+export const continentLabel = (continent: Continent, lang: Lang): string =>
+  LABELS[lang].continent[continent];
+
+/** Countries in alphabetical order of their name in a language. */
+export const sortedCountries = (lang: Lang): PublicCountry[] =>
+  [...countries].sort((a, b) =>
+    countryName(a, lang).localeCompare(countryName(b, lang), LANG_META[lang].intl),
+  );
 
 /** Published continents with a hub page, in display order. */
 export const hubs = continentHubs(countries);
@@ -43,14 +46,14 @@ export function countriesIn(continent: Continent): PublicCountry[] {
   return countries.filter((c) => c.continent === continent || c.also_in.includes(continent));
 }
 
-export const categoryPages = (country: PublicCountry): Category[] =>
-  CATEGORIES.filter((category) => categoryPageEligible(country, country.outlets, category, LOCALE));
+export const categoryPages = (country: PublicCountry, lang: Lang): Category[] =>
+  CATEGORIES.filter((category) => categoryPageEligible(country, country.outlets, category, lang));
 
 export const outletsFor = (country: PublicCountry, category: Category): PublicOutlet[] =>
   outletsInCategory(country.outlets, category);
 
-export const isProfileIndexable = (outlet: PublicOutlet): boolean =>
-  profileIndexable(outlet, LOCALE);
+export const isProfileIndexable = (outlet: PublicOutlet, lang: Lang): boolean =>
+  profileIndexable(outlet, lang);
 
 /** Published neighbors, then same-continent countries, for internal linking. */
 export function relatedCountries(country: PublicCountry, limit = 6): PublicCountry[] {
@@ -74,12 +77,20 @@ export function similarOutlets(country: PublicCountry, outlet: PublicOutlet, lim
     .slice(0, limit);
 }
 
-export const paths = {
-  home: '/',
-  continent: (continent: Continent) => `/continent/${continent}/`,
-  country: (country: PublicCountry) => `/${country.slug}/`,
-  category: (country: PublicCountry, category: Category) => `/${country.slug}/${category}/`,
-  outlet: (country: PublicCountry, outlet: PublicOutlet) => `/${country.slug}/outlet/${outlet.slug}/`,
-  go: (id: string) => `/go/${id}/`,
-  flag: (iso2: string) => `/flags/${iso2.toLowerCase()}.svg`,
+/** Site paths in a language; English at the root, other languages under /<lang>/. */
+export const pathsFor = (lang: Lang) => {
+  const at = (path: string) => localizePath(path, lang);
+  return {
+    home: at('/'),
+    page: (path: string) => at(path),
+    continent: (continent: Continent) => at(`/continent/${continent}/`),
+    country: (country: PublicCountry) => at(`/${country.slug}/`),
+    category: (country: PublicCountry, category: Category) =>
+      at(`/${country.slug}/${category}/`),
+    outlet: (country: PublicCountry, outlet: PublicOutlet) =>
+      at(`/${country.slug}/outlet/${outlet.slug}/`),
+    go: (id: string) => `/go/${id}/`,
+    flag: (iso2: string) => `/flags/${iso2.toLowerCase()}.svg`,
+  };
 };
+export type Paths = ReturnType<typeof pathsFor>;

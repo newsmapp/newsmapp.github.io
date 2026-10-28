@@ -7,6 +7,8 @@ export interface MetaInput {
   siteUrl: string;
   noindex?: boolean;
   type?: 'website' | 'article' | 'profile';
+  /** og:locale, e.g. "pt_BR". */
+  locale?: string;
 }
 
 export interface Meta {
@@ -64,7 +66,7 @@ export function buildMeta(input: MetaInput): Meta {
       'og:title': title,
       'og:description': description,
       'og:url': canonical,
-      'og:locale': 'en_US',
+      'og:locale': input.locale ?? 'en_US',
     },
   };
 }

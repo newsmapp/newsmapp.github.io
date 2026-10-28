@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import CountryList from '../../../../components/CountryList.astro';
+import { countriesIn, hubContinents, sortedCountries } from '../../../../data/catalog';
+import { forEachLang, i18n } from '../../../../data/i18n';
+import type { Continent } from '../../../../schemas/common';
+import type { Lang } from '../../../../lib/i18n/lang';
+import { breadcrumbList } from '../../../../lib/seo/jsonld';
+
+export const getStaticPaths = () =>
+  forEachLang(() =>
+    hubContinents.map((continent) => ({ params: { continent }, props: { continent } })),
+  );
+
+interface Props {
+  continent: Continent;
+  lang: Lang;
+}
+
+const { continent, lang } = Astro.props;
+const { t, l, paths } = i18n(Astro.url);
+const label = l.continent[continent];
+const members = new Set(countriesIn(continent));
+const list = sortedCountries(lang).filter((c) => members.has(c));
+const outlets = list.reduce((n, c) => n + c.outlets.length, 0);
+const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const crumbs = [
+  { label: t.crumbs.home, href: paths.home },
+  { label, href: paths.continent(continent) },
+];
+---
+
+<BaseLayout
+  title={t.continent.title(label, list.length)}
+  description={t.continent.description(label, list.length, outlets)}
+  jsonld={[breadcrumbList(siteUrl, crumbs)]}
+  searchable
+  searchType="continent"
+>
+  <div class="page">
+    <div class="intro">
+      <Breadcrumbs items={crumbs} />
+      <h1>{t.continent.heading(label)}</h1>
+      <p class="lede">{t.continent.lede(outlets, list.length)}</p>
+    </div>
+    <CountryList countries={list} />
+  </div>
+</BaseLayout>
+
+<style>
+  .intro {
+    display: grid;
+    gap: var(--space-2);
+    padding-block: var(--space-5) var(--space-5);
+  }
+
+  .lede {
+    color: var(--ink-2);
+  }
+</style>

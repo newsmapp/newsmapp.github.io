@@ -1,6 +1,6 @@
 ---
-import { paths } from '../data/catalog';
 import { displayHost } from '../lib/format';
+import { i18n } from '../data/i18n';
 
 export interface Sponsorship {
   id: string;
@@ -14,10 +14,11 @@ interface Props {
 }
 
 const { sponsorship } = Astro.props;
+const { t, paths } = i18n(Astro.url);
 ---
 
 <li class="sponsored" data-sponsored>
-  <span class="label">Sponsored</span>
+  <span class="label">{t.sponsored}</span>
   {sponsorship.icon ? (
     <img
       class="favicon"

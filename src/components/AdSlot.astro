@@ -4,17 +4,19 @@
  * and the network approved the site. Sizes are reserved up front so ads never shift layout.
  */
 import { adsEnabled } from '../data/site';
+import { i18n } from '../data/i18n';
 
 interface Props {
   placement: 'leaderboard' | 'in-feed' | 'sidebar';
 }
 
 const { placement } = Astro.props;
+const { t } = i18n(Astro.url);
 ---
 
 {adsEnabled && (
-  <aside class:list={['ad', placement]} data-ad-slot={placement} aria-label="Advertisement">
-    <span class="label">Advertisement</span>
+  <aside class:list={['ad', placement]} data-ad-slot={placement} aria-label={t.ad}>
+    <span class="label">{t.ad}</span>
   </aside>
 )}
 

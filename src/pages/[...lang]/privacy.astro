@@ -1,0 +1,194 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { forEachLang, i18n } from '../../data/i18n';
+import site from '../../../data/site.json';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang } = i18n(Astro.url);
+---
+
+{lang === 'pt' ? (
+  <ProseLayout
+    title="Política de privacidade: o que coletamos e por quê"
+    description="O que o NewsMapp coleta, por que e por quanto tempo, quem trata os dados e como exercer seus direitos pela LGPD e pelo GDPR."
+    heading="Política de privacidade"
+    updated="2026-10-27"
+    legal
+  >
+    <p>
+      O NewsMapp não usa cookies e não rastreia você entre sites. Esta política explica o pouco que
+      coletamos. O controlador é {site.legal_name}, que pode ser contatado em{' '}
+      <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+    </p>
+
+    <h2 id="what-we-collect">O que coletamos</h2>
+    <div class="table-scroll" role="region" aria-labelledby="what-we-collect" tabindex="0">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Dado</th>
+            <th scope="col">Finalidade</th>
+            <th scope="col">Base legal</th>
+            <th scope="col">Por quanto tempo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Cliques em links de veículos: veículo, página, seu país e um código que muda todo dia
+            </td>
+            <td>
+              Saber quais veículos os leitores usam e informar aos patrocinadores estimativas
+              filtradas de cliques
+            </td>
+            <td>Legítimo interesse</td>
+            <td>Agregados; o código diário não pode ser ligado entre dias</td>
+          </tr>
+          <tr>
+            <td>
+              Nome, site e e-mail que você envia nos formulários de sugestão, correção ou patrocínio
+            </td>
+            <td>Analisar o seu pedido e responder a você</td>
+            <td>O seu pedido (procedimentos preliminares a um contrato) ou legítimo interesse</td>
+            <td>E-mail anonimizado 24 meses depois que o pedido é encerrado</td>
+          </tr>
+          <tr>
+            <td>Dados de pagamento dos patrocínios</td>
+            <td>Cobrar e emitir a fatura</td>
+            <td>Contrato</td>
+            <td>
+              Guardados pelo nosso provedor de pagamentos, LemonSqueezy, como vendedor responsável
+              (merchant of record)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Nunca guardamos o seu endereço IP nem os dados do seu navegador de forma legível. O código
+      diário é um hash com chave desses dados, descartado com a chave todos os dias. Enquanto um
+      checkout de patrocínio está aberto, um código diário semelhante do seu IP e navegador fica
+      guardado com a reserva, para que um mesmo visitante não segure várias vagas ao mesmo tempo;
+      ele é apagado quando você paga ou quando os 30 minutos terminam.
+    </p>
+
+    <h2>Guardado no seu aparelho</h2>
+    <p>
+      A sua escolha de tema (claro ou escuro) fica no armazenamento local do navegador, e o seu
+      país, detectado para a página em que você está, no armazenamento de sessão. Nenhum dos dois é
+      enviado para nós nem para mais ninguém.
+    </p>
+
+    <h2>Quem trata dados por nós</h2>
+    <ul>
+      <li>Cloudflare: hospedagem, segurança, banco de dados e contagem de cliques.</li>
+      <li>LemonSqueezy: pagamentos dos destaques patrocinados, como vendedor responsável.</li>
+      <li>Cloudflare Turnstile: proteção dos formulários contra abuso automatizado.</li>
+    </ul>
+
+    <h2>Seus direitos</h2>
+    <p>
+      Você pode pedir acesso, correção ou exclusão dos seus dados, se opor ao tratamento ou pedir
+      uma cópia, escrevendo para <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+      Também pode reclamar à autoridade de proteção de dados, como a ANPD no Brasil ou a autoridade
+      nacional no seu país da União Europeia.
+    </p>
+  </ProseLayout>
+) : (
+  <>
+    <ProseLayout
+      title="Privacy policy: what we collect and why"
+      description="What NewsMapp collects, why and for how long, who processes it, and how to exercise your rights under the GDPR and Brazil's LGPD."
+      heading="Privacy policy"
+      updated="2026-10-27"
+    >
+      <p>
+        NewsMapp does not use cookies and does not track you across sites. This policy explains the
+        little we do collect. The controller is {site.legal_name}, reachable at{' '}
+        <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+      </p>
+
+      <h2 id="what-we-collect">What we collect</h2>
+      <div class="table-scroll" role="region" aria-labelledby="what-we-collect" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Purpose</th>
+              <th scope="col">Legal basis</th>
+              <th scope="col">Kept for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Clicks on outlet links: outlet, page, your country, and a code that changes every
+                day
+              </td>
+              <td>
+                Know which outlets readers use and report filtered click estimates to sponsors
+              </td>
+              <td>Legitimate interest</td>
+              <td>Aggregated; the daily code cannot be linked across days</td>
+            </tr>
+            <tr>
+              <td>
+                Name, website and e-mail you send in the suggestion, correction or sponsorship forms
+              </td>
+              <td>Review your request and answer you</td>
+              <td>Your request (pre-contractual steps) or legitimate interest</td>
+              <td>E-mail anonymized 24 months after the request closes</td>
+            </tr>
+            <tr>
+              <td>Payment details for sponsorships</td>
+              <td>Charge and invoice</td>
+              <td>Contract</td>
+              <td>Held by our payment provider, LemonSqueezy, as merchant of record</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        We never store your IP address or browser details in readable form. The daily code is a
+        keyed hash of them that is discarded with its key every day. While a sponsorship checkout is
+        open, a similar daily code of your IP address and browser is kept with the reservation so
+        that one visitor cannot hold many places at once; it is deleted when you pay or the 30
+        minutes run out.
+      </p>
+
+      <h2>Stored on your device</h2>
+      <p>
+        Your theme choice (light or dark) is kept in your browser's local storage, and your country,
+        as detected for the page you are on, in its session storage. Neither is sent to us or to
+        anyone else.
+      </p>
+
+      <h2>Who processes data for us</h2>
+      <ul>
+        <li>Cloudflare: hosting, security, the database and click counting.</li>
+        <li>LemonSqueezy: payments for sponsored listings, as merchant of record.</li>
+        <li>Cloudflare Turnstile: protecting forms from automated abuse.</li>
+      </ul>
+
+      <h2>Your rights</h2>
+      <p>
+        You can ask to access, correct or delete your data, object to processing or ask for a copy,
+        by writing to <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>. You can
+        also complain to your data protection authority, such as the ANPD in Brazil or your national
+        authority in the European Union.
+      </p>
+    </ProseLayout>
+
+    <style>
+      /* Four columns do not fit a phone: the table scrolls on its own, not the page. */
+      .table-scroll {
+        overflow-x: auto;
+      }
+
+      .table-scroll table {
+        min-width: 36rem;
+      }
+    </style>
+  </>
+)}

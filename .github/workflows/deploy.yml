@@ -5,7 +5,7 @@
 #   - workflow_call from scheduled.yml (daily rebuild for expirations).
 # Secrets: CLOUDFLARE_API_TOKEN (deploy), CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_READ_TOKEN (snapshot).
 # Variables (public, baked into the static pages at build time and passed to the Worker):
-#   SITE_URL, TURNSTILE_SITE_KEY (required), ENABLED_LOCALES (default en), ADS_ENABLED (default false).
+#   SITE_URL, TURNSTILE_SITE_KEY (required), ENABLED_LOCALES (default en,pt), ADS_ENABLED (default false).
 name: Deploy
 
 on:
@@ -60,7 +60,7 @@ jobs:
     env:
       SITE_URL: ${{ vars.SITE_URL }}
       TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
-      ENABLED_LOCALES: ${{ vars.ENABLED_LOCALES || 'en' }}
+      ENABLED_LOCALES: ${{ vars.ENABLED_LOCALES || 'en,pt' }}
       ADS_ENABLED: ${{ vars.ADS_ENABLED || 'false' }}
     steps:
       - name: Reason

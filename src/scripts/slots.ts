@@ -10,18 +10,28 @@ interface Prices {
 export const asSelect = (el: unknown): HTMLSelectElement | null =>
   el instanceof HTMLSelectElement ? el : null;
 
-const usd = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD',
-  maximumFractionDigits: 0,
-});
+/** Fills {name} placeholders in the page's data-* strings. */
+const fill = (template: string, values: Record<string, string | number>): string =>
+  template.replace(/\{(\w+)\}/g, (match, key: string) => String(values[key] ?? match));
 
 export function initSlotCheck(): void {
   const check = document.querySelector<HTMLFormElement>('[data-slot-check]');
   const output = document.querySelector<HTMLElement>('[data-availability]');
   if (!check || !output) return;
   const prices = JSON.parse(check.dataset.prices ?? '{}') as Prices;
+  const text = check.dataset;
+  const usd = new Intl.NumberFormat(text.intl ?? 'en-US', {
+    style: 'currency',
+    currency: 'USD',
+    maximumFractionDigits: 0,
+  });
   let request = 0;
+
+  const fillCost = (price: { monthly: number; yearly: number }) =>
+    fill(text.cost ?? '{monthly} a month or {yearly} a year.', {
+      monthly: usd.format(price.monthly),
+      yearly: usd.format(price.yearly),
+    });
 
   const sync = (name: string, value: string) => {
     const target = asSelect(document.querySelector(`select[data-sync="${name}"]`));
@@ -39,24 +49,27 @@ export function initSlotCheck(): void {
       el.textContent = price ? `(${usd.format(price[plan])})` : '';
     }
     const current = ++request;
-    output.textContent = 'Checking open places…';
+    output.textContent = text.checking ?? 'Checking open places…';
     try {
       const response = await fetch(`/api/slots/?country=${country}&category=${category}`);
       if (!response.ok) throw new Error(String(response.status));
       const { available, total } = (await response.json()) as { available: number; total: number };
       if (current !== request) return;
-      const cost = price
-        ? `${usd.format(price.monthly)} a month or ${usd.format(price.yearly)} a year.`
-        : '';
+      const cost = price ? fillCost(price) : '';
       output.textContent =
         available > 0
-          ? `${available} of ${total} places open. ${cost}`
-          : `All ${total} places are taken. Choose another category, or write to us to join the waiting list.`;
+          ? `${fill(text.open ?? '{available} of {total} places open.', { available, total })} ${cost}`
+          : fill(
+              text.full ??
+                'All {total} places are taken. Choose another category, or write to us to join the waiting list.',
+              { total },
+            );
     } catch {
       if (current !== request) return;
+      const failed = text.unchecked ?? 'Availability could not be checked right now.';
       output.textContent = price
-        ? `Availability could not be checked right now. Price: ${usd.format(price.monthly)} a month or ${usd.format(price.yearly)} a year.`
-        : 'Availability could not be checked right now.';
+        ? `${failed} ${fill(text.priceLabel ?? 'Price: {cost}', { cost: fillCost(price) })}`
+        : failed;
     }
   };
 

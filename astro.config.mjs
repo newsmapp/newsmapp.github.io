@@ -16,7 +16,7 @@ export default defineConfig({
   env: {
     schema: {
       ADS_ENABLED: envField.boolean({ context: 'server', access: 'public', default: false }),
-      ENABLED_LOCALES: envField.string({ context: 'server', access: 'public', default: 'en' }),
+      ENABLED_LOCALES: envField.string({ context: 'server', access: 'public', default: 'en,pt' }),
       // Cloudflare's always-pass test key by default; the real key is public too.
       TURNSTILE_SITE_KEY: envField.string({
         context: 'client',

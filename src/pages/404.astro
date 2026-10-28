@@ -1,16 +1,33 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { UI_TEXT } from '../lib/i18n/ui';
+import { LANG_META, localizePath } from '../lib/i18n/lang';
+import { siteLangs } from '../data/i18n';
+
+// One file answers every missing address, so the message is given in each site language.
+const [first, ...others] = siteLangs.map((lang) => ({ lang, t: UI_TEXT[lang].notFound }));
 ---
 
-<BaseLayout title="Page not found" description="This page does not exist on NewsMapp." noindex>
+<BaseLayout title={first?.t.title ?? ''} description={first?.t.description ?? ''} noindex>
   <div class="page missing">
-    <h1>This page does not exist</h1>
-    <p>
-      The country or outlet may not be published yet, or the address has a typo. Search for it, or
-      start from the <a href="/">list of countries</a>.
-    </p>
+    {first && (
+      <>
+        <h1>{first.t.heading}</h1>
+        <p>
+          {first.t.body} <a href={localizePath('/', first.lang)}>{first.t.home}</a>.
+        </p>
+      </>
+    )}
+    {others.map(({ lang, t }) => (
+      <div lang={LANG_META[lang].tag}>
+        <h2>{t.heading}</h2>
+        <p>
+          {t.body} <a href={localizePath('/', lang)}>{t.home}</a>.
+        </p>
+      </div>
+    ))}
     <button type="button" data-open-search>
-      Search countries and outlets
+      {first?.t.search}
     </button>
   </div>
 </BaseLayout>
@@ -21,6 +38,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     gap: var(--space-4);
     max-width: 40rem;
     padding-block: var(--space-8);
+  }
+
+  .missing div {
+    display: grid;
+    gap: var(--space-2);
   }
 
   button {

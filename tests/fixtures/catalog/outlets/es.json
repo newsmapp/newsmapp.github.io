@@ -6,7 +6,10 @@
     "url": "https://es-morning-ledger.example.com/",
     "rss_url": "https://es-morning-ledger.example.com/feed.xml",
     "language": "en",
-    "categories": ["general-news", "politics"],
+    "categories": [
+      "general-news",
+      "politics"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 1,
@@ -24,11 +27,16 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Fictional morning ledger used to test the Spain directory page layout."
+      "en": "Fictional morning ledger used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Morning Ledger) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain Morning Ledger is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain Morning Ledger é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },
@@ -48,7 +56,9 @@
     "url": "https://es-national-courier.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 2
@@ -65,11 +75,16 @@
     "format": "newspaper",
     "editor_pick": true,
     "pitch": {
-      "en": "Fictional national courier used to test the Spain directory page layout."
+      "en": "Fictional national courier used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (National Courier) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain National Courier is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain National Courier é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },
@@ -89,7 +104,10 @@
     "url": "https://es-public-radio-news.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news", "broadcast"],
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 3,
@@ -107,11 +125,16 @@
     "format": "broadcaster-radio",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional public radio news used to test the Spain directory page layout."
+      "en": "Fictional public radio news used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Public Radio News) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain Public Radio News is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain Public Radio News é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },
@@ -131,7 +154,9 @@
     "url": "https://es-wire-service.example.com/",
     "rss_url": "https://es-wire-service.example.com/feed.xml",
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 4
@@ -148,11 +173,16 @@
     "format": "agency",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional wire service used to test the Spain directory page layout."
+      "en": "Fictional wire service used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Wire Service) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain Wire Service is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain Wire Service é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },
@@ -172,7 +202,9 @@
     "url": "https://es-evening-standard-post.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 5
@@ -189,7 +221,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional evening standard post used to test the Spain directory page layout."
+      "en": "Fictional evening standard post used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Evening Standard Post) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -208,7 +241,9 @@
     "url": "https://es-daily-digest.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 6
@@ -225,7 +260,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional daily digest used to test the Spain directory page layout."
+      "en": "Fictional daily digest used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Daily Digest) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -244,7 +280,9 @@
     "url": "https://es-market-journal.example.com/",
     "rss_url": "https://es-market-journal.example.com/feed.xml",
     "language": "en",
-    "categories": ["economy"],
+    "categories": [
+      "economy"
+    ],
     "primary_category": "economy",
     "ranks": {
       "economy": 1
@@ -261,7 +299,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional market journal used to test the Spain directory page layout."
+      "en": "Fictional market journal used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Market Journal) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -280,7 +319,9 @@
     "url": "https://es-finance-weekly.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["economy"],
+    "categories": [
+      "economy"
+    ],
     "primary_category": "economy",
     "ranks": {
       "economy": 2
@@ -297,7 +338,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional finance weekly used to test the Spain directory page layout."
+      "en": "Fictional finance weekly used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Finance Weekly) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -316,7 +358,9 @@
     "url": "https://es-trade-monitor.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["economy"],
+    "categories": [
+      "economy"
+    ],
     "primary_category": "economy",
     "ranks": {
       "economy": 3
@@ -333,7 +377,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional trade monitor used to test the Spain directory page layout."
+      "en": "Fictional trade monitor used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Trade Monitor) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -352,7 +397,10 @@
     "url": "https://es-capital-review.example.com/",
     "rss_url": "https://es-capital-review.example.com/feed.xml",
     "language": "en",
-    "categories": ["economy", "politics"],
+    "categories": [
+      "economy",
+      "politics"
+    ],
     "primary_category": "economy",
     "ranks": {
       "economy": 4,
@@ -370,7 +418,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional capital review used to test the Spain directory page layout."
+      "en": "Fictional capital review used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Capital Review) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -389,7 +438,9 @@
     "url": "https://es-exchange-report.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["economy"],
+    "categories": [
+      "economy"
+    ],
     "primary_category": "economy",
     "ranks": {
       "economy": 5
@@ -406,7 +457,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional exchange report used to test the Spain directory page layout."
+      "en": "Fictional exchange report used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Exchange Report) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -425,7 +477,9 @@
     "url": "https://es-stadium-daily.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["sports"],
+    "categories": [
+      "sports"
+    ],
     "primary_category": "sports",
     "ranks": {
       "sports": 1
@@ -442,7 +496,8 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional stadium daily used to test the Spain directory page layout."
+      "en": "Fictional stadium daily used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Stadium Daily) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -461,7 +516,9 @@
     "url": "https://es-match-report.example.com/",
     "rss_url": "https://es-match-report.example.com/feed.xml",
     "language": "en",
-    "categories": ["sports"],
+    "categories": [
+      "sports"
+    ],
     "primary_category": "sports",
     "ranks": {
       "sports": 2
@@ -478,7 +535,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional match report used to test the Spain directory page layout."
+      "en": "Fictional match report used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Match Report) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -497,7 +555,10 @@
     "url": "https://es-sports-channel.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["sports", "broadcast"],
+    "categories": [
+      "sports",
+      "broadcast"
+    ],
     "primary_category": "sports",
     "ranks": {
       "sports": 3,
@@ -515,7 +576,8 @@
     "format": "broadcaster-tv",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional sports channel used to test the Spain directory page layout."
+      "en": "Fictional sports channel used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Sports Channel) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -534,7 +596,9 @@
     "url": "https://es-track-and-field.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["sports"],
+    "categories": [
+      "sports"
+    ],
     "primary_category": "sports",
     "ranks": {
       "sports": 4
@@ -551,7 +615,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional track and field used to test the Spain directory page layout."
+      "en": "Fictional track and field used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Track and Field) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -570,7 +635,9 @@
     "url": "https://es-parliament-watch.example.com/",
     "rss_url": "https://es-parliament-watch.example.com/feed.xml",
     "language": "en",
-    "categories": ["politics"],
+    "categories": [
+      "politics"
+    ],
     "primary_category": "politics",
     "ranks": {
       "politics": 3
@@ -587,7 +654,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional parliament watch used to test the Spain directory page layout."
+      "en": "Fictional parliament watch used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Parliament Watch) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -606,7 +674,9 @@
     "url": "https://es-circuit-review.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["tech-science"],
+    "categories": [
+      "tech-science"
+    ],
     "primary_category": "tech-science",
     "ranks": {
       "tech-science": 1
@@ -623,7 +693,8 @@
     "format": "digital-native",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional circuit review used to test the Spain directory page layout."
+      "en": "Fictional circuit review used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Circuit Review) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -642,7 +713,9 @@
     "url": "https://es-lab-notes.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["tech-science"],
+    "categories": [
+      "tech-science"
+    ],
     "primary_category": "tech-science",
     "ranks": {
       "tech-science": 2
@@ -659,7 +732,8 @@
     "format": "magazine",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional lab notes used to test the Spain directory page layout."
+      "en": "Fictional lab notes used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (Lab Notes) usado para testar a página do diretório: Espanha."
     },
     "about": {},
     "sources": [],
@@ -678,7 +752,9 @@
     "url": "https://es-unverified.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 99
@@ -695,11 +771,16 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional national courier used to test the Spain directory page layout."
+      "en": "Fictional national courier used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (National Courier) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain National Courier is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain National Courier é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },
@@ -719,7 +800,9 @@
     "url": "https://es-closed.example.com/",
     "rss_url": null,
     "language": "en",
-    "categories": ["general-news"],
+    "categories": [
+      "general-news"
+    ],
     "primary_category": "general-news",
     "ranks": {
       "general-news": 98
@@ -736,11 +819,16 @@
     "format": "newspaper",
     "editor_pick": false,
     "pitch": {
-      "en": "Fictional national courier used to test the Spain directory page layout."
+      "en": "Fictional national courier used to test the Spain directory page layout.",
+      "pt": "Veículo fictício (National Courier) usado para testar a página do diretório: Espanha."
     },
     "about": {
       "en": {
         "text": "Spain National Courier is a fictional outlet used only in automated tests.",
+        "reviewed": true
+      },
+      "pt": {
+        "text": "Spain National Courier é um veículo fictício usado apenas em testes automatizados.",
         "reviewed": true
       }
     },

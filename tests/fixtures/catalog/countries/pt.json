@@ -3,7 +3,8 @@
   "iso3": "PRT",
   "slug": "portugal",
   "name": {
-    "en": "Portugal"
+    "en": "Portugal",
+    "pt": "Portugal"
   },
   "continent": "europe",
   "also_in": [],
@@ -12,7 +13,9 @@
     "year": 2024,
     "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
   },
-  "official_languages": ["pt"],
+  "official_languages": [
+    "pt"
+  ],
   "press_freedom": {
     "rank": 10,
     "status": "good",
@@ -41,6 +44,29 @@
         },
         "economy": {
           "intro": "Fixture intro for business news in Portugal."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-01-15"
+    },
+    "pt": {
+      "summary": "Resumo fictício do panorama da mídia (Portugal), usado apenas pelos testes automatizados do diretório.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias (Portugal)?",
+          "a": "O fixture lista primeiro o Portugal Morning Ledger."
+        },
+        {
+          "q": "Quais sites de notícias (Portugal) são gratuitos?",
+          "a": "Vários veículos do fixture são de leitura gratuita."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Introdução do fixture para notícias nacionais (Portugal)."
+        },
+        "economy": {
+          "intro": "Introdução do fixture para negócios (Portugal)."
         }
       },
       "reviewed": true,

@@ -4,7 +4,7 @@
  * Only the icons listed here are bundled.
  */
 const sources = import.meta.glob<string>(
-  '../../node_modules/lucide-static/icons/{newspaper,landmark,trophy,chart-line,search-check,flask-conical,radio,map-pin,search,sun,moon,info,arrow-up-right,x,list,chevron-down}.svg',
+  '../../node_modules/lucide-static/icons/{newspaper,landmark,trophy,chart-line,search-check,flask-conical,radio,map-pin,search,sun,moon,info,arrow-up-right,x,list,chevron-down,languages}.svg',
   { query: '?raw', import: 'default', eager: true },
 );
 
@@ -24,7 +24,8 @@ export type IconName =
   | 'arrow-up-right'
   | 'x'
   | 'list'
-  | 'chevron-down';
+  | 'chevron-down'
+  | 'languages';
 
 interface Props {
   name: IconName;

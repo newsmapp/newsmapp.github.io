@@ -1,4 +1,6 @@
 ---
+import { i18n } from '../data/i18n';
+
 export interface Crumb {
   label: string;
   href: string;
@@ -9,9 +11,10 @@ interface Props {
 }
 
 const { items } = Astro.props;
+const { t } = i18n(Astro.url);
 ---
 
-<nav aria-label="Breadcrumb" class="crumbs data">
+<nav aria-label={t.crumbs.label} class="crumbs data">
   <ol>
     {items.map((item, index) => (
       <li>

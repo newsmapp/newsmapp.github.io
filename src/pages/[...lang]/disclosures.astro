@@ -1,0 +1,130 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { forEachLang, i18n } from '../../data/i18n';
+
+export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
+
+const { lang } = i18n(Astro.url);
+---
+
+{lang === 'pt' ? (
+  <ProseLayout
+    title="Transparência: destaques patrocinados e links de parceiros"
+    description="Como o NewsMapp identifica destaques patrocinados e links de parceiros, e por que o pagamento nunca muda a posição editorial de um veículo."
+    heading="Destaques patrocinados e links de parceiros"
+    updated="2026-10-27"
+    legal
+  >
+    <p>O NewsMapp ganha dinheiro de duas formas. Nenhuma delas muda a ordem dos veículos.</p>
+
+    <h2>Destaques patrocinados</h2>
+    <ul>
+      <li>
+        Os veículos podem pagar para aparecer em até três vagas patrocinadas no topo de uma
+        categoria em um país.
+      </li>
+      <li>
+        As vagas patrocinadas trazem a palavra Patrocinado e um fundo destacado, e ficam acima da
+        classificação editorial, separadas dela.
+      </li>
+      <li>
+        Todo destaque patrocinado é revisado por um editor antes de entrar no ar. Recusamos sites
+        que não são veículos de notícias ou que enganam os leitores, e devolvemos o pagamento.
+      </li>
+      <li>
+        Os links nas vagas patrocinadas levam a marcação <code>rel="sponsored"</code> para os
+        buscadores.
+      </li>
+      <li>
+        Os números de cliques que informamos aos patrocinadores são estimativas filtradas: removemos
+        o tráfego automatizado e os cliques repetidos, e alguns navegadores bloqueiam a nossa
+        contagem.
+      </li>
+    </ul>
+
+    <h2>Links de parceiros</h2>
+    <ul>
+      <li>
+        Algumas páginas mostram uma oferta de parceiro, como uma VPN para ler no Wi-Fi público ou um
+        serviço que vende acesso legítimo a jornais pagos.
+      </li>
+      <li>
+        Se você comprar por um link de parceiro, podemos receber uma comissão. A oferta é
+        identificada como link de parceiro onde aparece.
+      </li>
+      <li>
+        Nunca divulgamos ferramentas para burlar paywalls, direitos de transmissão ou os termos de
+        uso de um site.
+      </li>
+      <li>
+        Ofertas de VPN não aparecem para visitantes de países onde o uso de VPN é proibido ou
+        restrito.
+      </li>
+    </ul>
+
+    <h2>Publicidade</h2>
+    <p>
+      O site não exibe anúncios hoje. Se isso mudar, os anúncios serão identificados, ficarão longe
+      da classificação e só serão carregados depois do seu consentimento, onde a lei exigir. Esta
+      página será atualizada antes.
+    </p>
+  </ProseLayout>
+) : (
+  <ProseLayout
+    title="Disclosures: sponsored listings and partner links"
+    description="How NewsMapp labels sponsored listings and partner links, and why payment never changes an outlet's editorial position."
+    heading="Sponsored listings and partner links"
+    updated="2026-10-27"
+  >
+    <p>NewsMapp earns money in two ways. Neither changes the order in which outlets are ranked.</p>
+
+    <h2>Sponsored listings</h2>
+    <ul>
+      <li>
+        Outlets can pay to appear in up to three sponsored places at the top of a category in a
+        country.
+      </li>
+      <li>
+        Sponsored places carry the word Sponsored and a highlighted background, and sit above the
+        editorial ranking, separated from it.
+      </li>
+      <li>
+        Every sponsored listing is reviewed by an editor before it goes live. We refuse sites that
+        are not news outlets or that mislead readers, and refund them.
+      </li>
+      <li>
+        Links in sponsored places are marked <code>rel="sponsored"</code> for search engines.
+      </li>
+      <li>
+        Click figures we give sponsors are labeled as filtered estimates: we remove automated
+        traffic and repeated clicks, and some browsers block our counting.
+      </li>
+    </ul>
+
+    <h2>Partner links</h2>
+    <ul>
+      <li>
+        Some pages show one partner offer, such as a VPN for reading on public Wi-Fi or a service
+        that sells legitimate access to paid newspapers.
+      </li>
+      <li>
+        If you buy through a partner link, we may earn a commission. The offer is labeled as a
+        partner link where it appears.
+      </li>
+      <li>
+        We never promote tools for getting around paywalls, broadcasting rights or a site's terms of
+        use.
+      </li>
+      <li>
+        VPN offers are not shown to visitors from countries where VPN use is banned or restricted.
+      </li>
+    </ul>
+
+    <h2>Advertising</h2>
+    <p>
+      The site does not show display advertising today. If that changes, ads will be labeled, kept
+      away from the ranking, and loaded only after you give consent where the law requires it. This
+      page will be updated first.
+    </p>
+  </ProseLayout>
+)}

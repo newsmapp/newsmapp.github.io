@@ -1,45 +1,48 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import CategoryColumnCard from '../../components/CategoryColumnCard.astro';
-import AffiliateCard from '../../components/AffiliateCard.astro';
-import AdSlot from '../../components/AdSlot.astro';
-import PressFreedom from '../../components/PressFreedom.astro';
-import Faq from '../../components/Faq.astro';
-import CountryList from '../../components/CountryList.astro';
-import FilterBar from '../../components/FilterBar';
-import type { PublicCountry } from '../../lib/catalog/public';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CategoryColumnCard from '../../../components/CategoryColumnCard.astro';
+import AffiliateCard from '../../../components/AffiliateCard.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import PressFreedom from '../../../components/PressFreedom.astro';
+import Faq from '../../../components/Faq.astro';
+import CountryList from '../../../components/CountryList.astro';
+import FilterBar from '../../../components/FilterBar';
+import type { PublicCountry } from '../../../lib/catalog/public';
 import {
-  CONTINENT_LABELS,
-  LOCALE,
   categoryLabel,
   categoryPages,
   countries,
-  countryName,
+  countryPlace,
   hubs,
-  paths,
   relatedCountries,
-} from '../../data/catalog';
-import { affiliates, sponsorshipsFor } from '../../data/monetization';
-import { countryGrid } from '../../lib/catalog/thresholds';
-import { selectAffiliate } from '../../lib/monetization/affiliates';
-import { FORMAT_LABEL, OWNERSHIP_LABEL, PAYWALL_TAG, plural } from '../../lib/format';
-import { breadcrumbList, faqPage, itemList } from '../../lib/seo/jsonld';
-import { FORMATS, OWNERSHIP_TYPES, PAYWALLS } from '../../schemas/catalog.schema';
+} from '../../../data/catalog';
+import { forEachLang, i18n } from '../../../data/i18n';
+import { affiliates, sponsorshipsFor } from '../../../data/monetization';
+import { countryGrid } from '../../../lib/catalog/thresholds';
+import { selectAffiliate } from '../../../lib/monetization/affiliates';
+import { formatCompact } from '../../../lib/format';
+import type { Lang } from '../../../lib/i18n/lang';
+import { breadcrumbList, faqPage, itemList } from '../../../lib/seo/jsonld';
+import { FORMATS, OWNERSHIP_TYPES, PAYWALLS } from '../../../schemas/catalog.schema';
 
-export function getStaticPaths() {
-  return countries.map((country) => ({ params: { country: country.slug }, props: { country } }));
-}
+export const getStaticPaths = () =>
+  forEachLang(() =>
+    countries.map((country) => ({ params: { country: country.slug }, props: { country } })),
+  );
 
 interface Props {
   country: PublicCountry;
+  lang: Lang;
 }
 
-const { country } = Astro.props;
-const name = countryName(country);
-const context = country.seo_context[LOCALE];
+const { country, lang } = Astro.props;
+const { t, l, paths } = i18n(Astro.url);
+const where = countryPlace(country, lang);
+const name = where.name;
+const context = country.seo_context[lang];
 const grid = countryGrid(country.outlets);
-const withPages = new Set(categoryPages(country));
+const withPages = new Set(categoryPages(country, lang));
 const related = relatedCountries(country);
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const affiliate = selectAffiliate(affiliates, {
@@ -48,9 +51,9 @@ const affiliate = selectAffiliate(affiliates, {
 });
 
 const crumbs = [
-  { label: 'Home', href: paths.home },
+  { label: t.crumbs.home, href: paths.home },
   ...(hubs.has(country.continent)
-    ? [{ label: CONTINENT_LABELS[country.continent], href: paths.continent(country.continent) }]
+    ? [{ label: l.continent[country.continent], href: paths.continent(country.continent) }]
     : []),
   { label: name, href: paths.country(country) },
 ];
@@ -61,12 +64,12 @@ const present = <T extends string>(
 ) => values.filter((value) => country.outlets.some((o) => pick(o) === value));
 
 const total = country.outlets.length;
-const title = `Newspapers in ${name}: ${total} outlets compared`;
-const description = `Compare ${total} newspapers, TV and radio news and news sites in ${name}, ranked by category, with paywall and ownership for each.`;
+const title = t.country.title(where, total);
+const description = t.country.description(where, total);
 const jsonld = [
   breadcrumbList(siteUrl, crumbs),
   itemList(
-    `News outlets in ${name}`,
+    t.country.itemList(where),
     country.outlets.map((o) => ({
       name: o.name,
       url: new URL(paths.outlet(country, o), siteUrl).toString(),
@@ -82,36 +85,37 @@ const jsonld = [
       <Breadcrumbs items={crumbs} />
       <h1>
         <img class="flag" src={paths.flag(country.iso2)} alt="" width="32" height="24" />
-        Newspapers and news sites in {name}
+        {t.country.heading(where)}
       </h1>
       <p class="lede">
-        {plural(total, 'outlet')} in {plural(grid.columns.length, 'category', 'categories')}, ranked
-        by our editors. <a href="/methodology/">How we rank</a>
+        {t.country.lede(total, grid.columns.length)}{' '}
+        <a href={paths.page('/methodology/')}>{t.country.howWeRank}</a>
       </p>
     </div>
 
-    <nav class="tabs" aria-label="Categories">
+    <nav class="tabs" aria-label={t.country.tabs}>
       {grid.columns.map(({ category }) => (
-        <a href={`#${category}`}>{categoryLabel(category)}</a>
+        <a href={`#${category}`}>{categoryLabel(category, lang)}</a>
       ))}
-      {grid.more.length > 0 && <a href="#more-outlets">More outlets</a>}
+      {grid.more.length > 0 && <a href="#more-outlets">{t.column.more}</a>}
     </nav>
 
     <div class="filterbar">
       <FilterBar
         client:load
         total={total}
+        labels={t.filter}
         paywalls={present(PAYWALLS, (o) => o.paywall).map((v) => ({
           value: v,
-          label: PAYWALL_TAG[v],
+          label: l.paywallTag[v],
         }))}
         ownership={present(OWNERSHIP_TYPES, (o) => o.ownership_type).map((v) => ({
           value: v,
-          label: OWNERSHIP_LABEL[v],
+          label: l.ownership[v],
         }))}
         formats={present(FORMATS, (o) => o.format).map((v) => ({
           value: v,
-          label: FORMAT_LABEL[v],
+          label: l.format[v],
         }))}
       />
     </div>
@@ -133,7 +137,7 @@ const jsonld = [
           category={grid.more[0].primary_category}
           outlets={grid.more}
           hasPage={false}
-          moreLabel="More outlets"
+          moreLabel={t.column.more}
         />
       )}
     </div>
@@ -144,7 +148,7 @@ const jsonld = [
       <div class="reading">
         {context && (
           <section aria-labelledby="landscape">
-            <h2 id="landscape">The media landscape in {name}</h2>
+            <h2 id="landscape">{t.country.landscape(where)}</h2>
             <div class="prose">
               {context.summary.split(/\n\n+/).map((p) => (
                 <p>{p}</p>
@@ -153,34 +157,30 @@ const jsonld = [
           </section>
         )}
         {context && context.faq.length > 0 && (
-          <Faq items={context.faq} heading={`Questions about news in ${name}`} />
+          <Faq items={context.faq} heading={t.country.faq(where)} />
         )}
       </div>
       <aside class="side">
         {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
-        <PressFreedom country={country} name={name} />
+        <PressFreedom country={country} where={where} />
         <section aria-labelledby="facts">
-          <h2 id="facts">About {name}</h2>
+          <h2 id="facts">{t.country.about(where)}</h2>
           <dl class="facts data">
-            <dt>Population</dt>
+            <dt>{t.country.population}</dt>
             <dd>
-              {new Intl.NumberFormat('en-US', {
-                notation: 'compact',
-                maximumFractionDigits: 1,
-              }).format(country.population.value)}{' '}
-              ({country.population.year},{' '}
+              {formatCompact(country.population.value, lang)} ({country.population.year},{' '}
               <a href={country.population.source} rel="noopener">
-                World Bank
+                {t.country.worldBank}
               </a>
               )
             </dd>
-            <dt>Continent</dt>
-            <dd>{CONTINENT_LABELS[country.continent]}</dd>
+            <dt>{t.country.continent}</dt>
+            <dd>{l.continent[country.continent]}</dd>
           </dl>
         </section>
         {related.length > 0 && (
           <section aria-labelledby="nearby">
-            <h2 id="nearby">News in nearby countries</h2>
+            <h2 id="nearby">{t.country.nearby}</h2>
             <CountryList countries={related} />
           </section>
         )}

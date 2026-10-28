@@ -1,7 +1,8 @@
 ---
 import type { Category } from '../schemas/catalog.schema';
 import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
-import { categoryLabel, paths } from '../data/catalog';
+import { categoryLabel } from '../data/catalog';
+import { i18n } from '../data/i18n';
 import { CATEGORY_ICON } from '../lib/format';
 import Icon, { type IconName } from './Icon.astro';
 import OutletRow from './OutletRow.astro';
@@ -31,7 +32,8 @@ const {
   aboveFold = false,
   moreLabel,
 } = Astro.props;
-const label = moreLabel ?? categoryLabel(category);
+const { lang, t, paths } = i18n(Astro.url);
+const label = moreLabel ?? categoryLabel(category, lang);
 const sectionId = moreLabel ? 'more-outlets' : category;
 const headingId = `col-${sectionId}`;
 const first = outlets.slice(0, visible);
@@ -50,13 +52,13 @@ const lazyFrom = aboveFold ? 8 : 0;
     </span>
   </header>
   {sponsorships.length > 0 && (
-    <ol class="sponsored-list" aria-label={`Sponsored listings in ${label}`}>
+    <ol class="sponsored-list" aria-label={t.column.sponsored(label)}>
       {sponsorships.map((s) => (
         <SponsoredSlot sponsorship={s} />
       ))}
     </ol>
   )}
-  <ol class="rows" aria-label={`${label}, ranked`}>
+  <ol class="rows" aria-label={t.column.ranked(label)}>
     {first.map((outlet, index) => (
       <OutletRow
         outlet={outlet}
@@ -70,7 +72,7 @@ const lazyFrom = aboveFold ? 8 : 0;
   </ol>
   {rest.length > 0 && (
     <details class="more">
-      <summary>Show all {outlets.length}</summary>
+      <summary>{t.column.showAll(outlets.length)}</summary>
       <ol class="rows" start={visible + 1}>
         {rest.map((outlet, index) => (
           <OutletRow
@@ -86,12 +88,16 @@ const lazyFrom = aboveFold ? 8 : 0;
     </details>
   )}
   <p class="empty" data-empty hidden>
-    No outlets match these filters.
+    {t.column.empty}
   </p>
   {!moreLabel && (
     <footer class="foot">
-      <a href={`/corrections/?country=${country.iso2}&category=${category}`}>Suggest an outlet</a>
-      <a href={`/advertise/?country=${country.iso2}&category=${category}`}>Feature yours</a>
+      <a href={paths.page(`/corrections/?country=${country.iso2}&category=${category}`)}>
+        {t.column.suggest}
+      </a>
+      <a href={paths.page(`/advertise/?country=${country.iso2}&category=${category}`)}>
+        {t.column.feature}
+      </a>
     </footer>
   )}
 </section>

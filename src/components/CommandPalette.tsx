@@ -18,13 +18,16 @@ interface Hit {
   type: string;
 }
 
-const TYPE_LABEL: Record<string, string> = {
-  country: 'Country',
-  category: 'Category',
-  outlet: 'Outlet',
-  continent: 'Continent',
-  page: 'Page',
-};
+export interface PaletteLabels {
+  dialog: string;
+  input: string;
+  placeholder: string;
+  error: string;
+  loading: string;
+  /** "{term}" is replaced with the query. */
+  none: string;
+  types: Record<'country' | 'category' | 'outlet' | 'continent' | 'page', string>;
+}
 
 let pagefindPromise: Promise<Pagefind> | null = null;
 function loadPagefind(): Promise<Pagefind> {
@@ -35,7 +38,7 @@ function loadPagefind(): Promise<Pagefind> {
 }
 
 /** ⌘K / Ctrl+K search over countries, categories and outlets (Pagefind, loaded on first open). */
-export default function CommandPalette() {
+export default function CommandPalette({ labels }: { labels: PaletteLabels }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const input = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState('');
@@ -85,7 +88,9 @@ export default function CommandPalette() {
           data.map((d) => ({
             url: d.url,
             title: d.meta.title ?? d.url,
-            type: TYPE_LABEL[d.filters.type?.[0] ?? 'page'] ?? 'Page',
+            type:
+              labels.types[(d.filters.type?.[0] ?? 'page') as keyof PaletteLabels['types']] ??
+              labels.types.page,
           })),
         );
         setActive(0);
@@ -95,7 +100,7 @@ export default function CommandPalette() {
     return () => {
       cancelled = true;
     };
-  }, [query]);
+  }, [query, labels]);
 
   const onKeyDown = (event: KeyboardEvent) => {
     if (event.key === 'ArrowDown') {
@@ -115,12 +120,12 @@ export default function CommandPalette() {
     <dialog
       ref={dialog}
       class="palette"
-      aria-label="Search"
+      aria-label={labels.dialog}
       onClick={(event) => event.target === dialog.current && dialog.current?.close()}
     >
       <div class="palette-box">
         <label class="visually-hidden" for="palette-input">
-          Search countries, categories and outlets
+          {labels.input}
         </label>
         <input
           ref={input}
@@ -128,7 +133,7 @@ export default function CommandPalette() {
           type="search"
           autoComplete="off"
           spellcheck={false}
-          placeholder="Search countries, categories and outlets…"
+          placeholder={labels.placeholder}
           value={query}
           onInput={(event) => setQuery((event.target as HTMLInputElement).value)}
           onKeyDown={onKeyDown}
@@ -155,11 +160,11 @@ export default function CommandPalette() {
         </ul>
         <p class="palette-status" role="status">
           {status === 'error'
-            ? 'Search is unavailable right now. Browse by country from the home page.'
+            ? labels.error
             : status === 'loading'
-              ? 'Searching…'
+              ? labels.loading
               : term.length >= 2 && hits.length === 0
-                ? `No countries or outlets match “${term}”.`
+                ? labels.none.replace('{term}', term)
                 : ''}
         </p>
       </div>
