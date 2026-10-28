@@ -11,12 +11,17 @@ export const POST: APIRoute = ({ request }) =>
   respond(async () => {
     if (await overLimit(env.CLICK_LIMITER, request)) return new Response(null, { status: 204 });
     const parsed = trackPayloadSchema.safeParse(await readJson(request, 1024));
-    // The outlet must exist and belong to the country sent, so reports cannot be skewed with
-    // made-up pairs.
+    // The outlet must exist and belong to the country and category sent, so reports cannot be
+    // skewed with made-up combinations.
+    const outlet =
+      parsed.success && Object.hasOwn(catalog, parsed.data.outlet_id)
+        ? catalog[parsed.data.outlet_id]
+        : undefined;
     if (
       !parsed.success ||
-      !Object.hasOwn(catalog, parsed.data.outlet_id) ||
-      catalog[parsed.data.outlet_id]?.country !== parsed.data.country
+      !outlet ||
+      outlet.country !== parsed.data.country ||
+      !outlet.categories.includes(parsed.data.category)
     )
       return problem(400, 'Invalid click.');
     const userAgent = request.headers.get('user-agent') ?? '';
