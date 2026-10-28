@@ -6,17 +6,18 @@ Commands prefixed with `!` need your Cloudflare or GitHub login: run them yourse
 
 ## 1. Status
 
-Done and verified locally (2026-10-27):
+Done and verified locally (2026-10-27, commit `7b31c19`, English and Brazilian Portuguese):
 
-| Item                                                                                                       | Evidence                                                                                   |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Format, lint, boundaries, types, catalog validation, 162 unit tests                                        | `pnpm check` exit 0; `pnpm ci:local` (both CI jobs) exit 0 in 233 s                        |
-| Production catalog build and SEO audit                                                                     | `pnpm build && pnpm seo:audit`: 9 pages, 8 sitemap URLs, 0 findings                        |
-| Fixture build, E2E and accessibility (axe) on the real Worker with local D1                                | `pnpm e2e`: 38/38                                                                          |
-| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci` exit 0, CLS 0 on all 12 runs, LCP 1.36–1.68 s                                  |
-| Worker bundle and bindings                                                                                 | `wrangler deploy --dry-run`: 280 KiB gzip, D1, Analytics Engine, 2 rate limiters           |
-| A clean clone builds what Deploy ships, favicons included                                                  | fresh `git clone`, `pnpm install --frozen-lockfile`, build: 486 WebP icons, 0 SEO findings |
-| Workflows (`ci.yml`, `deploy.yml`, `scheduled.yml`) and `setup-zone.sh`                                    | `actionlint` and `shellcheck` clean; `setup-zone.sh` dry run prints payloads               |
+| Item                                                                                                       | Evidence                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Format, lint, boundaries, types, catalog validation, 173 unit tests                                        | `pnpm check` exit 0; `pnpm ci:local` (both CI jobs) passed                                                             |
+| Dependency advisories                                                                                      | `pnpm audit` exit 0: production clean; 3 dev-only advisories under `@lhci/cli` accepted by id in `pnpm-workspace.yaml` |
+| Production catalog build and SEO audit                                                                     | `pnpm build && pnpm seo:audit`: 1,742 pages, 234 sitemap URLs (117 per language), 0 findings                           |
+| Fixture build, E2E and accessibility (axe) on the real Worker with local D1, `/pt/` included               | `pnpm e2e`: 51/51                                                                                                      |
+| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci` exit 0, 12 runs                                                                                            |
+| Worker bundle and bindings                                                                                 | `wrangler deploy --dry-run`: 455 KiB gzip (free plan limit 3 MB), D1, Analytics Engine, 2 rate limiters                |
+| D1 migrations 0000–0002                                                                                    | `pnpm db:migrate:local` applies `0002_refund_steps.sql`; Deploy runs `db:migrate:remote` before `wrangler deploy`      |
+| Security audit and code review of `src` and `tools`                                                        | Findings fixed in the commits up to `7b31c19`; actions pinned by SHA                                                   |
 
 Done but not verified (needs your accounts):
 
@@ -142,7 +143,8 @@ Estimated total: 60–90 minutes the first time, excluding DNS propagation and L
   curl -s "$BASE/api/geo/"                                     # {"country":"BR"} or similar
   curl -s "$BASE/api/slots/?country=US&category=general-news"  # {"available":3,"total":3}: D1 works
   curl -sI "$BASE/admin/" | head -1                            # 403 until Access is configured
-  curl -s "$BASE/sitemap-index.xml" | head -5
+  curl -s "$BASE/sitemap-index.xml" | head -5                 # sitemap-en.xml and sitemap-pt.xml
+  curl -sI "$BASE/pt/" | head -1                               # 200: the Portuguese site
   ```
 
 - If `/api/slots/` returns 500: migrations missing (4.4) or wrong `database_id`.
