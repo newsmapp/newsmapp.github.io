@@ -34,6 +34,10 @@ describe('language paths', () => {
     expect(lang('pt')).toBe('pt');
     expect(lang('de-DE,de;q=0.9')).toBe('en');
     expect(lang()).toBe('en');
+    // Only a known language comes out: anything else falls back to English.
+    expect(lang('pt/../../evil')).toBe('en');
+    expect(lang('javascript:alert(1)')).toBe('en');
+    expect(lang(`${'p'.repeat(10_000)},pt`)).toBe('en');
   });
 });
 
