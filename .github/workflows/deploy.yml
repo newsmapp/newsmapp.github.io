@@ -73,12 +73,12 @@ jobs:
             { echo '::error::Set the SITE_URL repository variable (https://your-domain)'; exit 1; }
           [[ -n "$TURNSTILE_SITE_KEY" && "$TURNSTILE_SITE_KEY" != 1x0000* ]] ||
             { echo '::error::Set the TURNSTILE_SITE_KEY repository variable (real site key)'; exit 1; }
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           # workflow_run: deploy exactly the commit CI tested; otherwise the dispatched ref (main).
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
-      - uses: pnpm/action-setup@v6
-      - uses: actions/setup-node@v7
+      - uses: pnpm/action-setup@0977fd99725f1db4007ccb2928dbb4e90d06cc86 # v6
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version-file: .nvmrc
           cache: pnpm
