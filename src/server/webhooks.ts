@@ -94,6 +94,7 @@ async function processEvent(
         .select({
           status: submissions.status,
           subscription: submissions.ls_subscription_id,
+          order: submissions.ls_order_id,
           country: submissions.country_iso,
           plan: submissions.plan,
         })
@@ -119,8 +120,13 @@ async function processEvent(
         };
       }
       if (submission?.status !== 'awaiting_payment') {
-        const closed = submission?.status === 'rejected' || submission?.status === 'refunded';
-        // A closed submission keeps the payment ids, so the editor can retry a failed refund.
+        // A closed submission takes this payment's ids, so the editor can retry a failed refund,
+        // unless it still holds an earlier payment whose refund failed: those ids must stay, and
+        // this payment is settled on its own.
+        const closed =
+          (submission?.status === 'rejected' || submission?.status === 'refunded') &&
+          submission.subscription === null &&
+          submission.order === null;
         if (closed) {
           await db.batch([
             record,

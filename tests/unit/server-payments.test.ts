@@ -189,6 +189,27 @@ describe('applyEvent', () => {
     expect((await submission())?.status).toBe('refunded');
   });
 
+  it('keeps the ids of a failed refund when another payment arrives for the same submission', async () => {
+    await db
+      .update(submissions)
+      .set({
+        status: 'rejected',
+        closed_at: NOW.toISOString(),
+        ls_subscription_id: 'sub-first',
+        ls_order_id: 'order-first',
+      })
+      .where(eq(submissions.id, submissionId));
+    const second = event('subscription_created');
+    const outcome = await applyEvent(db, second, NOW);
+    // The second payment is settled on its own; the first stays on the row for the retry.
+    expect(outcome.unwanted).toMatchObject({ submissionId: null, subscriptionId: second.data.id });
+    expect(await submission()).toMatchObject({
+      status: 'rejected',
+      ls_subscription_id: 'sub-first',
+      ls_order_id: 'order-first',
+    });
+  });
+
   it('hands back a payment for an unknown submission without touching any row', async () => {
     const stray = testEvent('subscription_created', 'sub-unknown', NOW) as WebhookEvent;
     const outcome = await applyEvent(db, stray, NOW);
