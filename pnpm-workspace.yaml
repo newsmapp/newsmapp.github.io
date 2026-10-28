@@ -11,3 +11,15 @@ overrides:
   'uuid@<11.1.1': '^11.1.1'
   'basic-ftp@<6.2.1': '^6.2.1'
   '@esbuild-kit/core-utils>esbuild': '^0.25.0'
+# Accepted, no patched release exists. All three sit under @lhci/cli > lighthouse > puppeteer-core,
+# used only by the CI Lighthouse run against our own build, never deployed:
+# - GHSA-jmr9-qjv8-65gv, GHSA-7pqw-9j4j-h8q3 (extract-zip <=2.0.1, no fixed version): it only
+#   unpacks browser downloads from Chrome's own CDN, and Lighthouse uses the runner's Chrome.
+# - GHSA-mrhx-c7xc-m3w5 (zod 3 in chromium-bidi, fixed only in zod 4, which it does not accept):
+#   it validates messages from the local browser, not untrusted input.
+# Remove each id once @lhci/cli ships without the affected version.
+auditConfig:
+  ignoreGhsas:
+    - GHSA-jmr9-qjv8-65gv
+    - GHSA-7pqw-9j4j-h8q3
+    - GHSA-mrhx-c7xc-m3w5

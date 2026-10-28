@@ -1,7 +1,13 @@
 # Keeps the SHA-pinned actions current; each bump arrives as a PR that CI must pass.
+# For npm, only security updates are opened (a limit of 0 turns off routine version bumps).
 version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0

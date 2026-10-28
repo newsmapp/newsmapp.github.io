@@ -30,6 +30,8 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # Any known advisory fails CI, except the reviewed ones listed in pnpm-workspace.yaml.
+      - run: pnpm audit
       # wrangler types reads .dev.vars to type the secrets; the example has no real values.
       - run: cp .env.example .dev.vars
       - run: pnpm format:check
