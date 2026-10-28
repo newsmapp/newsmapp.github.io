@@ -33,7 +33,11 @@ for (const form of document.querySelectorAll<HTMLFormElement>('form[data-api-for
     try {
       const response = await fetch(form.dataset.endpoint ?? '', {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: {
+          'content-type': 'application/json',
+          // Server messages follow the page language, not the browser's.
+          'accept-language': form.dataset.lang ?? document.documentElement.lang,
+        },
         body: JSON.stringify(data),
       });
       const body = (await response.json().catch(() => ({}))) as ApiError & {
@@ -59,11 +63,15 @@ for (const form of document.querySelectorAll<HTMLFormElement>('form[data-api-for
       }
       if (status)
         status.textContent =
-          body.error ?? 'The form could not be sent. Check the fields and try again.';
+          body.error ??
+          form.dataset.failed ??
+          'The form could not be sent. Check the fields and try again.';
       firstInvalid?.focus();
     } catch {
       if (status)
-        status.textContent = 'The form could not be sent because the connection failed. Try again.';
+        status.textContent =
+          form.dataset.offline ??
+          'The form could not be sent because the connection failed. Try again.';
     } finally {
       if (submit) {
         submit.disabled = false;

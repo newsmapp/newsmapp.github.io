@@ -79,6 +79,27 @@ test('suggesting an outlet', async ({ page }) => {
   await expect(form.getByRole('status')).toHaveText(/Thank you/);
 });
 
+test('Portuguese pages, language switch and translated form errors', async ({ page }) => {
+  await page.goto('/pt/');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
+  await page
+    .getByRole('link', { name: /^Brasil\b/ })
+    .first()
+    .click();
+  await expect(page).toHaveURL(/\/pt\/brazil\/$/);
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Brasil');
+  await page.locator('a[hreflang="en"]').first().click();
+  await expect(page).toHaveURL(/\/brazil\/$/);
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+
+  await page.goto('/pt/corrections/?country=PT&category=sports');
+  const form = page.locator('form[data-endpoint="/api/submit/"]');
+  await form.getByRole('button', { name: 'Enviar sugestão' }).click();
+  await expect(form.locator('[data-field-error="outlet_name"]')).toHaveText(
+    'Informe o nome do veículo.',
+  );
+});
+
 test('sponsorship checkout in simulation mode', async ({ page }) => {
   await page.goto('/advertise/?country=ES&category=regional');
   const availability = page.locator('[data-availability]');

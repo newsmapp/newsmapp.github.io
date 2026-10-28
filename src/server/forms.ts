@@ -11,6 +11,8 @@ import { iso, type Database } from './db';
 import { fieldErrors, json, problem } from './http';
 import { createCheckout, type LemonSqueezyConfig } from './lemonsqueezy';
 import { heldBy, MAX_HOLDS_PER_VISITOR, releaseReservation, reserveSlot } from './sponsorships';
+import { MESSAGES } from './messages';
+import { localizePath, type Lang } from '../lib/i18n/lang';
 
 export interface FormDeps {
   db: Database;
@@ -18,17 +20,18 @@ export interface FormDeps {
   siteUrl: string;
   /** Turnstile check for the token in the payload. */
   human: (token: string) => Promise<boolean>;
+  /** Language of the answer (requestLang). */
+  lang?: Lang;
 }
-
-const NOT_HUMAN = 'The anti-spam check failed. Reload the page and try again.';
 
 /** Free outlet suggestion: stored for the editor, never published automatically. */
 export async function submitSuggestion(body: unknown, deps: FormDeps): Promise<Response> {
+  const lang = deps.lang ?? 'en';
+  const m = MESSAGES[lang];
   const parsed = submitPayloadSchema.safeParse(body);
-  if (!parsed.success)
-    return problem(422, 'Check the highlighted fields.', fieldErrors(parsed.error.issues));
+  if (!parsed.success) return problem(422, m.checkFields, fieldErrors(parsed.error.issues, lang));
   const { turnstile_token: token, ...data } = parsed.data;
-  if (!(await deps.human(token))) return problem(403, NOT_HUMAN);
+  if (!(await deps.human(token))) return problem(403, m.notHuman);
   await deps.db.insert(submissions).values({
     id: newId('sub'),
     ...data,
@@ -38,26 +41,22 @@ export async function submitSuggestion(body: unknown, deps: FormDeps): Promise<R
     created_at: iso(deps.now),
     updated_at: iso(deps.now),
   });
-  return json(
-    { message: 'Thank you. An editor will review the outlet, usually within a week.' },
-    201,
-  );
+  return json({ message: m.suggestionThanks }, 201);
 }
 
 export async function submitCorrection(
   body: unknown,
   deps: FormDeps & { catalog: RuntimeCatalog },
 ): Promise<Response> {
+  const lang = deps.lang ?? 'en';
+  const m = MESSAGES[lang];
   const parsed = correctionPayloadSchema.safeParse(body);
-  if (!parsed.success)
-    return problem(422, 'Check the highlighted fields.', fieldErrors(parsed.error.issues));
+  if (!parsed.success) return problem(422, m.checkFields, fieldErrors(parsed.error.issues, lang));
   const { turnstile_token: token, ...data } = parsed.data;
   if (!Object.hasOwn(deps.catalog, data.outlet_id)) {
-    return problem(422, 'Check the highlighted fields.', {
-      outlet_id: 'Choose an outlet from the list.',
-    });
+    return problem(422, m.checkFields, { outlet_id: m.fields.outlet_id ?? m.checkField });
   }
-  if (!(await deps.human(token))) return problem(403, NOT_HUMAN);
+  if (!(await deps.human(token))) return problem(403, m.notHuman);
   await deps.db.insert(correctionRequests).values({
     id: newId('cor'),
     ...data,
@@ -65,7 +64,7 @@ export async function submitCorrection(
     status: 'open',
     created_at: iso(deps.now),
   });
-  return json({ message: 'Thank you. An editor will review the correction.' }, 201);
+  return json({ message: m.correctionThanks }, 201);
 }
 
 export interface CheckoutDeps extends FormDeps {
@@ -80,19 +79,19 @@ export interface CheckoutDeps extends FormDeps {
 
 /** Reserves a slot for 30 minutes and sends the buyer to payment (SPEC §3.6.1 steps 1–2). */
 export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<Response> {
+  const lang = deps.lang ?? 'en';
+  const m = MESSAGES[lang];
   const parsed = checkoutPayloadSchema.safeParse(body);
-  if (!parsed.success)
-    return problem(422, 'Check the highlighted fields.', fieldErrors(parsed.error.issues));
+  if (!parsed.success) return problem(422, m.checkFields, fieldErrors(parsed.error.issues, lang));
   const { turnstile_token: token, plan, ...data } = parsed.data;
-  if (!(await deps.human(token))) return problem(403, NOT_HUMAN);
+  if (!(await deps.human(token))) return problem(403, m.notHuman);
 
   const tier = tierFor(deps.pricing, data.country_iso);
   const variantId = tier.variant_ids[plan];
-  if (deps.lemonSqueezy && !variantId)
-    return problem(503, 'Sponsorships are not on sale yet. Write to us instead.');
+  if (deps.lemonSqueezy && !variantId) return problem(503, m.notOnSale);
 
   if (deps.holder && (await heldBy(deps.db, deps.holder, deps.now)) >= MAX_HOLDS_PER_VISITOR) {
-    return problem(429, 'You already have checkouts open. Finish one, or try again in 30 minutes.');
+    return problem(429, m.holdsOpen);
   }
   const reservation = await reserveSlot(
     deps.db,
@@ -106,13 +105,10 @@ export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<
     deps.now,
   );
   if (!reservation) {
-    return problem(
-      409,
-      'All places in this category are taken. Choose another category or write to us.',
-    );
+    return problem(409, m.slotsFull);
   }
 
-  const thanks = new URL('/advertise/thanks/', deps.siteUrl);
+  const thanks = new URL(localizePath('/advertise/thanks/', lang), deps.siteUrl);
   if (!deps.lemonSqueezy) {
     thanks.searchParams.set('simulated', '1');
     return json(
@@ -133,6 +129,6 @@ export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<
     // No checkout, no hold: otherwise every retry would take another slot for 30 minutes.
     await releaseReservation(deps.db, deps.now, reservation.sponsorshipId);
     console.error(error);
-    return problem(502, 'The payment page could not be opened. Please try again in a minute.');
+    return problem(502, m.paymentFailed);
   }
 }

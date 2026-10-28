@@ -113,6 +113,18 @@ describe('suggestions and corrections', () => {
 });
 
 describe('startCheckout', () => {
+  it('answers in Portuguese and sends Portuguese readers to /pt/', async () => {
+    const response = await startCheckout(order, { ...deps, lang: 'pt' });
+    expect(await response.json()).toMatchObject({
+      redirect: 'https://newsmap.example/pt/advertise/thanks/?simulated=1',
+    });
+    const invalid = await startCheckout({ ...order, url: 'nope' }, { ...deps, lang: 'pt' });
+    expect(await invalid.json()).toMatchObject({
+      error: 'Confira os campos destacados.',
+      fields: { url: 'Informe o endereço completo, começando com https://.' },
+    });
+  });
+
   it('reserves in simulation mode and links a known outlet by host', async () => {
     const response = await startCheckout(order, deps);
     expect(response.status).toBe(201);
