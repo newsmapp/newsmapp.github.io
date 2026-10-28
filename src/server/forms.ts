@@ -70,6 +70,8 @@ export async function submitCorrection(
 export interface CheckoutDeps extends FormDeps {
   /** outletHostIndex() of the runtime catalog. */
   outletsByHost: ReadonlyMap<string, string>;
+  /** Published countries (ISO 3166-1 alpha-2): a slot elsewhere would never be shown. */
+  countries: ReadonlySet<string>;
   /** Daily keyed hash of the buyer's IP (one unpaid hold per visitor); null when unknown. */
   holder: string | null;
   pricing: Pricing;
@@ -84,6 +86,8 @@ export async function startCheckout(body: unknown, deps: CheckoutDeps): Promise<
   const parsed = checkoutPayloadSchema.safeParse(body);
   if (!parsed.success) return problem(422, m.checkFields, fieldErrors(parsed.error.issues, lang));
   const { turnstile_token: token, plan, ...data } = parsed.data;
+  if (!deps.countries.has(data.country_iso))
+    return problem(422, m.checkFields, { country_iso: m.fields.country_iso ?? m.checkField });
   if (!(await deps.human(token))) return problem(403, m.notHuman);
 
   const tier = tierFor(deps.pricing, data.country_iso);

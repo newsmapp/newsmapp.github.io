@@ -18,6 +18,9 @@ export { env, waitUntil };
 
 export const catalog = runtimeCatalogJson as RuntimeCatalog;
 export const outletsByHost = outletHostIndex(catalog);
+export const publishedCountries: ReadonlySet<string> = new Set(
+  Object.values(catalog).map((o) => o.country),
+);
 export const affiliates = affiliatesFileSchema.parse(affiliatesJson);
 export const pricing = pricingFileSchema.parse(pricingJson);
 

@@ -11,6 +11,7 @@ import {
   outletsByHost,
   overLimit,
   pricing,
+  publishedCountries,
 } from '../../runtime/worker';
 
 export const prerender = false;
@@ -26,6 +27,7 @@ export const POST: APIRoute = ({ request }) => {
       siteUrl: new URL(request.url).origin,
       human: human(request),
       outletsByHost,
+      countries: publishedCountries,
       holder: await holder(request),
       pricing,
       lemonSqueezy: lemonSqueezy(),

@@ -67,6 +67,7 @@ beforeEach(() => {
     human: async () => true,
     catalog,
     outletsByHost: outletHostIndex(catalog),
+    countries: new Set(['PT']),
     holder: null,
     pricing,
     lemonSqueezy: null,
@@ -113,6 +114,13 @@ describe('suggestions and corrections', () => {
 });
 
 describe('startCheckout', () => {
+  it('refuses a slot in a country the site does not publish', async () => {
+    const response = await startCheckout({ ...order, country_iso: 'ZZ' }, deps);
+    expect(response.status).toBe(422);
+    expect(await response.json()).toMatchObject({ fields: { country_iso: 'Choose a country.' } });
+    expect(await db.select().from(sponsorships)).toEqual([]);
+  });
+
   it('answers in Portuguese and sends Portuguese readers to /pt/', async () => {
     const response = await startCheckout(order, { ...deps, lang: 'pt' });
     expect(await response.json()).toMatchObject({
