@@ -92,6 +92,12 @@ test('Portuguese pages, language switch and translated form errors', async ({ pa
   await expect(page).toHaveURL(/\/brazil\/$/);
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
 
+  // A page that exists in English only: no hreflang to Portuguese, and the switch leads to the
+  // Portuguese country page instead of a 404.
+  await page.goto('/france/economy/');
+  await expect(page.locator('link[hreflang="pt-BR"]')).toHaveCount(0);
+  await expect(page.locator('a[data-lang-switch]')).toHaveAttribute('href', '/pt/france/');
+
   await page.goto('/pt/corrections/?country=PT&category=sports');
   const form = page.locator('form[data-endpoint="/api/submit/"]');
   await form.getByRole('button', { name: 'Enviar sugestão' }).click();

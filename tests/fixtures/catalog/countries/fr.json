@@ -74,9 +74,6 @@
       "categories": {
         "general-news": {
           "intro": "Introdução do fixture para notícias nacionais (França)."
-        },
-        "economy": {
-          "intro": "Introdução do fixture para negócios (França)."
         }
       },
       "reviewed": true,

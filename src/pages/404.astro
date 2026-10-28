@@ -8,7 +8,12 @@ import { siteLangs } from '../data/i18n';
 const [first, ...others] = siteLangs.map((lang) => ({ lang, t: UI_TEXT[lang].notFound }));
 ---
 
-<BaseLayout title={first?.t.title ?? ''} description={first?.t.description ?? ''} noindex>
+<BaseLayout
+  title={first?.t.title ?? ''}
+  description={first?.t.description ?? ''}
+  noindex
+  switchTo={false}
+>
   <div class="page missing">
     {first && (
       <>

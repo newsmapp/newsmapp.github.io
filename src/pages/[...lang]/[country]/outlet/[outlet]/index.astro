@@ -14,7 +14,7 @@ import {
   outletsFor,
   similarOutlets,
 } from '../../../../../data/catalog';
-import { forEachLang, i18n } from '../../../../../data/i18n';
+import { forEachLang, i18n, siteLangs } from '../../../../../data/i18n';
 import { LANG_META, type Lang } from '../../../../../lib/i18n/lang';
 import { affiliates } from '../../../../../data/monetization';
 import { selectAffiliate } from '../../../../../lib/monetization/affiliates';
@@ -45,6 +45,8 @@ const name = where.name;
 const pitch = outlet.pitch[lang] ?? outlet.pitch.en ?? '';
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const indexable = isProfileIndexable(outlet, lang);
+// Profiles exist in every language but are indexable only where their text is reviewed.
+const langs = siteLangs.filter((l) => isProfileIndexable(outlet, l));
 // Site search still lists every published outlet; only search engines skip thin profiles.
 const about = outlet.about[lang];
 const similar = similarOutlets(country, outlet);
@@ -86,6 +88,7 @@ const language =
   title={t.outlet.titles(outlet.name, name)}
   description={description}
   noindex={!indexable}
+  langs={langs}
   type="profile"
   jsonld={[
     breadcrumbList(siteUrl, crumbs),

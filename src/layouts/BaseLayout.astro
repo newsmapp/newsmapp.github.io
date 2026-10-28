@@ -9,7 +9,7 @@ import CommandPalette from '../components/CommandPalette';
 import { buildMeta } from '../lib/seo/meta';
 import { hreflangAlternates } from '../lib/seo/hreflang';
 import { serializeJsonLd } from '../lib/seo/jsonld';
-import { LANG_META, stripLang } from '../lib/i18n/lang';
+import { LANG_META, stripLang, type Lang } from '../lib/i18n/lang';
 import { i18n, siteLangs } from '../data/i18n';
 
 interface Props {
@@ -25,6 +25,10 @@ interface Props {
   turnstile?: boolean;
   /** False on pages without serif text, so its font does not compete with the first paint. */
   prose?: boolean;
+  /** Languages in which this page is indexable, for hreflang. Defaults to every site language. */
+  langs?: readonly Lang[];
+  /** Header language switch targets for languages without this page (see Header). */
+  switchTo?: Partial<Record<Lang, string>> | false;
 }
 
 const {
@@ -37,6 +41,8 @@ const {
   searchType,
   turnstile = false,
   prose = true,
+  langs = siteLangs,
+  switchTo,
 } = Astro.props;
 // CSP additions must happen here: the <meta> is already sent by the time body components render.
 if (turnstile) {
@@ -54,10 +60,12 @@ const meta = buildMeta({
   locale: LANG_META[lang].og,
   ...(type ? { type } : {}),
 });
-// Every indexable page exists in every site language; noindex pages carry no alternates.
-const alternates = noindex
-  ? []
-  : hreflangAlternates(stripLang(Astro.url.pathname), siteLangs, siteUrl);
+// Alternates only between languages where the page is indexable, so every link is reciprocal;
+// noindex pages carry none.
+const alternates =
+  noindex || !langs.includes(lang)
+    ? []
+    : hreflangAlternates(stripLang(Astro.url.pathname), langs, siteUrl);
 ---
 
 <!doctype html>
@@ -109,7 +117,10 @@ const alternates = noindex
     <a class="skip" href="#main">
       {t.skip}
     </a>
-    <Header search={Astro.url.pathname !== paths.home} />
+    <Header
+      search={Astro.url.pathname !== paths.home}
+      {...(switchTo !== undefined ? { switchTo } : {})}
+    />
     <main id="main" tabindex="-1" {...(searchable ? { 'data-pagefind-body': '' } : {})}>
       {searchType && <meta data-pagefind-filter="type[content]" content={searchType} />}
       <slot />

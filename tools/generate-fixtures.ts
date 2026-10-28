@@ -208,9 +208,12 @@ function countryFor(spec: Spec): Country {
             a: 'Vários veículos do fixture são de leitura gratuita.',
           },
         ],
+        // France has no Portuguese business intro: /france/economy/ exists in English only.
         categories: {
           'general-news': { intro: `Introdução do fixture para notícias nacionais (${spec.pt}).` },
-          economy: { intro: `Introdução do fixture para negócios (${spec.pt}).` },
+          ...(spec.iso2 === 'FR'
+            ? {}
+            : { economy: { intro: `Introdução do fixture para negócios (${spec.pt}).` } }),
         },
         reviewed: spec.published,
         reviewed_at: spec.published ? DATE : null,

@@ -15,8 +15,8 @@ import {
   hubs,
   outletsFor,
 } from '../../../../data/catalog';
-import { forEachLang, i18n } from '../../../../data/i18n';
-import type { Lang } from '../../../../lib/i18n/lang';
+import { forEachLang, i18n, siteLangs } from '../../../../data/i18n';
+import { localizePath, type Lang } from '../../../../lib/i18n/lang';
 import { affiliates, sponsorshipsFor } from '../../../../data/monetization';
 import { selectAffiliate } from '../../../../lib/monetization/affiliates';
 import { breadcrumbList, itemList } from '../../../../lib/seo/jsonld';
@@ -44,6 +44,12 @@ const name = where.name;
 const label = categoryLabel(category, lang);
 const outlets = outletsFor(country, category);
 const intro = country.seo_context[lang]?.categories[category]?.intro ?? '';
+// A category page is built per language (it needs that language's intro): where it is missing,
+// hreflang leaves it out and the language switch leads to the country page instead.
+const langs = siteLangs.filter((l) => categoryPages(country, l).includes(category));
+const switchTo = Object.fromEntries(
+  siteLangs.filter((l) => !langs.includes(l)).map((l) => [l, localizePath(`/${country.slug}/`, l)]),
+);
 const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
 const affiliate = selectAffiliate(affiliates, { kind: 'category', category });
 // The same category in other countries of the continent, for internal linking.
@@ -61,6 +67,8 @@ const crumbs = [
 ---
 
 <BaseLayout
+  langs={langs}
+  switchTo={switchTo}
   title={t.category.titles(label, where, outlets.length)}
   description={t.category.description(label, where, outlets.length)}
   jsonld={[

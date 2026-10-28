@@ -1,19 +1,30 @@
 ---
 import Icon from './Icon.astro';
-import { LANG_META, localizePath, stripLang } from '../lib/i18n/lang';
+import { LANG_META, localizePath, stripLang, type Lang } from '../lib/i18n/lang';
 import { i18n, siteLangs } from '../data/i18n';
 
 interface Props {
   /** The home page has its own search button in the intro, so the header leaves it out. */
   search?: boolean;
+  /**
+   * Where the language switch leads, per language, when the same page does not exist there.
+   * False hides the switch (English-only pages such as /admin/).
+   */
+  switchTo?: Partial<Record<Lang, string>> | false;
 }
 
-const { search = true } = Astro.props;
+const { search = true, switchTo = {} } = Astro.props;
 const { lang, t, paths } = i18n(Astro.url);
 // The same page in the other site languages.
-const switches = siteLangs
-  .filter((l) => l !== lang)
-  .map((l) => ({ lang: l, href: localizePath(stripLang(Astro.url.pathname), l) }));
+const switches =
+  switchTo === false
+    ? []
+    : siteLangs
+        .filter((l) => l !== lang)
+        .map((l) => ({
+          lang: l,
+          href: switchTo[l] ?? localizePath(stripLang(Astro.url.pathname), l),
+        }));
 ---
 
 <header class="site-header">

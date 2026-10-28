@@ -133,7 +133,8 @@ export function audit(input: AuditInput): Finding[] {
       add(path, 'hreflang', 'hreflang present with a single locale.');
     for (const alternate of page.hreflang) {
       const target = parsed.get(pathOf(site, alternate.href) ?? '');
-      if (target && !target.hreflang.some((a) => a.href === `${site}${path}`)) {
+      if (!target) add(path, 'hreflang', `${alternate.href} is not a page of this build.`);
+      else if (!target.hreflang.some((a) => a.href === `${site}${path}`)) {
         add(path, 'hreflang', `${alternate.href} does not link back.`);
       }
     }
