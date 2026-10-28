@@ -51,4 +51,4 @@ Positions within a category are editorial: national reach, publication frequency
 
 ## Corrections
 
-Anyone can request a correction at `/corrections/`. Requests are reviewed by the owner; accepted corrections are applied to the catalog and take effect on the next build. Requesters who leave an e-mail are notified; e-mails are anonymized 24 months after the request closes.
+Anyone can request a correction at `/corrections/`. Requests are reviewed by the owner; accepted corrections are applied to the catalog and take effect on the next build. Requesters who leave an e-mail are notified; e-mails are anonymized 24 months after the request closes, or 24 months after it was sent if it is never closed.

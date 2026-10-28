@@ -160,7 +160,7 @@ const { lang, paths } = i18n(Astro.url);
       Qualquer pessoa pode <a href={paths.page('/corrections/')}>enviar uma correção</a>. Um editor
       analisa cada pedido; as correções aceitas aparecem na próxima atualização do site. Se você
       deixar um e-mail, contamos o resultado, e o endereço é anonimizado 24 meses depois que o
-      pedido é encerrado.
+      pedido é encerrado (ou depois do envio, se ele nunca for encerrado).
     </p>
   </ProseLayout>
 ) : (
@@ -310,7 +310,8 @@ const { lang, paths } = i18n(Astro.url);
     <p>
       Anyone can <a href="/corrections/">report a correction</a>. An editor reviews every request;
       accepted corrections appear with the next update of the site. If you leave an e-mail address
-      we tell you the outcome, and the address is anonymized 24 months after the request is closed.
+      we tell you the outcome, and the address is anonymized 24 months after the request is closed
+      (or after it was sent, if it is never closed).
     </p>
   </ProseLayout>
 )}

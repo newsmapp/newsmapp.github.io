@@ -1,4 +1,4 @@
-import { and, eq, inArray, isNotNull, lt, or } from 'drizzle-orm';
+import { and, eq, inArray, isNotNull, isNull, lt, or } from 'drizzle-orm';
 import { correctionRequests, sponsorships, submissions } from '../db/schema';
 import { database, iso, type Database } from './db';
 import { dispatchRebuild } from './rebuild';
@@ -12,7 +12,10 @@ export interface MaintenanceReport {
   anonymized: number;
 }
 
-/** Contact e-mails are anonymized 24 months after the request was closed (SPEC §3.7). */
+/**
+ * Contact e-mails are anonymized 24 months after the request was closed (SPEC §3.7), or 24 months
+ * after it was sent when an editor never closed it.
+ */
 export const retentionCutoff = (now: Date): string => {
   const cutoff = new Date(now);
   cutoff.setUTCMonth(cutoff.getUTCMonth() - RETENTION_MONTHS);
@@ -53,8 +56,15 @@ export async function maintain(db: Database, now: Date): Promise<MaintenanceRepo
     .where(
       and(
         isNotNull(submissions.contact_email),
-        isNotNull(submissions.closed_at),
-        lt(submissions.closed_at, cutoff),
+        or(
+          and(isNotNull(submissions.closed_at), lt(submissions.closed_at, cutoff)),
+          // Free suggestions nobody closed. Paid ones stay: a running listing has no closed_at.
+          and(
+            isNull(submissions.closed_at),
+            eq(submissions.status, 'pending'),
+            lt(submissions.created_at, cutoff),
+          ),
+        ),
       ),
     )
     .returning({ id: submissions.id });
@@ -64,9 +74,17 @@ export async function maintain(db: Database, now: Date): Promise<MaintenanceRepo
     .where(
       and(
         isNotNull(correctionRequests.contact_email),
-        or(eq(correctionRequests.status, 'accepted'), eq(correctionRequests.status, 'rejected')),
-        isNotNull(correctionRequests.closed_at),
-        lt(correctionRequests.closed_at, cutoff),
+        or(
+          and(
+            or(
+              eq(correctionRequests.status, 'accepted'),
+              eq(correctionRequests.status, 'rejected'),
+            ),
+            isNotNull(correctionRequests.closed_at),
+            lt(correctionRequests.closed_at, cutoff),
+          ),
+          and(eq(correctionRequests.status, 'open'), lt(correctionRequests.created_at, cutoff)),
+        ),
       ),
     )
     .returning({ id: correctionRequests.id });

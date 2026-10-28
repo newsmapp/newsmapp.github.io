@@ -402,6 +402,29 @@ describe('maintain', () => {
     expect((await maintain(db, new Date('2031-02-01T00:00:00.000Z'))).anonymized).toBe(1);
   });
 
+  it('anonymizes requests nobody closed 24 months after they were sent', async () => {
+    await submitSuggestion(suggestion, deps);
+    await submitCorrection(
+      {
+        outlet_id: 'pt-a',
+        field: 'url',
+        message: 'Moved.',
+        contact_email: 'r@example.com',
+        turnstile_token: 't',
+      },
+      deps,
+    );
+    await startCheckout(order, deps);
+    // Paid and running: no closed_at, but a customer's billing contact must stay.
+    await db.update(submissions).set({ status: 'approved' }).where(eq(submissions.plan, 'monthly'));
+    expect((await maintain(db, new Date('2028-10-01T00:00:00.000Z'))).anonymized).toBe(0);
+    expect((await maintain(db, new Date('2028-12-01T00:00:00.000Z'))).anonymized).toBe(2);
+    expect((await db.select().from(correctionRequests))[0]?.contact_email).toBeNull();
+    const rows = await db.select().from(submissions);
+    expect(rows.find((r) => r.plan === 'free')?.contact_email).toBeNull();
+    expect(rows.find((r) => r.plan === 'monthly')?.contact_email).toBe('billing@example.com');
+  });
+
   it('ends cancelled and unpaid listings at their end date', async () => {
     await startCheckout(order, deps);
     await db
