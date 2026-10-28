@@ -21,12 +21,20 @@ export const priceFor = (pricing: Pricing, iso2: string, plan: Plan): number =>
 export const yearlySavingMonths = (tier: Tier): number =>
   Math.floor((tier.monthly * 12 - tier.yearly) / tier.monthly);
 
-export const formatUsd = (value: number, lang: Lang = 'en'): string =>
-  new Intl.NumberFormat(LANG_META[lang].intl, {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0,
-  }).format(value);
+const USD = new Map<Lang, Intl.NumberFormat>();
+
+export function formatUsd(value: number, lang: Lang = 'en'): string {
+  let format = USD.get(lang);
+  if (!format) {
+    format = new Intl.NumberFormat(LANG_META[lang].intl, {
+      style: 'currency',
+      currency: 'USD',
+      maximumFractionDigits: 0,
+    });
+    USD.set(lang, format);
+  }
+  return format.format(value);
+}
 
 export interface PriceRow {
   tier: Tier;

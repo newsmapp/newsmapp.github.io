@@ -1,11 +1,7 @@
 /** Badge served at /badge/[country]/[outlet].svg (H2). Pure so it can be tested and cached. */
-export const BADGE_SIZE = { width: 232, height: 40 } as const;
+import { escapeXml } from './xml';
 
-const escapeXml = (value: string): string =>
-  value.replace(
-    /[<>&"']/g,
-    (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[c] ?? c,
-  );
+export const BADGE_SIZE = { width: 232, height: 40 } as const;
 
 export interface BadgeInput {
   rank: number;

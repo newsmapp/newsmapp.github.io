@@ -215,17 +215,6 @@ const en = {
     failed: 'The form could not be sent. Check the fields and try again.',
     offline: 'The form could not be sent because the connection failed. Try again.',
   },
-  slots: {
-    checking: 'Checking open places…',
-    price: (monthly: string, yearly: string) => `${monthly} a month or ${yearly} a year.`,
-    open: (available: number, total: number) =>
-      `${formatNumber(available, 'en')} of ${formatNumber(total, 'en')} places open.`,
-    full: (total: number) =>
-      `All ${total} places are taken. Choose another category, or write to us to join the waiting list.`,
-    unavailable: 'Availability could not be checked right now.',
-    unavailablePrice: (monthly: string, yearly: string) =>
-      `Availability could not be checked right now. Price: ${monthly} a month or ${yearly} a year.`,
-  },
   notFound: {
     title: 'Page not found',
     description: 'This page does not exist on NewsMapp.',
@@ -448,17 +437,6 @@ const pt: UI = {
     sent: 'Enviado.',
     failed: 'Não foi possível enviar o formulário. Confira os campos e tente de novo.',
     offline: 'Não foi possível enviar o formulário porque a conexão falhou. Tente de novo.',
-  },
-  slots: {
-    checking: 'Verificando vagas abertas…',
-    price: (monthly: string, yearly: string) => `${monthly} por mês ou ${yearly} por ano.`,
-    open: (available: number, total: number) =>
-      `${formatNumber(available, 'pt')} de ${formatNumber(total, 'pt')} vagas abertas.`,
-    full: (total: number) =>
-      `As ${total} vagas estão ocupadas. Escolha outra categoria ou escreva para entrar na lista de espera.`,
-    unavailable: 'Não foi possível verificar a disponibilidade agora.',
-    unavailablePrice: (monthly: string, yearly: string) =>
-      `Não foi possível verificar a disponibilidade agora. Preço: ${monthly} por mês ou ${yearly} por ano.`,
   },
   notFound: {
     title: 'Página não encontrada',

@@ -6,11 +6,11 @@ import { catalog } from '../../../runtime/worker';
 
 export const prerender = false;
 
+const byPath = new Map(Object.values(catalog).map((o) => [`${o.country_slug}/${o.slug}`, o]));
+
 /** H2 badge. Self-contained SVG, cached for a day at the edge. */
 export const GET: APIRoute = ({ params }) => {
-  const outlet = Object.values(catalog).find(
-    (o) => o.country_slug === params.country && o.slug === params.outlet,
-  );
+  const outlet = byPath.get(`${params.country ?? ''}/${params.outlet ?? ''}`);
   if (!outlet || outlet.badge.position < 1) return problem(404, 'Unknown outlet.');
   return new Response(
     badgeSvg({

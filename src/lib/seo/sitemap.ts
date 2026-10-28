@@ -1,8 +1,4 @@
-const escapeXml = (value: string): string =>
-  value.replace(
-    /[<>&"']/g,
-    (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[c] ?? c,
-  );
+import { escapeXml } from '../xml';
 
 export interface SitemapEntry {
   loc: string;
