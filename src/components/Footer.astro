@@ -1,6 +1,6 @@
 ---
 import { i18n } from '../data/i18n';
-import { repoUrl } from '../data/site';
+import { author, repoUrl } from '../data/site';
 
 const { t, paths } = i18n(Astro.url);
 const year = new Date().getUTCFullYear();
@@ -39,7 +39,15 @@ const legal = [
         </li>
       </ul>
     </nav>
-    <p class="note">{t.footer.note(year)}</p>
+    <div class="note">
+      <p>{t.footer.note(year)}</p>
+      <p class="by">
+        by{' '}
+        <a href={author.url} rel="author" translate="no">
+          {author.name}
+        </a>
+      </p>
+    </div>
   </div>
 </footer>
 
@@ -79,6 +87,12 @@ const legal = [
   }
 
   .note {
+    display: grid;
+    gap: var(--space-2);
     max-width: 48ch;
+  }
+
+  .by {
+    font-family: var(--font-data);
   }
 </style>
