@@ -31,7 +31,7 @@ const switches =
   <div class="page bar">
     <a class="wordmark" href={paths.home} translate="no">
       <img class="mark" src="/mark.webp" alt="" width="32" height="32" />
-      <span>
+      <span class="wordmark-text">
         News<span class="mapp">Mapp</span>
       </span>
     </a>
@@ -43,7 +43,10 @@ const switches =
       </button>
     )}
     <nav aria-label={t.header.nav} class:list={['nav', { push: !search }]}>
-      <a href={paths.page('/corrections/')}>{t.header.suggest}</a>
+      <a href={paths.page('/corrections/')}>
+        <Icon name="message-square-plus" size={16} class="suggest-icon" />
+        <span class="suggest-label">{t.header.suggest}</span>
+      </a>
       {switches.map((s) => (
         <a
           class="lang"
@@ -124,6 +127,8 @@ const switches =
     font-weight: var(--weight-heavy);
     letter-spacing: -0.035em;
     text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   /* The brand symbol sits on its own white tile, so it reads the same in both themes. */
@@ -230,13 +235,23 @@ const switches =
     display: none;
   }
 
-  .lang-code {
+  .lang-code,
+  .nav :global(.suggest-icon) {
     display: none;
   }
 
   @media (max-width: 639px) {
-    /* The full name stays the link's accessible name; the code is what fits. */
-    .lang-name {
+    .bar {
+      gap: var(--space-2);
+    }
+
+    .nav {
+      gap: var(--space-2);
+    }
+
+    /* The full name stays the link's accessible name; the code or icon is what fits. */
+    .lang-name,
+    .suggest-label {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -247,6 +262,15 @@ const switches =
 
     .lang-code {
       display: inline;
+    }
+
+    .nav :global(.suggest-icon) {
+      display: inline-block;
+    }
+
+    .nav a {
+      justify-content: center;
+      min-width: 2.5rem;
     }
 
     .search {
@@ -262,6 +286,18 @@ const switches =
 
     /* Hidden visually only: the label stays the button's accessible name. */
     .search-label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+  }
+
+  /* The smallest phones keep the symbol only; the link's name stays the brand. */
+  @media (max-width: 359px) {
+    .wordmark-text {
       position: absolute;
       width: 1px;
       height: 1px;
