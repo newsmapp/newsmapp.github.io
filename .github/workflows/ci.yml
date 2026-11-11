@@ -57,7 +57,11 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - run: pnpm seo:audit
-      - run: pnpm exec playwright install --with-deps chromium
+      # Only the browser, from Playwright's CDN. The runner image already ships the libraries Chromium
+      # needs; `--with-deps` would also run apt for extra fonts and hang whenever the Ubuntu mirrors
+      # do not resolve.
+      - run: pnpm exec playwright install chromium
+        timeout-minutes: 5
       # Playwright serves dist/ itself, the way GitHub Pages does (tools/serve-static.ts).
       - run: pnpm e2e
       - run: pnpm lhci
