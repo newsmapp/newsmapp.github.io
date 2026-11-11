@@ -1,226 +1,125 @@
 # Deploy runbook
 
-How to take NewsMapp from this repository to production on Cloudflare (ADR 0008). No secret values live here: only variable names, where to get them and how to set them. Any manual change made in production must be written back into this file.
+How to publish NewsMapp for free at **https://newsmapp.github.io/**, from the repository `newsmapp/newsmapp.github.io` of the GitHub Organization `newsmapp` (ADR 0014). The site is fully static: no server, no database, no secrets. Any manual change made in the GitHub settings must be written back into this file.
 
-Commands prefixed with `!` need your Cloudflare or GitHub login: run them yourself in the terminal. Secrets are always typed into a hidden prompt (`wrangler secret put`, `gh secret set`), never pasted into chat, issues, commits or files.
+Commands prefixed with `!` need your GitHub login: run them yourself in the terminal.
 
 ## 1. Status
 
-Done and verified locally (2026-10-27, commit `7b31c19`, English and Brazilian Portuguese):
+Done and verified locally (2026-11-11, English and Brazilian Portuguese):
 
-| Item                                                                                                       | Evidence                                                                                                               |
-| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Format, lint, boundaries, types, catalog validation, 173 unit tests                                        | `pnpm check` exit 0; `pnpm ci:local` (both CI jobs) passed                                                             |
-| Dependency advisories                                                                                      | `pnpm audit` exit 0: production clean; 3 dev-only advisories under `@lhci/cli` accepted by id in `pnpm-workspace.yaml` |
-| Production catalog build and SEO audit                                                                     | `pnpm build && pnpm seo:audit`: 1,742 pages, 234 sitemap URLs (117 per language), 0 findings                           |
-| Fixture build, E2E and accessibility (axe) on the real Worker with local D1, `/pt/` included               | `pnpm e2e`: 51/51                                                                                                      |
-| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci` exit 0, 12 runs                                                                                            |
-| Worker bundle and bindings                                                                                 | `wrangler deploy --dry-run`: 455 KiB gzip (free plan limit 3 MB), D1, Analytics Engine, 2 rate limiters                |
-| D1 migrations 0000–0002                                                                                    | `pnpm db:migrate:local` applies `0002_refund_steps.sql`; Deploy runs `db:migrate:remote` before `wrangler deploy`      |
-| Security audit and code review of `src` and `tools`                                                        | Findings fixed in the commits up to `7b31c19`; actions pinned by SHA                                                   |
+| Item                                                                                                       | Evidence                                                                        |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Format, lint, boundaries, types, catalog validation, unit tests with coverage                              | `pnpm check` and `pnpm test:coverage` exit 0                                    |
+| Production catalog build and SEO audit (badges and sitemaps included, every internal link a built file)    | `pnpm build && pnpm seo:audit`: 1,738 pages, 232 sitemap URLs, 0 findings       |
+| Fixture build, E2E and accessibility (axe), served the way GitHub Pages serves files                       | `pnpm e2e`: 46/46                                                               |
+| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci`: all assertions passed                                              |
+| Actions pinned by SHA, Pages actions included                                                              | `configure-pages` v6.0.0, `upload-pages-artifact` v5.0.0, `deploy-pages` v5.0.1 |
 
 Done but not verified (needs your accounts):
 
-- The workflows have never run on GitHub; the first push is their first run.
-- Deploy's "Require the Worker secrets" step reads `wrangler secret list` with `CLOUDFLARE_API_TOKEN`; tested locally with stubbed output only. If it fails with an authentication error, the token lacks Workers Scripts: Read.
-- `setup-zone.sh` has not been applied to a real zone; Cloudflare may reject a field if the free-plan limits changed.
-- The Analytics Engine SQL used by the admin click report (`src/server/analytics.ts`) is untested against the real dataset.
-- Bot Fight Mode vs LemonSqueezy webhooks (see `deploy/cloudflare/README.md`).
+- The workflows have never run on GitHub; the first push to the organization's repository is their first run.
+- The issue forms (`.github/ISSUE_TEMPLATE/`) render only on GitHub; check them once (4.5).
 
-Pending on the owner: everything in §4 marked "owner", plus the content gates in §5.
+Known limitations:
 
-Known limitations at launch:
-
-- 31 countries and 753 outlets were published on 2026-10-27 by the owner's decision to launch first and review after: the drafted outlets were marked `verified` in bulk, without the per-outlet check of `docs/EDITORIAL_METHODOLOGY.md`, and the country texts as `reviewed`. Review them country by country after launch and fix or retire what is wrong. Outlets whose last link check answered 404 or nothing stay `candidate`, so Belize, Egypt, Guatemala, Honduras, Kenya, Nicaragua, Pakistan, Panama and El Salvador are not published yet. Outlet profiles stay `noindex` until their `about.en.reviewed` is true.
-- Without LemonSqueezy keys the Worker runs checkout in simulation mode: a form submission reserves a slot without payment until the reservation expires. Do not link `/advertise/` publicly before step 4.11.
-- Preview versions (`wrangler versions upload`) share the production D1 database and secrets.
+- 31 countries and 753 outlets were published on 2026-10-27 by the owner's decision to launch first and review after: the drafted outlets were marked `verified` in bulk, without the per-outlet check of `docs/EDITORIAL_METHODOLOGY.md`, and the country texts as `reviewed`. Review them country by country and fix or retire what is wrong. Outlet profiles stay `noindex` until their `about.en.reviewed` is true.
+- GitHub Pages sends no custom headers: no `frame-ancestors`/`X-Frame-Options`, no `Permissions-Policy`, and cache lifetimes are GitHub's (10 minutes). The CSP is a `<meta>` tag (ADR 0014).
 
 ## 2. Accounts and costs
 
-| Service                                          | Why                                                       | Plan                                       | Expected monthly cost                      | Link                                           |
-| ------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ | ---------------------------------------------- |
-| Domain registrar (Cloudflare Registrar or other) | The site's domain                                         | —                                          | ≈ US$ 1 (US$ 10–15/year)                   | https://www.cloudflare.com/products/registrar/ |
-| Cloudflare                                       | Workers, D1, Analytics Engine, R2, Turnstile, Access, WAF | Free; Workers Paid if needed               | US$ 0; US$ 5 once over free Workers limits | https://dash.cloudflare.com/                   |
-| GitHub                                           | Repository, CI/CD, scheduled jobs                         | Free (private repo: 2,000 Actions minutes) | US$ 0                                      | https://github.com/                            |
-| LemonSqueezy                                     | Merchant of record for sponsorships (ADR 0013)            | No monthly fee                             | 5% + US$ 0.50 per transaction              | https://www.lemonsqueezy.com/                  |
-| Affiliate programs                               | R2 revenue                                                | Free                                       | US$ 0                                      | per program                                    |
+| Service          | Why                                                | Plan                                                  | Monthly cost | Link                |
+| ---------------- | -------------------------------------------------- | ----------------------------------------------------- | ------------ | ------------------- |
+| GitHub           | Organization, public repository, CI, Pages, issues | Free (public repositories: unlimited Actions minutes) | US$ 0        | https://github.com/ |
+| Domain, optional | A custom domain instead of `newsmapp.github.io`    | Any registrar                                         | ≈ US$ 1      | —                   |
 
-Total: about US$ 1/month (the domain) at launch. Costs rise with traffic past the free Workers limit (100,000 requests/day; static assets are free and unlimited), D1 past 5 GB, or R2 past 10 GB (weekly gzip exports are tiny). Cloudflare Access is free up to 50 users.
+Total: US$ 0 with `newsmapp.github.io`. GitHub Pages limits: published site ≤ 1 GB, soft limit of 100 GB bandwidth per month and 10 builds per hour.
 
-## 3. Secrets and configuration inventory
+## 3. Configuration inventory
 
-Worker secrets (production), set with `! pnpm exec wrangler secret put NAME`:
+No secrets. Optional repository variables (Settings → Secrets and variables → Actions → Variables):
 
-| Name                          | Purpose                                                        | Where to obtain                                                                                                     | First deploy?        |
-| ----------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| `VISITOR_HASH_SECRET`         | Daily-salted visitor hash for click analytics                  | Generate: `openssl rand -hex 32 \| pnpm exec wrangler secret put VISITOR_HASH_SECRET`                               | Required             |
-| `TURNSTILE_SECRET_KEY`        | Server-side Turnstile validation                               | Dashboard → Turnstile → your widget                                                                                 | Required             |
-| `CF_ACCESS_TEAM_DOMAIN`       | Access JWT issuer (`<team>.cloudflareaccess.com`)              | Zero Trust → Settings → Custom pages (team domain)                                                                  | Required (admin)     |
-| `CF_ACCESS_AUD`               | Access application audience tag                                | Printed by `setup-zone.sh`, or Zero Trust → Access → Applications → Overview                                        | Required (admin)     |
-| `GITHUB_DISPATCH_TOKEN`       | Lets the Worker trigger `deploy.yml` after sponsorship changes | GitHub → Settings → Developer settings → Fine-grained token: this repo only, Actions: Read and write, 1-year expiry | Before selling slots |
-| `LEMONSQUEEZY_API_KEY`        | Create checkouts                                               | LemonSqueezy → Settings → API (test mode first)                                                                     | Before selling slots |
-| `LEMONSQUEEZY_STORE_ID`       | Store for checkouts                                            | LemonSqueezy → Settings → Stores                                                                                    | Before selling slots |
-| `LEMONSQUEEZY_WEBHOOK_SECRET` | Verifies webhook signatures                                    | You choose it when creating the webhook (step 4.11)                                                                 | Before selling slots |
-| `CLOUDFLARE_ANALYTICS_TOKEN`  | Admin click reports (Analytics Engine SQL)                     | API token: Account → Account Analytics: Read                                                                        | Optional             |
+| Name              | Purpose                                            | Default                                               |
+| ----------------- | -------------------------------------------------- | ----------------------------------------------------- |
+| `SITE_URL`        | Origin for canonicals, sitemaps and badge snippets | The Pages URL GitHub reports (custom domain included) |
+| `ENABLED_LOCALES` | Languages built                                    | `en,pt`                                               |
 
-Never set `ADMIN_DEV_BYPASS` in production; it only works on localhost anyway.
+`GITHUB_REPOSITORY` (set by Actions on every run) gives the links to the code and to the issue forms.
 
-GitHub Actions secrets, set with `! gh secret set NAME` (prompts for the value):
+The site must be served from the root of its origin (ADR 0014), which is why the repository is named `newsmapp.github.io`. A project site such as `https://newsmapp.github.io/<repo>/` fails the build on purpose.
 
-| Name                       | Purpose                                        | Token permissions (Cloudflare → My Profile → API Tokens → Create custom token)                                           |
-| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `CLOUDFLARE_ACCOUNT_ID`    | Account for every job                          | Not a token: Dashboard → Workers & Pages → Account ID                                                                    |
-| `CLOUDFLARE_API_TOKEN`     | `deploy.yml`: migrations and `wrangler deploy` | Start from the "Edit Cloudflare Workers" template, add Account → D1: Edit, and limit Account and Zone resources to yours |
-| `CLOUDFLARE_D1_READ_TOKEN` | Sponsorship snapshot at build time             | Account → D1: Read                                                                                                       |
-| `CLOUDFLARE_BACKUP_TOKEN`  | Weekly D1 export to R2                         | Account → D1: Edit, Workers R2 Storage: Edit                                                                             |
+## 4. Steps
 
-GitHub Actions variables (public), set with `gh variable set NAME --body VALUE`:
+### 4.1 Organization (owner, 5 min)
 
-| Name                 | Value                                                  |
-| -------------------- | ------------------------------------------------------ |
-| `SITE_URL`           | `https://your-domain` (no trailing slash)              |
-| `TURNSTILE_SITE_KEY` | The widget's site key (public by design)               |
-| `ENABLED_LOCALES`    | Optional, default `en,pt`                              |
-| `ADS_ENABLED`        | Optional, default `false` (see README before changing) |
+- Action: github.com → your avatar → Your organizations → New organization → Free plan, name `newsmapp`. Organization settings → Authentication security → require two-factor authentication.
+- Verify: the organization page opens and lists you as owner.
 
-Committed configuration (not secret): `database_id` and `GITHUB_REPOSITORY` in `wrangler.jsonc`, `data/site.json`, `data/monetization/*.json`.
+### 4.2 Repository (owner, 5 min)
 
-## 4. Steps, in order
-
-Estimated total: 60–90 minutes the first time, excluding DNS propagation and LemonSqueezy store approval.
-
-### 4.1 Accounts and 2FA (owner, 15 min)
-
-- Goal: Cloudflare and GitHub accounts protected by 2FA.
-- Where: Cloudflare → My Profile → Authentication; GitHub → Settings → Password and authentication.
-- Action: enable 2FA (security key or TOTP) and store the recovery codes offline.
-- Verify: both pages show 2FA "enabled".
-
-### 4.2 Repository on GitHub (owner, 5 min)
-
-- Goal: the code on a private GitHub repository (GitHub Free).
-- Action: `! gh repo create newsmapp --private --source . --push`. GitHub Free offers no branch protection or environments on private repositories; the deploy gate is in `deploy.yml` itself (it ships only pushes to this repository's `main` that passed CI). Keep the repository single-owner: every collaborator can push to `main` and read the Actions secrets. Settings → Billing → keep the Actions spending limit at US$ 0, so running out of the 2,000 monthly minutes stops workflows instead of charging.
-- Then commit your repository name: in `wrangler.jsonc` set `"GITHUB_REPOSITORY": "<user>/newsmapp"`.
-- Verify: the Actions tab shows a `CI` run for the push; it must be green.
-- If it fails: open the run; the `e2e-reports` artifact holds the Playwright and Lighthouse reports.
-
-### 4.3 Wrangler login (owner, 2 min)
-
-- Action: `! pnpm exec wrangler login` (opens the browser), then `! pnpm exec wrangler whoami`.
-- Verify: `whoami` prints your account name and ID.
-
-### 4.4 Create D1 and apply migrations (agent or owner, 5 min)
-
-- Action: `! pnpm exec wrangler d1 create newsmapp`. Copy the printed `database_id` into `wrangler.jsonc` (replace the zeros) and commit it. Then `! pnpm db:migrate:remote`.
-- Verify: `! pnpm exec wrangler d1 execute newsmapp --remote --command "SELECT name FROM sqlite_master WHERE type='table'"` lists the tables from `drizzle/migrations/`.
-- If it fails: "database not found" means the id in `wrangler.jsonc` does not match.
-
-### 4.5 R2 bucket for backups (owner, 3 min)
-
-- Action: `! pnpm exec wrangler r2 bucket create newsmapp-backups`, then Dashboard → R2 → `newsmapp-backups` → Settings → Object lifecycle rules → delete objects with prefix `d1/` after 90 days.
-- Verify: `! pnpm exec wrangler r2 bucket list` shows the bucket.
-
-### 4.6 Turnstile widget (owner, 3 min)
-
-- Where: Dashboard → Turnstile → Add widget. Hostnames: your domain and `newsmapp.<subdomain>.workers.dev`. Mode: Managed.
-- Action: set the secret with `! pnpm exec wrangler secret put TURNSTILE_SECRET_KEY`; keep the site key for 4.8.
-- Verify: `! pnpm exec wrangler secret list` shows `TURNSTILE_SECRET_KEY`.
-
-### 4.7 Remaining Worker secrets (owner, 5 min)
-
-- Action: `VISITOR_HASH_SECRET` as in §3. `CF_ACCESS_*` come in 4.10; LemonSqueezy in 4.11; `GITHUB_DISPATCH_TOKEN` once the repository exists.
-- Verify: `wrangler secret list` shows the names (never the values).
-
-### 4.8 First deploy to workers.dev = preview (agent + owner, 10 min)
-
-- Goal: the site running on `newsmapp.<subdomain>.workers.dev` before any domain or real user.
-- Action: create the API tokens and set the GitHub secrets and variables of §3 (`SITE_URL` can be the workers.dev URL for now). Then Actions → Deploy → Run workflow, reason `first deploy`. The workflow stops before deploying when `database_id` still has the zeros, when `VISITOR_HASH_SECRET` or `TURNSTILE_SECRET_KEY` is missing, when `LEMONSQUEEZY_API_KEY` is set without the store id and webhook secret, or when an `ADMIN_DEV_BYPASS` secret exists.
-- Smoke test (agent can run these once you share the URL):
+- Action: create the **public** repository `newsmapp.github.io` in the organization (no README, no license: this repository brings its own history). Then push this repository to it:
 
   ```sh
-  BASE=https://newsmapp.<subdomain>.workers.dev
-  curl -sI "$BASE/" | grep -iE '^(HTTP|content-security-policy|strict-transport|x-frame)'
-  curl -s "$BASE/api/geo/"                                     # {"country":"BR"} or similar
-  curl -s "$BASE/api/slots/?country=US&category=general-news"  # {"available":3,"total":3}: D1 works
-  curl -sI "$BASE/admin/" | head -1                            # 403 until Access is configured
-  curl -s "$BASE/sitemap-index.xml" | head -5                 # sitemap-en.xml and sitemap-pt.xml
-  curl -sI "$BASE/pt/" | head -1                               # 200: the Portuguese site
+  ! git remote add origin git@github.com:newsmapp/newsmapp.github.io.git
+  ! git push -u origin main
   ```
 
-- If `/api/slots/` returns 500: migrations missing (4.4) or wrong `database_id`.
+- Before the first push, check that nothing private is in the history: `git log --all --stat` and `git grep -nI -e '@' -e 'token' -e 'secret'`. Once public, everything committed is public forever.
+- Verify: the repository page shows the code; Actions → CI starts.
 
-### 4.9 Domain, DNS and TLS (owner, 10 min + propagation)
+### 4.3 GitHub Pages (owner, 2 min)
 
-- Action: add the domain to Cloudflare (Dashboard → Add a domain, Free plan) and point the registrar's nameservers to the two Cloudflare nameservers shown. Then Workers & Pages → `newsmapp` → Settings → Domains & Routes → Add → Custom domain → `your-domain` (and `www` if wanted). SSL/TLS → Edge Certificates: Always Use HTTPS on, minimum TLS 1.2.
-- Update the `SITE_URL` variable to `https://your-domain` and re-run Deploy (canonicals and sitemaps use it). `wrangler.jsonc` declares no routes, so `wrangler deploy` keeps the custom domain added in the dashboard; if you prefer it in code, add `"routes": [{ "pattern": "your-domain", "custom_domain": true }]`.
-- Verify: `dig +short NS your-domain` shows Cloudflare; `curl -sI https://your-domain/` returns `200` with `strict-transport-security`.
+- Action: repository Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+- Verify: Settings → Environments lists `github-pages`, limited to the default branch.
 
-### 4.10 Zone rules and Cloudflare Access (owner, 10 min)
+### 4.4 First deploy (owner, 5 min)
 
-- Action: in Zero Trust, pick a team name (free plan) and add an identity method (One-time PIN by e-mail is enough). Then run `deploy/cloudflare/setup-zone.sh` as documented in `deploy/cloudflare/README.md`, and set the two printed secrets (`CF_ACCESS_AUD`, `CF_ACCESS_TEAM_DOMAIN`).
-- Verify: `curl -sI https://your-domain/admin/` redirects to `<team>.cloudflareaccess.com`; in a browser, logging in with your e-mail opens the admin. `curl -sI https://your-domain/api/admin/export/` also redirects. Twenty quick `curl` calls to `/api/geo/` should eventually return 429 from the WAF rule.
-- If the admin returns 403 after login: the AUD or team domain secret does not match the application.
-- Then close the workers.dev door: the zone's WAF, bot and Access rules do not apply there. Add `"workers_dev": false, "preview_urls": false` to `wrangler.jsonc`, commit, and let Deploy run. Verify: `curl -sI https://newsmapp.<subdomain>.workers.dev/` no longer answers with the site. Also remove the workers.dev hostname from the Turnstile widget (4.6).
+- Before: fill the governing law (`jurisdiction`) in `data/site.json`; the contact address is set (`newsmapp@atomicmail.io`). Deploy refuses to publish while it still holds the example values.
+- Action: wait for CI to pass on `main`; Deploy starts on its own. Or run Actions → Deploy → Run workflow.
+- Verify: the Deploy run shows the published URL; `curl -sI https://newsmapp.github.io/` returns `200`; `/sitemap-index.xml`, `/robots.txt`, `/pt/` and a badge such as `/badge/brazil/g1.svg` open; site search (⌘ K) finds a country.
+- If "Resolve the site URL" fails: the repository name is not exactly `newsmapp.github.io`, so GitHub serves it under a `/<repo>/` path. Rename it.
+- If `configure-pages` fails with "Get Pages site failed": Pages is not enabled with the GitHub Actions source (4.3).
 
-### 4.11 LemonSqueezy in test mode, webhook (owner, 20 min)
+### 4.5 Issue forms and labels (owner, 5 min)
 
-- Action: create the store, one product with monthly and yearly variants per price tier, and write their `variant_ids` into `data/monetization/pricing.json` (commit). Settings → Webhooks → add `https://your-domain/api/webhooks/lemonsqueezy/` (the trailing slash matters), choose a signing secret, and select `subscription_created`, `subscription_updated`, `subscription_payment_success`, `subscription_payment_failed`, `subscription_cancelled`, `subscription_expired`, `order_refunded`. Set `LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_WEBHOOK_SECRET` and `GITHUB_DISPATCH_TOKEN` as Worker secrets. While the store is in test mode, also set `LEMONSQUEEZY_ACCEPT_TEST_EVENTS` to `true`: without it, test-mode events are acknowledged and ignored.
-- Verify: on `/advertise/`, buy a slot with a test card; LemonSqueezy → Webhooks shows each delivery with response `200`; the admin lists the sponsorship as active; a Deploy run with reason starting "sponsorship" appears in Actions and, after it, the sponsor shows on the page. Then cancel, let a payment fail and refund in test mode, checking the status in the admin each time.
-- If deliveries fail with 403/challenge: Bot Fight Mode, see `deploy/cloudflare/README.md`. With 401: the webhook secret differs.
+- Action: Issues → New issue: check that "Correction" and "Outlet suggestion" appear. Create the labels they use: `! gh label create correction --repo newsmapp/newsmapp.github.io` and `! gh label create suggestion --repo newsmapp/newsmapp.github.io`.
+- Verify: on the live site, an outlet page's "Report a correction" opens the form with the outlet filled in; "Suggest an outlet" under a category fills the country and category.
 
-### 4.12 Backups and monitoring (owner, 15 min)
+### 4.6 Custom domain, optional, not planned (owner, 10 min + propagation)
 
-- Backup: Actions → Scheduled → Run workflow → `backup`. Verify the object in R2 → `newsmapp-backups/d1/`.
-- Restore test (do it once now):
+- Action: Organization settings → Pages → Add a domain, and add the TXT record GitHub shows (domain verification protects against takeover). Then repository Settings → Pages → Custom domain → `your-domain`; at the registrar, point the apex with `A`/`AAAA` records to GitHub's Pages addresses (listed in the GitHub docs, "Managing a custom domain") or `www` with a `CNAME` to `newsmapp.github.io`. When the certificate is issued, tick **Enforce HTTPS**.
+- Set the `SITE_URL` variable to `https://your-domain` only if the Pages URL GitHub reports differs from it; then re-run Deploy.
+- Verify: `dig +short your-domain` shows GitHub's addresses; `curl -sI https://your-domain/` returns `200`; the canonical in the page source uses the domain.
 
-  ```sh
-  ! pnpm exec wrangler r2 object get newsmapp-backups/d1/newsmapp-<date>.sql.gz --file restore.sql.gz --remote
-  gunzip restore.sql.gz
-  ! pnpm exec wrangler d1 create newsmapp-restore-test
-  ! pnpm exec wrangler d1 execute newsmapp-restore-test --remote --file restore.sql
-  ! pnpm exec wrangler d1 execute newsmapp-restore-test --remote --command "SELECT count(*) FROM sponsorships"
-  ! pnpm exec wrangler d1 delete newsmapp-restore-test
-  rm restore.sql
-  ```
+### 4.7 Branch protection (owner, 3 min)
 
-- Monitoring: Notifications → add "Workers: error rate" (or weekly usage) to your e-mail; add an uptime check on `https://your-domain/` and `https://your-domain/api/geo/` (Cloudflare Health Checks need Pro; a free external monitor such as UptimeRobot works). Worker logs: Workers & Pages → `newsmapp` → Logs (observability is enabled in `wrangler.jsonc`).
-- Billing: Manage Account → Billing → set a budget alert if you move to Workers Paid.
+- Action: Settings → Rules → Rulesets → New branch ruleset for `main`: require a pull request (or allow only you to push), require the CI status checks, block force pushes.
+- Verify: a force push to `main` is refused.
 
-### 4.13 Live payments (owner, after legal approval)
+### 4.8 Search registration (owner, 10 min)
 
-- Action: switch LemonSqueezy to live mode, replace `LEMONSQUEEZY_API_KEY` and `LEMONSQUEEZY_WEBHOOK_SECRET` with the live values (create a live webhook with the same URL and events), update live `variant_ids` in `pricing.json`. Delete the test-events switch: `wrangler secret delete LEMONSQUEEZY_ACCEPT_TEST_EVENTS`, so a test purchase can never activate a listing.
-- Verify: one real purchase, then refund it; both events arrive with `200`.
-
-### 4.14 Search registration (owner, 10 min)
-
-- Action: Google Search Console → add the domain property (DNS TXT record in Cloudflare DNS) → Sitemaps → submit `https://your-domain/sitemap-index.xml`. Same in Bing Webmaster Tools (import from Search Console).
+- Action: Google Search Console → add the property (URL-prefix property `https://newsmapp.github.io/`, verified with the HTML tag method) → Sitemaps → submit `https://newsmapp.github.io/sitemap-index.xml`. Same in Bing Webmaster Tools (import from Search Console).
 - Verify: the sitemap status shows "Success".
 
 ## 5. Go-live checklist
 
-- [ ] 2FA on registrar, Cloudflare, GitHub, LemonSqueezy and the e-mail account; recovery codes offline.
-- [ ] One API token per purpose with the permissions in §3; no Global API Key anywhere; the `setup-zone.sh` token deleted.
-- [ ] Deploy only through `deploy.yml` (CI green on `main`); no other collaborator on the repository.
-- [ ] workers.dev smoke test (4.8) passed before attaching the domain.
-- [ ] `workers_dev` and `preview_urls` off after the domain and Access work (4.10).
-- [ ] `LEMONSQUEEZY_ACCEPT_TEST_EVENTS` deleted before live payments (4.13).
-- [ ] Weekly backup ran and one restore was tested (4.12).
-- [ ] Uptime check and error alert reach you.
-- [ ] LemonSqueezy test cycle complete: purchase, renewal (or simulated `subscription_payment_success`), failure, cancellation, refund.
-- [ ] `curl -sI https://your-domain/` shows HSTS, CSP, `x-frame-options`; `/admin/` is behind Access.
-- [ ] Legal pages (privacy, terms, disclosures, methodology) and `data/site.json` approved, `legal_reviewed: true`.
-- [ ] Countries published only after the verification thresholds (SPEC §3.5).
-- [ ] Rollback rehearsed once (§6).
+- [ ] 2FA required in the organization; recovery codes offline.
+- [ ] Repository public, history checked for private data before the first push.
+- [ ] Pages source is GitHub Actions; deploys only through `deploy.yml` after CI on `main`.
+- [ ] Enforce HTTPS on; custom domain verified at the organization level, if used.
+- [ ] Ruleset on `main` with required CI checks.
+- [ ] Issue forms and their labels work from the live site.
+- [ ] Legal pages (privacy, terms, independence, methodology) and `data/site.json` approved, `legal_reviewed: true`; contact addresses are real.
+- [ ] A `LICENSE` chosen for the code and for the catalog data (the repository is public, but without a license nobody may reuse it).
+- [ ] Countries published only after the verification thresholds.
 
 ## 6. Rollback
 
-- Code: `! pnpm exec wrangler deployments list` then `! pnpm exec wrangler rollback <version-id>` returns the Worker and its static assets to that version immediately. Afterwards `git revert` the bad commit on `main` so the next deploy does not bring it back.
-- Rehearsal: roll back to the previous version, check the site, then re-run Deploy to return to the latest.
-- Database: migrations are forward-only. A bad migration is fixed with a new migration. For data loss, D1 Time Travel restores to any minute in the last 30 days: `! pnpm exec wrangler d1 time-travel restore newsmapp --timestamp <ISO-8601>` (this overwrites the current data; export first). The weekly R2 export is the fallback beyond that window.
-- Emergency switches: disable the LemonSqueezy webhook or put the store in test mode (stops activations); delete `GITHUB_DISPATCH_TOKEN` (stops sponsor-triggered rebuilds); set `ADS_ENABLED=false` and redeploy; Security → Settings → "Under Attack" mode for abusive traffic.
+- `git revert` the bad commit on `main` and push: CI and Deploy publish the previous state in a few minutes.
+- Faster, without a commit: Actions → Deploy → pick the last good run → Re-run all jobs. It rebuilds that run's commit and publishes it. The next push to `main` replaces it again.
+- Take the site offline: Settings → Pages → Unpublish site.
 
 ## 7. After launch
 
-- First 24 hours: watch Worker logs and error rate, the first webhook deliveries and the admin's click counts (this also validates the Analytics Engine SQL).
-- First week: Search Console coverage and sitemap; Core Web Vitals in the field (Search Console → Experience); review the first weekly `catalog-health` issue.
-- Recurring: weekly health issue and backup (automatic); monthly dependency updates through a PR (CI must pass) and a cost check; quarterly restore test; yearly rotation of `GITHUB_DISPATCH_TOKEN`, the Cloudflare tokens and `VISITOR_HASH_SECRET`, plus the LemonSqueezy webhook secret.
+- First week: Search Console coverage and sitemap; Core Web Vitals in the field; review the first weekly `catalog-health` issue and the first correction issues.
+- Recurring: weekly health issue (automatic); monthly dependency updates through a PR (CI must pass); triage of correction and suggestion issues.

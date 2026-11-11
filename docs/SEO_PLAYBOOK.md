@@ -4,14 +4,14 @@ How NewsMapp earns organic traffic without tripping scaled-content policies. Dec
 
 ## Canonical URLs
 
-| Page             | URL                                                                                                 | Indexed when                                                                |
-| ---------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| Home             | `/`                                                                                                 | always                                                                      |
-| Continent hub    | `/continent/[continent]/`                                                                           | ≥ 3 published countries in it (counting `also_in`)                          |
-| Country          | `/[country]/`                                                                                       | published (≥ 15 verified outlets in ≥ 4 categories, reviewed summary)       |
-| Country category | `/[country]/[category]/`                                                                            | ≥ 5 verified outlets in the category and a reviewed intro                   |
-| Outlet profile   | `/[country]/outlet/[outlet]/`                                                                       | generated for every verified outlet; indexable only with a reviewed `about` |
-| Institutional    | `/about/`, `/methodology/`, `/corrections/`, `/disclosures/`, `/privacy/`, `/terms/`, `/advertise/` | always                                                                      |
+| Page             | URL                                                                                  | Indexed when                                                                |
+| ---------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Home             | `/`                                                                                  | always                                                                      |
+| Continent hub    | `/continent/[continent]/`                                                            | ≥ 3 published countries in it (counting `also_in`)                          |
+| Country          | `/[country]/`                                                                        | published (≥ 15 verified outlets in ≥ 4 categories, reviewed summary)       |
+| Country category | `/[country]/[category]/`                                                             | ≥ 5 verified outlets in the category and a reviewed intro                   |
+| Outlet profile   | `/[country]/outlet/[outlet]/`                                                        | generated for every verified outlet; indexable only with a reviewed `about` |
+| Institutional    | `/about/`, `/methodology/`, `/corrections/`, `/disclosures/`, `/privacy/`, `/terms/` | always                                                                      |
 
 Rules:
 

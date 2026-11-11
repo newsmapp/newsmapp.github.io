@@ -1,6 +1,9 @@
 # 0012. Privacy, consent and compliance
 
-- Status: accepted
+- Status: accepted, amended by [0014](0014-free-static-hosting-on-github-pages.md) (2026-11-11)
+
+> Amendment (ADR 0014): there is no analytics, no ads and no form backend any more, so the project holds no personal data. Corrections are public GitHub issues; GitHub, as host, processes visitors' IP addresses under its own privacy statement. The disclosures page now states that the site has no ads, sponsorships or affiliate links.
+
 - Date: 2026-10-27
 
 ## Context

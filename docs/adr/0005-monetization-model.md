@@ -1,6 +1,6 @@
 # 0005. Monetization model: four revenue streams and two enablers
 
-- Status: accepted
+- Status: superseded by [0014](0014-free-static-hosting-on-github-pages.md) (2026-11-11): the site no longer earns money and is hosted, fully static, on GitHub Pages.
 - Date: 2026-10-27
 
 ## Context

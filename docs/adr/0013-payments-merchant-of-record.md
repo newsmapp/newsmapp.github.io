@@ -1,6 +1,6 @@
 # 0013. Payments through a Merchant of Record (LemonSqueezy)
 
-- Status: accepted
+- Status: superseded by [0014](0014-free-static-hosting-on-github-pages.md) (2026-11-11): the site no longer earns money and is hosted, fully static, on GitHub Pages.
 - Date: 2026-10-27
 
 ## Context

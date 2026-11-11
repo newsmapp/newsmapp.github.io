@@ -47,7 +47,7 @@ Checked by visiting the site without an account; recorded as of `verified_at`.
 
 ## Ranking
 
-Positions within a category are editorial: national reach, publication frequency, originality of reporting, and longevity, in that order of weight. Sponsored placements never change organic positions; they appear above them, separated and labeled "Sponsored".
+Positions within a category are editorial: national reach, publication frequency, originality of reporting, and longevity, in that order of weight. Nobody can pay for a listing or a position: NewsMapp sells no placements, shows no ads and uses no affiliate links (ADR 0014).
 
 ## Corrections
 

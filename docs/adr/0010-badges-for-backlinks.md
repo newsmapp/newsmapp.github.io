@@ -1,6 +1,9 @@
 # 0010. Badges for backlink acquisition within search guidelines
 
-- Status: accepted
+- Status: accepted, amended by [0014](0014-free-static-hosting-on-github-pages.md) (2026-11-11)
+
+> Amendment (ADR 0014): badges are now static SVG files prerendered at `/badge/[country]/[outlet].svg` on every build, so the rank they show is the one of the last deploy. There are no sponsored outlets, so the snippet never needs `rel="sponsored"`.
+
 - Date: 2026-10-27
 
 ## Context

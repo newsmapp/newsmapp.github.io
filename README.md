@@ -1,8 +1,10 @@
 # NewsMapp
 
-A global directory of news outlets, organised by country and category. Static-first Astro site on Cloudflare Workers: pages are pre-rendered from the catalog in `data/`, and a small Worker handles clicks, forms, sponsorships, badges and the admin.
+<p align="center"><img src="docs/brand/logo.webp" alt="NewsMapp" width="360"></p>
 
-- What the product must do: `SPEC.md` (source of truth, kept locally by the owner, not versioned). Why it is built this way: `docs/adr/`.
+A global directory of news outlets, organised by country and category. Free and non-commercial: no ads, no sponsored listings, no affiliate links. A fully static Astro site, built from the catalog in `data/` and hosted for free on GitHub Pages from a GitHub Organization (ADR 0014). Corrections and outlet suggestions arrive as GitHub issue forms.
+
+- What the product must do: `SPEC.md` (source of truth, kept locally by the owner, not versioned; ADR 0014 overrides its revenue sections). Why it is built this way: `docs/adr/`.
 - How to contribute and the repository rules: `AGENTS.md`.
 - Production deploy, step by step: `docs/runbooks/deploy.md`.
 
@@ -12,33 +14,31 @@ Requires Node 24 (`nvm use 24`; dependency-cruiser refuses Node 25) and pnpm 10.
 
 ```sh
 pnpm install
-cp .env.example .dev.vars          # local-only values: Turnstile test keys, simulated checkout
-pnpm db:migrate:local
 pnpm dev                           # http://localhost:4321
 ```
 
-The real catalog has no published country yet, so most pages only exist with the fixtures catalog:
+To see the real output the way GitHub Pages serves it (directory indexes, `404.html`, search index):
 
 ```sh
-CATALOG_DIR=tests/fixtures/catalog pnpm build && pnpm preview   # Worker + local D1 on :8787
+pnpm build && pnpm preview                                       # http://localhost:4321
+CATALOG_DIR=tests/fixtures/catalog pnpm build && pnpm preview    # the small fixtures catalog
 ```
 
 `pnpm check` runs everything a commit must pass; CI (`.github/workflows/ci.yml`) also runs the builds, SEO audit, E2E with accessibility checks and Lighthouse.
 
-## Go live on Cloudflare (about 15 minutes of clicks)
+## Go live on GitHub Pages (about 15 minutes of clicks)
 
 The full runbook, with verification for every step, is `docs/runbooks/deploy.md`. The short version:
 
-1. Accounts with 2FA: Cloudflare, GitHub. Push this repository to a private GitHub repo and protect `main`.
-2. `wrangler login`, then `wrangler d1 create newsmapp`; put the printed id in `wrangler.jsonc` and run `pnpm db:migrate:remote`.
-3. Create a Turnstile widget and the Worker secrets with `wrangler secret put` (inventory in the runbook §3).
-4. Create the three Cloudflare API tokens and set them as GitHub secrets; set the `SITE_URL` and `TURNSTILE_SITE_KEY` variables.
-5. Run Actions → Deploy. Smoke-test the `*.workers.dev` URL.
-6. Add your domain to Cloudflare, attach it to the Worker, update `SITE_URL`, deploy again.
-7. Run `deploy/cloudflare/setup-zone.sh` for cache rules, the WAF rate limit, Bot Fight Mode and Cloudflare Access on `/admin`.
-8. LemonSqueezy in test mode: products, `variant_ids` in `data/monetization/pricing.json`, webhook to `https://your-domain/api/webhooks/lemonsqueezy/`, then the three LemonSqueezy secrets. Full test cycle before live keys.
+1. Create the free GitHub Organization `newsmapp`, with 2FA required.
+2. Create the **public** repository `newsmapp/newsmapp.github.io` and push this repository to it. Check the history for anything private first: once public, it is public for good.
+3. Settings → Pages → Source: GitHub Actions.
+4. Fill the governing law in `data/site.json` (Deploy refuses example values), wait for CI on `main`; Deploy publishes https://newsmapp.github.io/. No secrets are needed.
+5. Create the `correction` and `suggestion` labels, protect `main` with a ruleset, submit the sitemap in Search Console.
 
-Afterwards, deploys happen on their own: every green CI run on `main`, every sponsorship change (the Worker dispatches `deploy.yml`) and a daily rebuild for expirations. Weekly jobs open a catalog link-health issue and back up D1 to R2 (`.github/workflows/scheduled.yml`).
+Afterwards every green CI run on `main` deploys on its own. A weekly job opens a catalog link-health issue (`.github/workflows/scheduled.yml`).
+
+The site must sit at the root of its origin, which `newsmapp.github.io` is: a project site such as `https://newsmapp.github.io/<repo>/` is refused at build time because every link is root-relative.
 
 ## Catalog: from draft to published
 
@@ -61,15 +61,17 @@ Git is the CMS: every outlet and country is a JSON file in `data/`, validated by
 3. Review each outlet in `data/outlets/br.json` against `docs/EDITORIAL_METHODOLOGY.md`: URL, categories, ownership with its source, pitch and `about` text. When it is right, set `"status": "verified"`, `"verified_at": "YYYY-MM-DD"` and, for an indexable profile, `about.en.reviewed: true`. Political lean or state control is only set with a `source_url`.
 4. Review the country in `data/countries/br.json`: `seo_context.en` (summary, FAQ, category intros), `press_freedom` (RSF index and year), then `seo_context.en.reviewed: true` with `reviewed_at`.
 5. Publish: `"published": true`. The build refuses it unless the country has at least 15 verified outlets in at least 4 categories and a reviewed `seo_context.en` (category pages need 5 verified outlets and a reviewed intro; SPEC §3.5).
-6. `pnpm catalog:validate && pnpm catalog:report`, commit, push. CI checks it; the merge to `main` deploys.
+6. `pnpm catalog:validate && pnpm catalog:report`, commit, push. CI checks it; the merge to `main` deploys to GitHub Pages.
 
 `pnpm catalog:report` shows, per country, verified vs candidate outlets and coverage per category.
 
-## Money: affiliates, sponsorships, ads
+## Brand
 
-- Affiliates (R2): `data/monetization/affiliates.json`. Join each program, replace the `url`/`params` with your tracking link, set `"active": true`. Copy rules and allowed contexts are in `docs/MONETIZATION_PLAYBOOK.md`; never copy that suggests bypassing paywalls or local law. Affiliate links always go through `/go/aff-<id>/` with `rel="sponsored"`.
-- Sponsored slots (R1): prices per country tier and LemonSqueezy `variant_ids` in `data/monetization/pricing.json`; sold through `/advertise/`, activated by the webhook, managed in `/admin/`.
-- Display ads (R3) stay off. Turn them on only when AdSense has approved the site, Google Privacy & Messaging (TCF-certified CMP) is configured for the EEA, UK and Switzerland, and the ads CSP profile is deployed. Then add the seller lines to `data/monetization/ads.json` (published at `/ads.txt`), set the `ADS_ENABLED` repository variable to `true` and redeploy. The privacy page must be updated before that (ADR 0012).
+The two sources live in `docs/brand/`: `logo.webp` (symbol and name) and `symbol.webp` (symbol only), both on white. `pnpm brand:assets` regenerates what the site uses from them: `public/favicon.ico`, `public/apple-touch-icon.png`, `public/mark.webp` (header) and `public/og.png` (the 1200×630 image shown when a page is shared). Commit the outputs after changing a source.
+
+## Corrections and suggestions
+
+Readers report errors and suggest outlets through the issue forms in `.github/ISSUE_TEMPLATE/`: outlet pages prefill the outlet, category columns prefill the country and category (`src/lib/issues.ts`). Review each issue against `docs/EDITORIAL_METHODOLOGY.md`; an accepted suggestion becomes a `candidate` with `pnpm catalog:add`, and an accepted correction is a commit to `data/outlets/` that references the issue. People without a GitHub account write to the contact address in `data/site.json`.
 
 ## Countries and locales
 
@@ -82,6 +84,6 @@ These are deliberately left to you and block the launch definition of done (SPEC
 
 - Verify the candidate outlets of the 40 drafted countries and publish the countries that reach the thresholds.
 - Review the drafted `seo_context` texts and FAQs; fill `press_freedom` from RSF.
-- Approve the methodology, privacy, terms and disclosure pages and the data in `data/site.json` (set `legal_reviewed: true`).
-- Real keys, affiliate IDs and LemonSqueezy `variant_ids`; one real payment made and refunded.
+- Approve the methodology, privacy, terms and independence pages and the data in `data/site.json` (real contact addresses; set `legal_reviewed: true`).
+- Choose a `LICENSE` for the code and for the catalog data.
 - Search Console set up and the sitemap submitted.

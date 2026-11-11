@@ -1,6 +1,9 @@
 # 0002. Data model: Git catalog (Zod) × D1 (Drizzle) × Analytics Engine
 
-- Status: accepted
+- Status: accepted, amended by [0014](0014-free-static-hosting-on-github-pages.md) (2026-11-11)
+
+> Amendment (ADR 0014): only the Git catalog remains. D1, Drizzle, Analytics Engine and `data/monetization` were removed with the Worker; nothing is stored at runtime.
+
 - Date: 2026-10-27
 
 ## Context
