@@ -1,90 +1,101 @@
-# NewsMapp
+<p align="center">
+  <img src="docs/brand/logo.webp" alt="NewsMapp" width="360">
+</p>
 
-<p align="center"><img src="docs/brand/logo.webp" alt="NewsMapp" width="360"></p>
+<p align="center">
+  The world's news outlets, by country and topic.<br>
+  <a href="https://newsmapp.github.io/"><strong>newsmapp.github.io</strong></a>
+</p>
 
-A global directory of news outlets, organised by country and category. Free and non-commercial: no ads, no sponsored listings, no affiliate links. A fully static Astro site, built from the catalog in `data/` and hosted for free on GitHub Pages from a GitHub Organization (ADR 0014). Corrections and outlet suggestions arrive as GitHub issue forms.
+---
 
-- What the product must do: `SPEC.md` (source of truth, kept locally by the owner, not versioned; ADR 0014 overrides its revenue sections). Why it is built this way: `docs/adr/`.
-- How to contribute and the repository rules: `AGENTS.md`.
-- Production deploy, step by step: `docs/runbooks/deploy.md`.
+NewsMapp is a directory of newspapers, broadcasters and news sites around the world. Each country page lists its main outlets in eight categories, ranked by editors, and shows for every outlet whether it can be read for free, who owns it and what kind of newsroom it is.
 
-## Run it locally
+The project is free and non-commercial. It has no ads, no sponsored listings, no affiliate links and no tracking.
 
-Requires Node 24 (`nvm use 24`; dependency-cruiser refuses Node 25) and pnpm 10.
+## Features
+
+- **Eight categories per country:** national news, politics, business, sports, investigative and fact-checking, tech and science, TV and radio, and regional.
+- **The facts readers need before clicking:** paywall model, owner and ownership type, format, founding year, language and RSS feed.
+- **Instant search** across countries and outlets (<kbd>⌘</kbd> <kbd>K</kbd>), and filters by paywall, ownership, format and name.
+- **English and Brazilian Portuguese**, with the structure ready for more languages.
+- **Accessible and fast:** WCAG 2.2 AA, no third-party requests, under 35 KB of JavaScript per page.
+- **Badges** that listed outlets can show on their own sites.
+
+## How it works
+
+The catalog lives in this repository as JSON files in [`data/`](data/), one per country, validated by [Zod](https://zod.dev/) schemas at build time. Every change to an outlet is a commit, reviewed against the [editorial methodology](docs/EDITORIAL_METHODOLOGY.md).
+
+[Astro](https://astro.build/) turns the catalog into a fully static site, and [Pagefind](https://pagefind.app/) indexes it for search. GitHub Actions builds, tests and publishes it to GitHub Pages on every change to `main`. There is no server and no database.
+
+Corrections and outlet suggestions are submitted as [GitHub issues](https://github.com/newsmapp/newsmapp.github.io/issues/new/choose); each outlet page links to a form with the outlet already filled in.
+
+## Getting started
+
+Requirements: Node.js 24 and pnpm 10.
 
 ```sh
 pnpm install
-pnpm dev                           # http://localhost:4321
+pnpm dev          # http://localhost:4321
 ```
 
-To see the real output the way GitHub Pages serves it (directory indexes, `404.html`, search index):
+To serve the production build the way GitHub Pages does:
 
 ```sh
-pnpm build && pnpm preview                                       # http://localhost:4321
-CATALOG_DIR=tests/fixtures/catalog pnpm build && pnpm preview    # the small fixtures catalog
+pnpm build
+pnpm preview
 ```
 
-`pnpm check` runs everything a commit must pass; CI (`.github/workflows/ci.yml`) also runs the builds, SEO audit, E2E with accessibility checks and Lighthouse.
+To work with the small test catalog instead of the full one, prefix either build with `CATALOG_DIR=tests/fixtures/catalog`.
 
-## Go live on GitHub Pages (about 15 minutes of clicks)
+### Scripts
 
-The full runbook, with verification for every step, is `docs/runbooks/deploy.md`. The short version:
+| Command                 | Description                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| `pnpm dev`              | Development server                                             |
+| `pnpm build`            | Production build with the search index                         |
+| `pnpm preview`          | Serve `dist/` locally                                          |
+| `pnpm check`            | Formatting, lint, architecture rules, types, catalog and tests |
+| `pnpm e2e`              | End-to-end and accessibility tests (Playwright, axe)           |
+| `pnpm lhci`             | Lighthouse performance and SEO budgets                         |
+| `pnpm catalog:validate` | Validate the catalog                                           |
+| `pnpm catalog:report`   | Coverage per country and category                              |
+| `pnpm catalog:health`   | Check every outlet link and RSS feed                           |
+| `pnpm brand:assets`     | Regenerate favicon and share images from `docs/brand/`         |
 
-1. Create the free GitHub Organization `newsmapp`, with 2FA required.
-2. Create the **public** repository `newsmapp/newsmapp.github.io` and push this repository to it. Check the history for anything private first: once public, it is public for good.
-3. Settings → Pages → Source: GitHub Actions.
-4. Wait for CI on `main`; Deploy publishes https://newsmapp.github.io/. No secrets are needed.
-5. Create the `correction` and `suggestion` labels, protect `main` with a ruleset, submit the sitemap in Search Console.
+## Project structure
 
-Afterwards every green CI run on `main` deploys on its own. A weekly job opens a catalog link-health issue (`.github/workflows/scheduled.yml`).
+```
+data/                 Catalog: countries, outlets, reference geography
+src/
+  pages/              Routes, built once per language
+  components/         UI components
+  lib/                Pure logic: catalog rules, i18n, SEO
+  schemas/            Zod schemas for the catalog
+public/               Icons, flags and brand files
+tools/                Catalog CLI, SEO audit, local server
+tests/                Unit, end-to-end and fixture catalog
+docs/                 Methodology, architecture decisions, runbooks
+```
 
-The site must sit at the root of its origin, which `newsmapp.github.io` is: a project site such as `https://newsmapp.github.io/<repo>/` is refused at build time because every link is root-relative.
+## Contributing
 
-## Catalog: from draft to published
+- **Found a mistake?** Open a [correction](https://github.com/newsmapp/newsmapp.github.io/issues/new?template=correction.yml) with a source.
+- **Missing an outlet?** [Suggest it](https://github.com/newsmapp/newsmapp.github.io/issues/new?template=suggestion.yml).
+- **Code or catalog changes:** read [`AGENTS.md`](AGENTS.md) for the repository rules, run `pnpm check` and open a pull request. Commits follow [Conventional Commits](https://www.conventionalcommits.org/).
 
-Git is the CMS: every outlet and country is a JSON file in `data/`, validated by the Zod schemas in `src/schemas/`. Tools only ever create `candidate` outlets; only you mark an outlet `verified` or a country `published`.
+Without a GitHub account, write to [newsmapp@atomicmail.io](mailto:newsmapp@atomicmail.io).
 
-1. Draft candidates from a CSV (columns: `name, url, categories, pitch` required; `slug, rss_url, language, region, founded_year, paywall, ownership_type, owner, ownership_source, format, editor_pick` optional; `categories` separated by `|`):
+## Documentation
 
-   ```sh
-   pnpm catalog:draft --country BR --from list.csv
-   pnpm catalog:add --country BR --name "…" --url https://… --categories general-news --pitch "…"
-   ```
+- [Editorial methodology](docs/EDITORIAL_METHODOLOGY.md): how outlets are selected, labeled and ranked.
+- [Catalog maintenance](docs/CATALOG.md): drafting, reviewing and publishing outlets and countries.
+- [Architecture decisions](docs/adr/): the reasoning behind the stack and the hosting model.
+- [Deploy runbook](docs/runbooks/deploy.md): publishing to GitHub Pages.
+- [SEO playbook](docs/SEO_PLAYBOOK.md) and [design brief](docs/design/brief.md).
 
-2. Check links and fetch icons. `catalog:health` writes `reports/health-<date>.json` with redirects, dead links and invalid feeds; `catalog:icons` stores favicons locally (never hot-linked) as `public/icons/<id>.webp`; commit the new files with the outlets.
+## License
 
-   ```sh
-   pnpm catalog:health --country BR
-   pnpm catalog:icons --country BR
-   ```
+No license has been chosen yet. Until one is added, all rights are reserved.
 
-3. Review each outlet in `data/outlets/br.json` against `docs/EDITORIAL_METHODOLOGY.md`: URL, categories, ownership with its source, pitch and `about` text. When it is right, set `"status": "verified"`, `"verified_at": "YYYY-MM-DD"` and, for an indexable profile, `about.en.reviewed: true`. Political lean or state control is only set with a `source_url`.
-4. Review the country in `data/countries/br.json`: `seo_context.en` (summary, FAQ, category intros), `press_freedom` (RSF index and year), then `seo_context.en.reviewed: true` with `reviewed_at`.
-5. Publish: `"published": true`. The build refuses it unless the country has at least 15 verified outlets in at least 4 categories and a reviewed `seo_context.en` (category pages need 5 verified outlets and a reviewed intro; SPEC §3.5).
-6. `pnpm catalog:validate && pnpm catalog:report`, commit, push. CI checks it; the merge to `main` deploys to GitHub Pages.
-
-`pnpm catalog:report` shows, per country, verified vs candidate outlets and coverage per category.
-
-## Brand
-
-The two sources live in `docs/brand/`: `logo.webp` (symbol and name) and `symbol.webp` (symbol only), both on white. `pnpm brand:assets` regenerates what the site uses from them: `public/favicon.ico`, `public/apple-touch-icon.png`, `public/mark.webp` (header) and `public/og.png` (the 1200×630 image shown when a page is shared). Commit the outputs after changing a source.
-
-## Corrections and suggestions
-
-Readers report errors and suggest outlets through the issue forms in `.github/ISSUE_TEMPLATE/`: outlet pages prefill the outlet, category columns prefill the country and category (`src/lib/issues.ts`). Review each issue against `docs/EDITORIAL_METHODOLOGY.md`; an accepted suggestion becomes a `candidate` with `pnpm catalog:add`, and an accepted correction is a commit to `data/outlets/` that references the issue. People without a GitHub account write to the contact address in `data/site.json`.
-
-## Countries and locales
-
-- New country: add `data/countries/<iso2>.json` (copy an existing one; `published: false`, `press_freedom: null` until you fill it) and an empty `data/outlets/<iso2>.json` (`[]`), then follow the catalog flow above. `pnpm catalog:validate` lists any missing field. The launch list is `data/launch-countries.json`.
-- Languages: English at the root and Brazilian Portuguese under `/pt/` (`ENABLED_LOCALES=en,pt`). Interface copy lives in `src/lib/i18n/` (`ui.ts`, `labels.ts`), catalog copy in each country's `name`/`seo_context` and each outlet's `pitch`; `catalog:validate` fails on any missing translation for an enabled locale. Pages live under `src/pages/[...lang]/` and are built once per language. Adding `es`, `fr` or `de` follows the same path; see `docs/SEO_PLAYBOOK.md`.
-
-## Open work (owner)
-
-Nothing here blocks the deploy; the site went live first and is reviewed after (state on 2026-11-11):
-
-- **Re-check the published outlets one by one.** The 753 outlets of the 31 published countries were approved in bulk on 2026-10-27, without the per-outlet check of `docs/EDITORIAL_METHODOLOGY.md`. None has `about.en.reviewed: true` yet, so every outlet profile stays `noindex` until it is reviewed.
-- **9 countries still unpublished** (BZ, EG, GT, HN, KE, NI, PA, PK, SV): 140 `candidate` outlets to verify; publish each country once it reaches the thresholds and its `seo_context` is reviewed.
-- **Press freedom:** `press_freedom` is empty in every country; fill it from the RSF index.
-- **Legal pages:** read privacy, terms, independence and methodology, then set `legal_reviewed: true` in `data/site.json`. Contact (`newsmapp@atomicmail.io`) and governing law (Brazil) are set.
-- **License:** choose a `LICENSE` for the code and one for the catalog data; without it, nobody may reuse them.
-- **Search:** register `https://newsmapp.github.io/` in Search Console and Bing Webmaster Tools and submit the sitemap.
+Population figures come from the [World Bank](https://data.worldbank.org/); flags are from [flag-icons](https://github.com/lipis/flag-icons) (MIT).
