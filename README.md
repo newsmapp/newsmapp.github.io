@@ -78,12 +78,13 @@ Readers report errors and suggest outlets through the issue forms in `.github/IS
 - New country: add `data/countries/<iso2>.json` (copy an existing one; `published: false`, `press_freedom: null` until you fill it) and an empty `data/outlets/<iso2>.json` (`[]`), then follow the catalog flow above. `pnpm catalog:validate` lists any missing field. The launch list is `data/launch-countries.json`.
 - Languages: English at the root and Brazilian Portuguese under `/pt/` (`ENABLED_LOCALES=en,pt`). Interface copy lives in `src/lib/i18n/` (`ui.ts`, `labels.ts`), catalog copy in each country's `name`/`seo_context` and each outlet's `pitch`; `catalog:validate` fails on any missing translation for an enabled locale. Pages live under `src/pages/[...lang]/` and are built once per language. Adding `es`, `fr` or `de` follows the same path; see `docs/SEO_PLAYBOOK.md`.
 
-## Before launch: your decisions
+## Open work (owner)
 
-These are deliberately left to you and block the launch definition of done (SPEC §5.2):
+Nothing here blocks the deploy; the site went live first and is reviewed after (state on 2026-11-11):
 
-- Verify the candidate outlets of the 40 drafted countries and publish the countries that reach the thresholds.
-- Review the drafted `seo_context` texts and FAQs; fill `press_freedom` from RSF.
-- Approve the methodology, privacy, terms and independence pages and the data in `data/site.json` (real contact addresses; set `legal_reviewed: true`).
-- Choose a `LICENSE` for the code and for the catalog data.
-- Search Console set up and the sitemap submitted.
+- **Re-check the published outlets one by one.** The 753 outlets of the 31 published countries were approved in bulk on 2026-10-27, without the per-outlet check of `docs/EDITORIAL_METHODOLOGY.md`. None has `about.en.reviewed: true` yet, so every outlet profile stays `noindex` until it is reviewed.
+- **9 countries still unpublished** (BZ, EG, GT, HN, KE, NI, PA, PK, SV): 140 `candidate` outlets to verify; publish each country once it reaches the thresholds and its `seo_context` is reviewed.
+- **Press freedom:** `press_freedom` is empty in every country; fill it from the RSF index.
+- **Legal pages:** read privacy, terms, independence and methodology, then set `legal_reviewed: true` in `data/site.json`. Contact (`newsmapp@atomicmail.io`) and governing law (Brazil) are set.
+- **License:** choose a `LICENSE` for the code and one for the catalog data; without it, nobody may reuse them.
+- **Search:** register `https://newsmapp.github.io/` in Search Console and Bing Webmaster Tools and submit the sitemap.
