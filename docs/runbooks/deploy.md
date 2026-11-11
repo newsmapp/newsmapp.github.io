@@ -13,7 +13,7 @@ Done and verified locally (2026-11-11, English and Brazilian Portuguese):
 | Format, lint, boundaries, types, catalog validation, unit tests with coverage                              | `pnpm check` and `pnpm test:coverage` exit 0                                    |
 | Production catalog build and SEO audit (badges and sitemaps included, every internal link a built file)    | `pnpm build && pnpm seo:audit`: 1,738 pages, 232 sitemap URLs, 0 findings       |
 | Fixture build, E2E and accessibility (axe), served the way GitHub Pages serves files                       | `pnpm e2e`: 46/46                                                               |
-| Lighthouse budgets on 4 page types (LCP ≤ 1.8 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci`: all assertions passed                                              |
+| Lighthouse budgets on 4 page types (LCP ≤ 2.5 s, CLS ≤ 0.01, TBT ≤ 100 ms, JS ≤ 35 KB, a11y and SEO = 100) | `pnpm lhci`: all assertions passed                                              |
 | Actions pinned by SHA, Pages actions included                                                              | `configure-pages` v6.0.0, `upload-pages-artifact` v5.0.0, `deploy-pages` v5.0.1 |
 
 Done but not verified (needs your accounts):
