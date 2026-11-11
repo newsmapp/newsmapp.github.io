@@ -2,6 +2,6 @@
   "legal_name": "NewsMapp",
   "contact_email": "newsmapp@atomicmail.io",
   "privacy_email": "newsmapp@atomicmail.io",
-  "jurisdiction": "to be confirmed by the owner",
+  "jurisdiction": { "en": "the laws of Brazil", "pt": "pelas leis do Brasil" },
   "legal_reviewed": false
 }

@@ -33,7 +33,7 @@ The full runbook, with verification for every step, is `docs/runbooks/deploy.md`
 1. Create the free GitHub Organization `newsmapp`, with 2FA required.
 2. Create the **public** repository `newsmapp/newsmapp.github.io` and push this repository to it. Check the history for anything private first: once public, it is public for good.
 3. Settings → Pages → Source: GitHub Actions.
-4. Fill the governing law in `data/site.json` (Deploy refuses example values), wait for CI on `main`; Deploy publishes https://newsmapp.github.io/. No secrets are needed.
+4. Wait for CI on `main`; Deploy publishes https://newsmapp.github.io/. No secrets are needed.
 5. Create the `correction` and `suggestion` labels, protect `main` with a ruleset, submit the sitemap in Search Console.
 
 Afterwards every green CI run on `main` deploys on its own. A weekly job opens a catalog link-health issue (`.github/workflows/scheduled.yml`).

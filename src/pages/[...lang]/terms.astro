@@ -53,7 +53,7 @@ const { lang, paths } = i18n(Astro.url);
     <h2>Contato</h2>
     <p>
       {site.legal_name}, <a href={`mailto:${site.contact_email}`}>{site.contact_email}</a>. Estes
-      termos são regidos pela lei de {site.jurisdiction}.
+      termos são regidos {site.jurisdiction.pt}.
     </p>
   </ProseLayout>
 ) : (
@@ -97,7 +97,7 @@ const { lang, paths } = i18n(Astro.url);
     <h2>Contact</h2>
     <p>
       {site.legal_name}, <a href={`mailto:${site.contact_email}`}>{site.contact_email}</a>. These
-      terms are governed by the law of {site.jurisdiction}.
+      terms are governed by {site.jurisdiction.en}.
     </p>
   </ProseLayout>
 )}

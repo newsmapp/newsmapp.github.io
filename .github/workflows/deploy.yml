@@ -47,7 +47,7 @@ jobs:
       - name: Require the owner's site data
         run: |
           if grep -qE 'newsmap\.example|to be confirmed' data/site.json; then
-            echo '::error::Fill data/site.json (contact and privacy e-mails, jurisdiction) before deploying'
+            echo '::error::Fill data/site.json (contact and privacy e-mails, governing law) before deploying'
             exit 1
           fi
       - id: pages

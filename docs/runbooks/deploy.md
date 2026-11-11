@@ -74,7 +74,7 @@ The site must be served from the root of its origin (ADR 0014), which is why the
 
 ### 4.4 First deploy (owner, 5 min)
 
-- Before: fill the governing law (`jurisdiction`) in `data/site.json`; the contact address is set (`newsmapp@atomicmail.io`). Deploy refuses to publish while it still holds the example values.
+- Before: `data/site.json` holds the contact address (`newsmapp@atomicmail.io`) and the governing law (Brazil). Deploy refuses to publish if either goes back to an example value.
 - Action: wait for CI to pass on `main`; Deploy starts on its own. Or run Actions → Deploy → Run workflow.
 - Verify: the Deploy run shows the published URL; `curl -sI https://newsmapp.github.io/` returns `200`; `/sitemap-index.xml`, `/robots.txt`, `/pt/` and a badge such as `/badge/brazil/g1.svg` open; site search (⌘ K) finds a country.
 - If "Resolve the site URL" fails: the repository name is not exactly `newsmapp.github.io`, so GitHub serves it under a `/<repo>/` path. Rename it.
