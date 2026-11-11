@@ -16,21 +16,15 @@ import {
 export const catalog = catalogJson as unknown as PublicCatalog;
 export const countries = catalog.countries;
 const byIso = new Map(countries.map((c) => [c.iso2, c]));
-const bySlug = new Map(countries.map((c) => [c.slug, c]));
-const geoByIso = new Map(catalog.geo.map((g) => [g.iso2, g]));
 
 export const countryByIso = (iso2: string): PublicCountry | undefined => byIso.get(iso2);
-export const countryBySlug = (slug: string): PublicCountry | undefined => bySlug.get(slug);
 export const countryName = (country: PublicCountry, lang: Lang): string =>
   country.name[lang] ?? country.name.en ?? country.iso2;
 export const countryPlace = (country: PublicCountry, lang: Lang): Place =>
   place(countryName(country, lang), country.iso2, lang);
-export const geoName = (iso2: string): string => geoByIso.get(iso2)?.name ?? iso2;
 
 export const categoryLabel = (category: Category, lang: Lang): string =>
   LABELS[lang].category[category];
-export const continentLabel = (continent: Continent, lang: Lang): string =>
-  LABELS[lang].continent[continent];
 
 /** Countries in alphabetical order of their name in a language. */
 export const sortedCountries = (lang: Lang): PublicCountry[] =>
@@ -89,7 +83,6 @@ export const pathsFor = (lang: Lang) => {
       at(`/${country.slug}/${category}/`),
     outlet: (country: PublicCountry, outlet: PublicOutlet) =>
       at(`/${country.slug}/outlet/${outlet.slug}/`),
-    go: (id: string) => `/go/${id}/`,
     flag: (iso2: string) => `/flags/${iso2.toLowerCase()}.svg`,
   };
 };

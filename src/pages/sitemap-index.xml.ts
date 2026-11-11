@@ -3,7 +3,7 @@ import { siteLangs } from '../data/i18n';
 import { sitemapIndex } from '../lib/seo/sitemap';
 
 export const GET: APIRoute = ({ site }) => {
-  const origin = (site ?? new URL('https://newsmap.example')).toString();
+  const origin = (site ?? new URL('https://newsmapp.github.io')).toString();
   const body = sitemapIndex(
     siteLangs.map((lang) => new URL(`/sitemap-${lang}.xml`, origin).toString()),
   );

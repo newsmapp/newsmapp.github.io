@@ -24,7 +24,7 @@ const label = l.continent[continent];
 const members = new Set(countriesIn(continent));
 const list = sortedCountries(lang).filter((c) => members.has(c));
 const outlets = list.reduce((n, c) => n + c.outlets.length, 0);
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 const crumbs = [
   { label: t.crumbs.home, href: paths.home },
   { label, href: paths.continent(continent) },

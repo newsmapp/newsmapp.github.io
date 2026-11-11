@@ -2,7 +2,7 @@ import type { Lang } from '../lib/i18n/lang';
 import { categoryPages, countries, hubContinents, isProfileIndexable, pathsFor } from './catalog';
 
 /** Static pages that are always indexable, as English paths. */
-const STATIC_PATHS = ['/', '/about/', '/methodology/', '/corrections/', '/disclosures/', '/privacy/', '/terms/', '/advertise/'];
+const STATIC_PATHS = ['/', '/about/', '/methodology/', '/corrections/', '/disclosures/', '/privacy/', '/terms/'];
 
 /** Every indexable path in a language, the single source for its sitemap (and checked by the SEO audit). */
 export function indexablePaths(lang: Lang): string[] {

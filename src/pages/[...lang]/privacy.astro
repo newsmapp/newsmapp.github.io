@@ -5,196 +5,117 @@ import site from '../../../data/site.json';
 
 export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
 
-const { lang } = i18n(Astro.url);
+const { lang, paths } = i18n(Astro.url);
+const githubPrivacy =
+  'https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement';
 ---
 
 {lang === 'pt' ? (
   <ProseLayout
     title="Política de privacidade: o que coletamos e por quê"
-    description="O que o NewsMapp coleta, por que e por quanto tempo, quem trata os dados e como exercer seus direitos pela LGPD e pelo GDPR."
+    description="O NewsMapp não usa cookies, não rastreia visitantes e não guarda dados pessoais. O que o GitHub, que hospeda o site, registra, e como exercer seus direitos."
     heading="Política de privacidade"
-    updated="2026-10-27"
+    updated="2026-11-11"
     legal
   >
     <p>
-      O NewsMapp não usa cookies e não rastreia você entre sites. Esta política explica o pouco que
-      coletamos. O controlador é {site.legal_name}, que pode ser contatado em{' '}
+      O NewsMapp não usa cookies, não conta cliques, não usa ferramentas de análise e não tem
+      servidor nem banco de dados próprios: é um conjunto de páginas estáticas. Não coletamos dados
+      pessoais. O responsável pelo projeto é {site.legal_name}, que pode ser contatado em{' '}
       <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
     </p>
 
-    <h2 id="what-we-collect">O que coletamos</h2>
-    <div class="table-scroll" role="region" aria-labelledby="what-we-collect" tabindex="0">
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Dado</th>
-            <th scope="col">Finalidade</th>
-            <th scope="col">Base legal</th>
-            <th scope="col">Por quanto tempo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              Cliques em links de veículos: veículo, página, seu país e um código que muda todo dia
-            </td>
-            <td>
-              Saber quais veículos os leitores usam e informar aos patrocinadores estimativas
-              filtradas de cliques
-            </td>
-            <td>Legítimo interesse</td>
-            <td>Agregados; o código diário não pode ser ligado entre dias</td>
-          </tr>
-          <tr>
-            <td>
-              Nome, site e e-mail que você envia nos formulários de sugestão, correção ou patrocínio
-            </td>
-            <td>Analisar o seu pedido e responder a você</td>
-            <td>O seu pedido (procedimentos preliminares a um contrato) ou legítimo interesse</td>
-            <td>
-              E-mail anonimizado 24 meses depois que o pedido é encerrado, ou 24 meses depois do
-              envio se nunca for encerrado
-            </td>
-          </tr>
-          <tr>
-            <td>Dados de pagamento dos patrocínios</td>
-            <td>Cobrar e emitir a fatura</td>
-            <td>Contrato</td>
-            <td>
-              Guardados pelo nosso provedor de pagamentos, LemonSqueezy, como vendedor responsável
-              (merchant of record)
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <h2>Hospedagem</h2>
     <p>
-      Nunca guardamos o seu endereço IP nem os dados do seu navegador de forma legível. O código
-      diário é um hash com chave desses dados, descartado com a chave todos os dias. Enquanto um
-      checkout de patrocínio está aberto, um código diário semelhante do seu IP e navegador fica
-      guardado com a reserva, para que um mesmo visitante não segure várias vagas ao mesmo tempo;
-      ele é apagado quando você paga ou quando os 30 minutos terminam.
+      O site é hospedado pelo GitHub Pages. Como qualquer servidor web, o GitHub recebe o seu
+      endereço IP ao entregar as páginas e pode registrá-lo por motivos de segurança, conforme a{' '}
+      <a href={githubPrivacy} rel="noopener">
+        declaração de privacidade do GitHub
+      </a>
+      . Não temos acesso a esses registros.
+    </p>
+
+    <h2>Correções e sugestões</h2>
+    <p>
+      Os pedidos de <a href={paths.page('/corrections/')}>correção e sugestão</a> são issues
+      públicas no GitHub. O que você escreve e o seu nome de usuário ficam visíveis para qualquer
+      pessoa e são tratados pelo GitHub como parte da sua conta. Se você nos escrever por e-mail,
+      usamos o endereço só para responder e registrar o pedido, e apagamos a mensagem quando o
+      pedido é encerrado.
     </p>
 
     <h2>Guardado no seu aparelho</h2>
     <p>
-      A sua escolha de tema (claro ou escuro) fica no armazenamento local do navegador, e o seu
-      país, detectado para a página em que você está, no armazenamento de sessão. Nenhum dos dois é
-      enviado para nós nem para mais ninguém.
+      A sua escolha de tema (claro ou escuro) e as seções que você recolheu na página inicial ficam
+      no armazenamento local do navegador. Nada disso é enviado para nós nem para mais ninguém, e
+      você pode apagar a qualquer momento limpando os dados do site.
     </p>
 
-    <h2>Quem trata dados por nós</h2>
-    <ul>
-      <li>Cloudflare: hospedagem, segurança, banco de dados e contagem de cliques.</li>
-      <li>LemonSqueezy: pagamentos dos destaques patrocinados, como vendedor responsável.</li>
-      <li>Cloudflare Turnstile: proteção dos formulários contra abuso automatizado.</li>
-    </ul>
+    <h2>Links para os veículos</h2>
+    <p>
+      Os links levam direto ao site de cada veículo. A partir daí valem a política de privacidade e
+      os cookies de cada veículo.
+    </p>
 
     <h2>Seus direitos</h2>
     <p>
-      Você pode pedir acesso, correção ou exclusão dos seus dados, se opor ao tratamento ou pedir
-      uma cópia, escrevendo para <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+      Você pode pedir acesso, correção ou exclusão de qualquer dado seu que tenhamos, como um e-mail
+      enviado, escrevendo para <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
       Também pode reclamar à autoridade de proteção de dados, como a ANPD no Brasil ou a autoridade
       nacional no seu país da União Europeia.
     </p>
   </ProseLayout>
 ) : (
-  <>
-    <ProseLayout
-      title="Privacy policy: what we collect and why"
-      description="What NewsMapp collects, why and for how long, who processes it, and how to exercise your rights under the GDPR and Brazil's LGPD."
-      heading="Privacy policy"
-      updated="2026-10-27"
-    >
-      <p>
-        NewsMapp does not use cookies and does not track you across sites. This policy explains the
-        little we do collect. The controller is {site.legal_name}, reachable at{' '}
-        <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
-      </p>
+  <ProseLayout
+    title="Privacy policy: what we collect and why"
+    description="NewsMapp uses no cookies, does not track visitors and keeps no personal data. What GitHub, which hosts the site, logs, and how to exercise your rights."
+    heading="Privacy policy"
+    updated="2026-11-11"
+  >
+    <p>
+      NewsMapp uses no cookies, counts no clicks, runs no analytics and has no server or database of
+      its own: it is a set of static pages. We do not collect personal data. The project is run by{' '}
+      {site.legal_name}, reachable at{' '}
+      <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>.
+    </p>
 
-      <h2 id="what-we-collect">What we collect</h2>
-      <div class="table-scroll" role="region" aria-labelledby="what-we-collect" tabindex="0">
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Data</th>
-              <th scope="col">Purpose</th>
-              <th scope="col">Legal basis</th>
-              <th scope="col">Kept for</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                Clicks on outlet links: outlet, page, your country, and a code that changes every
-                day
-              </td>
-              <td>
-                Know which outlets readers use and report filtered click estimates to sponsors
-              </td>
-              <td>Legitimate interest</td>
-              <td>Aggregated; the daily code cannot be linked across days</td>
-            </tr>
-            <tr>
-              <td>
-                Name, website and e-mail you send in the suggestion, correction or sponsorship forms
-              </td>
-              <td>Review your request and answer you</td>
-              <td>Your request (pre-contractual steps) or legitimate interest</td>
-              <td>
-                E-mail anonymized 24 months after the request closes, or 24 months after it was sent
-                if it is never closed
-              </td>
-            </tr>
-            <tr>
-              <td>Payment details for sponsorships</td>
-              <td>Charge and invoice</td>
-              <td>Contract</td>
-              <td>Held by our payment provider, LemonSqueezy, as merchant of record</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p>
-        We never store your IP address or browser details in readable form. The daily code is a
-        keyed hash of them that is discarded with its key every day. While a sponsorship checkout is
-        open, a similar daily code of your IP address and browser is kept with the reservation so
-        that one visitor cannot hold many places at once; it is deleted when you pay or the 30
-        minutes run out.
-      </p>
+    <h2>Hosting</h2>
+    <p>
+      The site is hosted by GitHub Pages. Like any web server, GitHub receives your IP address when
+      it delivers the pages and may log it for security purposes, as described in the{' '}
+      <a href={githubPrivacy} rel="noopener">
+        GitHub General Privacy Statement
+      </a>
+      . We have no access to those logs.
+    </p>
 
-      <h2>Stored on your device</h2>
-      <p>
-        Your theme choice (light or dark) is kept in your browser's local storage, and your country,
-        as detected for the page you are on, in its session storage. Neither is sent to us or to
-        anyone else.
-      </p>
+    <h2>Corrections and suggestions</h2>
+    <p>
+      <a href="/corrections/">Correction and suggestion</a> requests are public GitHub issues. What
+      you write and your username are visible to anyone and are handled by GitHub as part of your
+      account. If you write to us by e-mail instead, we use your address only to answer and to file
+      the request, and delete the message once the request is closed.
+    </p>
 
-      <h2>Who processes data for us</h2>
-      <ul>
-        <li>Cloudflare: hosting, security, the database and click counting.</li>
-        <li>LemonSqueezy: payments for sponsored listings, as merchant of record.</li>
-        <li>Cloudflare Turnstile: protecting forms from automated abuse.</li>
-      </ul>
+    <h2>Stored on your device</h2>
+    <p>
+      Your theme choice (light or dark) and the sections you collapsed on the home page are kept in
+      your browser's local storage. None of it is sent to us or to anyone else, and you can remove
+      it at any time by clearing the site's data.
+    </p>
 
-      <h2>Your rights</h2>
-      <p>
-        You can ask to access, correct or delete your data, object to processing or ask for a copy,
-        by writing to <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>. You can
-        also complain to your data protection authority, such as the ANPD in Brazil or your national
-        authority in the European Union.
-      </p>
-    </ProseLayout>
+    <h2>Links to outlets</h2>
+    <p>
+      Links go straight to each outlet's site. From there, that outlet's own privacy policy and
+      cookies apply.
+    </p>
 
-    <style>
-      /* Four columns do not fit a phone: the table scrolls on its own, not the page. */
-      .table-scroll {
-        overflow-x: auto;
-      }
-
-      .table-scroll table {
-        min-width: 36rem;
-      }
-    </style>
-  </>
+    <h2>Your rights</h2>
+    <p>
+      You can ask to access, correct or delete any data of yours we hold, such as an e-mail you
+      sent, by writing to <a href={`mailto:${site.privacy_email}`}>{site.privacy_email}</a>. You can
+      also complain to your data protection authority, such as the ANPD in Brazil or your national
+      authority in the European Union.
+    </p>
+  </ProseLayout>
 )}

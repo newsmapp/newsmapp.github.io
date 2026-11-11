@@ -7,12 +7,11 @@ const PAGES = [
   '/portugal/',
   '/portugal/general-news/',
   '/portugal/outlet/capital-review/',
-  '/advertise/',
   '/corrections/',
   '/methodology/',
   '/pt/',
   '/pt/portugal/general-news/',
-  '/pt/advertise/',
+  '/pt/corrections/',
 ];
 
 for (const theme of ['light', 'dark'] as const) {
@@ -23,7 +22,6 @@ for (const theme of ['light', 'dark'] as const) {
       await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
       const results = await new AxeBuilder({ page })
         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])
-        .exclude('.cf-turnstile')
         .analyze();
       expect(
         results.violations.map(

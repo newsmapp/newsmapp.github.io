@@ -1,5 +1,5 @@
 /**
- * pnpm seo:audit [dist/client]: checks titles, descriptions, canonicals, hreflang, JSON-LD,
+ * pnpm seo:audit [dist]: checks titles, descriptions, canonicals, hreflang, JSON-LD,
  * internal links, the sitemap and that no unverified outlet reached the build.
  * Exits 1 when anything is found.
  */
@@ -10,8 +10,8 @@ import { audit, type Page } from './seo-audit/audit';
 import { enabledLocales, loadCatalogInput } from './catalog-cli/io';
 import { localizePath, parseLangs } from '../src/lib/i18n/lang';
 
-const root = process.argv[2] ?? 'dist/client';
-const siteUrl = (process.env.SITE_URL ?? 'https://newsmap.example').replace(/\/$/, '');
+const root = process.argv[2] ?? 'dist';
+const siteUrl = (process.env.SITE_URL ?? 'https://newsmapp.github.io').replace(/\/$/, '');
 
 function htmlFiles(dir: string): string[] {
   return readdirSync(dir).flatMap((name) => {

@@ -1,8 +1,8 @@
 # Every PR and push must pass this. Mirrors `pnpm check` plus the build, SEO, E2E and Lighthouse gates.
 name: CI
 
-# Documentation-only changes do not touch the site: skipping them saves Actions minutes
-# (private repository). Deploy follows CI, so a docs-only push does not redeploy either.
+# Documentation-only changes do not touch the site, so they skip CI. Deploy follows CI, so a
+# docs-only push does not redeploy either.
 on:
   pull_request:
     paths-ignore: ['**/*.md', 'docs/**']
@@ -32,8 +32,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       # Any known advisory fails CI, except the reviewed ones listed in pnpm-workspace.yaml.
       - run: pnpm audit
-      # wrangler types reads .dev.vars to type the secrets; the example has no real values.
-      - run: cp .env.example .dev.vars
       - run: pnpm format:check
       - run: pnpm lint
       - run: pnpm typecheck
@@ -57,12 +55,10 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # Local secrets for wrangler dev: Turnstile always-pass test keys, simulated checkout, admin bypass.
-      - run: cp .env.example .dev.vars
       - run: pnpm build
       - run: pnpm seo:audit
       - run: pnpm exec playwright install --with-deps chromium
-      # Playwright starts the Worker itself (pnpm db:migrate:local && wrangler dev).
+      # Playwright serves dist/ itself, the way GitHub Pages does (tools/serve-static.ts).
       - run: pnpm e2e
       - run: pnpm lhci
       - if: failure()

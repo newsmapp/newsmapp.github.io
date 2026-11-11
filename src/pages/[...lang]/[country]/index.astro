@@ -2,8 +2,6 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CategoryColumnCard from '../../../components/CategoryColumnCard.astro';
-import AffiliateCard from '../../../components/AffiliateCard.astro';
-import AdSlot from '../../../components/AdSlot.astro';
 import PressFreedom from '../../../components/PressFreedom.astro';
 import Faq from '../../../components/Faq.astro';
 import CountryList from '../../../components/CountryList.astro';
@@ -18,9 +16,7 @@ import {
   relatedCountries,
 } from '../../../data/catalog';
 import { forEachLang, i18n } from '../../../data/i18n';
-import { affiliates, sponsorshipsFor } from '../../../data/monetization';
 import { countryGrid } from '../../../lib/catalog/thresholds';
-import { selectAffiliate } from '../../../lib/monetization/affiliates';
 import { formatCompact } from '../../../lib/format';
 import type { Lang } from '../../../lib/i18n/lang';
 import { breadcrumbList, faqPage, itemList } from '../../../lib/seo/jsonld';
@@ -44,11 +40,7 @@ const context = country.seo_context[lang];
 const grid = countryGrid(country.outlets);
 const withPages = new Set(categoryPages(country, lang));
 const related = relatedCountries(country);
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
-const affiliate = selectAffiliate(affiliates, {
-  kind: 'country',
-  paywalls: country.outlets.map((o) => o.paywall),
-});
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 
 const crumbs = [
   { label: t.crumbs.home, href: paths.home },
@@ -126,7 +118,6 @@ const jsonld = [
           country={country}
           category={category}
           outlets={outlets}
-          sponsorships={sponsorshipsFor(country.iso2, category)}
           hasPage={withPages.has(category)}
           aboveFold={index < 4}
         />
@@ -141,8 +132,6 @@ const jsonld = [
         />
       )}
     </div>
-
-    <AdSlot placement="leaderboard" />
 
     <div class="below">
       <div class="reading">
@@ -161,7 +150,6 @@ const jsonld = [
         )}
       </div>
       <aside class="side">
-        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
         <PressFreedom country={country} where={where} />
         <section aria-labelledby="facts">
           <h2 id="facts">{t.country.about(where)}</h2>

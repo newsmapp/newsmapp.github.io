@@ -1,7 +1,13 @@
 /** Shared HTTP helpers for health checks and icon downloads. */
 
-const SITE_URL = process.env.SITE_URL ?? 'https://newsmap.example';
-export const USER_AGENT = `NewsMappBot/1.0 (+${SITE_URL}/methodology/)`;
+/**
+ * Where site owners can read who is calling: the methodology page when SITE_URL is known, else
+ * the public repository (always set on GitHub Actions, where the weekly check runs).
+ */
+const CONTACT = process.env.SITE_URL
+  ? `${process.env.SITE_URL.replace(/\/$/, '')}/methodology/`
+  : `https://github.com/${process.env.GITHUB_REPOSITORY ?? 'newsmapp/newsmapp.github.io'}`;
+export const USER_AGENT = `NewsMappBot/1.0 (+${CONTACT})`;
 const TIMEOUT_MS = 15_000;
 const MAX_BODY = 512 * 1024;
 

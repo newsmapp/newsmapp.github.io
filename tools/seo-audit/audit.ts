@@ -25,8 +25,6 @@ export interface AuditInput {
   hiddenOutletIds: Set<string>;
   /** Profile paths those outlets would have: must never be built. */
   hiddenPaths: Set<string>;
-  /** Path prefixes rendered by the Worker, not present in dist. */
-  dynamicPrefixes?: string[];
 }
 
 export const TITLE = { min: 30, max: 60 } as const;
@@ -77,7 +75,7 @@ export function readPage(html: string) {
   const anchors = tags(html, 'a').map((t) => ({
     href: attr(t, 'href'),
     rel: attr(t, 'rel') ?? '',
-    track: attr(t, 'data-track'),
+    outlet: attr(t, 'data-outlet'),
   }));
   const robots = meta('robots') ?? '';
   return {
@@ -99,7 +97,6 @@ export function audit(input: AuditInput): Finding[] {
   const add = (path: string, rule: string, message: string) =>
     findings.push({ path, rule, message });
   const site = input.siteUrl.replace(/\/$/, '');
-  const dynamic = input.dynamicPrefixes ?? ['/go/', '/api/', '/badge/', '/admin/'];
   const parsed = new Map(input.pages.map((p) => [p.path, readPage(p.html)]));
   const titles = new Map<string, string[]>();
 
@@ -154,17 +151,12 @@ export function audit(input: AuditInput): Finding[] {
 
     for (const anchor of page.anchors) {
       const href = anchor.href;
-      if (anchor.track && input.hiddenOutletIds.has(anchor.track)) {
-        add(path, 'unverified-outlet', `Links to unverified outlet ${anchor.track}.`);
+      if (anchor.outlet && input.hiddenOutletIds.has(anchor.outlet)) {
+        add(path, 'unverified-outlet', `Links to unverified outlet ${anchor.outlet}.`);
       }
       if (!href || !href.startsWith('/') || href.startsWith('//')) continue;
+      // Fully static site: every internal link, badges included, must be a built file.
       const target = href.split(/[?#]/)[0] ?? '';
-      if (target.startsWith('/go/')) {
-        if (!/\bsponsored\b/.test(anchor.rel))
-          add(path, 'go-rel', `${href} lacks rel="sponsored".`);
-        continue;
-      }
-      if (dynamic.some((prefix) => target.startsWith(prefix))) continue;
       if (!input.exists(target)) add(path, 'broken-link', `Internal link ${href} has no page.`);
     }
   }

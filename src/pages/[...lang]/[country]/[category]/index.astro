@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
-import AffiliateCard from '../../../../components/AffiliateCard.astro';
 import CategoryColumnCard from '../../../../components/CategoryColumnCard.astro';
 import type { PublicCountry } from '../../../../lib/catalog/public';
 import type { Category } from '../../../../schemas/catalog.schema';
@@ -17,8 +16,6 @@ import {
 } from '../../../../data/catalog';
 import { forEachLang, i18n, siteLangs } from '../../../../data/i18n';
 import { localizePath, type Lang } from '../../../../lib/i18n/lang';
-import { affiliates, sponsorshipsFor } from '../../../../data/monetization';
-import { selectAffiliate } from '../../../../lib/monetization/affiliates';
 import { breadcrumbList, itemList } from '../../../../lib/seo/jsonld';
 
 export const getStaticPaths = () =>
@@ -50,8 +47,7 @@ const langs = siteLangs.filter((l) => categoryPages(country, l).includes(categor
 const switchTo = Object.fromEntries(
   siteLangs.filter((l) => !langs.includes(l)).map((l) => [l, localizePath(`/${country.slug}/`, l)]),
 );
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
-const affiliate = selectAffiliate(affiliates, { kind: 'category', category });
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 // The same category in other countries of the continent, for internal linking.
 const elsewhere = countriesIn(country.continent)
   .filter((c) => c.iso2 !== country.iso2 && categoryPages(c, lang).includes(category))
@@ -138,11 +134,9 @@ const crumbs = [
           country={country}
           category={category}
           outlets={outlets}
-          sponsorships={sponsorshipsFor(country.iso2, category)}
           hasPage={false}
           visible={outlets.length}
         />
-        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
         {elsewhere.length > 0 && (
           <section aria-labelledby="elsewhere">
             <h2 id="elsewhere">{t.category.elsewhere(label, l.continent[country.continent])}</h2>

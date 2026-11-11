@@ -13,13 +13,14 @@ const { lang, paths } = i18n(Astro.url);
     title="Metodologia: como listamos e ordenamos os veículos"
     description="Como o NewsMapp verifica cada veículo, classifica paywalls e propriedade, trata a orientação política e decide a ordem em cada categoria."
     heading="Como listamos, classificamos e ordenamos os veículos"
-    updated="2026-10-27"
+    updated="2026-11-11"
     legal
   >
     <p>
-      Cada veículo do NewsMapp é conferido por uma pessoa antes de aparecer. Esta página explica o
-      que significa cada rótulo, de onde vêm os dados e como é decidida a ordem dentro de cada
-      categoria.
+      Cada veículo do NewsMapp é aprovado por um editor com base nos critérios abaixo antes de ser
+      publicado. A primeira leva foi aprovada em bloco e está sendo revisada veículo por veículo;
+      correções são bem-vindas. Esta página explica o que significa cada rótulo, de onde vêm os
+      dados e como é decidida a ordem dentro de cada categoria.
     </p>
 
     <h2>Quais veículos entram</h2>
@@ -143,9 +144,9 @@ const { lang, paths } = i18n(Astro.url);
       nessa ordem de peso.
     </p>
     <p>
-      Destaques patrocinados nunca mudam essas posições. Eles aparecem acima da classificação, com
-      fundo destacado e a palavra Patrocinado, e são revisados antes de entrar no ar. Veja a nossa
-      página de <a href={paths.page('/disclosures/')}>transparência</a>.
+      Ninguém paga para entrar no diretório nem para mudar de posição: o NewsMapp não vende
+      destaques, não exibe anúncios e não usa links de afiliados. Veja a página de{' '}
+      <a href={paths.page('/disclosures/')}>independência</a>.
     </p>
 
     <h2>Dados de liberdade de imprensa e população</h2>
@@ -157,10 +158,10 @@ const { lang, paths } = i18n(Astro.url);
 
     <h2>Correções</h2>
     <p>
-      Qualquer pessoa pode <a href={paths.page('/corrections/')}>enviar uma correção</a>. Um editor
-      analisa cada pedido; as correções aceitas aparecem na próxima atualização do site. Se você
-      deixar um e-mail, contamos o resultado, e o endereço é anonimizado 24 meses depois que o
-      pedido é encerrado (ou depois do envio, se ele nunca for encerrado).
+      Qualquer pessoa pode <a href={paths.page('/corrections/')}>enviar uma correção</a>. Os pedidos
+      são issues públicas no GitHub: um editor analisa cada uma, e as correções aceitas viram uma
+      mudança no catálogo, visível no histórico do repositório, que entra no ar com a próxima
+      atualização do site.
     </p>
   </ProseLayout>
 ) : (
@@ -168,11 +169,13 @@ const { lang, paths } = i18n(Astro.url);
     title="Methodology: how outlets are listed, labeled and ranked"
     description="How NewsMapp verifies each outlet, labels paywalls and ownership, handles political lean and decides the order within every category."
     heading="How we list, label and rank outlets"
-    updated="2026-10-27"
+    updated="2026-11-11"
   >
     <p>
-      Every outlet on NewsMapp is checked by a person before it appears. This page explains what
-      each label means, where the facts come from and how the order within a category is decided.
+      Every outlet on NewsMapp is approved by an editor against the criteria below before it is
+      published. The first batch was approved in bulk and is being re-checked outlet by outlet;
+      corrections are welcome. This page explains what each label means, where the facts come from
+      and how the order within a category is decided.
     </p>
 
     <h2>Which outlets are listed</h2>
@@ -295,9 +298,8 @@ const { lang, paths } = i18n(Astro.url);
       of weight.
     </p>
     <p>
-      Sponsored listings never change these positions. They appear above the ranking, on a
-      highlighted background, labeled Sponsored, and are reviewed before they go live. See our{' '}
-      <a href="/disclosures/">disclosures</a>.
+      Nobody pays to be listed or to move up: NewsMapp sells no placements, shows no ads and uses no
+      affiliate links. See our <a href="/disclosures/">independence</a> page.
     </p>
 
     <h2>Press freedom and population data</h2>
@@ -308,10 +310,9 @@ const { lang, paths } = i18n(Astro.url);
 
     <h2>Corrections</h2>
     <p>
-      Anyone can <a href="/corrections/">report a correction</a>. An editor reviews every request;
-      accepted corrections appear with the next update of the site. If you leave an e-mail address
-      we tell you the outcome, and the address is anonymized 24 months after the request is closed
-      (or after it was sent, if it is never closed).
+      Anyone can <a href="/corrections/">report a correction</a>. Requests are public GitHub issues:
+      an editor reviews each one, and an accepted correction becomes a change to the catalog,
+      visible in the repository history, that goes live with the next update of the site.
     </p>
   </ProseLayout>
 )}

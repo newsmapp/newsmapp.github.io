@@ -1,4 +1,4 @@
-/** Badge served at /badge/[country]/[outlet].svg (H2). Pure so it can be tested and cached. */
+/** Badge prerendered at /badge/[country]/[outlet].svg (H2). Pure so it can be tested. */
 import { escapeXml } from './xml';
 
 export const BADGE_SIZE = { width: 232, height: 40 } as const;

@@ -13,7 +13,7 @@ import { organization, website } from '../../lib/seo/jsonld';
 export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
 
 const { lang, t, l, paths } = i18n(Astro.url);
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 const outletCount = countries.reduce((n, c) => n + c.outlets.length, 0);
 // Primary continent only, so transcontinental countries are listed once.
 const sorted = sortedCountries(lang);

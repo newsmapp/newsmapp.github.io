@@ -87,16 +87,16 @@ describe('audit', () => {
     expect(rules(base([jsonld('{oops')]))).toContain('jsonld');
   });
 
-  it('finds broken internal links and /go/ links without rel="sponsored"', () => {
+  it('finds broken internal links, with no exemption for former server routes', () => {
     const links = page(
       '/a/',
-      '<a href="/missing/">x</a><a href="/go/sp-1/" rel="noopener">s</a><a href="/api/geo/">ok</a><a href="https://x.example/">ext</a><a href="#main">skip</a>',
+      '<a href="/missing/">x</a><a href="/go/pt-x/">go</a><a href="https://x.example/">ext</a><a href="#main">skip</a>',
     );
-    expect(rules(base([links]))).toEqual(['broken-link', 'go-rel']);
+    expect(rules(base([links]))).toEqual(['broken-link', 'broken-link']);
   });
 
   it('rejects unverified outlets in links and built profiles', () => {
-    const tracked = page('/pt/outlet/x/', '<a href="https://x.example/" data-track="pt-x">x</a>');
+    const tracked = page('/pt/outlet/x/', '<a href="https://x.example/" data-outlet="pt-x">x</a>');
     const found = rules(
       base([tracked], {
         hiddenOutletIds: new Set(['pt-x']),

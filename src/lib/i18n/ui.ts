@@ -9,7 +9,7 @@ const en = {
   skip: 'Skip to content',
   header: {
     search: 'Search countries and outlets',
-    advertise: 'Advertise',
+    suggest: 'Suggest an outlet',
     nav: 'Site',
     toDark: 'Switch to dark theme',
     toLight: 'Switch to light theme',
@@ -21,12 +21,12 @@ const en = {
     about: 'About',
     methodology: 'Methodology',
     corrections: 'Report a correction',
-    advertise: 'Advertise',
-    disclosures: 'Disclosures',
+    disclosures: 'Independence',
+    source: 'Source code',
     privacy: 'Privacy',
     terms: 'Terms',
     note: (year: number) =>
-      `Outlets are ranked by our editors, not by payment. Sponsored listings are labeled and kept apart from the ranking. © ${year} NewsMapp.`,
+      `Outlets are ranked by our editors. No ads, no sponsored listings, no affiliate links: NewsMapp is a free, non-commercial project with its code and catalog public on GitHub. © ${year} NewsMapp.`,
   },
   crumbs: { label: 'Breadcrumb', home: 'Home' },
   outlets: (n: number) => count(n, 'outlet', 'outlets', 'en'),
@@ -58,12 +58,10 @@ const en = {
     inCountry: (p: Place) => `in ${p.name}`,
   },
   column: {
-    sponsored: (label: string) => `Sponsored listings in ${label}`,
     ranked: (label: string) => `${label}, ranked`,
     showAll: (n: number) => `Show all ${n}`,
     empty: 'No outlets match these filters.',
     suggest: 'Suggest an outlet',
-    feature: 'Feature yours',
     more: 'More outlets',
   },
   row: {
@@ -76,13 +74,6 @@ const en = {
     format: 'Format',
     visit: 'Visit site',
     profile: 'Profile and alternatives',
-  },
-  sponsored: 'Sponsored',
-  ad: 'Advertisement',
-  affiliate: {
-    label: 'Partner offer',
-    disclosure: 'Partner link. We may earn a commission.',
-    how: 'How we pick partners',
   },
   filter: {
     form: 'Filter outlets',
@@ -209,12 +200,6 @@ const en = {
     updated: 'Last updated',
     translation: '',
   },
-  forms: {
-    sending: 'Sending…',
-    sent: 'Sent.',
-    failed: 'The form could not be sent. Check the fields and try again.',
-    offline: 'The form could not be sent because the connection failed. Try again.',
-  },
   notFound: {
     title: 'Page not found',
     description: 'This page does not exist on NewsMapp.',
@@ -231,7 +216,7 @@ const pt: UI = {
   skip: 'Pular para o conteúdo',
   header: {
     search: 'Buscar países e veículos',
-    advertise: 'Anuncie',
+    suggest: 'Sugira um veículo',
     nav: 'Site',
     toDark: 'Mudar para o tema escuro',
     toLight: 'Mudar para o tema claro',
@@ -243,12 +228,12 @@ const pt: UI = {
     about: 'Sobre',
     methodology: 'Metodologia',
     corrections: 'Enviar uma correção',
-    advertise: 'Anuncie',
-    disclosures: 'Transparência',
+    disclosures: 'Independência',
+    source: 'Código-fonte',
     privacy: 'Privacidade',
     terms: 'Termos',
     note: (year: number) =>
-      `Os veículos são ordenados pelos nossos editores, não por pagamento. Os destaques patrocinados são identificados e ficam separados da classificação. © ${year} NewsMapp.`,
+      `Os veículos são ordenados pelos nossos editores. Sem anúncios, sem destaques patrocinados, sem links de afiliados: o NewsMapp é um projeto gratuito e sem fins comerciais, com código e catálogo públicos no GitHub. © ${year} NewsMapp.`,
   },
   crumbs: { label: 'Navegação estrutural', home: 'Início' },
   outlets: (n: number) => count(n, 'veículo', 'veículos', 'pt'),
@@ -281,12 +266,10 @@ const pt: UI = {
     inCountry: (p: Place) => p.in,
   },
   column: {
-    sponsored: (label: string) => `Destaques patrocinados em ${label}`,
     ranked: (label: string) => `${label}, em ordem`,
     showAll: (n: number) => `Mostrar todos os ${n}`,
     empty: 'Nenhum veículo corresponde a esses filtros.',
     suggest: 'Sugerir um veículo',
-    feature: 'Destaque o seu',
     more: 'Outros veículos',
   },
   row: {
@@ -299,13 +282,6 @@ const pt: UI = {
     format: 'Formato',
     visit: 'Visitar o site',
     profile: 'Perfil e alternativas',
-  },
-  sponsored: 'Patrocinado',
-  ad: 'Publicidade',
-  affiliate: {
-    label: 'Oferta de parceiro',
-    disclosure: 'Link de parceiro. Podemos receber comissão.',
-    how: 'Como escolhemos parceiros',
   },
   filter: {
     form: 'Filtrar veículos',
@@ -431,12 +407,6 @@ const pt: UI = {
     updated: 'Última atualização em',
     translation:
       'Esta página é uma tradução da versão em inglês. Em caso de divergência, prevalece o texto em inglês.',
-  },
-  forms: {
-    sending: 'Enviando…',
-    sent: 'Enviado.',
-    failed: 'Não foi possível enviar o formulário. Confira os campos e tente de novo.',
-    offline: 'Não foi possível enviar o formulário porque a conexão falhou. Tente de novo.',
   },
   notFound: {
     title: 'Página não encontrada',

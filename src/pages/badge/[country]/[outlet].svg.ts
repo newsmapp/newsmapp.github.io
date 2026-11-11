@@ -1,30 +1,22 @@
-import type { APIRoute } from 'astro';
+import type { APIRoute, GetStaticPaths } from 'astro';
 import { badgeSvg } from '../../../lib/badge';
+import { badgeEntries, type BadgeEntry } from '../../../lib/catalog/public';
 import { CATEGORY_LABELS } from '../../../schemas/catalog.schema';
-import { problem } from '../../../server/http';
-import { catalog } from '../../../runtime/worker';
+import { catalog } from '../../../data/catalog';
 
-export const prerender = false;
+/** H2 badge, written as a static SVG file for every ranked outlet at build time. */
+export const getStaticPaths = (() =>
+  badgeEntries(catalog).map((entry) => ({
+    params: { country: entry.country_slug, outlet: entry.slug },
+    props: { entry },
+  }))) satisfies GetStaticPaths;
 
-const byPath = new Map(Object.values(catalog).map((o) => [`${o.country_slug}/${o.slug}`, o]));
-
-/** H2 badge. Self-contained SVG, cached for a day at the edge. */
-export const GET: APIRoute = ({ params }) => {
-  const outlet = byPath.get(`${params.country ?? ''}/${params.outlet ?? ''}`);
-  if (!outlet || outlet.badge.position < 1) return problem(404, 'Unknown outlet.');
-  return new Response(
+export const GET: APIRoute<{ entry: BadgeEntry }> = ({ props: { entry } }) =>
+  new Response(
     badgeSvg({
-      rank: outlet.badge.position,
-      category: CATEGORY_LABELS[outlet.badge.category],
-      country: outlet.country_name,
+      rank: entry.position,
+      category: CATEGORY_LABELS[entry.category],
+      country: entry.country_name,
     }),
-    {
-      headers: {
-        'content-type': 'image/svg+xml; charset=utf-8',
-        'content-security-policy': "default-src 'none'; style-src 'unsafe-inline'",
-        'cache-control': 'public, max-age=86400',
-        'x-content-type-options': 'nosniff',
-      },
-    },
+    { headers: { 'content-type': 'image/svg+xml; charset=utf-8' } },
   );
-};

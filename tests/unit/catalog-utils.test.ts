@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { parseCsv, parseCsvRecords } from '@/lib/csv';
 import { hash, initials, monogramSvg } from '@/lib/catalog/monogram';
 import { slugify } from '@/lib/catalog/slugify';
-import { toPublicCatalog, toRuntimeCatalog } from '@/lib/catalog/public';
+import { badgeEntries, toPublicCatalog } from '@/lib/catalog/public';
 import { validateCatalog } from '@/lib/catalog/validate';
 import { FIXTURES, loadInput } from '../helpers/catalog';
 
@@ -79,20 +79,17 @@ describe('public catalog', () => {
     expect(pt.outlets.find((o) => o.id === 'pt-lab-notes')?.icon).toBe('/icons/pt-lab-notes.svg');
   });
 
-  it('keeps every ISO country for lookups and builds the runtime map', () => {
-    expect(publicCatalog.geo.length).toBeGreaterThan(240);
-    const runtime = toRuntimeCatalog(publicCatalog);
-    expect(runtime['pt-morning-ledger']).toEqual({
-      name: 'Portugal Morning Ledger',
-      url: 'https://pt-morning-ledger.example.com/',
-      country: 'PT',
-      slug: 'morning-ledger',
-      categories: ['general-news', 'politics'],
+  it('lists the badges to prerender', () => {
+    const badges = badgeEntries(publicCatalog);
+    expect(badges.find((b) => b.id === 'pt-morning-ledger')).toEqual({
+      id: 'pt-morning-ledger',
       country_slug: 'portugal',
+      slug: 'morning-ledger',
       country_name: 'Portugal',
-      badge: { position: 1, category: 'general-news' },
+      position: 1,
+      category: 'general-news',
     });
-    expect(runtime['pt-unverified-gazette']).toBeUndefined();
+    expect(badges.find((b) => b.id === 'pt-unverified-gazette')).toBeUndefined();
   });
 
   it('adds unpublished countries and candidates, never retired outlets, in a drafts preview', () => {

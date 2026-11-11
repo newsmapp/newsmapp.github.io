@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Opt-in (once per clone): git config core.hooksPath .githooks
-# Runs the local CI before a push that updates main, so GitHub Actions minutes go only to runs
-# that already pass. Skip once with: git push --no-verify
+# Runs the local CI before a push that updates main, so a red build is caught before it reaches
+# GitHub (where it would block the Pages deploy). Skip once with: git push --no-verify
 set -euo pipefail
 
 while read -r _local_ref _local_sha remote_ref _remote_sha; do

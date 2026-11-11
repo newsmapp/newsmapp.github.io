@@ -1,11 +1,10 @@
-# Production deploy. Triggers:
+# Production deploy to GitHub Pages (ADR 0014). The site is fully static: build, audit, upload.
+# Triggers:
 #   - CI finishing green on main (catalog or code change), so a red build never ships;
-#   - workflow_dispatch, which the Worker calls after a sponsorship changes (src/server/rebuild.ts)
-#     and the owner can run by hand;
-#   - workflow_call from scheduled.yml (daily rebuild for expirations).
-# Secrets: CLOUDFLARE_API_TOKEN (deploy), CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_READ_TOKEN (snapshot).
-# Variables (public, baked into the static pages at build time and passed to the Worker):
-#   SITE_URL, TURNSTILE_SITE_KEY (required), ENABLED_LOCALES (default en,pt), ADS_ENABLED (default false).
+#   - workflow_dispatch, for a manual rebuild.
+# No secrets. Optional repository variables, baked into the pages at build time:
+#   SITE_URL (default: the Pages URL GitHub reports, e.g. a custom domain set in Settings → Pages),
+#   ENABLED_LOCALES (default en,pt).
 name: Deploy
 
 on:
@@ -14,42 +13,22 @@ on:
     types: [completed]
     branches: [main]
   workflow_dispatch:
-    inputs:
-      reason:
-        description: Why this rebuild runs (logged only)
-        required: false
-        default: manual
-  workflow_call:
-    inputs:
-      reason:
-        type: string
-        required: false
-        default: scheduled
-    secrets:
-      CLOUDFLARE_API_TOKEN:
-        required: true
-      CLOUDFLARE_ACCOUNT_ID:
-        required: true
-      CLOUDFLARE_D1_READ_TOKEN:
-        required: true
 
 permissions:
   contents: read
 
 # One deploy at a time; a newer run waits instead of racing the older one.
 concurrency:
-  group: deploy-production
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Snapshot, build, migrate, deploy
+  build:
+    name: Build and audit
     runs-on: ubuntu-latest
     timeout-minutes: 15
     # workflow_run's branch filter matches only the branch *name*: a fork PR from a branch called
     # "main" would pass it. Deploy only pushes to this repository's main that CI passed.
-    # This is the only deploy gate: a private repository on GitHub Free has no environments
-    # or branch protection, so a red push to main simply never ships.
     if: >-
       github.event_name != 'workflow_run' || (
         github.event.workflow_run.conclusion == 'success' &&
@@ -58,73 +37,56 @@ jobs:
         github.event.workflow_run.head_repository.full_name == github.repository
       )
     env:
-      SITE_URL: ${{ vars.SITE_URL }}
-      TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
       ENABLED_LOCALES: ${{ vars.ENABLED_LOCALES || 'en,pt' }}
-      ADS_ENABLED: ${{ vars.ADS_ENABLED || 'false' }}
     steps:
-      - name: Reason
-        run: echo "Deploy reason - ${REASON}"
-        env:
-          REASON: ${{ inputs.reason || 'CI passed on main' }}
-      - name: Require the build-time variables
-        run: |
-          [[ "$SITE_URL" == https://* && "$SITE_URL" != *newsmap.example* ]] ||
-            { echo '::error::Set the SITE_URL repository variable (https://your-domain)'; exit 1; }
-          [[ -n "$TURNSTILE_SITE_KEY" && "$TURNSTILE_SITE_KEY" != 1x0000* ]] ||
-            { echo '::error::Set the TURNSTILE_SITE_KEY repository variable (real site key)'; exit 1; }
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           # workflow_run: deploy exactly the commit CI tested; otherwise the dispatched ref (main).
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      # The legal pages print these values: never publish example contacts or an unnamed law.
+      - name: Require the owner's site data
+        run: |
+          if grep -qE 'newsmap\.example|to be confirmed' data/site.json; then
+            echo '::error::Fill data/site.json (contact and privacy e-mails, jurisdiction) before deploying'
+            exit 1
+          fi
+      - id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Resolve the site URL
+        run: |
+          url="${SITE_URL_VAR:-$PAGES_URL}"
+          url="${url%/}"
+          # Root-relative links need the site at the root of its origin (ADR 0014).
+          [[ "$url" =~ ^https://[^/]+$ ]] ||
+            { echo "::error::The site must be served from an origin root (custom domain or <org>.github.io repository), got '$url'"; exit 1; }
+          echo "SITE_URL=$url" >> "$GITHUB_ENV"
+          echo "Building for $url"
+        env:
+          SITE_URL_VAR: ${{ vars.SITE_URL }}
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
       - uses: pnpm/action-setup@0977fd99725f1db4007ccb2928dbb4e90d06cc86 # v6
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # Listed sponsorships are baked into the static pages; fail rather than ship an empty snapshot.
-      - run: pnpm sponsorships:snapshot --required
-        env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_D1_READ_TOKEN: ${{ secrets.CLOUDFLARE_D1_READ_TOKEN }}
       - run: pnpm build
       - run: pnpm seo:audit
-      # A missing secret does not fail at deploy time, it fails users later: without
-      # VISITOR_HASH_SECRET the click hash has a guessable key, and LemonSqueezy keys without the
-      # webhook secret take payments the site never applies. Only names can be read, never values.
-      - name: Require the Worker secrets and the D1 id
-        run: |
-          ! grep -qE '"database_id": "0{8}-' wrangler.jsonc ||
-            { echo '::error::Set the D1 database_id in wrangler.jsonc (runbook 4.4)'; exit 1; }
-          names=$(pnpm exec wrangler secret list --format json | jq -r '.[].name')
-          has() { grep -qx "$1" <<<"$names"; }
-          missing=()
-          for name in VISITOR_HASH_SECRET TURNSTILE_SECRET_KEY; do has "$name" || missing+=("$name"); done
-          if has LEMONSQUEEZY_API_KEY; then
-            for name in LEMONSQUEEZY_STORE_ID LEMONSQUEEZY_WEBHOOK_SECRET; do
-              has "$name" || missing+=("$name")
-            done
-          fi
-          ((${#missing[@]} == 0)) ||
-            { echo "::error::Set the Worker secrets: ${missing[*]} (runbook §3)"; exit 1; }
-          ! has ADMIN_DEV_BYPASS ||
-            { echo '::error::Delete the ADMIN_DEV_BYPASS secret: it is for local development only'; exit 1; }
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      # Migrations are forward-only and must land before the code that uses them.
-      - run: pnpm db:migrate:remote
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      # Runtime vars follow the same values the pages were built with.
-      - run: >-
-          pnpm exec wrangler deploy
-          --var "SITE_URL:$SITE_URL"
-          --var "ENABLED_LOCALES:$ENABLED_LOCALES"
-          --var "ADS_ENABLED:$ADS_ENABLED"
-          --var "GITHUB_REPOSITORY:$GITHUB_REPOSITORY"
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

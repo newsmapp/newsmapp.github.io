@@ -1,14 +1,12 @@
 dist/
 .astro/
-.wrangler/
 coverage/
 reports/
 pnpm-lock.yaml
-worker-configuration.d.ts
 src/generated/
-drizzle/migrations/meta/
 SPEC.md
 # owned by the catalog CLI (JSON.stringify formatting)
 data/
 tests/fixtures/
 /C:*
+resume.md

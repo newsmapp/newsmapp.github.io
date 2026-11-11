@@ -24,9 +24,6 @@ export function robotsTxt(siteUrl: string): string {
   return [
     'User-agent: *',
     'Allow: /',
-    'Disallow: /go/',
-    'Disallow: /api/',
-    'Disallow: /admin/',
     '',
     `Sitemap: ${new URL('/sitemap-index.xml', siteUrl).toString()}`,
     '',

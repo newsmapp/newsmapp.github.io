@@ -5,15 +5,7 @@ import globals from 'globals';
 
 export default tseslint.config(
   {
-    ignores: [
-      'dist/',
-      '.astro/',
-      '.wrangler/',
-      'coverage/',
-      'reports/',
-      'worker-configuration.d.ts',
-      'src/generated/',
-    ],
+    ignores: ['dist/', '.astro/', 'coverage/', 'reports/', 'src/generated/'],
   },
   js.configs.recommended,
   ...tseslint.configs.strict,

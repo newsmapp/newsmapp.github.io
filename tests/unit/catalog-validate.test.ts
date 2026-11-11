@@ -77,12 +77,12 @@ describe('validateCatalog', () => {
       const pt = countryOf(input, 'pt');
       pt.iso3 = 'XXX';
       pt.continent = 'asia';
-      pt.slug = 'go';
+      pt.slug = 'badge';
       pt.neighbors = ['ZZ'];
     });
     expect(errors.join('\n')).toMatch(/iso3 should be PRT/);
     expect(errors.join('\n')).toMatch(/continent should be europe/);
-    expect(errors.join('\n')).toMatch(/slug "go" is reserved/);
+    expect(errors.join('\n')).toMatch(/slug "badge" is reserved/);
     expect(errors.join('\n')).toMatch(/unknown neighbor ZZ/);
   });
 

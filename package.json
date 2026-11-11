@@ -8,10 +8,11 @@
   },
   "scripts": {
     "dev": "pnpm catalog:build && astro dev",
-    "build": "pnpm catalog:build && astro build && pagefind --site dist/client --glob \"**/*.html\" --output-subdir pagefind",
-    "preview": "wrangler dev",
-    "preview:drafts": "CATALOG_DRAFTS=1 pnpm build && wrangler dev",
-    "typecheck": "wrangler types && pnpm catalog:build && astro check && tsc --noEmit -p tsconfig.tools.json",
+    "build": "pnpm catalog:build && astro build && pagefind --site dist --glob \"**/*.html\" --output-subdir pagefind",
+    "serve": "tsx tools/serve-static.ts",
+    "preview": "pnpm serve",
+    "preview:drafts": "CATALOG_DRAFTS=1 pnpm build && pnpm serve",
+    "typecheck": "pnpm catalog:build && astro check && tsc --noEmit -p tsconfig.tools.json",
     "lint": "eslint . && depcruise src tools --config .dependency-cruiser.cjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -21,7 +22,7 @@
     "e2e": "playwright test",
     "a11y": "playwright test --grep @a11y",
     "lhci": "lhci autorun",
-    "seo:audit": "tsx tools/seo-audit.ts dist/client",
+    "seo:audit": "tsx tools/seo-audit.ts dist",
     "ci:local": "tools/ci-local.sh",
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm catalog:validate && pnpm test",
     "fix": "prettier --write . && eslint . --fix",
@@ -32,23 +33,16 @@
     "catalog:add": "tsx tools/catalog-cli/index.ts add",
     "catalog:icons": "tsx tools/catalog-cli/index.ts icons",
     "catalog:report": "tsx tools/catalog-cli/index.ts report",
-    "sponsorships:snapshot": "tsx tools/sponsorships-snapshot.ts",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate:local": "wrangler d1 migrations apply newsmapp --local",
-    "db:migrate:remote": "wrangler d1 migrations apply newsmapp --remote",
-    "deploy": "pnpm build && wrangler deploy",
     "geo:generate": "tsx tools/generate-geo.ts",
     "catalog:build": "tsx tools/build-catalog.ts",
-    "fixtures:generate": "tsx tools/generate-fixtures.ts",
-    "lemonsqueezy:simulate": "tsx tools/lemonsqueezy-simulate.ts"
+    "brand:assets": "tsx tools/brand-assets.ts",
+    "fixtures:generate": "tsx tools/generate-fixtures.ts"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^14.4.2",
     "@astrojs/preact": "^6.1.1",
     "@fontsource-variable/libre-franklin": "^5.3.0",
     "@fontsource-variable/source-serif-4": "^5.3.1",
     "astro": "^7.4.2",
-    "drizzle-orm": "^0.45.4",
     "preact": "^10.29.8",
     "zod": "^4.6.7"
   },
@@ -63,7 +57,6 @@
     "@vitest/coverage-v8": "^5.0.5",
     "countries-list": "^3.4.1",
     "dependency-cruiser": "^18.7.0",
-    "drizzle-kit": "^0.31.11",
     "eslint": "^10.13.0",
     "eslint-plugin-astro": "^3.2.1",
     "flag-icons": "^7.6.0",
@@ -77,7 +70,6 @@
     "tsx": "^4.23.15",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.72.0",
-    "vitest": "^5.0.5",
-    "wrangler": "^4.152.0"
+    "vitest": "^5.0.5"
   }
 }

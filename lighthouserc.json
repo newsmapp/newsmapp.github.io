@@ -1,7 +1,7 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "dist/client",
+      "staticDistDir": "dist",
       "url": [
         "http://localhost/",
         "http://localhost/portugal/",

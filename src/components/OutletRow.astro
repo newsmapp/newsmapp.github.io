@@ -24,6 +24,7 @@ const formatTag = l.formatTag[outlet.format];
 <li
   class="row"
   data-outlet-row
+  data-outlet={outlet.id}
   data-name={outlet.name.toLowerCase()}
   data-paywall={outlet.paywall}
   data-ownership={outlet.ownership_type}
@@ -51,9 +52,7 @@ const formatTag = l.formatTag[outlet.format];
     rel="noopener"
     title={outlet.name}
     translate="no"
-    data-track={outlet.id}
-    data-country={country.iso2}
-    data-category={category}
+    data-outlet={outlet.id}
   >
     {outlet.name}
   </a>
@@ -102,13 +101,7 @@ const formatTag = l.formatTag[outlet.format];
       <dd>{l.format[outlet.format]}</dd>
     </dl>
     <p class="detail-links">
-      <a
-        href={outlet.url}
-        rel="noopener"
-        data-track={outlet.id}
-        data-country={country.iso2}
-        data-category={category}
-      >
+      <a href={outlet.url} rel="noopener" data-outlet={outlet.id}>
         {t.row.visit} <Icon name="arrow-up-right" size={14} />
       </a>
       <a href={paths.outlet(country, outlet)}>{t.row.profile}</a>

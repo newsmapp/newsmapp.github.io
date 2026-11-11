@@ -1,5 +1,6 @@
-import { ADS_ENABLED } from 'astro:env/server';
+import { GITHUB_REPOSITORY } from 'astro:env/server';
 
 export const SITE_NAME = 'NewsMapp';
-/** Display ads stay off until the network approves the site and the CMP is configured. */
-export const adsEnabled = ADS_ENABLED;
+
+/** Public repository: source code, catalog, and the issue forms for corrections and suggestions. */
+export const repoUrl = `https://github.com/${GITHUB_REPOSITORY}`;

@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
-import AffiliateCard from '../../../../../components/AffiliateCard.astro';
 import Icon from '../../../../../components/Icon.astro';
 import type { PublicCountry, PublicOutlet } from '../../../../../lib/catalog/public';
 import {
@@ -16,8 +15,8 @@ import {
 } from '../../../../../data/catalog';
 import { forEachLang, i18n, siteLangs } from '../../../../../data/i18n';
 import { LANG_META, type Lang } from '../../../../../lib/i18n/lang';
-import { affiliates } from '../../../../../data/monetization';
-import { selectAffiliate } from '../../../../../lib/monetization/affiliates';
+import { repoUrl } from '../../../../../data/site';
+import { issueFormUrl } from '../../../../../lib/issues';
 import { BADGE_SIZE } from '../../../../../lib/badge';
 import { displayHost } from '../../../../../lib/format';
 import { breadcrumbList, newsMediaOrganization } from '../../../../../lib/seo/jsonld';
@@ -43,7 +42,7 @@ const { t, l, paths } = i18n(Astro.url);
 const where = countryPlace(country, lang);
 const name = where.name;
 const pitch = outlet.pitch[lang] ?? outlet.pitch.en ?? '';
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 const indexable = isProfileIndexable(outlet, lang);
 // Profiles exist in every language but are indexable only where their text is reviewed.
 const langs = siteLangs.filter((l) => isProfileIndexable(outlet, l));
@@ -51,11 +50,6 @@ const langs = siteLangs.filter((l) => isProfileIndexable(outlet, l));
 const about = outlet.about[lang];
 const similar = similarOutlets(country, outlet);
 const withPages = new Set(categoryPages(country, lang));
-const affiliate = selectAffiliate(affiliates, {
-  kind: 'outlet',
-  category: outlet.primary_category,
-  paywall: outlet.paywall,
-});
 const ranks = outlet.categories.map((category) => ({
   category,
   position: outletsFor(country, category).findIndex((o) => o.id === outlet.id) + 1,
@@ -111,18 +105,13 @@ const language =
       </h1>
       <p class="lede">{pitch}</p>
       <p class="actions">
-        <a
-          class="visit"
-          href={outlet.url}
-          rel="noopener"
-          data-track={outlet.id}
-          data-country={country.iso2}
-          data-category={outlet.primary_category}
-        >
+        <a class="visit" href={outlet.url} rel="noopener" data-outlet={outlet.id}>
           {t.outlet.visit(displayHost(outlet.url))}
           <Icon name="arrow-up-right" size={16} />
         </a>
-        <a href={paths.page(`/corrections/?outlet=${outlet.id}`)}>{t.outlet.correction}</a>
+        <a href={issueFormUrl(repoUrl, 'correction', { outlet: outlet.id })}>
+          {t.outlet.correction}
+        </a>
       </p>
     </div>
 
@@ -265,7 +254,6 @@ const language =
             </ul>
           </section>
         )}
-        {affiliate && <AffiliateCard affiliate={affiliate} pageCountry={country.iso2} />}
       </aside>
     </div>
   </div>

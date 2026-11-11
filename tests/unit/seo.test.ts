@@ -30,6 +30,8 @@ describe('meta', () => {
     expect(meta.title).toBe('Brazil | NewsMapp');
     expect(meta.robots).toContain('index, follow');
     expect(meta.og['og:url']).toBe('https://newsmap.example/brazil/');
+    expect(meta.og['og:image']).toBe('https://newsmap.example/og.png');
+    expect(meta.og['og:image:width']).toBe('1200');
     const home = buildMeta({
       title: 'NewsMapp',
       description: 'd',
@@ -126,9 +128,9 @@ describe('sitemap and robots', () => {
     expect(sitemapIndex(['https://newsmap.example/sitemap-en.xml'])).toContain('<sitemap><loc>');
   });
 
-  it('blocks the redirect, API and admin paths and points to the index', () => {
+  it('allows the whole static site and points to the index', () => {
     const robots = robotsTxt(SITE);
-    for (const path of ['/go/', '/api/', '/admin/']) expect(robots).toContain(`Disallow: ${path}`);
+    expect(robots).not.toContain('Disallow');
     expect(robots).toContain('Sitemap: https://newsmap.example/sitemap-index.xml');
   });
 });

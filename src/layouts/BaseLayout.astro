@@ -21,8 +21,6 @@ interface Props {
   /** Pagefind indexing: only indexable directory pages are searchable. */
   searchable?: boolean;
   searchType?: 'country' | 'category' | 'outlet' | 'continent' | 'page';
-  /** Pages with a Turnstile form allow its script and frame in the CSP. */
-  turnstile?: boolean;
   /** False on pages without serif text, so its font does not compete with the first paint. */
   prose?: boolean;
   /** Languages in which this page is indexable, for hreflang. Defaults to every site language. */
@@ -39,18 +37,12 @@ const {
   jsonld = [],
   searchable = false,
   searchType,
-  turnstile = false,
   prose = true,
   langs = siteLangs,
   switchTo,
 } = Astro.props;
-// CSP additions must happen here: the <meta> is already sent by the time body components render.
-if (turnstile) {
-  Astro.csp?.insertScriptResource('https://challenges.cloudflare.com');
-  Astro.csp?.insertDirective('frame-src https://challenges.cloudflare.com');
-}
 const { lang, t, paths } = i18n(Astro.url);
-const siteUrl = (Astro.site ?? new URL('https://newsmap.example')).toString();
+const siteUrl = (Astro.site ?? new URL('https://newsmapp.github.io')).toString();
 const meta = buildMeta({
   title,
   description,
@@ -83,12 +75,13 @@ const alternates =
     {Object.entries(meta.og).map(([property, content]) => (
       <meta property={property} content={content} />
     ))}
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="oklch(0.975 0.004 95)" />
     <meta name="color-scheme" content="light dark" />
     <link rel="preload" href={uiFont} as="font" type="font/woff2" crossorigin />
     {prose && <link rel="preload" href={proseFont} as="font" type="font/woff2" crossorigin />}
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script is:inline>
       (function () {
@@ -127,9 +120,6 @@ const alternates =
     </main>
     <Footer />
     <CommandPalette client:idle labels={t.palette} />
-    <script>
-      import '../scripts/track';
-    </script>
   </body>
 </html>
 

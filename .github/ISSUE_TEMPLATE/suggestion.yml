@@ -1,0 +1,43 @@
+# Linked under every category ("Suggest an outlet"), which prefills `country` and `category`
+# (src/lib/issues.ts). Accepted suggestions become `candidate` outlets via `pnpm catalog:add`.
+name: Outlet suggestion
+description: Suggest a news outlet that should be in the directory.
+title: 'Suggestion: '
+labels: [suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Suggestions are checked against the editorial methodology (`docs/EDITORIAL_METHODOLOGY.md`) before an outlet is listed. Nobody can pay to be listed.
+        Issues are **public**: do not include personal data you would not want published.
+  - type: input
+    id: name
+    attributes:
+      label: Outlet name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      placeholder: https://…
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: ISO code (BR, PT, …) or name.
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: general-news, politics, economy, sports, investigative, tech-science, broadcast or regional.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Why it belongs here (optional)

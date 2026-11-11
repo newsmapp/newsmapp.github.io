@@ -4,11 +4,11 @@ module.exports = {
     { name: 'no-circular', severity: 'error', from: {}, to: { circular: true } },
     {
       name: 'lib-is-runtime-agnostic',
-      comment: 'src/lib holds pure business logic: no Astro, no Cloudflare runtime, no DB driver',
+      comment: 'src/lib holds pure logic: no Astro and no UI, so it runs in tools and tests too',
       severity: 'error',
       from: { path: '^src/lib/' },
       to: {
-        path: '(^src/(pages|components|layouts|db)/)|cloudflare:|^astro|node_modules/(astro|drizzle-orm|wrangler)',
+        path: '(^src/(pages|components|layouts|data)/)|^astro|node_modules/astro',
       },
     },
     {

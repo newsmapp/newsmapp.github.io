@@ -1,5 +1,6 @@
 ---
 import { i18n } from '../data/i18n';
+import { repoUrl } from '../data/site';
 
 const { t, paths } = i18n(Astro.url);
 const year = new Date().getUTCFullYear();
@@ -7,7 +8,6 @@ const about = [
   ['/about/', t.footer.about],
   ['/methodology/', t.footer.methodology],
   ['/corrections/', t.footer.corrections],
-  ['/advertise/', t.footer.advertise],
 ] as const;
 const legal = [
   ['/disclosures/', t.footer.disclosures],
@@ -34,6 +34,9 @@ const legal = [
             <a href={paths.page(path)}>{label}</a>
           </li>
         ))}
+        <li>
+          <a href={repoUrl}>{t.footer.source}</a>
+        </li>
       </ul>
     </nav>
     <p class="note">{t.footer.note(year)}</p>

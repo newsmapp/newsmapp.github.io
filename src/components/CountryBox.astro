@@ -80,9 +80,7 @@ const headingId = `box-${country.iso2.toLowerCase()}`;
               rel="noopener"
               translate="no"
               title={outlet.name}
-              data-track={outlet.id}
-              data-country={country.iso2}
-              data-category={list.topic === 'all' ? outlet.primary_category : list.topic}
+              data-outlet={outlet.id}
             >
               {outlet.name}
             </a>

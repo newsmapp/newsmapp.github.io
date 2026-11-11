@@ -30,14 +30,10 @@ const switches =
 <header class="site-header">
   <div class="page bar">
     <a class="wordmark" href={paths.home} translate="no">
-      News<span class="mapp">Mapp</span>
-      <!-- "Mapp" is drawn: a map folded in three panels with a route to a pin. -->
-      <svg class="fold" viewBox="0 0 36 24" aria-hidden="true" focusable="false">
-        <path class="shade" d="M13 2 23 6v16l-10-4z" />
-        <path class="outline" d="M2 6 13 2l10 4 11-4v16l-11 4-10-4-11 4zM13 2v16M23 6v16" />
-        <path class="route" d="M6 17c3-5 6-7 10-5s8 1 12-4" />
-        <circle class="pin" cx="28" cy="8" r="2.4" />
-      </svg>
+      <img class="mark" src="/mark.webp" alt="" width="32" height="32" />
+      <span>
+        News<span class="mapp">Mapp</span>
+      </span>
     </a>
     {search && (
       <button class="search" type="button" data-open-search aria-keyshortcuts="Meta+K Control+K">
@@ -47,7 +43,7 @@ const switches =
       </button>
     )}
     <nav aria-label={t.header.nav} class:list={['nav', { push: !search }]}>
-      <a href={paths.page('/advertise/')}>{t.header.advertise}</a>
+      <a href={paths.page('/corrections/')}>{t.header.suggest}</a>
       {switches.map((s) => (
         <a
           class="lang"
@@ -123,7 +119,6 @@ const switches =
     position: relative;
     display: inline-flex;
     align-items: center;
-    gap: 0.2em;
     color: var(--ink);
     font-size: 1.125rem;
     font-weight: var(--weight-heavy);
@@ -131,45 +126,16 @@ const switches =
     text-decoration: none;
   }
 
-  /* "Mapp" is read by assistive technology and drawn as the map below. */
+  /* The brand symbol sits on its own white tile, so it reads the same in both themes. */
+  .mark {
+    width: 1.9em;
+    height: 1.9em;
+    margin-inline-end: 0.25em;
+    border: var(--line) solid var(--edge);
+  }
+
   .mapp {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-
-  /* Taller than the cap height so the folds and the route stay legible at header size. */
-  .fold {
-    width: 1.95em;
-    height: 1.3em;
-    overflow: visible;
-  }
-
-  .fold .outline {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2;
-    stroke-linejoin: round;
-  }
-
-  .fold .shade {
-    fill: currentColor;
-    opacity: 0.12;
-  }
-
-  .fold .route {
-    fill: none;
-    stroke: var(--link);
-    stroke-width: 1.75;
-    stroke-linecap: round;
-    stroke-dasharray: 2.5 2.5;
-  }
-
-  .fold .pin {
-    fill: var(--link);
+    color: var(--link);
   }
 
   .search {

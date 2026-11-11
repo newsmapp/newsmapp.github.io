@@ -5,7 +5,6 @@ node_modules/
 dist/
 dist-*/
 .astro/
-.wrangler/
 .turbo/
 coverage/
 playwright-report/
@@ -15,10 +14,10 @@ test-results/
 # local data and reports
 reports/
 *.local.*
-.dev.vars
 .env
+# leftover local secrets of the old Cloudflare setup; never commit them
+.dev.vars
 .env.*
-!.env.example
 
 # os / editors
 .DS_Store
@@ -48,7 +47,6 @@ notes/
 
 # generated at build/typecheck time
 src/generated/
-worker-configuration.d.ts
 
 # generated at build time (pnpm catalog:build): monograms and flags. Downloaded favicons
 # (public/icons/*.webp, pnpm catalog:icons) are committed, so deploys have them.
@@ -60,3 +58,4 @@ public/flags/
 
 # product spec stays local
 SPEC.md
+resume.md

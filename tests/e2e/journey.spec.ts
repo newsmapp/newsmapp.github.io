@@ -64,22 +64,31 @@ test('theme toggle switches and persists', async ({ page }) => {
   await expect(html).toHaveAttribute('data-theme', after);
 });
 
-test('suggesting an outlet', async ({ page }) => {
-  await page.goto('/corrections/?country=PT&category=sports');
-  const form = page.locator('form[data-endpoint="/api/submit/"]');
-  await expect(form.getByRole('combobox', { name: 'Country' })).toHaveValue('PT');
-  await form.getByRole('button', { name: /send|suggest/i }).click();
-  await expect(form.locator('[data-field-error="outlet_name"]')).toHaveText(
-    'Enter the outlet name.',
+test('corrections and suggestions open prefilled GitHub issue forms', async ({ page }) => {
+  await page.goto('/portugal/outlet/capital-review/');
+  const correction = page.getByRole('link', { name: 'Report a correction' }).first();
+  const fix = new URL((await correction.getAttribute('href')) ?? '');
+  expect(fix.hostname).toBe('github.com');
+  expect(fix.pathname).toMatch(/\/issues\/new$/);
+  expect(fix.searchParams.get('template')).toBe('correction.yml');
+  expect(fix.searchParams.get('outlet')).toBe('pt-capital-review');
+
+  await page.goto('/portugal/');
+  const suggest = new URL(
+    (await page.getByRole('link', { name: 'Suggest an outlet' }).last().getAttribute('href')) ?? '',
   );
-  await form.getByLabel('Outlet name').fill('Example Sports Weekly');
-  await form.getByLabel('Website').fill('https://sports-weekly.example.com/');
-  await form.getByLabel(/e-mail/i).fill('editor@example.com');
-  await form.getByRole('button', { name: /send|suggest/i }).click();
-  await expect(form.getByRole('status')).toHaveText(/Thank you/);
+  expect(suggest.searchParams.get('template')).toBe('suggestion.yml');
+  expect(suggest.searchParams.get('country')).toBe('PT');
+
+  await page.goto('/corrections/');
+  await expect(page.locator('form')).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Open a correction' })).toHaveAttribute(
+    'href',
+    /\/issues\/new\?template=correction\.yml$/,
+  );
 });
 
-test('Portuguese pages, language switch and translated form errors', async ({ page }) => {
+test('Portuguese pages and language switch', async ({ page }) => {
   await page.goto('/pt/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
   await page
@@ -98,34 +107,14 @@ test('Portuguese pages, language switch and translated form errors', async ({ pa
   await expect(page.locator('link[hreflang="pt-BR"]')).toHaveCount(0);
   await expect(page.locator('a[data-lang-switch]')).toHaveAttribute('href', '/pt/france/');
 
-  await page.goto('/pt/corrections/?country=PT&category=sports');
-  const form = page.locator('form[data-endpoint="/api/submit/"]');
-  await form.getByRole('button', { name: 'Enviar sugestão' }).click();
-  await expect(form.locator('[data-field-error="outlet_name"]')).toHaveText(
-    'Informe o nome do veículo.',
+  await page.goto('/pt/corrections/');
+  await expect(page.getByRole('link', { name: 'Sugerir um veículo' }).last()).toHaveAttribute(
+    'href',
+    /template=suggestion\.yml/,
   );
 });
 
-test('sponsorship checkout in simulation mode', async ({ page }) => {
-  await page.goto('/advertise/?country=ES&category=regional');
-  const availability = page.locator('[data-availability]');
-  await expect(availability).toContainText(/of 3 places open|All 3 places are taken/);
-  const form = page.locator('form[data-endpoint="/api/checkout/"]');
-  await expect(form.getByRole('combobox', { name: 'Country' })).toHaveValue('ES');
-  await form.getByLabel('Yearly').check();
-  await form.getByLabel('Outlet name').fill('Example Regional');
-  await form.getByLabel('Website').fill('https://regional.example.com/');
-  await form.getByLabel('Billing e-mail').fill('billing@example.com');
-  await form.getByRole('button', { name: 'Reserve and go to payment' }).click();
-  await expect(page).toHaveURL(/\/advertise\/thanks\/\?simulated=1$/);
-  await expect(page.getByText('Test mode:')).toBeVisible();
-});
-
-test('outbound redirects only resolve allowlisted ids', async ({ request }) => {
-  const known = await request.get('/go/pt-morning-ledger/', { maxRedirects: 0 });
-  expect(known.status()).toBe(302);
-  expect(known.headers().location).toMatch(/^https:\/\/pt-morning-ledger\.example\.com\//);
-  for (const id of ['https%3A%2F%2Fevil.example', 'pt-unverified-gazette', 'aff-vpn-travel']) {
-    expect((await request.get(`/go/${id}/`, { maxRedirects: 0 })).status()).toBe(404);
-  }
+test('former server routes are gone', async ({ request }) => {
+  for (const path of ['/go/pt-morning-ledger/', '/api/track/', '/admin/', '/advertise/'])
+    expect((await request.get(path, { maxRedirects: 0 })).status()).toBe(404);
 });

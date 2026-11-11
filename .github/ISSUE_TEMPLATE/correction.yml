@@ -1,0 +1,41 @@
+# Linked from every outlet page ("Report a correction"), which prefills `outlet` (src/lib/issues.ts).
+name: Correction
+description: Something is wrong in a listing (website, paywall, owner, category, closed outlet).
+title: 'Correction: '
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. An editor reviews every correction against the editorial methodology (`docs/EDITORIAL_METHODOLOGY.md`).
+        Issues are **public**: do not include personal data you would not want published.
+  - type: input
+    id: outlet
+    attributes:
+      label: Outlet
+      description: The outlet id (filled in when you come from the outlet page) or its name and country.
+      placeholder: br-folha-de-s-paulo
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong
+      options:
+        - Website address
+        - Paywall
+        - Owner or ownership type
+        - Founding year
+        - Category or rank
+        - The outlet has closed
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and a source
+      description: What the listing should say, and a link that shows it.
+      placeholder: The paywall became metered in 2026, see https://…
+    validations:
+      required: true

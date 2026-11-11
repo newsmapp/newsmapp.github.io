@@ -2,7 +2,7 @@ import { readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { langFromPath, localizePath, parseLangs, stripLang } from '@/lib/i18n/lang';
 import { PT_ARTICLES, place } from '@/lib/i18n/place';
-import { requestLang } from '@/server/messages';
+import { UI_TEXT } from '@/lib/i18n/ui';
 
 describe('language paths', () => {
   it('keeps English at the root and the others under /<lang>/', () => {
@@ -21,23 +21,6 @@ describe('language paths', () => {
     expect(parseLangs('pt, en')).toEqual(['en', 'pt']);
     expect(parseLangs('pt,xx')).toEqual(['en', 'pt']);
     expect(parseLangs('')).toEqual(['en']);
-  });
-
-  it('reads the form language from Accept-Language', () => {
-    const lang = (value?: string) =>
-      requestLang(
-        new Request('https://newsmap.example/', {
-          headers: value ? { 'accept-language': value } : {},
-        }),
-      );
-    expect(lang('pt-BR')).toBe('pt');
-    expect(lang('pt')).toBe('pt');
-    expect(lang('de-DE,de;q=0.9')).toBe('en');
-    expect(lang()).toBe('en');
-    // Only a known language comes out: anything else falls back to English.
-    expect(lang('pt/../../evil')).toBe('en');
-    expect(lang('javascript:alert(1)')).toBe('en');
-    expect(lang(`${'p'.repeat(10_000)},pt`)).toBe('en');
   });
 });
 
@@ -60,5 +43,49 @@ describe('place', () => {
       .filter((f) => f.endsWith('.json'))
       .map((f) => f.slice(0, -'.json'.length).toUpperCase());
     expect(isos.filter((iso) => !(iso in PT_ARTICLES))).toEqual([]);
+  });
+});
+
+describe('interface copy', () => {
+  /**
+   * One argument that works as every type the copy functions take: a string ("Sports"), a number
+   * (3, through valueOf) and a Place (Portugal).
+   */
+  class Arg extends String {
+    override valueOf = () => 3 as unknown as string;
+    readonly name = 'Portugal';
+    readonly the = 'Portugal';
+    readonly of = 'de Portugal';
+    readonly in = 'em Portugal';
+  }
+  const render = (value: unknown, path: string): [string, string][] => {
+    if (typeof value === 'string') return [[path, value]];
+    if (typeof value === 'function') {
+      const out = (value as (...a: unknown[]) => unknown)(
+        ...Array.from({ length: value.length }, () => new Arg('Sports')),
+      );
+      return Array.isArray(out)
+        ? out.map((text, i): [string, string] => [`${path}[${i}]`, String(text)])
+        : [[path, String(out)]];
+    }
+    if (value && typeof value === 'object')
+      return Object.entries(value).flatMap(([k, v]) => render(v, `${path}.${k}`));
+    return [];
+  };
+
+  it('has the same keys in every language', () => {
+    const keys = (lang: 'en' | 'pt') => render(UI_TEXT[lang], lang).map(([p]) => p.slice(3));
+    expect(keys('pt')).toEqual(keys('en'));
+  });
+
+  it('renders every string without gaps or leftover placeholders', () => {
+    for (const lang of ['en', 'pt'] as const) {
+      for (const [path, text] of render(UI_TEXT[lang], lang)) {
+        // Empty only where a language has nothing to add (the English translation note).
+        if (path === 'en.prose.translation') continue;
+        expect(text, path).not.toBe('');
+        expect(text, path).not.toMatch(/undefined|NaN|\[object/);
+      }
+    }
   });
 });

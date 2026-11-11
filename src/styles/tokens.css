@@ -67,8 +67,6 @@
   --accent: oklch(0.7 0.14 292);
   --on-accent: oklch(0.2 0.006 270);
   --focus: oklch(0.45 0.19 288);
-  --sponsor: oklch(0.94 0.09 95);
-  --on-sponsor: oklch(0.3 0.05 85);
   --tag-free: oklch(0.42 0.11 150);
   --tag-paid: oklch(0.45 0.1 50);
   --danger: oklch(0.5 0.17 27);
@@ -96,8 +94,6 @@
   --accent: oklch(0.72 0.13 292);
   --on-accent: oklch(0.16 0.02 275);
   --focus: oklch(0.8 0.11 292);
-  --sponsor: oklch(0.36 0.07 85);
-  --on-sponsor: oklch(0.94 0.05 90);
   --tag-free: oklch(0.8 0.12 150);
   --tag-paid: oklch(0.82 0.1 60);
   --danger: oklch(0.75 0.14 25);

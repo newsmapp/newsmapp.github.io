@@ -4,15 +4,15 @@ import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
 import { categoryLabel } from '../data/catalog';
 import { i18n } from '../data/i18n';
 import { CATEGORY_ICON } from '../lib/format';
+import { issueFormUrl } from '../lib/issues';
+import { repoUrl } from '../data/site';
 import Icon, { type IconName } from './Icon.astro';
 import OutletRow from './OutletRow.astro';
-import SponsoredSlot, { type Sponsorship } from './SponsoredSlot.astro';
 
 interface Props {
   country: PublicCountry;
   category: Category;
   outlets: PublicOutlet[];
-  sponsorships?: Sponsorship[];
   hasPage: boolean;
   /** Rows shown before "Show all". */
   visible?: number;
@@ -26,7 +26,6 @@ const {
   country,
   category,
   outlets,
-  sponsorships = [],
   hasPage,
   visible = 10,
   aboveFold = false,
@@ -51,13 +50,6 @@ const lazyFrom = aboveFold ? 8 : 0;
       {outlets.length}
     </span>
   </header>
-  {sponsorships.length > 0 && (
-    <ol class="sponsored-list" aria-label={t.column.sponsored(label)}>
-      {sponsorships.map((s) => (
-        <SponsoredSlot sponsorship={s} />
-      ))}
-    </ol>
-  )}
   <ol class="rows" aria-label={t.column.ranked(label)}>
     {first.map((outlet, index) => (
       <OutletRow
@@ -92,11 +84,8 @@ const lazyFrom = aboveFold ? 8 : 0;
   </p>
   {!moreLabel && (
     <footer class="foot">
-      <a href={paths.page(`/corrections/?country=${country.iso2}&category=${category}`)}>
+      <a href={issueFormUrl(repoUrl, 'suggestion', { country: country.iso2, category })}>
         {t.column.suggest}
-      </a>
-      <a href={paths.page(`/advertise/?country=${country.iso2}&category=${category}`)}>
-        {t.column.feature}
       </a>
     </footer>
   )}
@@ -146,10 +135,6 @@ const lazyFrom = aboveFold ? 8 : 0;
     color: var(--ink-2);
     font-family: var(--font-data);
     font-size: 0.8125rem;
-  }
-
-  .sponsored-list + .rows {
-    border-top: var(--line) solid var(--edge);
   }
 
   .more summary {

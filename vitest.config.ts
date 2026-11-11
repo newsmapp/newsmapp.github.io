@@ -8,7 +8,7 @@ export default defineConfig({
     environment: 'node',
     coverage: {
       provider: 'v8',
-      include: ['src/lib/**/*.ts', 'src/server/**/*.ts', 'src/schemas/**/*.ts'],
+      include: ['src/lib/**/*.ts', 'src/schemas/**/*.ts'],
       thresholds: { lines: 85, functions: 85, branches: 85, statements: 85 },
       reporter: ['text-summary', 'html'],
     },

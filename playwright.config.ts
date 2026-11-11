@@ -1,9 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * E2E and accessibility checks against the fixtures build served by the real Worker
- * (wrangler dev + local D1), so forms, slots and simulated checkout run end to end.
- * Build first: CATALOG_DIR=tests/fixtures/catalog pnpm build
+ * E2E and accessibility checks against the fixtures build, served as plain static files the way
+ * GitHub Pages serves them. Build first: CATALOG_DIR=tests/fixtures/catalog pnpm build
  */
 const PORT = 8788;
 
@@ -19,7 +18,7 @@ export default defineConfig({
     { name: 'mobile', use: { ...devices['Pixel 7'] }, grep: /@a11y|@mobile/ },
   ],
   webServer: {
-    command: `pnpm db:migrate:local && pnpm exec wrangler dev --port ${PORT}`,
+    command: `pnpm serve --port ${PORT}`,
     url: `http://localhost:${PORT}/`,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

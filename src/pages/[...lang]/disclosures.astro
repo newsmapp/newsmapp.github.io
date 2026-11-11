@@ -1,130 +1,92 @@
 ---
 import ProseLayout from '../../layouts/ProseLayout.astro';
 import { forEachLang, i18n } from '../../data/i18n';
+import { repoUrl } from '../../data/site';
 
 export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
 
-const { lang } = i18n(Astro.url);
+const { lang, paths } = i18n(Astro.url);
 ---
 
 {lang === 'pt' ? (
   <ProseLayout
-    title="Transparência: destaques patrocinados e links de parceiros"
-    description="Como o NewsMapp identifica destaques patrocinados e links de parceiros, e por que o pagamento nunca muda a posição editorial de um veículo."
-    heading="Destaques patrocinados e links de parceiros"
-    updated="2026-10-27"
+    title="Independência: sem anúncios, patrocínios ou afiliados"
+    description="O NewsMapp não vende destaques, não exibe anúncios e não ganha comissões. Como o projeto se mantém e por que ninguém paga para mudar de posição."
+    heading="Sem anúncios, patrocínios ou afiliados"
+    updated="2026-11-11"
     legal
   >
-    <p>O NewsMapp ganha dinheiro de duas formas. Nenhuma delas muda a ordem dos veículos.</p>
-
-    <h2>Destaques patrocinados</h2>
-    <ul>
-      <li>
-        Os veículos podem pagar para aparecer em até três vagas patrocinadas no topo de uma
-        categoria em um país.
-      </li>
-      <li>
-        As vagas patrocinadas trazem a palavra Patrocinado e um fundo destacado, e ficam acima da
-        classificação editorial, separadas dela.
-      </li>
-      <li>
-        Todo destaque patrocinado é revisado por um editor antes de entrar no ar. Recusamos sites
-        que não são veículos de notícias ou que enganam os leitores, e devolvemos o pagamento.
-      </li>
-      <li>
-        Os links nas vagas patrocinadas levam a marcação <code>rel="sponsored"</code> para os
-        buscadores.
-      </li>
-      <li>
-        Os números de cliques que informamos aos patrocinadores são estimativas filtradas: removemos
-        o tráfego automatizado e os cliques repetidos, e alguns navegadores bloqueiam a nossa
-        contagem.
-      </li>
-    </ul>
-
-    <h2>Links de parceiros</h2>
-    <ul>
-      <li>
-        Algumas páginas mostram uma oferta de parceiro, como uma VPN para ler no Wi-Fi público ou um
-        serviço que vende acesso legítimo a jornais pagos.
-      </li>
-      <li>
-        Se você comprar por um link de parceiro, podemos receber uma comissão. A oferta é
-        identificada como link de parceiro onde aparece.
-      </li>
-      <li>
-        Nunca divulgamos ferramentas para burlar paywalls, direitos de transmissão ou os termos de
-        uso de um site.
-      </li>
-      <li>
-        Ofertas de VPN não aparecem para visitantes de países onde o uso de VPN é proibido ou
-        restrito.
-      </li>
-    </ul>
-
-    <h2>Publicidade</h2>
     <p>
-      O site não exibe anúncios hoje. Se isso mudar, os anúncios serão identificados, ficarão longe
-      da classificação e só serão carregados depois do seu consentimento, onde a lei exigir. Esta
-      página será atualizada antes.
+      O NewsMapp não ganha dinheiro. É um projeto gratuito e sem fins comerciais, e continua assim
+      por escolha: nada no site está à venda.
+    </p>
+
+    <h2>O que você não vai encontrar aqui</h2>
+    <ul>
+      <li>
+        Destaques patrocinados. Nenhum veículo paga para entrar no diretório, aparecer no topo ou
+        mudar de posição. A ordem de cada categoria é uma decisão editorial, explicada na{' '}
+        <a href={paths.page('/methodology/')}>metodologia</a>.
+      </li>
+      <li>
+        Links de afiliados. Os links levam direto ao site de cada veículo, sem redirecionamento e
+        sem comissão.
+      </li>
+      <li>Anúncios. O site não carrega publicidade nem scripts de terceiros.</li>
+      <li>Rastreamento. Não contamos cliques nem usamos ferramentas de análise de audiência.</li>
+    </ul>
+
+    <h2>Como o projeto se mantém</h2>
+    <p>
+      O site é estático e hospedado de graça pelo GitHub Pages. O catálogo e o código ficam em um{' '}
+      <a href={repoUrl}>repositório público</a>, então qualquer pessoa pode ver cada mudança, quem a
+      fez e quando. O trabalho editorial é voluntário.
+    </p>
+
+    <h2>Selos</h2>
+    <p>
+      Os veículos listados podem exibir um selo do NewsMapp no próprio site. O selo é gratuito, não
+      muda a posição de ninguém e é só uma imagem, sem script nem rastreamento.
     </p>
   </ProseLayout>
 ) : (
   <ProseLayout
-    title="Disclosures: sponsored listings and partner links"
-    description="How NewsMapp labels sponsored listings and partner links, and why payment never changes an outlet's editorial position."
-    heading="Sponsored listings and partner links"
-    updated="2026-10-27"
+    title="Independence: no ads, sponsorships or affiliates"
+    description="NewsMapp sells no placements, shows no ads and earns no commissions. How the project runs and why nobody can pay to move up."
+    heading="No ads, sponsorships or affiliates"
+    updated="2026-11-11"
   >
-    <p>NewsMapp earns money in two ways. Neither changes the order in which outlets are ranked.</p>
-
-    <h2>Sponsored listings</h2>
-    <ul>
-      <li>
-        Outlets can pay to appear in up to three sponsored places at the top of a category in a
-        country.
-      </li>
-      <li>
-        Sponsored places carry the word Sponsored and a highlighted background, and sit above the
-        editorial ranking, separated from it.
-      </li>
-      <li>
-        Every sponsored listing is reviewed by an editor before it goes live. We refuse sites that
-        are not news outlets or that mislead readers, and refund them.
-      </li>
-      <li>
-        Links in sponsored places are marked <code>rel="sponsored"</code> for search engines.
-      </li>
-      <li>
-        Click figures we give sponsors are labeled as filtered estimates: we remove automated
-        traffic and repeated clicks, and some browsers block our counting.
-      </li>
-    </ul>
-
-    <h2>Partner links</h2>
-    <ul>
-      <li>
-        Some pages show one partner offer, such as a VPN for reading on public Wi-Fi or a service
-        that sells legitimate access to paid newspapers.
-      </li>
-      <li>
-        If you buy through a partner link, we may earn a commission. The offer is labeled as a
-        partner link where it appears.
-      </li>
-      <li>
-        We never promote tools for getting around paywalls, broadcasting rights or a site's terms of
-        use.
-      </li>
-      <li>
-        VPN offers are not shown to visitors from countries where VPN use is banned or restricted.
-      </li>
-    </ul>
-
-    <h2>Advertising</h2>
     <p>
-      The site does not show display advertising today. If that changes, ads will be labeled, kept
-      away from the ranking, and loaded only after you give consent where the law requires it. This
-      page will be updated first.
+      NewsMapp makes no money. It is a free, non-commercial project and stays that way by choice:
+      nothing on the site is for sale.
+    </p>
+
+    <h2>What you will not find here</h2>
+    <ul>
+      <li>
+        Sponsored listings. No outlet pays to be listed, to appear at the top or to move up. The
+        order within each category is an editorial decision, explained in our{' '}
+        <a href={paths.page('/methodology/')}>methodology</a>.
+      </li>
+      <li>
+        Affiliate links. Links go straight to each outlet's site, with no redirect and no
+        commission.
+      </li>
+      <li>Advertising. The site loads no ads and no third-party scripts.</li>
+      <li>Tracking. We do not count clicks or use audience analytics.</li>
+    </ul>
+
+    <h2>How the project runs</h2>
+    <p>
+      The site is static and hosted for free by GitHub Pages. The catalog and the code live in a{' '}
+      <a href={repoUrl}>public repository</a>, so anyone can see every change, who made it and when.
+      The editorial work is done by volunteers.
+    </p>
+
+    <h2>Badges</h2>
+    <p>
+      Listed outlets may show a NewsMapp badge on their own site. Badges are free, change nobody's
+      position, and are a plain image with no script and no tracking.
     </p>
   </ProseLayout>
 )}

@@ -3,6 +3,7 @@ import ProseLayout from '../../layouts/ProseLayout.astro';
 import { countries } from '../../data/catalog';
 import { forEachLang, i18n } from '../../data/i18n';
 import { formatNumber } from '../../lib/format';
+import { repoUrl } from '../../data/site';
 import site from '../../../data/site.json';
 
 export const getStaticPaths = () => forEachLang(() => [{ params: {}, props: {} }]);
@@ -26,8 +27,10 @@ const mail = `mailto:${site.contact_email}`;
     {countries.length > 0 && (
       <p>
         O diretório cobre hoje {formatNumber(countries.length, lang)} países e{' '}
-        {formatNumber(outlets, lang)} veículos. Cada item foi conferido por uma pessoa antes de ser
-        publicado.
+        {formatNumber(outlets, lang)} veículos. Os itens foram montados a partir de fontes públicas
+        e aprovados por um editor; a primeira leva foi aprovada em bloco e está sendo revisada
+        veículo por veículo. Se algo estiver errado, <a href={paths.page('/corrections/')}>avise</a>
+        .
       </p>
     )}
     <h2>Para quem é</h2>
@@ -36,18 +39,19 @@ const mail = `mailto:${site.contact_email}`;
       de mídia, viajantes e qualquer pessoa que queira saber de onde vem o jornalismo de um país
       antes de escolher o que ler.
     </p>
-    <h2>Como é financiado</h2>
+    <h2>Como se mantém</h2>
     <p>
-      O NewsMapp é pago por destaques patrocinados, que são identificados e ficam separados da
-      classificação editorial, e por ofertas de parceiros, informadas onde aparecem. A ordem dos
-      veículos nunca está à venda. Os detalhes estão na nossa página de{' '}
-      <a href={paths.page('/disclosures/')}>transparência</a> e na{' '}
+      O NewsMapp é gratuito e sem fins comerciais: não tem anúncios, destaques patrocinados nem
+      links de afiliados, e nenhum veículo paga para aparecer ou subir de posição. O site é
+      estático, hospedado pelo GitHub Pages, e o catálogo e o código são{' '}
+      <a href={repoUrl}>públicos</a>. Os detalhes estão na página de{' '}
+      <a href={paths.page('/disclosures/')}>independência</a> e na{' '}
       <a href={paths.page('/methodology/')}>metodologia</a>.
     </p>
     <h2>Contato</h2>
     <p>
-      Escreva para <a href={mail}>{site.contact_email}</a>. Para corrigir um item, use o{' '}
-      <a href={paths.page('/corrections/')}>formulário de correção</a>.
+      Escreva para <a href={mail}>{site.contact_email}</a>. Para corrigir um item ou sugerir um
+      veículo, veja a página de <a href={paths.page('/corrections/')}>correções</a>.
     </p>
   </ProseLayout>
 ) : (
@@ -64,8 +68,10 @@ const mail = `mailto:${site.contact_email}`;
     </p>
     {countries.length > 0 && (
       <p>
-        The directory currently covers {countries.length} countries and {outlets} outlets. Every
-        listing was checked by a person before it was published.
+        The directory currently covers {countries.length} countries and {outlets} outlets. Listings
+        are compiled from public sources and approved by an editor; the first batch was approved in
+        bulk and is being re-checked outlet by outlet. If something is wrong,{' '}
+        <a href="/corrections/">tell us</a>.
       </p>
     )}
     <h2>Who it is for</h2>
@@ -74,17 +80,18 @@ const mail = `mailto:${site.contact_email}`;
       systems, travelers, and anyone who wants to know where a country's journalism comes from
       before choosing what to read.
     </p>
-    <h2>How it is funded</h2>
+    <h2>How it runs</h2>
     <p>
-      NewsMapp is paid for by sponsored listings, which are labeled and kept apart from the
-      editorial ranking, and by partner offers, which are disclosed where they appear. Rankings are
-      never for sale. The details are in our <a href="/disclosures/">disclosures</a> and{' '}
+      NewsMapp is free and non-commercial: no ads, no sponsored listings, no affiliate links, and no
+      outlet pays to be listed or to move up. The site is static, hosted by GitHub Pages, and the
+      catalog and code are <a href={repoUrl}>public</a>. The details are on our{' '}
+      <a href="/disclosures/">independence</a> page and in our{' '}
       <a href="/methodology/">methodology</a>.
     </p>
     <h2>Contact</h2>
     <p>
-      Write to <a href={mail}>{site.contact_email}</a>. To fix a listing, use the{' '}
-      <a href="/corrections/">correction form</a>.
+      Write to <a href={mail}>{site.contact_email}</a>. To fix a listing or suggest an outlet, see
+      the <a href="/corrections/">corrections</a> page.
     </p>
   </ProseLayout>
 )}

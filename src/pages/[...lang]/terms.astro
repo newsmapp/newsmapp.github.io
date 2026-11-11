@@ -10,10 +10,10 @@ const { lang, paths } = i18n(Astro.url);
 
 {lang === 'pt' ? (
   <ProseLayout
-    title="Termos de uso para leitores e patrocinadores"
-    description="Os termos para ler o NewsMapp, sugerir veículos e comprar um destaque patrocinado, incluindo revisão editorial, reembolsos e cancelamento."
+    title="Termos de uso do diretório"
+    description="Os termos para ler o NewsMapp, linkar e citar o diretório, sugerir veículos e enviar correções pelas issues do GitHub."
     heading="Termos de uso"
-    updated="2026-10-27"
+    updated="2026-11-11"
     legal
   >
     <h2>Uso do diretório</h2>
@@ -24,8 +24,8 @@ const { lang, paths } = i18n(Astro.url);
       </li>
       <li>
         Conferimos os itens com cuidado, mas não podemos garantir que todos os dados estejam
-        atualizados. Informe erros pelo{' '}
-        <a href={paths.page('/corrections/')}>formulário de correção</a>.
+        atualizados. Informe erros pela página de{' '}
+        <a href={paths.page('/corrections/')}>correções</a>.
       </li>
       <li>
         Você pode linkar qualquer página e citar trechos curtos com atribuição. Não é permitido
@@ -33,23 +33,22 @@ const { lang, paths } = i18n(Astro.url);
       </li>
     </ul>
 
-    <h2>Destaques patrocinados</h2>
+    <h2>Correções e sugestões</h2>
     <ul>
       <li>
-        Um destaque patrocinado é uma assinatura mensal ou anual de uma vaga em uma categoria de um
-        país, paga pela LemonSqueezy.
+        Correções e sugestões são issues públicas no GitHub e seguem também os termos de serviço do
+        GitHub.
       </li>
       <li>
-        Toda compra é revisada. Se recusarmos um destaque, o pagamento é reembolsado integralmente.
-      </li>
-      <li>
-        Você pode cancelar a qualquer momento; o destaque fica no ar até o fim do período pago.
-      </li>
-      <li>
-        Um destaque patrocinado nunca muda a posição editorial de um veículo, e podemos remover um
-        destaque que engane os leitores, com reembolso do período não usado.
+        A decisão de incluir, corrigir ou remover um item é editorial. Nenhum veículo pode pagar por
+        ela: o NewsMapp não vende destaques nem posições.
       </li>
     </ul>
+
+    <h2>Sem garantias</h2>
+    <p>
+      O NewsMapp é gratuito e oferecido como está, sem garantia de disponibilidade ou de exatidão.
+    </p>
 
     <h2>Contato</h2>
     <p>
@@ -59,10 +58,10 @@ const { lang, paths } = i18n(Astro.url);
   </ProseLayout>
 ) : (
   <ProseLayout
-    title="Terms of use for readers and sponsors"
-    description="The terms for reading NewsMapp, suggesting outlets and buying a sponsored listing, including editorial review, refunds and cancellation."
+    title="Terms of use for the directory"
+    description="The terms for reading NewsMapp, linking to and quoting the directory, suggesting outlets and sending corrections."
     heading="Terms of use"
-    updated="2026-10-27"
+    updated="2026-11-11"
   >
     <h2>Using the directory</h2>
     <ul>
@@ -72,7 +71,7 @@ const { lang, paths } = i18n(Astro.url);
       </li>
       <li>
         We check listings carefully but cannot guarantee that every fact is current. Report errors
-        through the <a href="/corrections/">correction form</a>.
+        on the <a href="/corrections/">corrections</a> page.
       </li>
       <li>
         You may link to any page and quote short parts with attribution. Copying the directory in
@@ -80,21 +79,20 @@ const { lang, paths } = i18n(Astro.url);
       </li>
     </ul>
 
-    <h2>Sponsored listings</h2>
+    <h2>Corrections and suggestions</h2>
     <ul>
       <li>
-        A sponsored listing is a monthly or yearly subscription for one place in one category of one
-        country, paid through LemonSqueezy.
-      </li>
-      <li>Every purchase is reviewed. If we decline a listing, the payment is refunded in full.</li>
-      <li>
-        You can cancel at any time; the listing stays until the end of the period you paid for.
+        Corrections and suggestions are public GitHub issues and are also subject to GitHub's terms
+        of service.
       </li>
       <li>
-        A sponsored listing never changes an outlet's editorial position, and we may remove a
-        listing that misleads readers, with a refund for the unused period.
+        Whether a listing is added, corrected or removed is an editorial decision. No outlet can pay
+        for it: NewsMapp sells no placements or positions.
       </li>
     </ul>
+
+    <h2>No warranty</h2>
+    <p>NewsMapp is free and provided as is, with no guarantee of availability or accuracy.</p>
 
     <h2>Contact</h2>
     <p>

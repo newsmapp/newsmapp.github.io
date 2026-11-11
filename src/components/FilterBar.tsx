@@ -62,8 +62,7 @@ function apply(filters: Filters): number {
       row.hidden = !match;
       if (match) {
         shown += 1;
-        const link = row.querySelector<HTMLElement>('[data-track]');
-        if (link?.dataset.track) visible.add(link.dataset.track);
+        if (row.dataset.outlet) visible.add(row.dataset.outlet);
       }
     }
     const count = column.querySelector<HTMLElement>('[data-count]');

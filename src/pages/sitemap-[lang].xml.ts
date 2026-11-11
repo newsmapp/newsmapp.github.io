@@ -9,7 +9,7 @@ export const getStaticPaths = (() =>
   siteLangs.map((lang) => ({ params: { lang }, props: { lang } }))) satisfies GetStaticPaths;
 
 export const GET: APIRoute<{ lang: Lang }> = ({ site, props }) => {
-  const origin = (site ?? new URL('https://newsmap.example')).toString();
+  const origin = (site ?? new URL('https://newsmapp.github.io')).toString();
   const body = urlset(
     indexablePaths(props.lang).map((path) => ({ loc: new URL(path, origin).toString() })),
   );
