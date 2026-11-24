@@ -96,6 +96,8 @@ Without a GitHub account, write to [newsmapp@atomicmail.io](mailto:newsmapp@atom
 
 ## License
 
-No license has been chosen yet. Until one is added, all rights are reserved.
+The code is licensed under [MIT](LICENSE).
+
+The catalog in `data/` and the editorial text (outlet descriptions, rankings, country summaries and the methodology) are not covered by the MIT license. You may link to any page and quote short parts with attribution, but copying the directory in bulk is not allowed, as the [terms of use](https://newsmapp.github.io/terms/) say. The NewsMapp logo and symbol are the project's marks.
 
 Population figures come from the [World Bank](https://data.worldbank.org/); flags are from [flag-icons](https://github.com/lipis/flag-icons) (MIT).
