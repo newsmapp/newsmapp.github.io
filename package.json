@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "pnpm catalog:build && astro dev",
-    "build": "pnpm catalog:build && astro build && pagefind --site dist --glob \"**/*.html\" --output-subdir pagefind",
+    "build": "pnpm catalog:build && astro build && tsx tools/prune-icons.ts && pagefind --site dist --glob \"**/*.html\" --output-subdir pagefind",
     "serve": "tsx tools/serve-static.ts",
     "preview": "pnpm serve",
     "preview:drafts": "CATALOG_DRAFTS=1 pnpm build && pnpm serve",

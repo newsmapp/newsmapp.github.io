@@ -13,7 +13,7 @@ Git is the CMS: every outlet and country is a JSON file in `data/`, validated by
    pnpm catalog:add --country BR --name "…" --url https://… --categories general-news --pitch "…"
    ```
 
-2. Check links and fetch icons. `catalog:health` writes `reports/health-<date>.json` with redirects, dead links and invalid feeds; `catalog:icons` stores favicons locally (never hot-linked) as `public/icons/<id>.webp`; commit the new files with the outlets.
+2. Check links and fetch icons. `catalog:health` writes `reports/health-<date>.json` with redirects, dead links and invalid feeds; `catalog:icons` stores favicons locally (never hot-linked) as `public/icons/<id>.webp`; commit the new files with the outlets. Icons of outlets that are not published stay out of the deploy: the build removes them from `dist/`.
 
    ```sh
    pnpm catalog:health --country BR
