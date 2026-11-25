@@ -4,6 +4,7 @@ import type { Outlet } from '../../src/schemas/catalog.schema';
 import { decodeHtml, fetchTracked, pool } from './http';
 
 export const ICONS_DIR = 'public/icons';
+const MAX_INPUT_PIXELS = 4096 * 4096;
 
 /** Icon candidates from <link> tags, biggest first, then conventional paths. */
 export function iconCandidates(html: string, pageUrl: string): string[] {
@@ -37,7 +38,9 @@ async function download(outlet: Outlet): Promise<'ok' | 'missing'> {
     if (icon.status !== 200 || icon.body.length < 64) continue;
     try {
       // sharp decodes PNG, JPEG, WebP, GIF and SVG; ICO falls through to the next candidate.
-      await sharp(icon.body, { density: 300 })
+      // The input is third-party: cap the decoded size (an SVG is rasterized at 300 dpi first) so
+      // a hostile file cannot exhaust memory, and fail on corrupt data instead of guessing.
+      await sharp(icon.body, { density: 300, limitInputPixels: MAX_INPUT_PIXELS, failOn: 'error' })
         .resize(40, 40, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
         .webp({ quality: 82 })
         .toFile(`${ICONS_DIR}/${outlet.id}.webp`);

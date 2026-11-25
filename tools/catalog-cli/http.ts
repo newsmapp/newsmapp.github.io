@@ -1,4 +1,6 @@
 /** Shared HTTP helpers for health checks and icon downloads. */
+import { lookup } from 'node:dns/promises';
+import { BlockList, isIP } from 'node:net';
 
 /**
  * Where site owners can read who is calling: the methodology page when SITE_URL is known, else
@@ -10,6 +12,67 @@ const CONTACT = process.env.SITE_URL
 export const USER_AGENT = `NewsMappBot/1.0 (+${CONTACT})`;
 const TIMEOUT_MS = 15_000;
 const MAX_BODY = 512 * 1024;
+
+/**
+ * Catalog URLs and their redirects come from third-party sites. Only public https targets are
+ * fetched, so a hostile redirect cannot reach the runner's network, a local service or plain http.
+ */
+const PRIVATE = new BlockList();
+for (const [net, prefix] of [
+  ['0.0.0.0', 8],
+  ['10.0.0.0', 8],
+  ['100.64.0.0', 10],
+  ['127.0.0.0', 8],
+  ['169.254.0.0', 16],
+  ['172.16.0.0', 12],
+  ['192.0.0.0', 24],
+  ['192.168.0.0', 16],
+  ['198.18.0.0', 15],
+  ['224.0.0.0', 3],
+] as const)
+  PRIVATE.addSubnet(net, prefix, 'ipv4');
+for (const [net, prefix] of [
+  ['::', 127],
+  ['64:ff9b::', 96],
+  ['fc00::', 7],
+  ['fe80::', 10],
+  ['ff00::', 8],
+] as const)
+  PRIVATE.addSubnet(net, prefix, 'ipv6');
+
+export const isPrivateAddress = (address: string): boolean => {
+  // IPv4-mapped IPv6 (::ffff:10.0.0.1) is judged by its IPv4 address. BlockList cannot hold a
+  // ::ffff:0:0/96 rule for this: it matches every plain IPv4 address too.
+  const mapped = /^::ffff:(\d+\.\d+\.\d+\.\d+)$/i.exec(address)?.[1];
+  if (mapped) return isPrivateAddress(mapped);
+  const family = isIP(address);
+  if (family === 0) return false;
+  return PRIVATE.check(address, family === 4 ? 'ipv4' : 'ipv6');
+};
+
+/** Why a URL must not be fetched, or null when it is a public https target. */
+export async function blockedReason(
+  url: string,
+  resolve: (host: string) => Promise<string[]> = async (host) =>
+    (await lookup(host, { all: true })).map((entry) => entry.address),
+): Promise<string | null> {
+  let parsed: URL;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return 'invalid URL';
+  }
+  if (parsed.protocol !== 'https:') return `non-https URL (${parsed.protocol.replace(':', '')})`;
+  const host = parsed.hostname.replace(/^\[|\]$/g, '').toLowerCase();
+  if (host === 'localhost' || host.endsWith('.localhost')) return 'private address';
+  let addresses: string[];
+  try {
+    addresses = isIP(host) ? [host] : await resolve(host);
+  } catch {
+    return null; // Let fetch report the DNS error as it normally would.
+  }
+  return addresses.some(isPrivateAddress) ? 'private address' : null;
+}
 
 export interface Hop {
   url: string;
@@ -53,6 +116,17 @@ export async function fetchTracked(url: string, accept = 'text/html,*/*'): Promi
   let current = url;
   try {
     for (let i = 0; i < 7; i += 1) {
+      const blocked = await blockedReason(current);
+      if (blocked) {
+        return {
+          hops,
+          finalUrl: current,
+          status: null,
+          contentType: '',
+          body: new Uint8Array(),
+          error: `blocked: ${blocked}`,
+        };
+      }
       const response = await fetch(current, {
         redirect: 'manual',
         headers: { 'user-agent': USER_AGENT, accept, 'accept-language': 'en,*;q=0.5' },
@@ -108,6 +182,9 @@ export function decodeHtml(body: Uint8Array, contentType: string): string {
   }
 }
 
+// eslint-disable-next-line no-control-regex -- stripping control characters is the point
+const CONTROL_CHARS = /[\u0000-\u001f\u007f-\u009f]/g;
+
 const ENTITIES: Record<string, string> = {
   amp: '&',
   lt: '<',
@@ -130,6 +207,7 @@ export function extractTitle(html: string): string | null {
       }
       return ENTITIES[entity.toLowerCase()] ?? match;
     })
+    .replace(CONTROL_CHARS, ' ')
     .replace(/\s+/g, ' ')
     .trim();
   return title === '' ? null : title.slice(0, 200);

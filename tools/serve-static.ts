@@ -50,7 +50,8 @@ createServer((request, response) => {
   if (isFile(file)) return send(file);
   if (isFile(join(file, 'index.html'))) {
     if (pathname.endsWith('/')) return send(join(file, 'index.html'));
-    response.writeHead(301, { location: `${pathname}/${url.search}` });
+    // Collapse leading slashes: "//host/" would be a protocol-relative redirect off this server.
+    response.writeHead(301, { location: `/${pathname.replace(/^\/+/, '')}/${url.search}` });
     return response.end();
   }
   return send(join(root, '404.html'), 404);

@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { findingsFor } from './health';
-import { decodeHtml, extractTitle, pool, registrableHost } from './http';
+import {
+  blockedReason,
+  decodeHtml,
+  extractTitle,
+  isPrivateAddress,
+  pool,
+  registrableHost,
+} from './http';
 import { iconCandidates } from './icons';
 import { parseFlags } from './io';
 
@@ -70,6 +77,8 @@ describe('http helpers', () => {
     );
     expect(extractTitle('<html></html>')).toBeNull();
     expect(extractTitle('<title> </title>')).toBeNull();
+    // Control characters would make the title fail the catalog schema.
+    expect(extractTitle('<title>Bad\u0007 Title\u0000</title>')).toBe('Bad Title');
   });
 
   it('decodes using the declared charset, falling back to UTF-8', () => {
@@ -96,6 +105,39 @@ describe('http helpers', () => {
 
   it('compares hosts without www', () => {
     expect(registrableHost('https://www.example.com/a')).toBe('example.com');
+  });
+});
+
+describe('fetch targets', () => {
+  const publicDns = async () => ['93.184.215.14'];
+
+  it('recognizes private, loopback and link-local addresses', () => {
+    for (const ip of [
+      '127.0.0.1',
+      '10.1.2.3',
+      '172.20.0.1',
+      '192.168.1.1',
+      '169.254.169.254',
+      '::1',
+      'fd00::1',
+      '::ffff:127.0.0.1',
+    ])
+      expect(isPrivateAddress(ip), ip).toBe(true);
+    for (const ip of ['93.184.215.14', '2606:4700::1111'])
+      expect(isPrivateAddress(ip), ip).toBe(false);
+  });
+
+  it('allows only public https targets', async () => {
+    expect(await blockedReason('https://news.example.com/', publicDns)).toBeNull();
+    expect(await blockedReason('http://news.example.com/', publicDns)).toBe('non-https URL (http)');
+    expect(await blockedReason('https://localhost:8080/', publicDns)).toBe('private address');
+    expect(await blockedReason('https://169.254.169.254/latest/', publicDns)).toBe(
+      'private address',
+    );
+    expect(await blockedReason('https://[::1]/', publicDns)).toBe('private address');
+    expect(await blockedReason('https://intranet.example.com/', async () => ['10.0.0.5'])).toBe(
+      'private address',
+    );
   });
 });
 
