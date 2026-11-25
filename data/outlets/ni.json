@@ -136,7 +136,7 @@
     ],
     "primary_category": "general-news",
     "ranks": {
-      "general-news": 3,
+      "general-news": 2,
       "politics": 3
     },
     "region": null,
@@ -219,7 +219,7 @@
     "primary_category": "investigative",
     "ranks": {
       "investigative": 4,
-      "general-news": 4
+      "general-news": 3
     },
     "region": null,
     "founded_year": null,
@@ -299,7 +299,7 @@
     ],
     "primary_category": "broadcast",
     "ranks": {
-      "broadcast": 2
+      "broadcast": 1
     },
     "region": null,
     "founded_year": 1965,
@@ -340,7 +340,7 @@
     ],
     "primary_category": "general-news",
     "ranks": {
-      "general-news": 5,
+      "general-news": 4,
       "politics": 4
     },
     "region": null,

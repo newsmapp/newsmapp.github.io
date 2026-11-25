@@ -53,7 +53,7 @@
     ],
     "primary_category": "general-news",
     "ranks": {
-      "general-news": 3
+      "general-news": 2
     },
     "region": null,
     "founded_year": null,
@@ -93,7 +93,7 @@
     ],
     "primary_category": "politics",
     "ranks": {
-      "politics": 3
+      "politics": 2
     },
     "region": null,
     "founded_year": 1957,
@@ -133,7 +133,7 @@
     ],
     "primary_category": "politics",
     "ranks": {
-      "politics": 4
+      "politics": 3
     },
     "region": null,
     "founded_year": null,
@@ -173,7 +173,7 @@
     ],
     "primary_category": "broadcast",
     "ranks": {
-      "broadcast": 2
+      "broadcast": 1
     },
     "region": null,
     "founded_year": null,
@@ -213,7 +213,7 @@
     ],
     "primary_category": "broadcast",
     "ranks": {
-      "broadcast": 3
+      "broadcast": 2
     },
     "region": null,
     "founded_year": null,

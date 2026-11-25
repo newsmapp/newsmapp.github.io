@@ -55,6 +55,16 @@ describe('validateCatalog', () => {
     expect(errors.some((e) => e.includes('must start with "pt-"'))).toBe(true);
   });
 
+  it('warns when the ranks of a category have a gap', () => {
+    const input = clone(fixture);
+    const outlet = outletsOf(input, 'pt').find((o) => (o.ranks as Mutable)['general-news'] === 1)!;
+    (outlet.ranks as Mutable)['general-news'] = 99;
+    const warnings = validateCatalog(input)
+      .issues.filter((i) => i.severity === 'warning')
+      .map((i) => i.message);
+    expect(warnings.some((w) => w.startsWith('ranks in general-news are not 1..'))).toBe(true);
+  });
+
   it('rejects repeated ranks in the same category', () => {
     const errors = errorsAfter((input) => {
       const pt = outletsOf(input, 'pt');

@@ -121,6 +121,9 @@ function outletsFor(spec: Spec): Outlet[] {
   });
   const template = outlets[1];
   if (!spec.published || !template) return outlets;
+  // The candidate takes the next free position, so ranks stay contiguous (catalog:validate warns
+  // about gaps); the retired outlet's rank does not count.
+  const nextGeneral = outlets.filter((o) => o.categories.includes('general-news')).length + 1;
   return [
     ...outlets,
     {
@@ -129,7 +132,7 @@ function outletsFor(spec: Spec): Outlet[] {
       slug: 'unverified-gazette',
       name: `${spec.name} Unverified Gazette`,
       url: `https://${prefix}-unverified.example.com/`,
-      ranks: { 'general-news': 99 },
+      ranks: { 'general-news': nextGeneral },
       categories: ['general-news'],
       primary_category: 'general-news',
       status: 'candidate',

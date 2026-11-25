@@ -140,6 +140,17 @@ export function validateCatalog(input: CatalogInput): { catalog: Catalog; issues
         );
       }
     }
+    // Ranks are positions in a column: a gap (1, 2, 4) usually means an outlet was removed
+    // without renumbering the rest.
+    for (const category of CATEGORIES) {
+      const ranks = parsed.data
+        .filter((o) => o.status !== 'retired')
+        .flatMap((o) => o.ranks[category] ?? [])
+        .sort((a, b) => a - b);
+      if (ranks.some((rank, index) => rank !== index + 1)) {
+        warn(file, `ranks in ${category} are not 1..${ranks.length} (${ranks.join(', ')})`);
+      }
+    }
     outlets.set(iso, parsed.data);
   }
 

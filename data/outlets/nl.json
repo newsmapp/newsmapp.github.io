@@ -511,7 +511,7 @@
     ],
     "primary_category": "economy",
     "ranks": {
-      "economy": 4
+      "economy": 3
     },
     "region": null,
     "founded_year": 1998,
@@ -553,7 +553,7 @@
     "primary_category": "investigative",
     "ranks": {
       "investigative": 3,
-      "economy": 5
+      "economy": 4
     },
     "region": null,
     "founded_year": 2010,
@@ -959,7 +959,7 @@
     "primary_category": "tech-science",
     "ranks": {
       "tech-science": 3,
-      "economy": 6
+      "economy": 5
     },
     "region": null,
     "founded_year": 1996,

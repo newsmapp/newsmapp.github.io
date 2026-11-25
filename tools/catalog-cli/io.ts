@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
-import type { Outlet } from '../../src/schemas/catalog.schema';
+import { outletsFileSchema, type Outlet } from '../../src/schemas/catalog.schema';
 import { LOCALES, type Locale } from '../../src/schemas/common';
 import type { CatalogInput, RawFile } from '../../src/lib/catalog/validate';
 
@@ -45,7 +45,16 @@ export const outletsPath = (iso2: string): string =>
 
 export function readOutlets(iso2: string): Outlet[] {
   const path = outletsPath(iso2);
-  return existsSync(path) ? (readJson(path) as Outlet[]) : [];
+  if (!existsSync(path)) return [];
+  // Tools rewrite these files: refuse to work on (and overwrite) one that is not a valid catalog.
+  const parsed = outletsFileSchema.safeParse(readJson(path));
+  if (!parsed.success) {
+    const issue = parsed.error.issues[0];
+    throw new Error(
+      `${path}: ${issue?.path.join('.') || '(root)'}: ${issue?.message ?? 'invalid'} (run pnpm catalog:validate)`,
+    );
+  }
+  return parsed.data;
 }
 
 export function writeJson(path: string, data: unknown): void {
