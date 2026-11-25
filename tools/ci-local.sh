@@ -30,6 +30,8 @@ trap cleanup EXIT
 
 check_job() {
   step 'install (frozen lockfile)' && pnpm install --frozen-lockfile --prefer-offline
+  # Same gate as CI: a new advisory fails here before the push, not on main.
+  step 'audit' && pnpm audit
   step 'format:check' && pnpm format:check
   step 'lint' && pnpm lint
   step 'typecheck' && pnpm typecheck
@@ -51,7 +53,9 @@ e2e_job() {
 case "$job" in
   check) check_job ;;
   e2e) e2e_job ;;
-  all) check_job && e2e_job ;;
+  # Not `check_job && e2e_job`: bash ignores `set -e` inside a function run as part of an && list,
+  # so a failing step in check_job would be skipped over and the run would still pass.
+  all) check_job; e2e_job ;;
   *) echo "usage: tools/ci-local.sh [check|e2e]" >&2; exit 2 ;;
 esac
 
