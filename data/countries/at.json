@@ -1,0 +1,93 @@
+{
+  "iso2": "AT",
+  "iso3": "AUT",
+  "slug": "austria",
+  "name": {
+    "en": "Austria",
+    "pt": "Áustria"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 9200000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "de"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "DE",
+    "CZ",
+    "SK",
+    "HU",
+    "SI",
+    "IT",
+    "CH",
+    "LI"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Austria's news market is led by the public broadcaster ORF, whose website orf.at is the country's most visited news site. The Kronen Zeitung is the most widely read newspaper by a wide margin, while Der Standard and Die Presse are the main quality dailies in Vienna. Strong regional papers such as the Kleine Zeitung, the Salzburger Nachrichten and the Tiroler Tageszeitung dominate their provinces. Weekly magazines including Falter and Profil carry much of the country's investigative work, and the APA agency is owned cooperatively by the media. Newspaper sites mix free articles with subscriptions.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Austria?",
+          "a": "The main national outlets in the directory include ORF News, Der Standard, Die Presse, the Kronen Zeitung and Kurier. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Austrian outlets are publicly funded?",
+          "a": "ORF News and ORF Sport belong to the public broadcaster ORF. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find regional news in Austria?",
+          "a": "Regional coverage in the directory comes from the Kleine Zeitung (Styria and Carinthia), the Salzburger Nachrichten (Salzburg) and the Tiroler Tageszeitung (Tyrol). The Regional & Local column lists every regional outlet."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Austria: the public broadcaster, the Vienna dailies and the national news agency."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Austria is led by weekly magazines and a nonprofit newsroom."
+        },
+        "regional": {
+          "intro": "Regional newspapers in Austria are among the strongest in Europe, each dominant in its own province."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Áustria é liderado pela emissora pública ORF, cujo site orf.at é o site de notícias mais visitado do país. A Kronen Zeitung é, com folga, o jornal mais lido, enquanto Der Standard e Die Presse são os principais diários de referência de Viena. Jornais regionais fortes como Kleine Zeitung, Salzburger Nachrichten e Tiroler Tageszeitung dominam suas províncias. Revistas semanais como Falter e Profil fazem boa parte do jornalismo investigativo do país, e a agência APA pertence de forma cooperativa aos próprios veículos. Os sites dos jornais combinam artigos gratuitos com assinaturas.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Áustria?",
+          "a": "Os principais veículos nacionais do diretório incluem ORF News, Der Standard, Die Presse, Kronen Zeitung e Kurier. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos austríacos são financiados com recursos públicos?",
+          "a": "ORF News e ORF Sport pertencem à emissora pública ORF. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias regionais da Áustria?",
+          "a": "A cobertura regional do diretório vem da Kleine Zeitung (Estíria e Caríntia), do Salzburger Nachrichten (Salzburgo) e da Tiroler Tageszeitung (Tirol). A coluna Regional e local lista todos os veículos regionais."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Áustria: a emissora pública, os diários de Viena e a agência nacional de notícias."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Áustria é liderado por revistas semanais e por uma redação sem fins lucrativos."
+        },
+        "regional": {
+          "intro": "Os jornais regionais da Áustria estão entre os mais fortes da Europa, cada um dominante em sua província."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

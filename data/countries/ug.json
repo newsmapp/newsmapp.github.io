@@ -1,0 +1,91 @@
+{
+  "iso2": "UG",
+  "iso3": "UGA",
+  "slug": "uganda",
+  "name": {
+    "en": "Uganda",
+    "pt": "Uganda"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 50000000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "sw"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "KE",
+    "SS",
+    "CD",
+    "RW",
+    "TZ"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Uganda's national news is led from Kampala by two groups: the Vision Group, majority owned by the state and publisher of New Vision and the Luganda daily Bukedde, and Monitor Publications, part of Kenya's Nation Media Group, publisher of the Daily Monitor and owner of NTV. Next Media runs NBS Television and the Nile Post. Radio, much of it in local languages, reaches the widest audience. Digital outlets such as ChimpReports have grown, and journalists have faced pressure around elections. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Uganda?",
+          "a": "The main national outlets in the directory include the Daily Monitor, New Vision, NTV Uganda, Nile Post and ChimpReports. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Ugandan outlets are state-controlled?",
+          "a": "New Vision, Bukedde and UBC are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Ugandan news in local languages?",
+          "a": "Bukedde publishes in Luganda. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Uganda: the two main daily newspapers, the largest TV news sites and digital outlets."
+        },
+        "broadcast": {
+          "intro": "Television and radio are central to news in Uganda. The broadcasters below publish news online."
+        },
+        "tech-science": {
+          "intro": "Ugandan technology sites cover mobile money, telecoms, gadgets and the local startup scene."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "O noticiário nacional de Uganda é liderado a partir de Kampala por dois grupos: o Vision Group, de controle majoritário do Estado e editor do New Vision e do diário em luganda Bukedde, e a Monitor Publications, do grupo queniano Nation Media Group, editora do Daily Monitor e dona da NTV. A Next Media mantém a NBS Television e o Nile Post. O rádio, em grande parte em línguas locais, alcança o maior público. Veículos digitais como o ChimpReports cresceram, e jornalistas sofreram pressão em períodos eleitorais. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Uganda?",
+          "a": "Os principais veículos nacionais do diretório incluem Daily Monitor, New Vision, NTV Uganda, Nile Post e ChimpReports. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos ugandenses são controlados pelo Estado?",
+          "a": "New Vision, Bukedde e UBC são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias de Uganda em línguas locais?",
+          "a": "O Bukedde publica em luganda. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Uganda: os dois principais jornais diários, os maiores sites de TV e veículos digitais."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio são centrais para as notícias em Uganda. As emissoras abaixo publicam notícias on-line."
+        },
+        "tech-science": {
+          "intro": "Os sites de tecnologia de Uganda cobrem dinheiro móvel, telecomunicações, gadgets e as startups locais."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

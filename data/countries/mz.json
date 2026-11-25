@@ -1,0 +1,85 @@
+{
+  "iso2": "MZ",
+  "iso3": "MOZ",
+  "slug": "mozambique",
+  "name": {
+    "en": "Mozambique",
+    "pt": "Moçambique"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 34600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "pt"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "TZ",
+    "MW",
+    "ZM",
+    "ZW",
+    "ZA",
+    "SZ"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Mozambique's news is published in Portuguese and centred in Maputo. The state-controlled daily Notícias, the AIM agency, the broadcaster TVM and Rádio Moçambique are the main national media, while the private SOICO group runs STV and the news site O País. Independent outlets such as Carta de Moçambique, @Verdade and the English-language Zitamar News cover politics, gas projects and the conflict in Cabo Delgado. Radio is the main source of news outside the cities. Journalists covering the insurgency and elections have faced threats. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Mozambique?",
+          "a": "The main national outlets in the directory include Notícias, O País, Carta de Moçambique, @Verdade and AIM. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Mozambican outlets are state-controlled?",
+          "a": "Notícias, AIM, TVM and Rádio Moçambique are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there news about Mozambique in English?",
+          "a": "Zitamar News publishes in English, and AIM has an English service. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Mozambique: the state daily and agency, the largest private news site and independent outlets."
+        },
+        "broadcast": {
+          "intro": "Radio and television are the main sources of news in Mozambique. The broadcasters below publish news online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias de Moçambique são publicadas em português e centradas em Maputo. O diário estatal Notícias, a agência AIM, a emissora TVM e a Rádio Moçambique são as principais mídias nacionais, enquanto o grupo privado SOICO mantém a STV e o site O País. Veículos independentes como Carta de Moçambique, @Verdade e o Zitamar News, em inglês, cobrem política, os projetos de gás e o conflito em Cabo Delgado. O rádio é a principal fonte de notícias fora das cidades. Jornalistas que cobrem a insurgência e as eleições sofreram ameaças. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Moçambique?",
+          "a": "Os principais veículos nacionais do diretório incluem Notícias, O País, Carta de Moçambique, @Verdade e AIM. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos moçambicanos são controlados pelo Estado?",
+          "a": "Notícias, AIM, TVM e Rádio Moçambique são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias sobre Moçambique em inglês?",
+          "a": "O Zitamar News publica em inglês, e a AIM tem um serviço em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Moçambique: o diário e a agência estatais, o maior site privado e veículos independentes."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão são as principais fontes de notícias em Moçambique. As emissoras abaixo publicam notícias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

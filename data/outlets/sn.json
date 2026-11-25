@@ -1,0 +1,620 @@
+[
+  {
+    "id": "sn-le-soleil",
+    "slug": "le-soleil",
+    "name": "Le Soleil",
+    "url": "https://lesoleil.sn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Société sénégalaise de presse et de publications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State-owned Dakar daily founded in 1970, with national news, politics and the regions.",
+      "pt": "Diário estatal de Dacar fundado em 1970, com notícias nacionais, política e regiões."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/senegal"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://lesoleil.sn/",
+      "title": "Journal Le Soleil, Les rayons de l'info - Actualités au Sénégal - News"
+    }
+  },
+  {
+    "id": "sn-seneweb",
+    "slug": "seneweb",
+    "name": "Seneweb",
+    "url": "https://www.seneweb.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "One of Senegal's most-visited news portals, with national news, politics and video.",
+      "pt": "Um dos portais de notícias mais visitados do Senegal, com notícias nacionais, política e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.seneweb.com/",
+      "title": "Seneweb.com - Actualités du Sénégal et de l'Afrique"
+    }
+  },
+  {
+    "id": "sn-dakaractu",
+    "slug": "dakaractu",
+    "name": "Dakaractu",
+    "url": "https://www.dakaractu.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dakar news site with national news, politics, society and video reports.",
+      "pt": "Site de notícias de Dacar com notícias nacionais, política, sociedade e reportagens em vídeo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dakaractu.com/",
+      "title": "DAKARACTU.COM"
+    }
+  },
+  {
+    "id": "sn-aps",
+    "slug": "aps",
+    "name": "APS",
+    "url": "https://aps.sn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Senegalese State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Agence de Presse Sénégalaise, the national news agency, with news from every region.",
+      "pt": "Agence de Presse Sénégalaise, a agência nacional de notícias, com notícias de todas as regiões."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/senegal"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://aps.sn/",
+      "title": "ACCUEIL - APS"
+    }
+  },
+  {
+    "id": "sn-le-quotidien",
+    "slug": "le-quotidien",
+    "name": "Le Quotidien",
+    "url": "https://lequotidien.sn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Dakar daily with national politics, the economy and opinion.",
+      "pt": "Diário independente de Dacar com política nacional, economia e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://lequotidien.sn/",
+      "title": null
+    }
+  },
+  {
+    "id": "sn-senego",
+    "slug": "senego",
+    "name": "Senego",
+    "url": "https://senego.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular news portal with Senegalese news, politics, entertainment and video.",
+      "pt": "Portal popular com notícias do Senegal, política, entretenimento e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://senego.com/",
+      "title": "Senego.com : Actualité au Sénégal, toute l'actualité sénégalaise"
+    }
+  },
+  {
+    "id": "sn-senenews",
+    "slug": "senenews",
+    "name": "SeneNews",
+    "url": "https://www.senenews.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site with Senegalese politics, society, sport and the diaspora.",
+      "pt": "Site de notícias com política, sociedade, esporte e a diáspora senegalesa."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.senenews.com/",
+      "title": "SeneNews – Actualité au Sénégal en direct"
+    }
+  },
+  {
+    "id": "sn-pressafrik",
+    "slug": "pressafrik",
+    "name": "PressAfrik",
+    "url": "https://www.pressafrik.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dakar news site with Senegalese and African news, politics and the economy.",
+      "pt": "Site de notícias de Dacar com notícias do Senegal e da África, política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.pressafrik.com/",
+      "title": "PRESSAFRIK.COM, Premier média certifié JTI au Sénégal"
+    }
+  },
+  {
+    "id": "sn-rts",
+    "slug": "rts",
+    "name": "RTS",
+    "url": "https://www.rts.sn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTS",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Radiodiffusion Télévision Sénégalaise, the public broadcaster, with radio and TV news.",
+      "pt": "Radiodiffusion Télévision Sénégalaise, a emissora pública, com notícias de rádio e TV."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "sn-igfm",
+    "slug": "igfm",
+    "name": "iGFM",
+    "url": "https://www.igfm.sn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Groupe Futurs Médias",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of Groupe Futurs Médias, owner of the TFM channel and RFM radio.",
+      "pt": "Site de notícias do Groupe Futurs Médias, dono do canal TFM e da rádio RFM."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.igfm.sn/",
+      "title": "igfm.sn - Actualités et informations au Sénégal et dans le monde"
+    }
+  },
+  {
+    "id": "sn-walf",
+    "slug": "walf",
+    "name": "Walf",
+    "url": "https://walf-groupe.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Groupe Walfadjri",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Walfadjri group, with a daily newspaper, a TV channel and a radio station.",
+      "pt": "Grupo Walfadjri, com jornal diário, canal de TV e emissora de rádio."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://walf-groupe.com/",
+      "title": "Walf NET – Walfadjri : actualités du Sénégal, Walf TV en direct"
+    }
+  },
+  {
+    "id": "sn-financial-afrik",
+    "slug": "financial-afrik",
+    "name": "Financial Afrik",
+    "url": "https://www.financialafrik.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dakar-based business outlet with banking, finance and the economies of West Africa.",
+      "pt": "Veículo de negócios de Dacar com bancos, finanças e as economias da África Ocidental."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.financialafrik.com/",
+      "title": "Accueil | Financial Afrik"
+    }
+  },
+  {
+    "id": "sn-africa-check",
+    "slug": "africa-check",
+    "name": "Africa Check",
+    "url": "https://africacheck.org/fr",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit fact-checking organisation with a French-language team based in Dakar.",
+      "pt": "Organização de checagem sem fins lucrativos com uma equipe francófona sediada em Dacar."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://africacheck.org/fr",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "sn-ouestaf-news",
+    "slug": "ouestaf-news",
+    "name": "Ouestaf News",
+    "url": "https://www.ouestaf.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dakar news agency with investigations and reports on West African governance.",
+      "pt": "Agência de Dacar com investigações e reportagens sobre a governança na África Ocidental."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ouestaf.com/",
+      "title": "Ouestaf.com"
+    }
+  },
+  {
+    "id": "sn-wiwsport",
+    "slug": "wiwsport",
+    "name": "Wiwsport",
+    "url": "https://wiwsport.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports site with Senegalese football, the national team, wrestling and basketball.",
+      "pt": "Site esportivo com futebol senegalês, a seleção nacional, luta e basquete."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://wiwsport.com/",
+      "title": "wiwsport - L'actualité du sport sénégalais"
+    }
+  }
+]

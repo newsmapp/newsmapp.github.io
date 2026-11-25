@@ -1,0 +1,627 @@
+[
+  {
+    "id": "ug-daily-monitor",
+    "slug": "daily-monitor",
+    "name": "Daily Monitor",
+    "url": "https://www.monitor.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1992,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Monitor Publications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Independent Kampala daily founded in 1992, with national news, politics and investigations.",
+      "pt": "Diário independente de Kampala fundado em 1992, com notícias nacionais, política e investigações."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.monitor.co.ug/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ug-new-vision",
+    "slug": "new-vision",
+    "name": "New Vision",
+    "url": "https://www.newvision.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Vision Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Uganda's largest daily, majority state-owned, with national news and government affairs.",
+      "pt": "Maior diário de Uganda, de controle majoritário estatal, com notícias nacionais e do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/uganda"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.newvision.co.ug/",
+      "title": "New Vision: Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at newvision.co.ug"
+    }
+  },
+  {
+    "id": "ug-ntv-uganda",
+    "slug": "ntv-uganda",
+    "name": "NTV Uganda",
+    "url": "https://ntv.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Nation Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private television station of the Nation Media Group, with news and live video.",
+      "pt": "Emissora privada de televisão do Nation Media Group, com notícias e vídeo ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://ntv.co.ug/",
+      "title": "NTV Uganda – Turning on you world"
+    }
+  },
+  {
+    "id": "ug-nile-post",
+    "slug": "nile-post",
+    "name": "Nile Post",
+    "url": "https://nilepost.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Next Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site of Next Media, with national news, politics and video.",
+      "pt": "Site de notícias digital da Next Media, com notícias nacionais, política e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://nilepost.co.ug/",
+      "title": "Nilepost | Uganda News, Breaking News, Politics, Business, Sports & Entertainment"
+    }
+  },
+  {
+    "id": "ug-chimpreports",
+    "slug": "chimpreports",
+    "name": "ChimpReports",
+    "url": "https://chimpreports.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kampala digital outlet with breaking news, politics, security and business.",
+      "pt": "Veículo digital de Kampala com notícias de última hora, política, segurança e negócios."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://chimpreports.com/",
+      "title": "ChimpReports, Uganda News, Uganda, Congo, Rwanda, Sudan"
+    }
+  },
+  {
+    "id": "ug-the-observer-uganda",
+    "slug": "the-observer-uganda",
+    "name": "The Observer",
+    "url": "https://observer.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Kampala newspaper with politics, analysis and in-depth reporting.",
+      "pt": "Jornal independente de Kampala com política, análise e reportagens aprofundadas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://observer.ug/",
+      "title": "Uganda Observer - News, comment, sports, business, lifestyle and entertainment from Uganda - The Observer Media Ltd"
+    }
+  },
+  {
+    "id": "ug-the-independent-uganda",
+    "slug": "the-independent-uganda",
+    "name": "The Independent",
+    "url": "https://www.independent.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine with Ugandan politics, the economy and regional affairs.",
+      "pt": "Revista semanal com política, economia e assuntos regionais de Uganda."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.independent.co.ug/",
+      "title": "HOME: Independent magazine Uganda; Cutting edge Opinions & Analysis"
+    }
+  },
+  {
+    "id": "ug-pml-daily",
+    "slug": "pml-daily",
+    "name": "PML Daily",
+    "url": "https://www.pmldaily.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ugandan digital news site with national news, politics, business and sport.",
+      "pt": "Site de notícias digital ugandense com notícias nacionais, política, negócios e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.pmldaily.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ug-bukedde",
+    "slug": "bukedde",
+    "name": "Bukedde",
+    "url": "https://www.bukedde.co.ug/",
+    "rss_url": null,
+    "language": "lg",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Vision Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Luganda-language daily of the Vision Group, with national and Kampala news.",
+      "pt": "Diário em luganda do Vision Group, com notícias nacionais e de Kampala."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/uganda"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.bukedde.co.ug/",
+      "title": "Bukedde Online"
+    }
+  },
+  {
+    "id": "ug-nbs-television",
+    "slug": "nbs-television",
+    "name": "NBS Television",
+    "url": "https://nbs.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Next Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private TV station of Next Media, with news, talk shows and live coverage.",
+      "pt": "Emissora privada de TV da Next Media, com notícias, debates e cobertura ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://nbs.ug/",
+      "title": "NBS Television – Always"
+    }
+  },
+  {
+    "id": "ug-ubc",
+    "slug": "ubc",
+    "name": "UBC",
+    "url": "https://ubc.go.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Uganda Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Uganda Broadcasting Corporation, the state broadcaster, with TV and radio news.",
+      "pt": "Uganda Broadcasting Corporation, a emissora estatal, com notícias de TV e rádio."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/uganda"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://ubc.go.ug/",
+      "title": "Home - Uganda Broadcasting Corporation"
+    }
+  },
+  {
+    "id": "ug-business-focus",
+    "slug": "business-focus",
+    "name": "Business Focus",
+    "url": "https://businessfocus.co.ug/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site with Ugandan companies, oil, agriculture and finance.",
+      "pt": "Site de negócios com empresas ugandenses, petróleo, agricultura e finanças."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://businessfocus.co.ug/",
+      "title": "Business Focus »"
+    }
+  },
+  {
+    "id": "ug-kawowo-sports",
+    "slug": "kawowo-sports",
+    "name": "Kawowo Sports",
+    "url": "https://kawowo.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ugandan sports site with football, rugby, athletics and the Uganda Cranes.",
+      "pt": "Site esportivo ugandense com futebol, rúgbi, atletismo e os Uganda Cranes."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://kawowo.com/",
+      "title": "Kawowo Sports - East Africa's hub for sports content"
+    }
+  },
+  {
+    "id": "ug-techjaja",
+    "slug": "techjaja",
+    "name": "Techjaja",
+    "url": "https://techjaja.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ugandan technology site with gadgets, telecoms, mobile money and reviews.",
+      "pt": "Site ugandense de tecnologia com gadgets, telecomunicações, dinheiro móvel e análises."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://techjaja.com/",
+      "title": "Techjaja"
+    }
+  },
+  {
+    "id": "ug-dignited",
+    "slug": "dignited",
+    "name": "Dignited",
+    "url": "https://www.dignited.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kampala-based technology site with news, guides and the African tech industry.",
+      "pt": "Site de tecnologia de Kampala com notícias, guias e a indústria de tecnologia africana."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dignited.com/",
+      "title": "Dignited | Spotlight for African Technology Innovation"
+    }
+  }
+]

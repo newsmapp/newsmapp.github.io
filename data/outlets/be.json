@@ -1,0 +1,822 @@
+[
+  {
+    "id": "be-vrt-nws",
+    "slug": "vrt-nws",
+    "name": "VRT NWS",
+    "url": "https://www.vrt.be/vrtnws/nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "VRT",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of the Flemish public broadcaster VRT, with national and world news in Dutch.",
+      "pt": "Serviço de notícias da emissora pública flamenga VRT, com notícias nacionais e internacionais em neerlandês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.vrt.be/vrtnws/nl/",
+      "title": "VRT NWS Nieuws | Betrouwbaar Nieuws uit België & de Wereld"
+    }
+  },
+  {
+    "id": "be-rtbf-info",
+    "slug": "rtbf-info",
+    "name": "RTBF Info",
+    "url": "https://www.rtbf.be/info",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTBF",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of the French-speaking public broadcaster RTBF, with Belgian and world news.",
+      "pt": "Site de notícias da emissora pública francófona RTBF, com notícias belgas e internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rtbf.be/info",
+      "title": "RTBF Info - Toute l'actualité en Belgique et dans le monde sur RTBF Actus - RTBF Actus"
+    }
+  },
+  {
+    "id": "be-de-standaard",
+    "slug": "de-standaard",
+    "name": "De Standaard",
+    "url": "https://www.standaard.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1918,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Flemish quality daily founded in 1918, with politics, analysis and opinion in Dutch.",
+      "pt": "Diário flamengo de referência fundado em 1918, com política, análise e opinião em neerlandês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.standaard.be/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "be-le-soir",
+    "slug": "le-soir",
+    "name": "Le Soir",
+    "url": "https://www.lesoir.be/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1887,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Rossel",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brussels French-language daily founded in 1887, with Belgian politics and society.",
+      "pt": "Diário francófono de Bruxelas fundado em 1887, com política e sociedade belgas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.lesoir.be/",
+      "title": "Access Denied"
+    }
+  },
+  {
+    "id": "be-het-laatste-nieuws",
+    "slug": "het-laatste-nieuws",
+    "name": "Het Laatste Nieuws",
+    "url": "https://www.hln.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1888,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Flanders' most-read newspaper, with national news, regional editions, sport and lifestyle.",
+      "pt": "Jornal mais lido de Flandres, com notícias nacionais, edições regionais, esporte e estilo de vida."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.hln.be/",
+      "title": "HLN - Het Laatste Nieuws - Volg het nieuws op de nr1 nieuwssite in België, HLN.be brengt je het allerlaatste nieuws 24/24 en 7/7, uit binnen - en buitenland, evenals dichtbij met nieuws uit je eigen r"
+    }
+  },
+  {
+    "id": "be-la-libre-belgique",
+    "slug": "la-libre-belgique",
+    "name": "La Libre Belgique",
+    "url": "https://www.lalibre.be/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1884,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "IPM Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language Brussels daily with Belgian politics, international news and debate.",
+      "pt": "Diário francófono de Bruxelas com política belga, notícias internacionais e debates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.lalibre.be/",
+      "title": "La Libre.be - Suivez en direct toute l'actualité belge et internationale, économique et culturelle."
+    }
+  },
+  {
+    "id": "be-de-morgen",
+    "slug": "de-morgen",
+    "name": "De Morgen",
+    "url": "https://www.demorgen.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1978,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "DPG Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Flemish daily with politics, society, culture and long-form reporting in Dutch.",
+      "pt": "Diário flamengo com política, sociedade, cultura e reportagens longas em neerlandês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.demorgen.be/",
+      "title": "Nieuws | De Morgen"
+    }
+  },
+  {
+    "id": "be-het-nieuwsblad",
+    "slug": "het-nieuwsblad",
+    "name": "Het Nieuwsblad",
+    "url": "https://www.nieuwsblad.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8,
+      "regional": 1
+    },
+    "region": "Flanders",
+    "founded_year": 1929,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular Flemish daily with national news and local editions across Flanders.",
+      "pt": "Diário popular flamengo com notícias nacionais e edições locais em toda Flandres."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.nieuwsblad.be/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "be-belga",
+    "slug": "belga",
+    "name": "Belga",
+    "url": "https://www.belganewsagency.eu/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 1920,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Belgium's national news agency, with English-language news on Belgian politics and society.",
+      "pt": "Agência nacional de notícias da Bélgica, com notícias em inglês sobre política e sociedade belgas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.belganewsagency.eu/",
+      "title": "Belga Share - Belga English"
+    }
+  },
+  {
+    "id": "be-the-brussels-times",
+    "slug": "the-brussels-times",
+    "name": "The Brussels Times",
+    "url": "https://www.brusselstimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 10,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language outlet with Belgian news, Brussels life and the EU institutions.",
+      "pt": "Veículo em inglês com notícias da Bélgica, a vida em Bruxelas e as instituições da UE."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.brusselstimes.com/",
+      "title": "The Brussels Times"
+    }
+  },
+  {
+    "id": "be-l-echo",
+    "slug": "l-echo",
+    "name": "L'Echo",
+    "url": "https://www.lecho.be/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1881,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Mediafin",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language financial daily with markets, companies, taxes and personal finance.",
+      "pt": "Diário financeiro francófono com mercados, empresas, impostos e finanças pessoais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.lecho.be/",
+      "title": "403 Blocked"
+    }
+  },
+  {
+    "id": "be-de-tijd",
+    "slug": "de-tijd",
+    "name": "De Tijd",
+    "url": "https://www.tijd.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1968,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Mediafin",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Dutch-language financial daily with markets, companies, politics and investing.",
+      "pt": "Diário financeiro em neerlandês com mercados, empresas, política e investimentos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.tijd.be/",
+      "title": "403 Blocked"
+    }
+  },
+  {
+    "id": "be-knack",
+    "slug": "knack",
+    "name": "Knack",
+    "url": "https://www.knack.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 6,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Roularta",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Flemish weekly news magazine with politics, analysis and investigative reporting.",
+      "pt": "Revista semanal flamenga com política, análise e reportagens investigativas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 405,
+      "final_url": "https://www.knack.be/",
+      "title": "Human Verification"
+    }
+  },
+  {
+    "id": "be-apache",
+    "slug": "apache",
+    "name": "Apache",
+    "url": "https://apache.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "freemium",
+    "ownership_type": "unknown",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Flemish investigative outlet covering power, property and political money.",
+      "pt": "Veículo investigativo flamengo independente que cobre poder, setor imobiliário e dinheiro político."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://apache.be/",
+      "title": "Homepage | Apache"
+    }
+  },
+  {
+    "id": "be-medor",
+    "slug": "medor",
+    "name": "Médor",
+    "url": "https://medor.coop/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "freemium",
+    "ownership_type": "cooperative",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cooperative investigative magazine in French with long-form reporting on Belgium.",
+      "pt": "Revista investigativa cooperativa em francês, com reportagens longas sobre a Bélgica."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "be-rtl-info",
+    "slug": "rtl-info",
+    "name": "RTL Info",
+    "url": "https://www.rtl.be/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "DPG Media and Rossel",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the private French-language channel RTL-TVI, with video and live news.",
+      "pt": "Site de notícias do canal privado francófono RTL-TVI, com vídeos e notícias ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rtl.be/",
+      "title": "RTL Info"
+    }
+  },
+  {
+    "id": "be-sporza",
+    "slug": "sporza",
+    "name": "Sporza",
+    "url": "https://sporza.be/nl/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "VRT",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports service of VRT, with cycling, football, results and live coverage in Dutch.",
+      "pt": "Serviço esportivo da VRT, com ciclismo, futebol, resultados e cobertura ao vivo em neerlandês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://sporza.be/nl/",
+      "title": "Sporza: het belangrijkste sportnieuws en sportuitslagen | Sporza"
+    }
+  },
+  {
+    "id": "be-dh-les-sports",
+    "slug": "dh-les-sports",
+    "name": "DH Les Sports+",
+    "url": "https://www.dhnet.be/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports",
+      "general-news"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2,
+      "general-news": 11
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "IPM Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language popular daily with Belgian football, cycling and general news.",
+      "pt": "Diário popular francófono com futebol belga, ciclismo e notícias gerais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dhnet.be/",
+      "title": "DH Les Sports+ - Toute l'actualité belge, internationale, régionale et sportive"
+    }
+  },
+  {
+    "id": "be-data-news",
+    "slug": "data-news",
+    "name": "Data News",
+    "url": "https://datanews.knack.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Roularta",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Flemish technology title with news on IT, startups, telecoms and digital policy.",
+      "pt": "Título flamengo de tecnologia com notícias de TI, startups, telecomunicações e política digital."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 405,
+      "final_url": "https://datanews.knack.be/",
+      "title": "Human Verification"
+    }
+  },
+  {
+    "id": "be-bruzz",
+    "slug": "bruzz",
+    "name": "BRUZZ",
+    "url": "https://www.bruzz.be/",
+    "rss_url": null,
+    "language": "nl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Brussels",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Brussels city media in Dutch, with local news, culture and what is on in the capital.",
+      "pt": "Mídia de Bruxelas em neerlandês, com notícias locais, cultura e agenda da capital."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.bruzz.be/",
+      "title": "Nieuws uit Brussel en de beste cultuurtips | BRUZZ"
+    }
+  }
+]

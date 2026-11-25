@@ -1,0 +1,94 @@
+{
+  "iso2": "TZ",
+  "iso3": "TZA",
+  "slug": "tanzania",
+  "name": {
+    "en": "Tanzania",
+    "pt": "Tanzânia"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 68600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "sw",
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "KE",
+    "UG",
+    "RW",
+    "BI",
+    "CD",
+    "ZM",
+    "MW",
+    "MZ"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Tanzania's news is published mainly in Swahili, with a smaller English-language press based in Dar es Salaam. Mwananchi Communications, part of Kenya's Nation Media Group, publishes Mwananchi and The Citizen, while the state-owned Tanzania Standard Newspapers publishes the Daily News and HabariLeo. The IPP group runs ITV and The Guardian. The public Tanzania Broadcasting Corporation operates national radio and television. Online news and social media have grown quickly, and the press has worked under legal restrictions that were partly eased after 2021. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Tanzania?",
+          "a": "The main national outlets in the directory include The Citizen, Mwananchi, the Daily News, HabariLeo and TBC. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Tanzanian outlets are state-controlled?",
+          "a": "The Daily News, HabariLeo and TBC are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is Tanzanian news in Swahili or English?",
+          "a": "Both. Mwananchi, HabariLeo and Mwanaspoti publish in Swahili, while The Citizen and the Daily News publish in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Tanzania: the leading Swahili and English dailies and the state broadcaster."
+        },
+        "sports": {
+          "intro": "Sports media in Tanzania is dominated by football, especially the rivalry between Simba and Young Africans."
+        },
+        "broadcast": {
+          "intro": "Radio and television are the main sources of news in Tanzania. The broadcasters below publish news online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias da Tanzânia são publicadas sobretudo em suaíli, com uma imprensa menor em inglês sediada em Dar es Salaam. A Mwananchi Communications, do grupo queniano Nation Media Group, publica o Mwananchi e o The Citizen, enquanto a estatal Tanzania Standard Newspapers publica o Daily News e o HabariLeo. O grupo IPP mantém a ITV e o The Guardian. A Tanzania Broadcasting Corporation, pública, opera rádio e televisão nacionais. As notícias on-line e as redes sociais cresceram rapidamente, e a imprensa trabalhou sob restrições legais que foram parcialmente aliviadas depois de 2021. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Tanzânia?",
+          "a": "Os principais veículos nacionais do diretório incluem The Citizen, Mwananchi, Daily News, HabariLeo e TBC. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos tanzanianos são controlados pelo Estado?",
+          "a": "Daily News, HabariLeo e TBC são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "As notícias da Tanzânia são em suaíli ou em inglês?",
+          "a": "Nas duas línguas. Mwananchi, HabariLeo e Mwanaspoti publicam em suaíli, enquanto The Citizen e Daily News publicam em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Tanzânia: os principais diários em suaíli e em inglês e a emissora estatal."
+        },
+        "sports": {
+          "intro": "A mídia esportiva da Tanzânia é dominada pelo futebol, em especial pela rivalidade entre Simba e Young Africans."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão são as principais fontes de notícias na Tanzânia. As emissoras abaixo publicam notícias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

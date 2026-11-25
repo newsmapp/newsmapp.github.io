@@ -1,0 +1,87 @@
+{
+  "iso2": "SE",
+  "iso3": "SWE",
+  "slug": "sweden",
+  "name": {
+    "en": "Sweden",
+    "pt": "Suécia"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "sv"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "NO",
+    "FI"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Sweden has a mature news market with high trust in public service media and among the world's highest rates of paying for online news. The public broadcasters SVT and Sveriges Radio produce the main television and radio news. Two groups, Bonnier and Schibsted, own the leading national newspapers, including Dagens Nyheter, Expressen, Svenska Dagbladet and Aftonbladet. Regional newspapers have a strong local presence, and the TT agency supplies national news to the press. Most newspapers use paywalls, while SVT, Sveriges Radio and the tabloids publish much of their news for free.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Sweden?",
+          "a": "The main national outlets in the directory include SVT Nyheter, Sveriges Radio, Dagens Nyheter, Svenska Dagbladet and Aftonbladet. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Swedish outlets are publicly funded?",
+          "a": "SVT Nyheter, Sveriges Radio and SVT Granskning belong to the public broadcasters. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Swedish news in English?",
+          "a": "The Local Sweden publishes in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Sweden: the public broadcasters, the national morning papers, the tabloids and the news agency."
+        },
+        "economy": {
+          "intro": "Swedish business news is led by a financial daily and a startup and technology business site."
+        },
+        "regional": {
+          "intro": "Regional newspapers in Sweden have a strong local readership. These cover the largest cities outside Stockholm."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "A Suécia tem um mercado de notícias maduro, com alta confiança na mídia de serviço público e uma das maiores taxas do mundo de pagamento por notícias on-line. As emissoras públicas SVT e Sveriges Radio produzem os principais noticiários de televisão e rádio. Dois grupos, Bonnier e Schibsted, controlam os principais jornais nacionais, entre eles Dagens Nyheter, Expressen, Svenska Dagbladet e Aftonbladet. Os jornais regionais têm forte presença local, e a agência TT fornece notícias nacionais à imprensa. A maioria dos jornais usa paywall, enquanto SVT, Sveriges Radio e os tabloides publicam boa parte das notícias de graça.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Suécia?",
+          "a": "Os principais veículos nacionais do diretório incluem SVT Nyheter, Sveriges Radio, Dagens Nyheter, Svenska Dagbladet e Aftonbladet. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos suecos são financiados com recursos públicos?",
+          "a": "SVT Nyheter, Sveriges Radio e SVT Granskning pertencem às emissoras públicas. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias da Suécia em inglês?",
+          "a": "O The Local Sweden publica em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Suécia: as emissoras públicas, os jornais matutinos nacionais, os tabloides e a agência de notícias."
+        },
+        "economy": {
+          "intro": "O noticiário econômico sueco é liderado por um diário financeiro e por um site de negócios sobre startups e tecnologia."
+        },
+        "regional": {
+          "intro": "Os jornais regionais da Suécia têm forte público local. Estes cobrem as maiores cidades fora de Estocolmo."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

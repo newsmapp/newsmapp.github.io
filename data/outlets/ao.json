@@ -1,0 +1,558 @@
+[
+  {
+    "id": "ao-jornal-de-angola",
+    "slug": "jornal-de-angola",
+    "name": "Jornal de Angola",
+    "url": "https://www.jornaldeangola.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Edições Novembro",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Angola's only daily newspaper, state-owned, with national news and government affairs.",
+      "pt": "Único jornal diário de Angola, estatal, com notícias nacionais e assuntos do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.jornaldeangola.ao/",
+      "title": "Jornal de Angola - Paixão pela imprensa"
+    }
+  },
+  {
+    "id": "ao-angop",
+    "slug": "angop",
+    "name": "ANGOP",
+    "url": "https://www.angop.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1975,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Angolan State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Agência Angola Press, the state news agency, with national and provincial news.",
+      "pt": "Agência Angola Press, a agência estatal, com notícias nacionais e das províncias."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 503,
+      "final_url": "https://www.angop.ao/",
+      "title": "Angop - Agência Angola Press..."
+    }
+  },
+  {
+    "id": "ao-novo-jornal",
+    "slug": "novo-jornal",
+    "name": "Novo Jornal",
+    "url": "https://novojornal.co.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Private Luanda weekly with politics, the economy, society and opinion.",
+      "pt": "Semanário privado de Luanda com política, economia, sociedade e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://novojornal.co.ao/",
+      "title": "Novo Jornal | Notícias de Angola e do Mundo, Opinião e Multimédia"
+    }
+  },
+  {
+    "id": "ao-o-pais-angola",
+    "slug": "o-pais-angola",
+    "name": "O País",
+    "url": "https://opais.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Medianova",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Luanda newspaper of the Medianova group, under state control since 2020.",
+      "pt": "Jornal de Luanda do grupo Medianova, sob controle do Estado desde 2020."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://opais.ao/",
+      "title": "OPAÍS – Todos os dias para todo o mundo"
+    }
+  },
+  {
+    "id": "ao-tpa",
+    "slug": "tpa",
+    "name": "TPA",
+    "url": "https://www.tpa.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Televisão Pública de Angola",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Televisão Pública de Angola, the state broadcaster, with national news bulletins.",
+      "pt": "Televisão Pública de Angola, a emissora estatal, com noticiários nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "ao-radio-nacional-de-angola",
+    "slug": "radio-nacional-de-angola",
+    "name": "Rádio Nacional de Angola",
+    "url": "https://rna.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Rádio Nacional de Angola",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State radio broadcaster with national and provincial news in Portuguese and local languages.",
+      "pt": "Rádio estatal com notícias nacionais e das províncias em português e línguas nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://rna.ao/",
+      "title": "RNA - Unimos o País"
+    }
+  },
+  {
+    "id": "ao-club-k",
+    "slug": "club-k",
+    "name": "Club-K",
+    "url": "https://www.club-k.net/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Angolan news site with politics, power and stories critical of the authorities.",
+      "pt": "Site angolano com política, bastidores do poder e reportagens críticas às autoridades."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.club-k.net/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ao-maka-angola",
+    "slug": "maka-angola",
+    "name": "Maka Angola",
+    "url": "https://www.makaangola.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Investigative site founded by Rafael Marques, covering corruption and human rights.",
+      "pt": "Site investigativo fundado por Rafael Marques, sobre corrupção e direitos humanos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.makaangola.org/",
+      "title": "Em defesa da democracia, contra a corrupção"
+    }
+  },
+  {
+    "id": "ao-correio-da-kianda",
+    "slug": "correio-da-kianda",
+    "name": "Correio da Kianda",
+    "url": "https://correiokianda.info/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Angolan digital outlet with national news, politics, society and sport.",
+      "pt": "Veículo digital angolano com notícias nacionais, política, sociedade e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://correiokianda.info/",
+      "title": "Correio Kianda - A verdade em notícia"
+    }
+  },
+  {
+    "id": "ao-expansao",
+    "slug": "expansao",
+    "name": "Expansão",
+    "url": "https://expansao.co.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 2009,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business weekly with oil, banking, public finances and Angolan companies.",
+      "pt": "Semanário econômico com petróleo, bancos, finanças públicas e empresas angolanas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://expansao.co.ao/",
+      "title": "Expansão"
+    }
+  },
+  {
+    "id": "ao-valor-economico",
+    "slug": "valor-economico",
+    "name": "Valor Económico",
+    "url": "https://valoreconomico.co.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business weekly with the Angolan economy, investment and public policy.",
+      "pt": "Semanário econômico com a economia angolana, investimentos e políticas públicas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://valoreconomico.co.ao/",
+      "title": "Valor Económico - GEM Angola Global Media"
+    }
+  },
+  {
+    "id": "ao-mercado",
+    "slug": "mercado",
+    "name": "Mercado",
+    "url": "https://mercado.co.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business title with markets, companies, banking and the Angolan economy.",
+      "pt": "Título de negócios com mercados, empresas, bancos e a economia angolana."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://mercado.co.ao/",
+      "title": "Mercado – Jornal Mercado"
+    }
+  },
+  {
+    "id": "ao-jornal-dos-desportos",
+    "slug": "jornal-dos-desportos",
+    "name": "Jornal dos Desportos",
+    "url": "https://jornaldosdesportos.ao/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Edições Novembro",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned sports daily with Angolan football, basketball and handball.",
+      "pt": "Diário esportivo estatal com futebol, basquete e handebol angolanos."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/angola"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://jornaldosdesportos.ao/",
+      "title": "Jornal dos Desportos - Paixão pelo desporto"
+    }
+  }
+]

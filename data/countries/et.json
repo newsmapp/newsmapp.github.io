@@ -1,0 +1,95 @@
+{
+  "iso2": "ET",
+  "iso3": "ETH",
+  "slug": "ethiopia",
+  "name": {
+    "en": "Ethiopia",
+    "pt": "Etiópia"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 132100000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "am",
+    "om",
+    "ti",
+    "so",
+    "aa"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "ER",
+    "DJ",
+    "SO",
+    "KE",
+    "SS",
+    "SD"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Ethiopia's news is published mainly in Amharic and English, with growing outlets in Afaan Oromo, Tigrinya and other languages. The state broadcaster EBC, the Ethiopian News Agency and the Ethiopian Herald carry the government's view, and broadcasters such as Fana and Walta are close to the ruling party. Independent outlets including Addis Standard, The Reporter and the business weeklies Addis Fortune and Capital are based in Addis Ababa. Internet access is uneven and has been shut down during conflicts, and the press works under heavy pressure. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Ethiopia?",
+          "a": "The main national outlets in the directory include Addis Standard, The Reporter, the Ethiopian News Agency, EBC and Fana. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Ethiopian outlets are state-controlled?",
+          "a": "EBC, the Ethiopian News Agency and the Ethiopian Herald are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Ethiopian news in English?",
+          "a": "Addis Standard, The Reporter, Addis Fortune and Capital publish in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Ethiopia: independent English-language titles, the state media and broadcasters close to the government."
+        },
+        "economy": {
+          "intro": "Ethiopian business news comes from long-running English-language weeklies based in Addis Ababa."
+        },
+        "broadcast": {
+          "intro": "Television and radio are the main sources of news in Ethiopia. The broadcasters below publish news online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias da Etiópia são publicadas sobretudo em amárico e inglês, com cada vez mais veículos em afaan oromo, tigrínia e outras línguas. A emissora estatal EBC, a Ethiopian News Agency e o Ethiopian Herald transmitem a visão do governo, e emissoras como Fana e Walta são próximas do partido no poder. Veículos independentes como Addis Standard, The Reporter e os semanários de economia Addis Fortune e Capital ficam em Adis Abeba. O acesso à internet é desigual e já foi cortado durante conflitos, e a imprensa trabalha sob forte pressão. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Etiópia?",
+          "a": "Os principais veículos nacionais do diretório incluem Addis Standard, The Reporter, Ethiopian News Agency, EBC e Fana. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos etíopes são controlados pelo Estado?",
+          "a": "A EBC, a Ethiopian News Agency e o Ethiopian Herald são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias da Etiópia em inglês?",
+          "a": "Addis Standard, The Reporter, Addis Fortune e Capital publicam em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Etiópia: títulos independentes em inglês, a mídia estatal e emissoras próximas do governo."
+        },
+        "economy": {
+          "intro": "O noticiário econômico etíope vem de semanários tradicionais em inglês sediados em Adis Abeba."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio são as principais fontes de notícias na Etiópia. As emissoras abaixo publicam notícias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

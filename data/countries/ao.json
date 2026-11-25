@@ -1,0 +1,89 @@
+{
+  "iso2": "AO",
+  "iso3": "AGO",
+  "slug": "angola",
+  "name": {
+    "en": "Angola",
+    "pt": "Angola"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 37900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "pt"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CD",
+    "CG",
+    "ZM",
+    "NA"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Angola's news is published in Portuguese and concentrated in Luanda. The state dominates the media: it owns the only daily, Jornal de Angola, the ANGOP agency, the broadcasters TPA and Rádio Nacional de Angola, and, since 2020, the Medianova group's O País and TV Zimbo. Private weeklies such as Novo Jornal and the business titles Expansão and Valor Económico add independent coverage. Online outlets such as Club-K and the investigative site Maka Angola publish reporting critical of the authorities. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Angola?",
+          "a": "The main national outlets in the directory include Jornal de Angola, ANGOP, Novo Jornal, O País and TPA. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Angolan outlets are state-controlled?",
+          "a": "Jornal de Angola, ANGOP, TPA, RNA and O País are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find investigative journalism in Angola?",
+          "a": "Maka Angola publishes investigations into corruption and human rights. The Investigative & Fact-Checking column lists every outlet of that kind."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Angola: the state daily and agency, private weeklies and the public broadcaster."
+        },
+        "economy": {
+          "intro": "Angolan business news covers oil, diamonds, the kwanza, banking and public debt, mostly in weekly titles."
+        },
+        "broadcast": {
+          "intro": "Television and radio are the main sources of news in Angola. The broadcasters below publish news online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias de Angola são publicadas em português e concentradas em Luanda. O Estado domina a mídia: controla o único diário, o Jornal de Angola, a agência ANGOP, as emissoras TPA e Rádio Nacional de Angola e, desde 2020, o jornal O País e a TV Zimbo, do grupo Medianova. Semanários privados como o Novo Jornal e os títulos de economia Expansão e Valor Económico trazem cobertura independente. Veículos on-line como o Club-K e o site investigativo Maka Angola publicam reportagens críticas às autoridades. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Angola?",
+          "a": "Os principais veículos nacionais do diretório incluem Jornal de Angola, ANGOP, Novo Jornal, O País e TPA. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos angolanos são controlados pelo Estado?",
+          "a": "Jornal de Angola, ANGOP, TPA, RNA e O País são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar jornalismo investigativo em Angola?",
+          "a": "O Maka Angola publica investigações sobre corrupção e direitos humanos. A coluna Investigação e checagem lista todos os veículos desse tipo."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Angola: o diário e a agência estatais, semanários privados e a emissora pública."
+        },
+        "economy": {
+          "intro": "O noticiário econômico angolano cobre petróleo, diamantes, o kwanza, bancos e a dívida pública, sobretudo em títulos semanais."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio são as principais fontes de notícias em Angola. As emissoras abaixo publicam notícias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

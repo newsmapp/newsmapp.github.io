@@ -1,0 +1,900 @@
+[
+  {
+    "id": "pt-publico",
+    "slug": "publico",
+    "name": "Público",
+    "url": "https://www.publico.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Sonae",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Lisbon quality daily with national politics, society, culture and in-depth reporting.",
+      "pt": "Diário de referência de Lisboa, com política nacional, sociedade, cultura e reportagens aprofundadas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.publico.pt/",
+      "title": "PÚBLICO – Abrir portas onde se erguem muros"
+    }
+  },
+  {
+    "id": "pt-expresso",
+    "slug": "expresso",
+    "name": "Expresso",
+    "url": "https://expresso.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1973,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Impresa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Weekly newspaper founded in 1973, with politics, economy and investigations updated daily online.",
+      "pt": "Semanário fundado em 1973, com política, economia e investigações atualizadas diariamente on-line."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://expresso.pt/",
+      "title": "expresso.pt"
+    }
+  },
+  {
+    "id": "pt-observador",
+    "slug": "observador",
+    "name": "Observador",
+    "url": "https://observador.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital daily launched in 2014, with national news, politics, opinion and explainers.",
+      "pt": "Diário digital lançado em 2014, com notícias nacionais, política, opinião e textos explicativos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://observador.pt/",
+      "title": "Observador &ndash; Notícias, Opinião, Especiais, Explicadores e Newsletters"
+    }
+  },
+  {
+    "id": "pt-jornal-de-noticias",
+    "slug": "jornal-de-noticias",
+    "name": "Jornal de Notícias",
+    "url": "https://www.jn.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "regional": 1
+    },
+    "region": "Porto and northern Portugal",
+    "founded_year": 1888,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Porto-based national daily founded in 1888, with strong coverage of the north of Portugal.",
+      "pt": "Diário nacional do Porto fundado em 1888, com forte cobertura do norte de Portugal."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.jn.pt/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "pt-rtp-noticias",
+    "slug": "rtp-noticias",
+    "name": "RTP Notícias",
+    "url": "https://www.rtp.pt/noticias/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Rádio e Televisão de Portugal",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the public broadcaster RTP, with national news, video and live coverage.",
+      "pt": "Site de notícias da emissora pública RTP, com notícias nacionais, vídeos e cobertura ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rtp.pt/noticias/",
+      "title": "RTP Notícias"
+    }
+  },
+  {
+    "id": "pt-correio-da-manha",
+    "slug": "correio-da-manha",
+    "name": "Correio da Manhã",
+    "url": "https://www.cmjornal.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1979,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Medialivre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Portugal's best-selling popular daily, with national news, crime and celebrity coverage.",
+      "pt": "Diário popular mais vendido de Portugal, com notícias nacionais, polícia e celebridades."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.cmjornal.pt/",
+      "title": "Correio da Manhã: Portugal, Mundo, Sociedade, Cultura. Classificados"
+    }
+  },
+  {
+    "id": "pt-diario-de-noticias",
+    "slug": "diario-de-noticias",
+    "name": "Diário de Notícias",
+    "url": "https://www.dn.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1864,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Global Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lisbon daily founded in 1864, with national news, politics and international affairs.",
+      "pt": "Diário de Lisboa fundado em 1864, com notícias nacionais, política e assuntos internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dn.pt/",
+      "title": "Diário de Notícias"
+    }
+  },
+  {
+    "id": "pt-lusa",
+    "slug": "lusa",
+    "name": "Lusa",
+    "url": "https://www.lusa.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1986,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Portuguese State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Portugal's national news agency, with wire news on politics, economy and the Portuguese-speaking world.",
+      "pt": "Agência nacional de notícias de Portugal, com política, economia e o mundo lusófono."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.lusa.pt/",
+      "title": "LUSA: Notícias do Dia"
+    }
+  },
+  {
+    "id": "pt-sic-noticias",
+    "slug": "sic-noticias",
+    "name": "SIC Notícias",
+    "url": "https://sicnoticias.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast",
+      "general-news"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Impresa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Round-the-clock news channel of SIC, with national news, debates and live video.",
+      "pt": "Canal de notícias 24 horas da SIC, com notícias nacionais, debates e vídeo ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://sicnoticias.pt/",
+      "title": "sicnoticias.pt"
+    }
+  },
+  {
+    "id": "pt-cnn-portugal",
+    "slug": "cnn-portugal",
+    "name": "CNN Portugal",
+    "url": "https://cnnportugal.iol.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Media Capital",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News channel of the TVI group under the CNN brand, with national and international news.",
+      "pt": "Canal de notícias do grupo TVI com a marca CNN, com notícias nacionais e internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://cnnportugal.iol.pt/",
+      "title": "CNN Portugal"
+    }
+  },
+  {
+    "id": "pt-tsf",
+    "slug": "tsf",
+    "name": "TSF",
+    "url": "https://www.tsf.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News radio station founded in 1988, with hourly bulletins, interviews and podcasts.",
+      "pt": "Rádio de notícias fundada em 1988, com noticiários de hora em hora, entrevistas e podcasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.tsf.pt/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "pt-jornal-de-negocios",
+    "slug": "jornal-de-negocios",
+    "name": "Jornal de Negócios",
+    "url": "https://www.jornaldenegocios.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Medialivre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with markets, companies, public finances and the Lisbon stock exchange.",
+      "pt": "Diário econômico com mercados, empresas, finanças públicas e a Bolsa de Lisboa."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.jornaldenegocios.pt/",
+      "title": "Negócios: Cotações, Mercados, Economia, Empresas"
+    }
+  },
+  {
+    "id": "pt-eco",
+    "slug": "eco",
+    "name": "ECO",
+    "url": "https://eco.sapo.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital business news outlet with companies, markets, startups and economic policy.",
+      "pt": "Veículo digital de economia com empresas, mercados, startups e política econômica."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://eco.sapo.pt/",
+      "title": "ECO – Economia Online"
+    }
+  },
+  {
+    "id": "pt-record",
+    "slug": "record",
+    "name": "Record",
+    "url": "https://www.record.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1949,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Medialivre",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily founded in 1949, focused on Portuguese football and the big three clubs.",
+      "pt": "Diário esportivo fundado em 1949, focado no futebol português e nos três grandes clubes."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.record.pt/",
+      "title": "Record: Tudo sobre desporto. Futebol, mercado, modalidades, resultados e classificações"
+    }
+  },
+  {
+    "id": "pt-a-bola",
+    "slug": "a-bola",
+    "name": "A Bola",
+    "url": "https://www.abola.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 1945,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Lisbon sports daily founded in 1945, with football, transfers and other sports.",
+      "pt": "Diário esportivo de Lisboa fundado em 1945, com futebol, transferências e outras modalidades."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.abola.pt/",
+      "title": "Notícias desportivas & mais lidas | A Bola"
+    }
+  },
+  {
+    "id": "pt-o-jogo",
+    "slug": "o-jogo",
+    "name": "O Jogo",
+    "url": "https://www.ojogo.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 3
+    },
+    "region": null,
+    "founded_year": 1985,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Porto-based sports daily with football, FC Porto coverage and other sports.",
+      "pt": "Diário esportivo do Porto com futebol, cobertura do FC Porto e outras modalidades."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.ojogo.pt/",
+      "title": "ERROR: The request could not be satisfied"
+    }
+  },
+  {
+    "id": "pt-poligrafo",
+    "slug": "poligrafo",
+    "name": "Polígrafo",
+    "url": "https://poligrafo.iol.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking outlet that rates claims by politicians and viral posts in Portugal.",
+      "pt": "Veículo de checagem que avalia declarações de políticos e publicações virais em Portugal."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://poligrafo.iol.pt/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pt-visao",
+    "slug": "visao",
+    "name": "Visão",
+    "url": "https://visao.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "tech-science"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 10,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 1993,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine with politics, society, culture and science reporting.",
+      "pt": "Revista semanal de informação com política, sociedade, cultura e ciência."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://visao.pt/",
+      "title": "Visão | Notícias da atualidade nacional e internacional"
+    }
+  },
+  {
+    "id": "pt-pplware",
+    "slug": "pplware",
+    "name": "Pplware",
+    "url": "https://pplware.sapo.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Portuguese technology site with news, reviews and guides on gadgets and software.",
+      "pt": "Site português de tecnologia com notícias, análises e guias sobre gadgets e software."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://pplware.sapo.pt/",
+      "title": "Pplware | Notícias de Tecnologia"
+    }
+  },
+  {
+    "id": "pt-mensagem-de-lisboa",
+    "slug": "mensagem-de-lisboa",
+    "name": "Mensagem de Lisboa",
+    "url": "https://amensagem.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Lisbon",
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Local digital outlet about Lisbon, its neighborhoods, people and city politics.",
+      "pt": "Veículo digital local sobre Lisboa, seus bairros, moradores e a política da cidade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://amensagem.pt/",
+      "title": "Mensagem de Lisboa - O novo jornal digital da cidade"
+    }
+  },
+  {
+    "id": "pt-acoriano-oriental",
+    "slug": "acoriano-oriental",
+    "name": "Açoriano Oriental",
+    "url": "https://www.acorianooriental.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Azores",
+    "founded_year": 1835,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily of the Azores founded in 1835, Portugal's oldest newspaper still in print.",
+      "pt": "Diário dos Açores fundado em 1835, o jornal mais antigo de Portugal ainda em circulação."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.acorianooriental.pt/",
+      "title": "Açoriano Oriental – O jornal dos Açores com as notícias que marcam a atualidade"
+    }
+  },
+  {
+    "id": "pt-diario-de-noticias-da-madeira",
+    "slug": "diario-de-noticias-da-madeira",
+    "name": "Diário de Notícias da Madeira",
+    "url": "https://www.dnoticias.pt/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 4
+    },
+    "region": "Madeira",
+    "founded_year": 1876,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Funchal daily with news from Madeira, regional politics and island life.",
+      "pt": "Diário do Funchal com notícias da Madeira, política regional e a vida nas ilhas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dnoticias.pt/",
+      "title": "dnoticias.pt — Actualidade"
+    }
+  }
+]

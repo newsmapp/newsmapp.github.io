@@ -1,0 +1,87 @@
+{
+  "iso2": "IE",
+  "iso3": "IRL",
+  "slug": "ireland",
+  "name": {
+    "en": "Ireland",
+    "pt": "Irlanda"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 5300000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ga",
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "GB"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Ireland's news market is centred in Dublin and dominated by a small number of publishers. The public broadcaster RTÉ is the main source of television and radio news, and TG4 broadcasts in Irish. The Irish Times and the Irish Independent lead national print, with the Irish Examiner based in Cork, while TheJournal.ie is the largest digital-native outlet. Irish readers also have wide access to British media. Regional weekly newspapers remain important outside Dublin. Most national papers use a metered paywall or subscriptions.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Ireland?",
+          "a": "The main national outlets in the directory include RTÉ News, The Irish Times, the Irish Independent, the Irish Examiner and TheJournal.ie. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Irish outlets are publicly funded?",
+          "a": "RTÉ News, RTÉ Sport and TG4 belong to public broadcasters. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there news in Irish?",
+          "a": "TG4 is the Irish-language public broadcaster. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Ireland: the public broadcaster, three national newspapers and a digital news site."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Ireland comes from reader-funded and independent digital projects that publish long investigations."
+        },
+        "regional": {
+          "intro": "Regional newspapers serve counties and cities across Ireland, mostly as weeklies with daily online updates."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "O mercado de notícias da Irlanda fica concentrado em Dublin e é dominado por poucos grupos. A emissora pública RTÉ é a principal fonte de notícias de televisão e rádio, e a TG4 transmite em irlandês. The Irish Times e Irish Independent lideram a imprensa nacional, com o Irish Examiner sediado em Cork, enquanto o TheJournal.ie é o maior veículo nativo digital. Os leitores irlandeses também têm amplo acesso à mídia britânica. Os jornais semanais regionais continuam importantes fora de Dublin. A maioria dos jornais nacionais usa paywall com limite de leitura ou assinaturas.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Irlanda?",
+          "a": "Os principais veículos nacionais do diretório incluem RTÉ News, The Irish Times, Irish Independent, Irish Examiner e TheJournal.ie. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos irlandeses são financiados com recursos públicos?",
+          "a": "RTÉ News, RTÉ Sport e TG4 pertencem a emissoras públicas. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias em irlandês?",
+          "a": "A TG4 é a emissora pública em língua irlandesa. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Irlanda: a emissora pública, três jornais nacionais e um site de notícias digital."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Irlanda vem de projetos digitais independentes e financiados por leitores que publicam investigações longas."
+        },
+        "regional": {
+          "intro": "Os jornais regionais atendem condados e cidades de toda a Irlanda, em geral como semanários com atualizações diárias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

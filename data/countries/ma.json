@@ -1,0 +1,89 @@
+{
+  "iso2": "MA",
+  "iso3": "MAR",
+  "slug": "morocco",
+  "name": {
+    "en": "Morocco",
+    "pt": "Marrocos"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 38100000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ar",
+    "zgh"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "DZ",
+    "EH",
+    "ES"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Morocco's news is published in Arabic and French, with a growing number of outlets in English and Amazigh. Digital news sites such as Hespress and Le360 reach the largest audiences online, while print titles like Le Matin, L'Economiste and Assabah are based in Casablanca and Rabat. The state broadcaster SNRT and the channel 2M lead television news, and the MAP agency is the official news agency. French-language business media are well developed. Coverage of the monarchy, religion and Western Sahara is legally restricted, and several journalists have been prosecuted in recent years.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Morocco?",
+          "a": "The main national outlets in the directory include Hespress, Le360, Le Matin, TelQuel and SNRT News. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is Moroccan news in Arabic or French?",
+          "a": "Both. Hespress, Assabah and SNRT publish in Arabic, while Le360, Le Matin and TelQuel publish in French, and Morocco World News is in English. The language of every outlet is shown in the directory."
+        },
+        {
+          "q": "Which Moroccan outlets are state-controlled?",
+          "a": "SNRT News, 2M and the MAP agency are state-controlled. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Morocco: the largest news sites, the main Casablanca dailies, a news magazine and the state broadcaster."
+        },
+        "economy": {
+          "intro": "Moroccan business news is published mainly in French, by business dailies, weekly magazines and digital outlets."
+        },
+        "broadcast": {
+          "intro": "Television is a leading source of news in Morocco. The channels below publish their newscasts online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias do Marrocos são publicadas em árabe e francês, com um número crescente de veículos em inglês e amazigue. Sites de notícias como Hespress e Le360 alcançam o maior público on-line, enquanto títulos impressos como Le Matin, L'Economiste e Assabah ficam em Casablanca e Rabat. A emissora estatal SNRT e o canal 2M lideram o noticiário de televisão, e a MAP é a agência oficial de notícias. A mídia econômica em francês é bem desenvolvida. A cobertura da monarquia, da religião e do Saara Ocidental tem restrições legais, e vários jornalistas foram processados nos últimos anos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Marrocos?",
+          "a": "Os principais veículos nacionais do diretório incluem Hespress, Le360, Le Matin, TelQuel e SNRT News. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "As notícias marroquinas são em árabe ou em francês?",
+          "a": "Nas duas línguas. Hespress, Assabah e SNRT publicam em árabe, enquanto Le360, Le Matin e TelQuel publicam em francês, e o Morocco World News está em inglês. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Quais veículos marroquinos são controlados pelo Estado?",
+          "a": "SNRT News, 2M e a agência MAP são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais no Marrocos: os maiores sites de notícias, os principais diários de Casablanca, uma revista de informação e a emissora estatal."
+        },
+        "economy": {
+          "intro": "O noticiário econômico marroquino é publicado sobretudo em francês, por diários de economia, revistas semanais e veículos digitais."
+        },
+        "broadcast": {
+          "intro": "A televisão é uma das principais fontes de notícias no Marrocos. Os canais abaixo publicam seus noticiários na internet."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

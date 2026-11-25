@@ -1,0 +1,774 @@
+[
+  {
+    "id": "pl-gazeta-wyborcza",
+    "slug": "gazeta-wyborcza",
+    "name": "Gazeta Wyborcza",
+    "url": "https://wyborcza.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "Agora",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Warsaw daily founded in 1989, with politics, investigations, opinion and city editions.",
+      "pt": "Diário de Varsóvia fundado em 1989, com política, investigações, opinião e edições locais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://wyborcza.pl/0,0.html",
+      "title": "Wyborcza.pl - Najświeższe wiadomości od Gazety Wyborczej"
+    }
+  },
+  {
+    "id": "pl-rzeczpospolita",
+    "slug": "rzeczpospolita",
+    "name": "Rzeczpospolita",
+    "url": "https://www.rp.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news",
+      "politics",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Gremi Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Quality daily with politics, law, economy and business coverage from Warsaw.",
+      "pt": "Diário de referência com política, direito, economia e negócios a partir de Varsóvia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rp.pl/",
+      "title": "Rzeczpospolita - Najważniejsze wiadomości z Polski i ze świata - rp.pl"
+    }
+  },
+  {
+    "id": "pl-onet",
+    "slug": "onet",
+    "name": "Onet",
+    "url": "https://www.onet.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Ringier Axel Springer Polska",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Poland's largest news portal, with national news, politics and investigative reports.",
+      "pt": "Maior portal de notícias da Polônia, com notícias nacionais, política e reportagens investigativas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.onet.pl/",
+      "title": "Onet – Jesteś na bieżąco"
+    }
+  },
+  {
+    "id": "pl-tvn24",
+    "slug": "tvn24",
+    "name": "TVN24",
+    "url": "https://tvn24.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Warner Bros. Discovery",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Leading private news channel, with breaking news, politics and live video online.",
+      "pt": "Principal canal privado de notícias, com notícias de última hora, política e vídeo ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://tvn24.pl/",
+      "title": "403"
+    }
+  },
+  {
+    "id": "pl-wirtualna-polska",
+    "slug": "wirtualna-polska",
+    "name": "Wirtualna Polska",
+    "url": "https://wiadomosci.wp.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Wirtualna Polska Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Major news portal with national news, politics, society and opinion.",
+      "pt": "Grande portal de notícias com notícias nacionais, política, sociedade e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://wiadomosci.wp.pl/",
+      "title": "Wiadomości z kraju i ze świata – najważniejsze i najnowsze informacje – WP"
+    }
+  },
+  {
+    "id": "pl-pap",
+    "slug": "pap",
+    "name": "PAP",
+    "url": "https://www.pap.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1918,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Polish State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Polish Press Agency, the national news agency, with wire news on politics and economy.",
+      "pt": "Agência Polonesa de Imprensa, a agência nacional, com notícias de política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.pap.pl/",
+      "title": null
+    }
+  },
+  {
+    "id": "pl-polsat-news",
+    "slug": "polsat-news",
+    "name": "Polsat News",
+    "url": "https://www.polsatnews.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Cyfrowy Polsat",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News channel of the Polsat group, with national news, politics and live coverage.",
+      "pt": "Canal de notícias do grupo Polsat, com notícias nacionais, política e cobertura ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.polsatnews.pl/",
+      "title": "Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl"
+    }
+  },
+  {
+    "id": "pl-tvp-info",
+    "slug": "tvp-info",
+    "name": "TVP Info",
+    "url": "https://www.tvp.info/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Telewizja Polska",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News channel of the public broadcaster TVP, with national news and live video.",
+      "pt": "Canal de notícias da emissora pública TVP, com notícias nacionais e vídeo ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tvp.info/",
+      "title": "TVP Info - najnowsze informacje z kraju i ze świata, wideo, transmisje on-line i relacje na żywo. | TVP INFO"
+    }
+  },
+  {
+    "id": "pl-polskie-radio-24",
+    "slug": "polskie-radio-24",
+    "name": "Polskie Radio 24",
+    "url": "https://polskieradio24.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Polskie Radio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News station of the public broadcaster Polskie Radio, with bulletins and interviews.",
+      "pt": "Emissora de notícias da rádio pública Polskie Radio, com boletins e entrevistas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://polskieradio24.pl/",
+      "title": "Polskie Radio 24 - Najnowsze wiadomości z Polski i ze świata"
+    }
+  },
+  {
+    "id": "pl-polityka",
+    "slug": "polityka",
+    "name": "Polityka",
+    "url": "https://www.polityka.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1957,
+    "paywall": "freemium",
+    "ownership_type": "cooperative",
+    "owner": "Polityka Spółdzielnia Pracy",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine founded in 1957, with politics, society, culture and analysis.",
+      "pt": "Revista semanal fundada em 1957, com política, sociedade, cultura e análise."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.polityka.pl/",
+      "title": "Polityka.pl - serwis internetowy tygodnika Polityka"
+    }
+  },
+  {
+    "id": "pl-oko-press",
+    "slug": "oko-press",
+    "name": "OKO.press",
+    "url": "https://oko.press/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2016,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit outlet with investigations, fact-checking and reporting on democracy and rights.",
+      "pt": "Veículo sem fins lucrativos com investigações, checagem e reportagens sobre democracia e direitos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://oko.press/",
+      "title": "OKO.press – Informacje, analizy, śledztwa, reportaże, fact-checkingi"
+    }
+  },
+  {
+    "id": "pl-puls-biznesu",
+    "slug": "puls-biznesu",
+    "name": "Puls Biznesu",
+    "url": "https://www.pb.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1997,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Bonnier Business Polska",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily with companies, markets, the Warsaw Stock Exchange and investing.",
+      "pt": "Diário econômico com empresas, mercados, a Bolsa de Varsóvia e investimentos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.pb.pl/",
+      "title": "Puls Biznesu - portal biznesowy - wiadomości, notowania, inwestycje, giełda, rynek, akcje, spółki"
+    }
+  },
+  {
+    "id": "pl-business-insider-polska",
+    "slug": "business-insider-polska",
+    "name": "Business Insider Polska",
+    "url": "https://businessinsider.com.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ringier Axel Springer Polska",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site with the economy, personal finance, companies and technology.",
+      "pt": "Site de negócios com economia, finanças pessoais, empresas e tecnologia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://businessinsider.com.pl/",
+      "title": "businessinsider.com.pl - Business Insider Polska"
+    }
+  },
+  {
+    "id": "pl-przeglad-sportowy",
+    "slug": "przeglad-sportowy",
+    "name": "Przegląd Sportowy",
+    "url": "https://przegladsportowy.onet.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": 1921,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Ringier Axel Springer Polska",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports title founded in 1921, with football, volleyball, ski jumping and more.",
+      "pt": "Título esportivo fundado em 1921, com futebol, vôlei, salto de esqui e mais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://przegladsportowy.onet.pl/",
+      "title": "Przegląd Sportowy - Wiadomości sportowe, wyniki live, relacje na żywo - Przegląd Sportowy - Przegląd Sportowy"
+    }
+  },
+  {
+    "id": "pl-sport-pl",
+    "slug": "sport-pl",
+    "name": "Sport.pl",
+    "url": "https://www.sport.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Agora",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports site of Agora, with Polish football, the Ekstraklasa and international sport.",
+      "pt": "Site esportivo da Agora, com futebol polonês, a Ekstraklasa e esporte internacional."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.sport.pl/sport-hp/0,0.html",
+      "title": "Sport na Sport.pl - Wyniki i wiadomości sportowe"
+    }
+  },
+  {
+    "id": "pl-spiders-web",
+    "slug": "spiders-web",
+    "name": "Spider’s Web",
+    "url": "https://spidersweb.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Polish technology site with news on gadgets, internet, science and the digital economy.",
+      "pt": "Site polonês de tecnologia com notícias sobre gadgets, internet, ciência e economia digital."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://spidersweb.pl/",
+      "title": "Spider's Web - to największy niezależny technologiczno-lifestylowy serwis w Polsce"
+    }
+  },
+  {
+    "id": "pl-notes-from-poland",
+    "slug": "notes-from-poland",
+    "name": "Notes from Poland",
+    "url": "https://notesfrompoland.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language independent outlet with news and analysis about Poland.",
+      "pt": "Veículo independente em inglês com notícias e análises sobre a Polônia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://notesfrompoland.com/",
+      "title": "Notes From Poland | regular summaries of news from Poland"
+    }
+  },
+  {
+    "id": "pl-gazeta-krakowska",
+    "slug": "gazeta-krakowska",
+    "name": "Gazeta Krakowska",
+    "url": "https://gazetakrakowska.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Kraków and Lesser Poland",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Polska Press",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Kraków regional daily with news from the city and the Lesser Poland region.",
+      "pt": "Diário regional de Cracóvia com notícias da cidade e da região da Pequena Polônia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://gazetakrakowska.pl/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "pl-trojmiasto-pl",
+    "slug": "trojmiasto-pl",
+    "name": "Trojmiasto.pl",
+    "url": "https://www.trojmiasto.pl/",
+    "rss_url": null,
+    "language": "pl",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Tricity (Gdańsk, Gdynia, Sopot)",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Local portal for Gdańsk, Gdynia and Sopot, with city news, transport and events.",
+      "pt": "Portal local de Gdańsk, Gdynia e Sopot, com notícias da cidade, transporte e eventos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.trojmiasto.pl/",
+      "title": "Just a moment..."
+    }
+  }
+]

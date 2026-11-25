@@ -1,0 +1,488 @@
+[
+  {
+    "id": "ci-fraternite-matin",
+    "slug": "fraternite-matin",
+    "name": "Fraternité Matin",
+    "url": "https://www.fratmat.info/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1964,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ivorian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State-owned Abidjan daily founded in 1964, with national news, politics and regions.",
+      "pt": "Diário estatal de Abidjã fundado em 1964, com notícias nacionais, política e regiões."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/cote-divoire"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.fratmat.info/",
+      "title": "FratMat | ACCUEIL"
+    }
+  },
+  {
+    "id": "ci-abidjan-net",
+    "slug": "abidjan-net",
+    "name": "Abidjan.net",
+    "url": "https://news.abidjan.net/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Côte d'Ivoire's largest news portal, with national news, politics and video.",
+      "pt": "Maior portal de notícias da Costa do Marfim, com notícias nacionais, política e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://news.abidjan.net/",
+      "title": "Abidjan.net News - Bien + qu'un portail - Côte d'Ivoire - Ivory Coast"
+    }
+  },
+  {
+    "id": "ci-linfodrome",
+    "slug": "linfodrome",
+    "name": "Linfodrome",
+    "url": "https://www.linfodrome.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ivorian news site with national news, politics, society and sport.",
+      "pt": "Site marfinense com notícias nacionais, política, sociedade e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.linfodrome.com/",
+      "title": "L'actualité indépendante de référence en Côte d'Ivoire | Linfodrome"
+    }
+  },
+  {
+    "id": "ci-koaci",
+    "slug": "koaci",
+    "name": "Koaci",
+    "url": "https://www.koaci.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News portal with Ivorian and West African news, politics and society.",
+      "pt": "Portal com notícias da Costa do Marfim e da África Ocidental, política e sociedade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.koaci.com/",
+      "title": "KOACI l'Info au coeur de l'Afrique"
+    }
+  },
+  {
+    "id": "ci-rti-info",
+    "slug": "rti-info",
+    "name": "RTI Info",
+    "url": "https://rti.info/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Radiodiffusion Télévision Ivoirienne",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the public broadcaster RTI, with national news and video.",
+      "pt": "Site de notícias da emissora pública RTI, com notícias nacionais e vídeos."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/cote-divoire"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": null
+  },
+  {
+    "id": "ci-aip",
+    "slug": "aip",
+    "name": "AIP",
+    "url": "https://www.aip.ci/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ivorian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Agence Ivoirienne de Presse, the national news agency, with news from every region.",
+      "pt": "Agence Ivoirienne de Presse, a agência nacional, com notícias de todas as regiões."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/cote-divoire"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.aip.ci/",
+      "title": "403 Forbidden"
+    }
+  },
+  {
+    "id": "ci-l-intelligent-d-abidjan",
+    "slug": "l-intelligent-d-abidjan",
+    "name": "L'Intelligent d'Abidjan",
+    "url": "https://www.lintelligentdabidjan.info/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Abidjan daily with national politics, the economy and interviews.",
+      "pt": "Diário de Abidjã com política nacional, economia e entrevistas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.lintelligentdabidjan.info/",
+      "title": "L'Intelligent d'Abidjan | Quotidien ivoirien d'informations générales"
+    }
+  },
+  {
+    "id": "ci-connectionivoirienne",
+    "slug": "connectionivoirienne",
+    "name": "Connectionivoirienne",
+    "url": "https://connectionivoirienne.net/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ivorian news site with politics, society, opinion and the diaspora.",
+      "pt": "Site marfinense com política, sociedade, opinião e a diáspora."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": null
+  },
+  {
+    "id": "ci-7info",
+    "slug": "7info",
+    "name": "7info",
+    "url": "https://7info.ci/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ivorian digital outlet with national news, politics, the economy and society.",
+      "pt": "Veículo digital marfinense com notícias nacionais, política, economia e sociedade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": null
+  },
+  {
+    "id": "ci-nci",
+    "slug": "nci",
+    "name": "NCI",
+    "url": "https://nci.ci/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nouvelle Chaîne Ivoirienne, a private TV channel with news and debates.",
+      "pt": "Nouvelle Chaîne Ivoirienne, canal privado de TV com notícias e debates."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://nci.ci/",
+      "title": "My NCI : NCI - Programmes et Emissions TV en Replay ou en Direct"
+    }
+  },
+  {
+    "id": "ci-sika-finance",
+    "slug": "sika-finance",
+    "name": "Sika Finance",
+    "url": "https://www.sikafinance.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Abidjan financial site with the BRVM stock exchange and West African markets.",
+      "pt": "Site financeiro de Abidjã com a bolsa BRVM e os mercados da África Ocidental."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.sikafinance.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ci-sport-ivoire",
+    "slug": "sport-ivoire",
+    "name": "Sport-Ivoire",
+    "url": "https://www.sport-ivoire.ci/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ivorian sports site with football, the Elephants and the national league.",
+      "pt": "Site esportivo marfinense com futebol, os Elefantes e a liga nacional."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.sport-ivoire.ci/",
+      "title": "Sport-ivoire.ci | Le portail du sport ivoirien"
+    }
+  }
+]

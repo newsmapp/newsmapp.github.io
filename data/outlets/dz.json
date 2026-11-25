@@ -1,0 +1,628 @@
+[
+  {
+    "id": "dz-el-watan",
+    "slug": "el-watan",
+    "name": "El Watan",
+    "url": "https://elwatan.dz/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading French-language daily founded in 1990, with politics, society and the economy.",
+      "pt": "Principal diário em francês, fundado em 1990, com política, sociedade e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://elwatan.dz/",
+      "title": "Bots verification - التحقق البشري"
+    }
+  },
+  {
+    "id": "dz-el-khabar",
+    "slug": "el-khabar",
+    "name": "El Khabar",
+    "url": "https://www.elkhabar.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Major Arabic-language daily founded in 1990, with national news and politics.",
+      "pt": "Grande diário em árabe fundado em 1990, com notícias nacionais e política."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.elkhabar.com/",
+      "title": "الخبر : أخبار الجزائر والعالم على مدار الساعة"
+    }
+  },
+  {
+    "id": "dz-echorouk",
+    "slug": "echorouk",
+    "name": "Echorouk",
+    "url": "https://www.echoroukonline.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language daily and news site with national news, society and sport.",
+      "pt": "Diário e site em árabe com notícias nacionais, sociedade e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.echoroukonline.com/",
+      "title": "الشروق أونلاين.. عينك على الجزائر والعالم"
+    }
+  },
+  {
+    "id": "dz-tsa",
+    "slug": "tsa",
+    "name": "TSA",
+    "url": "https://www.tsa-algerie.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tout sur l'Algérie, a French-language digital outlet with politics and the economy.",
+      "pt": "Tout sur l'Algérie, veículo digital em francês com política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tsa-algerie.com/",
+      "title": "Accueil - TSA"
+    }
+  },
+  {
+    "id": "dz-aps",
+    "slug": "aps",
+    "name": "APS",
+    "url": "https://www.aps.dz/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Algerian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Algérie Presse Service, the state news agency, with news in Arabic, French and English.",
+      "pt": "Algérie Presse Service, a agência estatal, com notícias em árabe, francês e inglês."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/algeria"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.aps.dz/",
+      "title": "وكالة الأنباء الجزائرية"
+    }
+  },
+  {
+    "id": "dz-le-soir-d-algerie",
+    "slug": "le-soir-d-algerie",
+    "name": "Le Soir d'Algérie",
+    "url": "https://www.lesoirdalgerie.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language daily founded in 1990, with national news, opinion and culture.",
+      "pt": "Diário em francês fundado em 1990, com notícias nacionais, opinião e cultura."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.lesoirdalgerie.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "dz-l-expression",
+    "slug": "l-expression",
+    "name": "L'Expression",
+    "url": "https://www.lexpressiondz.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language daily with national news, politics, the economy and sport.",
+      "pt": "Diário em francês com notícias nacionais, política, economia e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.lexpressiondz.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "dz-el-moudjahid",
+    "slug": "el-moudjahid",
+    "name": "El Moudjahid",
+    "url": "https://www.elmoudjahid.dz/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 1965,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Algerian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned French-language daily with government and national news.",
+      "pt": "Diário estatal em francês com notícias do governo e nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/algeria"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.elmoudjahid.dz/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "dz-algerie-360",
+    "slug": "algerie-360",
+    "name": "Algérie 360",
+    "url": "https://www.algerie360.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with Algerian news, society and the diaspora.",
+      "pt": "Site de notícias em francês com notícias da Argélia, sociedade e a diáspora."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.algerie360.com/",
+      "title": "Algerie360 - Actualité et Information sur l'Algérie"
+    }
+  },
+  {
+    "id": "dz-ennahar",
+    "slug": "ennahar",
+    "name": "Ennahar",
+    "url": "https://www.ennaharonline.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language news site and private TV channel with national news and video.",
+      "pt": "Site em árabe e canal privado de TV com notícias nacionais e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ennaharonline.com/",
+      "title": "النهار أونلاين – أول موقع إخباري في الجزائر"
+    }
+  },
+  {
+    "id": "dz-television-algerienne",
+    "slug": "television-algerienne",
+    "name": "Télévision Algérienne",
+    "url": "https://www.entv.dz/ar",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "EPTV",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Algerian national television, the state broadcaster, with news bulletins.",
+      "pt": "Televisão nacional argelina, a emissora estatal, com noticiários."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/algeria"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.entv.dz/ar",
+      "title": "الواجهة | التلفزيون الجزائري"
+    }
+  },
+  {
+    "id": "dz-radio-algerienne",
+    "slug": "radio-algerienne",
+    "name": "Radio Algérienne",
+    "url": "https://www.radioalgerie.dz/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Algerian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State radio broadcaster with national and regional news in Arabic, French and Tamazight.",
+      "pt": "Rádio estatal com notícias nacionais e regionais em árabe, francês e tamazight."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/algeria"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.radioalgerie.dz/",
+      "title": "الإذاعة الجزائرية"
+    }
+  },
+  {
+    "id": "dz-algerie-eco",
+    "slug": "algerie-eco",
+    "name": "Algérie Eco",
+    "url": "https://algerie-eco.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business site with the Algerian economy, energy and companies.",
+      "pt": "Site de economia em francês com a economia argelina, energia e empresas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://algerie-eco.com/",
+      "title": "Algérie Eco, toute l'actualité de l'économie en Algérie | Algerie Eco"
+    }
+  },
+  {
+    "id": "dz-dzfoot",
+    "slug": "dzfoot",
+    "name": "DZfoot",
+    "url": "https://www.dzfoot.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language football site with the national team and Algerian players abroad.",
+      "pt": "Site de futebol em francês com a seleção e jogadores argelinos no exterior."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dzfoot.com/",
+      "title": "DZfoot - La référence du football algérien depuis 1999"
+    }
+  },
+  {
+    "id": "dz-le-buteur",
+    "slug": "le-buteur",
+    "name": "Le Buteur",
+    "url": "https://www.lebuteur.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports daily with Algerian football, the national league and the national team.",
+      "pt": "Diário esportivo com futebol argelino, a liga nacional e a seleção."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.lebuteur.com/",
+      "title": "Le Buteur : Football Alg&eacute;rien et International, transfert, classement, Vid&eacute;o, toute l'actualit&eacute; sportive et les r&eacute;sultats en direct"
+    }
+  }
+]

@@ -1,0 +1,656 @@
+[
+  {
+    "id": "ie-rte-news",
+    "slug": "rte-news",
+    "name": "RTÉ News",
+    "url": "https://www.rte.ie/news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTÉ",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of the public broadcaster RTÉ, with national news, politics and live video.",
+      "pt": "Serviço de notícias da emissora pública RTÉ, com notícias nacionais, política e vídeo ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rte.ie/news/",
+      "title": "News | Latest Breaking News Stories & Headlines | RTÉ"
+    }
+  },
+  {
+    "id": "ie-the-irish-times",
+    "slug": "the-irish-times",
+    "name": "The Irish Times",
+    "url": "https://www.irishtimes.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1859,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "The Irish Times DAC",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Dublin quality daily founded in 1859, with politics, business, opinion and culture.",
+      "pt": "Diário de referência de Dublin fundado em 1859, com política, economia, opinião e cultura."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.irishtimes.com/",
+      "title": "The Irish Times | Latest news and headlines - Irish news, world news, video and podcasts"
+    }
+  },
+  {
+    "id": "ie-irish-independent",
+    "slug": "irish-independent",
+    "name": "Irish Independent",
+    "url": "https://www.independent.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1905,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Mediahuis",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ireland's best-selling daily, with national news, politics, sport and regional titles.",
+      "pt": "Diário mais vendido da Irlanda, com notícias nacionais, política, esporte e títulos regionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.independent.ie/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ie-irish-examiner",
+    "slug": "irish-examiner",
+    "name": "Irish Examiner",
+    "url": "https://www.irishexaminer.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "regional": 1
+    },
+    "region": "Cork and Munster",
+    "founded_year": 1841,
+    "paywall": "metered",
+    "ownership_type": "private",
+    "owner": "The Irish Times DAC",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cork-based national daily founded in 1841, with strong coverage of Munster.",
+      "pt": "Diário nacional de Cork fundado em 1841, com forte cobertura da província de Munster."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.irishexaminer.com/",
+      "title": "Irish Examiner"
+    }
+  },
+  {
+    "id": "ie-thejournal-ie",
+    "slug": "thejournal-ie",
+    "name": "TheJournal.ie",
+    "url": "https://www.thejournal.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "investigative"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Journal Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free digital news site with national news, explainers and a fact-checking unit.",
+      "pt": "Site de notícias digital gratuito com notícias nacionais, textos explicativos e uma equipe de checagem."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.thejournal.ie/",
+      "title": "The Journal"
+    }
+  },
+  {
+    "id": "ie-newstalk",
+    "slug": "newstalk",
+    "name": "Newstalk",
+    "url": "https://www.newstalk.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast",
+      "politics"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Bauer Media Audio Ireland",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National talk radio station with news, current affairs, politics and sport.",
+      "pt": "Rádio nacional de debates com notícias, atualidades, política e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.newstalk.com/",
+      "title": "HOME | Newstalk"
+    }
+  },
+  {
+    "id": "ie-tg4",
+    "slug": "tg4",
+    "name": "TG4",
+    "url": "https://www.tg4.ie/",
+    "rss_url": null,
+    "language": "ga",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": 1996,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "TG4",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Irish-language public broadcaster, with the Nuacht TG4 news bulletin and current affairs.",
+      "pt": "Emissora pública em língua irlandesa, com o noticiário Nuacht TG4 e programas de atualidades."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tg4.ie/ga",
+      "title": "TG4 | Teilifís Gaeilge"
+    }
+  },
+  {
+    "id": "ie-business-post",
+    "slug": "business-post",
+    "name": "Business Post",
+    "url": "https://www.businesspost.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "politics"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly business and politics newspaper with companies, markets and policy analysis.",
+      "pt": "Semanário de economia e política com empresas, mercados e análise de políticas públicas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.businesspost.ie/",
+      "title": "Business Post - Independent journalism every day"
+    }
+  },
+  {
+    "id": "ie-the-currency",
+    "slug": "the-currency",
+    "name": "The Currency",
+    "url": "https://thecurrency.news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 2020,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Subscription outlet with long-form reporting on Irish business, finance and economics.",
+      "pt": "Veículo por assinatura com reportagens longas sobre negócios, finanças e economia irlandesas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://thecurrency.news/",
+      "title": "The Currency | Business & Finance Stories, Commentary & Investigations :The Currency"
+    }
+  },
+  {
+    "id": "ie-noteworthy",
+    "slug": "noteworthy",
+    "name": "Noteworthy",
+    "url": "https://www.noteworthy.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Journal Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Reader-funded investigative platform of The Journal that publishes in-depth projects.",
+      "pt": "Plataforma investigativa financiada por leitores do The Journal que publica projetos aprofundados."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 503,
+      "final_url": "https://www.noteworthy.ie/",
+      "title": "503 Service Temporarily Unavailable"
+    }
+  },
+  {
+    "id": "ie-the-ditch",
+    "slug": "the-ditch",
+    "name": "The Ditch",
+    "url": "https://www.ontheditch.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent Irish news outlet publishing investigations into politics and public money.",
+      "pt": "Veículo irlandês independente que publica investigações sobre política e dinheiro público."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ontheditch.com/",
+      "title": "Maybe you'll call us hurlers."
+    }
+  },
+  {
+    "id": "ie-rte-sport",
+    "slug": "rte-sport",
+    "name": "RTÉ Sport",
+    "url": "https://www.rte.ie/sport/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "RTÉ",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports service of RTÉ, with GAA, rugby, football, racing and live results.",
+      "pt": "Serviço esportivo da RTÉ, com esportes gaélicos, rúgbi, futebol, turfe e resultados ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rte.ie/sport/",
+      "title": "Irish & International Sports News, Fixtures & Results | RTÉ"
+    }
+  },
+  {
+    "id": "ie-the42",
+    "slug": "the42",
+    "name": "The42",
+    "url": "https://www.the42.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "The Journal Media",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports site of The Journal, with GAA, rugby, football and in-depth features.",
+      "pt": "Site esportivo do The Journal, com esportes gaélicos, rúgbi, futebol e reportagens especiais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.the42.ie/",
+      "title": "The 42"
+    }
+  },
+  {
+    "id": "ie-silicon-republic",
+    "slug": "silicon-republic",
+    "name": "Silicon Republic",
+    "url": "https://www.siliconrepublic.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Irish technology and science site with news on startups, research and careers.",
+      "pt": "Site irlandês de tecnologia e ciência com notícias sobre startups, pesquisa e carreiras."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.siliconrepublic.com/",
+      "title": "Silicon Republic | Technology, science and start-up news"
+    }
+  },
+  {
+    "id": "ie-limerick-leader",
+    "slug": "limerick-leader",
+    "name": "Limerick Leader",
+    "url": "https://www.limerickleader.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Limerick",
+    "founded_year": 1889,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Limerick newspaper founded in 1889, with local news, courts, sport and community life.",
+      "pt": "Jornal de Limerick fundado em 1889, com notícias locais, tribunais, esporte e vida comunitária."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.limerickleader.ie/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ie-connacht-tribune",
+    "slug": "connacht-tribune",
+    "name": "Connacht Tribune",
+    "url": "https://www.connachttribune.ie/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Galway",
+    "founded_year": 1909,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Galway weekly founded in 1909, with news from the city and county of Galway.",
+      "pt": "Semanário de Galway fundado em 1909, com notícias da cidade e do condado de Galway."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.connachttribune.ie/",
+      "title": "Just a moment..."
+    }
+  }
+]

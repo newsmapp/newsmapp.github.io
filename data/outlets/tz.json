@@ -1,0 +1,505 @@
+[
+  {
+    "id": "tz-the-citizen",
+    "slug": "the-citizen",
+    "name": "The Citizen",
+    "url": "https://www.thecitizen.co.tz/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Mwananchi Communications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "English-language Dar es Salaam daily with national news, politics and business.",
+      "pt": "Diário em inglês de Dar es Salaam com notícias nacionais, política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.thecitizen.co.tz/",
+      "title": "The Citizen"
+    }
+  },
+  {
+    "id": "tz-mwananchi",
+    "slug": "mwananchi",
+    "name": "Mwananchi",
+    "url": "https://www.mwananchi.co.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Mwananchi Communications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Leading Swahili-language daily with national news, politics and the regions.",
+      "pt": "Principal diário em suaíli, com notícias nacionais, política e regiões."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.mwananchi.co.tz/",
+      "title": "Mwananchi | Mwananchi"
+    }
+  },
+  {
+    "id": "tz-daily-news",
+    "slug": "daily-news",
+    "name": "Daily News",
+    "url": "https://dailynews.co.tz/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1972,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Tanzania Standard Newspapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned English-language daily founded in 1972, with national and government news.",
+      "pt": "Diário estatal em inglês fundado em 1972, com notícias nacionais e do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tanzania"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://dailynews.co.tz/",
+      "title": "Daily News – Tanzania Standard Newspapers"
+    }
+  },
+  {
+    "id": "tz-habarileo",
+    "slug": "habarileo",
+    "name": "HabariLeo",
+    "url": "https://habarileo.co.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Tanzania Standard Newspapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned Swahili-language daily with national news, regions and government affairs.",
+      "pt": "Diário estatal em suaíli com notícias nacionais, regiões e assuntos do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tanzania"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://habarileo.co.tz/",
+      "title": "HabariLeo – Tanzania Standard Newspapers"
+    }
+  },
+  {
+    "id": "tz-tbc",
+    "slug": "tbc",
+    "name": "TBC",
+    "url": "https://tbc.go.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Tanzania Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tanzania Broadcasting Corporation, the state broadcaster, with radio and TV news.",
+      "pt": "Tanzania Broadcasting Corporation, a emissora estatal, com notícias de rádio e TV."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tanzania"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "tz-ipp-media",
+    "slug": "ipp-media",
+    "name": "IPP Media",
+    "url": "https://www.ippmedia.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "IPP Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the IPP group, publisher of The Guardian and Nipashe, with national news.",
+      "pt": "Site de notícias do grupo IPP, editor do The Guardian e do Nipashe, com notícias nacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.ippmedia.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "tz-itv-tanzania",
+    "slug": "itv-tanzania",
+    "name": "ITV",
+    "url": "https://www.itv.co.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "IPP Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Private television station of the IPP group, with news bulletins in Swahili.",
+      "pt": "Emissora privada de televisão do grupo IPP, com noticiários em suaíli."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.itv.co.tz/",
+      "title": "ITV - Independent Television |"
+    }
+  },
+  {
+    "id": "tz-millard-ayo",
+    "slug": "millard-ayo",
+    "name": "Millard Ayo",
+    "url": "https://millardayo.com/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Popular Swahili-language news site and channel with daily news and video.",
+      "pt": "Site e canal populares em suaíli com notícias diárias e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://millardayo.com/",
+      "title": null
+    }
+  },
+  {
+    "id": "tz-global-publishers",
+    "slug": "global-publishers",
+    "name": "Global Publishers",
+    "url": "https://globalpublishers.co.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swahili-language publisher with news, entertainment and popular weekly titles.",
+      "pt": "Editora em suaíli com notícias, entretenimento e títulos semanais populares."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://globalpublishers.co.tz/",
+      "title": "Global Publishers - The House of Social Media"
+    }
+  },
+  {
+    "id": "tz-the-chanzo",
+    "slug": "the-chanzo",
+    "name": "The Chanzo",
+    "url": "https://thechanzo.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2021,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent digital outlet with analysis and accountability reporting on Tanzania.",
+      "pt": "Veículo digital independente com análises e reportagens de fiscalização sobre a Tanzânia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://thechanzo.com/",
+      "title": "The Chanzo - Looking at the world from ground up"
+    }
+  },
+  {
+    "id": "tz-jamiiforums",
+    "slug": "jamiiforums",
+    "name": "JamiiForums",
+    "url": "https://www.jamiiforums.com/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": 2006,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swahili-language forum known for whistleblowing posts and the JamiiCheck fact-checks.",
+      "pt": "Fórum em suaíli conhecido por denúncias e pelas checagens do JamiiCheck."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.jamiiforums.com/",
+      "title": "Where We Dare To Talk Openly | JamiiForums"
+    }
+  },
+  {
+    "id": "tz-mwanaspoti",
+    "slug": "mwanaspoti",
+    "name": "Mwanaspoti",
+    "url": "https://www.mwanaspoti.co.tz/",
+    "rss_url": null,
+    "language": "sw",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Mwananchi Communications",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Swahili-language sports title with Simba, Young Africans and the Premier League.",
+      "pt": "Título esportivo em suaíli com Simba, Young Africans e a liga tanzaniana."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.mwanaspoti.co.tz/",
+      "title": "Mwanaspoti | Mwanaspoti"
+    }
+  }
+]

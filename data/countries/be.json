@@ -1,0 +1,91 @@
+{
+  "iso2": "BE",
+  "iso3": "BEL",
+  "slug": "belgium",
+  "name": {
+    "en": "Belgium",
+    "pt": "Bélgica"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 11800000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "nl",
+    "fr",
+    "de"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "FR",
+    "LU",
+    "DE",
+    "NL"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Belgium has two separate news markets, one in Dutch for Flanders and one in French for Wallonia and Brussels, plus a small German-speaking community. Each has its own public broadcaster: VRT in Flanders and RTBF in the French-speaking community. Newspapers are concentrated in a few groups, with DPG Media and Mediahuis dominating Flanders and Rossel and IPM leading French-language titles. The Belga agency serves both communities, and Brussels hosts English-language outlets that follow Belgian politics and the European institutions. Most newspaper sites combine free articles with subscriptions.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Belgium?",
+          "a": "The main outlets in the directory include VRT NWS, RTBF Info, De Standaard, Le Soir and Het Laatste Nieuws. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is Belgian news in Dutch or French?",
+          "a": "Both. Flemish outlets such as VRT NWS and De Standaard publish in Dutch, while RTBF Info, Le Soir and La Libre publish in French. The language of every outlet is shown in the directory."
+        },
+        {
+          "q": "Which Belgian outlets are publicly funded?",
+          "a": "VRT NWS, Sporza and RTBF Info belong to the public broadcasters VRT and RTBF. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Belgium, in Dutch and French: the two public broadcasters and the leading daily newspapers."
+        },
+        "economy": {
+          "intro": "Belgian business news is led by two financial dailies from the same publisher, one in French and one in Dutch."
+        },
+        "broadcast": {
+          "intro": "Belgium has public and private broadcasters for each language community. The channels below publish their newscasts online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "A Bélgica tem dois mercados de notícias separados, um em neerlandês para Flandres e outro em francês para a Valônia e Bruxelas, além de uma pequena comunidade de língua alemã. Cada um tem sua emissora pública: a VRT em Flandres e a RTBF na comunidade francófona. Os jornais estão concentrados em poucos grupos, com DPG Media e Mediahuis dominando Flandres e Rossel e IPM liderando os títulos em francês. A agência Belga atende as duas comunidades, e Bruxelas abriga veículos em inglês que acompanham a política belga e as instituições europeias. A maioria dos sites de jornais combina artigos gratuitos com assinaturas.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Bélgica?",
+          "a": "Os principais veículos do diretório incluem VRT NWS, RTBF Info, De Standaard, Le Soir e Het Laatste Nieuws. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "As notícias belgas são em neerlandês ou em francês?",
+          "a": "Nas duas línguas. Veículos flamengos como VRT NWS e De Standaard publicam em neerlandês, enquanto RTBF Info, Le Soir e La Libre publicam em francês. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Quais veículos belgas são financiados com recursos públicos?",
+          "a": "VRT NWS, Sporza e RTBF Info pertencem às emissoras públicas VRT e RTBF. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Bélgica, em neerlandês e em francês: as duas emissoras públicas e os principais jornais diários."
+        },
+        "economy": {
+          "intro": "O noticiário econômico belga é liderado por dois diários financeiros do mesmo grupo, um em francês e outro em neerlandês."
+        },
+        "broadcast": {
+          "intro": "A Bélgica tem emissoras públicas e privadas para cada comunidade linguística. Os canais abaixo publicam seus noticiários na internet."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

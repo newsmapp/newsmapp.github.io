@@ -1,0 +1,87 @@
+{
+  "iso2": "TN",
+  "iso3": "TUN",
+  "slug": "tunisia",
+  "name": {
+    "en": "Tunisia",
+    "pt": "Tunísia"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 12300000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "ar"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "DZ",
+    "LY"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Tunisia's news is published in Arabic and French, with Tunisian Arabic widely used on radio. After the 2011 revolution a large private media sector emerged, led by radio stations such as Mosaïque FM and Jawhara FM and by French-language news sites like Business News and Kapitalis. The state owns the TAP agency, the daily La Presse and the national television. Independent outlets such as Inkyfada and Nawaat publish investigations. Since 2021 journalists have faced increasing prosecutions, and press freedom has declined. Most Tunisian news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Tunisia?",
+          "a": "The main national outlets in the directory include Mosaïque FM, TAP, La Presse, Business News and Kapitalis. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Is Tunisian news in Arabic or French?",
+          "a": "Both. Mosaïque FM and Alchourouk publish in Arabic, while La Presse, Business News and Kapitalis publish in French. The language of every outlet is shown in the directory."
+        },
+        {
+          "q": "Which Tunisian outlets are state-controlled?",
+          "a": "The TAP agency, La Presse and Télévision Tunisienne are state-controlled. Ownership is labeled on every outlet in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Tunisia: the leading radio station, the national agency, the main dailies and news sites."
+        },
+        "economy": {
+          "intro": "Tunisian business news is published mainly in French, covering the economy, public finances and the Tunis stock exchange."
+        },
+        "investigative": {
+          "intro": "Investigative journalism in Tunisia comes from independent nonprofit outlets founded around the 2011 revolution."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias da Tunísia são publicadas em árabe e francês, com o árabe tunisiano muito usado no rádio. Depois da revolução de 2011 surgiu um grande setor de mídia privada, liderado por rádios como Mosaïque FM e Jawhara FM e por sites em francês como Business News e Kapitalis. O Estado controla a agência TAP, o diário La Presse e a televisão nacional. Veículos independentes como Inkyfada e Nawaat publicam investigações. Desde 2021 os jornalistas enfrentam cada vez mais processos, e a liberdade de imprensa diminuiu. A maioria dos sites de notícias tunisianos é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Tunísia?",
+          "a": "Os principais veículos nacionais do diretório incluem Mosaïque FM, TAP, La Presse, Business News e Kapitalis. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "As notícias tunisianas são em árabe ou em francês?",
+          "a": "Nas duas línguas. Mosaïque FM e Alchourouk publicam em árabe, enquanto La Presse, Business News e Kapitalis publicam em francês. O idioma de cada veículo aparece no diretório."
+        },
+        {
+          "q": "Quais veículos tunisianos são controlados pelo Estado?",
+          "a": "A agência TAP, o La Presse e a Télévision Tunisienne são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Tunísia: a principal rádio, a agência nacional, os principais diários e sites de notícias."
+        },
+        "economy": {
+          "intro": "O noticiário econômico tunisiano é publicado sobretudo em francês e cobre a economia, as finanças públicas e a Bolsa de Túnis."
+        },
+        "investigative": {
+          "intro": "O jornalismo investigativo na Tunísia vem de veículos independentes sem fins lucrativos fundados por volta da revolução de 2011."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

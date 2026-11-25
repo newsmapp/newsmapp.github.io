@@ -1,0 +1,549 @@
+[
+  {
+    "id": "et-addis-standard",
+    "slug": "addis-standard",
+    "name": "Addis Standard",
+    "url": "https://addisstandard.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Independent English-language outlet with Ethiopian politics, conflict and human rights.",
+      "pt": "Veículo independente em inglês com política, conflitos e direitos humanos na Etiópia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://addisstandard.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "et-the-reporter-ethiopia",
+    "slug": "the-reporter-ethiopia",
+    "name": "The Reporter",
+    "url": "https://www.thereporterethiopia.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1995,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Addis Ababa English-language weekly with national news, politics and the economy.",
+      "pt": "Semanário em inglês de Adis Abeba com notícias nacionais, política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.thereporterethiopia.com/",
+      "title": "Ethiopian News | The Reporter - #1 Top News Site In Ethiopia"
+    }
+  },
+  {
+    "id": "et-ethiopian-news-agency",
+    "slug": "ethiopian-news-agency",
+    "name": "Ethiopian News Agency",
+    "url": "https://www.ena.et/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1942,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ethiopian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State news agency with government news in English, Amharic and other languages.",
+      "pt": "Agência estatal de notícias com notícias do governo em inglês, amárico e outras línguas."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/ethiopia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ena.et/web/eng/",
+      "title": "ENA - ENA English - ENA"
+    }
+  },
+  {
+    "id": "et-ebc",
+    "slug": "ebc",
+    "name": "EBC",
+    "url": "https://www.ebc.et/",
+    "rss_url": null,
+    "language": "am",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ethiopian Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Ethiopian Broadcasting Corporation, the state broadcaster, with news in Amharic.",
+      "pt": "Ethiopian Broadcasting Corporation, a emissora estatal, com notícias em amárico."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/ethiopia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ebc.et/",
+      "title": "ኢቢሲ አማርኛ ዜና:EBC Amharic News"
+    }
+  },
+  {
+    "id": "et-fana-media-corporation",
+    "slug": "fana-media-corporation",
+    "name": "Fana Media Corporation",
+    "url": "https://www.fanamc.com/",
+    "rss_url": null,
+    "language": "am",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1994,
+    "paywall": "free",
+    "ownership_type": "unknown",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fana Media Corporation, a radio and TV network with news in Amharic, English and other languages.",
+      "pt": "Fana Media Corporation, rede de rádio e TV com notícias em amárico, inglês e outras línguas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.fanamc.com/",
+      "title": "Front page - Welcome to Fana Media Corporation S.C"
+    }
+  },
+  {
+    "id": "et-the-ethiopian-herald",
+    "slug": "the-ethiopian-herald",
+    "name": "The Ethiopian Herald",
+    "url": "https://press.et/herald/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1943,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Ethiopian Press Agency",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned English-language daily founded in 1943, with government and national news.",
+      "pt": "Diário estatal em inglês fundado em 1943, com notícias do governo e nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/ethiopia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://press.et/herald/",
+      "title": "Gazette Plus"
+    }
+  },
+  {
+    "id": "et-walta",
+    "slug": "walta",
+    "name": "Walta",
+    "url": "https://www.waltainfo.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "unknown",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Walta Media and Communication, a broadcaster with news in Amharic and English.",
+      "pt": "Walta Media and Communication, emissora com notícias em amárico e inglês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.waltainfo.com/",
+      "title": "Walta Info – Ethiopian News, Politics, Economy & Global Updates"
+    }
+  },
+  {
+    "id": "et-addis-fortune",
+    "slug": "addis-fortune",
+    "name": "Addis Fortune",
+    "url": "https://addisfortune.news/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "politics"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language business weekly with the economy, banking, trade and policy.",
+      "pt": "Semanário de economia em inglês com economia, bancos, comércio e políticas públicas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://addisfortune.news/",
+      "title": "Addisfortune-The Largest English Weekly in Ethiopia"
+    }
+  },
+  {
+    "id": "et-capital-ethiopia",
+    "slug": "capital-ethiopia",
+    "name": "Capital",
+    "url": "https://capitalethiopia.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1998,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language business weekly with Ethiopian companies, finance and investment.",
+      "pt": "Semanário de negócios em inglês com empresas, finanças e investimentos na Etiópia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://capitalethiopia.com/",
+      "title": "Capital Newspaper | The Paper That Promotes Free Enterprise"
+    }
+  },
+  {
+    "id": "et-ethiopia-insight",
+    "slug": "ethiopia-insight",
+    "name": "Ethiopia Insight",
+    "url": "https://www.ethiopia-insight.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language outlet with in-depth analysis and commentary on Ethiopian politics.",
+      "pt": "Veículo em inglês com análises aprofundadas e comentários sobre a política etíope."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.ethiopia-insight.com/",
+      "title": "Ethiopia Insight - Independent, Informed, Incisive"
+    }
+  },
+  {
+    "id": "et-addis-zeybe",
+    "slug": "addis-zeybe",
+    "name": "Addis Zeybe",
+    "url": "https://addiszeybe.com/",
+    "rss_url": null,
+    "language": "am",
+    "categories": [
+      "general-news",
+      "regional"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7,
+      "regional": 1
+    },
+    "region": "Addis Ababa",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with news from Addis Ababa and the regions in Amharic and English.",
+      "pt": "Veículo digital com notícias de Adis Abeba e das regiões em amárico e inglês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://addiszeybe.com/",
+      "title": "Addis Zeybe: Ethiopian News, Opinion & Business Insights"
+    }
+  },
+  {
+    "id": "et-haqcheck",
+    "slug": "haqcheck",
+    "name": "HaqCheck",
+    "url": "https://haqcheck.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Inform Africa",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking project that verifies claims and viral content circulating in Ethiopia.",
+      "pt": "Projeto de checagem que verifica declarações e conteúdos virais que circulam na Etiópia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://haqcheck.org/",
+      "title": "Home - HaqCheck"
+    }
+  },
+  {
+    "id": "et-soccer-ethiopia",
+    "slug": "soccer-ethiopia",
+    "name": "Soccer Ethiopia",
+    "url": "https://www.soccerethiopia.net/",
+    "rss_url": null,
+    "language": "am",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Amharic-language football site with the Ethiopian Premier League and the national team.",
+      "pt": "Site de futebol em amárico com a liga etíope e a seleção nacional."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.soccerethiopia.net/",
+      "title": "Home - ሶከር ኢትዮጵያ"
+    }
+  }
+]

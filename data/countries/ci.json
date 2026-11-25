@@ -1,0 +1,84 @@
+{
+  "iso2": "CI",
+  "iso3": "CIV",
+  "slug": "cote-d-ivoire",
+  "name": {
+    "en": "Côte d'Ivoire",
+    "pt": "Costa do Marfim"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 31900000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "fr"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "LR",
+    "GN",
+    "ML",
+    "BF",
+    "GH"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Côte d'Ivoire's news is published in French and concentrated in Abidjan, the economic capital. The state-owned daily Fraternité Matin, the public broadcaster RTI and the AIP agency sit alongside a large partisan press and a fast-growing set of news portals such as Abidjan.net, Linfodrome and Koaci. Private television was licensed from 2019, adding channels such as NCI. Abidjan is also a regional financial hub, home of the BRVM stock exchange. Press freedom has improved since the 2011 crisis, though tensions rise around elections. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Côte d'Ivoire?",
+          "a": "The main national outlets in the directory include Fraternité Matin, Abidjan.net, Linfodrome, Koaci and RTI Info. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Ivorian outlets are state-controlled?",
+          "a": "Fraternité Matin, RTI and the AIP agency are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find business news from Côte d'Ivoire?",
+          "a": "Sika Finance covers the BRVM stock exchange and West African markets. The Business, Finance & Markets column lists every outlet of that kind."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Côte d'Ivoire: the state daily, the largest news portals and the public broadcaster."
+        },
+        "broadcast": {
+          "intro": "Television and radio are central to news in Côte d'Ivoire. The broadcasters below publish news online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias da Costa do Marfim são publicadas em francês e concentradas em Abidjã, a capital econômica. O diário estatal Fraternité Matin, a emissora pública RTI e a agência AIP convivem com uma grande imprensa partidária e portais em rápido crescimento como Abidjan.net, Linfodrome e Koaci. A televisão privada foi autorizada a partir de 2019, com canais como a NCI. Abidjã também é um polo financeiro regional, sede da bolsa BRVM. A liberdade de imprensa melhorou desde a crise de 2011, embora as tensões aumentem em períodos eleitorais. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Costa do Marfim?",
+          "a": "Os principais veículos nacionais do diretório incluem Fraternité Matin, Abidjan.net, Linfodrome, Koaci e RTI Info. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos marfinenses são controlados pelo Estado?",
+          "a": "Fraternité Matin, RTI e a agência AIP são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar notícias econômicas da Costa do Marfim?",
+          "a": "O Sika Finance cobre a bolsa BRVM e os mercados da África Ocidental. A coluna Negócios, finanças e mercados lista todos os veículos desse tipo."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Costa do Marfim: o diário estatal, os maiores portais e a emissora pública."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio são centrais para as notícias na Costa do Marfim. As emissoras abaixo publicam notícias on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

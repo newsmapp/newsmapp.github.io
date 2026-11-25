@@ -1,0 +1,86 @@
+{
+  "iso2": "CM",
+  "iso3": "CMR",
+  "slug": "cameroon",
+  "name": {
+    "en": "Cameroon",
+    "pt": "Camarões"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 29100000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "fr",
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "NG",
+    "TD",
+    "CF",
+    "CG",
+    "GA",
+    "GQ"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Cameroon is officially bilingual, and its news is published mostly in French, with an English-language press centred on the North-West and South-West regions. The state-owned Cameroon Tribune and the public broadcaster CRTV are the main national media, alongside hundreds of private newspapers, radio stations and news sites based in Yaoundé and Douala. Digital outlets such as Journal du Cameroun and Mimi Mefo Info reach large audiences. Coverage of the Anglophone crisis and of the government is risky, and several journalists have been detained. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Cameroon?",
+          "a": "The main national outlets in the directory include Cameroon Tribune, Journal du Cameroun, Actu Cameroun, CRTV and Mimi Mefo Info. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Cameroonian outlets are state-controlled?",
+          "a": "Cameroon Tribune and CRTV are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is Cameroonian news in French or English?",
+          "a": "Both. Journal du Cameroun and Actu Cameroun publish in French, while The Guardian Post and the Cameroon News Agency publish in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Cameroon: the state daily, the public broadcaster and the largest news sites, in French and English."
+        },
+        "economy": {
+          "intro": "Cameroonian business news covers investment, public finances, oil, cocoa and the economies of Central Africa."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "Camarões é oficialmente bilíngue, e suas notícias são publicadas sobretudo em francês, com uma imprensa em inglês centrada nas regiões Noroeste e Sudoeste. O estatal Cameroon Tribune e a emissora pública CRTV são as principais mídias nacionais, ao lado de centenas de jornais, rádios e sites privados sediados em Iaundé e Duala. Veículos digitais como Journal du Cameroun e Mimi Mefo Info alcançam grande público. Cobrir a crise anglófona e o governo é arriscado, e vários jornalistas foram detidos. A maioria dos sites de notícias é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Camarões?",
+          "a": "Os principais veículos nacionais do diretório incluem Cameroon Tribune, Journal du Cameroun, Actu Cameroun, CRTV e Mimi Mefo Info. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos camaroneses são controlados pelo Estado?",
+          "a": "Cameroon Tribune e CRTV são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "As notícias de Camarões são em francês ou em inglês?",
+          "a": "Nas duas línguas. Journal du Cameroun e Actu Cameroun publicam em francês, enquanto The Guardian Post e Cameroon News Agency publicam em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Camarões: o diário estatal, a emissora pública e os maiores sites, em francês e inglês."
+        },
+        "economy": {
+          "intro": "O noticiário econômico de Camarões cobre investimentos, finanças públicas, petróleo, cacau e as economias da África Central."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

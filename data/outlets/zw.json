@@ -1,0 +1,585 @@
+[
+  {
+    "id": "zw-the-herald-zimbabwe",
+    "slug": "the-herald-zimbabwe",
+    "name": "The Herald",
+    "url": "https://www.herald.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1891,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Zimpapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State-controlled Harare daily founded in 1891, with national news and government affairs.",
+      "pt": "Diário estatal de Harare fundado em 1891, com notícias nacionais e assuntos do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/zimbabwe"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.herald.co.zw/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "zw-newsday",
+    "slug": "newsday",
+    "name": "NewsDay",
+    "url": "https://www.newsday.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Alpha Media Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Private daily of Alpha Media Holdings, with national news, politics and business.",
+      "pt": "Diário privado da Alpha Media Holdings, com notícias nacionais, política e negócios."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.newsday.co.zw/",
+      "title": "NewsDay Zimbabwe — Breaking News, Business, Sports"
+    }
+  },
+  {
+    "id": "zw-zimlive",
+    "slug": "zimlive",
+    "name": "ZimLive",
+    "url": "https://www.zimlive.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent digital outlet with breaking news, politics, courts and crime.",
+      "pt": "Veículo digital independente com notícias de última hora, política, tribunais e polícia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.zimlive.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "zw-new-zimbabwe",
+    "slug": "new-zimbabwe",
+    "name": "New Zimbabwe",
+    "url": "https://www.newzimbabwe.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital news site with Zimbabwean news, politics and the diaspora.",
+      "pt": "Site de notícias digital com notícias, política e a diáspora do Zimbábue."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.newzimbabwe.com/",
+      "title": "NewZimbabwe.com - Zimbabwe News You Trust"
+    }
+  },
+  {
+    "id": "zw-zbc-news",
+    "slug": "zbc-news",
+    "name": "ZBC News",
+    "url": "https://www.zbcnews.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Zimbabwe Broadcasting Corporation",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the Zimbabwe Broadcasting Corporation, the state broadcaster.",
+      "pt": "Site de notícias da Zimbabwe Broadcasting Corporation, a emissora estatal."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/zimbabwe"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.zbcnews.co.zw/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "zw-263chat",
+    "slug": "263chat",
+    "name": "263Chat",
+    "url": "https://www.263chat.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Digital outlet with Zimbabwean news, politics, business and community stories.",
+      "pt": "Veículo digital com notícias, política, negócios e histórias comunitárias do Zimbábue."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": null
+  },
+  {
+    "id": "zw-the-standard-zimbabwe",
+    "slug": "the-standard-zimbabwe",
+    "name": "The Standard",
+    "url": "https://www.thestandard.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Alpha Media Holdings",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sunday newspaper of Alpha Media Holdings, with politics, analysis and opinion.",
+      "pt": "Jornal de domingo da Alpha Media Holdings, com política, análise e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.thestandard.co.zw/",
+      "title": "The Standard - Best Sunday Read"
+    }
+  },
+  {
+    "id": "zw-business-weekly",
+    "slug": "business-weekly",
+    "name": "Business Weekly",
+    "url": "https://www.businessweekly.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Zimpapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Zimpapers business weekly with companies, mining, agriculture and policy.",
+      "pt": "Semanário de negócios da Zimpapers com empresas, mineração, agricultura e políticas."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/zimbabwe"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.businessweekly.co.zw/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "zw-newzwire",
+    "slug": "newzwire",
+    "name": "NewZWire",
+    "url": "https://newzwire.live/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news outlet with markets, the currency, companies and economic policy.",
+      "pt": "Veículo de negócios com mercados, a moeda, empresas e política econômica."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://newzwire.live/",
+      "title": "Home - newZWire"
+    }
+  },
+  {
+    "id": "zw-zimfact",
+    "slug": "zimfact",
+    "name": "ZimFact",
+    "url": "https://zimfact.org/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Fact-checking organisation that verifies claims by public figures in Zimbabwe.",
+      "pt": "Organização de checagem que verifica declarações de figuras públicas no Zimbábue."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://zimfact.org/",
+      "title": "Suspended"
+    }
+  },
+  {
+    "id": "zw-soccer24",
+    "slug": "soccer24",
+    "name": "Soccer24",
+    "url": "https://www.soccer24.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football site with the Warriors, the Premier Soccer League and players abroad.",
+      "pt": "Site de futebol com os Warriors, a liga zimbabuana e jogadores no exterior."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.soccer24.co.zw/",
+      "title": "Soccer24 - Soccer24"
+    }
+  },
+  {
+    "id": "zw-techzim",
+    "slug": "techzim",
+    "name": "Techzim",
+    "url": "https://www.techzim.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Zimbabwean technology site with telecoms, mobile money, startups and gadgets.",
+      "pt": "Site zimbabuano de tecnologia com telecomunicações, dinheiro móvel, startups e gadgets."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.techzim.co.zw/",
+      "title": "Techzim | Zimbabwe and regional technology news and updates"
+    }
+  },
+  {
+    "id": "zw-the-chronicle-zimbabwe",
+    "slug": "the-chronicle-zimbabwe",
+    "name": "The Chronicle",
+    "url": "https://www.chronicle.co.zw/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Bulawayo and Matabeleland",
+    "founded_year": 1894,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Zimpapers",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-controlled Bulawayo daily with news from Matabeleland and the south-west.",
+      "pt": "Diário estatal de Bulawayo com notícias da Matabelelândia e do sudoeste."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/zimbabwe"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.chronicle.co.zw/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "zw-bulawayo24",
+    "slug": "bulawayo24",
+    "name": "Bulawayo24",
+    "url": "https://bulawayo24.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Bulawayo",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bulawayo-based news site with local, national and diaspora news.",
+      "pt": "Site de notícias de Bulawayo com notícias locais, nacionais e da diáspora."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://bulawayo24.com/",
+      "title": "Bulawayo24 News - Skyes! \"it makes perfect sense\""
+    }
+  }
+]

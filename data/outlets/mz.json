@@ -1,0 +1,430 @@
+[
+  {
+    "id": "mz-noticias",
+    "slug": "noticias",
+    "name": "Notícias",
+    "url": "https://www.jornalnoticias.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1926,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Sociedade do Notícias",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Mozambique's main daily, founded in 1926 and state-controlled, with national news.",
+      "pt": "Principal diário de Moçambique, fundado em 1926 e controlado pelo Estado, com notícias nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/mozambique"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.jornalnoticias.co.mz/",
+      "title": "Home - Jornal Notícias"
+    }
+  },
+  {
+    "id": "mz-o-pais-mozambique",
+    "slug": "o-pais-mozambique",
+    "name": "O País",
+    "url": "https://opais.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "SOICO",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of the private SOICO group and STV, with national news and video.",
+      "pt": "Site de notícias do grupo privado SOICO e da STV, com notícias nacionais e vídeos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://opais.co.mz/",
+      "title": "O País - A verdade como notícia"
+    }
+  },
+  {
+    "id": "mz-carta-de-mocambique",
+    "slug": "carta-de-mocambique",
+    "name": "Carta de Moçambique",
+    "url": "https://cartamz.com/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2018,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent digital outlet with politics, the economy, justice and Cabo Delgado.",
+      "pt": "Veículo digital independente com política, economia, justiça e Cabo Delgado."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://cartamz.com/",
+      "title": "Carta de Moçambique - Informação rigorosa e opinião de qualidade de e sobre Moçambique. -"
+    }
+  },
+  {
+    "id": "mz-verdade",
+    "slug": "verdade",
+    "name": "@Verdade",
+    "url": "https://verdade.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 2008,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Free Maputo newspaper and site with national news, society and citizen reporting.",
+      "pt": "Jornal e site gratuitos de Maputo com notícias nacionais, sociedade e reportagem cidadã."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://verdade.co.mz/",
+      "title": "Verdade – A verdade em cada palavra"
+    }
+  },
+  {
+    "id": "mz-aim",
+    "slug": "aim",
+    "name": "AIM",
+    "url": "https://aimnews.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Mozambican State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Agência de Informação de Moçambique, the state news agency, in Portuguese and English.",
+      "pt": "Agência de Informação de Moçambique, a agência estatal, em português e inglês."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/mozambique"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://aimnews.org/",
+      "title": "aimnews.org – Agência de Informação de Moçambique"
+    }
+  },
+  {
+    "id": "mz-zitamar-news",
+    "slug": "zitamar-news",
+    "name": "Zitamar News",
+    "url": "https://www.zitamar.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "economy",
+      "investigative"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language outlet with Mozambican politics, gas, mining and Cabo Delgado.",
+      "pt": "Veículo em inglês com política, gás, mineração e Cabo Delgado em Moçambique."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.zitamar.com/",
+      "title": "Zitamar News"
+    }
+  },
+  {
+    "id": "mz-tvm",
+    "slug": "tvm",
+    "name": "TVM",
+    "url": "https://www.tvm.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Televisão de Moçambique",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Televisão de Moçambique, the state broadcaster, with national news bulletins.",
+      "pt": "Televisão de Moçambique, a emissora estatal, com noticiários nacionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/mozambique"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 468,
+      "final_url": "https://www.tvm.co.mz/",
+      "title": null
+    }
+  },
+  {
+    "id": "mz-radio-mocambique",
+    "slug": "radio-mocambique",
+    "name": "Rádio Moçambique",
+    "url": "https://www.rm.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Rádio Moçambique",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State radio broadcaster with national and provincial news in Portuguese and local languages.",
+      "pt": "Rádio estatal com notícias nacionais e das províncias em português e línguas locais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/mozambique"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.rm.co.mz/",
+      "title": "Rádio Moçambique - Hoje e Sempre"
+    }
+  },
+  {
+    "id": "mz-diario-economico",
+    "slug": "diario-economico",
+    "name": "Diário Económico",
+    "url": "https://www.diarioeconomico.co.mz/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business outlet with the Mozambican economy, gas, banking and companies.",
+      "pt": "Veículo de economia com a economia moçambicana, gás, bancos e empresas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.diarioeconomico.co.mz/",
+      "title": "Diário Económico • Business News from Mozambique"
+    }
+  },
+  {
+    "id": "mz-centro-de-integridade-publica",
+    "slug": "centro-de-integridade-publica",
+    "name": "Centro de Integridade Pública",
+    "url": "https://www.cipmoz.org/",
+    "rss_url": null,
+    "language": "pt",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Anti-corruption NGO that publishes investigations into public spending and debt.",
+      "pt": "ONG anticorrupção que publica investigações sobre gasto público e dívida."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.cipmoz.org/",
+      "title": "Pagina inicial - CIP - Centro de Integridade Pública"
+    }
+  }
+]

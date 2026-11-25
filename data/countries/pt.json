@@ -1,0 +1,86 @@
+{
+  "iso2": "PT",
+  "iso3": "PRT",
+  "slug": "portugal",
+  "name": {
+    "en": "Portugal",
+    "pt": "Portugal"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 10600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "pt"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "ES"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Portugal's national news is produced mainly in Lisbon and Porto. The public broadcaster RTP runs television, radio and a news site, while SIC and TVI compete with it through the news channels SIC Notícias and CNN Portugal. Público, Expresso and Observador lead quality reporting, Correio da Manhã and Jornal de Notícias are the most widely read popular titles, and the Lusa agency supplies the rest of the press. Sports dailies devoted to football have a large readership. Several titles use registration walls or subscriptions, and the Azores and Madeira have their own long-established newspapers.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Portugal?",
+          "a": "The main national outlets in the directory include Público, Expresso, Observador, Jornal de Notícias and RTP Notícias. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Portuguese outlets are publicly funded?",
+          "a": "RTP Notícias belongs to the public broadcaster RTP, and Lusa is the public news agency. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find fact-checking in Portugal?",
+          "a": "Polígrafo is a fact-checking outlet. The Investigative & Fact-Checking column lists every outlet of that kind."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Portugal: daily and weekly newspapers, a digital daily, the public broadcaster and the national news agency."
+        },
+        "sports": {
+          "intro": "Portuguese sports media is dominated by football, with three sports dailies that follow Benfica, Porto and Sporting closely."
+        },
+        "broadcast": {
+          "intro": "Television and radio remain the main source of news in Portugal. The channels and stations below publish their newscasts online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "O noticiário nacional de Portugal é produzido sobretudo em Lisboa e no Porto. A emissora pública RTP mantém televisão, rádio e um site de notícias, enquanto SIC e TVI concorrem com ela por meio dos canais SIC Notícias e CNN Portugal. Público, Expresso e Observador lideram o jornalismo de referência, Correio da Manhã e Jornal de Notícias são os títulos populares mais lidos, e a agência Lusa abastece o resto da imprensa. Os diários esportivos dedicados ao futebol têm grande público. Vários títulos usam cadastro ou assinatura, e os Açores e a Madeira têm jornais próprios de longa tradição.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Portugal?",
+          "a": "Os principais veículos nacionais do diretório incluem Público, Expresso, Observador, Jornal de Notícias e RTP Notícias. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos portugueses são financiados com recursos públicos?",
+          "a": "A RTP Notícias pertence à emissora pública RTP, e a Lusa é a agência pública de notícias. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar checagem de fatos em Portugal?",
+          "a": "O Polígrafo é um veículo de checagem de fatos. A coluna Investigação e checagem lista todos os veículos desse tipo."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Portugal: jornais diários e semanais, um diário digital, a emissora pública e a agência nacional de notícias."
+        },
+        "sports": {
+          "intro": "A mídia esportiva portuguesa é dominada pelo futebol, com três diários esportivos que acompanham de perto Benfica, Porto e Sporting."
+        },
+        "broadcast": {
+          "intro": "A televisão e o rádio continuam a ser a principal fonte de notícias em Portugal. Os canais e as emissoras abaixo publicam seus noticiários na internet."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

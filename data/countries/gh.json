@@ -1,0 +1,88 @@
+{
+  "iso2": "GH",
+  "iso3": "GHA",
+  "slug": "ghana",
+  "name": {
+    "en": "Ghana",
+    "pt": "Gana"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 34400000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "CI",
+    "BF",
+    "TG"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Ghana has one of West Africa's most open and competitive news markets, centred in Accra. Private radio is the main source of news, and broadcasters such as the Multimedia Group (Joy FM), Citi FM and Peace FM run large news websites. The state-owned Daily Graphic is the best-selling newspaper, alongside the Ghanaian Times, while GhanaWeb and MyJoyOnline lead online. The public Ghana Broadcasting Corporation operates national television and radio. Fact-checking and investigative outlets have grown since the late 2010s. Almost all Ghanaian news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Ghana?",
+          "a": "The main national outlets in the directory include the Daily Graphic, MyJoyOnline, Citi Newsroom, GhanaWeb and the Ghanaian Times. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Ghanaian outlets are publicly funded or state-owned?",
+          "a": "The Daily Graphic and the Ghanaian Times are state-owned, and GBC is the public broadcaster. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find fact-checking in Ghana?",
+          "a": "Fact-Check Ghana rates claims by public figures. The Investigative & Fact-Checking column lists every outlet of that kind."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Ghana: the state-owned dailies, the websites of the largest broadcasters and the main news portals."
+        },
+        "economy": {
+          "intro": "Business news in Ghana covers cocoa, gold, oil, the cedi and the Ghana Stock Exchange."
+        },
+        "broadcast": {
+          "intro": "Radio and television are central to news in Ghana. The stations below publish their newscasts online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "Gana tem um dos mercados de notícias mais abertos e competitivos da África Ocidental, centrado em Acra. O rádio privado é a principal fonte de notícias, e emissoras como o Multimedia Group (Joy FM), a Citi FM e a Peace FM mantêm grandes sites de notícias. O Daily Graphic, estatal, é o jornal mais vendido, ao lado do Ghanaian Times, enquanto GhanaWeb e MyJoyOnline lideram on-line. A Ghana Broadcasting Corporation, pública, opera televisão e rádio nacionais. Veículos de checagem e investigação cresceram desde o fim dos anos 2010. Quase todos os sites de notícias ganeses são gratuitos.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais de Gana?",
+          "a": "Os principais veículos nacionais do diretório incluem Daily Graphic, MyJoyOnline, Citi Newsroom, GhanaWeb e Ghanaian Times. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos ganeses são públicos ou estatais?",
+          "a": "O Daily Graphic e o Ghanaian Times são estatais, e a GBC é a emissora pública. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar checagem de fatos em Gana?",
+          "a": "O Fact-Check Ghana avalia declarações de figuras públicas. A coluna Investigação e checagem lista todos os veículos desse tipo."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais em Gana: os diários estatais, os sites das maiores emissoras e os principais portais de notícias."
+        },
+        "economy": {
+          "intro": "O noticiário econômico em Gana cobre cacau, ouro, petróleo, o cedi e a Bolsa de Gana."
+        },
+        "broadcast": {
+          "intro": "O rádio e a televisão são centrais para as notícias em Gana. As emissoras abaixo publicam seus noticiários na internet."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

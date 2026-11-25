@@ -1,0 +1,812 @@
+[
+  {
+    "id": "se-svt-nyheter",
+    "slug": "svt-nyheter",
+    "name": "SVT Nyheter",
+    "url": "https://www.svt.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Sveriges Television",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News service of the public broadcaster SVT, with national, local and world news.",
+      "pt": "Serviço de notícias da emissora pública SVT, com notícias nacionais, locais e internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.svt.se/",
+      "title": "SVT Nyheter"
+    }
+  },
+  {
+    "id": "se-sveriges-radio",
+    "slug": "sveriges-radio",
+    "name": "Sveriges Radio",
+    "url": "https://www.sverigesradio.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Sveriges Radio",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Public radio broadcaster, with the Ekot news bulletins, local stations and podcasts.",
+      "pt": "Rádio pública, com os noticiários do Ekot, emissoras locais e podcasts."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.sverigesradio.se/",
+      "title": "Nyheter från Sveriges Radio"
+    }
+  },
+  {
+    "id": "se-dagens-nyheter",
+    "slug": "dagens-nyheter",
+    "name": "Dagens Nyheter",
+    "url": "https://www.dn.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1864,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Bonnier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Sweden's largest morning newspaper, founded in 1864, with politics, culture and debate.",
+      "pt": "Maior jornal matutino da Suécia, fundado em 1864, com política, cultura e debate."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dn.se/",
+      "title": "Dagens Nyheter – senaste nyheterna från Sverige och världen"
+    }
+  },
+  {
+    "id": "se-svenska-dagbladet",
+    "slug": "svenska-dagbladet",
+    "name": "Svenska Dagbladet",
+    "url": "https://www.svd.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1884,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Schibsted",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Stockholm morning daily founded in 1884, with politics, business and opinion.",
+      "pt": "Diário matutino de Estocolmo fundado em 1884, com política, economia e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.svd.se/",
+      "title": "Svenska Dagbladet"
+    }
+  },
+  {
+    "id": "se-aftonbladet",
+    "slug": "aftonbladet",
+    "name": "Aftonbladet",
+    "url": "https://www.aftonbladet.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5
+    },
+    "region": null,
+    "founded_year": 1830,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Schibsted",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sweden's most-read tabloid, with breaking news, crime, entertainment and opinion.",
+      "pt": "Tabloide mais lido da Suécia, com notícias de última hora, polícia, entretenimento e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.aftonbladet.se/",
+      "title": "Aftonbladet"
+    }
+  },
+  {
+    "id": "se-expressen",
+    "slug": "expressen",
+    "name": "Expressen",
+    "url": "https://www.expressen.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1944,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Bonnier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "National evening tabloid with breaking news, investigations, sport and entertainment.",
+      "pt": "Tabloide vespertino nacional com notícias de última hora, investigações, esporte e entretenimento."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.expressen.se/",
+      "title": "Nyheter - senaste nyheterna i Sverige och världen"
+    }
+  },
+  {
+    "id": "se-tt-nyhetsbyran",
+    "slug": "tt-nyhetsbyran",
+    "name": "TT Nyhetsbyrån",
+    "url": "https://tt.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1921,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sweden's national news agency, supplying wire news to newspapers and broadcasters.",
+      "pt": "Agência nacional de notícias da Suécia, que fornece notícias a jornais e emissoras."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://tt.se/",
+      "title": "TT Nyhetsbyrån - Sveriges nationella nyhetsbyrå sedan 1921"
+    }
+  },
+  {
+    "id": "se-omni",
+    "slug": "omni",
+    "name": "Omni",
+    "url": "https://omni.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": 2013,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Schibsted",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News app and site that summarises Swedish and world news with links to the sources.",
+      "pt": "Aplicativo e site que resume notícias suecas e internacionais com links para as fontes."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://omni.se/",
+      "title": "Omni – Alla nyheter. Alla perspektiv."
+    }
+  },
+  {
+    "id": "se-dagens-etc",
+    "slug": "dagens-etc",
+    "name": "Dagens ETC",
+    "url": "https://www.etc.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Daily newspaper with politics, climate and social issues from a left-leaning perspective.",
+      "pt": "Jornal diário com política, clima e questões sociais a partir de uma perspectiva de esquerda."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 247,
+      "final_url": "https://www.etc.se/",
+      "title": null
+    }
+  },
+  {
+    "id": "se-fokus",
+    "slug": "fokus",
+    "name": "Fokus",
+    "url": "https://www.fokus.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2005,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine with Swedish politics, international affairs and analysis.",
+      "pt": "Revista semanal com política sueca, assuntos internacionais e análise."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.fokus.se/",
+      "title": "Fokus - Sveriges nyhetsmagasin"
+    }
+  },
+  {
+    "id": "se-svt-granskning",
+    "slug": "svt-granskning",
+    "name": "SVT Granskning",
+    "url": "https://www.svt.se/nyheter/granskning/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "Sveriges Television",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "SVT's investigations section, home of Uppdrag granskning and long-form public-interest reporting.",
+      "pt": "Seção de investigações da SVT, casa do Uppdrag granskning e de reportagens longas de interesse público."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.svt.se/nyheter/granskning/",
+      "title": "Granskning | SVT Nyheter"
+    }
+  },
+  {
+    "id": "se-dagens-industri",
+    "slug": "dagens-industri",
+    "name": "Dagens industri",
+    "url": "https://www.di.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 1976,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": "Bonnier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business daily founded in 1976, with markets, companies and the Stockholm exchange.",
+      "pt": "Diário econômico fundado em 1976, com mercados, empresas e a Bolsa de Estocolmo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.di.se/",
+      "title": "Dagens industri - Di.se nyhetssajt"
+    }
+  },
+  {
+    "id": "se-breakit",
+    "slug": "breakit",
+    "name": "Breakit",
+    "url": "https://www.breakit.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "economy",
+      "tech-science"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2,
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business news site about Swedish startups, venture capital and the tech industry.",
+      "pt": "Site de negócios sobre startups suecas, capital de risco e a indústria de tecnologia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.breakit.se/",
+      "title": "Breakit - Sveriges nyhetssajt om techbolag och startups"
+    }
+  },
+  {
+    "id": "se-ny-teknik",
+    "slug": "ny-teknik",
+    "name": "Ny Teknik",
+    "url": "https://www.nyteknik.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 2
+    },
+    "region": null,
+    "founded_year": 1967,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology and engineering title with news on industry, energy, research and innovation.",
+      "pt": "Título de tecnologia e engenharia com notícias de indústria, energia, pesquisa e inovação."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.nyteknik.se/",
+      "title": "Ny Teknik – nyteknik.se • nyheter om teknik och innovation"
+    }
+  },
+  {
+    "id": "se-sportbladet",
+    "slug": "sportbladet",
+    "name": "Sportbladet",
+    "url": "https://www.aftonbladet.se/sportbladet",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Schibsted",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Aftonbladet's sports section, with football, ice hockey and live results.",
+      "pt": "Editoria de esportes do Aftonbladet, com futebol, hóquei no gelo e resultados ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.aftonbladet.se/sportbladet",
+      "title": "Sportbladet störst på sport och sportnyheter"
+    }
+  },
+  {
+    "id": "se-fotbollskanalen",
+    "slug": "fotbollskanalen",
+    "name": "Fotbollskanalen",
+    "url": "https://www.fotbollskanalen.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football news site with the Allsvenskan, Swedish players abroad and international leagues.",
+      "pt": "Site de futebol com a Allsvenskan, jogadores suecos no exterior e ligas internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.fotbollskanalen.se/",
+      "title": "För dig som älskar fotboll - Fotbollskanalen"
+    }
+  },
+  {
+    "id": "se-the-local-sweden",
+    "slug": "the-local-sweden",
+    "name": "The Local Sweden",
+    "url": "https://www.thelocal.se/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news about Sweden, with politics, society and practical guides.",
+      "pt": "Notícias em inglês sobre a Suécia, com política, sociedade e guias práticos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.thelocal.se/",
+      "title": "The Local Sweden - News and practical guides in English"
+    }
+  },
+  {
+    "id": "se-goteborgs-posten",
+    "slug": "goteborgs-posten",
+    "name": "Göteborgs-Posten",
+    "url": "https://www.gp.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Gothenburg and West Sweden",
+    "founded_year": 1813,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Gothenburg daily founded in 1813, with news from the city and western Sweden.",
+      "pt": "Diário de Gotemburgo fundado em 1813, com notícias da cidade e do oeste da Suécia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.gp.se/",
+      "title": "Göteborgs-Posten | Nyheter | Din värld. Vår Journalistik."
+    }
+  },
+  {
+    "id": "se-sydsvenskan",
+    "slug": "sydsvenskan",
+    "name": "Sydsvenskan",
+    "url": "https://www.sydsvenskan.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Malmö and Skåne",
+    "founded_year": 1848,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Bonnier",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Malmö daily founded in 1848, with news from Malmö and the Skåne region.",
+      "pt": "Diário de Malmö fundado em 1848, com notícias de Malmö e da região da Escânia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.sydsvenskan.se/",
+      "title": "Sydsvenskan – Nyheter Dygnet Runt"
+    }
+  },
+  {
+    "id": "se-upsala-nya-tidning",
+    "slug": "upsala-nya-tidning",
+    "name": "Upsala Nya Tidning",
+    "url": "https://www.unt.se/",
+    "rss_url": null,
+    "language": "sv",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Uppsala",
+    "founded_year": 1890,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "NTM",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Uppsala daily founded in 1890, with local news, politics and sport from the region.",
+      "pt": "Diário de Uppsala fundado em 1890, com notícias locais, política e esporte da região."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.unt.se/",
+      "title": "UNT, Upsala Nya Tidning - lokala nyheter just nu"
+    }
+  }
+]

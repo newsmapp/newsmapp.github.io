@@ -1,0 +1,671 @@
+[
+  {
+    "id": "tn-mosaique-fm",
+    "slug": "mosaique-fm",
+    "name": "Mosaïque FM",
+    "url": "https://www.mosaiquefm.net/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": 2003,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Tunisia's most popular private radio station, with news in Arabic and French.",
+      "pt": "Rádio privada mais popular da Tunísia, com notícias em árabe e francês."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.mosaiquefm.net/",
+      "title": "أخبار تونس: آخر الأخبار الوطنية والجهوية على راديو موزاييك | Mosaique FM"
+    }
+  },
+  {
+    "id": "tn-tap",
+    "slug": "tap",
+    "name": "TAP",
+    "url": "https://www.tap.info.tn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2
+    },
+    "region": null,
+    "founded_year": 1961,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Tunisian State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tunis Afrique Presse, the national news agency, with news in Arabic, French and English.",
+      "pt": "Tunis Afrique Presse, a agência nacional, com notícias em árabe, francês e inglês."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tunisia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": null,
+      "final_url": null,
+      "title": null
+    }
+  },
+  {
+    "id": "tn-la-presse-de-tunisie",
+    "slug": "la-presse-de-tunisie",
+    "name": "La Presse de Tunisie",
+    "url": "https://www.lapresse.tn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1936,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "SNIPE",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "State-owned French-language daily founded in 1936, with national and regional news.",
+      "pt": "Diário estatal em francês fundado em 1936, com notícias nacionais e regionais."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tunisia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.lapresse.tn/",
+      "title": "La Presse de Tunisie: Dernières Nouvelles"
+    }
+  },
+  {
+    "id": "tn-business-news",
+    "slug": "business-news",
+    "name": "Business News",
+    "url": "https://www.businessnews.com.tn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "economy"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with Tunisian politics, the economy and companies.",
+      "pt": "Site de notícias em francês com política, economia e empresas da Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.businessnews.com.tn/",
+      "title": "Accueil - Business News"
+    }
+  },
+  {
+    "id": "tn-kapitalis",
+    "slug": "kapitalis",
+    "name": "Kapitalis",
+    "url": "https://kapitalis.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with Tunisian politics, society, culture and opinion.",
+      "pt": "Site de notícias em francês com política, sociedade, cultura e opinião na Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://kapitalis.com/",
+      "title": "L'actualité en Tunisie - Kapitalis"
+    }
+  },
+  {
+    "id": "tn-alchourouk",
+    "slug": "alchourouk",
+    "name": "Alchourouk",
+    "url": "https://www.alchourouk.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1984,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language daily with national news, politics, society and sport.",
+      "pt": "Diário em árabe com notícias nacionais, política, sociedade e esporte."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.alchourouk.com/",
+      "title": "| جريدة الشروق التونسية"
+    }
+  },
+  {
+    "id": "tn-tunisie-numerique",
+    "slug": "tunisie-numerique",
+    "name": "Tunisie Numérique",
+    "url": "https://www.tunisienumerique.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with Tunisian news, politics, the economy and technology.",
+      "pt": "Site de notícias em francês com notícias, política, economia e tecnologia da Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tunisienumerique.com/",
+      "title": "Tunisie - Actualites en Tunisie et dans le monde sur Tunisie Numerique"
+    }
+  },
+  {
+    "id": "tn-leaders",
+    "slug": "leaders",
+    "name": "Leaders",
+    "url": "https://www.leaders.com.tn/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics",
+      "economy"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 3,
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language magazine with Tunisian politics, the economy, portraits and analysis.",
+      "pt": "Revista em francês com política, economia, perfis e análises da Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.leaders.com.tn/",
+      "title": "Leaders: News et Actualité de la Tunisie et du monde"
+    }
+  },
+  {
+    "id": "tn-realites",
+    "slug": "realites",
+    "name": "Réalités",
+    "url": "https://realites.com.tn/fr/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 1979,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news magazine founded in 1979, with politics, society and culture.",
+      "pt": "Revista de informação em francês fundada em 1979, com política, sociedade e cultura."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://realites.com.tn/fr/",
+      "title": "Home - Réalités Magazine"
+    }
+  },
+  {
+    "id": "tn-l-economiste-maghrebin",
+    "slug": "l-economiste-maghrebin",
+    "name": "L'Économiste Maghrébin",
+    "url": "https://www.leconomistemaghrebin.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": 1990,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business magazine with the Tunisian and Maghreb economies.",
+      "pt": "Revista de negócios em francês com as economias da Tunísia e do Magrebe."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.leconomistemaghrebin.com/",
+      "title": "L'Économiste Maghrébin | Première presse tunisienne en ligne"
+    }
+  },
+  {
+    "id": "tn-ilboursa",
+    "slug": "ilboursa",
+    "name": "ilBoursa",
+    "url": "https://www.ilboursa.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Financial site with the Tunis stock exchange, listed companies and market data.",
+      "pt": "Site financeiro com a Bolsa de Túnis, empresas listadas e dados de mercado."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.ilboursa.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "tn-inkyfada",
+    "slug": "inkyfada",
+    "name": "Inkyfada",
+    "url": "https://inkyfada.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 2014,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": "Al Khatt",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent outlet with investigations, data journalism and long-form reports.",
+      "pt": "Veículo independente com investigações, jornalismo de dados e reportagens longas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://inkyfada.com/fr/",
+      "title": "Inkyfada – Média indépendant basé à Tunis"
+    }
+  },
+  {
+    "id": "tn-nawaat",
+    "slug": "nawaat",
+    "name": "Nawaat",
+    "url": "https://nawaat.org/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 2004,
+    "paywall": "free",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Independent collective blog turned news outlet, with investigations and rights coverage.",
+      "pt": "Blog coletivo independente que virou veículo de notícias, com investigações e direitos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://nawaat.org/",
+      "title": "Nawaat – Creating bold, independent journalism in Tunisia."
+    }
+  },
+  {
+    "id": "tn-television-tunisienne",
+    "slug": "television-tunisienne",
+    "name": "Télévision Tunisienne",
+    "url": "https://www.tunisiatv.tn/ar",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Établissement de la Télévision tunisienne",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tunisian national television, the state broadcaster, with news bulletins in Arabic.",
+      "pt": "Televisão nacional tunisiana, a emissora estatal, com noticiários em árabe."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/tunisia"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tunisiatv.tn/ar",
+      "title": "التلفزة التونسية | الرئيسية"
+    }
+  },
+  {
+    "id": "tn-jawhara-fm",
+    "slug": "jawhara-fm",
+    "name": "Jawhara FM",
+    "url": "https://www.jawharafm.net/ar/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional",
+      "broadcast"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "broadcast": 3
+    },
+    "region": "Sousse and the Sahel",
+    "founded_year": 2005,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sousse-based private radio with news from the Sahel region and across Tunisia.",
+      "pt": "Rádio privada de Sousse com notícias da região do Sahel e de toda a Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.jawharafm.net/ar/",
+      "title": "‫أخبار تونس اليوم على راديو جوهرة أف آم, أخبار الاقتصاد, الرياضية، السياسية، الثقافية."
+    }
+  },
+  {
+    "id": "tn-diwan-fm",
+    "slug": "diwan-fm",
+    "name": "Diwan FM",
+    "url": "https://diwanfm.net/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2
+    },
+    "region": "Sfax",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-radio",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sfax-based private radio with local news from Sfax and southern Tunisia.",
+      "pt": "Rádio privada de Sfax com notícias locais de Sfax e do sul da Tunísia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://diwanfm.net/",
+      "title": "Radio Tunisie | Sfax - Radio Diwan FM"
+    }
+  }
+]

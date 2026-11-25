@@ -1,0 +1,502 @@
+[
+  {
+    "id": "cm-cameroon-tribune",
+    "slug": "cameroon-tribune",
+    "name": "Cameroon Tribune",
+    "url": "https://www.cameroon-tribune.cm/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1974,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "SOPECAM",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "State-owned bilingual daily founded in 1974, with national news and government affairs.",
+      "pt": "Diário estatal bilíngue fundado em 1974, com notícias nacionais e assuntos do governo."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/cameroon"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.cameroon-tribune.cm/",
+      "title": "News in Cameroon, infos and news | Cameroon-Tribune"
+    }
+  },
+  {
+    "id": "cm-journal-du-cameroun",
+    "slug": "journal-du-cameroun",
+    "name": "Journal du Cameroun",
+    "url": "https://fr.journalducameroun.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "French-language news site with Cameroonian politics, society, the economy and sport.",
+      "pt": "Site de notícias em francês com política, sociedade, economia e esporte de Camarões."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://fr.journalducameroun.com/",
+      "title": "Journalducameroun.com - Actualités et Infos en direct au Cameroun et dans le Monde"
+    }
+  },
+  {
+    "id": "cm-actu-cameroun",
+    "slug": "actu-cameroun",
+    "name": "Actu Cameroun",
+    "url": "https://actucameroun.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with national news, politics and society.",
+      "pt": "Site de notícias em francês com notícias nacionais, política e sociedade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://actucameroun.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "cm-crtv",
+    "slug": "crtv",
+    "name": "CRTV",
+    "url": "https://www.crtv.cm/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Cameroon Radio Television",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Cameroon Radio Television, the state broadcaster, with news in French and English.",
+      "pt": "Cameroon Radio Television, a emissora estatal, com notícias em francês e inglês."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/cameroon"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.crtv.cm/",
+      "title": "CRTV - Actualites, Direct TV et bien plus | CRTV - Cameroon Radio Television"
+    }
+  },
+  {
+    "id": "cm-mimi-mefo-info",
+    "slug": "mimi-mefo-info",
+    "name": "Mimi Mefo Info",
+    "url": "https://mimimefoinfos.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Bilingual digital outlet with Cameroonian news, politics and the Anglophone regions.",
+      "pt": "Veículo digital bilíngue com notícias, política e as regiões anglófonas de Camarões."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://mimimefoinfos.com/",
+      "title": "Join Mimi Mefo Info for Credible and Reliable News Updates"
+    }
+  },
+  {
+    "id": "cm-the-guardian-post",
+    "slug": "the-guardian-post",
+    "name": "The Guardian Post",
+    "url": "https://www.theguardianpostcameroon.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language daily with national news, politics and the Anglophone regions.",
+      "pt": "Diário em inglês com notícias nacionais, política e as regiões anglófonas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.theguardianpostcameroon.com/",
+      "title": "The Guardian Post"
+    }
+  },
+  {
+    "id": "cm-stopblablacam",
+    "slug": "stopblablacam",
+    "name": "Stopblablacam",
+    "url": "https://www.stopblablacam.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "politics"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language site with Cameroonian politics, opinion and public affairs.",
+      "pt": "Site em francês com política, opinião e assuntos públicos de Camarões."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.stopblablacam.com/",
+      "title": "StopBlaBlaCam : l'actualité politique et sociale du Cameroun. - StopBlaBlaCam"
+    }
+  },
+  {
+    "id": "cm-investir-au-cameroun",
+    "slug": "investir-au-cameroun",
+    "name": "Investir au Cameroun",
+    "url": "https://www.investiraucameroun.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business site with investment, public finances and companies.",
+      "pt": "Site de negócios em francês com investimentos, finanças públicas e empresas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.investiraucameroun.com/",
+      "title": "Actualités - Investir au Cameroun"
+    }
+  },
+  {
+    "id": "cm-ecomatin",
+    "slug": "ecomatin",
+    "name": "EcoMatin",
+    "url": "https://ecomatin.net/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business outlet with the Cameroonian and Central African economies.",
+      "pt": "Veículo de economia em francês com as economias de Camarões e da África Central."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://ecomatin.net/",
+      "title": "EcoMatin - Actualités économiques d'Afrique Centrale"
+    }
+  },
+  {
+    "id": "cm-data-cameroon",
+    "slug": "data-cameroon",
+    "name": "Data Cameroon",
+    "url": "https://datacameroon.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Data journalism outlet with investigations and fact-checks on public affairs.",
+      "pt": "Veículo de jornalismo de dados com investigações e checagens sobre assuntos públicos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://datacameroon.com/",
+      "title": "l'information citoyenne au service de la cité"
+    }
+  },
+  {
+    "id": "cm-camfoot",
+    "slug": "camfoot",
+    "name": "Camfoot",
+    "url": "https://www.camfoot.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Football site with the Indomitable Lions and Cameroonian players abroad.",
+      "pt": "Site de futebol com os Leões Indomáveis e jogadores camaroneses no exterior."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.camfoot.com/",
+      "title": "Camfoot.com - la Référence du football camerounais"
+    }
+  },
+  {
+    "id": "cm-cameroon-news-agency",
+    "slug": "cameroon-news-agency",
+    "name": "Cameroon News Agency",
+    "url": "https://cameroonnewsagency.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1,
+      "general-news": 7
+    },
+    "region": "North-West and South-West",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language outlet with news from the North-West and South-West regions.",
+      "pt": "Veículo em inglês com notícias das regiões Noroeste e Sudoeste."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://cameroonnewsagency.com/",
+      "title": "HomePage - Cameroon News Agency"
+    }
+  }
+]

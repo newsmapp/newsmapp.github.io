@@ -1,0 +1,85 @@
+{
+  "iso2": "ZW",
+  "iso3": "ZWE",
+  "slug": "zimbabwe",
+  "name": {
+    "en": "Zimbabwe",
+    "pt": "Zimbábue"
+  },
+  "continent": "africa",
+  "also_in": [],
+  "population": {
+    "value": 16600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "en",
+    "sn",
+    "nd"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "ZA",
+    "BW",
+    "ZM",
+    "MZ"
+  ],
+  "published": false,
+  "seo_context": {
+    "en": {
+      "summary": "Zimbabwe's news is published mainly in English from Harare and Bulawayo. The state-controlled Zimpapers group publishes The Herald, The Chronicle and Business Weekly, and the ZBC runs national television and radio. Alpha Media Holdings publishes NewsDay and The Standard, the main private titles. Digital outlets such as ZimLive, New Zimbabwe and 263Chat, some founded by journalists abroad, reach large audiences online. Journalists have faced arrests and harassment, especially around elections. Most news sites are free to read.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Zimbabwe?",
+          "a": "The main national outlets in the directory include The Herald, NewsDay, ZimLive, New Zimbabwe and ZBC News. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Zimbabwean outlets are state-controlled?",
+          "a": "The Herald, The Chronicle, Business Weekly and ZBC News are state-controlled. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Where can I find fact-checking in Zimbabwe?",
+          "a": "ZimFact rates claims by public figures and viral content. The Investigative & Fact-Checking column lists every outlet of that kind."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Zimbabwe: the state and private dailies and the largest digital news sites."
+        },
+        "economy": {
+          "intro": "Zimbabwean business news covers the currency, mining, agriculture and the Zimbabwe Stock Exchange."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "As notícias do Zimbábue são publicadas sobretudo em inglês, a partir de Harare e Bulawayo. O grupo estatal Zimpapers publica The Herald, The Chronicle e Business Weekly, e a ZBC opera a televisão e o rádio nacionais. A Alpha Media Holdings publica NewsDay e The Standard, os principais títulos privados. Veículos digitais como ZimLive, New Zimbabwe e 263Chat, alguns fundados por jornalistas no exterior, alcançam grande público on-line. Jornalistas sofreram prisões e assédio, sobretudo em períodos eleitorais. A maioria dos sites é gratuita.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais do Zimbábue?",
+          "a": "Os principais veículos nacionais do diretório incluem The Herald, NewsDay, ZimLive, New Zimbabwe e ZBC News. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos zimbabuanos são controlados pelo Estado?",
+          "a": "The Herald, The Chronicle, Business Weekly e ZBC News são controlados pelo Estado. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Onde encontrar checagem de fatos no Zimbábue?",
+          "a": "O ZimFact avalia declarações de figuras públicas e conteúdos virais. A coluna Investigação e checagem lista todos os veículos desse tipo."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais no Zimbábue: os diários estatais e privados e os maiores sites digitais."
+        },
+        "economy": {
+          "intro": "O noticiário econômico do Zimbábue cobre a moeda, a mineração, a agricultura e a Bolsa do Zimbábue."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

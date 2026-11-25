@@ -1,0 +1,747 @@
+[
+  {
+    "id": "ma-hespress",
+    "slug": "hespress",
+    "name": "Hespress",
+    "url": "https://www.hespress.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 2007,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Morocco's most-read Arabic news site, with national news, politics and society.",
+      "pt": "Site de notícias em árabe mais lido do Marrocos, com notícias nacionais, política e sociedade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.hespress.com/",
+      "title": "Hespress - هسبريس جريدة إلكترونية مغربية"
+    }
+  },
+  {
+    "id": "ma-le360",
+    "slug": "le360",
+    "name": "Le360",
+    "url": "https://fr.le360.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news site with Moroccan politics, economy, society and sport.",
+      "pt": "Site de notícias em francês com política, economia, sociedade e esporte do Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://fr.le360.ma/",
+      "title": "Le360 - Le média des actualités du Maroc"
+    }
+  },
+  {
+    "id": "ma-le-matin",
+    "slug": "le-matin",
+    "name": "Le Matin",
+    "url": "https://lematin.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3
+    },
+    "region": null,
+    "founded_year": 1971,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Casablanca French-language daily with national news, politics and the economy.",
+      "pt": "Diário francófono de Casablanca com notícias nacionais, política e economia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://lematin.ma/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-telquel",
+    "slug": "telquel",
+    "name": "TelQuel",
+    "url": "https://telquel.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 2001,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language news magazine with Moroccan politics, society, culture and analysis.",
+      "pt": "Revista de informação em francês com política, sociedade, cultura e análise do Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://telquel.ma/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-snrt-news",
+    "slug": "snrt-news",
+    "name": "SNRT News",
+    "url": "https://snrtnews.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "SNRT",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News site of the state broadcaster SNRT, with national news and video in Arabic.",
+      "pt": "Site de notícias da emissora estatal SNRT, com notícias nacionais e vídeos em árabe."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/morocco-western-sahara"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://snrtnews.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-assabah",
+    "slug": "assabah",
+    "name": "Assabah",
+    "url": "https://assabah.ma/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 2000,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Eco-Médias",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language daily with national news, courts, politics and society.",
+      "pt": "Diário em árabe com notícias nacionais, tribunais, política e sociedade."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://assabah.ma/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-map",
+    "slug": "map",
+    "name": "MAP",
+    "url": "https://www.mapnews.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 7
+    },
+    "region": null,
+    "founded_year": 1959,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "Moroccan State",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Maghreb Arabe Presse, Morocco's official news agency, with news in several languages.",
+      "pt": "Maghreb Arabe Presse, a agência oficial de notícias do Marrocos, com notícias em vários idiomas."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/morocco-western-sahara"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.mapnews.ma/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-hespress-fr",
+    "slug": "hespress-fr",
+    "name": "Hespress FR",
+    "url": "https://fr.hespress.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 8
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French edition of Hespress, with Moroccan news, politics and economy.",
+      "pt": "Edição em francês do Hespress, com notícias, política e economia do Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://fr.hespress.com/",
+      "title": "Hespress Français - Actualités du Maroc"
+    }
+  },
+  {
+    "id": "ma-morocco-world-news",
+    "slug": "morocco-world-news",
+    "name": "Morocco World News",
+    "url": "https://www.moroccoworldnews.com/",
+    "rss_url": null,
+    "language": "en",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 9
+    },
+    "region": null,
+    "founded_year": 2011,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "English-language news site with Moroccan politics, society, travel and diplomacy.",
+      "pt": "Site de notícias em inglês com política, sociedade, turismo e diplomacia do Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.moroccoworldnews.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-le-desk",
+    "slug": "le-desk",
+    "name": "Le Desk",
+    "url": "https://ledesk.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 1,
+      "politics": 4
+    },
+    "region": null,
+    "founded_year": 2015,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language subscription outlet with investigations and analysis on Moroccan affairs.",
+      "pt": "Veículo por assinatura em francês com investigações e análises sobre o Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://ledesk.ma/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ma-medias24",
+    "slug": "medias24",
+    "name": "Médias24",
+    "url": "https://medias24.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": 2010,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business news site with companies, markets and the Casablanca exchange.",
+      "pt": "Site de economia em francês com empresas, mercados e a Bolsa de Casablanca."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://medias24.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-l-economiste",
+    "slug": "l-economiste",
+    "name": "L'Economiste",
+    "url": "https://www.leconomiste.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 2
+    },
+    "region": null,
+    "founded_year": 1991,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Eco-Médias",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business daily with economic policy, companies and finance.",
+      "pt": "Diário econômico em francês com política econômica, empresas e finanças."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.leconomiste.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-challenge",
+    "slug": "challenge",
+    "name": "Challenge",
+    "url": "https://www.challenge.ma/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language business weekly with Moroccan companies, executives and investment.",
+      "pt": "Semanário de negócios em francês com empresas, executivos e investimentos no Marrocos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.challenge.ma/",
+      "title": "Actualité économique au Maroc | News | Challenge.ma"
+    }
+  },
+  {
+    "id": "ma-2m",
+    "slug": "2m",
+    "name": "2M",
+    "url": "https://2m.ma/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 1989,
+    "paywall": "free",
+    "ownership_type": "state-controlled",
+    "owner": "SOREAD 2M",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Casablanca television channel with news bulletins in Arabic, French and Amazigh.",
+      "pt": "Canal de televisão de Casablanca com noticiários em árabe, francês e amazigue."
+    },
+    "about": {},
+    "sources": [
+      {
+        "field": "ownership_type",
+        "url": "https://rsf.org/en/country/morocco-western-sahara"
+      }
+    ],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://2m.ma/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-medi1-tv",
+    "slug": "medi1-tv",
+    "name": "Medi1 TV",
+    "url": "https://www.medi1tv.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 3
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "unknown",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Tangier-based news channel with Moroccan, Maghreb and international news.",
+      "pt": "Canal de notícias de Tânger com notícias do Marrocos, do Magrebe e do mundo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.medi1tv.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  },
+  {
+    "id": "ma-elbotola",
+    "slug": "elbotola",
+    "name": "Botola",
+    "url": "https://www.elbotola.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language football site with the Botola league, the national team and live scores.",
+      "pt": "Site de futebol em árabe com a liga Botola, a seleção nacional e placares ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.elbotola.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-yabiladi",
+    "slug": "yabiladi",
+    "name": "Yabiladi",
+    "url": "https://www.yabiladi.com/",
+    "rss_url": null,
+    "language": "fr",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 10
+    },
+    "region": null,
+    "founded_year": 2002,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "French-language site with Moroccan news and a focus on the Moroccan diaspora.",
+      "pt": "Site em francês com notícias do Marrocos e foco na diáspora marroquina."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.yabiladi.com/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "ma-kech24",
+    "slug": "kech24",
+    "name": "Kech24",
+    "url": "https://www.kech24.com/",
+    "rss_url": null,
+    "language": "ar",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Marrakesh",
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Arabic-language news site based in Marrakesh, with local and national news.",
+      "pt": "Site de notícias em árabe sediado em Marrakech, com notícias locais e nacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.kech24.com/",
+      "title": "Attention Required! | Cloudflare"
+    }
+  }
+]

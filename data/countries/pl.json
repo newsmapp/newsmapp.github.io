@@ -1,0 +1,92 @@
+{
+  "iso2": "PL",
+  "iso3": "POL",
+  "slug": "poland",
+  "name": {
+    "en": "Poland",
+    "pt": "Polônia"
+  },
+  "continent": "europe",
+  "also_in": [],
+  "population": {
+    "value": 36600000,
+    "year": 2024,
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "official_languages": [
+    "pl"
+  ],
+  "press_freedom": null,
+  "neighbors": [
+    "DE",
+    "CZ",
+    "SK",
+    "UA",
+    "BY",
+    "LT",
+    "RU"
+  ],
+  "published": true,
+  "seo_context": {
+    "en": {
+      "summary": "Poland has one of Central Europe's largest news markets, based in Warsaw. Web portals such as Onet and Wirtualna Polska reach the widest audiences online, while TVN24, Polsat News and the public broadcaster TVP compete in television news. Gazeta Wyborcza and Rzeczpospolita are the main quality dailies, and weekly magazines such as Polityka carry analysis and opinion. Public media were restructured after the 2023 election, and media ownership and independence remain politically debated. Many regional dailies belong to the Polska Press group. Several national titles use paywalls.",
+      "faq": [
+        {
+          "q": "What are the main national news outlets in Poland?",
+          "a": "The main national outlets in the directory include Gazeta Wyborcza, Rzeczpospolita, Onet, TVN24 and Wirtualna Polska. The Top National News column lists them in editorial order."
+        },
+        {
+          "q": "Which Polish outlets are publicly funded?",
+          "a": "TVP Info and Polskie Radio 24 belong to the public broadcasters, and PAP is the state news agency. Ownership is labeled on every outlet in the directory."
+        },
+        {
+          "q": "Is there Polish news in English?",
+          "a": "Notes from Poland publishes in English. The language of every outlet is shown in the directory."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "These are the outlets most used for national news in Poland: quality dailies, the largest web portals, news television and the national agency."
+        },
+        "economy": {
+          "intro": "Polish business news comes from a financial daily, a business news site and the economy sections of national publishers."
+        },
+        "broadcast": {
+          "intro": "Television is a major source of news in Poland, with private and public news channels that publish online."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    },
+    "pt": {
+      "summary": "A Polônia tem um dos maiores mercados de notícias da Europa Central, sediado em Varsóvia. Portais como Onet e Wirtualna Polska alcançam o maior público on-line, enquanto TVN24, Polsat News e a emissora pública TVP disputam o noticiário de televisão. Gazeta Wyborcza e Rzeczpospolita são os principais diários de referência, e revistas semanais como a Polityka trazem análise e opinião. A mídia pública foi reestruturada após a eleição de 2023, e a propriedade e a independência da mídia seguem em debate político. Muitos diários regionais pertencem ao grupo Polska Press. Vários títulos nacionais usam paywall.",
+      "faq": [
+        {
+          "q": "Quais são os principais veículos de notícias nacionais da Polônia?",
+          "a": "Os principais veículos nacionais do diretório incluem Gazeta Wyborcza, Rzeczpospolita, Onet, TVN24 e Wirtualna Polska. A coluna Principais notícias nacionais os lista em ordem editorial."
+        },
+        {
+          "q": "Quais veículos poloneses são financiados com recursos públicos?",
+          "a": "TVP Info e Polskie Radio 24 pertencem às emissoras públicas, e a PAP é a agência estatal de notícias. A propriedade de cada veículo aparece indicada no diretório."
+        },
+        {
+          "q": "Há notícias da Polônia em inglês?",
+          "a": "O Notes from Poland publica em inglês. O idioma de cada veículo aparece no diretório."
+        }
+      ],
+      "categories": {
+        "general-news": {
+          "intro": "Estes são os veículos mais usados para as notícias nacionais na Polônia: diários de referência, os maiores portais, a televisão de notícias e a agência nacional."
+        },
+        "economy": {
+          "intro": "O noticiário econômico polonês vem de um diário financeiro, de um site de negócios e das editorias de economia dos grupos nacionais."
+        },
+        "broadcast": {
+          "intro": "A televisão é uma grande fonte de notícias na Polônia, com canais de notícias privados e públicos que publicam on-line."
+        }
+      },
+      "reviewed": true,
+      "reviewed_at": "2026-11-25"
+    }
+  }
+}

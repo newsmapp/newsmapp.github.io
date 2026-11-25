@@ -1,0 +1,696 @@
+[
+  {
+    "id": "at-orf-news",
+    "slug": "orf-news",
+    "name": "ORF News",
+    "url": "https://orf.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "broadcast"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 1,
+      "broadcast": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "ORF",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": true,
+    "pitch": {
+      "en": "News site of the public broadcaster ORF, the most-visited news site in Austria.",
+      "pt": "Site de notícias da emissora pública ORF, o site de notícias mais visitado da Áustria."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://orf.at/",
+      "title": "news.ORF.at"
+    }
+  },
+  {
+    "id": "at-der-standard",
+    "slug": "der-standard",
+    "name": "Der Standard",
+    "url": "https://www.derstandard.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 2,
+      "politics": 1
+    },
+    "region": null,
+    "founded_year": 1988,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": true,
+    "pitch": {
+      "en": "Vienna quality daily founded in 1988, with politics, economy, science and active forums.",
+      "pt": "Diário de referência de Viena fundado em 1988, com política, economia, ciência e fóruns ativos."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.derstandard.at/",
+      "title": "derStandard.at | Nachrichten, Kommentare & Community"
+    }
+  },
+  {
+    "id": "at-die-presse",
+    "slug": "die-presse",
+    "name": "Die Presse",
+    "url": "https://www.diepresse.com/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 3,
+      "politics": 2
+    },
+    "region": null,
+    "founded_year": 1848,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Styria Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Vienna quality daily founded in 1848, with politics, business and international news.",
+      "pt": "Diário de referência de Viena fundado em 1848, com política, economia e notícias internacionais."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.diepresse.com/",
+      "title": "Nachrichten – DiePresse.com"
+    }
+  },
+  {
+    "id": "at-kronen-zeitung",
+    "slug": "kronen-zeitung",
+    "name": "Kronen Zeitung",
+    "url": "https://www.krone.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 4
+    },
+    "region": null,
+    "founded_year": 1900,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "Mediaprint",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Austria's most-read newspaper, a popular daily with national, local and sports news.",
+      "pt": "Jornal mais lido da Áustria, diário popular com notícias nacionais, locais e esportivas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.krone.at/",
+      "title": "Kronen Zeitung | Aktuelle Nachrichten | krone.at"
+    }
+  },
+  {
+    "id": "at-kurier",
+    "slug": "kurier",
+    "name": "Kurier",
+    "url": "https://kurier.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news",
+      "politics"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 5,
+      "politics": 3
+    },
+    "region": null,
+    "founded_year": 1954,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Vienna daily founded in 1954, with politics, society, Vienna news and opinion.",
+      "pt": "Diário de Viena fundado em 1954, com política, sociedade, notícias de Viena e opinião."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://kurier.at/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "at-apa",
+    "slug": "apa",
+    "name": "APA",
+    "url": "https://apa.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "general-news"
+    ],
+    "primary_category": "general-news",
+    "ranks": {
+      "general-news": 6
+    },
+    "region": null,
+    "founded_year": 1946,
+    "paywall": "free",
+    "ownership_type": "cooperative",
+    "owner": "Austrian newspapers and ORF",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "agency",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Austria Presse Agentur, the national news agency owned by Austrian media companies.",
+      "pt": "Austria Presse Agentur, a agência nacional de notícias, de propriedade de empresas de mídia austríacas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://apa.at/",
+      "title": "APA – Austria Presse Agentur | Nationale Nachrichtenagentur"
+    }
+  },
+  {
+    "id": "at-joyn-news",
+    "slug": "joyn-news",
+    "name": "JOYN News",
+    "url": "https://news.joyn.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "broadcast"
+    ],
+    "primary_category": "broadcast",
+    "ranks": {
+      "broadcast": 2
+    },
+    "region": null,
+    "founded_year": 2019,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": "ProSiebenSat.1 Puls 4",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "News platform of ProSiebenSat.1 Puls 4, with the Puls 24 channel, Austrian news and livestreams.",
+      "pt": "Plataforma de notícias da ProSiebenSat.1 Puls 4, com o canal Puls 24, notícias da Áustria e transmissões ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://news.joyn.at/",
+      "title": "Aktuelle News, Hintergründe & Livestreams auf JOYN News"
+    }
+  },
+  {
+    "id": "at-profil",
+    "slug": "profil",
+    "name": "profil",
+    "url": "https://www.profil.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "politics",
+      "investigative"
+    ],
+    "primary_category": "politics",
+    "ranks": {
+      "politics": 4,
+      "investigative": 1
+    },
+    "region": null,
+    "founded_year": 1970,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Weekly news magazine founded in 1970, with politics, investigations and analysis.",
+      "pt": "Revista semanal fundada em 1970, com política, investigações e análise."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://www.profil.at/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "at-falter",
+    "slug": "falter",
+    "name": "Falter",
+    "url": "https://www.falter.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative",
+      "politics"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 2,
+      "politics": 5
+    },
+    "region": null,
+    "founded_year": 1977,
+    "paywall": "hard",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Vienna weekly known for investigations into politics and power, plus culture listings.",
+      "pt": "Semanário de Viena conhecido por investigações sobre política e poder, além de agenda cultural."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.falter.at/",
+      "title": "FALTER | Unabh&auml;ngiger Journalismus aus &Ouml;sterreich - FALTER"
+    }
+  },
+  {
+    "id": "at-dossier",
+    "slug": "dossier",
+    "name": "Dossier",
+    "url": "https://www.dossier.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "investigative"
+    ],
+    "primary_category": "investigative",
+    "ranks": {
+      "investigative": 3
+    },
+    "region": null,
+    "founded_year": 2012,
+    "paywall": "freemium",
+    "ownership_type": "nonprofit",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Nonprofit investigative newsroom with long-form research into Austrian institutions.",
+      "pt": "Redação investigativa sem fins lucrativos com pesquisas longas sobre instituições austríacas."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.dossier.at/",
+      "title": "DOSSIER · Magazin"
+    }
+  },
+  {
+    "id": "at-trend",
+    "slug": "trend",
+    "name": "trend",
+    "url": "https://www.trend.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "economy"
+    ],
+    "primary_category": "economy",
+    "ranks": {
+      "economy": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "magazine",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Business magazine with Austrian companies, markets, management and rankings.",
+      "pt": "Revista de negócios com empresas austríacas, mercados, gestão e rankings."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.trend.at/",
+      "title": "trend.at FOR BUSINESS LEADERS"
+    }
+  },
+  {
+    "id": "at-orf-sport",
+    "slug": "orf-sport",
+    "name": "ORF Sport",
+    "url": "https://sport.orf.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "public-service",
+    "owner": "ORF",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "broadcaster-tv",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Sports service of ORF, with skiing, football, results and live coverage.",
+      "pt": "Serviço esportivo da ORF, com esqui, futebol, resultados e cobertura ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://sport.orf.at/",
+      "title": "sport.ORF.at"
+    }
+  },
+  {
+    "id": "at-laola1",
+    "slug": "laola1",
+    "name": "LAOLA1",
+    "url": "https://www.laola1.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "sports"
+    ],
+    "primary_category": "sports",
+    "ranks": {
+      "sports": 2
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Austrian sports site with football, skiing, ice hockey and live tickers.",
+      "pt": "Site esportivo austríaco com futebol, esqui, hóquei no gelo e acompanhamento ao vivo."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.laola1.at/de/",
+      "title": "LAOLA1 - Sportnachrichten, LIVE-Ticker, Streams und Videos"
+    }
+  },
+  {
+    "id": "at-futurezone",
+    "slug": "futurezone",
+    "name": "futurezone",
+    "url": "https://futurezone.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "tech-science"
+    ],
+    "primary_category": "tech-science",
+    "ranks": {
+      "tech-science": 1
+    },
+    "region": null,
+    "founded_year": null,
+    "paywall": "free",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "digital-native",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Technology site with news on gadgets, digital policy, science and the internet.",
+      "pt": "Site de tecnologia com notícias sobre gadgets, política digital, ciência e internet."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 403,
+      "final_url": "https://futurezone.at/",
+      "title": "Just a moment..."
+    }
+  },
+  {
+    "id": "at-kleine-zeitung",
+    "slug": "kleine-zeitung",
+    "name": "Kleine Zeitung",
+    "url": "https://www.kleinezeitung.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 1
+    },
+    "region": "Styria and Carinthia",
+    "founded_year": 1904,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Styria Media Group",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Graz-based daily founded in 1904, the leading paper in Styria and Carinthia.",
+      "pt": "Diário de Graz fundado em 1904, principal jornal da Estíria e da Caríntia."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.kleinezeitung.at/",
+      "title": "Kleine Zeitung | Aktuelle Nachrichten und Services"
+    }
+  },
+  {
+    "id": "at-salzburger-nachrichten",
+    "slug": "salzburger-nachrichten",
+    "name": "Salzburger Nachrichten",
+    "url": "https://www.sn.at/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional",
+      "general-news"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 2,
+      "general-news": 7
+    },
+    "region": "Salzburg",
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": null,
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Salzburg daily founded in 1945, with regional news and national quality coverage.",
+      "pt": "Diário de Salzburgo fundado em 1945, com notícias regionais e cobertura nacional de referência."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.sn.at/",
+      "title": "Salzburger Nachrichten: News aus Salzburg und der Welt - SN.at"
+    }
+  },
+  {
+    "id": "at-tiroler-tageszeitung",
+    "slug": "tiroler-tageszeitung",
+    "name": "Tiroler Tageszeitung",
+    "url": "https://www.tt.com/",
+    "rss_url": null,
+    "language": "de",
+    "categories": [
+      "regional"
+    ],
+    "primary_category": "regional",
+    "ranks": {
+      "regional": 3
+    },
+    "region": "Tyrol",
+    "founded_year": 1945,
+    "paywall": "freemium",
+    "ownership_type": "private",
+    "owner": "Moser Holding",
+    "political_lean": {
+      "value": "unrated",
+      "source_url": null
+    },
+    "format": "newspaper",
+    "editor_pick": false,
+    "pitch": {
+      "en": "Innsbruck daily founded in 1945, with news from Tyrol, its valleys and the Alps.",
+      "pt": "Diário de Innsbruck fundado em 1945, com notícias do Tirol, seus vales e os Alpes."
+    },
+    "about": {},
+    "sources": [],
+    "status": "verified",
+    "verified_at": "2026-11-25",
+    "health": {
+      "last_checked": "2026-11-25",
+      "http_status": 200,
+      "final_url": "https://www.tt.com/",
+      "title": "Tiroler Tageszeitung – Aktuelle Nachrichten auf tt.com"
+    }
+  }
+]
