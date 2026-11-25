@@ -8,8 +8,13 @@ overrides:
   'undici@>=7.0.0 <7.30.1': '>=7.30.1 <8'
   'tmp@<0.2.6': '^0.2.6'
   'uuid@<11.1.1': '^11.1.1'
-  'basic-ftp@<6.2.1': '^6.2.1'
+  'basic-ftp@<6.2.4': '^6.2.4'
   '@esbuild-kit/core-utils>esbuild': '^0.25.0'
+  # Rolldown's WASM binding (astro 7.4.13) resolves emnapi 2.0.0-beta, which crashes `astro check`
+  # ("bridge.setLastError is not a function"); every dependent also accepts ^1.7.1. Drop once a
+  # stable emnapi 2 is out.
+  '@emnapi/runtime': '^1.11.3'
+  '@emnapi/core': '^1.11.3'
 # Accepted dev-only advisories. The first three sit under @lhci/cli > lighthouse > puppeteer-core,
 # used only by the CI Lighthouse run against our own build, never deployed:
 # - GHSA-jmr9-qjv8-65gv, GHSA-7pqw-9j4j-h8q3 (extract-zip <=2.0.1, no fixed version): it only
