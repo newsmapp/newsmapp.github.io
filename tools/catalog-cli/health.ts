@@ -72,7 +72,8 @@ async function check(outlet: Outlet): Promise<HealthEntry> {
 
 /**
  * Checks every non-retired outlet of the given countries and writes a dated report.
- * Only `candidate` outlets get their `health` block updated; verified data is never touched.
+ * Every checked outlet gets its `health` block refreshed, verified ones included: it is technical
+ * metadata, not editorial data, so `catalog:validate` warns about the current state of each link.
  */
 export async function runHealth(isos: string[]): Promise<HealthEntry[]> {
   const all: HealthEntry[] = [];
@@ -83,7 +84,7 @@ export async function runHealth(isos: string[]): Promise<HealthEntry[]> {
     const byId = new Map(entries.map((e) => [e.id, e]));
     const updated = outlets.map((outlet) => {
       const entry = byId.get(outlet.id);
-      if (!entry || outlet.status !== 'candidate') return outlet;
+      if (!entry) return outlet;
       return {
         ...outlet,
         health: {
