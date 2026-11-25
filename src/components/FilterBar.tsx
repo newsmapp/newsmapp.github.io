@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
+import { searchKey } from '../lib/search';
 
 export interface FilterOption {
   value: string;
@@ -49,7 +50,7 @@ function readUrl(): Filters {
 
 /** Applies filters to the server-rendered rows; returns how many outlets remain visible. */
 function apply(filters: Filters): number {
-  const term = filters.q.trim().toLowerCase();
+  const term = searchKey(filters.q);
   const visible = new Set<string>();
   for (const column of document.querySelectorAll<HTMLElement>('[data-column]')) {
     let shown = 0;

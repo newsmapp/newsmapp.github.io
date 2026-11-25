@@ -2,6 +2,7 @@
 import type { Category } from '../schemas/catalog.schema';
 import type { PublicCountry, PublicOutlet } from '../lib/catalog/public';
 import { i18n } from '../data/i18n';
+import { searchKey } from '../lib/search';
 import Icon from './Icon.astro';
 
 interface Props {
@@ -25,7 +26,7 @@ const formatTag = l.formatTag[outlet.format];
   class="row"
   data-outlet-row
   data-outlet={outlet.id}
-  data-name={outlet.name.toLowerCase()}
+  data-name={searchKey(outlet.name)}
   data-paywall={outlet.paywall}
   data-ownership={outlet.ownership_type}
   data-format={outlet.format}
