@@ -60,7 +60,6 @@ export interface OrganizationFacts {
   foundingYear: number | null;
   /** Only when the owner is sourced. */
   parentOrganization: string | null;
-  sameAs?: string[];
 }
 
 export const newsMediaOrganization = (facts: OrganizationFacts): Thing => ({
